@@ -1,0 +1,23 @@
+{
+  "output": "Native motifStack PDF figures",
+  "canvas_inches": [5, 4],
+  "font": "Arial",
+  "text_fontsize_pt": 12,
+  "outputs": {
+    "radial": "motifStack_radial_314_default.pdf",
+    "matrix_atlas": "motifStack_all_314_PFM_matrix_atlas.pdf",
+    "reference_panels": "motifStack_JASPAR_reference_matrix_panels.pdf"
+  },
+  "atlas_pages": 79,
+  "reference_pages": 11,
+  "nucleotide_colours": {
+    "A": "#68947E",
+    "C": "#658CA9",
+    "G": "#B29B67",
+    "T": "#B5787C"
+  },
+  "display_adjustments": "page layout, label suppression in dense radial tree, matched-leaf grey highlight, font and colours only",
+  "no_positional_histogram": "seqlet-coordinate distributions were not supplied to this redraw; none fabricated",
+  "sequence_logos": "PPM information logos, not signed CWM contribution logos",
+  "previous_25_cluster_labels_reused": false
+}

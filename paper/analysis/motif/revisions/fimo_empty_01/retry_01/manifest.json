@@ -1,0 +1,17 @@
+{
+  "reason": "Fresh scan directory required by the frozen selection code",
+  "archived_scan_sha256": {
+    "r0_pos_patterns_pattern_0/target.meme": "a645df70fda542e2f57c5d825f5fb255d2f9707344297cbb58d89d7a470c186d",
+    "r0_pos_patterns_pattern_0/fimo.tsv": "2ffcae5971dbeb7feadf37fe912383c5cf3fc71588caa80bb6a1c5d6482bce6a",
+    "r0_pos_patterns_pattern_0/seqlets.fa": "af73943f918fab16142331a21e57895951829f39d54290fb982bef8539b182f2",
+    "r0_pos_patterns_pattern_0/fimo.tsv.stderr": "c4bcfc508bda754eede1352d1ceb80d1cd4cc1969c3f3f122d070a5e87e722ae",
+    "r2_neg_patterns_pattern_6/target.meme": "9eb4ce93426d2bd0ca6c111deba85743f9fde1f930ec64828afa3b80becfe0be",
+    "r2_neg_patterns_pattern_6/fimo.tsv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "r2_neg_patterns_pattern_6/seqlets.fa": "32f2a9dbbd8c9197883e5c5759e3bdedb94c9b9869adafbdebe8121ecbb97fe5",
+    "r2_neg_patterns_pattern_6/fimo.tsv.stderr": "b5333b624ca3e525486611d025d783d675b504053762920fd1b5a5271678d8f8"
+  },
+  "prior_scans_identical_to_first_failure": true,
+  "preserved_science_outputs": 93,
+  "FIMO_threshold_unchanged": true,
+  "attribution_inference_calls": 0
+}

@@ -1,0 +1,646 @@
+{
+  "original_inputs": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_acceptor_sequence.npy": "3962a4bfc9ce5a3e452e0a10003dd134b69a303ad16cff3f53879fb456d70d04",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/pre_tes_sequence.npy": "83c7973800bdc510f90796cb1e212efe27be2c64b98005142008b9f799f6bb58",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/feature_manifest.tsv": "0edbd67811978d0297d4efc8c60814ae032f03ee4be1a7d485ec68896f04a8d4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/data/genes_repartitioned.tsv": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8"
+  },
+  "model_implementations": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/corgi_splice4/__init__.py": "b084c75682b9369783540ce139b1af1ee2e6419b48461d18eb707d9ed74f7ad5",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/corgi_splice4/config.py": "5a094d8d7967bae79f66ccc66f6fe4577b5ff5d4c206b1137ed8b4ff33dc2d96",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/corgi_splice4/model.py": "d8d443806da1067c1f4672470c1110e37ef42bd042a8b106129581c37436fd34",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/corgi_splice4/modules.py": "c7f5da63b7e696b21e48ccff2f62b5aec8cb4e842acb9b7a2e2508cd7b1b0d92",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/train_experiment.py": "6048081c899b671e7ccfcbb6799fa14848d1876982c25360bbad27b50830d7b4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/disjoint_splits.py": "d165ae6d74c11300733666ac4572be3afdaaab97600854cdac053ae4331386a9",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/bpnet_polii/data.py": "e9aed3bc74ce4693986272a22672347309d5ab4209f6113ed39b906cf94de60d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/__init__.py": "2937ce5a1c2ad56ecea2c9e0f8bfc7f6fee1c9f154410696c9e92a9c454b7404",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/config.py": "899952fa6fb4d6fb7b1e45172be78c07ec03408b2569403bee8ba3815a7ee6db",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/data_classes.py": "664ea57c27f33cb00c188d97980c2d06618ca7130614ad3cd02182edc51343e7",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/data_processing.py": "e655f120030fb1ad08487020eea2b9eb2c66f0f815359c1977bd95dfe88bd132",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/main_train.py": "962e345825b1737e808cafc081e3f400326a84f93f7d9d7b9a3a771aeb023aef",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/model.py": "accb2db7ad776e7e25f3fee1a2c46e93590afebbe3b4e00f65a1b652e59adc28",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/preprocessing.py": "9457a57866cc288ffe7b52ffcd6ff09166831d4b2fc8040544e57a55e7d549dc",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/reference.py": "f595d39327abd50e0c96c7bf70b42ec6dcd66da1c87dd52fc809652b77e36a5b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/trainer.py": "77bbe4433c91fdab23cafa372abb8fa5e043013c6e1ba1c56b9f143fe37a022d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/training_controls.py": "063d850141f58d4fb50ed3db6a78092450b5458ab64edbe9417d36b0b9412cc3",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/corgi_polii/utils.py": "a897fe17c2cee71637952ffd9edecc3f1c3e6bdab1fe54d04f5925858a62fece"
+  },
+  "checkpoint_inventory": [
+    {
+      "fold": 1,
+      "seed": 20260915,
+      "fingerprint": "ad09653ebf24b526ba7cd227341526b999f6dadd337a46befaa1ced374df9c24",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/best.pt": "5baf39628193ba588f9ada111d84a971b9784784dd6321163741e86747c470b1",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/complete.json": "ae732b3563311dbea956162505f737317d39861499ae2fd347ff6ef5758bf959",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/run_spec.json": "a252a2e6d79d2966af6b9a9253551d8dca22f51019d55c1a82152d92cb9bec32",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/test_predictions.tsv": "9a0ebafa273c179408ae5b211c6692da08f4d19f491dc6c0db8c796ebf5f6377"
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20260916,
+      "fingerprint": "e4f4e2a22aac9bc0567aacaf3654b1991a6b1a09966238bed2acb21d25ce9088",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/best.pt": "98955e790d736d509f971e6ae7819d9c4ea300856a1b5ab501449d439c048286",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/complete.json": "7374bced05d0a15c54d3efa92262ffa0683e7e8d616af9a624dac1d062907160",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/run_spec.json": "f5564ef206bd8c881b4b2e016d05333f694fb1b625ba019185cbf711e7837782",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/test_predictions.tsv": "914ac1ed6be582137e93e32f1f5bf62269af2931095e680fbbd7b966924a1156"
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20260917,
+      "fingerprint": "e2120f9ffbf336dc41d546fad69115f4ecb4d977b20f31546fe173e76f14be9e",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/best.pt": "f452bd46235e821aa05b60f46df36e44d3dc758ed923c48365ed2dafe415aaea",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/complete.json": "f2f456484aecce2d867eb6ee81eafb9c068bf55f52c2fd4443802dd0b9befdf2",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/run_spec.json": "91173a9ca9a0d777ee5c84a1254e93cf7d3b1237dbae2347c3bb6447a982cfbc",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/test_predictions.tsv": "315fb4c455924bc54c5a0dec248208a0b226914a24468071a1cb825e1873bb34"
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20260918,
+      "fingerprint": "e065d3bca16d5ccc2f135c1039a54da7dff06fccdafbb48bdd93165d2658889a",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/best.pt": "4c93931c0306ac93adbffec6f2646bac1e7a8bd1dac88facadfa57facd514f81",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/complete.json": "2427533309b618769942a6ab679ca3c763f9ed40816afc7d24eb10d1bb881dfe",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/run_spec.json": "cdc0c96c6f6814032f2d9bf564563b5032e600c9e45353b45034407ed36ccc1b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/test_predictions.tsv": "ec051b7b643a7c8e8b385cdc15eac6123dd5943a6cfc0a7bd43d5b3ef38e87ff"
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20260919,
+      "fingerprint": "81ef9e7fc901398305b98d2d32f52523cd540194dd2820a30e17fa7f36339349",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/best.pt": "b86ca5ce28a717e6ddcc9dd1e1f10b69cf8ff30f5e3565308aad078ab3e663a0",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/complete.json": "b89f1efd4a2aa62b461bec6fd50ae811de2fb62c74ebc5ef9d0af69e0cfefff5",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/run_spec.json": "19d7d8ea9b40b638a7f9413e8cf7566729bfe6040ec9897c05610460e5892e15",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/test_predictions.tsv": "f5c23436e2ef07a389eeb09cf49baf6719a400414b68532f406998f49b1bdb59"
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20260915,
+      "fingerprint": "7515e8762b9510ac966ec3182d4a341f6033baac83802ba9450ae311e9c304a6",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/best.pt": "2ab2bbf839540d1e717ceb25eed579af9a88d18fad560415d23f55b201101c86",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/preprocessing.npz": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/complete.json": "a60d4e8c79aa9244c79279c9ddec9702a4510679f48a08f830a29474ea7edf83",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/run_spec.json": "dc3166319f898ca4d46be308696b19f8af28e197e0d15ade4a9de62b1007515b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/test_predictions.tsv": "bf13c1258164fa5ece54aa3d56dc06d0143c1935f3b6a3b29a066ece605e5d35"
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20260916,
+      "fingerprint": "cc6d958f1e74b605fba29345179ae527306303961b8ed678b6996d3aa27abfcd",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/best.pt": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/preprocessing.npz": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/complete.json": "e51584f8766aebbb1a23141c875d7448b7efe32bb21af882b8fc630ed96695af",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/run_spec.json": "a8ded64d1a0018e728a13cf88ef09ac3e57778e065ef53b2f3d8b506c900a989",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/test_predictions.tsv": "9f8eb427004e1ca1bfcc585a40980c564af3028a91bab3f8ae35fcba01c74179"
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20260917,
+      "fingerprint": "8939187f527a469503775a075ea1853e3cbf93386987a99db2709c2091173006",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/best.pt": "da903b3cd4f559666e00b46e322ba497d16945db00d6e8f390beba389cbb4c57",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/preprocessing.npz": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/complete.json": "023a7eb3545625ba7cdda1ae11390a1ab3558c5cbcb440924c4aa8f93cd3684b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/run_spec.json": "7e2795cd6dbf142ec39fcac82c4f6bd266c3c7cda33dca0c4d62f5972d35a0a7",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/test_predictions.tsv": "489b98855d927f28b6d9be548754d05a179d30e0b4c469b749c0ad6fbea53316"
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20260918,
+      "fingerprint": "64975460ec0ee9070ee780deb1e6434b6dccf30eb213dd98fc88b4fe09c4f138",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/best.pt": "8a7ac65eb3c3d06e0942a931a546dc62f8d9cdd37c89b464b6efc66be5bf8122",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/preprocessing.npz": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/complete.json": "0a71965333c75a821d9412939c6b7fcc8afb2b4733d996045a15ff6374d7d1a4",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/run_spec.json": "bea5f380f11f0ae4e1fe95960de5b738b7fc5ae9a9c1bfd2f44eb48abb1cbc9b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/test_predictions.tsv": "d485793231a3d8ed4da0d4429932c50dc396288331b880dc537840c81d8714a6"
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20260919,
+      "fingerprint": "bb58fd29d574e1e941011c9b39ec50243341bb3732e67710ed7a1f7744c8e59d",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/best.pt": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/preprocessing.npz": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/complete.json": "65aa5161323fafaca5f03b9284992943998b430d6389e784f1a2368d0b1c1b15",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/run_spec.json": "3f0bae7b66c18c014e7c328a18174e8a8d787617323a1acb309861d7748398b7",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/test_predictions.tsv": "007221abd4e41e1c2974fe6c367a0e6881df3eeb9e19c1be6d28abc0f164ef1c"
+      }
+    },
+    {
+      "fold": 3,
+      "seed": 20260915,
+      "fingerprint": "6585524bde6ef0a683d90d10021aaa331c60bd162c1d167c155dafe21a844054",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/best.pt": "d67f8137ed65c8b8a72b79fddc8b6fec641d6eba57c6139dc998cfd30db9c591",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/preprocessing.npz": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/complete.json": "72e70bb8d0145051f57edf14cfc6ffba4e22fdb4f9e1367830544f41fc28aadb",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/run_spec.json": "3a9ebf893c8456479417954e0dbfb4abb4911836e39d8dcfd973a47be2b5ad0c",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/test_predictions.tsv": "157bc46b80b9a99dfe802bb99e5990d1841d546ad4abea7dfbfa86ebe51b8209"
+      }
+    },
+    {
+      "fold": 3,
+      "seed": 20260916,
+      "fingerprint": "66d254ed882cf530faa9c625d3305509698ccfc6ffb19372ec4173a15a19dafd",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/best.pt": "103eed75945894670b25faeac0afa1dabd6c67e387a3555136797055b1b451d0",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/preprocessing.npz": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/complete.json": "40ed6b4ba7109db9c3d747650a0e03f728b84f74af7f2287b74c83b87e21fc87",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/run_spec.json": "9f728bc771ecd01691f71a6d1acd1ffd3324e0377ab7f37a29732aeba35a51e8",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/test_predictions.tsv": "0cc9a608d68a4f8ccb4142c027bc71dd9be3f76b1ec0a5462e93d76878e1a142"
+      }
+    },
+    {
+      "fold": 3,
+      "seed": 20260917,
+      "fingerprint": "af4fb94d9d9eed3b5faefcc917ffd0bd31b407c4ea8120681a54fc029ad1f904",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/best.pt": "7bd54fce70ccb4203746b1c6f113993af5ca9441aa6a210f5444df2fa7bdf847",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/preprocessing.npz": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/complete.json": "a08622c453fb778c0c8d9c6020293a432d1e1023e178c40d4d4d00fce9025324",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/run_spec.json": "9bfa6a7bf83bd4dcbb94a10207bd13db6727800b08d09c07585a0e4daf0b32e3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/test_predictions.tsv": "b54c3a65a760094f56075ccb56efc23775a8ad17d3f6d55a7ad39c2e638aacdd"
+      }
+    },
+    {
+      "fold": 3,
+      "seed": 20260918,
+      "fingerprint": "3848ec2000f0088e0dea8407cf1d0b8c851394bc00968d678c83e88f66641228",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/best.pt": "0b3666d74f7bca3e776c4832409fe6c32387e4eb4ce356c62a3916125bec4ed2",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/preprocessing.npz": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/complete.json": "1f306deefe63c012ac8b48edee0be1e7a1374996f4999c4c14504c9887962426",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/run_spec.json": "20d0f4a946d43e97f8f1aaa3f2322636e06baf60057fd61deb6a58cf179b882a",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/test_predictions.tsv": "5f24596ed7f8d8829d96e660082c5f9c3698301a214aab1cbe73e979d4e9d7a9"
+      }
+    },
+    {
+      "fold": 3,
+      "seed": 20260919,
+      "fingerprint": "30c22c45607991228aba72b8c23053dbabb755b3a735721fd1f680623c7a4867",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/best.pt": "e18b27f1fb43c0dfee5d91bd6b6820ab78d27a4d531d6b09c5e36d93d46fe55e",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/preprocessing.npz": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/complete.json": "42ad3886787257c8488aa41abb6ae4da783d07d9f062e3db3e5e70082cc076ac",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/run_spec.json": "ae2a912dab5f181a51b1fb99692ca6b12a33f4d7e59595ab6272b2a777e0f5c6",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/test_predictions.tsv": "07bf047488ed18ee5cc0b70027e414c6eda9285a0447664fd7b24bf0ffe6b0e0"
+      }
+    },
+    {
+      "fold": 4,
+      "seed": 20260915,
+      "fingerprint": "a3409bf3367cf3c795ace3855dce930be0adbe601170b1114690b599d1e9b120",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/best.pt": "a71073bad8b99dfbd2085849b2ac6d0ef19c6c2b0987935bf10e377123f8310d",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/preprocessing.npz": "9c95b92e053cadb6b03ead1d57772971cfb6739805f7ed05feca38ae51f56d93",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/complete.json": "9f2226312b030697eb03713b5e054824b20133497407320843c1d65eca80fd43",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/run_spec.json": "4cd8f26581bffe730323d6698f6815ae0ca400aede812d35b17ec4753054df42",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/test_predictions.tsv": "06d2ed8ce328c7797f7d695d3349401108ba7b34234da621e5bdec8701c991aa"
+      }
+    },
+    {
+      "fold": 4,
+      "seed": 20260916,
+      "fingerprint": "4e87de553b042487ff86088f62376d9d95be0f0118255c3a2dc00bfab82cd3ea",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/best.pt": "a91031478767752850f3465ee06a6e25d4544693443f08bf4aceda4b28658ad9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/preprocessing.npz": "9c95b92e053cadb6b03ead1d57772971cfb6739805f7ed05feca38ae51f56d93",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/complete.json": "2d1550ffbc218f1d038ad77fb59939b8de3f4aa4ceb05e1096f539e8a9f72b05",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/run_spec.json": "9b85aabdb13a5936513222a7b12f6f6b174c7b949fa2456e999a2e262135bc1c",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/test_predictions.tsv": "8ef2df3af3cd41e611d81f111983f4af09a667d930da717d17084bc0b3b67307"
+      }
+    },
+    {
+      "fold": 4,
+      "seed": 20260917,
+      "fingerprint": "7626ce3e7e5c605982de70b7f9158fc2aed3a4b4a836e6eb0f9ad87b937a4fc1",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/best.pt": "3eec4a2a3ed1ad973f7a7e2a915477d54bf3d9b20608eccd841f8dbb804e228a",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/preprocessing.npz": "9c95b92e053cadb6b03ead1d57772971cfb6739805f7ed05feca38ae51f56d93",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/complete.json": "167b276eb9f20f2f3f31050188980b35c014a8fac6f4cc8823efa03c15a119f5",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/run_spec.json": "d8e62cda2934e31fa964a04c22b174fc20741e110eb6ad93f8ce7a31ba179690",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/test_predictions.tsv": "38314732a3b2c9dcb20f53bad64220a3de5d2aada4feba93c8810a4fd0bffc2d"
+      }
+    },
+    {
+      "fold": 4,
+      "seed": 20260918,
+      "fingerprint": "96b465ee288eabba8dda05efb90570fca2437e487c1d7b616b7123865a7c08af",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/best.pt": "f0f1eed22d8b7a5f2a36ecc6fe314b8b78173914c9be81bc558cbda796799412",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/preprocessing.npz": "9c95b92e053cadb6b03ead1d57772971cfb6739805f7ed05feca38ae51f56d93",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/complete.json": "833ffb6a5366e5212bc37ae1601737d64de27425a547e4e2f13f1877052b4053",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/run_spec.json": "82f65c40a5772edc64777257da3ae2915fafe8382e189f49773df58e4f9cf2f3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/test_predictions.tsv": "a373bdf20ff59d5095aa7c159700728f6a640c5cddf364bed0371b9f96ef8ede"
+      }
+    },
+    {
+      "fold": 4,
+      "seed": 20260919,
+      "fingerprint": "de791bd7177c9dbd81d9e58e9576b0e6c38ce380562f37462ed0e9330f5912f0",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/best.pt": "4bd3164aa2d03f23d1f79ecec86b9ce76e02b2688473d129c5f2df46e03dcc6a",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/preprocessing.npz": "9c95b92e053cadb6b03ead1d57772971cfb6739805f7ed05feca38ae51f56d93",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/complete.json": "019f2acbaf1b304b63dfe851ce1fcaaf248bc7df9ff4ac9bd9cffe89bb8b3817",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/run_spec.json": "8b4f10e0c867b34e186b510dbf949917e83432d33949fce859c6316f13085654",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/test_predictions.tsv": "75b8ec62d30ed6c45740c5b83012acd91c44b0cf6e2217ddf94c80a4cbc2acf3"
+      }
+    },
+    {
+      "fold": 5,
+      "seed": 20260915,
+      "fingerprint": "d384799a16c47a7571cc24a9c548475743e23c6bc73c14f49284ac0b564a98f3",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/best.pt": "ee86f0de5475738d259ad18a3f7cd29cde460ba276b2c122959c41b6dfab791b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/preprocessing.npz": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/complete.json": "a08f22fc3df38fd4b05ffe8dcaf298e2eafb0449085b3253516b786fafc9de96",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/run_spec.json": "e2136176b28cebc83efcf63377ebf0b6617dadd8bb2f0686d37ff10ed229865a",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/test_predictions.tsv": "0102722b3fa7d0b3eb29c6885186acfc26e0d476ffb83379f9a0c8967eafddc3"
+      }
+    },
+    {
+      "fold": 5,
+      "seed": 20260916,
+      "fingerprint": "dd299956fe107202d50a25e5e7d266bda00cda9e1bf0833c4056f34b3b76df77",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/best.pt": "b2757805b47e6b266b6498b2f8e23dffb679f6632ccbbab7cff44f6d2a058fcf",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/preprocessing.npz": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/complete.json": "22a7b08673939436098e213974f9be2e4d423304775c1994b4a93eadd3414b97",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/run_spec.json": "0c5418e1d8d86341d51fd9563f19bcb80e07dde77547fac11ed3c6f46678ab07",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/test_predictions.tsv": "b3e804b4c8614a3a802278868de0c2a919f03143b05b6bde38672c4e2a215024"
+      }
+    },
+    {
+      "fold": 5,
+      "seed": 20260917,
+      "fingerprint": "d5b85dde03727ad61beea763cbf6083e024265b8551f98d3c7284f9a1688591c",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/best.pt": "bcbdb47e068f34c1e3b80c8df397e716010e2e3c81dd38589bfb9bd58bbca1d8",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/preprocessing.npz": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/complete.json": "7c77bdbbf51d690ebc87d453d2ad554b3c28a9e8ff7426c170bda2a7180ac580",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/run_spec.json": "de198c2d0e21c8c29e0f6341a3a2ce130fc57cf2c0792ef01eb79f6feb54b436",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/test_predictions.tsv": "359d6dd91ed90f8688ea7d4c4caee5d893faf99281ab0253bb918819d81808f8"
+      }
+    },
+    {
+      "fold": 5,
+      "seed": 20260918,
+      "fingerprint": "d8508e69077c9bc44c842a52c9220e2fba64b2438694a0ca604c8818d305710a",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/best.pt": "b3e9c0860497ce3c040e9a6af52fec743c64833c3e44a8db8603fb655a32a871",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/preprocessing.npz": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/complete.json": "e10c5869ccf907cfd523fff569d219b897dfb0032e2764108aebaee2f8d39ff9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/run_spec.json": "fd762e650f0f0feca6891d322a0e1ae7e960d0553e34d692ae7dca25a8d79f2b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/test_predictions.tsv": "8cd7f1830021d7e8f112ff614a3af2386442595afbcfb2761c685c353bddd2bd"
+      }
+    },
+    {
+      "fold": 5,
+      "seed": 20260919,
+      "fingerprint": "24a8e4573f7f1a09297090f27b061bf248cc05f735e5fe9e692e076afab64435",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/best.pt": "69649a1bd80780393fcf445d55b070ef100cffdce6879feb290f5a835061d309",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/preprocessing.npz": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/complete.json": "689e342cd97c82a2c9092fc3a734fae0666338dba380a821f07c4add7e1c1cfa",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/run_spec.json": "538229efb25e0536c78c2688a02404cac0a158d12bb66df728db8daae8305872",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/test_predictions.tsv": "cb9b07b0f755c38737103ff2ed000d548ce16c2c84aa12d2774dbefcb8b23c70"
+      }
+    },
+    {
+      "fold": 6,
+      "seed": 20260915,
+      "fingerprint": "1b6e4e9f07753d19d1d552d29c62d79aa6add442cd72249867497fcc77259748",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/best.pt": "bbbdf892ded723fde3f10dfafe91e937b1fd0f4573def8e9c164a824502954e3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/preprocessing.npz": "a70d64e9878a388a4895d97146e8390502993f1f01f211d6962c5234c5de1115",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/complete.json": "88bbad2b23fba07aaebc3c9b21c4812d2cecbccb8faf6e64c08dee06edca5c9c",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/run_spec.json": "970f448e5492d6eaebcd2d3e8be0def0d4dd67c72a7e06655cbf89b82ad848e3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/test_predictions.tsv": "b8262a576d00cb5d04803e54a2ee85a41965bdf7af287cffd1e88e93d005caf1"
+      }
+    },
+    {
+      "fold": 6,
+      "seed": 20260916,
+      "fingerprint": "3d0feb8b707b54ad53c3c2ec0c8afd6f238445cf3966b44bb83ce117f2d6d109",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/best.pt": "eae4ffefe3f8f7eae82391e1d6a2a348bd6588c9a460301db82e0772770ecec4",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/preprocessing.npz": "a70d64e9878a388a4895d97146e8390502993f1f01f211d6962c5234c5de1115",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/complete.json": "1834610585e2070195e386eb0d2c591241846efa5e92779152e8026c80e36145",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/run_spec.json": "45c7dbbe6e60066524f013cf574cc0a67994e639935fb2a93314647389895f2b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/test_predictions.tsv": "7776998596b2bb5d4c7af2cd9bda083f0e5c40fab41587ca68c04659eb25c5a7"
+      }
+    },
+    {
+      "fold": 6,
+      "seed": 20260917,
+      "fingerprint": "6302ad74e7290b522a92a402301dce61ac1cf8df783a409a3048f62240ff0a98",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/best.pt": "19b9dc7037f7259a0e012e61313fa4a5461eeb7501dc54faa745425f94d4cbb8",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/preprocessing.npz": "a70d64e9878a388a4895d97146e8390502993f1f01f211d6962c5234c5de1115",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/complete.json": "e635b3cb2ff5033d88b0038c47186eab483cde9b82974d875efc625c629bb8d4",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/run_spec.json": "1a0cee7555da9c556eaf74c330e29f41517e4174168827b39642d7cebeb2650e",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/test_predictions.tsv": "9acd87db39d40c41cc4739e5e9dde92234ff20a7394335ca285ea37baff376fa"
+      }
+    },
+    {
+      "fold": 6,
+      "seed": 20260918,
+      "fingerprint": "293179b9f57bcebfaf88f20d19101f239fceca4c31de4d5c46eb4e05a5942e98",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/best.pt": "b8357a1da4cb0df9c2b8d0665bc3d6c7123ad5c98b3589ce33b08d04902b0276",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/preprocessing.npz": "a70d64e9878a388a4895d97146e8390502993f1f01f211d6962c5234c5de1115",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/complete.json": "81d1073841233bcbcd0dc3603b0322b55febf5b032c28730f0ea8c3dc2ce26a3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/run_spec.json": "0ebb0d5fc90ff2723ffaa58b753d331b58b78992849f4a169fa6e8c264545d8d",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/test_predictions.tsv": "5585c75491a8e447702bec8ed5c749e446c267a51f3ad4bf89b152fdd06a6deb"
+      }
+    },
+    {
+      "fold": 6,
+      "seed": 20260919,
+      "fingerprint": "1af36c3c1b0bd0e1c62efb662dec2fc3811ed4269220d03e7f94c46aece87610",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/best.pt": "4f0f78e8ebcd3b337cbe1e97a6da14d40d01c9270ac9aa1033e6710eacf10be4",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/preprocessing.npz": "a70d64e9878a388a4895d97146e8390502993f1f01f211d6962c5234c5de1115",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/complete.json": "6e57e4dff73b5ae466ef110b8523bcc69425cfe0e8fbf40348f4a3edd1bbae3f",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/run_spec.json": "2d69ab82944363904d7ad757feff8c6cd8d66270bc7eea57387cda67b8e360d8",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/test_predictions.tsv": "452a91022c6f8c2d14ae865afda7079d5d5c631bde4df4736a2ef1f42dc6db41"
+      }
+    },
+    {
+      "fold": 7,
+      "seed": 20260915,
+      "fingerprint": "d3f70a7e6a4d2e6c968b49658652b120ea2f1d445a75908ecf1617af157b057e",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/best.pt": "61ed9211fec68741f8fb139d16545e1664c50ce5cdf059aa635725e60b0df534",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/preprocessing.npz": "af016c6238a8fe9c5572e6863aa3dbfb059f8ae2c8a26dbfd87a0ee638eccda9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/complete.json": "6bf8d508b77e9cf472c842c28bb4f78b9707d2554d0318c1824d9fde0778031e",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/run_spec.json": "d8d6f7afa47348871a2fab11b911c272306368967c749e4c6154d3e186daa2ac",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/test_predictions.tsv": "29b5951b828f8d40d23418f06ceaf1e3c1b6f2385935adbb69534626349866f3"
+      }
+    },
+    {
+      "fold": 7,
+      "seed": 20260916,
+      "fingerprint": "71a422cc5047993e55304a5d50ea48813458a42906e45d12d6f5ba20a4db2913",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/best.pt": "1dac9e61c410b602d71d6613238c602af0c9fa8c35c80d803cc1c849d88ebe4e",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/preprocessing.npz": "af016c6238a8fe9c5572e6863aa3dbfb059f8ae2c8a26dbfd87a0ee638eccda9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/complete.json": "4eca7dde4e00cfa388859cadb30e931b1e512eb359619a07877fa77f4711bf09",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/run_spec.json": "c7c1632294e1e53b9ad5901dbb2b7a258cd02fce9dd09dc58c54ea1d2ed0e564",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/test_predictions.tsv": "7f343a2a614b431fab7e97defa5e1ba9930830aa01528feaf7a62aeb1e910f40"
+      }
+    },
+    {
+      "fold": 7,
+      "seed": 20260917,
+      "fingerprint": "45d1fb655b2888d09030607e671cfb98b0538f9e1c7eabcbd835415c1d4854b1",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/best.pt": "f4967651397786c6345e56fc96b6147ffbe38ff5d51d54d84ac16ab924af9134",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/preprocessing.npz": "af016c6238a8fe9c5572e6863aa3dbfb059f8ae2c8a26dbfd87a0ee638eccda9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/complete.json": "ebdd1307fc58ccdce6b152b0895e669593a9b03125640c246e36652e36b50143",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/run_spec.json": "44da5a7d4a6380b5d2f8b798bd327de29b23255c0ab75867d102bc49e14158c7",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/test_predictions.tsv": "85aa003da1780bde277ad2a5cb45629c00e02d17391c1fe124e3ecfb2171b57f"
+      }
+    },
+    {
+      "fold": 7,
+      "seed": 20260918,
+      "fingerprint": "97e57e3eddae0b31a8e818f0b9b847a752c2ad292b532167df4f3d6068d32b06",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/best.pt": "b8b05d802c99dc2aa97730702b1ca87ebb1f67bb66fe295bb47850a3514ea59a",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/preprocessing.npz": "af016c6238a8fe9c5572e6863aa3dbfb059f8ae2c8a26dbfd87a0ee638eccda9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/complete.json": "34045554428b45526bd1889b1b31bf427338a390d6091624d01a6dc3b8b31b08",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/run_spec.json": "91ca0342a9402dd4351b796c7276bb244e20efd623c0b5189c565b392130c764",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/test_predictions.tsv": "8e45deaff18949655cd1c2daa35427eab7d5bf82e99be74ea4c0fad5da69755d"
+      }
+    },
+    {
+      "fold": 7,
+      "seed": 20260919,
+      "fingerprint": "abd9655dde69ecfd5022326e08bd5f9b8322d87f17e4eee72acbddc4895bbedf",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/best.pt": "1af45f64331d257c1c20182dd0b89e4a809fdd646096aef37f775b3d6d62133b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/preprocessing.npz": "af016c6238a8fe9c5572e6863aa3dbfb059f8ae2c8a26dbfd87a0ee638eccda9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/complete.json": "f58bb89a160632e4aba2ac35460d76e89b655b3a1b9a6cdeacc8424a1855d7c0",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/run_spec.json": "7a7b3ed1e806820ff73a2f23beb42e59798bf6f6b999bf971ce6212630b51cb3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/test_predictions.tsv": "118d6421695dfd127399f2786bd4ce0850b3695f1948beb5c41a40b5e6b9f04c"
+      }
+    },
+    {
+      "fold": 8,
+      "seed": 20260915,
+      "fingerprint": "63dabe93eea80b84a839eb709b94e360daacf73f89d9335acc95a6069c34a534",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/best.pt": "db792d2d3a0d4fde0422b147f7fb145a7ab9709ea42a6a3fa6fa8b3d93e714b7",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/preprocessing.npz": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/complete.json": "a55a1b59b79acef8d9954279aaaae6e6540e438974a34c5ae94ce81272bc3efd",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/run_spec.json": "51cf58b5acddf632dd869d9e01dccb88629fe57b8897974361aad572f7b0678e",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/test_predictions.tsv": "54c4b96308e3cb9c989048874a78984107f151afae6156bf01d037fe898027fc"
+      }
+    },
+    {
+      "fold": 8,
+      "seed": 20260916,
+      "fingerprint": "48b9d16c1c19f64b73ca8d808f356a1abc41ebe64a598fa3dc87b4fddf09416f",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/best.pt": "f080641ff21c572913430e667a6ba621985bb62f1fe97da3836afc6c5fde6ae1",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/preprocessing.npz": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/complete.json": "10a409327e33eeb0da496eb8655a981a7f6a5098509fdd2d1dc96b19183e4c61",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/run_spec.json": "62696862ed5d6598f43f0f34ab06432e7036e65ec96c634c09c50a1be68233cb",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/test_predictions.tsv": "0c84170367e5d33872e7ec6b31fa24b2f243dfeb966f454993601a85803006c7"
+      }
+    },
+    {
+      "fold": 8,
+      "seed": 20260917,
+      "fingerprint": "ef2d0aab2a4e37a0447b9ae1528d59afcde98fc505a6f21623c2f835b4b982c0",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/best.pt": "940b49af7011ad43b738c400963097ad7f010ef72a09bb176c1b5d86c037dd35",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/preprocessing.npz": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/complete.json": "80357dca8a7717f687eacbc89f0adc1e6c63142d893ac16985e0764bbfd22378",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/run_spec.json": "1d356be2f9a2a9cb57c7a935f00b29c33438296c67ad4e929998e984a01ec150",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/test_predictions.tsv": "0e023ea9dfa226c0d3407a77949fbffd3a0aacba470e59c9c64ddaaceec180ba"
+      }
+    },
+    {
+      "fold": 8,
+      "seed": 20260918,
+      "fingerprint": "f5a359353da1e401c9a999e2a210862a4f388014f13d83c7e27fc457aade8520",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/best.pt": "ada9f8dd3e54cf8445b2507a65524bd5a4b69a9fa39c997ca0eceac76e30e3dd",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/preprocessing.npz": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/complete.json": "36b0ac6589251b9a77bbc5a39b7eca04f5523645fcf5bbcb12dadb7f44c7aee3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/run_spec.json": "b54a9c939d7de3d2b5310fb767c1c8315543e9395c64dce3f823f1278ed37b07",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/test_predictions.tsv": "29a003041a916f733b8a158b3cd6f97ee9fa4c36a73f96ef029c2111f3861011"
+      }
+    },
+    {
+      "fold": 8,
+      "seed": 20260919,
+      "fingerprint": "41fced7511599d6a467cd10a2aebe904693933c862bededa864a197f152cde6b",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/best.pt": "e7a2c85c40431ca8a699dbefd853b756f3ddbe5ca164738aeb3338ed47105601",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/preprocessing.npz": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/complete.json": "ba9105bc6bcc82615fc1f53c6a9b7a7c87945bedb70fe94d5a64a79c9785efd3",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/run_spec.json": "47ff2094c85ca77fb3fda8845774a731ae0b7c8cb1ca191a2b2a67563413b008",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/test_predictions.tsv": "7a19b256b0693507bb4cde0f2b9774f0773c3d6a77610702a418b5d1e1dfb374"
+      }
+    },
+    {
+      "fold": 9,
+      "seed": 20260915,
+      "fingerprint": "d6fe1111f1af91d512fd665c40ee7c9a52906893b64bd83cbb4091b52dfb43ba",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/best.pt": "07477430f04d5b814be98feecca853f8706d5f87879e76a06939b2e0b54cbe78",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/preprocessing.npz": "a9f0604d52b4b5776faf3ad655f53fb20b7993c12a169b43046f0dd835178b02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/complete.json": "1daef77e74a82fd8e063716f8ad3577d46323034b3b5ab05687d0ab35de7ab77",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/run_spec.json": "f20792ae254d1120d887c304152b95dc6457cccb903be46fafb395e591857c95",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/test_predictions.tsv": "d06adff7aff64c4e5787048c3dd0ecf733a891001a74ab3ec987eb5fe98e5736"
+      }
+    },
+    {
+      "fold": 9,
+      "seed": 20260916,
+      "fingerprint": "e5e11b889db22c2a7a55778b8e5ed62257f160cc2f69fb3436e2890581b3b1e9",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/best.pt": "ec4e9eb9948c60a6b54835488220974944090556c30a64d5d9539a570abcaed0",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/preprocessing.npz": "a9f0604d52b4b5776faf3ad655f53fb20b7993c12a169b43046f0dd835178b02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/complete.json": "d2e42cd64a49d2098ed922f4d0ddd3064a1d6881969a1420327a0c682fb7cf08",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/run_spec.json": "f00233b2635316cbd8e1062ea6386a6aad2925803cfb20ae2d328f839b824393",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/test_predictions.tsv": "c6761299f41c074c99eea11c3fb4c0b8824df8c59a4e81e44e3f345e0fb9a32c"
+      }
+    },
+    {
+      "fold": 9,
+      "seed": 20260917,
+      "fingerprint": "a0f73fe525a674237ebcc0928e2c9a975e282edd7ac674fd1c487aba52e74c61",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/best.pt": "272dec95f74c46f8a7a43f7d421d3a7714949cd8646d89f1845200a099a5e63c",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/preprocessing.npz": "a9f0604d52b4b5776faf3ad655f53fb20b7993c12a169b43046f0dd835178b02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/complete.json": "f9e2dbd28301ae93db27afbb66f94b3b01ef1a08a53d1deb90c9faceba34d81b",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/run_spec.json": "afb3fc70a47cc5d6d3f3ec0af04f79b69aedfa937a93fdf3b9fde117fda5caf0",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/test_predictions.tsv": "2897fd0551e8b78fe5014838f295d72f915356557c13ab379f47a5063bfcd17d"
+      }
+    },
+    {
+      "fold": 9,
+      "seed": 20260918,
+      "fingerprint": "806319447ddfbd4131787a088134cca469654727efcc0b1229df62804422439f",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/best.pt": "4c11e718e0dd1ddb566975161b01e093c4fbb466fddc1f76a7fb0f9361030b33",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/preprocessing.npz": "a9f0604d52b4b5776faf3ad655f53fb20b7993c12a169b43046f0dd835178b02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/complete.json": "6a437f20b90688e513a1440ed6490528fd4bc0cb99ce6abb89bc9f8251a13799",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/run_spec.json": "2eb086d8c9d72e99c634144966fcbbdde378ed8d64011bfd62c97227c84832d2",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/test_predictions.tsv": "2267fbff84d7dd262e0ccadddc501cb388da3c5cd0f7b70c5f0d77bd93782f63"
+      }
+    },
+    {
+      "fold": 9,
+      "seed": 20260919,
+      "fingerprint": "12164a0cbd3912a1eb4a686929807dbf74e5c2b73492ee60adcf594623877e9d",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/best.pt": "9ff73269c27dd70be086342eeb7e8bce11f90572da233e0bcafce7cf2a77da78",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/preprocessing.npz": "a9f0604d52b4b5776faf3ad655f53fb20b7993c12a169b43046f0dd835178b02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/complete.json": "6ec143afe4bc955fede5dc3b9939d94bc8023c1e04cce2f287402a2bf76a8bc2",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/run_spec.json": "3f36d75ab6358cda3e750ef0b2ff4ff9325c7b68027f4ebd8c3bad338c23e4ea",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/test_predictions.tsv": "184849ab260299ad7e3870fc2bfe9ed1fb880a2485f7b2d918a95b498d36f30f"
+      }
+    },
+    {
+      "fold": 10,
+      "seed": 20260915,
+      "fingerprint": "a7cdbc5bb4bb18e7fa1d889c74a1a6857bb12d14c3f69e9d95711e65a68287b0",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/best.pt": "ed19c14606c0fc424b29a07628bf1fad1280b3b30f0fba31390d679bf60e5209",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/preprocessing.npz": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/complete.json": "3d58aa8b6ce6280822d1d3820d98f1291ba5e43a9e078a7c2b4986d4f2a0b89d",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/run_spec.json": "c2cbb0b405ef94dbafed7f2bb4e623d873cb9e6af2e71c48de3d62cb2a98c5f0",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/test_predictions.tsv": "80a078687833505161be2f0918d9ae01a94ddb7a4c2e44c151130021b2de22e9"
+      }
+    },
+    {
+      "fold": 10,
+      "seed": 20260916,
+      "fingerprint": "954eb10621b1d76a4bc8defaefe93b66e184c5467b5de2be6a14dbe555da51c2",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/best.pt": "f5f201eb6859393bfa3dbaf9004af318bbe8c7073e9438c82cf0843559a4f133",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/preprocessing.npz": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/complete.json": "54d3e012a044f43a7cf69e22158657f82e464902ce7c907f3b89d9f1102e50b9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/run_spec.json": "a875efaed9c9e8cfd976174a45f343b100f2c6d073bc576bc56cac55d3e7e2cc",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/test_predictions.tsv": "b490bdbf9e264621bff3d49772a0b17fd41f6da1cd6afd2c220c60041db59749"
+      }
+    },
+    {
+      "fold": 10,
+      "seed": 20260917,
+      "fingerprint": "9753cae35ab97f66d92e2c682fd1f01a53df9e88a5156dfaaf8a6cfdb4b6ab83",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/best.pt": "d6034710e654662286ed80901c682955e1317a31c9a7d11cb1beea72da85fff7",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/preprocessing.npz": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/complete.json": "602314c108db48b05ef69c3f749db26a425fceb182cb67d3f9bec25cd1a2ca97",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/run_spec.json": "5151e3ba4351302212206cd018328c17a4fb89938330d71a70220536429925d9",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/test_predictions.tsv": "365c13cec5019ee50f7b1840a8fa0112cbdae076a18d3dbc249e7b385db12980"
+      }
+    },
+    {
+      "fold": 10,
+      "seed": 20260918,
+      "fingerprint": "a1f80879a65124f46af63b4469e4282cad878622dd787b593947492fcdc90403",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/best.pt": "310a0a50cbce7f04b6269e1eb6be19dda51363f3eb8b18e3697e8878642ac529",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/preprocessing.npz": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/complete.json": "356e7f69320b3876e6b206e46b62c8103675544183a69297b6ff95345194449d",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/run_spec.json": "e1e17f660df7915aeb6a7cd6c50c9c89f4ce3133e518cf9cf321ddb4c70d840c",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/test_predictions.tsv": "129b3aa3bdcc50143e86e0ffb8cecfa9b56d3638a45884eefacb15ff9ebad768"
+      }
+    },
+    {
+      "fold": 10,
+      "seed": 20260919,
+      "fingerprint": "c5e78543a009fa8614c5bce12fd5d279630e3e503f08fb8b03082350836d7089",
+      "files": {
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/best.pt": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/preprocessing.npz": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/complete.json": "45c182b51e3940370865f036a54b114e1c62bdcb5a9138d1c3ea54b37ab501af",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/run_spec.json": "f9b53e23576412d98305303a8dad3b72bd8d2e37f26b263abae38266ed18ac2d",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/test_predictions.tsv": "83023d958da3ac719131924b7701e47558d85f63ce549b63a3679f1c53ff7e46"
+      }
+    }
+  ],
+  "old_pilot_complete_sha256": "1a08f2010a6066e7efbd7d158f45d2ea9d826ae2e47a8f3c146d379d98ccb5ae",
+  "old_selection_complete_sha256": "8902fc3c9d707481d80b0fe9347f29cbe95b77867aa4b6602789d2193d90520a",
+  "motif_database_sha256": "57709dae06ac653c807a25256c00f1148dfeb620201078e0be26713d1c35eca8",
+  "environment": {
+    "torch": "2.6.0+cu124",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "modisco": "2.5.2",
+    "tangermeme": "1.5.0",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.9"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "Ten-fold sampled conditional-DNA DeepLIFT and saturation mutagenesis: 2000 held-out genes/DNA groups, 50 original A/FiLM checkpoints, no training or ChIP alteration. Not all 15351 genes or independent biological validation.",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "regions_bp": [
+    600,
+    2000,
+    2000,
+    1000
+  ],
+  "regulatory_features": 2554,
+  "regulation": "All ChIP/regulatory values fixed actual",
+  "DeepLIFT": "custom DeepLIFT Rescale with explicit GroupNorm square/rsqrt Rescale and symmetric product rule; fixed actual FiLM regulation",
+  "reference_count": 20,
+  "random_seed": 20261015,
+  "completeness_atol": 0.002,
+  "completeness_rtol": 0.01,
+  "motif_database": "Same frozen 125 human JASPAR matrices",
+  "tomtom_q": 0.05,
+  "tomtom_overlap": 5,
+  "fimo_p": 0.0001,
+  "modisco_per_region": true,
+  "positive_negative_separate": true,
+  "max_patterns_per_fold": 10,
+  "instances_per_pattern": 5,
+  "instance_selection": "Original SHA256 ordering, not Y, model effect, direction or visual appeal",
+  "highlight_selection": "Original minimum PWM score change, not maximum prediction effect",
+  "ism_bp": 101,
+  "alternatives_per_position": 3,
+  "delta": "mutant minus WT original-scale signed pooled Y_PC1",
+  "full_forward": true,
+  "no_DNA_encoding_cache": true,
+  "physical_overlap_synchronized": true,
+  "motif_rescan": "Same target only, not all-library specificity audit",
+  "figures": "PDF only; user-authorized 10x4.8 inches; ticks 12, axes 14, legend 12, embedded TrueType",
+  "optimizer_updates": 0,
+  "BN_refits": 0,
+  "preprocessor_refits": 0,
+  "statistics": "Descriptive per-instance r/rho over motif-internal substitutions; dependent SNPs, no independent-replicate or prediction-accuracy claim",
+  "no_evaluable_instance": "Explicit absent/not_evaluable record; not zero biological effect",
+  "prediction_alignment": {
+    "FP32": "Original full forward versus conditional wrapper, unchanged forward atol/rtol 2e-5",
+    "saved_predictions": "Separate original CUDA BF16 batch64 inverse-target reproduction, same diagnostic atol2e-4 rtol2e-5",
+    "cross_precision_difference": "Recorded, not treated as same-precision alignment failure",
+    "scientific_inference": "Original FP32 remains unchanged; BF16 used for historical-prediction QC only"
+  }
+}

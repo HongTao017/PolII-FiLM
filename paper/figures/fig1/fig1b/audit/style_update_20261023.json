@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "skill": "final-figure-small",
+  "data_and_analysis_files_unchanged": 1277,
+  "tick_pt": 12,
+  "axis_title_pt": 14,
+  "legend_pt": 12,
+  "PDF_only": true,
+  "editable_TrueType": true,
+  "canvas_exception": "User previously explicitly allowed a larger suitable canvas to retain all legend names.",
+  "main_canvas_inches": {
+    "assay": [
+      5,
+      4
+    ],
+    "cell_type": [
+      7.5,
+      5
+    ],
+    "study": [
+      7.5,
+      5
+    ]
+  },
+  "point_area_pt2": 28,
+  "axis_linewidth_pt": 1.3,
+  "output_directory": "figures/final_figure_small"
+}

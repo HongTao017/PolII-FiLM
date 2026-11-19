@@ -1,0 +1,115 @@
+{
+  "selection_rule": "Each outer fold separately: add remaining group with largest positive validation Pearson improvement; no significance gate.",
+  "test_used_for_selection": false,
+  "outer_test_oof_metrics": {
+    "pearson_r": 0.72443207950614,
+    "spearman_rho": 0.7458012501568682,
+    "r2": 0.51571303606798,
+    "rmse": 5.161652846433229,
+    "mae": 3.774418140966485
+  },
+  "n_genes": 15351,
+  "fold_models": [
+    {
+      "fold": 1,
+      "selected_model": "BPQI",
+      "groups": "B+P+Q+I",
+      "pearson_r": 0.7264005786518951,
+      "spearman_rho": 0.7507386720757296,
+      "r2": 0.5160897661788544,
+      "rmse": 5.158985734582271,
+      "mae": 3.8121186386463934
+    },
+    {
+      "fold": 2,
+      "selected_model": "BQEPI",
+      "groups": "B+Q+E+P+I",
+      "pearson_r": 0.7233192173125021,
+      "spearman_rho": 0.7428106778386963,
+      "r2": 0.5179292109247914,
+      "rmse": 5.137488878822065,
+      "mae": 3.793968068052357
+    },
+    {
+      "fold": 3,
+      "selected_model": "BQPI",
+      "groups": "B+Q+P+I",
+      "pearson_r": 0.6955052033320357,
+      "spearman_rho": 0.7249122894096465,
+      "r2": 0.4796291972419664,
+      "rmse": 5.189723021594812,
+      "mae": 3.6782184985654998
+    },
+    {
+      "fold": 4,
+      "selected_model": "BQPIT",
+      "groups": "B+Q+P+I+T",
+      "pearson_r": 0.7232692822568177,
+      "spearman_rho": 0.7430473891717291,
+      "r2": 0.5141783272662133,
+      "rmse": 5.109193391656598,
+      "mae": 3.677949707641311
+    },
+    {
+      "fold": 5,
+      "selected_model": "BQEP",
+      "groups": "B+Q+E+P",
+      "pearson_r": 0.7401392906452791,
+      "spearman_rho": 0.754014271413194,
+      "r2": 0.5380015050842657,
+      "rmse": 5.09508959059609,
+      "mae": 3.7504653800908705
+    },
+    {
+      "fold": 6,
+      "selected_model": "BQPI",
+      "groups": "B+Q+P+I",
+      "pearson_r": 0.7235204279754414,
+      "spearman_rho": 0.7370844567189004,
+      "r2": 0.5081695626611842,
+      "rmse": 5.146283036341962,
+      "mae": 3.7873865710587533
+    },
+    {
+      "fold": 7,
+      "selected_model": "BQPI",
+      "groups": "B+Q+P+I",
+      "pearson_r": 0.7498820759305284,
+      "spearman_rho": 0.7661341003221231,
+      "r2": 0.5417751944471105,
+      "rmse": 5.171785571824634,
+      "mae": 3.8172504399543326
+    },
+    {
+      "fold": 8,
+      "selected_model": "BPQIT",
+      "groups": "B+P+Q+I+T",
+      "pearson_r": 0.7117494589720627,
+      "spearman_rho": 0.7370819150185756,
+      "r2": 0.4985440745015318,
+      "rmse": 5.243862805127326,
+      "mae": 3.8359763688346527
+    },
+    {
+      "fold": 9,
+      "selected_model": "BQPI",
+      "groups": "B+Q+P+I",
+      "pearson_r": 0.7272099507462115,
+      "spearman_rho": 0.7437314040872048,
+      "r2": 0.5194115888953181,
+      "rmse": 5.018796742040171,
+      "mae": 3.753198563556491
+    },
+    {
+      "fold": 10,
+      "selected_model": "BQPEIC",
+      "groups": "B+Q+P+E+I+C",
+      "pearson_r": 0.7233222377371014,
+      "spearman_rho": 0.7506822865196068,
+      "r2": 0.5153791810226606,
+      "rmse": 5.3387962552679475,
+      "mae": 3.837640724775528
+    }
+  ],
+  "interpretation": "Primary selection-procedure OOF estimate; not one shared final feature set."
+}

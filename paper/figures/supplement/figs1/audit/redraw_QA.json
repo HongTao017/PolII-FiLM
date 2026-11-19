@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "output": "G:\\序列分析画图\\Png\\png\\补充材料\\figs1\\audit\\redraw.pdf",
+  "PDF_sha256": "94956ab0491e5ff3395a65c704a6bf7565ebe6d22a95bd0ed09f0d1e99cd54a8",
+  "canvas_inches": [
+    24,
+    10
+  ],
+  "bar_count": 105,
+  "bar_color": "#000000",
+  "tick_pt": 12,
+  "axis_label_pt": 14,
+  "font": "Arial",
+  "PDF_fonttype": 42,
+  "all_text_inside_canvas": true,
+  "sample_labels_overlap": false,
+  "bar_heights_match_raw_valid_entry_counts": true,
+  "sample_order_matches_data_table": true,
+  "laboratory_group_gap_in_sample_units": 0.45,
+  "counts_summary": {
+    "status": "PASS",
+    "sample_count": 105,
+    "laboratory_author_groups": 34,
+    "assay_counts": {
+      "GRO-seq": 55,
+      "PRO-seq": 31,
+      "MNET-seq": 19
+    },
+    "transcript_union_count": 16696,
+    "minimum_valid_entries": 9197,
+    "maximum_valid_entries": 14338,
+    "count_definition": "Number of finite original log2(PI) transcript-entry values, before imputation; zero and negative values included.",
+    "entry_identifier": "gene|transcript, or existing gene_transcript key",
+    "laboratory_group_definition": "Existing source-author field used as a laboratory/source grouping label; no new institutional affiliation inferred.",
+    "ordering": "Source author alphabetically; within author, GSE natural order, assay GRO/MNET/PRO, cell line natural order, replicate number, sample ID.",
+    "raw_values_modified": false,
+    "imputation_used": false,
+    "matrices": [
+      {
+        "assay": "GRO-seq",
+        "filename": "Gro_seq_human_transcript_log2_pi_matrix.tsv",
+        "sha256": "a00d625e5ba16f7992bba4b112c364b035021130ad361ba1e5af67232461510d",
+        "transcript_entries": 16371,
+        "samples": 55,
+        "minimum_valid_entries": 9197,
+        "maximum_valid_entries": 13992
+      },
+      {
+        "assay": "MNET-seq",
+        "filename": "Mnet_seq_human_transcript_log2_pi_matrix.tsv",
+        "sha256": "ab8d4c5eddd31e5bd0fce491a95d98257a57c36c61df5ba28ea2323a2ce34b52",
+        "transcript_entries": 15493,
+        "samples": 19,
+        "minimum_valid_entries": 11612,
+        "maximum_valid_entries": 14249
+      },
+      {
+        "assay": "PRO-seq",
+        "filename": "PRO_seq_human_transcript_log2_pi_matrix.tsv",
+        "sha256": "55e9453d81e04cb21c0780ca097e80e0740c4c9fdb3343e4a6033847d1f299e4",
+        "transcript_entries": 16229,
+        "samples": 31,
+        "minimum_valid_entries": 11590,
+        "maximum_valid_entries": 14338
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "filename": "SP4_MA0685_2_F10_ZBTB7A_ISM_MATCHED_101BP_SMOOTH_SIGMA1p1.pdf",
+  "gene": "ZBTB7A",
+  "TF": "SP4",
+  "fold": 10,
+  "pattern": "r0_pos_patterns_pattern_0",
+  "matrix_id": "MA0685.2",
+  "TOMTOM": {
+    "Query_ID": "r0_pos_patterns_pattern_0",
+    "Target_ID": "MA0685.2",
+    "Optimal_offset": "-20",
+    "p-value": "0.000175518",
+    "E-value": "0.0219398",
+    "q-value": "0.0173997",
+    "Overlap": "9",
+    "Query_consensus": "GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG",
+    "Target_consensus": "GGGGCGGGG",
+    "Orientation": "+"
+  },
+  "highlight": {
+    "position": 99,
+    "reference": "C",
+    "alternative": "G",
+    "genomic_position1": 4067100,
+    "mean_delta_signed_Y_PC1": 0.003910255432128906,
+    "seed_deltas": [
+      0.002941131591796875,
+      0.0036649703979492188,
+      0.0036535263061523438,
+      0.003933906555175781,
+      0.0053577423095703125
+    ],
+    "seed_SD": 0.0008889675536828631,
+    "selection": "Posthoc illustrative: at maximum of dominant smoothed gain/loss curve inside independently annotated FIMO site, use strongest same-direction raw substitution.",
+    "FIMO_WT": [
+      {
+        "motif_id": "MA0685.2",
+        "motif_alt_id": "SP4",
+        "sequence_name": "WT",
+        "start": "47",
+        "stop": "55",
+        "strand": "-",
+        "score": "8.31633",
+        "p-value": "7.38e-05",
+        "q-value": "",
+        "matched_sequence": "GGGGGGGGG"
+      }
+    ],
+    "FIMO_same_site_mutant": [],
+    "FIMO_same_site_loss": true,
+    "overlapping_target_match_remaining": true,
+    "delta_PWM_same_site_bits": -9.378656116722816
+  },
+  "smoothed_stats": {
+    "smoothed_peak_ratio_all_flanks": 1.3172012391086374,
+    "smoothed_peak_ratio_distant_flanks": 1.3172012391086374,
+    "smoothed_mean_ratio": 1.8192703152685277,
+    "smoothed_global_peak_inside_core": true,
+    "smoothed_core_peak": 0.003520006258042824,
+    "smoothed_flank_peak": 0.0026723374937187624,
+    "smoothed_core_peak_position": 99,
+    "definition": "Both curves, Gaussian sigma1.1bp. Core is exact FIMO interval; flanks exclude2bp boundary guard and5bp display edges; no display cropping."
+  },
+  "n_seqlets": 98,
+  "source_data_path": "data/perturbation",
+  "selection": "Screened237 known-paired instances; selected as illustrative concentration examples, not population estimates.",
+  "limitations": "Named TF-like sequence match, not exclusive binding or experimental confirmation. Side responses remain visible. Independent y scale and heatmap scale per panel; compare core/flank ratios, not screen height.",
+  "original_source_data_path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/analysis/centered_ISM_screen_20261020/more_SP4_candidates/candidate_015",
+  "user_selected_final": true
+}

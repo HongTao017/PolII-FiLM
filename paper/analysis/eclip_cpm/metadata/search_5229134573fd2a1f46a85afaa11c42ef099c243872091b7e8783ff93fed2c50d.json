@@ -1,0 +1,733 @@
+{
+  "@context": "/terms/",
+  "@graph": [
+    {
+      "@id": "/files/ENCFF580PEL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF580PEL",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR993FMY/",
+      "derived_from": [
+        "/files/ENCFF857CKQ/",
+        "/files/ENCFF681SRL/"
+      ],
+      "file_format": "bam",
+      "file_size": 329072318,
+      "href": "/files/ENCFF580PEL/@@download/ENCFF580PEL.bam",
+      "md5sum": "9cc57e71850436d412e7ed8dfbcf1ee8",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/9e4f8585-71e6-4586-bb02-9089d1229c84/ENCFF580PEL.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/503_02_TROVE2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF418ZXO/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF418ZXO",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR989VIY/",
+      "derived_from": [
+        "/files/ENCFF816JAS/",
+        "/files/ENCFF286FKW/"
+      ],
+      "file_format": "bam",
+      "file_size": 363849509,
+      "href": "/files/ENCFF418ZXO/@@download/ENCFF418ZXO.bam",
+      "md5sum": "b61f7a26c754e0c495bdcc83101278d1",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/ac705105-ba74-4aed-bb2f-908e16d45a77/ENCFF418ZXO.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/301_02_SRSF1.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF015NHN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF015NHN",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR993OLA/",
+      "derived_from": [
+        "/files/ENCFF768LZF/",
+        "/files/ENCFF860PRT/"
+      ],
+      "file_format": "bam",
+      "file_size": 300282577,
+      "href": "/files/ENCFF015NHN/@@download/ENCFF015NHN.bam",
+      "md5sum": "13ab0615afa5eee761845b05e34b93c3",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/add6c63f-e1ec-4c39-8e25-4f35609a6650/ENCFF015NHN.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/211_02_IGF2BP3.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF270FPU/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF270FPU",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR993OLA/",
+      "derived_from": [
+        "/files/ENCFF518ZYS/",
+        "/files/ENCFF333RHN/"
+      ],
+      "file_format": "bam",
+      "file_size": 429393608,
+      "href": "/files/ENCFF270FPU/@@download/ENCFF270FPU.bam",
+      "md5sum": "af05c1177178efeb9cc5a5b7ba0a3383",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/1bcf8af1-5688-43b6-952c-2a772bec57e5/ENCFF270FPU.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/211_01_IGF2BP3.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF867TIG/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF867TIG",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR989VIY/",
+      "derived_from": [
+        "/files/ENCFF017IOI/",
+        "/files/ENCFF851FZF/"
+      ],
+      "file_format": "bam",
+      "file_size": 499207641,
+      "href": "/files/ENCFF867TIG/@@download/ENCFF867TIG.bam",
+      "md5sum": "a95db631b4e20ae8f33dbce944cfa2f1",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/21a736d9-0ab5-42fb-b97d-0c362682aa14/ENCFF867TIG.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/301_01_SRSF1.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF527CKN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF527CKN",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR993FMY/",
+      "derived_from": [
+        "/files/ENCFF476NYI/",
+        "/files/ENCFF049UNM/"
+      ],
+      "file_format": "bam",
+      "file_size": 403944443,
+      "href": "/files/ENCFF527CKN/@@download/ENCFF527CKN.bam",
+      "md5sum": "3abab65a099c7ec9eb1aa9a02427da0a",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/fd2e5321-a6e5-4099-ae2d-092b73aed1c3/ENCFF527CKN.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/503_01_TROVE2.merged.bam"
+    }
+  ],
+  "@id": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name",
+  "@type": [
+    "Search"
+  ],
+  "clear_filters": "/search/?type=File",
+  "columns": {
+    "@id": {
+      "title": "ID"
+    },
+    "title": {
+      "title": "Title"
+    },
+    "accession": {
+      "title": "Accession"
+    },
+    "dataset": {
+      "title": "Dataset"
+    },
+    "assembly": {
+      "title": "Genome assembly"
+    },
+    "technical_replicates": {
+      "title": "Technical replicates"
+    },
+    "biological_replicates": {
+      "title": "Biological replicates"
+    },
+    "file_format": {
+      "title": "File Format"
+    },
+    "file_type": {
+      "title": "File type"
+    },
+    "file_format_type": {
+      "title": "File format type"
+    },
+    "file_size": {
+      "title": "File size"
+    },
+    "assay_term_name": {
+      "title": "Assay term name"
+    },
+    "biosample_ontology.term_name": {
+      "title": "Biosample name"
+    },
+    "biosample_ontology.organ_slims": {
+      "title": "Organ"
+    },
+    "simple_biosample_summary": {
+      "title": "Simple biosample summary"
+    },
+    "origin_batches": {
+      "title": "Batch"
+    },
+    "target.label": {
+      "title": "Target label"
+    },
+    "href": {
+      "title": "Download URL"
+    },
+    "derived_from": {
+      "title": "Derived from"
+    },
+    "genome_annotation": {
+      "title": "Genome annotation"
+    },
+    "replicate.library.accession": {
+      "title": "Library"
+    },
+    "paired_end": {
+      "title": "Paired end identifier"
+    },
+    "paired_with": {
+      "title": "Paired with"
+    },
+    "preferred_default": {
+      "title": "Preferred Default"
+    },
+    "run_type": {
+      "title": "Run type"
+    },
+    "read_length": {
+      "title": "Read length"
+    },
+    "mapped_read_length": {
+      "title": "Mapped read length (nt)"
+    },
+    "cropped_read_length": {
+      "title": "Cropped read length (nt)"
+    },
+    "cropped_read_length_tolerance": {
+      "title": "Cropped read length tolerance (nt)"
+    },
+    "mapped_run_type": {
+      "title": "Mapped run type for bam files"
+    },
+    "read_length_units": {
+      "title": "Read length units"
+    },
+    "output_category": {
+      "title": "Output category"
+    },
+    "output_type": {
+      "title": "Output type"
+    },
+    "index_of": {
+      "title": "Index of"
+    },
+    "quality_metrics": {
+      "title": "QC Metric"
+    },
+    "lab.title": {
+      "title": "Lab"
+    },
+    "award.project": {
+      "title": "Project"
+    },
+    "step_run": {
+      "title": "Analysis step run"
+    },
+    "date_created": {
+      "title": "Date created"
+    },
+    "analysis_step_version": {
+      "title": "Analysis step version"
+    },
+    "restricted": {
+      "title": "Restricted file"
+    },
+    "submitter_comment": {
+      "title": "Submitter comment"
+    },
+    "status": {
+      "title": "Status"
+    },
+    "annotation_type": {
+      "title": "Annotation type"
+    },
+    "annotation_subtype": {
+      "title": "Annotation subtype"
+    },
+    "biochemical_inputs": {
+      "title": "Biochemical activity"
+    },
+    "encyclopedia_version": {
+      "title": "Encyclopedia version"
+    }
+  },
+  "facet_groups": [
+    {
+      "name": "File",
+      "title": "Format",
+      "facet_fields": [
+        "output_category",
+        "output_type",
+        "file_format",
+        "file_format_type",
+        "file_type"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Assay",
+      "facet_fields": [
+        "assay_title",
+        "platform.term_name",
+        "target.label",
+        "targets.label"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Annotation",
+      "facet_fields": [
+        "annotation_type",
+        "annotation_subtype",
+        "encyclopedia_version"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Biosample",
+      "facet_fields": [
+        "biosample_ontology.term_name",
+        "biosample_ontology.organ_slims",
+        "origin_batches",
+        "biosample_ontology.cell_slims",
+        "biosample_ontology.system_slims"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Analysis",
+      "facet_fields": [
+        "assembly"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Provenance",
+      "facet_fields": [
+        "award.project",
+        "lab.title"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Quality",
+      "facet_fields": [
+        "status",
+        "audit.ERROR.category",
+        "audit.NOT_COMPLIANT.category",
+        "audit.WARNING.category",
+        "audit.INTERNAL_ACTION.category"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "field": "type",
+      "title": "Data Type",
+      "terms": [
+        {
+          "key": "File",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "status",
+      "title": "Status",
+      "terms": [
+        {
+          "key": "released",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "output_category",
+      "title": "Output category",
+      "terms": [
+        {
+          "key": "alignment",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "output_type",
+      "title": "Output type",
+      "terms": [
+        {
+          "key": "alignments",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "file_format",
+      "title": "File format",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "file_type",
+      "title": "File type",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "award.project",
+      "title": "Project",
+      "terms": [
+        {
+          "key": "ENCODE",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assembly",
+      "title": "Genome assembly",
+      "terms": [
+        {
+          "key": "GRCh38",
+          "doc_count": 6
+        },
+        {
+          "key": "hg19",
+          "doc_count": 6
+        }
+      ],
+      "total": 12,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "lab.title",
+      "title": "Lab",
+      "terms": [
+        {
+          "key": "Gene Yeo, UCSD",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assay_title",
+      "title": "Assay title",
+      "terms": [
+        {
+          "key": "eCLIP",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.term_name",
+      "title": "Biosample",
+      "terms": [
+        {
+          "key": "HepG2",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.organ_slims",
+      "title": "Organ",
+      "terms": [
+        {
+          "key": "endocrine gland",
+          "doc_count": 6
+        },
+        {
+          "key": "epithelium",
+          "doc_count": 6
+        },
+        {
+          "key": "exocrine gland",
+          "doc_count": 6
+        },
+        {
+          "key": "liver",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "origin_batches",
+      "title": "Batch",
+      "terms": [
+        {
+          "key": "/biosamples/ENCBS308ZPA/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS537ADD/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS547JWV/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS859FFE/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS861HMN/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS881CIF/",
+          "doc_count": 1
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.cell_slims",
+      "title": "Cell",
+      "terms": [
+        {
+          "key": "cancer cell",
+          "doc_count": 6
+        },
+        {
+          "key": "epithelial cell",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.system_slims",
+      "title": "Systems",
+      "terms": [
+        {
+          "key": "digestive system",
+          "doc_count": 6
+        },
+        {
+          "key": "endocrine system",
+          "doc_count": 6
+        },
+        {
+          "key": "exocrine system",
+          "doc_count": 6
+        }
+      ],
+      "total": 6,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "target.label",
+      "title": "Target of assay",
+      "terms": [
+        {
+          "key": "IGF2BP3",
+          "doc_count": 2
+        },
+        {
+          "key": "SRSF1",
+          "doc_count": 2
+        },
+        {
+          "key": "TROVE2",
+          "doc_count": 2
+        }
+      ],
+      "total": 6,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "dataset",
+      "title": "dataset",
+      "terms": [
+        {
+          "key": "/experiments/ENCSR989VIY/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR993FMY/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR993OLA/",
+          "isEqual": true
+        }
+      ],
+      "appended": true,
+      "total": 0
+    }
+  ],
+  "filters": [
+    {
+      "field": "file_format",
+      "term": "bam",
+      "remove": "/search/?type=File&format=json&limit=all&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "output_type",
+      "term": "alignments",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "status",
+      "term": "released",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "assembly",
+      "term": "GRCh38",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR989VIY/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR993FMY/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR993OLA/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "type",
+      "term": "File",
+      "remove": "/search/?format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR989VIY%2F&dataset=%2Fexperiments%2FENCSR993FMY%2F&dataset=%2Fexperiments%2FENCSR993OLA%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    }
+  ],
+  "notification": "Success",
+  "sort": {
+    "date_created": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "label": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "uuid": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    }
+  },
+  "title": "Search",
+  "total": 6
+}

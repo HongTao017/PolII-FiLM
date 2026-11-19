@@ -1,0 +1,106 @@
+{
+  "panel": "I",
+  "filename": "fig5I.pdf",
+  "entry_script": "code/render.py",
+  "description": "Four selected native-motif disruption raincloud groups with matched Background; no stars or boundary triangles",
+  "kind": "native_motif_knockdown_matched_raincloud",
+  "canvas_inches": [
+    8,
+    2.5
+  ],
+  "y_limits": [
+    -0.002,
+    0.002
+  ],
+  "tick_step": 0.001,
+  "display_power": -3,
+  "significance_stars_displayed": false,
+  "labels": [
+    "KLF16",
+    "SP1",
+    "SP2",
+    "SP4",
+    "Background"
+  ],
+  "points": [
+    335,
+    223,
+    268,
+    238,
+    389
+  ],
+  "total_points": 1453,
+  "no_subsampling": true,
+  "delta": "WT_minus_disrupted",
+  "transform": "none",
+  "background": "Controls of displayed groups: deduplicate match_id then average by source positive DNA overlap group",
+  "source_local_pdf": "G:/序列分析画图/Png/png/fig5/fig5h/native_motif_raincloud_20261112/raincloud_selected_y002_no_stars_20261112/selected_four_y_minus2_to2_no_stars.pdf",
+  "legacy_server_directory": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112",
+  "source_pdf_sha256": "d786969d252bb2e4ae334834cd5b7dd177d0897ffc1f992e34fce153589e3b83",
+  "groups": [
+    {
+      "label": "KLF16",
+      "n": 335,
+      "p_holm": 0.0301593968120637,
+      "stars": "*",
+      "above_display": 6,
+      "below_display": 7
+    },
+    {
+      "label": "SP1",
+      "n": 223,
+      "p_holm": 0.0185996280074398,
+      "stars": "*",
+      "above_display": 3,
+      "below_display": 2
+    },
+    {
+      "label": "SP2",
+      "n": 268,
+      "p_holm": 0.0185596288074238,
+      "stars": "*",
+      "above_display": 3,
+      "below_display": 2
+    },
+    {
+      "label": "SP4",
+      "n": 238,
+      "p_holm": 0.0061198776024479,
+      "stars": "**",
+      "above_display": 4,
+      "below_display": 2
+    },
+    {
+      "label": "Background",
+      "n": 389,
+      "p_holm": null,
+      "stars": "",
+      "above_display": 4,
+      "below_display": 8
+    }
+  ],
+  "source_data_sha256": {
+    "data/full_results/coverage.tsv": "e435e9b66efc97cddfbc33480422771fd052ac67977b9e90c7228d7ace051c12",
+    "data/full_results/paired_effects.tsv": "bf08114e87f1b946b8d47281c2158f7785b742e8651baf3c5db7a0873f3084a3",
+    "data/full_results/pattern_statistics.tsv": "97c92a8166b0166e73c841a1a58fb16dc0b5959bddf53a7b0086c62d2f8e5e5b",
+    "data/full_results/RESULTS.md": "08d377c14f4d076eb9b4672f3e81e8567c0d45fe9f22b430055e136fa21335b7",
+    "data/full_results/tf_annotation_effects.tsv": "5c963f598af954d1ace78b35fccc2b70ac0abf51d362d3340df8cce972b0e22c",
+    "data/full_results/tf_statistics.tsv": "8da653af098fcdab330a17f4d8983ecb542cc105db07b19e8d97cfc45335ee45",
+    "data/plot_values.tsv": "82796dea6aa6966fe807f6d51f7ce9dbbd6278f16b34a25077285dfef880cdf8",
+    "data/selected_significance.tsv": "e761b805d45813af7e1d8b423af71398824f20e387381ecb6e0e09b9f215c081"
+  },
+  "reproduce": "python plot.py --output audit/redraw.pdf",
+  "no_network_for_redraw": true,
+  "code_adaptations": [
+    "Move frozen input paths under data/ and drawing implementation under code/",
+    "Force DejaVu Sans matching the embedded source fonts on Windows",
+    "Remove unused statistics reads and old server-only audit code; preserve all drawing parameters and seeds",
+    "Remove upper and lower boundary triangle indicators on 2026-11-16; values, random seed, axis limits, and statistics unchanged"
+  ],
+  "requires_external_model_for_inference": true,
+  "new_inference": false,
+  "new_statistics": false,
+  "boundary_triangles_displayed": false,
+  "figure_pdf_sha256": "309d3fc2b8626b551956a586bc0524d961e77cb534afec6f5e0b7477447b8ded",
+  "revision_date": "2026-11-16"
+}

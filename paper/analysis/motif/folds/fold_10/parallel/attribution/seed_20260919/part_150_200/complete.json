@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "stage": "attribution",
+  "seed": 20260919,
+  "gpu": 4,
+  "start": 150,
+  "stop": 200,
+  "checkpoint": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919",
+    "checkpoint_sha256": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6",
+    "preprocessing_sha256": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+    "fingerprint": "c5e78543a009fa8614c5bce12fd5d279630e3e503f08fb8b03082350836d7089"
+  },
+  "device_compatibility": {
+    "gpu": 4,
+    "seed": 20260919,
+    "gene": "VPS33A",
+    "comparison": "20-reference mean scientific attribution; original atol=2e-5, rtol=.002",
+    "max_attribution_difference": 1.123407855629921e-07,
+    "first_reference_max_difference": 6.32135197520256e-08,
+    "first_reference_allclose": true,
+    "first_reference_mismatched_elements": 0,
+    "delta_difference": 1.430511474609375e-06,
+    "cpu_completeness_error": 7.748603820800781e-07,
+    "status": "PASS"
+  },
+  "selected_genes_sha256": "630386956fb904ab9f3212f0903e482fc4944c46e1bc45f7045fbcba4e28bac4",
+  "outputs_sha256": {
+    "parallel/attribution/seed_20260919/part_150_200/hypothetical.npy": "84498775ffc7eae3c40319f32e3519e6d48fb01f0898caffaa02934a6f88e52c",
+    "parallel/attribution/seed_20260919/part_150_200/completeness.npz": "b57155261400960100a5afe6ead84b8804355cb4b129a306949b9d4b98f8da52"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pid": 405416,
+  "command": [
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/bin/python",
+    "-B",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/run_parallel.py"
+  ],
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "started_utc": "2026-10-15T02:03:32Z"
+}

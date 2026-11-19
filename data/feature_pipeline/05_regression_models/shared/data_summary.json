@@ -1,0 +1,12 @@
+{
+  "input_file": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_cleaned/POLII_G1_G6_cleaned_786X.tsv",
+  "input_sha256": "0e670f7fcb9d93ac38383a39bd6140b32d0a676ccee767dbb4612e3d1204b4f4",
+  "n_genes": 15351,
+  "n_features": 786,
+  "n_x_missing_values": 3267,
+  "n_development": 12280,
+  "n_test": 3071,
+  "n_inner_cv_folds": 5,
+  "target": "Y_PC1",
+  "random_state": 20260908
+}

@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "genes": 1550,
+  "factors": 366,
+  "original_factors": 366,
+  "matched_groups": 838,
+  "original_groups": 838,
+  "unmatched_groups": 0,
+  "bams": 1673,
+  "pearson_r": 0.455671305118754,
+  "pearson_p": 3.6499850065389873e-20,
+  "spearman_rho": 0.4411419323679132,
+  "quadratic_R2": 0.21118945997757888,
+  "x": "Mean regional CPM with equal weight for regions, genes, biological replicates and matched source groups",
+  "y": "Existing mean absolute IG for S from the matched factor-source groups",
+  "manifest_sha256": "151ab87b748957f4fcbb3e62e4de2d2021cf478b6c1a0722498d0370b42e049f",
+  "top2": [
+    {
+      "factor": "FOXA2",
+      "n_source_groups": 1,
+      "original_n_source_groups": 1,
+      "sources": "HepG2",
+      "mean_ChIP_CPM": 34.44265635610414,
+      "mean_absolute_IG_S": 0.29860296423018995
+    },
+    {
+      "factor": "POLR2G",
+      "n_source_groups": 2,
+      "original_n_source_groups": 2,
+      "sources": "HepG2,K562",
+      "mean_ChIP_CPM": 50.45798459172033,
+      "mean_absolute_IG_S": 0.1982933868137844
+    }
+  ]
+}

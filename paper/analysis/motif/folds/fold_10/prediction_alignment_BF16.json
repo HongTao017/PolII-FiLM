@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "fold": 10,
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "SECISBP2",
+      "saved_BF16": 1.954673545639432,
+      "reproduced_BF16": 1.954673545639432,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "ed19c14606c0fc424b29a07628bf1fad1280b3b30f0fba31390d679bf60e5209",
+      "saved_prediction_sha256": "80a078687833505161be2f0918d9ae01a94ddb7a4c2e44c151130021b2de22e9"
+    },
+    {
+      "seed": 20260915,
+      "gene": "TPH2",
+      "saved_BF16": 11.142806777414188,
+      "reproduced_BF16": 11.142806777414187,
+      "abs_error": 1.7763568394002505e-15,
+      "checkpoint_sha256": "ed19c14606c0fc424b29a07628bf1fad1280b3b30f0fba31390d679bf60e5209",
+      "saved_prediction_sha256": "80a078687833505161be2f0918d9ae01a94ddb7a4c2e44c151130021b2de22e9"
+    },
+    {
+      "seed": 20260916,
+      "gene": "SECISBP2",
+      "saved_BF16": 1.1469255692196734,
+      "reproduced_BF16": 1.1469255692196734,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "f5f201eb6859393bfa3dbaf9004af318bbe8c7073e9438c82cf0843559a4f133",
+      "saved_prediction_sha256": "b490bdbf9e264621bff3d49772a0b17fd41f6da1cd6afd2c220c60041db59749"
+    },
+    {
+      "seed": 20260916,
+      "gene": "TPH2",
+      "saved_BF16": 9.123436836364789,
+      "reproduced_BF16": 9.123436836364789,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "f5f201eb6859393bfa3dbaf9004af318bbe8c7073e9438c82cf0843559a4f133",
+      "saved_prediction_sha256": "b490bdbf9e264621bff3d49772a0b17fd41f6da1cd6afd2c220c60041db59749"
+    },
+    {
+      "seed": 20260917,
+      "gene": "SECISBP2",
+      "saved_BF16": 4.10386012575629,
+      "reproduced_BF16": 4.10386012575629,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "d6034710e654662286ed80901c682955e1317a31c9a7d11cb1beea72da85fff7",
+      "saved_prediction_sha256": "365c13cec5019ee50f7b1840a8fa0112cbdae076a18d3dbc249e7b385db12980"
+    },
+    {
+      "seed": 20260917,
+      "gene": "TPH2",
+      "saved_BF16": 9.931184812784547,
+      "reproduced_BF16": 9.931184812784547,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "d6034710e654662286ed80901c682955e1317a31c9a7d11cb1beea72da85fff7",
+      "saved_prediction_sha256": "365c13cec5019ee50f7b1840a8fa0112cbdae076a18d3dbc249e7b385db12980"
+    },
+    {
+      "seed": 20260918,
+      "gene": "SECISBP2",
+      "saved_BF16": 2.084490184706893,
+      "reproduced_BF16": 2.084490184706893,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "310a0a50cbce7f04b6269e1eb6be19dda51363f3eb8b18e3697e8878642ac529",
+      "saved_prediction_sha256": "129b3aa3bdcc50143e86e0ffb8cecfa9b56d3638a45884eefacb15ff9ebad768"
+    },
+    {
+      "seed": 20260918,
+      "gene": "TPH2",
+      "saved_BF16": 11.83516218577398,
+      "reproduced_BF16": 11.83516218577398,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "310a0a50cbce7f04b6269e1eb6be19dda51363f3eb8b18e3697e8878642ac529",
+      "saved_prediction_sha256": "129b3aa3bdcc50143e86e0ffb8cecfa9b56d3638a45884eefacb15ff9ebad768"
+    },
+    {
+      "seed": 20260919,
+      "gene": "SECISBP2",
+      "saved_BF16": 1.2839542437908824,
+      "reproduced_BF16": 1.2839542437908824,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6",
+      "saved_prediction_sha256": "83023d958da3ac719131924b7701e47558d85f63ce549b63a3679f1c53ff7e46"
+    },
+    {
+      "seed": 20260919,
+      "gene": "TPH2",
+      "saved_BF16": 11.142806777414188,
+      "reproduced_BF16": 11.142806777414187,
+      "abs_error": 1.7763568394002505e-15,
+      "checkpoint_sha256": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6",
+      "saved_prediction_sha256": "83023d958da3ac719131924b7701e47558d85f63ce549b63a3679f1c53ff7e46"
+    }
+  ],
+  "source": "Original CUDA BF16 autocast / batch64 / inverse_target; numerical QC only",
+  "attribution_precision_unchanged": "FP32",
+  "scientific_completeness_tolerances_unchanged": true,
+  "atol": 0.0002,
+  "rtol": 2e-05
+}

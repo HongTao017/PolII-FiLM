@@ -1,0 +1,8 @@
+{
+  "approved_source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\25_current_BQIP_top30_heatmap_legend_left_colorbar_right_16x11.pdf",
+  "approved_sha256": "5fd06f2b406a2dd21fe5d5de3d207b3f37752770733f5a929a3724b5a61d7f91",
+  "training_root": "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train",
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "drawing_inputs": "All inputs necessary for offline redraw are in data/. Original training arrays/model checkpoints are not needed for redraw.",
+  "interpretation": "30×43 Pearson特征相关矩阵，原始特征上按非缺失配对计算；列至少与一个前30特征满足|r|≥0.8。使用全部15,351个基因作描述性分析，不是测试集预测精度。平均连接、欧氏距离、optimal_ordering。图注在左、热力条在右。"
+}

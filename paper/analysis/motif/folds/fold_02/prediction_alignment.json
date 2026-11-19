@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "EPSTI1",
+      "conditional_FP32": 7.659965515136719,
+      "official_FP32": 7.659965515136719,
+      "saved_BF16": 7.637875277649495,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.02209023748722405
+    },
+    {
+      "seed": 20260915,
+      "gene": "JMJD6",
+      "conditional_FP32": -3.318317413330078,
+      "official_FP32": -3.318317413330078,
+      "saved_BF16": -3.3282284141187177,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.009911000788639601
+    },
+    {
+      "seed": 20260916,
+      "gene": "EPSTI1",
+      "conditional_FP32": 4.012237548828125,
+      "official_FP32": 4.012237548828125,
+      "saved_BF16": 4.001899252527408,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.010338296300717253
+    },
+    {
+      "seed": 20260916,
+      "gene": "JMJD6",
+      "conditional_FP32": -4.47890043258667,
+      "official_FP32": -4.47890043258667,
+      "saved_BF16": -4.491740742157785,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.01284030957111515
+    },
+    {
+      "seed": 20260917,
+      "gene": "EPSTI1",
+      "conditional_FP32": 3.82771635055542,
+      "official_FP32": 3.82771635055542,
+      "saved_BF16": 3.827372403321548,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.0003439472338717664
+    },
+    {
+      "seed": 20260917,
+      "gene": "JMJD6",
+      "conditional_FP32": -3.480299949645996,
+      "official_FP32": -3.480299949645996,
+      "saved_BF16": -3.4736674551236013,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.006632494522394783
+    },
+    {
+      "seed": 20260918,
+      "gene": "EPSTI1",
+      "conditional_FP32": 5.108222007751465,
+      "official_FP32": 5.108222007751465,
+      "saved_BF16": 5.107235964164523,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.000986043586942209
+    },
+    {
+      "seed": 20260918,
+      "gene": "JMJD6",
+      "conditional_FP32": -1.5814342498779297,
+      "official_FP32": -1.5814342498779297,
+      "saved_BF16": -1.5756879700098725,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.0057462798680572025
+    },
+    {
+      "seed": 20260919,
+      "gene": "EPSTI1",
+      "conditional_FP32": 5.7824788093566895,
+      "official_FP32": 5.7824788093566895,
+      "saved_BF16": 5.805343360987963,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.022864551631273322
+    },
+    {
+      "seed": 20260919,
+      "gene": "JMJD6",
+      "conditional_FP32": -2.4888460636138916,
+      "official_FP32": -2.4888460636138916,
+      "saved_BF16": -2.4846819762903936,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.004164087323498045
+    }
+  ],
+  "comparison": "FP32 conditional wrapper versus FP32 original model; saved BF16 separately checked on CUDA",
+  "atol": 2e-05,
+  "rtol": 2e-05
+}

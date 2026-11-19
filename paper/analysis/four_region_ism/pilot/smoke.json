@@ -1,0 +1,26 @@
+{
+  "gene": "RPTOR",
+  "fold": 1,
+  "seed": 20260915,
+  "wt": 5.898489256376196,
+  "saved_test_wt": 5.885421818074686,
+  "wt_abs_difference": 0.013067438301510137,
+  "sites": 5,
+  "variants": 15,
+  "shared_site": {
+    "coord0": 80544796,
+    "ref": 3,
+    "copies": [
+      [
+        "tss_sequence",
+        259
+      ],
+      [
+        "first_donor_sequence",
+        5
+      ]
+    ],
+    "region": "shared",
+    "bin": null
+  }
+}

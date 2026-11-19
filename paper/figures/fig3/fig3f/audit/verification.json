@@ -1,0 +1,20 @@
+{
+  "panel": "F",
+  "status": "PASS",
+  "source_data_hashes_verified": 4,
+  "pdf_byte_identical_to_source": true,
+  "page_size_pt": [
+    1152.0,
+    792.0
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "matrix_shape": [
+      30,
+      31
+    ],
+    "column_threshold_abs_r": 0.8,
+    "cluster_order_verified": true
+  }
+}

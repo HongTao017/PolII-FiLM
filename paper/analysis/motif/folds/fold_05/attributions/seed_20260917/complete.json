@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "seed": 20260917,
+  "genes": 200,
+  "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917",
+  "checkpoint_sha256": "bcbdb47e068f34c1e3b80c8df397e716010e2e3c81dd38589bfb9bd58bbca1d8",
+  "preprocessing_sha256": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+  "fingerprint": "d5b85dde03727ad61beea763cbf6083e024265b8551f98d3c7284f9a1688591c",
+  "method": "custom DeepLIFT Rescale with explicit GroupNorm square/rsqrt Rescale and symmetric product rule; fixed actual FiLM regulation",
+  "execution": "four-device independent gene shards, restored original gene order",
+  "output_sha256": {
+    "hypothetical.npy": "7b2affa624d5a975b99f35e48036ae8b0e8fa1f2896c94992a5706bb98fff5ac",
+    "completeness.npz": "2227935880ce25ad9144c84b2f52ea302b3d5dbae2b050560bb26337f8f88581"
+  }
+}

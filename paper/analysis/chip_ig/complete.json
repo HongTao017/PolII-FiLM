@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "genes": 1550,
+  "factors": 366,
+  "baseline": "zero_chip_count_before_saved_train_standardization",
+  "gene_seed_results": 7750,
+  "source_cell_factor_pairs": 838,
+  "pearson_r": 0.7865691524457545,
+  "spearman_rho": 0.8924627047735104,
+  "quadratic_R2": 0.6285987917130316,
+  "x_scale": "unscaled log10(count+1), average of pause and gene body, genes and source cells equal within factor, z across factors (ddof=0)",
+  "y_scale": "five-seed mean sum of absolute IG_S across the two regions, averaged equally over genes and source cells",
+  "include_zero_raw_input_and_constant_crosscell_signal": true,
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/A_CHIP_ZEROCOUNT_GE40_1550_20261104/Fig5d_factor_1550genes",
+  "top5": [
+    {
+      "factor": "FOXA2",
+      "mean_chip_log10_count_plus1": 0.332132253137327,
+      "mean_IG_strength": 0.29860296423018995,
+      "chip_z_score": 2.1064826116820474,
+      "n_source_cells": 1
+    },
+    {
+      "factor": "POLR2G",
+      "mean_chip_log10_count_plus1": 0.4960416614865103,
+      "mean_IG_strength": 0.1982933868137844,
+      "chip_z_score": 3.781591778376385,
+      "n_source_cells": 2
+    },
+    {
+      "factor": "TAF1",
+      "mean_chip_log10_count_plus1": 0.2222148281752422,
+      "mean_IG_strength": 0.19635445112855102,
+      "chip_z_score": 0.9831566965449582,
+      "n_source_cells": 6
+    },
+    {
+      "factor": "C11orf30",
+      "mean_chip_log10_count_plus1": 0.40051557322663645,
+      "mean_IG_strength": 0.1947282354829686,
+      "chip_z_score": 2.805341374484519,
+      "n_source_cells": 1
+    },
+    {
+      "factor": "POLR2B",
+      "mean_chip_log10_count_plus1": 0.22949878090812315,
+      "mean_IG_strength": 0.18704020063547985,
+      "chip_z_score": 1.0575966943187523,
+      "n_source_cells": 1
+    }
+  ],
+  "outputs_sha256": {
+    "Fig5d_factor_1550genes/Fig5d_by_factor.pdf": "536f5b89706b98966d96b859b87d908329991e374a738c04cdfa6fa8b856293a",
+    "Fig5d_factor_1550genes/factor_points.tsv": "b7b29efd5a5a263d03dd74c2c2b59910cdb103105ab26967e1df97c5b9ca20d0",
+    "Fig5d_factor_1550genes/factor_source_cell_means.tsv": "5727e1b9288dda414f1b4b427252404979c5c345ffe289e7682106a55fe0fb33",
+    "Fig5d_factor_1550genes/gene_support.tsv": "f20a906d95343efa0459ceb13db28261dc388c0135aa0e16c93b00136f4672b9",
+    "Fig5d_factor_1550genes/summary.json": "e7c503b41f34e5d9b9edbbf4ab92eb0f47b4e486622387de9a9007ef007e8ac9"
+  }
+}

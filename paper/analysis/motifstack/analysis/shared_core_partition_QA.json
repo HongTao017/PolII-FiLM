@@ -1,0 +1,3560 @@
+{
+  "status": "PASS",
+  "native_tree_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "native_tree_topology_unchanged": true,
+  "clustering_rerun": false,
+  "annotation_rules_are_motifStack_defaults": false,
+  "source_h5_sha256_verified": {
+    "folds/fold_01/modisco/tss_sequence.h5": "850d4cc5d209b49967913a8d53e548da6b05620ef891c352cf2ec600826cdccd",
+    "folds/fold_01/modisco/first_donor_sequence.h5": "b2fe36a5962aa8364b3d062b7bf6bb2737dae7035f72a56de28c4f9f762b7a3d",
+    "folds/fold_01/modisco/first_acceptor_sequence.h5": "af3fa1f5332e1d3340b25786b7806a0bfe0fa0332315cc8a2abc75094d6faa03",
+    "folds/fold_01/modisco/pre_tes_sequence.h5": "4242578870d4fceb2b55c6940636ee168430ba1eb7c318429bd6af9c68eb2aa4",
+    "folds/fold_02/modisco/tss_sequence.h5": "87fb70fae78cc36775572f126480df17cc6b033eaae881dfb4b8d8b961479169",
+    "folds/fold_02/modisco/first_donor_sequence.h5": "54a1e8488371f600441be716a0379491b926ef9ce49427158cb1c2b23301f6a4",
+    "folds/fold_02/modisco/first_acceptor_sequence.h5": "099af1277ef56f4ba4791b3893d66ea77607d220f9e84217306b936f2dd7b2cb",
+    "folds/fold_02/modisco/pre_tes_sequence.h5": "14fb81baaec44bd9c87a63e2cacff8bfb5f14f435016240458616668f0d6726f",
+    "folds/fold_03/modisco/tss_sequence.h5": "8086eb77027a49ab2381130debfb8dcca34c9e7e7bdf5b603b744e0fd3100bc5",
+    "folds/fold_03/modisco/first_donor_sequence.h5": "47687232f6b07cf36a361830627ab0ca2d852a958c5fd91f0c6324d14d3db01c",
+    "folds/fold_03/modisco/first_acceptor_sequence.h5": "81236c6af86275bc2aae149e49fc258542e059a00b3ddfce9a06fbedd9864c66",
+    "folds/fold_03/modisco/pre_tes_sequence.h5": "bd95991ee6c20fdf720f52f23ee0f98062d6e02036fc9213976a3bf068b62ae0",
+    "folds/fold_04/modisco/tss_sequence.h5": "b7de769d86c38981e8a65911375cce499785a10d0cc6c6a6fd5ef5e3598cc5ff",
+    "folds/fold_04/modisco/first_donor_sequence.h5": "6e54224b613c4857bad6f41070271ddf0a080c4647881673c6583b253e783bd3",
+    "folds/fold_04/modisco/first_acceptor_sequence.h5": "1a524c9670182f0ce023bb80f7c525750b50893cfdcfef53d13cef937b72fa3b",
+    "folds/fold_04/modisco/pre_tes_sequence.h5": "819cb5f683d1f340d7d91087159ee92ab1be9f4d7feb06610a041d52f103b10c",
+    "folds/fold_05/modisco/tss_sequence.h5": "88356bafc962ea65704838c9fb211fcc2fc289b32ad03495105212b758c117eb",
+    "folds/fold_05/modisco/first_donor_sequence.h5": "55dfab4f937ecea63e1aaf30c7dac3489dd08687846cfbcb88a0d2c74b93c081",
+    "folds/fold_05/modisco/first_acceptor_sequence.h5": "41aacbcd86d74512a1319a86d889b222ffd46406585965913c617ca3b6b1b50e",
+    "folds/fold_05/modisco/pre_tes_sequence.h5": "2b1e9f963cd8f4ebd12e65d4ec62124545070125d2d703173c150f370ae96cd9",
+    "folds/fold_06/modisco/tss_sequence.h5": "ec10263aff4b56dc274f7f42eedd8db2b45f284c20f07383dedffae09f5d498a",
+    "folds/fold_06/modisco/first_donor_sequence.h5": "888f702c6260a84481851379af50a1335685b5100f7ddab7911d8e9f3b027eb9",
+    "folds/fold_06/modisco/first_acceptor_sequence.h5": "14ddfaecabb15dbfee5159dc8f2c46e52cafafe8319cbd18893222387af36f6f",
+    "folds/fold_06/modisco/pre_tes_sequence.h5": "91ec862fcb60c03209089e15b6fd26cb6c1498ea7c565af2011245b117afd602",
+    "folds/fold_07/modisco/tss_sequence.h5": "0631288073ea5aeb0a7f0093aedfda79b2468d48b817c2c65f0e887749b36539",
+    "folds/fold_07/modisco/first_donor_sequence.h5": "80bdd462f343afd20bf987ad5b8d4befc9cf1d26fdab444284cdf617709b660b",
+    "folds/fold_07/modisco/first_acceptor_sequence.h5": "50fadcd6fbecc133f2cacd6b63b0c79c9bd22bd2887fb34dd6d95202a500f361",
+    "folds/fold_07/modisco/pre_tes_sequence.h5": "096d075a0af901a7b9ef3bd38865950eb5afbeb52b819604362446f9abded72c",
+    "folds/fold_08/modisco/tss_sequence.h5": "14c9a75b76d70483a8e0ac6469242a32dfb41955b507d00650c0fc3ff1c852c2",
+    "folds/fold_08/modisco/first_donor_sequence.h5": "e82c121a1e11bfa41bbd627b94ac3cde65311e526fd809a62e9aa640e3071e46",
+    "folds/fold_08/modisco/first_acceptor_sequence.h5": "c8ea82171ccc18e1eca49c7e0266a84422e59c3ccd3b5bdbaa88aa099a8626eb",
+    "folds/fold_08/modisco/pre_tes_sequence.h5": "57e6535ba2168b6a0842ff25622ac3344960f47dbbe2ae48ad60301b137d6d53",
+    "folds/fold_09/modisco/tss_sequence.h5": "7853a9d5f2456304e2258a39c658233d7957a49856bc8f7973197ce5e74c5697",
+    "folds/fold_09/modisco/first_donor_sequence.h5": "f67fe19d5a4d00577bc7275fc848850c7d101db99224fdca47ec1ca9111f260c",
+    "folds/fold_09/modisco/first_acceptor_sequence.h5": "06facd816506f14cde8f843ab97e4eea725717124157ff73964cdb89c41c438e",
+    "folds/fold_09/modisco/pre_tes_sequence.h5": "c72f780a373d6b77fa13822ab697bd3984d9637dbe04580fdff1841a040f96e5",
+    "folds/fold_10/modisco/tss_sequence.h5": "660ab2325128a7eef5eacc084182e774e9e489bd83f6e127d3db97e5cc5beedf",
+    "folds/fold_10/modisco/first_donor_sequence.h5": "eefad9078f75d03e818ca36edebc04621c20ba9ffe591e87eb6f985815bf781b",
+    "folds/fold_10/modisco/first_acceptor_sequence.h5": "8962b8c8c3ccb5794c91ce1bd7e39e45e4a22da358ce433f9dbfcc6a8af094ba",
+    "folds/fold_10/modisco/pre_tes_sequence.h5": "40c883f230b7a1992361cd24ee0c52044b4468608aad35a2be97fcd4ba159e52"
+  },
+  "all_terminal_partitions": [
+    {
+      "node": 621,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N04",
+      "core": {
+        "code": "TGGGATTACAGG",
+        "start": 29,
+        "end": 41,
+        "score": 13.646544993300655,
+        "member_support": 0.8,
+        "min_column_support": 0.8,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 50,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N04",
+      "core": {
+        "code": "SNGGS",
+        "start": 21,
+        "end": 26,
+        "score": 2.0943704645103907,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 151,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 178,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 121,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 19,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 299,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N01",
+      "core": {
+        "code": "SSMNG",
+        "start": 27,
+        "end": 32,
+        "score": 2.0300681660422097,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 69,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 100,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-N01",
+      "core": {
+        "code": "YNGGS",
+        "start": 16,
+        "end": 21,
+        "score": 1.8763966594155583,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 246,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 203,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 243,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 230,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 72,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-P02",
+      "core": null
+    },
+    {
+      "node": 142,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 164,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 258,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 46,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 136,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N00",
+      "core": {
+        "code": "GGNGG",
+        "start": 25,
+        "end": 30,
+        "score": 2.4688130892440587,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 99,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 174,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N00",
+      "core": {
+        "code": "GSNGGG",
+        "start": 27,
+        "end": 33,
+        "score": 3.323758490518453,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 281,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F09-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 13,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N00",
+      "core": {
+        "code": "GGNGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.5324767689041954,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 304,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 229,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 211,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 149,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 120,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 56,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 286,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 157,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F06-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 197,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 93,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 238,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 0,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 248,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 68,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 74,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 107,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 200,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-N01",
+      "core": {
+        "code": "AAANMA",
+        "start": 29,
+        "end": 35,
+        "score": 3.678170085415447,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 117,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-P00",
+      "core": {
+        "code": "TNTKTT",
+        "start": 12,
+        "end": 18,
+        "score": 2.9927313160623505,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 204,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 25,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 159,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 294,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-N00",
+      "core": {
+        "code": "MAANG",
+        "start": 34,
+        "end": 39,
+        "score": 2.3616259302402005,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 247,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 313,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 162,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 44,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 70,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 10,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 134,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 172,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 275,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 16,
+        "end": 20,
+        "score": 2.309080279620964,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 101,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 31,
+        "end": 35,
+        "score": 3.3835464436453027,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 335,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F03-Donor-P01",
+      "core": {
+        "code": "TNTTT",
+        "start": 16,
+        "end": 21,
+        "score": 3.4934746802269028,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G01",
+      "name": "TN3T",
+      "leaves": [
+        66,
+        249
+      ],
+      "rank_lo": 59,
+      "rank_hi": 60,
+      "rank": 59.5
+    },
+    {
+      "node": 209,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 24,
+        "end": 28,
+        "score": 3.039931987825835,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 301,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 5,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-P00",
+      "core": {
+        "code": "TTNTT",
+        "start": 21,
+        "end": 26,
+        "score": 2.8889844487848766,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 161,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P01",
+      "core": {
+        "code": "TTTT",
+        "start": 23,
+        "end": 27,
+        "score": 3.2110595974403973,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 65,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 202,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 242,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 24,
+        "end": 28,
+        "score": 2.7370702433036653,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 97,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 40,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 131,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 267,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 201,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 160,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 296,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 191,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 150,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 287,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 57,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 259,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 466,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-preTES-P01",
+      "core": {
+        "code": "TTNWTWW",
+        "start": 23,
+        "end": 30,
+        "score": 2.804705504592233,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 185,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F06-preTES-P03",
+      "core": {
+        "code": "TTNTTTTTNTTY",
+        "start": 15,
+        "end": 27,
+        "score": 8.9603172537877,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 189,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P07",
+      "core": {
+        "code": "RYTYTNTTNTKT",
+        "start": 9,
+        "end": 21,
+        "score": 7.00367434845319,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 221,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P01",
+      "core": {
+        "code": "TTTTTWTTWNTT",
+        "start": 12,
+        "end": 24,
+        "score": 7.646843190390824,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 228,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P08",
+      "core": {
+        "code": "WTTWTWTNTNTW",
+        "start": 27,
+        "end": 39,
+        "score": 6.968835555032242,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 85,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-P01",
+      "core": {
+        "code": "TTTWTTTTYT",
+        "start": 19,
+        "end": 29,
+        "score": 8.599911553962443,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 106,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P05",
+      "core": {
+        "code": "GRNWTTHT",
+        "start": 9,
+        "end": 17,
+        "score": 4.450086595181864,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 54,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-P00",
+      "core": {
+        "code": "AAAWWRMAAAAA",
+        "start": 24,
+        "end": 36,
+        "score": 8.163575706213573,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 186,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P04",
+      "core": {
+        "code": "TKNTNWWWWTTT",
+        "start": 15,
+        "end": 27,
+        "score": 7.651640081302174,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 397,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F07-preTES-P02",
+      "core": {
+        "code": "TNTTTTTWWWTT",
+        "start": 13,
+        "end": 25,
+        "score": 8.042440438410129,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      },
+      "group_id": "G02",
+      "name": "TN5T3WTT",
+      "leaves": [
+        222,
+        223
+      ],
+      "rank_lo": 90,
+      "rank_hi": 91,
+      "rank": 90.5
+    },
+    {
+      "node": 480,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F06-preTES-P02",
+      "core": {
+        "code": "TTTT",
+        "start": 11,
+        "end": 15,
+        "score": 2.967326838461899,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G03",
+      "name": "4T-01",
+      "leaves": [
+        6,
+        184,
+        226
+      ],
+      "rank_lo": 92,
+      "rank_hi": 94,
+      "rank": 93.0
+    },
+    {
+      "node": 529,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-preTES-P05",
+      "core": {
+        "code": "TTTT",
+        "start": 27,
+        "end": 31,
+        "score": 3.6248761406868795,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G04",
+      "name": "4T-02",
+      "leaves": [
+        118,
+        103,
+        225
+      ],
+      "rank_lo": 95,
+      "rank_hi": 97,
+      "rank": 96.0
+    },
+    {
+      "node": 26,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F01-preTES-P01",
+      "core": {
+        "code": "AAAAAAAAWWAW",
+        "start": 18,
+        "end": 30,
+        "score": 9.975349994431848,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 187,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P05",
+      "core": {
+        "code": "TTTNTTTANWTT",
+        "start": 11,
+        "end": 23,
+        "score": 7.266249369758819,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 384,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F03-Acceptor-P03",
+      "core": {
+        "code": "TNWTT",
+        "start": 22,
+        "end": 27,
+        "score": 4.320023851049685,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G05",
+      "name": "TNWTT",
+      "leaves": [
+        73,
+        86
+      ],
+      "rank_lo": 100,
+      "rank_hi": 101,
+      "rank": 100.5
+    },
+    {
+      "node": 513,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-P03",
+      "core": {
+        "code": "AMWNAAWW",
+        "start": 10,
+        "end": 18,
+        "score": 3.8566034615354416,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 554,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N03",
+      "core": {
+        "code": "CCAGGCTG",
+        "start": 34,
+        "end": 42,
+        "score": 6.057785443892081,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 260,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N02",
+      "core": {
+        "code": "GGSAGNCNSAGG",
+        "start": 12,
+        "end": 24,
+        "score": 8.825287223089344,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 35,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-TSS-P03",
+      "core": {
+        "code": "GSGNGGGGGNG",
+        "start": 21,
+        "end": 32,
+        "score": 7.157637647258982,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 9
+      }
+    },
+    {
+      "node": 272,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N04",
+      "core": {
+        "code": "GGNGG",
+        "start": 17,
+        "end": 22,
+        "score": 4.194701650522482,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 492,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-N00",
+      "core": {
+        "code": "CNCCC",
+        "start": 27,
+        "end": 32,
+        "score": 4.063021200114713,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G06",
+      "name": "CN3C",
+      "leaves": [
+        36,
+        239
+      ],
+      "rank_lo": 109,
+      "rank_hi": 110,
+      "rank": 109.5
+    },
+    {
+      "node": 21,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N06",
+      "core": {
+        "code": "GYSKSTNRTNCC",
+        "start": 30,
+        "end": 42,
+        "score": 5.487893750918106,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 497,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N04",
+      "core": {
+        "code": "GSSNGG",
+        "start": 20,
+        "end": 26,
+        "score": 3.465918841277712,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 168,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N04",
+      "core": {
+        "code": "GGNGS",
+        "start": 17,
+        "end": 22,
+        "score": 3.2402203112507775,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 64,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-TSS-N00",
+      "core": {
+        "code": "CCCCNCCCNCC",
+        "start": 17,
+        "end": 28,
+        "score": 6.83234709049026,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 9
+      }
+    },
+    {
+      "node": 471,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F01-TSS-P01",
+      "core": {
+        "code": "RGNGG",
+        "start": 20,
+        "end": 25,
+        "score": 4.0458581358677845,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G07",
+      "name": "RGNGG",
+      "leaves": [
+        1,
+        33
+      ],
+      "rank_lo": 116,
+      "rank_hi": 117,
+      "rank": 116.5
+    },
+    {
+      "node": 31,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-N02",
+      "core": {
+        "code": "GGNGNGGKGGGG",
+        "start": 17,
+        "end": 29,
+        "score": 9.050146481124349,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 171,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N07",
+      "core": {
+        "code": "RGNGGNRGMVG",
+        "start": 20,
+        "end": 31,
+        "score": 5.940557875182045,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 9
+      }
+    },
+    {
+      "node": 9,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N02",
+      "core": {
+        "code": "CBCCNBYNCC",
+        "start": 15,
+        "end": 25,
+        "score": 4.894390393263885,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 90,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-N03",
+      "core": {
+        "code": "GGNGSNRGGS",
+        "start": 13,
+        "end": 23,
+        "score": 6.277109102303944,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 138,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N10",
+      "core": {
+        "code": "SAGWGCNGWGGS",
+        "start": 15,
+        "end": 27,
+        "score": 9.102380642818789,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 257,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N06",
+      "core": {
+        "code": "CCNCMYNCAM",
+        "start": 31,
+        "end": 41,
+        "score": 5.362815807045333,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 274,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N06",
+      "core": {
+        "code": "TNMMCHKGSNGC",
+        "start": 5,
+        "end": 17,
+        "score": 6.223277048597275,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 194,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N03",
+      "core": {
+        "code": "CYNTGCC",
+        "start": 17,
+        "end": 24,
+        "score": 6.397266925852643,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 293,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-P02",
+      "core": {
+        "code": "GGNWGR",
+        "start": 30,
+        "end": 36,
+        "score": 3.9402078440096027,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 261,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N03",
+      "core": {
+        "code": "ANGVA",
+        "start": 36,
+        "end": 41,
+        "score": 2.2145522869681438,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 273,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N05",
+      "core": {
+        "code": "ANMRG",
+        "start": 8,
+        "end": 13,
+        "score": 2.1293949093516913,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 207,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N04",
+      "core": {
+        "code": "MCSVGGGVSNGG",
+        "start": 15,
+        "end": 27,
+        "score": 5.959961356931986,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 340,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-N00",
+      "core": {
+        "code": "SSSNGS",
+        "start": 24,
+        "end": 30,
+        "score": 2.8198630959712396,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 264,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N00",
+      "core": {
+        "code": "CYYYM",
+        "start": 20,
+        "end": 25,
+        "score": 2.749360505150353,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 116,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 127,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N01",
+      "core": {
+        "code": "CCMNC",
+        "start": 19,
+        "end": 24,
+        "score": 4.222294889991052,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 169,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N05",
+      "core": {
+        "code": "RNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 3.760186083247439,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 8,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N01",
+      "core": {
+        "code": "GCCNCR",
+        "start": 15,
+        "end": 21,
+        "score": 3.259266278310654,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 545,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F05-preTES-N03",
+      "core": {
+        "code": "GAGNC",
+        "start": 21,
+        "end": 26,
+        "score": 3.280755788133723,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G08",
+      "name": "GAGNC",
+      "leaves": [
+        152,
+        234
+      ],
+      "rank_lo": 137,
+      "rank_hi": 138,
+      "rank": 137.5
+    },
+    {
+      "node": 139,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N02",
+      "core": {
+        "code": "SCCAGGCTGG",
+        "start": 24,
+        "end": 34,
+        "score": 6.894438758470679,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 109,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N02",
+      "core": {
+        "code": "CAGGNTG",
+        "start": 23,
+        "end": 30,
+        "score": 3.9805973207065533,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 308,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N04",
+      "core": {
+        "code": "CYCNGGCTNG",
+        "start": 21,
+        "end": 31,
+        "score": 5.740927714553234,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 41,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 38,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N02",
+      "core": {
+        "code": "AAAAMNA",
+        "start": 17,
+        "end": 24,
+        "score": 4.595844363385459,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 27,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": {
+        "code": "MMWYTTNWAWWY",
+        "start": 10,
+        "end": 22,
+        "score": 5.099303207375272,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 224,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P04",
+      "core": {
+        "code": "TTNWW",
+        "start": 27,
+        "end": 32,
+        "score": 2.231782560215735,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 105,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P04",
+      "core": null
+    },
+    {
+      "node": 37,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N01",
+      "core": {
+        "code": "WNAAAA",
+        "start": 15,
+        "end": 21,
+        "score": 3.288046256509956,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 104,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P03",
+      "core": {
+        "code": "TTNWT",
+        "start": 17,
+        "end": 22,
+        "score": 2.4874171102627436,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 312,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F10-preTES-P00",
+      "core": {
+        "code": "TTNTTTTTTTTW",
+        "start": 25,
+        "end": 37,
+        "score": 7.910987209892991,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 182,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P00",
+      "core": {
+        "code": "TNTTT",
+        "start": 25,
+        "end": 30,
+        "score": 3.076324902149563,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 188,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P06",
+      "core": {
+        "code": "TTTNT",
+        "start": 14,
+        "end": 19,
+        "score": 4.67802916578578,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 4,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-N02",
+      "core": {
+        "code": "AMAMANAAANAM",
+        "start": 13,
+        "end": 25,
+        "score": 6.924920012557919,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 265,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N01",
+      "core": {
+        "code": "AAAA",
+        "start": 17,
+        "end": 21,
+        "score": 3.2143554276934823,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 39,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 67,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 227,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P07",
+      "core": {
+        "code": "MHWNTTYNTM",
+        "start": 23,
+        "end": 33,
+        "score": 4.4902444612733925,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 266,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N02",
+      "core": {
+        "code": "TTNWW",
+        "start": 20,
+        "end": 25,
+        "score": 2.82458330591768,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 190,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P08",
+      "core": {
+        "code": "WWTTT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0052918319220403,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 130,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N04",
+      "core": {
+        "code": "AMNAA",
+        "start": 32,
+        "end": 37,
+        "score": 3.547169460433664,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 279,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Acceptor-P04",
+      "core": {
+        "code": "TTTT",
+        "start": 28,
+        "end": 32,
+        "score": 2.7932338234214837,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 16,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N11",
+      "core": {
+        "code": "RGSNGRCWGMNG",
+        "start": 13,
+        "end": 25,
+        "score": 7.3132167786231905,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 91,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-preTES-N04",
+      "core": {
+        "code": "GVGSSNCNGGG",
+        "start": 25,
+        "end": 36,
+        "score": 6.893582366655051,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 9
+      }
+    },
+    {
+      "node": 310,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N06",
+      "core": {
+        "code": "CTKK",
+        "start": 27,
+        "end": 31,
+        "score": 2.489630059853887,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 79,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 290,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 89,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-N02",
+      "core": {
+        "code": "GGNSSGSCNG",
+        "start": 10,
+        "end": 20,
+        "score": 4.313481315612346,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 236,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N07",
+      "core": {
+        "code": "CMRGCM",
+        "start": 26,
+        "end": 32,
+        "score": 4.9953366763016085,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 155,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N06",
+      "core": null
+    },
+    {
+      "node": 83,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N09",
+      "core": {
+        "code": "SMRGNRGM",
+        "start": 24,
+        "end": 32,
+        "score": 4.213721882897715,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 30,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": {
+        "code": "YNKGG",
+        "start": 13,
+        "end": 18,
+        "score": 2.736869530933575,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 195,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N04",
+      "core": {
+        "code": "CMNGNCMMCM",
+        "start": 18,
+        "end": 28,
+        "score": 4.61506637417331,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 132,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-N00",
+      "core": {
+        "code": "GSGGNGG",
+        "start": 25,
+        "end": 32,
+        "score": 4.345688252530843,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 167,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N03",
+      "core": {
+        "code": "GTNGR",
+        "start": 44,
+        "end": 49,
+        "score": 2.1831436560619872,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 198,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-P02",
+      "core": {
+        "code": "GGGNG",
+        "start": 31,
+        "end": 36,
+        "score": 2.7348018139741628,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 205,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N02",
+      "core": {
+        "code": "CCCSNS",
+        "start": 21,
+        "end": 27,
+        "score": 3.370442494073359,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 59,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N03",
+      "core": {
+        "code": "CNSCCY",
+        "start": 17,
+        "end": 23,
+        "score": 2.856418655459733,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 80,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N06",
+      "core": {
+        "code": "GGSNS",
+        "start": 28,
+        "end": 33,
+        "score": 2.560741972999552,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 3,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-N01",
+      "core": {
+        "code": "WWNWW",
+        "start": 17,
+        "end": 22,
+        "score": 1.701604038351065,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 96,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-N02",
+      "core": {
+        "code": "ANAWW",
+        "start": 15,
+        "end": 20,
+        "score": 2.5440939958829447,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 240,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 42,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-N00",
+      "core": {
+        "code": "SSNRG",
+        "start": 19,
+        "end": 24,
+        "score": 1.5980477562005715,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 231,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 244,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 128,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N02",
+      "core": {
+        "code": "YMMW",
+        "start": 22,
+        "end": 26,
+        "score": 1.457011476214599,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 133,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-N01",
+      "core": {
+        "code": "GSSNS",
+        "start": 24,
+        "end": 29,
+        "score": 1.6396812003202137,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 166,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 292,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 193,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N02",
+      "core": {
+        "code": "YWGCCNG",
+        "start": 19,
+        "end": 26,
+        "score": 4.9329792858339125,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 52,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-Acceptor-N06",
+      "core": {
+        "code": "YWGSM",
+        "start": 21,
+        "end": 26,
+        "score": 2.6956964347794354,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 153,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N04",
+      "core": {
+        "code": "GGCW",
+        "start": 16,
+        "end": 20,
+        "score": 3.507172770637188,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 206,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 208,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 297,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 24,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N09",
+      "core": {
+        "code": "GMNCM",
+        "start": 30,
+        "end": 35,
+        "score": 2.2585805917008894,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 235,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N06",
+      "core": null
+    },
+    {
+      "node": 270,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N02",
+      "core": {
+        "code": "SMGSCMNGRSNS",
+        "start": 19,
+        "end": 31,
+        "score": 5.042841812648482,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 154,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N05",
+      "core": {
+        "code": "GRGNW",
+        "start": 15,
+        "end": 20,
+        "score": 2.9479936992573057,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 60,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 289,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N03",
+      "core": {
+        "code": "WSMRSNC",
+        "start": 31,
+        "end": 38,
+        "score": 2.204266125641363,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 129,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 163,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P03",
+      "core": {
+        "code": "TNTRT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0843282556188742,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 95,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F04-TSS-N01",
+      "core": {
+        "code": "CCCC",
+        "start": 13,
+        "end": 17,
+        "score": 2.8557165910032776,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 7,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N00",
+      "core": {
+        "code": "CCCS",
+        "start": 25,
+        "end": 29,
+        "score": 2.896119770327057,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 417,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-TSS-P00",
+      "core": {
+        "code": "GGGNG",
+        "start": 26,
+        "end": 31,
+        "score": 2.5195421808545886,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 165,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N01",
+      "core": {
+        "code": "RGGNGG",
+        "start": 22,
+        "end": 28,
+        "score": 2.5605520188850917,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 245,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N00",
+      "core": {
+        "code": "TNGGG",
+        "start": 12,
+        "end": 17,
+        "score": 2.4283115034879437,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 298,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N00",
+      "core": {
+        "code": "SSSNGG",
+        "start": 27,
+        "end": 33,
+        "score": 2.3005278778940204,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 268,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 300,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 62,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 125,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-P01",
+      "core": {
+        "code": "GGNGGS",
+        "start": 25,
+        "end": 31,
+        "score": 3.2938292705805576,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 2,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F01-TSS-N00",
+      "core": {
+        "code": "CCCCCCCNCCCC",
+        "start": 14,
+        "end": 26,
+        "score": 8.161163755434014,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 447,
+      "n": 5,
+      "hits": 4,
+      "medoid": "F05-TSS-P00",
+      "core": {
+        "code": "SNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.4933119109563555,
+        "member_support": 1.0,
+        "min_column_support": 0.8,
+        "conserved": 4
+      },
+      "group_id": "G09",
+      "name": "SN3G",
+      "leaves": [
+        196,
+        291,
+        262,
+        94,
+        124
+      ],
+      "rank_lo": 214,
+      "rank_hi": 218,
+      "rank": 216.0
+    },
+    {
+      "node": 295,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F10-TSS-N01",
+      "core": {
+        "code": "CMCCCNC",
+        "start": 15,
+        "end": 22,
+        "score": 3.9275211328953503,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 32,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-TSS-P00",
+      "core": {
+        "code": "GGGGGNG",
+        "start": 25,
+        "end": 32,
+        "score": 5.005958651645942,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 92,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-P00",
+      "core": {
+        "code": "GGKGGNGGNG",
+        "start": 10,
+        "end": 20,
+        "score": 5.093801636931368,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 63,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-TSS-P01",
+      "core": {
+        "code": "GGGGNS",
+        "start": 26,
+        "end": 32,
+        "score": 3.267176183633025,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 404,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-TSS-N00",
+      "core": {
+        "code": "SCCC",
+        "start": 16,
+        "end": 20,
+        "score": 2.7679708685277764,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G10",
+      "name": "S3C",
+      "leaves": [
+        156,
+        158,
+        199
+      ],
+      "rank_lo": 223,
+      "rank_hi": 225,
+      "rank": 224.0
+    },
+    {
+      "node": 608,
+      "n": 18,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N03",
+      "core": {
+        "code": "GGAGGCYGAGG",
+        "start": 21,
+        "end": 32,
+        "score": 9.587817144768131,
+        "member_support": 1.0,
+        "min_column_support": 0.9444444444444444,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 599,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N03",
+      "core": {
+        "code": "CCAGGCTGGWST",
+        "start": 20,
+        "end": 32,
+        "score": 9.261290126859787,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 605,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N07",
+      "core": {
+        "code": "TGAANCYRGGAG",
+        "start": 12,
+        "end": 24,
+        "score": 7.936961657448886,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 604,
+      "n": 15,
+      "hits": 6,
+      "medoid": "F09-Acceptor-P03",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 20,
+        "end": 32,
+        "score": 9.847600382411999,
+        "member_support": 1.0,
+        "min_column_support": 0.8666666666666667,
+        "conserved": 12
+      },
+      "group_id": "G11",
+      "name": "4TKTW5T-01",
+      "leaves": [
+        98,
+        102,
+        278,
+        11,
+        45,
+        71,
+        135,
+        250,
+        12,
+        148,
+        280,
+        276,
+        303,
+        55,
+        147
+      ],
+      "rank_lo": 256,
+      "rank_hi": 270,
+      "rank": 263.0
+    },
+    {
+      "node": 592,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N03",
+      "core": {
+        "code": "GGTGGCNS",
+        "start": 21,
+        "end": 29,
+        "score": 4.817373273722272,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 555,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N03",
+      "core": {
+        "code": "RGGNG",
+        "start": 18,
+        "end": 23,
+        "score": 3.2518424879024135,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 215,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N04",
+      "core": {
+        "code": "GCTGGAGTNCAG",
+        "start": 21,
+        "end": 33,
+        "score": 10.26043352020656,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 372,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N07",
+      "core": {
+        "code": "YNYRW",
+        "start": 40,
+        "end": 45,
+        "score": 1.8435587008636585,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 505,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-P02",
+      "core": {
+        "code": "GGGGSNGG",
+        "start": 21,
+        "end": 29,
+        "score": 6.264030226758312,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      },
+      "group_id": "G12",
+      "name": "4GSNGG",
+      "leaves": [
+        34,
+        126
+      ],
+      "rank_lo": 283,
+      "rank_hi": 284,
+      "rank": 283.5
+    },
+    {
+      "node": 82,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N08",
+      "core": {
+        "code": "CNCNCTGCAR",
+        "start": 19,
+        "end": 29,
+        "score": 6.3669113278564975,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 43,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-N01",
+      "core": {
+        "code": "RGRGGNWGNGGG",
+        "start": 20,
+        "end": 32,
+        "score": 8.38017148151257,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 422,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-Donor-N06",
+      "core": {
+        "code": "GWGG",
+        "start": 6,
+        "end": 10,
+        "score": 2.592291114839882,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 612,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F04-preTES-P02",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 11,
+        "end": 23,
+        "score": 13.932683570982423,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      },
+      "group_id": "G13",
+      "name": "4TKTW5T-02",
+      "leaves": [
+        84,
+        210,
+        173,
+        277,
+        119,
+        302
+      ],
+      "rank_lo": 289,
+      "rank_hi": 294,
+      "rank": 291.5
+    },
+    {
+      "node": 613,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N08",
+      "core": {
+        "code": "GCNACC",
+        "start": 43,
+        "end": 49,
+        "score": 4.6938692666879085,
+        "member_support": 0.8,
+        "min_column_support": 0.8,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 622,
+      "n": 14,
+      "hits": 0,
+      "medoid": "F03-preTES-N01",
+      "core": {
+        "code": "CCTGTANTCCCA",
+        "start": 26,
+        "end": 38,
+        "score": 11.651032337428347,
+        "member_support": 0.9285714285714286,
+        "min_column_support": 0.9285714285714286,
+        "conserved": 11
+      }
+    }
+  ],
+  "named_hit_bearing_multi_pattern_clades": [
+    {
+      "node": 335,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F03-Donor-P01",
+      "core": {
+        "code": "TNTTT",
+        "start": 16,
+        "end": 21,
+        "score": 3.4934746802269028,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G01",
+      "name": "TN3T",
+      "leaves": [
+        66,
+        249
+      ],
+      "rank_lo": 59,
+      "rank_hi": 60,
+      "rank": 59.5
+    },
+    {
+      "node": 397,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F07-preTES-P02",
+      "core": {
+        "code": "TNTTTTTWWWTT",
+        "start": 13,
+        "end": 25,
+        "score": 8.042440438410129,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      },
+      "group_id": "G02",
+      "name": "TN5T3WTT",
+      "leaves": [
+        222,
+        223
+      ],
+      "rank_lo": 90,
+      "rank_hi": 91,
+      "rank": 90.5
+    },
+    {
+      "node": 480,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F06-preTES-P02",
+      "core": {
+        "code": "TTTT",
+        "start": 11,
+        "end": 15,
+        "score": 2.967326838461899,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G03",
+      "name": "4T-01",
+      "leaves": [
+        6,
+        184,
+        226
+      ],
+      "rank_lo": 92,
+      "rank_hi": 94,
+      "rank": 93.0
+    },
+    {
+      "node": 529,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-preTES-P05",
+      "core": {
+        "code": "TTTT",
+        "start": 27,
+        "end": 31,
+        "score": 3.6248761406868795,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G04",
+      "name": "4T-02",
+      "leaves": [
+        118,
+        103,
+        225
+      ],
+      "rank_lo": 95,
+      "rank_hi": 97,
+      "rank": 96.0
+    },
+    {
+      "node": 384,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F03-Acceptor-P03",
+      "core": {
+        "code": "TNWTT",
+        "start": 22,
+        "end": 27,
+        "score": 4.320023851049685,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G05",
+      "name": "TNWTT",
+      "leaves": [
+        73,
+        86
+      ],
+      "rank_lo": 100,
+      "rank_hi": 101,
+      "rank": 100.5
+    },
+    {
+      "node": 492,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-N00",
+      "core": {
+        "code": "CNCCC",
+        "start": 27,
+        "end": 32,
+        "score": 4.063021200114713,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G06",
+      "name": "CN3C",
+      "leaves": [
+        36,
+        239
+      ],
+      "rank_lo": 109,
+      "rank_hi": 110,
+      "rank": 109.5
+    },
+    {
+      "node": 471,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F01-TSS-P01",
+      "core": {
+        "code": "RGNGG",
+        "start": 20,
+        "end": 25,
+        "score": 4.0458581358677845,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G07",
+      "name": "RGNGG",
+      "leaves": [
+        1,
+        33
+      ],
+      "rank_lo": 116,
+      "rank_hi": 117,
+      "rank": 116.5
+    },
+    {
+      "node": 545,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F05-preTES-N03",
+      "core": {
+        "code": "GAGNC",
+        "start": 21,
+        "end": 26,
+        "score": 3.280755788133723,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G08",
+      "name": "GAGNC",
+      "leaves": [
+        152,
+        234
+      ],
+      "rank_lo": 137,
+      "rank_hi": 138,
+      "rank": 137.5
+    },
+    {
+      "node": 447,
+      "n": 5,
+      "hits": 4,
+      "medoid": "F05-TSS-P00",
+      "core": {
+        "code": "SNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.4933119109563555,
+        "member_support": 1.0,
+        "min_column_support": 0.8,
+        "conserved": 4
+      },
+      "group_id": "G09",
+      "name": "SN3G",
+      "leaves": [
+        196,
+        291,
+        262,
+        94,
+        124
+      ],
+      "rank_lo": 214,
+      "rank_hi": 218,
+      "rank": 216.0
+    },
+    {
+      "node": 404,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-TSS-N00",
+      "core": {
+        "code": "SCCC",
+        "start": 16,
+        "end": 20,
+        "score": 2.7679708685277764,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      },
+      "group_id": "G10",
+      "name": "S3C",
+      "leaves": [
+        156,
+        158,
+        199
+      ],
+      "rank_lo": 223,
+      "rank_hi": 225,
+      "rank": 224.0
+    },
+    {
+      "node": 604,
+      "n": 15,
+      "hits": 6,
+      "medoid": "F09-Acceptor-P03",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 20,
+        "end": 32,
+        "score": 9.847600382411999,
+        "member_support": 1.0,
+        "min_column_support": 0.8666666666666667,
+        "conserved": 12
+      },
+      "group_id": "G11",
+      "name": "4TKTW5T-01",
+      "leaves": [
+        98,
+        102,
+        278,
+        11,
+        45,
+        71,
+        135,
+        250,
+        12,
+        148,
+        280,
+        276,
+        303,
+        55,
+        147
+      ],
+      "rank_lo": 256,
+      "rank_hi": 270,
+      "rank": 263.0
+    },
+    {
+      "node": 505,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-P02",
+      "core": {
+        "code": "GGGGSNGG",
+        "start": 21,
+        "end": 29,
+        "score": 6.264030226758312,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      },
+      "group_id": "G12",
+      "name": "4GSNGG",
+      "leaves": [
+        34,
+        126
+      ],
+      "rank_lo": 283,
+      "rank_hi": 284,
+      "rank": 283.5
+    },
+    {
+      "node": 612,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F04-preTES-P02",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 11,
+        "end": 23,
+        "score": 13.932683570982423,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      },
+      "group_id": "G13",
+      "name": "4TKTW5T-02",
+      "leaves": [
+        84,
+        210,
+        173,
+        277,
+        119,
+        302
+      ],
+      "rank_lo": 289,
+      "rank_hi": 294,
+      "rank": 291.5
+    }
+  ],
+  "independent_hits": [
+    {
+      "group_id": "S01",
+      "name": "S01",
+      "node": 281,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        281
+      ],
+      "rank_lo": 25,
+      "rank_hi": 25,
+      "rank": 25,
+      "core": null
+    },
+    {
+      "group_id": "S02",
+      "name": "S02",
+      "node": 157,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        157
+      ],
+      "rank_lo": 34,
+      "rank_hi": 34,
+      "rank": 34,
+      "core": null
+    },
+    {
+      "group_id": "S03",
+      "name": "S03",
+      "node": 65,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        65
+      ],
+      "rank_lo": 65,
+      "rank_hi": 65,
+      "rank": 65,
+      "core": null
+    },
+    {
+      "group_id": "S04",
+      "name": "S04",
+      "node": 185,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        185
+      ],
+      "rank_lo": 82,
+      "rank_hi": 82,
+      "rank": 82,
+      "core": null
+    },
+    {
+      "group_id": "S05",
+      "name": "S05",
+      "node": 26,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        26
+      ],
+      "rank_lo": 98,
+      "rank_hi": 98,
+      "rank": 98,
+      "core": null
+    },
+    {
+      "group_id": "S06",
+      "name": "S06",
+      "node": 35,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        35
+      ],
+      "rank_lo": 107,
+      "rank_hi": 107,
+      "rank": 107,
+      "core": null
+    },
+    {
+      "group_id": "S07",
+      "name": "S07",
+      "node": 116,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        116
+      ],
+      "rank_lo": 133,
+      "rank_hi": 133,
+      "rank": 133,
+      "core": null
+    },
+    {
+      "group_id": "S08",
+      "name": "S08",
+      "node": 312,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        312
+      ],
+      "rank_lo": 149,
+      "rank_hi": 149,
+      "rank": 149,
+      "core": null
+    },
+    {
+      "group_id": "S09",
+      "name": "S09",
+      "node": 91,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        91
+      ],
+      "rank_lo": 162,
+      "rank_hi": 162,
+      "rank": 162,
+      "core": null
+    },
+    {
+      "group_id": "S10",
+      "name": "S10",
+      "node": 52,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        52
+      ],
+      "rank_lo": 189,
+      "rank_hi": 189,
+      "rank": 189,
+      "core": null
+    },
+    {
+      "group_id": "S11",
+      "name": "S11",
+      "node": 95,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        95
+      ],
+      "rank_lo": 202,
+      "rank_hi": 202,
+      "rank": 202,
+      "core": null
+    },
+    {
+      "group_id": "S12",
+      "name": "S12",
+      "node": 62,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        62
+      ],
+      "rank_lo": 211,
+      "rank_hi": 211,
+      "rank": 211,
+      "core": null
+    },
+    {
+      "group_id": "S13",
+      "name": "S13",
+      "node": 2,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        2
+      ],
+      "rank_lo": 213,
+      "rank_hi": 213,
+      "rank": 213,
+      "core": null
+    },
+    {
+      "group_id": "S14",
+      "name": "S14",
+      "node": 295,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        295
+      ],
+      "rank_lo": 219,
+      "rank_hi": 219,
+      "rank": 219,
+      "core": null
+    },
+    {
+      "group_id": "S15",
+      "name": "S15",
+      "node": 32,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        32
+      ],
+      "rank_lo": 220,
+      "rank_hi": 220,
+      "rank": 220,
+      "core": null
+    },
+    {
+      "group_id": "S16",
+      "name": "S16",
+      "node": 63,
+      "n": 1,
+      "hits": 1,
+      "leaves": [
+        63
+      ],
+      "rank_lo": 222,
+      "rank_hi": 222,
+      "rank": 222,
+      "core": null
+    }
+  ],
+  "overview": {
+    "scale": 1.26,
+    "rotation": 102,
+    "pages": 1,
+    "QA": [
+      {
+        "label_names": [
+          "TN3T",
+          "TN5T3WTT",
+          "4T-01",
+          "4T-02",
+          "TNWTT",
+          "CN3C",
+          "RGNGG",
+          "GAGNC",
+          "SN3G",
+          "S3C",
+          "4TKTW5T-01",
+          "4GSNGG",
+          "4TKTW5T-02"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            -1.52
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        }
+      }
+    ],
+    "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_shared_core_partitions_5x4.pdf",
+    "page_count": 1,
+    "canvas_points": [
+      360,
+      288
+    ],
+    "min_text_pt": 12,
+    "font": "Arial",
+    "all_text_black": true,
+    "embedded_images": 0,
+    "pdf_sha256": "da3e54b3d01cea6406386e08cb6ddd4e9e56a72a51bf9d299f5386055f61da90"
+  },
+  "all_pattern_count": 314,
+  "matched_count": 44,
+  "original_TOMTOM_records": 79,
+  "rules": {
+    "native_medoid": "minimum mean frozen native clustering input distance within the clade",
+    "alignment": "frozen native matalign local ungapped coordinates, including reverse complements; no new alignment",
+    "aggregation": "equal pattern weights, not seqlet weights; observed aligned columns only",
+    "IUPAC": "exact Cavener as implemented in Biopython 1.84",
+    "supported_column": "non-N Cavener symbol; >=80% of all members assign >=0.60 probability mass to its bases; >=80% observed coverage; group IC >=0.25 bits",
+    "candidate_core": "4-12 bp; >=4 supported columns; >=80% supported columns; supported ends; no adjacent unsupported Ns",
+    "member_support": ">=80% members have >=80% coverage and average Bhattacharyya coefficient >=0.90 against the group PPM across the core",
+    "core_selection": "maximum sum IC over supported columns among qualifying variable-length windows",
+    "partition": "top-down: accept maximal clade meeting the core rules, otherwise split into native children; singleton stop",
+    "overview_selection": "only qualifying clades with >=2 patterns and >=1 original TOMTOM hit are named/shaded as groups; remaining matched leaves get narrow grey strips",
+    "biological_scope": "descriptive sequence-core partitions; not validated TF families; thresholds are explicit exploratory annotation choices"
+  },
+  "detail": {
+    "scale": 1.14,
+    "rotation": 6,
+    "pages": 2,
+    "QA": [
+      {
+        "label_names": [
+          "S01",
+          "TN3T",
+          "S04",
+          "4T-01",
+          "S05",
+          "S06",
+          "RGNGG",
+          "GAGNC",
+          "S09",
+          "S11",
+          "S13",
+          "S14",
+          "S16",
+          "4TKTW5T-01",
+          "4TKTW5T-02"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": null
+      },
+      {
+        "label_names": [
+          "S02",
+          "S03",
+          "TN5T3WTT",
+          "4T-02",
+          "TNWTT",
+          "CN3C",
+          "S07",
+          "S08",
+          "S10",
+          "S12",
+          "SN3G",
+          "S15",
+          "S3C",
+          "4GSNGG"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": null
+      }
+    ],
+    "original_source_nodes": [
+      521,
+      335,
+      575,
+      578,
+      480,
+      493,
+      538,
+      529,
+      473,
+      565,
+      579,
+      492,
+      546,
+      547,
+      580,
+      595,
+      550,
+      561,
+      539,
+      359,
+      383,
+      447,
+      409,
+      404,
+      437,
+      458,
+      484,
+      553,
+      587,
+      596,
+      600,
+      603,
+      615,
+      501,
+      528,
+      571,
+      581,
+      604,
+      505,
+      614,
+      623,
+      612,
+      625
+    ],
+    "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_matched44_core_partitions_5x4.pdf",
+    "page_count": 2,
+    "canvas_points": [
+      360,
+      288
+    ],
+    "min_text_pt": 12,
+    "font": "Arial",
+    "all_text_black": true,
+    "embedded_images": 0,
+    "pdf_sha256": "8df5e4932cd3f03860c6c1eb9146556c321587a1ebd9d1283ac8c591a389a097"
+  },
+  "ring_verification": {
+    "cells": 314,
+    "matched": 44,
+    "unmatched": 270,
+    "max_RGB_deviation": 0
+  },
+  "superseded_figure_archive": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/archive/superseded_single_pattern_labels_20261019_062313.zip",
+  "independent_final_verification": {
+    "status": "PASS",
+    "registered_source_H5_files": 40,
+    "matched_patterns": 44,
+    "match_records_unchanged": 79,
+    "named_clades": 13,
+    "matched_members_in_named_clades": 28,
+    "independent_matched_patterns": 16,
+    "gray_covered_all_patterns": 65,
+    "PDF_pages": [
+      {
+        "figure": "overview",
+        "page": 1,
+        "text_spans": 16,
+        "text_overlaps": 0,
+        "text_crop": 0,
+        "grey_regions": 29
+      },
+      {
+        "figure": "detail",
+        "page": 1,
+        "text_spans": 17,
+        "text_overlaps": 0,
+        "text_crop": 0,
+        "grey_regions": 29
+      },
+      {
+        "figure": "detail",
+        "page": 2,
+        "text_spans": 16,
+        "text_overlaps": 0,
+        "text_crop": 0,
+        "grey_regions": 29
+      }
+    ]
+  }
+}

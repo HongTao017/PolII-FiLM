@@ -1,0 +1,15 @@
+{
+  "pid": 460764,
+  "command": [
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/bin/python",
+    "-B",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/controller_tenfold.py"
+  ],
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "started_utc": "2026-10-15T06:02:39Z"
+}

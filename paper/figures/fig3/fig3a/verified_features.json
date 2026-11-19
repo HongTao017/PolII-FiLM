@@ -1,0 +1,45 @@
+{
+  "manifest": "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/data/feature_manifest.tsv",
+  "sha256": "e84a1870bd5a6392038ff957a57c8d5619dcebba3cf57bd86a125a49e238fe0b",
+  "group_counts": {
+    "ChIP": 2284,
+    "eCLIP": 206,
+    "ChIAPET": 50,
+    "B": 22,
+    "DamID": 10,
+    "ATAC": 4
+  },
+  "example_feature_matches": {
+    "ChIP": {
+      "MAFK": 16,
+      "MAFF": 6,
+      "ATF2": 8,
+      "H2AFZ": 20,
+      "H3K9me3": 26
+    },
+    "eCLIP": {
+      "PRPF8": 2,
+      "PRPF4": 2,
+      "SF3B4": 2
+    },
+    "ChIAPET": {
+      "CTCF": 22,
+      "RAD21": 4,
+      "POLR2A": 22,
+      "SMC1A": 2
+    },
+    "DamID": {
+      "CTCF": 2,
+      "LMNB1": 6,
+      "NUP153": 2
+    },
+    "ATAC": {}
+  },
+  "regulatory_feature_total": 2554,
+  "regions": {
+    "pause": "TSS -50 to +250 bp",
+    "gene_body": "TSS +250 bp to TES"
+  },
+  "intervals_in_figure": "schematic, not measured binding coordinates",
+  "counts_in_parentheses": "feature columns, not distinct proteins"
+}

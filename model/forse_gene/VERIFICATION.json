@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "destination": "/mnt/HDD8TB/hongtao/end/model/forse_gene",
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "files_copied": 3892,
+  "bytes_copied": 1596829894,
+  "modules": 9,
+  "model_files": 10,
+  "loaded_models": 10,
+  "features_per_model": 383,
+  "trees_per_model": 300,
+  "archived_seed_fit_records": 1790,
+  "top30": 30,
+  "correlation_shape": [
+    30,
+    43
+  ],
+  "all_originals_unchanged": true,
+  "all_file_sha256_equal": true,
+  "training_rerun": false,
+  "selection_rerun": false,
+  "plotting_rerun": false,
+  "models_scope": "all-gene deployment refits, not CV forest objects"
+}

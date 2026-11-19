@@ -1,0 +1,24 @@
+{
+  "filename": "fig5h.pdf",
+  "panel": "H",
+  "description": "Selected motif replacement responses across all genes",
+  "entry_script": "code/render.py",
+  "cli": "plot.py",
+  "kind": "signed_motif_replacement_position_curves",
+  "source_server_directory": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/motif_insertion_allgenes_20261108",
+  "canvas_inches": [
+    8.4,
+    4.6
+  ],
+  "source_pdf_sha256": "269deeb29431fde03249ea24fa9efd1051183286b402b3b94ca64501420591ec",
+  "motif_classes": [
+    "CTCF",
+    "SP1/SP2/SP4",
+    "ZNF384"
+  ],
+  "source_data_sha256": {
+    "data/motif_sequence_classes.tsv": "eb97b0eeae51faffca647a93e1a5f3a50dcdeab4ffdee8fcd982b3c7a648063f",
+    "data/position_curves_by_sequence.tsv": "dfd5383a3e97f681f714c288f576a6a9124c1daad1ae13e024e584f7f4dd9557",
+    "data/sequence_region_summary.tsv": "012af62e589d5ac6c4b38af19ffa777af01f36fd5187385ac30fc91e3d2d7898"
+  }
+}

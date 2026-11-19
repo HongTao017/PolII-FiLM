@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "CPU_preflight",
+  "pid": 460887,
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 108, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 52, in main\n    verify_saved_predictions(config,selected)\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 33, in verify_saved_predictions\n    assert np.isclose(predicted,saved,atol=2e-4,rtol=2e-5),(seed,row.gene,predicted,saved)\nAssertionError: (20260915, 'EPSTI1', 7.659965515136719, 7.637875277649495)\n"
+}

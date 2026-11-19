@@ -1,0 +1,108 @@
+{
+  "counts": {
+    "A": 167,
+    "T": 158,
+    "G": 434,
+    "C": 442
+  },
+  "called": 1201,
+  "ambiguous": 0,
+  "gc_bases": 876,
+  "gc_percent": 72.93921731890092,
+  "cpg": 145,
+  "valid_pairs": 1200,
+  "cpg_percent": 12.083333333333334,
+  "bins": [
+    {
+      "start_offset": -600,
+      "end_offset": -501,
+      "called": 100,
+      "gc_bases": 51,
+      "gc_percent": 51.0
+    },
+    {
+      "start_offset": -500,
+      "end_offset": -401,
+      "called": 100,
+      "gc_bases": 59,
+      "gc_percent": 59.0
+    },
+    {
+      "start_offset": -400,
+      "end_offset": -301,
+      "called": 100,
+      "gc_bases": 60,
+      "gc_percent": 60.0
+    },
+    {
+      "start_offset": -300,
+      "end_offset": -201,
+      "called": 100,
+      "gc_bases": 75,
+      "gc_percent": 75.0
+    },
+    {
+      "start_offset": -200,
+      "end_offset": -101,
+      "called": 100,
+      "gc_bases": 72,
+      "gc_percent": 72.0
+    },
+    {
+      "start_offset": -100,
+      "end_offset": -1,
+      "called": 100,
+      "gc_bases": 79,
+      "gc_percent": 79.0
+    },
+    {
+      "start_offset": 0,
+      "end_offset": 99,
+      "called": 100,
+      "gc_bases": 83,
+      "gc_percent": 83.0
+    },
+    {
+      "start_offset": 100,
+      "end_offset": 199,
+      "called": 100,
+      "gc_bases": 82,
+      "gc_percent": 82.0
+    },
+    {
+      "start_offset": 200,
+      "end_offset": 299,
+      "called": 100,
+      "gc_bases": 74,
+      "gc_percent": 74.0
+    },
+    {
+      "start_offset": 300,
+      "end_offset": 399,
+      "called": 100,
+      "gc_bases": 85,
+      "gc_percent": 85.0
+    },
+    {
+      "start_offset": 400,
+      "end_offset": 499,
+      "called": 100,
+      "gc_bases": 79,
+      "gc_percent": 79.0
+    },
+    {
+      "start_offset": 500,
+      "end_offset": 599,
+      "called": 100,
+      "gc_bases": 76,
+      "gc_percent": 76.0
+    },
+    {
+      "start_offset": 600,
+      "end_offset": 600,
+      "called": 1,
+      "gc_bases": 1,
+      "gc_percent": 100.0
+    }
+  ]
+}

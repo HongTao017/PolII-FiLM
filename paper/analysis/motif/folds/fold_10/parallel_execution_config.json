@@ -1,0 +1,11 @@
+{
+  "physical_gpus": [
+    4,
+    5,
+    6
+  ],
+  "genes_per_task": 50,
+  "instances_per_task": 5,
+  "precision": "Original FP32; no TF32/autocast; original scientific arithmetic",
+  "scope": "Three idle GPUs 4/5/6 in fold 10, explicitly authorized after QC repair; no other process termination"
+}

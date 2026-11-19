@@ -1,0 +1,40 @@
+{
+  "figure": "fig3a_large_text.pdf",
+  "canvas_pt": [
+    1000,
+    520
+  ],
+  "canvas_inches": [
+    13.88888888888889,
+    7.222222222222222
+  ],
+  "canvas_size_exception": "User explicitly requested no size change.",
+  "skill": "final-figure-small",
+  "font": "Arial",
+  "ordinary_text_pt": 16,
+  "assay_titles_pt": 18,
+  "font_size_exception": "User explicitly requested larger lettering.",
+  "text_color": "#000000",
+  "all_text_black": true,
+  "top_region_brackets_removed": true,
+  "footer_removed": true,
+  "display_scope": "Only the core gene and five assay callouts shown in user screenshot.",
+  "pdf_fonttype": 42,
+  "single_shared_gene": true,
+  "raster_artists": 0,
+  "text_within_canvas": true,
+  "no_text_overlap": true,
+  "no_leader_text_intersection": true,
+  "regulatory_feature_count": 2554,
+  "group_counts": {
+    "ChIP": 2284,
+    "eCLIP": 206,
+    "ATAC": 4,
+    "DamID": 10,
+    "ChIAPET": 50
+  },
+  "verified_source_manifest_sha256": "e84a1870bd5a6392038ff957a57c8d5619dcebba3cf57bd86a125a49e238fe0b",
+  "input_metadata_sha256": "ad3c44325f5b48d4b196e55d31b1e04e030abfe3174d79d62495c9655e6f9bf4",
+  "pdf_sha256": "7be89139fd468a5e3f9f776374dc071af301a45449bced393eeacb78f584a9d5",
+  "scientific_scope": "Illustrative positions; no measured locus or exclusive binding sites implied."
+}

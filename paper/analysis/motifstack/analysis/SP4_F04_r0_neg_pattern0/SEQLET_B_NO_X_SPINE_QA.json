@@ -1,0 +1,50 @@
+{
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/SP4_MA0685_2_F04_SEQLET_B_NO_X_SPINE.pdf",
+  "sha256": "a38c7793431ca972bde3127e95ae2f2ea88612dbb1a7c88c9efc0df08766ba52",
+  "canvas_inches": [
+    12,
+    3.8
+  ],
+  "only_panel_b": true,
+  "x_axis_spine_visible": false,
+  "x_tick_marks_visible": true,
+  "x_tick_labels_visible": true,
+  "x_ticks": [
+    280,
+    290,
+    300,
+    310,
+    320,
+    329
+  ],
+  "y_ticks": [
+    -0.002,
+    -0.001,
+    0,
+    0.001,
+    0.002
+  ],
+  "signed_values_unchanged": true,
+  "base_colors": {
+    "A": "#43A36C",
+    "C": "#295B92",
+    "G": "#EEB546",
+    "T": "#CF2A3B"
+  },
+  "palette_source": "user reference codex-clipboard-3193f69c-1a61-4286-862f-4ce40e118b3d.png",
+  "palette_method": "per-base hue groups; high-chroma upper quartile RGB median to exclude white antialiased edges",
+  "observed_base_letters": 50,
+  "source_interval0_halfopen": [
+    280,
+    330
+  ],
+  "bottom_is_actual_seqlet_not_166_seqlet_average": true,
+  "font_sizes": [
+    12.0,
+    14.0
+  ],
+  "text_within_canvas": true,
+  "no_raster_images": true,
+  "rendered_on_server_in_memory": true,
+  "no_download": true
+}

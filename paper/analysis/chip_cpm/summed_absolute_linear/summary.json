@@ -1,0 +1,69 @@
+{
+  "status": "complete",
+  "genes": 1550,
+  "gene_seed_results": 7750,
+  "source_groups": 838,
+  "factors": 366,
+  "bams": 1673,
+  "pearson_r": 0.030919669204677546,
+  "pearson_p": 0.5554282240972337,
+  "linear_R2": 0.000956025943726685,
+  "slope": 9.824157894118613,
+  "intercept": 689.0224841188633,
+  "spearman_rho": 0.09018333720972727,
+  "mean_absolute_IG_comparison": {
+    "pearson_r": 0.45567130512062176,
+    "linear_R2": 0.20763633831033076
+  },
+  "descriptive_quadratic_R2": 0.0026256442365460986,
+  "x": "Unchanged mean regional CPM across regions, genes, biological replicates and source cells",
+  "y": "Sum of abs(IG_S) across both regions, all 1550 held-out genes, five seeds and every factor source group",
+  "S": "abs(predicted PC1 - original training-fold mean)",
+  "interpretation": "Total depends on the number of source groups. Five seeds are summed, not treated as independent biological samples.",
+  "code_sha256": "c391d499285db644af8c3e7052c8a351f7a1e8e3fd5cd5d852d526f9f8004370",
+  "output_sha256": "cf7726f2dee447703290b888cd143c02c5a937a8f21b7ac9f91a6235de6ea6d2",
+  "points_sha256": "3c8ca8164139acec60671cdf1bdd774e67e75d3fa1a7dd59376d225aa87b7747",
+  "input_hashes_sha256": "50b1573ef3cabee0962b2d9ce952e8ef86bde769c2e9192c733ad57ebf090559",
+  "top5": [
+    {
+      "factor": "TAF1",
+      "mean_ChIP_CPM": 35.317226142398006,
+      "sum_absolute_IG_S": 9130.48197908709,
+      "mean_absolute_IG_S": 0.19635445116316322,
+      "n_source_groups": 6,
+      "n_gene_seed_source_terms": 46500
+    },
+    {
+      "factor": "MAX",
+      "mean_ChIP_CPM": 35.36122427263135,
+      "sum_absolute_IG_S": 6516.670846885178,
+      "mean_absolute_IG_S": 0.10510759430459965,
+      "n_source_groups": 8,
+      "n_gene_seed_source_terms": 62000
+    },
+    {
+      "factor": "SIN3A",
+      "mean_ChIP_CPM": 33.887106735877346,
+      "sum_absolute_IG_S": 5752.445934164284,
+      "mean_absolute_IG_S": 0.10603586975418036,
+      "n_source_groups": 7,
+      "n_gene_seed_source_terms": 54250
+    },
+    {
+      "factor": "MAFK",
+      "mean_ChIP_CPM": 32.11647151499058,
+      "sum_absolute_IG_S": 5678.544934166712,
+      "mean_absolute_IG_S": 0.09158943442204374,
+      "n_source_groups": 8,
+      "n_gene_seed_source_terms": 62000
+    },
+    {
+      "factor": "TBP",
+      "mean_ChIP_CPM": 32.808308114142314,
+      "sum_absolute_IG_S": 5525.581881249583,
+      "mean_absolute_IG_S": 0.14259566145160213,
+      "n_source_groups": 5,
+      "n_gene_seed_source_terms": 38750
+    }
+  ]
+}

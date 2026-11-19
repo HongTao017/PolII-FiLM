@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "TOMTOM",
+  "pid": 463689,
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 130, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 93, in main\n    plan=science.freeze_perturbations(config,selected,metadata,annotations)\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_pipeline.py\", line 255, in freeze_perturbations\n    scan_fimo(config,scan_folder/'target.meme',scan_folder/'seqlets.fa',scan_folder/'fimo.tsv')\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_pipeline.py\", line 331, in scan_fimo\n    assert header and 'sequence_name' in header[0], 'Unexpected FIMO text output, not silently treated as no matches'\nAssertionError: Unexpected FIMO text output, not silently treated as no matches\n"
+}

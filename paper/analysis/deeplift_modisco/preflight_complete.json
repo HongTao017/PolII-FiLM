@@ -1,0 +1,372 @@
+{
+  "status": "PASS",
+  "method": "custom DeepLIFT Rescale with explicit GroupNorm square/rsqrt Rescale and symmetric product rule; fixed actual FiLM regulation",
+  "unit_tests": [
+    {
+      "dtype": "torch.float32",
+      "constant_reference": false,
+      "max_error": 2.86102294921875e-06
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": false,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "dtype": "torch.float32",
+      "constant_reference": true,
+      "max_error": 0.000244140625
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": true,
+      "max_error": 2.651212582804874e-13
+    }
+  ],
+  "models": [
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915",
+      "checkpoint_sha256": "5baf39628193ba588f9ada111d84a971b9784784dd6321163741e86747c470b1",
+      "preprocessing_sha256": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+      "fingerprint": "ad09653ebf24b526ba7cd227341526b999f6dadd337a46befaa1ced374df9c24",
+      "seed": 20260915,
+      "examples": [
+        {
+          "gene": "SPSB1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.0175752639770508,
+          "completeness_error": 2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "identical",
+          "prediction_delta": -4.76837158203125e-07,
+          "completeness_error": 4.76837158203125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.06636261940002441,
+          "completeness_error": 4.172325134277344e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.04248476028442383,
+          "completeness_error": -6.705522537231445e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.433764934539795,
+          "completeness_error": 2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "identical",
+          "prediction_delta": -2.384185791015625e-07,
+          "completeness_error": 2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.014831781387329102,
+          "completeness_error": 2.980232238769531e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.005750417709350586,
+          "completeness_error": 1.0617077350616455e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916",
+      "checkpoint_sha256": "98955e790d736d509f971e6ae7819d9c4ea300856a1b5ab501449d439c048286",
+      "preprocessing_sha256": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+      "fingerprint": "e4f4e2a22aac9bc0567aacaf3654b1991a6b1a09966238bed2acb21d25ce9088",
+      "seed": 20260916,
+      "examples": [
+        {
+          "gene": "SPSB1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.9509446620941162,
+          "completeness_error": -1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.0206298828125,
+          "completeness_error": 1.0989606380462646e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.015248775482177734,
+          "completeness_error": 4.023313522338867e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.5316112041473389,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.02337646484375,
+          "completeness_error": 2.5331974029541016e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.00883173942565918,
+          "completeness_error": -1.6391277313232422e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917",
+      "checkpoint_sha256": "f452bd46235e821aa05b60f46df36e44d3dc758ed923c48365ed2dafe415aaea",
+      "preprocessing_sha256": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+      "fingerprint": "e2120f9ffbf336dc41d546fad69115f4ecb4d977b20f31546fe173e76f14be9e",
+      "seed": 20260917,
+      "examples": [
+        {
+          "gene": "SPSB1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.4407459497451782,
+          "completeness_error": 1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.003970146179199219,
+          "completeness_error": 3.4458935260772705e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.04462480545043945,
+          "completeness_error": -2.60770320892334e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.0119638442993164,
+          "completeness_error": 1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.018394947052001953,
+          "completeness_error": 3.725290298461914e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.00583338737487793,
+          "completeness_error": 1.1175870895385742e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918",
+      "checkpoint_sha256": "4c93931c0306ac93adbffec6f2646bac1e7a8bd1dac88facadfa57facd514f81",
+      "preprocessing_sha256": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+      "fingerprint": "e065d3bca16d5ccc2f135c1039a54da7dff06fccdafbb48bdd93165d2658889a",
+      "seed": 20260918,
+      "examples": [
+        {
+          "gene": "SPSB1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.7740715742111206,
+          "completeness_error": 1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.012401103973388672,
+          "completeness_error": 4.284083843231201e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.008622050285339355,
+          "completeness_error": 2.2351741790771484e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.061309576034546,
+          "completeness_error": 2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.019992828369140625,
+          "completeness_error": 2.2351741790771484e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.007525444030761719,
+          "completeness_error": 2.682209014892578e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919",
+      "checkpoint_sha256": "b86ca5ce28a717e6ddcc9dd1e1f10b69cf8ff30f5e3565308aad078ab3e663a0",
+      "preprocessing_sha256": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+      "fingerprint": "81ef9e7fc901398305b98d2d32f52523cd540194dd2820a30e17fa7f36339349",
+      "seed": 20260919,
+      "examples": [
+        {
+          "gene": "SPSB1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.858739972114563,
+          "completeness_error": -1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.02935206890106201,
+          "completeness_error": -4.470348358154297e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPSB1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.028896570205688477,
+          "completeness_error": 2.2351741790771484e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.8085689544677734,
+          "completeness_error": 2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.049089908599853516,
+          "completeness_error": 6.92903995513916e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "PIK3CD",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.00042724609375,
+          "completeness_error": 1.6670674085617065e-07,
+          "forward_error": 0.0
+        }
+      ]
+    }
+  ],
+  "device": "cpu",
+  "completed_utc": "2026-10-15T02:02:45Z",
+  "optimizer_updates": 0,
+  "bn_refits": 0,
+  "preprocessing_refits": 0,
+  "code_sha256": {
+    "test_pipeline.py": "20133b0d6459357ffbe9206da3fa101b649de03a1bbcc2d10e1cac4a3bad8cbe",
+    "launch.py": "db1810bcd38c591d9c661f75ce7c1081aafce4319d6111a59703fe5255e6614b",
+    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
+    "launch_parallel.py": "b3a52bd3b705172c79a23564db81b6e6c3c7b9499b8086d6b71854364238fb90",
+    "handoff_four_gpu.py": "f50483929212a9ec0552311d04b7820d078ab4a66b9e9f08af96e90fdf240b96",
+    "test_downstream.py": "53bbbc3cbf549094e3cca56ecd30de4b17c5f8bd02f7eeb0bdaf30586d234ec3",
+    "test_parallel.py": "c24421c6468df612ba694d646614ea2dae758367e9b319ce613d687efa745724",
+    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "run_pipeline.py": "41e4f463b150e4d71b4efca49f7573d16d64926242833064471655bec4f86709",
+    "plot_perturbations.py": "0e8a6914d27b200f7ddedd78b1c2bbeaf064bb21cabce2aa3b78455d6bfdedc8"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_straight_spaced_5x4.pdf",
+  "patterns": 314,
+  "existing_matched_patterns": 44,
+  "original_TOMTOM_records": 79,
+  "distinct_JASPAR_annotations": 11,
+  "representative_selection": "Maximize minimum cyclic separation, minimize largest cyclic gap, then prefer lower original q among qualified representatives.",
+  "minimum_native_rank_separation": 7,
+  "annotation_mapping": [
+    {
+      "query": "F09-Acceptor-N00",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "q": 0.0466881,
+      "p": 0.00018884,
+      "overlap": 11,
+      "leaf": 281,
+      "rank": 25,
+      "display_angle_deg": 0.0
+    },
+    {
+      "query": "F03-Donor-P00",
+      "TF": "ZNF184",
+      "matrix_id": "MA2120.1",
+      "q": 0.0226579,
+      "p": 9.06315e-05,
+      "overlap": 13,
+      "leaf": 65,
+      "rank": 65,
+      "display_angle_deg": 32.72727272727273
+    },
+    {
+      "query": "F02-TSS-N00",
+      "TF": "MAZ",
+      "matrix_id": "MA1522.2",
+      "q": 0.0158051,
+      "p": 0.000322255,
+      "overlap": 8,
+      "leaf": 36,
+      "rank": 109,
+      "display_angle_deg": 65.45454545454545
+    },
+    {
+      "query": "F07-preTES-N05",
+      "TF": "ZNF407",
+      "matrix_id": "MA2553.1",
+      "q": 0.0370115,
+      "p": 0.000149095,
+      "overlap": 17,
+      "leaf": 234,
+      "rank": 138,
+      "display_angle_deg": 98.18181818181819
+    },
+    {
+      "query": "F03-preTES-N04",
+      "TF": "CTCF",
+      "matrix_id": "MA0139.2",
+      "q": 0.0409677,
+      "p": 0.000164542,
+      "overlap": 15,
+      "leaf": 91,
+      "rank": 162,
+      "display_angle_deg": 130.9090909090909
+    },
+    {
+      "query": "F02-Acceptor-N06",
+      "TF": "PAX8",
+      "matrix_id": "MA2094.1",
+      "q": 0.0385651,
+      "p": 0.000154727,
+      "overlap": 16,
+      "leaf": 52,
+      "rank": 189,
+      "display_angle_deg": 163.63636363636363
+    },
+    {
+      "query": "F03-TSS-P00",
+      "TF": "EGR1",
+      "matrix_id": "MA0162.5",
+      "q": 0.0335064,
+      "p": 0.000272154,
+      "overlap": 10,
+      "leaf": 62,
+      "rank": 211,
+      "display_angle_deg": 196.36363636363635
+    },
+    {
+      "query": "F05-TSS-P00",
+      "TF": "SP2",
+      "matrix_id": "MA0516.3",
+      "q": 0.00659368,
+      "p": 4.79024e-05,
+      "overlap": 9,
+      "leaf": 124,
+      "rank": 218,
+      "display_angle_deg": 229.09090909090907
+    },
+    {
+      "query": "F07-TSS-N00",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "q": 0.0202126,
+      "p": 0.00022129,
+      "overlap": 9,
+      "leaf": 199,
+      "rank": 225,
+      "display_angle_deg": 261.8181818181818
+    },
+    {
+      "query": "F04-Acceptor-P01",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "q": 0.00468491,
+      "p": 1.87396e-05,
+      "overlap": 8,
+      "leaf": 102,
+      "rank": 257,
+      "display_angle_deg": 294.54545454545456
+    },
+    {
+      "query": "F05-TSS-N00",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "q": 0.0251695,
+      "p": 0.000102219,
+      "overlap": 9,
+      "leaf": 126,
+      "rank": 284,
+      "display_angle_deg": 327.2727272727273
+    }
+  ],
+  "tree_topology_unchanged": true,
+  "cyclic_leaf_order_unchanged": true,
+  "angular_spacing_is_display_only": true,
+  "angular_width_is_not_abundance": true,
+  "labels_are_clusters": false,
+  "layout_QA": {
+    "clipped": [],
+    "label_collisions": [],
+    "straight_leader_count": 11,
+    "leader_bends": 0,
+    "leader_crossings": 0,
+    "motif_angle_gaps_deg": [
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273,
+      32.72727272727273
+    ],
+    "minimum_leaf_angle_deg": 0.5950413223140496,
+    "original_rank_gaps": [
+      40,
+      44,
+      29,
+      24,
+      27,
+      22,
+      7,
+      7,
+      32,
+      27,
+      55
+    ]
+  },
+  "canvas_points": [
+    360,
+    288
+  ],
+  "font": "Arial",
+  "min_text_pt": 11.999999046325684,
+  "all_text_black": true,
+  "embedded_images": 0,
+  "topology_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "pdf_sha256": "f9e600df5d12012cba8868725013f36a74ac717d2ea7464c99b4e0aae3331ba4"
+}

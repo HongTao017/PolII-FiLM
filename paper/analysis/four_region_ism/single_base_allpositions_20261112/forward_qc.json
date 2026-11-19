@@ -1,0 +1,45 @@
+{
+  "gene": "C1orf159",
+  "gene_index": 7,
+  "physical_site_indices": [
+    0,
+    2500,
+    4030,
+    4999
+  ],
+  "batch_size": 128,
+  "fp32": true,
+  "tf32": false,
+  "records": [
+    {
+      "seed": 20260915,
+      "wt_vs_saved_abs": 0.0,
+      "variant_vs_saved_max_abs": 8.844558720966234e-07,
+      "batch128_noedit_max_abs": 8.844289878240374e-07
+    },
+    {
+      "seed": 20260916,
+      "wt_vs_saved_abs": 0.0,
+      "variant_vs_saved_max_abs": 8.843896210919411e-07,
+      "batch128_noedit_max_abs": 4.4221449435610793e-07
+    },
+    {
+      "seed": 20260917,
+      "wt_vs_saved_abs": 0.0,
+      "variant_vs_saved_max_abs": 4.422173995877188e-07,
+      "batch128_noedit_max_abs": 0.0
+    },
+    {
+      "seed": 20260918,
+      "wt_vs_saved_abs": 0.0,
+      "variant_vs_saved_max_abs": 4.4226816964254567e-07,
+      "batch128_noedit_max_abs": 8.844289878240374e-07
+    },
+    {
+      "seed": 20260919,
+      "wt_vs_saved_abs": 0.0,
+      "variant_vs_saved_max_abs": 8.844497800808426e-07,
+      "batch128_noedit_max_abs": 4.4221449435610793e-07
+    }
+  ]
+}

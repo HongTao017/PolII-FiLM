@@ -1,0 +1,6578 @@
+{
+  "groups": [
+    {
+      "node": 621,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N04",
+      "core": {
+        "code": "TGGGATTACAGG",
+        "start": 29,
+        "end": 41,
+        "score": 13.646543292427534,
+        "member_support": 0.8,
+        "min_column_support": 0.8,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 50,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N04",
+      "core": {
+        "code": "SNGGS",
+        "start": 21,
+        "end": 26,
+        "score": 2.094370058035085,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 151,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 178,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 121,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 19,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 299,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N01",
+      "core": {
+        "code": "SSMNG",
+        "start": 27,
+        "end": 32,
+        "score": 2.030067986377822,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 69,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 100,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-N01",
+      "core": {
+        "code": "YNGGS",
+        "start": 16,
+        "end": 21,
+        "score": 1.8763964997668523,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 246,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 203,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 243,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 230,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 72,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-P02",
+      "core": null
+    },
+    {
+      "node": 142,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 164,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 258,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 46,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 136,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N00",
+      "core": {
+        "code": "GGNGG",
+        "start": 25,
+        "end": 30,
+        "score": 2.4688128870933395,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 99,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 174,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N00",
+      "core": {
+        "code": "GSNGGG",
+        "start": 27,
+        "end": 33,
+        "score": 3.3237582121084213,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 281,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F09-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 13,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N00",
+      "core": {
+        "code": "GGNGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.532476566361526,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 304,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 229,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 211,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 149,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 120,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 56,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 286,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 157,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F06-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 197,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 93,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 238,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 0,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 248,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 68,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 74,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 107,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 200,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-N01",
+      "core": {
+        "code": "AAANMA",
+        "start": 29,
+        "end": 35,
+        "score": 3.6781695505643164,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 117,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-P00",
+      "core": {
+        "code": "TNTKTT",
+        "start": 12,
+        "end": 18,
+        "score": 2.9927310644491536,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 204,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 25,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 159,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 294,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-N00",
+      "core": {
+        "code": "MAANG",
+        "start": 34,
+        "end": 39,
+        "score": 2.3616255023756954,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 247,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 313,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 162,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 44,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 70,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 10,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 134,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 172,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 275,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 16,
+        "end": 20,
+        "score": 2.309080096807146,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 101,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 31,
+        "end": 35,
+        "score": 3.3835461670519686,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 335,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F03-Donor-P01",
+      "core": {
+        "code": "TNTTT",
+        "start": 16,
+        "end": 21,
+        "score": 3.4934743902648835,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 209,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 24,
+        "end": 28,
+        "score": 3.0399317338635523,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 301,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 5,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-P00",
+      "core": {
+        "code": "TTNTT",
+        "start": 21,
+        "end": 26,
+        "score": 2.8889842133628383,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 161,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P01",
+      "core": {
+        "code": "TTTT",
+        "start": 23,
+        "end": 27,
+        "score": 3.2110593281472415,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 65,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 202,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 242,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 24,
+        "end": 28,
+        "score": 2.737070025603905,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 97,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 40,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 131,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 267,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 201,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 160,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 296,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 191,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 150,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 287,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 57,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 259,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 466,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-preTES-P01",
+      "core": {
+        "code": "WWWNT",
+        "start": 17,
+        "end": 22,
+        "score": 2.4890585747024367,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 185,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F06-preTES-P03",
+      "core": {
+        "code": "TTNTTTTTNTTY",
+        "start": 15,
+        "end": 27,
+        "score": 8.960315375826962,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 189,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P07",
+      "core": {
+        "code": "RYTYTNTTNTKT",
+        "start": 9,
+        "end": 21,
+        "score": 7.003672841472125,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 221,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P01",
+      "core": {
+        "code": "TTTTNWTTWNTT",
+        "start": 12,
+        "end": 24,
+        "score": 7.0118835311856795,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 228,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P08",
+      "core": {
+        "code": "WTTWTWTNTNTW",
+        "start": 27,
+        "end": 39,
+        "score": 6.968833617487945,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 85,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-P01",
+      "core": {
+        "code": "TTTWTTTTYT",
+        "start": 19,
+        "end": 29,
+        "score": 8.599909481016736,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 106,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P05",
+      "core": {
+        "code": "WTTNT",
+        "start": 12,
+        "end": 17,
+        "score": 3.1397260217956147,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 54,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-P00",
+      "core": {
+        "code": "AAAWWRMAAAAA",
+        "start": 24,
+        "end": 36,
+        "score": 8.163574082498847,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 186,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P04",
+      "core": {
+        "code": "TKNTNWWWWTTT",
+        "start": 15,
+        "end": 27,
+        "score": 7.65163808276971,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 397,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F07-preTES-P02",
+      "core": {
+        "code": "TNTNTTTWWWTT",
+        "start": 13,
+        "end": 25,
+        "score": 7.333832899496212,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 480,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F06-preTES-P02",
+      "core": {
+        "code": "TTTT",
+        "start": 11,
+        "end": 15,
+        "score": 2.967326580993808,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 529,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-preTES-P05",
+      "core": {
+        "code": "TTTT",
+        "start": 27,
+        "end": 31,
+        "score": 3.6248758404918977,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 26,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F01-preTES-P01",
+      "core": {
+        "code": "AANAAANAAAAW",
+        "start": 15,
+        "end": 27,
+        "score": 9.388848221285143,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 187,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P05",
+      "core": {
+        "code": "TTTNTTTANWTT",
+        "start": 11,
+        "end": 23,
+        "score": 7.266247619368565,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 384,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F03-Acceptor-P03",
+      "core": {
+        "code": "TNWTT",
+        "start": 22,
+        "end": 27,
+        "score": 4.3200227931315265,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 513,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-P03",
+      "core": {
+        "code": "AMWNAAWW",
+        "start": 10,
+        "end": 18,
+        "score": 3.856602905171334,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 554,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N03",
+      "core": {
+        "code": "CCAGGCNG",
+        "start": 34,
+        "end": 42,
+        "score": 5.541230420342502,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 260,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N02",
+      "core": {
+        "code": "GGSAGNCNSAGG",
+        "start": 12,
+        "end": 24,
+        "score": 8.825284896702625,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 35,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-TSS-P03",
+      "core": {
+        "code": "GSGNGGGGG",
+        "start": 21,
+        "end": 30,
+        "score": 6.648104762444296,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 272,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N04",
+      "core": {
+        "code": "GGNGG",
+        "start": 17,
+        "end": 22,
+        "score": 4.194700621079262,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 492,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-N00",
+      "core": {
+        "code": "CNCCC",
+        "start": 27,
+        "end": 32,
+        "score": 4.063020857079333,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 21,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N06",
+      "core": {
+        "code": "GYSKSTNRTNCC",
+        "start": 30,
+        "end": 42,
+        "score": 5.487893268134331,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 497,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N04",
+      "core": {
+        "code": "GSSNGG",
+        "start": 20,
+        "end": 26,
+        "score": 3.4659185306441103,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 168,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N04",
+      "core": {
+        "code": "GGNGS",
+        "start": 17,
+        "end": 22,
+        "score": 3.240219585373379,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 64,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-TSS-N00",
+      "core": {
+        "code": "CCCCNCCCNCC",
+        "start": 17,
+        "end": 28,
+        "score": 6.8323462834324875,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 9
+      }
+    },
+    {
+      "node": 471,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F01-TSS-P01",
+      "core": {
+        "code": "RGNGG",
+        "start": 20,
+        "end": 25,
+        "score": 4.0458575589313375,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 31,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-N02",
+      "core": {
+        "code": "GNGNGGKGGGGG",
+        "start": 18,
+        "end": 30,
+        "score": 8.92397000417274,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 171,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N07",
+      "core": {
+        "code": "SRRGGNY",
+        "start": 9,
+        "end": 16,
+        "score": 3.3289459269904693,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 9,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N02",
+      "core": {
+        "code": "CCNCC",
+        "start": 23,
+        "end": 28,
+        "score": 4.201610844258097,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 90,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-N03",
+      "core": {
+        "code": "GGNGSNRGGS",
+        "start": 13,
+        "end": 23,
+        "score": 6.277107448008172,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 138,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N10",
+      "core": {
+        "code": "SAGWGCNGWGGS",
+        "start": 15,
+        "end": 27,
+        "score": 9.102377616046791,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 257,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N06",
+      "core": {
+        "code": "CCNCMYNCAM",
+        "start": 31,
+        "end": 41,
+        "score": 5.3628144485906795,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 274,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N06",
+      "core": {
+        "code": "MMCNKGSNGC",
+        "start": 7,
+        "end": 17,
+        "score": 5.119546872375198,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 194,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N03",
+      "core": {
+        "code": "CYNTGCC",
+        "start": 17,
+        "end": 24,
+        "score": 6.397265256766472,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 293,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-P02",
+      "core": {
+        "code": "GGNWGR",
+        "start": 30,
+        "end": 36,
+        "score": 3.94020727851912,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 261,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 273,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 207,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N04",
+      "core": {
+        "code": "SSTGG",
+        "start": 29,
+        "end": 34,
+        "score": 3.034762877689508,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 340,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-N00",
+      "core": {
+        "code": "SSSNGS",
+        "start": 24,
+        "end": 30,
+        "score": 2.8198628284479974,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 264,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N00",
+      "core": {
+        "code": "CYYYM",
+        "start": 20,
+        "end": 25,
+        "score": 2.749360035453822,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 116,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 127,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N01",
+      "core": {
+        "code": "CCMNC",
+        "start": 19,
+        "end": 24,
+        "score": 4.222293631403013,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 169,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N05",
+      "core": {
+        "code": "RNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 3.760185086569014,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 8,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N01",
+      "core": {
+        "code": "GCCNCR",
+        "start": 15,
+        "end": 21,
+        "score": 3.259265784186092,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 545,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F05-preTES-N03",
+      "core": {
+        "code": "GAGNC",
+        "start": 21,
+        "end": 26,
+        "score": 3.280755506265277,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 139,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N02",
+      "core": {
+        "code": "SCCAGGCTGG",
+        "start": 24,
+        "end": 34,
+        "score": 6.894438181825921,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 109,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N02",
+      "core": {
+        "code": "CAGGNTG",
+        "start": 23,
+        "end": 30,
+        "score": 3.9805969881583634,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 308,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N04",
+      "core": {
+        "code": "CYCNGGCTNG",
+        "start": 21,
+        "end": 31,
+        "score": 5.740926983200692,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 41,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 38,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N02",
+      "core": {
+        "code": "AAAAMNA",
+        "start": 17,
+        "end": 24,
+        "score": 4.595843076063958,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 27,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": {
+        "code": "MMWYTTNWAWWY",
+        "start": 10,
+        "end": 22,
+        "score": 5.0993020861365554,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 224,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P04",
+      "core": {
+        "code": "TTNWW",
+        "start": 27,
+        "end": 32,
+        "score": 2.231782366200565,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 105,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P04",
+      "core": null
+    },
+    {
+      "node": 37,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N01",
+      "core": {
+        "code": "WNAAAA",
+        "start": 15,
+        "end": 21,
+        "score": 3.288045975062868,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 104,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 312,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F10-preTES-P00",
+      "core": {
+        "code": "TTNTTTTTTTTW",
+        "start": 25,
+        "end": 37,
+        "score": 7.910986082409894,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 182,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P00",
+      "core": {
+        "code": "TNTTT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0763246448433907,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 188,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P06",
+      "core": {
+        "code": "TTTNT",
+        "start": 14,
+        "end": 19,
+        "score": 4.678028319457484,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 4,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-N02",
+      "core": {
+        "code": "AMAMANAAANAM",
+        "start": 13,
+        "end": 25,
+        "score": 6.92491829676306,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 265,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N01",
+      "core": {
+        "code": "AAAA",
+        "start": 17,
+        "end": 21,
+        "score": 3.2143544712093552,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 39,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 67,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 227,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P07",
+      "core": {
+        "code": "TTYNTM",
+        "start": 27,
+        "end": 33,
+        "score": 3.088856437297628,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 266,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N02",
+      "core": {
+        "code": "TTNWW",
+        "start": 20,
+        "end": 25,
+        "score": 2.8245823844246725,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 190,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P08",
+      "core": {
+        "code": "WWTTT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0052911197857903,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 130,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N04",
+      "core": {
+        "code": "AMNAA",
+        "start": 32,
+        "end": 37,
+        "score": 3.5471684858284696,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 279,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Acceptor-P04",
+      "core": null
+    },
+    {
+      "node": 16,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N11",
+      "core": {
+        "code": "RGSNGRCWGMNG",
+        "start": 13,
+        "end": 25,
+        "score": 7.313214798072225,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 91,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-preTES-N04",
+      "core": {
+        "code": "CNGGG",
+        "start": 31,
+        "end": 36,
+        "score": 3.6591653967301094,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 310,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N06",
+      "core": {
+        "code": "CTKK",
+        "start": 27,
+        "end": 31,
+        "score": 2.4896293939089222,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 79,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 290,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 89,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-N02",
+      "core": {
+        "code": "GGNSSGSCNG",
+        "start": 10,
+        "end": 20,
+        "score": 4.313480496298158,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 236,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N07",
+      "core": {
+        "code": "CMRGCM",
+        "start": 26,
+        "end": 32,
+        "score": 4.995335344652162,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 155,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N06",
+      "core": null
+    },
+    {
+      "node": 83,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N09",
+      "core": {
+        "code": "SMRGNRGM",
+        "start": 24,
+        "end": 32,
+        "score": 4.2137206146254105,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 30,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": {
+        "code": "YNKGG",
+        "start": 13,
+        "end": 18,
+        "score": 2.736868844253335,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 195,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N04",
+      "core": {
+        "code": "CMNGNCMMCM",
+        "start": 18,
+        "end": 28,
+        "score": 4.615065307731878,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 132,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-N00",
+      "core": {
+        "code": "GSGGNGG",
+        "start": 25,
+        "end": 32,
+        "score": 4.345686985443963,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 167,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 198,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-P02",
+      "core": {
+        "code": "GGGNG",
+        "start": 31,
+        "end": 36,
+        "score": 2.734801362192158,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 205,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N02",
+      "core": {
+        "code": "CCCSNS",
+        "start": 21,
+        "end": 27,
+        "score": 3.3704421954839963,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 59,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N03",
+      "core": {
+        "code": "CNSCCY",
+        "start": 17,
+        "end": 23,
+        "score": 2.856418409755305,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 80,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N06",
+      "core": {
+        "code": "GSNRG",
+        "start": 34,
+        "end": 39,
+        "score": 2.224783120582462,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 3,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-N01",
+      "core": {
+        "code": "WWNWW",
+        "start": 17,
+        "end": 22,
+        "score": 1.701603873933606,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 96,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-N02",
+      "core": {
+        "code": "ANAWW",
+        "start": 15,
+        "end": 20,
+        "score": 2.544093330925927,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 240,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 42,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 231,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 244,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 128,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N02",
+      "core": {
+        "code": "YMMW",
+        "start": 22,
+        "end": 26,
+        "score": 1.4570113376157874,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 133,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-N01",
+      "core": {
+        "code": "GSSNS",
+        "start": 24,
+        "end": 29,
+        "score": 1.6396810572073246,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 166,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 292,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 193,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N02",
+      "core": {
+        "code": "YWGCCNG",
+        "start": 19,
+        "end": 26,
+        "score": 4.932978194780057,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 52,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-Acceptor-N06",
+      "core": {
+        "code": "YWGSM",
+        "start": 21,
+        "end": 26,
+        "score": 2.6956961963832153,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 153,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N04",
+      "core": {
+        "code": "GGCW",
+        "start": 16,
+        "end": 20,
+        "score": 3.507172025321333,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 206,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 208,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 297,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 24,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N09",
+      "core": {
+        "code": "GMNCM",
+        "start": 30,
+        "end": 35,
+        "score": 2.2585801632206732,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 235,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N06",
+      "core": null
+    },
+    {
+      "node": 270,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N02",
+      "core": {
+        "code": "SMGSCMNGRSNS",
+        "start": 19,
+        "end": 31,
+        "score": 5.0428407024806585,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 154,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N05",
+      "core": {
+        "code": "GRGNW",
+        "start": 15,
+        "end": 20,
+        "score": 2.9479927678350175,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 60,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 289,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N03",
+      "core": {
+        "code": "WSMRSNC",
+        "start": 31,
+        "end": 38,
+        "score": 2.204265932962035,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 129,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 163,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P03",
+      "core": {
+        "code": "TNTRT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0843279917463917,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 95,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F04-TSS-N01",
+      "core": {
+        "code": "CCCC",
+        "start": 13,
+        "end": 17,
+        "score": 2.855716348184592,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 7,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N00",
+      "core": {
+        "code": "CCCS",
+        "start": 25,
+        "end": 29,
+        "score": 2.8961192980016883,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 417,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-TSS-P00",
+      "core": {
+        "code": "GGGNG",
+        "start": 26,
+        "end": 31,
+        "score": 2.519541973658516,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 165,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N01",
+      "core": {
+        "code": "RGGNGG",
+        "start": 22,
+        "end": 28,
+        "score": 2.5605518060007872,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 245,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N00",
+      "core": {
+        "code": "TNGGG",
+        "start": 12,
+        "end": 17,
+        "score": 2.428311295098585,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 298,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N00",
+      "core": {
+        "code": "SSSNGG",
+        "start": 27,
+        "end": 33,
+        "score": 2.3005276672298325,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 268,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 300,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 62,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 125,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-P01",
+      "core": {
+        "code": "GGNGGS",
+        "start": 25,
+        "end": 31,
+        "score": 3.2938290025952903,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 2,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F01-TSS-N00",
+      "core": {
+        "code": "CCCCCCCNCCCC",
+        "start": 14,
+        "end": 26,
+        "score": 8.161162842815772,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 447,
+      "n": 5,
+      "hits": 4,
+      "medoid": "F05-TSS-P00",
+      "core": {
+        "code": "SNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.4933117074039775,
+        "member_support": 1.0,
+        "min_column_support": 0.8,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 295,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F10-TSS-N01",
+      "core": {
+        "code": "CMCCCNC",
+        "start": 15,
+        "end": 22,
+        "score": 3.9275207962821614,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 32,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-TSS-P00",
+      "core": {
+        "code": "GGGGGNG",
+        "start": 25,
+        "end": 32,
+        "score": 5.0059582239405005,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 92,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-P00",
+      "core": {
+        "code": "GGKGGNGGNG",
+        "start": 10,
+        "end": 20,
+        "score": 5.093801191730102,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 63,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-TSS-P01",
+      "core": {
+        "code": "GGGGNS",
+        "start": 26,
+        "end": 32,
+        "score": 3.267175910830736,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 404,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-TSS-N00",
+      "core": {
+        "code": "SCCC",
+        "start": 16,
+        "end": 20,
+        "score": 2.767970643460643,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 608,
+      "n": 18,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N03",
+      "core": {
+        "code": "GGAGGCYGAGG",
+        "start": 21,
+        "end": 32,
+        "score": 9.587816349325587,
+        "member_support": 1.0,
+        "min_column_support": 0.9444444444444444,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 599,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N03",
+      "core": {
+        "code": "CCAGGCTGGWST",
+        "start": 20,
+        "end": 32,
+        "score": 9.261289367823693,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 605,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N07",
+      "core": {
+        "code": "TGAANCYRGGAG",
+        "start": 12,
+        "end": 24,
+        "score": 7.936960999198579,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 604,
+      "n": 15,
+      "hits": 6,
+      "medoid": "F09-Acceptor-P03",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 20,
+        "end": 32,
+        "score": 9.847599564765668,
+        "member_support": 1.0,
+        "min_column_support": 0.8666666666666667,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 592,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N03",
+      "core": {
+        "code": "GGTGGCNS",
+        "start": 21,
+        "end": 29,
+        "score": 4.817372883080269,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 555,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N03",
+      "core": {
+        "code": "RGGNG",
+        "start": 18,
+        "end": 23,
+        "score": 3.251842210214865,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 215,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N04",
+      "core": {
+        "code": "GCTGGAGTNCAG",
+        "start": 21,
+        "end": 33,
+        "score": 10.26043241773742,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 372,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N07",
+      "core": {
+        "code": "YNYRW",
+        "start": 40,
+        "end": 45,
+        "score": 1.84355852716032,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 505,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-P02",
+      "core": {
+        "code": "GGGGSNGG",
+        "start": 21,
+        "end": 29,
+        "score": 6.264029026701348,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 82,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N08",
+      "core": {
+        "code": "CNCNCTGCAR",
+        "start": 19,
+        "end": 29,
+        "score": 6.3669094423484465,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 43,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-N01",
+      "core": {
+        "code": "RGRGGNWGNGGG",
+        "start": 20,
+        "end": 32,
+        "score": 8.380168755801526,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 422,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-Donor-N06",
+      "core": {
+        "code": "GWGG",
+        "start": 6,
+        "end": 10,
+        "score": 2.5922906659497533,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 612,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F04-preTES-P02",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 11,
+        "end": 23,
+        "score": 13.932682319909071,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 613,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N08",
+      "core": {
+        "code": "GCNACC",
+        "start": 43,
+        "end": 49,
+        "score": 4.6938688686682015,
+        "member_support": 0.8,
+        "min_column_support": 0.8,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 622,
+      "n": 14,
+      "hits": 0,
+      "medoid": "F03-preTES-N01",
+      "core": {
+        "code": "CCTGTANTCCCA",
+        "start": 26,
+        "end": 38,
+        "score": 11.65103134904485,
+        "member_support": 0.9285714285714286,
+        "min_column_support": 0.9285714285714286,
+        "conserved": 11
+      }
+    }
+  ],
+  "cache": [
+    {
+      "node": 626,
+      "n": 314,
+      "hits": 44,
+      "medoid": "F03-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 621,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N04",
+      "core": {
+        "code": "TGGGATTACAGG",
+        "start": 29,
+        "end": 41,
+        "score": 13.646543292427534,
+        "member_support": 0.8,
+        "min_column_support": 0.8,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 625,
+      "n": 309,
+      "hits": 44,
+      "medoid": "F03-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 623,
+      "n": 284,
+      "hits": 42,
+      "medoid": "F06-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 615,
+      "n": 221,
+      "hits": 34,
+      "medoid": "F10-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 578,
+      "n": 75,
+      "hits": 5,
+      "medoid": "F03-Acceptor-P02",
+      "core": null
+    },
+    {
+      "node": 541,
+      "n": 38,
+      "hits": 2,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 494,
+      "n": 15,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 434,
+      "n": 9,
+      "hits": 0,
+      "medoid": "F10-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 50,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N04",
+      "core": {
+        "code": "SNGGS",
+        "start": 21,
+        "end": 26,
+        "score": 2.094370058035085,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 418,
+      "n": 8,
+      "hits": 0,
+      "medoid": "F10-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 345,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 318,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 151,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 178,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 334,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 121,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 330,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 19,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N04",
+      "core": null
+    },
+    {
+      "node": 299,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N01",
+      "core": {
+        "code": "SSMNG",
+        "start": 27,
+        "end": 32,
+        "score": 2.030067986377822,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 376,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F08-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 69,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 336,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F04-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 100,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-N01",
+      "core": {
+        "code": "YNGGS",
+        "start": 16,
+        "end": 21,
+        "score": 1.8763964997668523,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 246,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 446,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F06-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 342,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 203,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 243,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 388,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F06-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 230,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 363,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F06-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 72,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-P02",
+      "core": null
+    },
+    {
+      "node": 327,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 142,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 164,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 521,
+      "n": 23,
+      "hits": 2,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 451,
+      "n": 14,
+      "hits": 1,
+      "medoid": "F02-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 415,
+      "n": 8,
+      "hits": 1,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 258,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 400,
+      "n": 7,
+      "hits": 1,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 351,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 46,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 136,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N00",
+      "core": {
+        "code": "GGNGG",
+        "start": 25,
+        "end": 30,
+        "score": 2.4688128870933395,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 392,
+      "n": 5,
+      "hits": 1,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 99,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 374,
+      "n": 4,
+      "hits": 1,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 174,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N00",
+      "core": {
+        "code": "GSNGGG",
+        "start": 27,
+        "end": 33,
+        "score": 3.3237582121084213,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 354,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F10-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 281,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F09-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 346,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 13,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N00",
+      "core": {
+        "code": "GGNGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.532476566361526,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 304,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 429,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 229,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 411,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 211,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 391,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 149,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 365,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 120,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 328,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 56,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 286,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 482,
+      "n": 9,
+      "hits": 1,
+      "medoid": "F08-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 432,
+      "n": 6,
+      "hits": 1,
+      "medoid": "F08-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 356,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F06-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 157,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F06-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 197,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 407,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F08-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 355,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F04-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 93,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 238,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 369,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 0,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 248,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 438,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 68,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 413,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 74,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 107,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N00",
+      "core": null
+    },
+    {
+      "node": 575,
+      "n": 37,
+      "hits": 3,
+      "medoid": "F06-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 534,
+      "n": 20,
+      "hits": 2,
+      "medoid": "F01-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 498,
+      "n": 8,
+      "hits": 0,
+      "medoid": "F10-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 200,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-N01",
+      "core": {
+        "code": "AAANMA",
+        "start": 29,
+        "end": 35,
+        "score": 3.6781695505643164,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 450,
+      "n": 7,
+      "hits": 0,
+      "medoid": "F10-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 364,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F04-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 117,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-preTES-P00",
+      "core": {
+        "code": "TNTKTT",
+        "start": 12,
+        "end": 18,
+        "score": 2.9927310644491536,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 204,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N01",
+      "core": null
+    },
+    {
+      "node": 403,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F08-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 373,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 25,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 159,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 389,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F10-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 294,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-N00",
+      "core": {
+        "code": "MAANG",
+        "start": 34,
+        "end": 39,
+        "score": 2.3616255023756954,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 339,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 247,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 313,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 508,
+      "n": 12,
+      "hits": 2,
+      "medoid": "F10-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 162,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 452,
+      "n": 11,
+      "hits": 2,
+      "medoid": "F10-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 352,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 44,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 70,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 445,
+      "n": 9,
+      "hits": 2,
+      "medoid": "F10-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 337,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F05-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 10,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 316,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 134,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 172,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 380,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F04-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 350,
+      "n": 4,
+      "hits": 2,
+      "medoid": "F08-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 275,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 16,
+        "end": 20,
+        "score": 2.309080096807146,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 343,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F03-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 101,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 31,
+        "end": 35,
+        "score": 3.3835461670519686,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 335,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F03-Donor-P01",
+      "core": {
+        "code": "TNTTT",
+        "start": 16,
+        "end": 21,
+        "score": 3.4934743902648835,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 353,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 209,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 24,
+        "end": 28,
+        "score": 3.0399317338635523,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 301,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-P00",
+      "core": null
+    },
+    {
+      "node": 535,
+      "n": 17,
+      "hits": 1,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 440,
+      "n": 12,
+      "hits": 1,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 360,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 5,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-P00",
+      "core": {
+        "code": "TTNTT",
+        "start": 21,
+        "end": 26,
+        "score": 2.8889842133628383,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 161,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P01",
+      "core": {
+        "code": "TTTT",
+        "start": 23,
+        "end": 27,
+        "score": 3.2110593281472415,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 412,
+      "n": 10,
+      "hits": 1,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 362,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F03-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 65,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 202,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 381,
+      "n": 8,
+      "hits": 0,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 242,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P00",
+      "core": {
+        "code": "TTTT",
+        "start": 24,
+        "end": 28,
+        "score": 2.737070025603905,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 341,
+      "n": 7,
+      "hits": 0,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 97,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 332,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 324,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 40,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 131,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 326,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 267,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 319,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 201,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 315,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 160,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 296,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-P00",
+      "core": null
+    },
+    {
+      "node": 490,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F08-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 191,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 368,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F08-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 150,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 317,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F08-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 287,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 314,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 57,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 259,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 603,
+      "n": 146,
+      "hits": 29,
+      "medoid": "F09-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 595,
+      "n": 56,
+      "hits": 13,
+      "medoid": "F09-Donor-N06",
+      "core": null
+    },
+    {
+      "node": 579,
+      "n": 24,
+      "hits": 8,
+      "medoid": "F07-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 538,
+      "n": 15,
+      "hits": 4,
+      "medoid": "F07-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 517,
+      "n": 8,
+      "hits": 1,
+      "medoid": "F07-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 466,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-preTES-P01",
+      "core": {
+        "code": "WWWNT",
+        "start": 17,
+        "end": 22,
+        "score": 2.4890585747024367,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 503,
+      "n": 6,
+      "hits": 1,
+      "medoid": "F07-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 185,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F06-preTES-P03",
+      "core": {
+        "code": "TTNTTTTTNTTY",
+        "start": 15,
+        "end": 27,
+        "score": 8.960315375826962,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 470,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F07-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 189,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P07",
+      "core": {
+        "code": "RYTYTNTTNTKT",
+        "start": 9,
+        "end": 21,
+        "score": 7.003672841472125,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 444,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F07-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 396,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 221,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P01",
+      "core": {
+        "code": "TTTTNWTTWNTT",
+        "start": 12,
+        "end": 24,
+        "score": 7.0118835311856795,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 228,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P08",
+      "core": {
+        "code": "WTTWTWTNTNTW",
+        "start": 27,
+        "end": 39,
+        "score": 6.968833617487945,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 420,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-preTES-P01",
+      "core": null
+    },
+    {
+      "node": 85,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-P01",
+      "core": {
+        "code": "TTTWTTTTYT",
+        "start": 19,
+        "end": 29,
+        "score": 8.599909481016736,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 106,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P05",
+      "core": {
+        "code": "WTTNT",
+        "start": 12,
+        "end": 17,
+        "score": 3.1397260217956147,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 522,
+      "n": 7,
+      "hits": 3,
+      "medoid": "F07-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 54,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-P00",
+      "core": {
+        "code": "AAAWWRMAAAAA",
+        "start": 24,
+        "end": 36,
+        "score": 8.163574082498847,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 493,
+      "n": 6,
+      "hits": 3,
+      "medoid": "F07-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 469,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F07-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 186,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P04",
+      "core": {
+        "code": "TKNTNWWWWTTT",
+        "start": 15,
+        "end": 27,
+        "score": 7.65163808276971,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 397,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F07-preTES-P02",
+      "core": {
+        "code": "TNTNTTTWWWTT",
+        "start": 13,
+        "end": 25,
+        "score": 7.333832899496212,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 480,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F06-preTES-P02",
+      "core": {
+        "code": "TTTT",
+        "start": 11,
+        "end": 15,
+        "score": 2.967326580993808,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 565,
+      "n": 9,
+      "hits": 4,
+      "medoid": "F03-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 529,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-preTES-P05",
+      "core": {
+        "code": "TTTT",
+        "start": 27,
+        "end": 31,
+        "score": 3.6248758404918977,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 537,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F03-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 473,
+      "n": 4,
+      "hits": 2,
+      "medoid": "F03-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 26,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F01-preTES-P01",
+      "core": {
+        "code": "AANAAANAAAAW",
+        "start": 15,
+        "end": 27,
+        "score": 9.388848221285143,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 406,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F03-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 187,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P05",
+      "core": {
+        "code": "TTTNTTTANWTT",
+        "start": 11,
+        "end": 23,
+        "score": 7.266247619368565,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 384,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F03-Acceptor-P03",
+      "core": {
+        "code": "TNWTT",
+        "start": 22,
+        "end": 27,
+        "score": 4.3200227931315265,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 513,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-P03",
+      "core": {
+        "code": "AMWNAAWW",
+        "start": 10,
+        "end": 18,
+        "score": 3.856602905171334,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 590,
+      "n": 32,
+      "hits": 5,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 554,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N03",
+      "core": {
+        "code": "CCAGGCNG",
+        "start": 34,
+        "end": 42,
+        "score": 5.541230420342502,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 584,
+      "n": 30,
+      "hits": 5,
+      "medoid": "F06-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 260,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N02",
+      "core": {
+        "code": "GGSAGNCNSAGG",
+        "start": 12,
+        "end": 24,
+        "score": 8.825284896702625,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 580,
+      "n": 29,
+      "hits": 5,
+      "medoid": "F06-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 546,
+      "n": 4,
+      "hits": 3,
+      "medoid": "F02-TSS-P03",
+      "core": null
+    },
+    {
+      "node": 486,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F02-TSS-P03",
+      "core": null
+    },
+    {
+      "node": 35,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-TSS-P03",
+      "core": {
+        "code": "GSGNGGGGG",
+        "start": 21,
+        "end": 30,
+        "score": 6.648104762444296,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 272,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N04",
+      "core": {
+        "code": "GGNGG",
+        "start": 17,
+        "end": 22,
+        "score": 4.194700621079262,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 492,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-N00",
+      "core": {
+        "code": "CNCCC",
+        "start": 27,
+        "end": 32,
+        "score": 4.063020857079333,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 560,
+      "n": 25,
+      "hits": 2,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 502,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N08",
+      "core": null
+    },
+    {
+      "node": 21,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N06",
+      "core": {
+        "code": "GYSKSTNRTNCC",
+        "start": 30,
+        "end": 42,
+        "score": 5.487893268134331,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 497,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N04",
+      "core": {
+        "code": "GSSNGG",
+        "start": 20,
+        "end": 26,
+        "score": 3.4659185306441103,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 547,
+      "n": 22,
+      "hits": 2,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 519,
+      "n": 4,
+      "hits": 1,
+      "medoid": "F01-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 168,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N04",
+      "core": {
+        "code": "GGNGS",
+        "start": 17,
+        "end": 22,
+        "score": 3.240219585373379,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 499,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F01-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 64,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-TSS-N00",
+      "core": {
+        "code": "CCCCNCCCNCC",
+        "start": 17,
+        "end": 28,
+        "score": 6.8323462834324875,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 9
+      }
+    },
+    {
+      "node": 471,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F01-TSS-P01",
+      "core": {
+        "code": "RGNGG",
+        "start": 20,
+        "end": 25,
+        "score": 4.0458575589313375,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 526,
+      "n": 18,
+      "hits": 1,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 488,
+      "n": 7,
+      "hits": 0,
+      "medoid": "F09-Donor-N06",
+      "core": null
+    },
+    {
+      "node": 461,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F01-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 31,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-N02",
+      "core": {
+        "code": "GNGNGGKGGGGG",
+        "start": 18,
+        "end": 30,
+        "score": 8.92397000417274,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 441,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F03-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 171,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N07",
+      "core": {
+        "code": "SRRGGNY",
+        "start": 9,
+        "end": 16,
+        "score": 3.3289459269904693,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 431,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 9,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N02",
+      "core": {
+        "code": "CCNCC",
+        "start": 23,
+        "end": 28,
+        "score": 4.201610844258097,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 90,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-N03",
+      "core": {
+        "code": "GGNGSNRGGS",
+        "start": 13,
+        "end": 23,
+        "score": 6.277107448008172,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 478,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F09-Donor-N06",
+      "core": null
+    },
+    {
+      "node": 138,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N10",
+      "core": {
+        "code": "SAGWGCNGWGGS",
+        "start": 15,
+        "end": 27,
+        "score": 9.102377616046791,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 419,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N06",
+      "core": null
+    },
+    {
+      "node": 257,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Acceptor-N06",
+      "core": {
+        "code": "CCNCMYNCAM",
+        "start": 31,
+        "end": 41,
+        "score": 5.3628144485906795,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 274,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N06",
+      "core": {
+        "code": "MMCNKGSNGC",
+        "start": 7,
+        "end": 17,
+        "score": 5.119546872375198,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 509,
+      "n": 11,
+      "hits": 1,
+      "medoid": "F08-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 194,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N03",
+      "core": {
+        "code": "CYNTGCC",
+        "start": 17,
+        "end": 24,
+        "score": 6.397265256766472,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 476,
+      "n": 10,
+      "hits": 1,
+      "medoid": "F08-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 427,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F07-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 293,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-P02",
+      "core": {
+        "code": "GGNWGR",
+        "start": 30,
+        "end": 36,
+        "score": 3.94020727851912,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 402,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F01-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 377,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 261,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 273,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 394,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F01-preTES-N00",
+      "core": null
+    },
+    {
+      "node": 207,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N04",
+      "core": {
+        "code": "SSTGG",
+        "start": 29,
+        "end": 34,
+        "score": 3.034762877689508,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 340,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-N00",
+      "core": {
+        "code": "SSSNGS",
+        "start": 24,
+        "end": 30,
+        "score": 2.8198628284479974,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 456,
+      "n": 4,
+      "hits": 1,
+      "medoid": "F05-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 264,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N00",
+      "core": {
+        "code": "CYYYM",
+        "start": 20,
+        "end": 25,
+        "score": 2.749360035453822,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 423,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F06-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 116,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F04-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 414,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 127,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N01",
+      "core": {
+        "code": "CCMNC",
+        "start": 19,
+        "end": 24,
+        "score": 4.222293631403013,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 169,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N05",
+      "core": {
+        "code": "RNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 3.760185086569014,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 600,
+      "n": 90,
+      "hits": 16,
+      "medoid": "F05-preTES-N05",
+      "core": null
+    },
+    {
+      "node": 567,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F05-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 8,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N01",
+      "core": {
+        "code": "GCCNCR",
+        "start": 15,
+        "end": 21,
+        "score": 3.259265784186092,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 545,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F05-preTES-N03",
+      "core": {
+        "code": "GAGNC",
+        "start": 21,
+        "end": 26,
+        "score": 3.280755506265277,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 596,
+      "n": 87,
+      "hits": 15,
+      "medoid": "F05-preTES-N05",
+      "core": null
+    },
+    {
+      "node": 572,
+      "n": 63,
+      "hits": 3,
+      "medoid": "F09-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 532,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N02",
+      "core": null
+    },
+    {
+      "node": 139,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N02",
+      "core": {
+        "code": "SCCAGGCTGG",
+        "start": 24,
+        "end": 34,
+        "score": 6.894438181825921,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 475,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N02",
+      "core": null
+    },
+    {
+      "node": 109,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N02",
+      "core": {
+        "code": "CAGGNTG",
+        "start": 23,
+        "end": 30,
+        "score": 3.9805969881583634,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 308,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N04",
+      "core": {
+        "code": "CYCNGGCTNG",
+        "start": 21,
+        "end": 31,
+        "score": 5.740926983200692,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 561,
+      "n": 60,
+      "hits": 3,
+      "medoid": "F09-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 525,
+      "n": 19,
+      "hits": 1,
+      "medoid": "F07-preTES-P07",
+      "core": null
+    },
+    {
+      "node": 481,
+      "n": 7,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 41,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 463,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 38,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N02",
+      "core": {
+        "code": "AAAAMNA",
+        "start": 17,
+        "end": 24,
+        "score": 4.595843076063958,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 433,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 344,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": null
+    },
+    {
+      "node": 27,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-P02",
+      "core": {
+        "code": "MMWYTTNWAWWY",
+        "start": 10,
+        "end": 22,
+        "score": 5.0993020861365554,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 224,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P04",
+      "core": {
+        "code": "TTNWW",
+        "start": 27,
+        "end": 32,
+        "score": 2.231782366200565,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 408,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 105,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P04",
+      "core": null
+    },
+    {
+      "node": 375,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 37,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N01",
+      "core": {
+        "code": "WNAAAA",
+        "start": 15,
+        "end": 21,
+        "score": 3.288045975062868,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 104,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-Acceptor-P03",
+      "core": null
+    },
+    {
+      "node": 514,
+      "n": 12,
+      "hits": 1,
+      "medoid": "F06-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 485,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F06-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 312,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F10-preTES-P00",
+      "core": {
+        "code": "TTNTTTTTTTTW",
+        "start": 25,
+        "end": 37,
+        "score": 7.910986082409894,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 465,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 182,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P00",
+      "core": {
+        "code": "TNTTT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0763246448433907,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 188,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P06",
+      "core": {
+        "code": "TTTNT",
+        "start": 14,
+        "end": 19,
+        "score": 4.678028319457484,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 489,
+      "n": 9,
+      "hits": 0,
+      "medoid": "F06-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 425,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F03-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 382,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-TSS-N02",
+      "core": null
+    },
+    {
+      "node": 4,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-N02",
+      "core": {
+        "code": "AMAMANAAANAM",
+        "start": 13,
+        "end": 25,
+        "score": 6.92491829676306,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 265,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N01",
+      "core": {
+        "code": "AAAA",
+        "start": 17,
+        "end": 21,
+        "score": 3.2143544712093552,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 416,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F03-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 39,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 367,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 67,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 227,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-P07",
+      "core": {
+        "code": "TTYNTM",
+        "start": 27,
+        "end": 33,
+        "score": 3.088856437297628,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 457,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F06-preTES-P08",
+      "core": null
+    },
+    {
+      "node": 266,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-TSS-N02",
+      "core": {
+        "code": "TTNWW",
+        "start": 20,
+        "end": 25,
+        "score": 2.8245823844246725,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 401,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F05-TSS-N04",
+      "core": null
+    },
+    {
+      "node": 190,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-P08",
+      "core": {
+        "code": "WWTTT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0052911197857903,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 395,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-TSS-N04",
+      "core": null
+    },
+    {
+      "node": 130,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N04",
+      "core": {
+        "code": "AMNAA",
+        "start": 32,
+        "end": 37,
+        "score": 3.5471684858284696,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 279,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Acceptor-P04",
+      "core": null
+    },
+    {
+      "node": 550,
+      "n": 41,
+      "hits": 2,
+      "medoid": "F05-preTES-N05",
+      "core": null
+    },
+    {
+      "node": 524,
+      "n": 15,
+      "hits": 1,
+      "medoid": "F03-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 477,
+      "n": 11,
+      "hits": 1,
+      "medoid": "F01-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 426,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F01-Acceptor-N11",
+      "core": null
+    },
+    {
+      "node": 16,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N11",
+      "core": {
+        "code": "RGSNGRCWGMNG",
+        "start": 13,
+        "end": 25,
+        "score": 7.313214798072225,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 91,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-preTES-N04",
+      "core": {
+        "code": "CNGGG",
+        "start": 31,
+        "end": 36,
+        "score": 3.6591653967301094,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 464,
+      "n": 9,
+      "hits": 0,
+      "medoid": "F06-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 385,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F09-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 310,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N06",
+      "core": {
+        "code": "CTKK",
+        "start": 27,
+        "end": 31,
+        "score": 2.4896293939089222,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 347,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 79,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 290,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 424,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 89,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-preTES-N02",
+      "core": {
+        "code": "GGNSSGSCNG",
+        "start": 10,
+        "end": 20,
+        "score": 4.313480496298158,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 398,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 236,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N07",
+      "core": {
+        "code": "CMRGCM",
+        "start": 26,
+        "end": 32,
+        "score": 4.995335344652162,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 393,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 155,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N06",
+      "core": null
+    },
+    {
+      "node": 338,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F06-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 83,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N09",
+      "core": {
+        "code": "SMRGNRGM",
+        "start": 24,
+        "end": 32,
+        "score": 4.2137206146254105,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 323,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": null
+    },
+    {
+      "node": 30,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-preTES-N01",
+      "core": {
+        "code": "YNKGG",
+        "start": 13,
+        "end": 18,
+        "score": 2.736868844253335,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 195,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N04",
+      "core": {
+        "code": "CMNGNCMMCM",
+        "start": 18,
+        "end": 28,
+        "score": 4.615065307731878,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 496,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F07-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 132,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-N00",
+      "core": {
+        "code": "GSGGNGG",
+        "start": 25,
+        "end": 32,
+        "score": 4.345686985443963,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 467,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F07-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 167,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 436,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-TSS-P02",
+      "core": null
+    },
+    {
+      "node": 198,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-TSS-P02",
+      "core": {
+        "code": "GGGNG",
+        "start": 31,
+        "end": 36,
+        "score": 2.734801362192158,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 205,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N02",
+      "core": {
+        "code": "CCCSNS",
+        "start": 21,
+        "end": 27,
+        "score": 3.3704421954839963,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 531,
+      "n": 26,
+      "hits": 1,
+      "medoid": "F07-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 474,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 59,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N03",
+      "core": {
+        "code": "CNSCCY",
+        "start": 17,
+        "end": 23,
+        "score": 2.856418409755305,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 80,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N06",
+      "core": {
+        "code": "GSNRG",
+        "start": 34,
+        "end": 39,
+        "score": 2.224783120582462,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 511,
+      "n": 24,
+      "hits": 1,
+      "medoid": "F07-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 468,
+      "n": 8,
+      "hits": 0,
+      "medoid": "F08-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 333,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 3,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-TSS-N01",
+      "core": {
+        "code": "WWNWW",
+        "start": 17,
+        "end": 22,
+        "score": 1.701603873933606,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 96,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-N02",
+      "core": {
+        "code": "ANAWW",
+        "start": 15,
+        "end": 20,
+        "score": 2.544093330925927,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 435,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F07-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 240,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-TSS-N01",
+      "core": null
+    },
+    {
+      "node": 379,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F07-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 321,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 42,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 231,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N02",
+      "core": null
+    },
+    {
+      "node": 371,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F05-TSS-N02",
+      "core": null
+    },
+    {
+      "node": 244,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-P02",
+      "core": null
+    },
+    {
+      "node": 349,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-TSS-N02",
+      "core": null
+    },
+    {
+      "node": 128,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N02",
+      "core": {
+        "code": "YMMW",
+        "start": 22,
+        "end": 26,
+        "score": 1.4570113376157874,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 133,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-Donor-N01",
+      "core": {
+        "code": "GSSNS",
+        "start": 24,
+        "end": 29,
+        "score": 1.6396810572073246,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 510,
+      "n": 16,
+      "hits": 1,
+      "medoid": "F10-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 449,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 166,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 292,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 460,
+      "n": 14,
+      "hits": 1,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 387,
+      "n": 3,
+      "hits": 1,
+      "medoid": "F05-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 193,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-preTES-N02",
+      "core": {
+        "code": "YWGCCNG",
+        "start": 19,
+        "end": 26,
+        "score": 4.932978194780057,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 361,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F02-Acceptor-N06",
+      "core": null
+    },
+    {
+      "node": 52,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-Acceptor-N06",
+      "core": {
+        "code": "YWGSM",
+        "start": 21,
+        "end": 26,
+        "score": 2.6956961963832153,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 153,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N04",
+      "core": {
+        "code": "GGCW",
+        "start": 16,
+        "end": 20,
+        "score": 3.507172025321333,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 428,
+      "n": 11,
+      "hits": 0,
+      "medoid": "F10-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 348,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 206,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N03",
+      "core": null
+    },
+    {
+      "node": 208,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Donor-N05",
+      "core": null
+    },
+    {
+      "node": 405,
+      "n": 9,
+      "hits": 0,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 358,
+      "n": 7,
+      "hits": 0,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 329,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 297,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-P01",
+      "core": null
+    },
+    {
+      "node": 322,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N09",
+      "core": null
+    },
+    {
+      "node": 24,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N09",
+      "core": {
+        "code": "GMNCM",
+        "start": 30,
+        "end": 35,
+        "score": 2.2585801632206732,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 235,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-preTES-N06",
+      "core": null
+    },
+    {
+      "node": 331,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F09-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 270,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N02",
+      "core": {
+        "code": "SMGSCMNGRSNS",
+        "start": 19,
+        "end": 31,
+        "score": 5.0428407024806585,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 325,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F09-preTES-N03",
+      "core": null
+    },
+    {
+      "node": 154,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-preTES-N05",
+      "core": {
+        "code": "GRGNW",
+        "start": 15,
+        "end": 20,
+        "score": 2.9479927678350175,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 320,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 60,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-preTES-N04",
+      "core": null
+    },
+    {
+      "node": 289,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-preTES-N03",
+      "core": {
+        "code": "WSMRSNC",
+        "start": 31,
+        "end": 38,
+        "score": 2.204265932962035,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 386,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F05-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 129,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-N03",
+      "core": null
+    },
+    {
+      "node": 163,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-P03",
+      "core": {
+        "code": "TNTRT",
+        "start": 25,
+        "end": 30,
+        "score": 3.0843279917463917,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 587,
+      "n": 24,
+      "hits": 12,
+      "medoid": "F03-TSS-P01",
+      "core": null
+    },
+    {
+      "node": 539,
+      "n": 11,
+      "hits": 2,
+      "medoid": "F10-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 487,
+      "n": 4,
+      "hits": 1,
+      "medoid": "F08-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 95,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F04-TSS-N01",
+      "core": {
+        "code": "CCCC",
+        "start": 13,
+        "end": 17,
+        "score": 2.855716348184592,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 455,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F08-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 7,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F01-Donor-N00",
+      "core": {
+        "code": "CCCS",
+        "start": 25,
+        "end": 29,
+        "score": 2.8961192980016883,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 417,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-TSS-P00",
+      "core": {
+        "code": "GGGNG",
+        "start": 26,
+        "end": 31,
+        "score": 2.519541973658516,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 491,
+      "n": 7,
+      "hits": 1,
+      "medoid": "F10-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 439,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F08-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 165,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F06-Donor-N01",
+      "core": {
+        "code": "RGGNGG",
+        "start": 22,
+        "end": 28,
+        "score": 2.5605518060007872,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 357,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F08-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 245,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F08-Donor-N00",
+      "core": {
+        "code": "TNGGG",
+        "start": 12,
+        "end": 17,
+        "score": 2.428311295098585,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 298,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N00",
+      "core": {
+        "code": "SSSNGG",
+        "start": 27,
+        "end": 33,
+        "score": 2.3005276672298325,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 448,
+      "n": 4,
+      "hits": 1,
+      "medoid": "F10-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 390,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F09-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 268,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F09-Donor-N00",
+      "core": null
+    },
+    {
+      "node": 300,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F10-Donor-N02",
+      "core": null
+    },
+    {
+      "node": 421,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F03-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 62,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 125,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F05-TSS-P01",
+      "core": {
+        "code": "GGNGGS",
+        "start": 25,
+        "end": 31,
+        "score": 3.2938290025952903,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 553,
+      "n": 13,
+      "hits": 10,
+      "medoid": "F07-TSS-N00",
+      "core": null
+    },
+    {
+      "node": 2,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F01-TSS-N00",
+      "core": {
+        "code": "CCCCCCCNCCCC",
+        "start": 14,
+        "end": 26,
+        "score": 8.161162842815772,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 484,
+      "n": 12,
+      "hits": 9,
+      "medoid": "F07-TSS-N00",
+      "core": null
+    },
+    {
+      "node": 447,
+      "n": 5,
+      "hits": 4,
+      "medoid": "F05-TSS-P00",
+      "core": {
+        "code": "SNGGG",
+        "start": 21,
+        "end": 26,
+        "score": 2.4933117074039775,
+        "member_support": 1.0,
+        "min_column_support": 0.8,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 458,
+      "n": 7,
+      "hits": 5,
+      "medoid": "F07-TSS-N00",
+      "core": null
+    },
+    {
+      "node": 409,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F02-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 295,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F10-TSS-N01",
+      "core": {
+        "code": "CMCCCNC",
+        "start": 15,
+        "end": 22,
+        "score": 3.9275207962821614,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 378,
+      "n": 2,
+      "hits": 1,
+      "medoid": "F02-TSS-P00",
+      "core": null
+    },
+    {
+      "node": 32,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F02-TSS-P00",
+      "core": {
+        "code": "GGGGGNG",
+        "start": 25,
+        "end": 32,
+        "score": 5.0059582239405005,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 6
+      }
+    },
+    {
+      "node": 92,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F04-TSS-P00",
+      "core": {
+        "code": "GGKGGNGGNG",
+        "start": 10,
+        "end": 20,
+        "score": 5.093801191730102,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 437,
+      "n": 4,
+      "hits": 3,
+      "medoid": "F06-TSS-N00",
+      "core": null
+    },
+    {
+      "node": 63,
+      "n": 1,
+      "hits": 1,
+      "medoid": "F03-TSS-P01",
+      "core": {
+        "code": "GGGGNS",
+        "start": 26,
+        "end": 32,
+        "score": 3.267175910830736,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 404,
+      "n": 3,
+      "hits": 2,
+      "medoid": "F07-TSS-N00",
+      "core": {
+        "code": "SCCC",
+        "start": 16,
+        "end": 20,
+        "score": 2.767970643460643,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 619,
+      "n": 63,
+      "hits": 8,
+      "medoid": "F03-Acceptor-N08",
+      "core": null
+    },
+    {
+      "node": 608,
+      "n": 18,
+      "hits": 0,
+      "medoid": "F05-Acceptor-N03",
+      "core": {
+        "code": "GGAGGCYGAGG",
+        "start": 21,
+        "end": 32,
+        "score": 9.587816349325587,
+        "member_support": 1.0,
+        "min_column_support": 0.9444444444444444,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 616,
+      "n": 45,
+      "hits": 8,
+      "medoid": "F03-Acceptor-N08",
+      "core": null
+    },
+    {
+      "node": 611,
+      "n": 12,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N08",
+      "core": null
+    },
+    {
+      "node": 599,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F06-Acceptor-N03",
+      "core": {
+        "code": "CCAGGCTGGWST",
+        "start": 20,
+        "end": 32,
+        "score": 9.261289367823693,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 605,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F04-Acceptor-N07",
+      "core": {
+        "code": "TGAANCYRGGAG",
+        "start": 12,
+        "end": 24,
+        "score": 7.936960999198579,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 614,
+      "n": 33,
+      "hits": 8,
+      "medoid": "F03-Acceptor-N08",
+      "core": null
+    },
+    {
+      "node": 604,
+      "n": 15,
+      "hits": 6,
+      "medoid": "F09-Acceptor-P03",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 20,
+        "end": 32,
+        "score": 9.847599564765668,
+        "member_support": 1.0,
+        "min_column_support": 0.8666666666666667,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 609,
+      "n": 18,
+      "hits": 2,
+      "medoid": "F06-Donor-N06",
+      "core": null
+    },
+    {
+      "node": 592,
+      "n": 6,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N03",
+      "core": {
+        "code": "GGTGGCNS",
+        "start": 21,
+        "end": 29,
+        "score": 4.817372883080269,
+        "member_support": 1.0,
+        "min_column_support": 0.8333333333333334,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 597,
+      "n": 12,
+      "hits": 2,
+      "medoid": "F08-TSS-N02",
+      "core": null
+    },
+    {
+      "node": 555,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F02-Acceptor-N03",
+      "core": {
+        "code": "RGGNG",
+        "start": 18,
+        "end": 23,
+        "score": 3.251842210214865,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 586,
+      "n": 9,
+      "hits": 2,
+      "medoid": "F06-Donor-N06",
+      "core": null
+    },
+    {
+      "node": 530,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F10-Acceptor-N05",
+      "core": null
+    },
+    {
+      "node": 215,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N04",
+      "core": {
+        "code": "GCTGGAGTNCAG",
+        "start": 21,
+        "end": 33,
+        "score": 10.26043241773742,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 11
+      }
+    },
+    {
+      "node": 372,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F07-Acceptor-N07",
+      "core": {
+        "code": "YNYRW",
+        "start": 40,
+        "end": 45,
+        "score": 1.84355852716032,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 544,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F06-Donor-N06",
+      "core": null
+    },
+    {
+      "node": 505,
+      "n": 2,
+      "hits": 2,
+      "medoid": "F02-TSS-P02",
+      "core": {
+        "code": "GGGGSNGG",
+        "start": 21,
+        "end": 29,
+        "score": 6.264029026701348,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 7
+      }
+    },
+    {
+      "node": 518,
+      "n": 4,
+      "hits": 0,
+      "medoid": "F08-TSS-N02",
+      "core": null
+    },
+    {
+      "node": 82,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F03-Acceptor-N08",
+      "core": {
+        "code": "CNCNCTGCAR",
+        "start": 19,
+        "end": 29,
+        "score": 6.3669094423484465,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 8
+      }
+    },
+    {
+      "node": 442,
+      "n": 3,
+      "hits": 0,
+      "medoid": "F08-TSS-N02",
+      "core": null
+    },
+    {
+      "node": 43,
+      "n": 1,
+      "hits": 0,
+      "medoid": "F02-Donor-N01",
+      "core": {
+        "code": "RGRGGNWGNGGG",
+        "start": 20,
+        "end": 32,
+        "score": 8.380168755801526,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 10
+      }
+    },
+    {
+      "node": 422,
+      "n": 2,
+      "hits": 0,
+      "medoid": "F06-Donor-N06",
+      "core": {
+        "code": "GWGG",
+        "start": 6,
+        "end": 10,
+        "score": 2.5922906659497533,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 4
+      }
+    },
+    {
+      "node": 624,
+      "n": 25,
+      "hits": 2,
+      "medoid": "F03-Acceptor-N07",
+      "core": null
+    },
+    {
+      "node": 620,
+      "n": 11,
+      "hits": 2,
+      "medoid": "F03-preTES-P00",
+      "core": null
+    },
+    {
+      "node": 612,
+      "n": 6,
+      "hits": 2,
+      "medoid": "F04-preTES-P02",
+      "core": {
+        "code": "TTTTKTWTTTTT",
+        "start": 11,
+        "end": 23,
+        "score": 13.932682319909071,
+        "member_support": 1.0,
+        "min_column_support": 1.0,
+        "conserved": 12
+      }
+    },
+    {
+      "node": 613,
+      "n": 5,
+      "hits": 0,
+      "medoid": "F01-Acceptor-N08",
+      "core": {
+        "code": "GCNACC",
+        "start": 43,
+        "end": 49,
+        "score": 4.6938688686682015,
+        "member_support": 0.8,
+        "min_column_support": 0.8,
+        "conserved": 5
+      }
+    },
+    {
+      "node": 622,
+      "n": 14,
+      "hits": 0,
+      "medoid": "F03-preTES-N01",
+      "core": {
+        "code": "CCTGTANTCCCA",
+        "start": 26,
+        "end": 38,
+        "score": 11.65103134904485,
+        "member_support": 0.9285714285714286,
+        "min_column_support": 0.9285714285714286,
+        "conserved": 11
+      }
+    }
+  ]
+}

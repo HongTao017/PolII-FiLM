@@ -1,0 +1,56 @@
+{
+  "y_limits": [
+    -0.0015,
+    0.0015
+  ],
+  "tick_step": 0.0005,
+  "unit": "one mean per positive DNA-overlap group",
+  "delta": "WT_minus_disrupted",
+  "groups": [
+    {
+      "label": "KLF16",
+      "n_dna_groups": 335,
+      "p_holm": 0.0301593968120637,
+      "stars": "*",
+      "below_display": 11,
+      "above_display": 17
+    },
+    {
+      "label": "SP1",
+      "n_dna_groups": 223,
+      "p_holm": 0.0185996280074398,
+      "stars": "*",
+      "below_display": 3,
+      "above_display": 11
+    },
+    {
+      "label": "SP2",
+      "n_dna_groups": 268,
+      "p_holm": 0.0185596288074238,
+      "stars": "*",
+      "below_display": 3,
+      "above_display": 11
+    },
+    {
+      "label": "SP4",
+      "n_dna_groups": 238,
+      "p_holm": 0.0061198776024479,
+      "stars": "**",
+      "below_display": 3,
+      "above_display": 13
+    },
+    {
+      "label": "Background",
+      "n_dna_groups": 389,
+      "p_holm": null,
+      "stars": "",
+      "below_display": 20,
+      "above_display": 7
+    }
+  ],
+  "selection": "All_regions positive-contribution TF-pooled exploratory matched tests with existing Holm P<.05",
+  "background": "Controls of selected groups; match IDs deduplicated before source DNA-group aggregation",
+  "significance": "Each star uses its own matched-control test, not a test against the displayed pooled Background",
+  "data_changed": false,
+  "statistics_recomputed": false
+}

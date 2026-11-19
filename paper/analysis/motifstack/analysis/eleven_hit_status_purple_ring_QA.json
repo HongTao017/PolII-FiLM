@@ -1,0 +1,2335 @@
+{
+  "status": "PASS",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_hit_status_purple_ring_5x4.pdf",
+  "patterns": 314,
+  "existing_matched_patterns": 44,
+  "original_TOMTOM_records": 79,
+  "distinct_JASPAR_annotations": 11,
+  "annotation_mapping": [
+    {
+      "query": "F09-Acceptor-N00",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "q": 0.0466881,
+      "p": 0.00018884,
+      "overlap": 11,
+      "leaf": 281,
+      "rank": 25,
+      "display_angle_deg": 108.0
+    },
+    {
+      "query": "F03-Donor-P00",
+      "TF": "ZNF184",
+      "matrix_id": "MA2120.1",
+      "q": 0.0226579,
+      "p": 9.06315e-05,
+      "overlap": 13,
+      "leaf": 65,
+      "rank": 65,
+      "display_angle_deg": 150.66666666666666
+    },
+    {
+      "query": "F02-TSS-N00",
+      "TF": "MAZ",
+      "matrix_id": "MA1522.2",
+      "q": 0.0158051,
+      "p": 0.000322255,
+      "overlap": 8,
+      "leaf": 36,
+      "rank": 109,
+      "display_angle_deg": 197.6
+    },
+    {
+      "query": "F07-preTES-N05",
+      "TF": "ZNF407",
+      "matrix_id": "MA2553.1",
+      "q": 0.0370115,
+      "p": 0.000149095,
+      "overlap": 17,
+      "leaf": 234,
+      "rank": 138,
+      "display_angle_deg": 228.53333333333333
+    },
+    {
+      "query": "F03-preTES-N04",
+      "TF": "CTCF",
+      "matrix_id": "MA0139.2",
+      "q": 0.0409677,
+      "p": 0.000164542,
+      "overlap": 15,
+      "leaf": 91,
+      "rank": 162,
+      "display_angle_deg": 254.13333333333333
+    },
+    {
+      "query": "F02-Acceptor-N06",
+      "TF": "PAX8",
+      "matrix_id": "MA2094.1",
+      "q": 0.0385651,
+      "p": 0.000154727,
+      "overlap": 16,
+      "leaf": 52,
+      "rank": 189,
+      "display_angle_deg": 282.9333333333333
+    },
+    {
+      "query": "F03-TSS-P00",
+      "TF": "EGR1",
+      "matrix_id": "MA0162.5",
+      "q": 0.0335064,
+      "p": 0.000272154,
+      "overlap": 10,
+      "leaf": 62,
+      "rank": 211,
+      "display_angle_deg": 306.4
+    },
+    {
+      "query": "F05-TSS-P00",
+      "TF": "SP2",
+      "matrix_id": "MA0516.3",
+      "q": 0.00659368,
+      "p": 4.79024e-05,
+      "overlap": 9,
+      "leaf": 124,
+      "rank": 218,
+      "display_angle_deg": 326.4
+    },
+    {
+      "query": "F07-TSS-N00",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "q": 0.0202126,
+      "p": 0.00022129,
+      "overlap": 9,
+      "leaf": 199,
+      "rank": 225,
+      "display_angle_deg": 346.40000000000003
+    },
+    {
+      "query": "F04-Acceptor-P01",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "q": 0.00468491,
+      "p": 1.87396e-05,
+      "overlap": 8,
+      "leaf": 102,
+      "rank": 257,
+      "display_angle_deg": 20.53333333333336
+    },
+    {
+      "query": "F05-TSS-N00",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "q": 0.0251695,
+      "p": 0.000102219,
+      "overlap": 9,
+      "leaf": 126,
+      "rank": 284,
+      "display_angle_deg": 49.33333333333337
+    }
+  ],
+  "representative_selection_unchanged": true,
+  "tree_topology_unchanged": true,
+  "cyclic_leaf_order_unchanged": true,
+  "labels_are_clusters": false,
+  "topological_levels": 20,
+  "radial_layout": "Equal spacing of topological heights; original parent-child relationships retained.",
+  "branch_lengths_are_not_numerical_distances": true,
+  "angular_layout": "Maximize minimum leaf angle, with each reference-label gap at least 20 degrees.",
+  "angular_width_is_display_only": true,
+  "tree_radius_inches": 1.32,
+  "rotation_deg": 108,
+  "original_rank_gaps": [
+    40,
+    44,
+    29,
+    24,
+    27,
+    22,
+    7,
+    7,
+    32,
+    27,
+    55
+  ],
+  "motif_angle_gaps_deg": [
+    42.666666666666664,
+    46.93333333333333,
+    30.933333333333334,
+    25.6,
+    28.8,
+    23.466666666666665,
+    20.0,
+    20.0,
+    34.13333333333333,
+    28.8,
+    58.666666666666664
+  ],
+  "minimum_leaf_angle_deg": 1.0666666666666629,
+  "median_leaf_angle_deg": 1.0666666666666629,
+  "minimum_tip_spacing_pt": 1.7693449825017653,
+  "previous_minimum_tip_spacing_pt": 0.7477509787056699,
+  "minimum_tip_spacing_fold_change": 2.3662222222222136,
+  "minimum_ancestral_level_spacing_pt": 4.371840000000001,
+  "layout_QA": {
+    "clipped": [],
+    "label_collisions": [],
+    "panel_label_collisions": [],
+    "straight_leader_count": 11,
+    "leader_crossings": 0,
+    "leader_bends": 0,
+    "continuous_outer_ring": true,
+    "outer_ring_segments": 31,
+    "outer_ring_classes": 2,
+    "outer_ring_white_gaps": 0,
+    "grey_matched_inner_sectors": 44,
+    "grey_hit_colour": "#B0B0B0",
+    "verified_grey_vector_fills": 44,
+    "pattern_tip_count": 314,
+    "annulus_render_samples": 4096,
+    "maximum_ring_RGB_deviation": 0,
+    "verified_pattern_ring_colours": 314,
+    "dark_matched_patterns": 44,
+    "light_unmatched_patterns": 270,
+    "merged_dark_arcs": [
+      {
+        "first_rank": 26,
+        "last_rank": 26,
+        "pattern_count": 1,
+        "start_angle_deg": 107.46666666666667,
+        "end_angle_deg": 108.53333333333335
+      },
+      {
+        "first_rank": 35,
+        "last_rank": 35,
+        "pattern_count": 1,
+        "start_angle_deg": 117.06666666666665,
+        "end_angle_deg": 118.13333333333333
+      },
+      {
+        "first_rank": 60,
+        "last_rank": 61,
+        "pattern_count": 2,
+        "start_angle_deg": 143.73333333333332,
+        "end_angle_deg": 145.86666666666667
+      },
+      {
+        "first_rank": 66,
+        "last_rank": 66,
+        "pattern_count": 1,
+        "start_angle_deg": 150.13333333333333,
+        "end_angle_deg": 151.20000000000002
+      },
+      {
+        "first_rank": 83,
+        "last_rank": 83,
+        "pattern_count": 1,
+        "start_angle_deg": 168.26666666666668,
+        "end_angle_deg": 169.33333333333331
+      },
+      {
+        "first_rank": 91,
+        "last_rank": 91,
+        "pattern_count": 1,
+        "start_angle_deg": 176.79999999999998,
+        "end_angle_deg": 177.86666666666665
+      },
+      {
+        "first_rank": 93,
+        "last_rank": 93,
+        "pattern_count": 1,
+        "start_angle_deg": 178.93333333333334,
+        "end_angle_deg": 180.0
+      },
+      {
+        "first_rank": 95,
+        "last_rank": 97,
+        "pattern_count": 3,
+        "start_angle_deg": 181.06666666666666,
+        "end_angle_deg": 184.26666666666665
+      },
+      {
+        "first_rank": 99,
+        "last_rank": 99,
+        "pattern_count": 1,
+        "start_angle_deg": 185.33333333333334,
+        "end_angle_deg": 186.4
+      },
+      {
+        "first_rank": 102,
+        "last_rank": 102,
+        "pattern_count": 1,
+        "start_angle_deg": 188.53333333333333,
+        "end_angle_deg": 189.60000000000002
+      },
+      {
+        "first_rank": 108,
+        "last_rank": 108,
+        "pattern_count": 1,
+        "start_angle_deg": 194.93333333333334,
+        "end_angle_deg": 196.0
+      },
+      {
+        "first_rank": 110,
+        "last_rank": 111,
+        "pattern_count": 2,
+        "start_angle_deg": 197.06666666666666,
+        "end_angle_deg": 199.2
+      },
+      {
+        "first_rank": 117,
+        "last_rank": 117,
+        "pattern_count": 1,
+        "start_angle_deg": 204.53333333333336,
+        "end_angle_deg": 205.6
+      },
+      {
+        "first_rank": 134,
+        "last_rank": 134,
+        "pattern_count": 1,
+        "start_angle_deg": 222.66666666666666,
+        "end_angle_deg": 223.73333333333332
+      },
+      {
+        "first_rank": 139,
+        "last_rank": 139,
+        "pattern_count": 1,
+        "start_angle_deg": 228.00000000000003,
+        "end_angle_deg": 229.06666666666666
+      },
+      {
+        "first_rank": 150,
+        "last_rank": 150,
+        "pattern_count": 1,
+        "start_angle_deg": 239.73333333333335,
+        "end_angle_deg": 240.79999999999998
+      },
+      {
+        "first_rank": 163,
+        "last_rank": 163,
+        "pattern_count": 1,
+        "start_angle_deg": 253.6,
+        "end_angle_deg": 254.66666666666663
+      },
+      {
+        "first_rank": 190,
+        "last_rank": 190,
+        "pattern_count": 1,
+        "start_angle_deg": 282.4,
+        "end_angle_deg": 283.4666666666667
+      },
+      {
+        "first_rank": 203,
+        "last_rank": 203,
+        "pattern_count": 1,
+        "start_angle_deg": 296.2666666666667,
+        "end_angle_deg": 297.3333333333333
+      },
+      {
+        "first_rank": 212,
+        "last_rank": 212,
+        "pattern_count": 1,
+        "start_angle_deg": 305.8666666666667,
+        "end_angle_deg": 307.8285714285714
+      },
+      {
+        "first_rank": 214,
+        "last_rank": 216,
+        "pattern_count": 3,
+        "start_angle_deg": 310.68571428571425,
+        "end_angle_deg": 319.25714285714287
+      },
+      {
+        "first_rank": 218,
+        "last_rank": 221,
+        "pattern_count": 4,
+        "start_angle_deg": 322.11428571428576,
+        "end_angle_deg": 333.5428571428572
+      },
+      {
+        "first_rank": 223,
+        "last_rank": 224,
+        "pattern_count": 2,
+        "start_angle_deg": 336.4,
+        "end_angle_deg": 342.1142857142857
+      },
+      {
+        "first_rank": 226,
+        "last_rank": 226,
+        "pattern_count": 1,
+        "start_angle_deg": 344.9714285714286,
+        "end_angle_deg": 346.93333333333334
+      },
+      {
+        "first_rank": 258,
+        "last_rank": 258,
+        "pattern_count": 1,
+        "start_angle_deg": 380.0,
+        "end_angle_deg": 381.0666666666667
+      },
+      {
+        "first_rank": 266,
+        "last_rank": 266,
+        "pattern_count": 1,
+        "start_angle_deg": 388.53333333333336,
+        "end_angle_deg": 389.6000000000001
+      },
+      {
+        "first_rank": 268,
+        "last_rank": 271,
+        "pattern_count": 4,
+        "start_angle_deg": 390.66666666666674,
+        "end_angle_deg": 394.93333333333334
+      },
+      {
+        "first_rank": 284,
+        "last_rank": 285,
+        "pattern_count": 2,
+        "start_angle_deg": 407.7333333333334,
+        "end_angle_deg": 409.8666666666667
+      },
+      {
+        "first_rank": 290,
+        "last_rank": 290,
+        "pattern_count": 1,
+        "start_angle_deg": 414.1333333333334,
+        "end_angle_deg": 415.20000000000005
+      },
+      {
+        "first_rank": 294,
+        "last_rank": 294,
+        "pattern_count": 1,
+        "start_angle_deg": 418.40000000000003,
+        "end_angle_deg": 419.46666666666675
+      }
+    ],
+    "legend": {
+      "text": [
+        "Matched",
+        "Unmatched"
+      ],
+      "colour": [
+        "#918BB4",
+        "#DDDDEA"
+      ],
+      "placement": [
+        1.3,
+        1.8
+      ],
+      "clipped": 0,
+      "overlaps": 0
+    }
+  },
+  "pattern_tip_mapping": [
+    {
+      "rank": 1,
+      "query": "F08-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 81.33333333333336
+    },
+    {
+      "rank": 2,
+      "query": "F08-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 82.40000000000002
+    },
+    {
+      "rank": 3,
+      "query": "F08-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 83.46666666666667
+    },
+    {
+      "rank": 4,
+      "query": "F08-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 84.53333333333335
+    },
+    {
+      "rank": 5,
+      "query": "F08-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 85.60000000000002
+    },
+    {
+      "rank": 6,
+      "query": "F02-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 86.66666666666669
+    },
+    {
+      "rank": 7,
+      "query": "F05-preTES-N02",
+      "matched": false,
+      "angle_deg": 87.73333333333335
+    },
+    {
+      "rank": 8,
+      "query": "F06-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 88.80000000000001
+    },
+    {
+      "rank": 9,
+      "query": "F04-preTES-N01",
+      "matched": false,
+      "angle_deg": 89.86666666666669
+    },
+    {
+      "rank": 10,
+      "query": "F01-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 90.93333333333334
+    },
+    {
+      "rank": 11,
+      "query": "F10-Donor-N01",
+      "matched": false,
+      "angle_deg": 92.00000000000001
+    },
+    {
+      "rank": 12,
+      "query": "F03-Donor-N01",
+      "matched": false,
+      "angle_deg": 93.06666666666668
+    },
+    {
+      "rank": 13,
+      "query": "F04-Donor-N01",
+      "matched": false,
+      "angle_deg": 94.13333333333334
+    },
+    {
+      "rank": 14,
+      "query": "F08-Donor-N01",
+      "matched": false,
+      "angle_deg": 95.2
+    },
+    {
+      "rank": 15,
+      "query": "F07-Donor-N00",
+      "matched": false,
+      "angle_deg": 96.26666666666667
+    },
+    {
+      "rank": 16,
+      "query": "F08-Donor-P01",
+      "matched": false,
+      "angle_deg": 97.33333333333334
+    },
+    {
+      "rank": 17,
+      "query": "F07-preTES-N01",
+      "matched": false,
+      "angle_deg": 98.4
+    },
+    {
+      "rank": 18,
+      "query": "F03-Acceptor-P02",
+      "matched": false,
+      "angle_deg": 99.46666666666667
+    },
+    {
+      "rank": 19,
+      "query": "F05-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 100.53333333333333
+    },
+    {
+      "rank": 20,
+      "query": "F06-Donor-N00",
+      "matched": false,
+      "angle_deg": 101.60000000000001
+    },
+    {
+      "rank": 21,
+      "query": "F08-preTES-N00",
+      "matched": false,
+      "angle_deg": 102.66666666666667
+    },
+    {
+      "rank": 22,
+      "query": "F02-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 103.73333333333333
+    },
+    {
+      "rank": 23,
+      "query": "F05-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 104.80000000000001
+    },
+    {
+      "rank": 24,
+      "query": "F04-Donor-N00",
+      "matched": false,
+      "angle_deg": 105.86666666666667
+    },
+    {
+      "rank": 25,
+      "query": "F06-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 106.93333333333334
+    },
+    {
+      "rank": 26,
+      "query": "F09-Acceptor-N00",
+      "matched": true,
+      "angle_deg": 108.0
+    },
+    {
+      "rank": 27,
+      "query": "F01-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 109.06666666666668
+    },
+    {
+      "rank": 28,
+      "query": "F10-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 110.13333333333333
+    },
+    {
+      "rank": 29,
+      "query": "F07-preTES-N00",
+      "matched": false,
+      "angle_deg": 111.2
+    },
+    {
+      "rank": 30,
+      "query": "F07-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 112.26666666666667
+    },
+    {
+      "rank": 31,
+      "query": "F05-preTES-N00",
+      "matched": false,
+      "angle_deg": 113.33333333333334
+    },
+    {
+      "rank": 32,
+      "query": "F04-preTES-N00",
+      "matched": false,
+      "angle_deg": 114.39999999999999
+    },
+    {
+      "rank": 33,
+      "query": "F02-preTES-N00",
+      "matched": false,
+      "angle_deg": 115.46666666666667
+    },
+    {
+      "rank": 34,
+      "query": "F09-preTES-N00",
+      "matched": false,
+      "angle_deg": 116.53333333333333
+    },
+    {
+      "rank": 35,
+      "query": "F06-TSS-P01",
+      "matched": true,
+      "angle_deg": 117.6
+    },
+    {
+      "rank": 36,
+      "query": "F07-TSS-P01",
+      "matched": false,
+      "angle_deg": 118.66666666666667
+    },
+    {
+      "rank": 37,
+      "query": "F04-TSS-P01",
+      "matched": false,
+      "angle_deg": 119.73333333333333
+    },
+    {
+      "rank": 38,
+      "query": "F08-TSS-P01",
+      "matched": false,
+      "angle_deg": 120.8
+    },
+    {
+      "rank": 39,
+      "query": "F01-TSS-P00",
+      "matched": false,
+      "angle_deg": 121.86666666666667
+    },
+    {
+      "rank": 40,
+      "query": "F08-Donor-N03",
+      "matched": false,
+      "angle_deg": 122.93333333333334
+    },
+    {
+      "rank": 41,
+      "query": "F03-Donor-N00",
+      "matched": false,
+      "angle_deg": 124.0
+    },
+    {
+      "rank": 42,
+      "query": "F03-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 125.06666666666666
+    },
+    {
+      "rank": 43,
+      "query": "F04-Acceptor-N00",
+      "matched": false,
+      "angle_deg": 126.13333333333334
+    },
+    {
+      "rank": 44,
+      "query": "F07-TSS-N01",
+      "matched": false,
+      "angle_deg": 127.2
+    },
+    {
+      "rank": 45,
+      "query": "F04-preTES-P00",
+      "matched": false,
+      "angle_deg": 128.26666666666665
+    },
+    {
+      "rank": 46,
+      "query": "F07-Donor-N01",
+      "matched": false,
+      "angle_deg": 129.33333333333334
+    },
+    {
+      "rank": 47,
+      "query": "F01-preTES-P00",
+      "matched": false,
+      "angle_deg": 130.4
+    },
+    {
+      "rank": 48,
+      "query": "F06-TSS-N01",
+      "matched": false,
+      "angle_deg": 131.46666666666667
+    },
+    {
+      "rank": 49,
+      "query": "F10-TSS-N00",
+      "matched": false,
+      "angle_deg": 132.53333333333333
+    },
+    {
+      "rank": 50,
+      "query": "F08-Donor-N02",
+      "matched": false,
+      "angle_deg": 133.60000000000002
+    },
+    {
+      "rank": 51,
+      "query": "F10-preTES-P01",
+      "matched": false,
+      "angle_deg": 134.66666666666666
+    },
+    {
+      "rank": 52,
+      "query": "F06-Donor-P02",
+      "matched": false,
+      "angle_deg": 135.73333333333332
+    },
+    {
+      "rank": 53,
+      "query": "F02-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 136.79999999999998
+    },
+    {
+      "rank": 54,
+      "query": "F03-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 137.86666666666667
+    },
+    {
+      "rank": 55,
+      "query": "F01-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 138.93333333333334
+    },
+    {
+      "rank": 56,
+      "query": "F05-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 140.0
+    },
+    {
+      "rank": 57,
+      "query": "F06-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 141.0666666666667
+    },
+    {
+      "rank": 58,
+      "query": "F09-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 142.13333333333333
+    },
+    {
+      "rank": 59,
+      "query": "F04-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 143.2
+    },
+    {
+      "rank": 60,
+      "query": "F03-Donor-P01",
+      "matched": true,
+      "angle_deg": 144.26666666666665
+    },
+    {
+      "rank": 61,
+      "query": "F08-Acceptor-P00",
+      "matched": true,
+      "angle_deg": 145.33333333333334
+    },
+    {
+      "rank": 62,
+      "query": "F07-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 146.4
+    },
+    {
+      "rank": 63,
+      "query": "F10-Acceptor-P00",
+      "matched": false,
+      "angle_deg": 147.46666666666667
+    },
+    {
+      "rank": 64,
+      "query": "F01-Donor-P00",
+      "matched": false,
+      "angle_deg": 148.53333333333333
+    },
+    {
+      "rank": 65,
+      "query": "F06-Donor-P01",
+      "matched": false,
+      "angle_deg": 149.6
+    },
+    {
+      "rank": 66,
+      "query": "F03-Donor-P00",
+      "matched": true,
+      "angle_deg": 150.66666666666666
+    },
+    {
+      "rank": 67,
+      "query": "F07-Donor-P01",
+      "matched": false,
+      "angle_deg": 151.73333333333332
+    },
+    {
+      "rank": 68,
+      "query": "F08-Donor-P00",
+      "matched": false,
+      "angle_deg": 152.8
+    },
+    {
+      "rank": 69,
+      "query": "F04-Donor-P00",
+      "matched": false,
+      "angle_deg": 153.86666666666667
+    },
+    {
+      "rank": 70,
+      "query": "F02-Donor-P00",
+      "matched": false,
+      "angle_deg": 154.93333333333334
+    },
+    {
+      "rank": 71,
+      "query": "F05-Donor-P00",
+      "matched": false,
+      "angle_deg": 156.00000000000003
+    },
+    {
+      "rank": 72,
+      "query": "F09-Donor-P00",
+      "matched": false,
+      "angle_deg": 157.06666666666666
+    },
+    {
+      "rank": 73,
+      "query": "F07-Donor-P00",
+      "matched": false,
+      "angle_deg": 158.13333333333333
+    },
+    {
+      "rank": 74,
+      "query": "F06-Donor-P00",
+      "matched": false,
+      "angle_deg": 159.2
+    },
+    {
+      "rank": 75,
+      "query": "F10-Donor-P00",
+      "matched": false,
+      "angle_deg": 160.26666666666665
+    },
+    {
+      "rank": 76,
+      "query": "F06-preTES-N00",
+      "matched": false,
+      "angle_deg": 161.33333333333334
+    },
+    {
+      "rank": 77,
+      "query": "F05-preTES-N01",
+      "matched": false,
+      "angle_deg": 162.4
+    },
+    {
+      "rank": 78,
+      "query": "F09-preTES-N01",
+      "matched": false,
+      "angle_deg": 163.46666666666667
+    },
+    {
+      "rank": 79,
+      "query": "F02-preTES-N01",
+      "matched": false,
+      "angle_deg": 164.53333333333333
+    },
+    {
+      "rank": 80,
+      "query": "F08-preTES-N01",
+      "matched": false,
+      "angle_deg": 165.59999999999997
+    },
+    {
+      "rank": 81,
+      "query": "F06-preTES-P01",
+      "matched": false,
+      "angle_deg": 166.66666666666666
+    },
+    {
+      "rank": 82,
+      "query": "F07-preTES-P00",
+      "matched": false,
+      "angle_deg": 167.73333333333335
+    },
+    {
+      "rank": 83,
+      "query": "F06-preTES-P03",
+      "matched": true,
+      "angle_deg": 168.79999999999998
+    },
+    {
+      "rank": 84,
+      "query": "F06-preTES-P07",
+      "matched": false,
+      "angle_deg": 169.86666666666667
+    },
+    {
+      "rank": 85,
+      "query": "F07-preTES-P01",
+      "matched": false,
+      "angle_deg": 170.93333333333334
+    },
+    {
+      "rank": 86,
+      "query": "F07-preTES-P08",
+      "matched": false,
+      "angle_deg": 172.0
+    },
+    {
+      "rank": 87,
+      "query": "F03-preTES-P01",
+      "matched": false,
+      "angle_deg": 173.06666666666666
+    },
+    {
+      "rank": 88,
+      "query": "F04-Acceptor-P05",
+      "matched": false,
+      "angle_deg": 174.13333333333333
+    },
+    {
+      "rank": 89,
+      "query": "F02-preTES-P00",
+      "matched": false,
+      "angle_deg": 175.2
+    },
+    {
+      "rank": 90,
+      "query": "F06-preTES-P04",
+      "matched": false,
+      "angle_deg": 176.26666666666668
+    },
+    {
+      "rank": 91,
+      "query": "F07-preTES-P02",
+      "matched": true,
+      "angle_deg": 177.33333333333331
+    },
+    {
+      "rank": 92,
+      "query": "F07-preTES-P03",
+      "matched": false,
+      "angle_deg": 178.4
+    },
+    {
+      "rank": 93,
+      "query": "F01-Donor-P01",
+      "matched": true,
+      "angle_deg": 179.46666666666667
+    },
+    {
+      "rank": 94,
+      "query": "F06-preTES-P02",
+      "matched": false,
+      "angle_deg": 180.5333333333333
+    },
+    {
+      "rank": 95,
+      "query": "F07-preTES-P06",
+      "matched": true,
+      "angle_deg": 181.6
+    },
+    {
+      "rank": 96,
+      "query": "F04-preTES-P01",
+      "matched": true,
+      "angle_deg": 182.66666666666666
+    },
+    {
+      "rank": 97,
+      "query": "F04-Acceptor-P02",
+      "matched": true,
+      "angle_deg": 183.73333333333332
+    },
+    {
+      "rank": 98,
+      "query": "F07-preTES-P05",
+      "matched": false,
+      "angle_deg": 184.8
+    },
+    {
+      "rank": 99,
+      "query": "F01-preTES-P01",
+      "matched": true,
+      "angle_deg": 185.8666666666667
+    },
+    {
+      "rank": 100,
+      "query": "F06-preTES-P05",
+      "matched": false,
+      "angle_deg": 186.93333333333334
+    },
+    {
+      "rank": 101,
+      "query": "F03-Acceptor-P03",
+      "matched": false,
+      "angle_deg": 188.0
+    },
+    {
+      "rank": 102,
+      "query": "F03-preTES-P02",
+      "matched": true,
+      "angle_deg": 189.06666666666666
+    },
+    {
+      "rank": 103,
+      "query": "F01-preTES-P03",
+      "matched": false,
+      "angle_deg": 190.13333333333333
+    },
+    {
+      "rank": 104,
+      "query": "F05-Acceptor-N09",
+      "matched": false,
+      "angle_deg": 191.2
+    },
+    {
+      "rank": 105,
+      "query": "F03-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 192.26666666666665
+    },
+    {
+      "rank": 106,
+      "query": "F04-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 193.33333333333334
+    },
+    {
+      "rank": 107,
+      "query": "F08-preTES-N02",
+      "matched": false,
+      "angle_deg": 194.4
+    },
+    {
+      "rank": 108,
+      "query": "F02-TSS-P03",
+      "matched": true,
+      "angle_deg": 195.46666666666664
+    },
+    {
+      "rank": 109,
+      "query": "F09-Donor-N04",
+      "matched": false,
+      "angle_deg": 196.53333333333333
+    },
+    {
+      "rank": 110,
+      "query": "F02-TSS-N00",
+      "matched": true,
+      "angle_deg": 197.6
+    },
+    {
+      "rank": 111,
+      "query": "F08-TSS-N00",
+      "matched": true,
+      "angle_deg": 198.66666666666666
+    },
+    {
+      "rank": 112,
+      "query": "F01-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 199.73333333333335
+    },
+    {
+      "rank": 113,
+      "query": "F03-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 200.8
+    },
+    {
+      "rank": 114,
+      "query": "F05-Acceptor-N08",
+      "matched": false,
+      "angle_deg": 201.86666666666667
+    },
+    {
+      "rank": 115,
+      "query": "F06-Donor-N04",
+      "matched": false,
+      "angle_deg": 202.9333333333333
+    },
+    {
+      "rank": 116,
+      "query": "F03-TSS-N00",
+      "matched": false,
+      "angle_deg": 204.0
+    },
+    {
+      "rank": 117,
+      "query": "F01-TSS-P01",
+      "matched": true,
+      "angle_deg": 205.06666666666666
+    },
+    {
+      "rank": 118,
+      "query": "F02-TSS-P01",
+      "matched": false,
+      "angle_deg": 206.13333333333333
+    },
+    {
+      "rank": 119,
+      "query": "F01-preTES-N02",
+      "matched": false,
+      "angle_deg": 207.2
+    },
+    {
+      "rank": 120,
+      "query": "F06-Donor-N07",
+      "matched": false,
+      "angle_deg": 208.26666666666668
+    },
+    {
+      "rank": 121,
+      "query": "F01-Donor-N02",
+      "matched": false,
+      "angle_deg": 209.33333333333334
+    },
+    {
+      "rank": 122,
+      "query": "F03-preTES-N03",
+      "matched": false,
+      "angle_deg": 210.39999999999998
+    },
+    {
+      "rank": 123,
+      "query": "F05-Acceptor-N10",
+      "matched": false,
+      "angle_deg": 211.46666666666667
+    },
+    {
+      "rank": 124,
+      "query": "F08-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 212.53333333333333
+    },
+    {
+      "rank": 125,
+      "query": "F09-Donor-N06",
+      "matched": false,
+      "angle_deg": 213.6
+    },
+    {
+      "rank": 126,
+      "query": "F06-preTES-N03",
+      "matched": false,
+      "angle_deg": 214.66666666666666
+    },
+    {
+      "rank": 127,
+      "query": "F10-TSS-P02",
+      "matched": false,
+      "angle_deg": 215.73333333333335
+    },
+    {
+      "rank": 128,
+      "query": "F08-preTES-N03",
+      "matched": false,
+      "angle_deg": 216.8
+    },
+    {
+      "rank": 129,
+      "query": "F09-Donor-N05",
+      "matched": false,
+      "angle_deg": 217.86666666666665
+    },
+    {
+      "rank": 130,
+      "query": "F07-Donor-N04",
+      "matched": false,
+      "angle_deg": 218.9333333333333
+    },
+    {
+      "rank": 131,
+      "query": "F01-preTES-N00",
+      "matched": false,
+      "angle_deg": 220.0
+    },
+    {
+      "rank": 132,
+      "query": "F07-preTES-N04",
+      "matched": false,
+      "angle_deg": 221.06666666666666
+    },
+    {
+      "rank": 133,
+      "query": "F09-TSS-N00",
+      "matched": false,
+      "angle_deg": 222.13333333333333
+    },
+    {
+      "rank": 134,
+      "query": "F04-Acceptor-N09",
+      "matched": true,
+      "angle_deg": 223.20000000000002
+    },
+    {
+      "rank": 135,
+      "query": "F05-TSS-N01",
+      "matched": false,
+      "angle_deg": 224.26666666666668
+    },
+    {
+      "rank": 136,
+      "query": "F06-Donor-N05",
+      "matched": false,
+      "angle_deg": 225.33333333333334
+    },
+    {
+      "rank": 137,
+      "query": "F01-Donor-N01",
+      "matched": false,
+      "angle_deg": 226.4
+    },
+    {
+      "rank": 138,
+      "query": "F05-preTES-N03",
+      "matched": false,
+      "angle_deg": 227.46666666666667
+    },
+    {
+      "rank": 139,
+      "query": "F07-preTES-N05",
+      "matched": true,
+      "angle_deg": 228.53333333333333
+    },
+    {
+      "rank": 140,
+      "query": "F05-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 229.59999999999997
+    },
+    {
+      "rank": 141,
+      "query": "F04-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 230.66666666666666
+    },
+    {
+      "rank": 142,
+      "query": "F10-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 231.73333333333335
+    },
+    {
+      "rank": 143,
+      "query": "F02-Donor-P01",
+      "matched": false,
+      "angle_deg": 232.79999999999998
+    },
+    {
+      "rank": 144,
+      "query": "F02-TSS-N02",
+      "matched": false,
+      "angle_deg": 233.86666666666665
+    },
+    {
+      "rank": 145,
+      "query": "F01-preTES-P02",
+      "matched": false,
+      "angle_deg": 234.93333333333334
+    },
+    {
+      "rank": 146,
+      "query": "F07-preTES-P04",
+      "matched": false,
+      "angle_deg": 235.99999999999997
+    },
+    {
+      "rank": 147,
+      "query": "F04-Acceptor-P04",
+      "matched": false,
+      "angle_deg": 237.06666666666666
+    },
+    {
+      "rank": 148,
+      "query": "F02-TSS-N01",
+      "matched": false,
+      "angle_deg": 238.13333333333335
+    },
+    {
+      "rank": 149,
+      "query": "F04-Acceptor-P03",
+      "matched": false,
+      "angle_deg": 239.2
+    },
+    {
+      "rank": 150,
+      "query": "F10-preTES-P00",
+      "matched": true,
+      "angle_deg": 240.26666666666668
+    },
+    {
+      "rank": 151,
+      "query": "F06-preTES-P00",
+      "matched": false,
+      "angle_deg": 241.33333333333334
+    },
+    {
+      "rank": 152,
+      "query": "F06-preTES-P06",
+      "matched": false,
+      "angle_deg": 242.39999999999998
+    },
+    {
+      "rank": 153,
+      "query": "F01-TSS-N02",
+      "matched": false,
+      "angle_deg": 243.46666666666667
+    },
+    {
+      "rank": 154,
+      "query": "F09-TSS-N01",
+      "matched": false,
+      "angle_deg": 244.53333333333336
+    },
+    {
+      "rank": 155,
+      "query": "F02-TSS-N03",
+      "matched": false,
+      "angle_deg": 245.6
+    },
+    {
+      "rank": 156,
+      "query": "F03-Donor-P02",
+      "matched": false,
+      "angle_deg": 246.66666666666663
+    },
+    {
+      "rank": 157,
+      "query": "F07-preTES-P07",
+      "matched": false,
+      "angle_deg": 247.73333333333335
+    },
+    {
+      "rank": 158,
+      "query": "F09-TSS-N02",
+      "matched": false,
+      "angle_deg": 248.79999999999998
+    },
+    {
+      "rank": 159,
+      "query": "F06-preTES-P08",
+      "matched": false,
+      "angle_deg": 249.86666666666667
+    },
+    {
+      "rank": 160,
+      "query": "F05-TSS-N04",
+      "matched": false,
+      "angle_deg": 250.93333333333337
+    },
+    {
+      "rank": 161,
+      "query": "F09-Acceptor-P04",
+      "matched": false,
+      "angle_deg": 252.0
+    },
+    {
+      "rank": 162,
+      "query": "F01-Acceptor-N11",
+      "matched": false,
+      "angle_deg": 253.06666666666663
+    },
+    {
+      "rank": 163,
+      "query": "F03-preTES-N04",
+      "matched": true,
+      "angle_deg": 254.13333333333333
+    },
+    {
+      "rank": 164,
+      "query": "F10-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 255.20000000000002
+    },
+    {
+      "rank": 165,
+      "query": "F03-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 256.26666666666665
+    },
+    {
+      "rank": 166,
+      "query": "F09-preTES-N04",
+      "matched": false,
+      "angle_deg": 257.3333333333333
+    },
+    {
+      "rank": 167,
+      "query": "F03-preTES-N02",
+      "matched": false,
+      "angle_deg": 258.40000000000003
+    },
+    {
+      "rank": 168,
+      "query": "F07-preTES-N07",
+      "matched": false,
+      "angle_deg": 259.46666666666664
+    },
+    {
+      "rank": 169,
+      "query": "F05-preTES-N06",
+      "matched": false,
+      "angle_deg": 260.5333333333333
+    },
+    {
+      "rank": 170,
+      "query": "F03-Acceptor-N09",
+      "matched": false,
+      "angle_deg": 261.6
+    },
+    {
+      "rank": 171,
+      "query": "F01-preTES-N01",
+      "matched": false,
+      "angle_deg": 262.66666666666663
+    },
+    {
+      "rank": 172,
+      "query": "F06-preTES-N04",
+      "matched": false,
+      "angle_deg": 263.73333333333335
+    },
+    {
+      "rank": 173,
+      "query": "F05-Donor-N00",
+      "matched": false,
+      "angle_deg": 264.8
+    },
+    {
+      "rank": 174,
+      "query": "F06-Donor-N03",
+      "matched": false,
+      "angle_deg": 265.8666666666667
+    },
+    {
+      "rank": 175,
+      "query": "F07-TSS-P02",
+      "matched": false,
+      "angle_deg": 266.93333333333334
+    },
+    {
+      "rank": 176,
+      "query": "F07-Donor-N02",
+      "matched": false,
+      "angle_deg": 268.0
+    },
+    {
+      "rank": 177,
+      "query": "F02-preTES-N03",
+      "matched": false,
+      "angle_deg": 269.06666666666666
+    },
+    {
+      "rank": 178,
+      "query": "F03-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 270.1333333333333
+    },
+    {
+      "rank": 179,
+      "query": "F01-TSS-N01",
+      "matched": false,
+      "angle_deg": 271.20000000000005
+    },
+    {
+      "rank": 180,
+      "query": "F04-TSS-N02",
+      "matched": false,
+      "angle_deg": 272.26666666666665
+    },
+    {
+      "rank": 181,
+      "query": "F08-TSS-N01",
+      "matched": false,
+      "angle_deg": 273.33333333333337
+    },
+    {
+      "rank": 182,
+      "query": "F02-Donor-N00",
+      "matched": false,
+      "angle_deg": 274.40000000000003
+    },
+    {
+      "rank": 183,
+      "query": "F07-preTES-N02",
+      "matched": false,
+      "angle_deg": 275.46666666666664
+    },
+    {
+      "rank": 184,
+      "query": "F08-Donor-P02",
+      "matched": false,
+      "angle_deg": 276.5333333333333
+    },
+    {
+      "rank": 185,
+      "query": "F05-TSS-N02",
+      "matched": false,
+      "angle_deg": 277.6
+    },
+    {
+      "rank": 186,
+      "query": "F05-Donor-N01",
+      "matched": false,
+      "angle_deg": 278.6666666666667
+    },
+    {
+      "rank": 187,
+      "query": "F06-Donor-N02",
+      "matched": false,
+      "angle_deg": 279.73333333333335
+    },
+    {
+      "rank": 188,
+      "query": "F10-TSS-P01",
+      "matched": false,
+      "angle_deg": 280.8
+    },
+    {
+      "rank": 189,
+      "query": "F06-preTES-N02",
+      "matched": false,
+      "angle_deg": 281.8666666666667
+    },
+    {
+      "rank": 190,
+      "query": "F02-Acceptor-N06",
+      "matched": true,
+      "angle_deg": 282.9333333333333
+    },
+    {
+      "rank": 191,
+      "query": "F05-preTES-N04",
+      "matched": false,
+      "angle_deg": 284.0
+    },
+    {
+      "rank": 192,
+      "query": "F07-Donor-N03",
+      "matched": false,
+      "angle_deg": 285.06666666666666
+    },
+    {
+      "rank": 193,
+      "query": "F07-Donor-N05",
+      "matched": false,
+      "angle_deg": 286.1333333333333
+    },
+    {
+      "rank": 194,
+      "query": "F10-Donor-P01",
+      "matched": false,
+      "angle_deg": 287.20000000000005
+    },
+    {
+      "rank": 195,
+      "query": "F01-Acceptor-N09",
+      "matched": false,
+      "angle_deg": 288.2666666666667
+    },
+    {
+      "rank": 196,
+      "query": "F07-preTES-N06",
+      "matched": false,
+      "angle_deg": 289.3333333333333
+    },
+    {
+      "rank": 197,
+      "query": "F09-Donor-N02",
+      "matched": false,
+      "angle_deg": 290.4
+    },
+    {
+      "rank": 198,
+      "query": "F05-preTES-N05",
+      "matched": false,
+      "angle_deg": 291.4666666666667
+    },
+    {
+      "rank": 199,
+      "query": "F02-preTES-N04",
+      "matched": false,
+      "angle_deg": 292.5333333333333
+    },
+    {
+      "rank": 200,
+      "query": "F09-preTES-N03",
+      "matched": false,
+      "angle_deg": 293.6
+    },
+    {
+      "rank": 201,
+      "query": "F05-TSS-N03",
+      "matched": false,
+      "angle_deg": 294.6666666666667
+    },
+    {
+      "rank": 202,
+      "query": "F06-Donor-P03",
+      "matched": false,
+      "angle_deg": 295.73333333333335
+    },
+    {
+      "rank": 203,
+      "query": "F04-TSS-N01",
+      "matched": true,
+      "angle_deg": 296.8
+    },
+    {
+      "rank": 204,
+      "query": "F01-Donor-N00",
+      "matched": false,
+      "angle_deg": 297.8666666666667
+    },
+    {
+      "rank": 205,
+      "query": "F08-TSS-P00",
+      "matched": false,
+      "angle_deg": 298.93333333333334
+    },
+    {
+      "rank": 206,
+      "query": "F09-TSS-P01",
+      "matched": false,
+      "angle_deg": 300.0
+    },
+    {
+      "rank": 207,
+      "query": "F06-Donor-N01",
+      "matched": false,
+      "angle_deg": 301.0666666666667
+    },
+    {
+      "rank": 208,
+      "query": "F08-Donor-N00",
+      "matched": false,
+      "angle_deg": 302.1333333333333
+    },
+    {
+      "rank": 209,
+      "query": "F10-Donor-N00",
+      "matched": false,
+      "angle_deg": 303.2
+    },
+    {
+      "rank": 210,
+      "query": "F09-Donor-N00",
+      "matched": false,
+      "angle_deg": 304.2666666666667
+    },
+    {
+      "rank": 211,
+      "query": "F10-Donor-N02",
+      "matched": false,
+      "angle_deg": 305.3333333333333
+    },
+    {
+      "rank": 212,
+      "query": "F03-TSS-P00",
+      "matched": true,
+      "angle_deg": 306.4
+    },
+    {
+      "rank": 213,
+      "query": "F05-TSS-P01",
+      "matched": false,
+      "angle_deg": 309.25714285714287
+    },
+    {
+      "rank": 214,
+      "query": "F01-TSS-N00",
+      "matched": true,
+      "angle_deg": 312.1142857142857
+    },
+    {
+      "rank": 215,
+      "query": "F07-TSS-P00",
+      "matched": true,
+      "angle_deg": 314.9714285714286
+    },
+    {
+      "rank": 216,
+      "query": "F10-TSS-P00",
+      "matched": true,
+      "angle_deg": 317.8285714285714
+    },
+    {
+      "rank": 217,
+      "query": "F09-TSS-P00",
+      "matched": false,
+      "angle_deg": 320.6857142857143
+    },
+    {
+      "rank": 218,
+      "query": "F04-TSS-N00",
+      "matched": true,
+      "angle_deg": 323.5428571428572
+    },
+    {
+      "rank": 219,
+      "query": "F05-TSS-P00",
+      "matched": true,
+      "angle_deg": 326.4
+    },
+    {
+      "rank": 220,
+      "query": "F10-TSS-N01",
+      "matched": true,
+      "angle_deg": 329.25714285714287
+    },
+    {
+      "rank": 221,
+      "query": "F02-TSS-P00",
+      "matched": true,
+      "angle_deg": 332.11428571428576
+    },
+    {
+      "rank": 222,
+      "query": "F04-TSS-P00",
+      "matched": false,
+      "angle_deg": 334.97142857142853
+    },
+    {
+      "rank": 223,
+      "query": "F03-TSS-P01",
+      "matched": true,
+      "angle_deg": 337.8285714285714
+    },
+    {
+      "rank": 224,
+      "query": "F06-TSS-P00",
+      "matched": true,
+      "angle_deg": 340.6857142857143
+    },
+    {
+      "rank": 225,
+      "query": "F06-TSS-N00",
+      "matched": false,
+      "angle_deg": 343.54285714285714
+    },
+    {
+      "rank": 226,
+      "query": "F07-TSS-N00",
+      "matched": true,
+      "angle_deg": 346.40000000000003
+    },
+    {
+      "rank": 227,
+      "query": "F06-preTES-N01",
+      "matched": false,
+      "angle_deg": 347.46666666666664
+    },
+    {
+      "rank": 228,
+      "query": "F01-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 348.53333333333336
+    },
+    {
+      "rank": 229,
+      "query": "F09-preTES-N02",
+      "matched": false,
+      "angle_deg": 349.59999999999997
+    },
+    {
+      "rank": 230,
+      "query": "F03-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 350.6666666666667
+    },
+    {
+      "rank": 231,
+      "query": "F03-preTES-N00",
+      "matched": false,
+      "angle_deg": 351.73333333333335
+    },
+    {
+      "rank": 232,
+      "query": "F02-preTES-N05",
+      "matched": false,
+      "angle_deg": 352.8
+    },
+    {
+      "rank": 233,
+      "query": "F07-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 353.8666666666667
+    },
+    {
+      "rank": 234,
+      "query": "F02-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 354.93333333333334
+    },
+    {
+      "rank": 235,
+      "query": "F03-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 356.0
+    },
+    {
+      "rank": 236,
+      "query": "F07-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 357.06666666666666
+    },
+    {
+      "rank": 237,
+      "query": "F04-preTES-N02",
+      "matched": false,
+      "angle_deg": 358.1333333333334
+    },
+    {
+      "rank": 238,
+      "query": "F06-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 359.2
+    },
+    {
+      "rank": 239,
+      "query": "F05-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 0.26666666666670835
+    },
+    {
+      "rank": 240,
+      "query": "F09-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 1.3333333333333712
+    },
+    {
+      "rank": 241,
+      "query": "F04-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 2.3999999999999773
+    },
+    {
+      "rank": 242,
+      "query": "F10-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 3.466666666666697
+    },
+    {
+      "rank": 243,
+      "query": "F01-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 4.53333333333336
+    },
+    {
+      "rank": 244,
+      "query": "F05-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 5.600000000000023
+    },
+    {
+      "rank": 245,
+      "query": "F06-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 6.666666666666686
+    },
+    {
+      "rank": 246,
+      "query": "F04-preTES-N03",
+      "matched": false,
+      "angle_deg": 7.7333333333333485
+    },
+    {
+      "rank": 247,
+      "query": "F09-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 8.800000000000011
+    },
+    {
+      "rank": 248,
+      "query": "F01-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 9.866666666666674
+    },
+    {
+      "rank": 249,
+      "query": "F02-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 10.933333333333337
+    },
+    {
+      "rank": 250,
+      "query": "F10-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 12.0
+    },
+    {
+      "rank": 251,
+      "query": "F04-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 13.066666666666663
+    },
+    {
+      "rank": 252,
+      "query": "F10-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 14.133333333333326
+    },
+    {
+      "rank": 253,
+      "query": "F07-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 15.200000000000045
+    },
+    {
+      "rank": 254,
+      "query": "F09-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 16.26666666666671
+    },
+    {
+      "rank": 255,
+      "query": "F04-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 17.33333333333337
+    },
+    {
+      "rank": 256,
+      "query": "F07-Acceptor-N08",
+      "matched": false,
+      "angle_deg": 18.400000000000034
+    },
+    {
+      "rank": 257,
+      "query": "F04-Donor-P01",
+      "matched": false,
+      "angle_deg": 19.466666666666697
+    },
+    {
+      "rank": 258,
+      "query": "F04-Acceptor-P01",
+      "matched": true,
+      "angle_deg": 20.53333333333336
+    },
+    {
+      "rank": 259,
+      "query": "F09-Acceptor-P03",
+      "matched": false,
+      "angle_deg": 21.600000000000023
+    },
+    {
+      "rank": 260,
+      "query": "F01-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 22.666666666666686
+    },
+    {
+      "rank": 261,
+      "query": "F02-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 23.73333333333335
+    },
+    {
+      "rank": 262,
+      "query": "F03-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 24.80000000000001
+    },
+    {
+      "rank": 263,
+      "query": "F05-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 25.866666666666674
+    },
+    {
+      "rank": 264,
+      "query": "F08-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 26.933333333333337
+    },
+    {
+      "rank": 265,
+      "query": "F01-Acceptor-P02",
+      "matched": false,
+      "angle_deg": 28.000000000000057
+    },
+    {
+      "rank": 266,
+      "query": "F05-preTES-P01",
+      "matched": true,
+      "angle_deg": 29.06666666666672
+    },
+    {
+      "rank": 267,
+      "query": "F09-Acceptor-P05",
+      "matched": false,
+      "angle_deg": 30.133333333333383
+    },
+    {
+      "rank": 268,
+      "query": "F09-Acceptor-P01",
+      "matched": true,
+      "angle_deg": 31.200000000000045
+    },
+    {
+      "rank": 269,
+      "query": "F10-Acceptor-P02",
+      "matched": true,
+      "angle_deg": 32.26666666666671
+    },
+    {
+      "rank": 270,
+      "query": "F02-preTES-P01",
+      "matched": true,
+      "angle_deg": 33.33333333333337
+    },
+    {
+      "rank": 271,
+      "query": "F05-preTES-P00",
+      "matched": true,
+      "angle_deg": 34.400000000000034
+    },
+    {
+      "rank": 272,
+      "query": "F09-Donor-N03",
+      "matched": false,
+      "angle_deg": 35.4666666666667
+    },
+    {
+      "rank": 273,
+      "query": "F05-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 36.53333333333336
+    },
+    {
+      "rank": 274,
+      "query": "F04-Acceptor-N08",
+      "matched": false,
+      "angle_deg": 37.60000000000008
+    },
+    {
+      "rank": 275,
+      "query": "F07-preTES-N03",
+      "matched": false,
+      "angle_deg": 38.666666666666686
+    },
+    {
+      "rank": 276,
+      "query": "F02-preTES-N02",
+      "matched": false,
+      "angle_deg": 39.73333333333335
+    },
+    {
+      "rank": 277,
+      "query": "F07-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 40.80000000000001
+    },
+    {
+      "rank": 278,
+      "query": "F05-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 41.866666666666674
+    },
+    {
+      "rank": 279,
+      "query": "F01-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 42.933333333333394
+    },
+    {
+      "rank": 280,
+      "query": "F02-Acceptor-N03",
+      "matched": false,
+      "angle_deg": 44.00000000000006
+    },
+    {
+      "rank": 281,
+      "query": "F07-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 45.06666666666672
+    },
+    {
+      "rank": 282,
+      "query": "F07-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 46.13333333333338
+    },
+    {
+      "rank": 283,
+      "query": "F10-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 47.200000000000045
+    },
+    {
+      "rank": 284,
+      "query": "F02-TSS-P02",
+      "matched": true,
+      "angle_deg": 48.26666666666671
+    },
+    {
+      "rank": 285,
+      "query": "F05-TSS-N00",
+      "matched": true,
+      "angle_deg": 49.33333333333337
+    },
+    {
+      "rank": 286,
+      "query": "F03-Acceptor-N08",
+      "matched": false,
+      "angle_deg": 50.400000000000034
+    },
+    {
+      "rank": 287,
+      "query": "F02-Donor-N01",
+      "matched": false,
+      "angle_deg": 51.4666666666667
+    },
+    {
+      "rank": 288,
+      "query": "F06-Donor-N06",
+      "matched": false,
+      "angle_deg": 52.53333333333342
+    },
+    {
+      "rank": 289,
+      "query": "F08-TSS-N02",
+      "matched": false,
+      "angle_deg": 53.60000000000002
+    },
+    {
+      "rank": 290,
+      "query": "F03-preTES-P00",
+      "matched": true,
+      "angle_deg": 54.666666666666686
+    },
+    {
+      "rank": 291,
+      "query": "F07-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 55.73333333333335
+    },
+    {
+      "rank": 292,
+      "query": "F06-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 56.80000000000001
+    },
+    {
+      "rank": 293,
+      "query": "F09-Acceptor-P02",
+      "matched": false,
+      "angle_deg": 57.866666666666674
+    },
+    {
+      "rank": 294,
+      "query": "F04-preTES-P02",
+      "matched": true,
+      "angle_deg": 58.933333333333394
+    },
+    {
+      "rank": 295,
+      "query": "F10-Acceptor-P01",
+      "matched": false,
+      "angle_deg": 60.00000000000006
+    },
+    {
+      "rank": 296,
+      "query": "F05-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 61.06666666666672
+    },
+    {
+      "rank": 297,
+      "query": "F06-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 62.13333333333338
+    },
+    {
+      "rank": 298,
+      "query": "F06-Acceptor-N06",
+      "matched": false,
+      "angle_deg": 63.200000000000045
+    },
+    {
+      "rank": 299,
+      "query": "F01-Acceptor-N08",
+      "matched": false,
+      "angle_deg": 64.26666666666671
+    },
+    {
+      "rank": 300,
+      "query": "F08-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 65.33333333333337
+    },
+    {
+      "rank": 301,
+      "query": "F03-Acceptor-N07",
+      "matched": false,
+      "angle_deg": 66.40000000000003
+    },
+    {
+      "rank": 302,
+      "query": "F04-Acceptor-N04",
+      "matched": false,
+      "angle_deg": 67.46666666666675
+    },
+    {
+      "rank": 303,
+      "query": "F10-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 68.53333333333336
+    },
+    {
+      "rank": 304,
+      "query": "F07-Acceptor-N01",
+      "matched": false,
+      "angle_deg": 69.60000000000002
+    },
+    {
+      "rank": 305,
+      "query": "F09-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 70.66666666666669
+    },
+    {
+      "rank": 306,
+      "query": "F01-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 71.73333333333335
+    },
+    {
+      "rank": 307,
+      "query": "F02-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 72.80000000000001
+    },
+    {
+      "rank": 308,
+      "query": "F03-preTES-N01",
+      "matched": false,
+      "angle_deg": 73.86666666666667
+    },
+    {
+      "rank": 309,
+      "query": "F06-Acceptor-N02",
+      "matched": false,
+      "angle_deg": 74.93333333333334
+    },
+    {
+      "rank": 310,
+      "query": "F09-Donor-N01",
+      "matched": false,
+      "angle_deg": 76.0
+    },
+    {
+      "rank": 311,
+      "query": "F02-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 77.06666666666666
+    },
+    {
+      "rank": 312,
+      "query": "F06-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 78.13333333333333
+    },
+    {
+      "rank": 313,
+      "query": "F01-Acceptor-N10",
+      "matched": false,
+      "angle_deg": 79.20000000000005
+    },
+    {
+      "rank": 314,
+      "query": "F04-Acceptor-N05",
+      "matched": false,
+      "angle_deg": 80.26666666666671
+    }
+  ],
+  "canvas_points": [
+    360,
+    288
+  ],
+  "font": "Arial",
+  "min_text_pt": 11.999999046325684,
+  "all_text_black": true,
+  "embedded_images": 0,
+  "topology_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "pdf_sha256": "85d98be130621c4ecd31b8ea1a1c0baf988f2c77c5df67ade04f6c5595dbcd83",
+  "previous_figure": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_continuous_ring_darker_grey_5x4.pdf",
+  "geometry_unchanged_from_less_dense": true,
+  "outer_ring_style": "Continuous two-tone purple annulus: dark=matched, light=unmatched.",
+  "grey_hit_style": "44 grey hit sectors inside the annulus; fill #B0B0B0, opaque.",
+  "ring_colour_mapping": {
+    "matched": {
+      "colour": "#918BB4",
+      "patterns": 44
+    },
+    "unmatched": {
+      "colour": "#DDDDEA",
+      "patterns": 270
+    }
+  },
+  "match_definition": "Existing TOMTOM q <= 0.05 and overlap >= 5 bp; no new matching.",
+  "palette_source": "Dominant dark/light purple pixels from the user reference image."
+}

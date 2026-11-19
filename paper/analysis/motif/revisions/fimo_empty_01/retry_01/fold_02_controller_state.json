@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "FIMO_resume_from_saved_TOMTOM",
+  "pid": 500952,
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/resume_fold_02.py\", line 108, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/resume_fold_02.py\", line 68, in main\n    plan = science.freeze_perturbations(config, selected, metadata, annotations)\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_pipeline.py\", line 244, in freeze_perturbations\n    scan_folder.mkdir(parents=True)\n  File \"/home/user_011/miniconda3/envs/Pause/lib/python3.10/pathlib.py\", line 1175, in mkdir\n    self._accessor.mkdir(self, mode)\nFileExistsError: [Errno 17] File exists: '/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/instance_scans/r0_pos_patterns_pattern_0'\n"
+}

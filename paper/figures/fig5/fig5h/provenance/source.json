@@ -1,0 +1,13 @@
+{
+  "server_directory": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/motif_insertion_allgenes_20261108",
+  "source_pdf": "motif_replacement_main_three_final_figure.pdf",
+  "source_pdf_sha256": "269deeb29431fde03249ea24fa9efd1051183286b402b3b94ca64501420591ec",
+  "source_curve_sha256": "5f4218a56faddaebd32c241a16b2ab58f4b3e5c4025ddd87afc4b78245b33abb",
+  "bundled_curve_provenance": "Locally regrouped from source prediction table. Normalized values verified against source.",
+  "source_matplotlib": "3.11.1",
+  "genes": 15351,
+  "labels": 11,
+  "sequences": 9,
+  "variant_predictions": 81877230,
+  "grouped_curve_rows": 5400
+}

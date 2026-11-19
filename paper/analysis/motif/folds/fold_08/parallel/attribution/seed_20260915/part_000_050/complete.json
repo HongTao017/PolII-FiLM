@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "stage": "attribution",
+  "seed": 20260915,
+  "gpu": 3,
+  "start": 0,
+  "stop": 50,
+  "checkpoint": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915",
+    "checkpoint_sha256": "db792d2d3a0d4fde0422b147f7fb145a7ab9709ea42a6a3fa6fa8b3d93e714b7",
+    "preprocessing_sha256": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+    "fingerprint": "63dabe93eea80b84a839eb709b94e360daacf73f89d9335acc95a6069c34a534"
+  },
+  "device_compatibility": {
+    "gpu": 3,
+    "seed": 20260915,
+    "gene": "SPTB",
+    "max_attribution_difference": 1.6624107956886292e-07,
+    "delta_difference": 2.384185791015625e-07,
+    "cpu_completeness_error": 8.940696716308594e-08,
+    "status": "PASS"
+  },
+  "selected_genes_sha256": "f5315ea11f111adce42ac5775e97dfb5f82befbcc51166aa249f2fe40b232672",
+  "outputs_sha256": {
+    "parallel/attribution/seed_20260915/part_000_050/hypothetical.npy": "2e7043a74738324934e3b989a04586e1c40df87f977abd56e2958720cced5276",
+    "parallel/attribution/seed_20260915/part_000_050/completeness.npz": "9cd8b88c3084ab623844c7422be7bdfffe0e363f34cdb1d5b354c4f8fe45db4c"
+  }
+}

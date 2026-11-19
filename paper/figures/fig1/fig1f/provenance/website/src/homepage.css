@@ -1,0 +1,134 @@
+/* Search layout follows the supplied scHDAPA example; typography follows InTxDB. */
+:root{font-family:"Poppins","Segoe UI",Arial,sans-serif;--blue:#3e77ab}
+body{font-family:"Poppins","Segoe UI",Arial,sans-serif;font-size:14px}
+h1,h2,h3{font-weight:500;letter-spacing:normal;text-wrap:balance}p{text-wrap:pretty}
+.brand-mark{background:#6794bd}.site-header nav{font-size:15px}
+.site-header nav>a.active,.site-header nav>a:hover{color:#3e77ab}
+.site-header nav>a:not(.help-link):after{background:#3e77ab}
+.primary,.hero-search button{background:#3e77ab}.primary:hover,.hero-search button:hover{background:#35658f}
+.home-main{padding-top:0}.reference-hero{padding:64px 0 54px;background:#fff;border-bottom:1px solid #e5ebf1}
+.reference-hero h2{font-size:36px;font-weight:500;color:#3e77ab;line-height:1.35;letter-spacing:normal}
+.reference-hero-description{font-size:16px;line-height:1.8;margin:10px auto 0;max-width:800px;color:#66758a}
+.reference-search{max-width:720px;min-height:76px;margin:28px auto 0;padding:14px 20px;gap:12px;border:2px solid transparent;border-radius:16px;box-shadow:0 4px 24px #00000012;transition:none}
+.reference-search:focus-within{border-color:#3e77ab66;box-shadow:0 8px 30px #3e77ab1a}
+.reference-search .search-icon{flex-shrink:0;color:#929dac}
+.reference-search:focus-within .search-icon{color:#3e77ab}
+.reference-search input{font-size:17px;line-height:1.4;font-family:inherit;color:#252525}
+.reference-search input::placeholder{color:#8d98a6}.reference-search input:focus-visible{outline:none}
+.reference-search .search-submit{min-width:108px;min-height:44px;font-size:14px;border-radius:10px;padding:10px 16px;gap:10px}
+.reference-search .search-clear{width:28px;height:28px;min-width:28px;min-height:28px;padding:0;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:transparent;color:#8792a2;border-radius:50%}
+.reference-search .search-clear:hover{background:#f1f5f9;color:#475569}
+.reference-examples{margin-top:18px;gap:12px;font-size:14px;color:#7a8799}
+.reference-examples button{font-size:13px;font-weight:400;padding:6px 16px;background:#fff;border:1px solid #dfe5ee;border-radius:16px;text-decoration:none;color:#3e77ab}
+.reference-examples button:hover{background:#f1f7fc;border-color:#8eb0cf}
+.reference-hero-actions{margin-top:20px}.hero-learn-link,.hero-quick-link{font-size:13px;color:#3e77ab}
+.floating-metrics{margin:32px 0 48px;align-items:stretch}
+.floating-metric-card{display:flex;flex-direction:column;min-height:232px;padding:22px;border-color:#dce6f0;transition:transform 200ms ease-out}
+.floating-metric-card>.metric-top{align-items:center;min-height:36px;gap:12px;font-size:14px;font-weight:500;line-height:1.5;color:#52657a}
+.floating-metric-card .metric-top>span:first-child{min-width:0;text-wrap:balance}
+.floating-metric-card .metric-icon{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;width:36px;height:36px;flex-shrink:0;border-radius:10px;background:#edf5fc;color:var(--blue);transition:transform 400ms ease-out}
+.floating-metric-card .metric-icon::before{content:"";position:absolute;inset:-10%;border-radius:50%;background:#3e77ab14;transform:scale(0);transition:transform 500ms ease-out;pointer-events:none}
+.floating-metric-card .metric-icon>svg{position:relative;transition:transform 400ms ease-out}
+@media(hover:hover){
+ .floating-metric-card:hover .metric-icon{transform:scale(1.05)}
+ .floating-metric-card:hover .metric-icon::before{transform:scale(1)}
+ .floating-metric-card:hover .metric-icon>svg{transform:scale(1.1) translateY(-2px)}
+}
+.floating-metric-card:focus-visible .metric-icon{transform:scale(1.05)}
+.floating-metric-card:focus-visible .metric-icon::before{transform:scale(1)}
+.floating-metric-card:focus-visible .metric-icon>svg{transform:scale(1.1) translateY(-2px)}
+@media(prefers-reduced-motion:reduce){
+ .floating-metric-card .metric-icon,.floating-metric-card .metric-icon::before,.floating-metric-card .metric-icon>svg{transform:none!important;transition:none!important}
+ .floating-metric-card .metric-icon::before{display:none}
+}
+.floating-metric-card>strong{font-size:42px;font-weight:600;line-height:1.15;letter-spacing:normal;font-variant-numeric:tabular-nums;margin:14px 0 20px;color:#24344d}
+.floating-metric-card .metric-action{position:static;margin-top:auto;padding-top:13px;border-top:1px solid #e5edf5;min-height:34px;font-size:13px;font-weight:500;line-height:1.5;color:var(--blue);opacity:1;transform:none;transition:none}
+.floating-metric-card .metric-action>svg{flex-shrink:0}
+.home-content{padding-bottom:56px}.home-distribution{margin-top:0}
+.distribution-heading{text-align:center;margin:0 auto 30px;max-width:1000px}
+.distribution-heading h2{font-size:28px;font-weight:500;line-height:1.45;color:#252525}
+.distribution-heading p{font-size:14px;line-height:1.9;color:#69788c;margin:15px auto 16px;max-width:960px}
+.distribution-heading .text-link{font-size:13px;font-weight:400;color:#3e77ab}
+.home-distribution .chart-grid{gap:24px;grid-template-columns:1fr 1.05fr}
+.home-distribution .panel{border-color:#e0e6ee;box-shadow:0 1px 2px #0f172a08}
+.home-distribution .panel-head{padding:24px;min-height:98px}
+.home-distribution .panel-head h2{font-size:17px;font-weight:500}
+.home-distribution .panel-head p{font-size:12px;line-height:1.8}
+.home-distribution .assay-bars{padding:28px 24px}
+.home-distribution .bar-row{font-size:12px;padding:16px 0;grid-template-columns:72px minmax(0,1fr) 28px 40px;gap:10px}
+.home-distribution .bar-row b{font-size:13px}.home-distribution .bar-row small{font-size:11px}
+.home-distribution .panel-foot{font-size:12px;padding:15px 24px}
+.home-distribution .heatmap{padding:18px 24px 24px}
+.home-distribution .heatmap-line{font-size:12px;grid-template-columns:86px repeat(3,minmax(0,1fr));gap:5px}
+.home-distribution .heatmap-header{font-size:11px;height:25px}
+.home-distribution .heatmap-line>button{height:24px;font-size:11px}
+.quick-links-section{background:#fff;border-top:0;padding:48px 0 56px}
+.quick-links-inner{max-width:1040px}.quick-links-heading{margin-bottom:32px}
+.quick-links-heading h2{color:#0f172a;font-size:27px;font-weight:500;text-wrap:balance}
+.quick-links-heading p{color:#64748b;font-size:14px;margin:18px 0 0;text-wrap:pretty}
+.quick-link-card{align-items:center;text-align:center;min-height:272px;padding:30px 26px 52px;overflow:hidden;transition:transform 300ms ease-out}
+.quick-link-icon{width:59px;height:59px;border-radius:50%;background:#678acf;color:#fff;margin-bottom:16px}
+.quick-link-card h3{font-size:18px;font-weight:400;margin-bottom:10px}
+.quick-link-card p{font-size:14px;line-height:1.8;max-width:270px}
+.quick-link-action{left:auto;bottom:18px;font-size:12px;color:#3e77ab}
+.quick-link-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:#3e77ab;transform:scaleX(0);transition:transform 300ms ease-out;pointer-events:none}
+.quick-link-icon{position:relative;overflow:hidden;transition:transform 400ms ease-out}
+.quick-link-icon::before{content:"";position:absolute;inset:-10%;border-radius:50%;background:#ffffff26;transform:scale(0);transition:transform 500ms ease-out;pointer-events:none}
+.quick-link-icon>svg{position:relative;transition:transform 400ms ease-out}
+.quick-link-card h3{transition:transform 300ms ease-out}
+.quick-link-card .quick-link-action{right:20px;left:auto;bottom:20px;opacity:0;transform:translateX(-10px);transition:transform 300ms ease-out,opacity 300ms ease-out}
+@media(hover:hover){
+ .quick-link-card:hover{transform:translateY(-8px);box-shadow:0 12px 32px #409eff26;border-color:#409eff33}
+ .quick-link-card:hover::before{transform:scaleX(1)}
+ .quick-link-card:hover .quick-link-icon{transform:scale(1.05);background:#678acf;color:#fff}
+ .quick-link-card:hover .quick-link-icon::before{transform:scale(1)}
+ .quick-link-card:hover .quick-link-icon>svg{transform:scale(1.1) translateY(-2px)}
+ .quick-link-card:hover h3{transform:translateY(-1px)}
+ .quick-link-card:hover .quick-link-action{opacity:1;transform:translateX(0)}
+ .quick-link-card:hover .quick-link-action>svg{transform:none}
+}
+.quick-link-card:focus-visible::before{transform:scaleX(1)}
+.quick-link-card:focus-visible .quick-link-action{opacity:1;transform:translateX(0)}
+@media(hover:none){.quick-link-card .quick-link-action{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){
+ .quick-link-card,.quick-link-card::before,.quick-link-icon,.quick-link-icon::before,.quick-link-icon>svg,.quick-link-card h3,.quick-link-card .quick-link-action{transition:none!important;transform:none!important}
+ .quick-link-card::before,.quick-link-icon::before{display:none}
+ .quick-link-card .quick-link-action{opacity:1}
+}
+@media(max-width:1150px){.site-header nav{font-size:14px;gap:16px}}
+@media(max-width:900px){.site-header nav{font-size:13px;gap:11px}.quick-links-grid{gap:18px}}
+@media(max-width:760px){
+ .reference-hero{padding:42px 0 36px}.reference-hero h2{font-size:30px}
+ .reference-hero-description{font-size:14px}.reference-search{padding:12px;gap:9px;min-height:68px}
+ .reference-search input{font-size:15px}.reference-search .search-submit{min-width:82px;font-size:12px;padding:10px;gap:7px}
+ .reference-search .search-icon{width:19px}.reference-examples{gap:8px;font-size:13px}
+ .reference-examples button{padding:5px 12px}.reference-hero-actions{gap:18px}
+ .hero-learn-link,.hero-quick-link{font-size:12px}.floating-metrics{margin:24px 0 36px}
+ .floating-metric-card{min-height:220px;padding:18px 16px}
+ .floating-metric-card>.metric-top{font-size:13px;min-height:40px;gap:8px}.floating-metric-card>strong{font-size:36px;margin:14px 0 18px}
+ .floating-metric-card .metric-icon{width:30px;height:30px;border-radius:8px}.floating-metric-card .metric-icon>svg{width:17px;height:17px}
+ .floating-metric-card .metric-action{font-size:12px;padding-top:12px;min-height:32px;gap:6px}
+ .distribution-heading h2{font-size:23px}.distribution-heading p{font-size:13px}
+ .home-distribution .chart-grid{grid-template-columns:1fr;gap:18px}
+ .home-distribution .panel-head{padding:20px;min-height:94px}.home-distribution .panel-head h2{font-size:16px}
+ .home-distribution .assay-bars{padding:24px 18px}.home-distribution .bar-row{grid-template-columns:67px minmax(0,1fr) 24px 39px;gap:7px}
+ .home-distribution .heatmap{padding:18px 14px 24px}.home-distribution .heatmap-line{grid-template-columns:75px repeat(3,minmax(0,1fr));font-size:11px;gap:4px}
+ .home-distribution .heatmap-header{font-size:10px}.home-content{padding-bottom:40px}
+ .quick-links-heading h2{font-size:25px}.quick-links-heading p{font-size:13px}
+ .quick-link-card{min-height:280px;padding:28px 20px 52px}.quick-link-card h3{font-size:18px}.quick-link-card p{font-size:14px}
+}
+@media(max-width:420px){.quick-links-grid{grid-template-columns:1fr}.quick-link-card{min-height:260px;padding:28px 28px 52px}}
+.website-introduction{position:relative;background:#eaf4ff;padding:56px 0 44px;color:#24344d}
+.website-introduction::before{content:"";position:absolute;inset:0;background:url('/images/nascent-chemistry-hero-v1.webp') center/cover no-repeat;pointer-events:none}
+.website-introduction-inner{position:relative;display:flex;flex-direction:column}
+.website-introduction-overview{text-align:center;max-width:960px;width:100%;margin:0 auto}
+.website-introduction h1{font-size:64px;font-weight:700;line-height:1.15;color:#204f78;margin:0 0 14px}
+.website-introduction-subtitle{font-size:28px;font-weight:500;line-height:1.45;color:#24344d;margin:0;text-wrap:balance}
+.website-introduction-description{font-size:17px;line-height:1.85;color:#415b76;margin:20px auto 0;max-width:900px}
+.website-introduction-link{display:inline-flex;align-items:center;gap:10px;margin-top:24px;padding:11px 24px;min-height:44px;border:1px solid var(--blue);border-radius:8px;color:#fff;background:var(--blue);font-size:14px;font-weight:500}
+.website-introduction-link:hover{background:#35658f}
+.website-introduction-link:focus-visible{outline:2px solid #204f78;outline-offset:4px}
+.website-introduction .reference-search{box-shadow:none;border-color:#c4d9ec}
+.website-introduction .reference-search:focus-within{outline:2px solid #204f78;outline-offset:4px}
+@media(max-width:1000px){.website-introduction h1{font-size:56px}}
+@media(max-width:760px){.website-introduction{padding:40px 0 32px}.website-introduction::before{background-position:22% center;opacity:.4}.website-introduction h1{font-size:42px;margin-bottom:14px}.website-introduction-subtitle{font-size:22px}.website-introduction-description{font-size:15px;margin-top:16px}.website-introduction-link{margin-top:20px}}

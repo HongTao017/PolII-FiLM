@@ -1,0 +1,486 @@
+{
+  "status": "PASS",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_FIXED_ARROWS_ALIGNED_LOGOS_NO_TEXT_5x4.pdf",
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "titles": 13,
+  "logos": 13,
+  "title_font_pt": 12,
+  "title_font": "Arial",
+  "all_letters_vector_paths": true,
+  "embedded_images": 0,
+  "scale": 1.07,
+  "rotation": 144,
+  "legend_position": [
+    1.3,
+    1.8
+  ],
+  "annotation_blocks_overlap": 0,
+  "annotation_blocks_crop": 0,
+  "logo_color": {
+    "A": "#4B8F58",
+    "C": "#477FB3",
+    "G": "#CBA54E",
+    "T": "#C96368"
+  },
+  "letter_height": "p(base,position) * (2 - Shannon_entropy(position)) bits against uniform 0.25 background; common 0-2 bit scale",
+  "logo_orientation": "clade alignment anchor, with original member reverse-complements explicitly recorded",
+  "logo_source": "equal-weight mean original H5 sequence PPMs, no added pseudocounts; frozen aligned cores except poly-T groups",
+  "homopolymer_logo": "center-crop each observed aligned Cavener T run to that clade minimum (5 or 13), then equal-weight PPM average; no synthetic consensus logos",
+  "native_tree_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "native_topology_unchanged": true,
+  "original_cyclic_leaf_order_unchanged": true,
+  "grey_regions": 29,
+  "outer_ring_matched_patterns": 44,
+  "outer_ring_unmatched_patterns": 270,
+  "angular_layout": "13 annotation clades equally spaced, native leaf order preserved; angles are for display, not quantitative distances",
+  "logos_QA": [
+    {
+      "group_id": "G01",
+      "title": "TN3T",
+      "length_bp": 5,
+      "consensus": "TNTTT",
+      "letter_paths": 20,
+      "IC_bits": [
+        1.1097575288628447,
+        0.15492091497263694,
+        0.8604768746359772,
+        0.7040305355807224,
+        0.8192097411473585
+      ],
+      "logo_shift_toward_title_pt": 8.425745792187518,
+      "original_tallest_letter_top_local": -0.10902424711371553,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G02",
+      "title": "TN5T3WTT",
+      "length_bp": 12,
+      "consensus": "TTTTTTTWWWTT",
+      "letter_paths": 47,
+      "IC_bits": [
+        0.804056722629459,
+        0.2755191305723501,
+        1.0550517294002386,
+        0.7086066260394785,
+        0.6771252527256064,
+        1.018904627254405,
+        0.6361136162157457,
+        0.3061370867943849,
+        0.5501220202820436,
+        0.5635407505842118,
+        0.8357320676982833,
+        0.8870499387862729
+      ],
+      "logo_shift_toward_title_pt": 8.819627548318282,
+      "original_tallest_letter_top_local": -0.11449482705997613,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G03",
+      "title": "5T+",
+      "length_bp": 5,
+      "consensus": "TTTTT",
+      "letter_paths": 20,
+      "IC_bits": [
+        1.0108707358038393,
+        0.40364638518560714,
+        0.4407897827813092,
+        0.7949334556902112,
+        0.56801163376068
+      ],
+      "logo_shift_toward_title_pt": 9.137730702212357,
+      "original_tallest_letter_top_local": -0.11891292641961607,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G04",
+      "title": "13T+",
+      "length_bp": 13,
+      "consensus": "TTTTTTTTTTTTT",
+      "letter_paths": 52,
+      "IC_bits": [
+        0.4929702299204364,
+        0.7405721166458781,
+        0.6052465174025672,
+        0.6572534537315518,
+        0.6632153590560343,
+        0.3800770223922454,
+        0.7651724252397798,
+        0.7634358299368327,
+        1.13039945772129,
+        1.0130106309447355,
+        0.7084171835949555,
+        0.6244775911180023,
+        1.0031824260946243
+      ],
+      "logo_shift_toward_title_pt": 8.277123904406713,
+      "original_tallest_letter_top_local": -0.106960054227871,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G05",
+      "title": "TNWTT",
+      "length_bp": 5,
+      "consensus": "TNWTT",
+      "letter_paths": 17,
+      "IC_bits": [
+        1.3661945449394832,
+        0.17200192486857313,
+        0.6491225254246811,
+        0.9237023742748012,
+        1.3810044064107188
+      ],
+      "logo_shift_toward_title_pt": 6.472768273842825,
+      "original_tallest_letter_top_local": -0.08189955935892812,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G06",
+      "title": "CN3C",
+      "length_bp": 5,
+      "consensus": "CNCCC",
+      "letter_paths": 20,
+      "IC_bits": [
+        1.1634046742364084,
+        0.05192238463631438,
+        0.992952105158925,
+        1.0504847388169973,
+        0.8561796819023821
+      ],
+      "logo_shift_toward_title_pt": 8.03948634549786,
+      "original_tallest_letter_top_local": -0.10365953257635915,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G07",
+      "title": "RGNGG",
+      "length_bp": 5,
+      "consensus": "RGNGG",
+      "letter_paths": 19,
+      "IC_bits": [
+        0.28926924015903155,
+        0.9090454040128844,
+        0.0026163594628614284,
+        1.2323329835427457,
+        1.6152105081531227
+      ],
+      "logo_shift_toward_title_pt": 4.786484341297516,
+      "original_tallest_letter_top_local": -0.05847894918468771,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G08",
+      "title": "GAGNC",
+      "length_bp": 5,
+      "consensus": "GAGGC",
+      "letter_paths": 20,
+      "IC_bits": [
+        0.9679381168090044,
+        0.7416510157973706,
+        0.7316671188600288,
+        0.6131636437149843,
+        0.839499536667319
+      ],
+      "logo_shift_toward_title_pt": 9.446845558975168,
+      "original_tallest_letter_top_local": -0.12320618831909955,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G09",
+      "title": "SN3G",
+      "length_bp": 5,
+      "consensus": "SNGGG",
+      "letter_paths": 20,
+      "IC_bits": [
+        0.26444037522547936,
+        0.23189014869997404,
+        0.7999345737122421,
+        0.650826535478314,
+        0.77811042654032
+      ],
+      "logo_shift_toward_title_pt": 10.656471069271857,
+      "original_tallest_letter_top_local": -0.1400065426287758,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G10",
+      "title": "S3C",
+      "length_bp": 4,
+      "consensus": "SCCC",
+      "letter_paths": 16,
+      "IC_bits": [
+        0.3021626601674108,
+        0.8213798111583808,
+        1.0268550789562687,
+        0.6175733182457162
+      ],
+      "logo_shift_toward_title_pt": 9.022643431514865,
+      "original_tallest_letter_top_local": -0.11731449210437313,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G11",
+      "title": "4TKTW5T",
+      "length_bp": 12,
+      "consensus": "TTTTKTWTTTTT",
+      "letter_paths": 48,
+      "IC_bits": [
+        0.7498953852887826,
+        1.1134425229184286,
+        0.9043915235797775,
+        0.9899270059869676,
+        0.2835136686009223,
+        0.7962101925193621,
+        0.29666671831898306,
+        1.0155303891582217,
+        0.8513258135147073,
+        1.1106524989943285,
+        0.7439293402946754,
+        0.9921153232368414
+      ],
+      "logo_shift_toward_title_pt": 8.399213834987314,
+      "original_tallest_letter_top_local": -0.10865574770815714,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G12",
+      "title": "4GSNGG",
+      "length_bp": 8,
+      "consensus": "GGGGSNGG",
+      "letter_paths": 29,
+      "IC_bits": [
+        0.8718993386357261,
+        2.0,
+        0.7370835353111795,
+        0.8639673450616927,
+        0.28843469159840174,
+        0.23015386667744808,
+        0.838682704496361,
+        0.66396261165495
+      ],
+      "logo_shift_toward_title_pt": 2.016,
+      "original_tallest_letter_top_local": -0.01999999999999999,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    },
+    {
+      "group_id": "G13",
+      "title": "4TKTW5T",
+      "length_bp": 12,
+      "consensus": "TTTTKTWTTTTT",
+      "letter_paths": 48,
+      "IC_bits": [
+        1.270361687839281,
+        1.3448357415095558,
+        1.1224524804467049,
+        1.3084424981786258,
+        0.36792115822400895,
+        1.4055756848408745,
+        0.5863606680235076,
+        1.2866688934883481,
+        1.3864608996308683,
+        1.3364025558627337,
+        1.3259796433848052,
+        1.1912216595531087
+      ],
+      "logo_shift_toward_title_pt": 6.295855069145704,
+      "original_tallest_letter_top_local": -0.07944243151591254,
+      "new_tallest_letter_top_local": 0.008,
+      "new_conservative_title_logo_gap_pt": 0.864
+    }
+  ],
+  "PDF_QA": {
+    "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_FIXED_ARROWS_ALIGNED_LOGOS_NO_TEXT_5x4.pdf",
+    "page_count": 1,
+    "canvas_points": [
+      360,
+      288
+    ],
+    "annotation_text_spans": 0,
+    "embedded_images": 0,
+    "pdf_sha256": "e6de7f338bb464fc2617a2fa98c19a7c905072cf70b911915d90bfa8441f3bbc",
+    "all_visible_text_crop": 0,
+    "all_visible_text_overlaps": 0,
+    "grey_regions": 29
+  },
+  "change": "only move each title/logo block to the original fixed radial arrow centerline",
+  "arrows_restored_to_preceding_CLOSE_version": true,
+  "arrows_moved": false,
+  "arrow_QA": [
+    {
+      "group_id": "G01",
+      "title": "TN3T",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        -0.9954954115783728,
+        0.7232697529458882
+      ],
+      "arrow_centerline_error_pt": 1.5987211554602254e-14,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G02",
+      "title": "TN5T3WTT",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        -1.2175876245245185,
+        0.17779377549492695
+      ],
+      "arrow_centerline_error_pt": 0.0,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G03",
+      "title": "5T+",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        -1.1607451862136529,
+        -0.4084126132746543
+      ],
+      "arrow_centerline_error_pt": 1.199040866595169e-14,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G04",
+      "title": "13T+",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        -0.8379900142371539,
+        -0.9010565942485602
+      ],
+      "arrow_centerline_error_pt": 3.9968028886505635e-14,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G05",
+      "title": "TNWTT",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        -0.32326142887336123,
+        -1.18727936838924
+      ],
+      "arrow_centerline_error_pt": 0.0,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G06",
+      "title": "CN3C",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        0.2655224541227849,
+        -1.2015107474994193
+      ],
+      "arrow_centerline_error_pt": 3.9968028886505635e-15,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G07",
+      "title": "RGNGG",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        0.7934783427718571,
+        -0.9404904941316671
+      ],
+      "arrow_centerline_error_pt": 0.0,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G08",
+      "title": "GAGNC",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        1.1396579055425438,
+        -0.46401520269747876
+      ],
+      "arrow_centerline_error_pt": 3.9968028886505635e-15,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G09",
+      "title": "SN3G",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        1.2247555765200666,
+        0.11876037968531103
+      ],
+      "arrow_centerline_error_pt": 9.992007221626409e-15,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G10",
+      "title": "S3C",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        1.029276504821584,
+        0.6743293902999212
+      ],
+      "arrow_centerline_error_pt": 2.398081733190338e-14,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G11",
+      "title": "4TKTW5T",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        0.5980025899950272,
+        1.07541766414693
+      ],
+      "arrow_centerline_error_pt": 3.197442310920451e-14,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G12",
+      "title": "4GSNGG",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        0.029733488513061485,
+        1.2301407113256773
+      ],
+      "arrow_centerline_error_pt": 1.7735812818386876e-14,
+      "title_logo_block_translation_pt": 8.64
+    },
+    {
+      "group_id": "G13",
+      "title": "4TKTW5T",
+      "original_line_and_head_exactly_preserved": true,
+      "title_position": [
+        -0.5453471968598653,
+        1.103053346342364
+      ],
+      "arrow_centerline_error_pt": 6.394884621840902e-14,
+      "title_logo_block_translation_pt": 8.64
+    }
+  ],
+  "title_logo_translation_pt": 8.64,
+  "probability_tables_unchanged": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/analysis/title_logos_core_PPM.tsv": "cd1a4c0e7b823a63ea0d41d4553c676cce2aad157afeef92e411bc3c5e485091",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/analysis/title_logos_source_coordinates.tsv": "49b67f39776d1428aa557ad1f92ca90c7b18532cd4c3bd4d6f89d0fb2993fe0e"
+  },
+  "old_PDFs_preserved": true,
+  "annotation_text_spans": 0,
+  "titles_visible": 0,
+  "logos_retained": 13,
+  "arrows_retained": 13,
+  "legend_text_and_swatches_removed": true,
+  "description": "same final geometry, arrows, PPM logos and colors; title, legend and panel text removed",
+  "vector_geometry_verification": {
+    "original_paths": 1417,
+    "textless_paths": 1415,
+    "only_removed_vector_paths": "2 legend swatches",
+    "all_tree_arrow_and_logo_paths_identical": true
+  }
+}

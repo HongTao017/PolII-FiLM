@@ -1,0 +1,7 @@
+{
+  "physical_gpus": [1, 2, 3, 6],
+  "genes_per_task": 50,
+  "instances_per_task": 5,
+  "precision": "Original FP32, no TF32/autocast; arithmetic unchanged",
+  "scope": "Execution-only revision of the existing fold-1 200-gene five-seed experiment. No new experiment, training, samples, references or threshold changes."
+}

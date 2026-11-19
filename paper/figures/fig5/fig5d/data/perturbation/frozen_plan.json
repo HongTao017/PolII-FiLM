@@ -1,0 +1,4320 @@
+{
+  "fold": 10,
+  "pattern": "r0_pos_patterns_pattern_0",
+  "seqlet": 75,
+  "gene": "ZBTB7A",
+  "gene_index": 12871,
+  "selected_row": 64,
+  "seqlet_start": 55,
+  "seqlet_end": 105,
+  "seqlet_is_revcomp": false,
+  "motif_start": 96,
+  "motif_end": 105,
+  "motif_strand": "-",
+  "FIMO_p": 7.38e-05,
+  "FIMO_hit": {
+    "motif_id": "MA0685.2",
+    "motif_alt_id": "SP4",
+    "sequence_name": "s75",
+    "start": "42",
+    "stop": "50",
+    "strand": "-",
+    "score": "8.31633",
+    "p-value": "7.38e-05",
+    "q-value": "",
+    "matched_sequence": "GGGGGGGGG"
+  },
+  "window_start": 50,
+  "window_end": 151,
+  "attribution_core_flank_ratio": 0.8706177768451008,
+  "attribution_core_mean": 0.0010422582272440195,
+  "attribution_flank_mean": 0.0011971478816121817,
+  "candidate_id": "candidate_015",
+  "chrom": "chr19",
+  "strand": "-",
+  "TF": "SP4",
+  "matrix_id": "MA0685.2",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "window_input0_halfopen": [
+    50,
+    151
+  ],
+  "window_WT_sequence": "GGCGGAGAGGTCAGAGGCGGGGGGGCGCGCCGGGGCGGGCCGGACCCCCCCCCCCGACTTGACAAAACCTAATAACAGCCCGGTCTCCCCGGCGCAGCGGG",
+  "motif_input0_halfopen": [
+    96,
+    105
+  ],
+  "motif_strand_relative_to_input": "-",
+  "highlight": {
+    "position": 96,
+    "reference": "C",
+    "alternative": "A",
+    "delta_PWM_same_site_bits": -9.378656116722816,
+    "selection": "lowest SP4 PWM change before any new ISM predictions"
+  },
+  "n_variants": 303,
+  "synchronize_physical_overlaps": true,
+  "regulatory_inputs_fixed": true,
+  "target": "predicted signed Y_PC1 (inverse target transform), no absolute-value readout",
+  "source_candidate_plan_sha256": "a3831d7f2242a284e21862a13019fe75472055dc706aa61a1bd1be4dcb75667b",
+  "source_deep_lift_core_sha256": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+  "source_inputs_sha256": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_acceptor_sequence.npy": "3962a4bfc9ce5a3e452e0a10003dd134b69a303ad16cff3f53879fb456d70d04",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/pre_tes_sequence.npy": "83c7973800bdc510f90796cb1e212efe27be2c64b98005142008b9f799f6bb58",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/feature_manifest.tsv": "0edbd67811978d0297d4efc8c60814ae032f03ee4be1a7d485ec68896f04a8d4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/data/genes_repartitioned.tsv": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8"
+  },
+  "variants": [
+    {
+      "position": 50,
+      "window_offset": 0,
+      "coordinate0": 4067148,
+      "genomic_position1": 4067149,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        50,
+        1132
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 50,
+      "window_offset": 0,
+      "coordinate0": 4067148,
+      "genomic_position1": 4067149,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        50,
+        1132
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 50,
+      "window_offset": 0,
+      "coordinate0": 4067148,
+      "genomic_position1": 4067149,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        50,
+        1132
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 51,
+      "window_offset": 1,
+      "coordinate0": 4067147,
+      "genomic_position1": 4067148,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        51,
+        1133
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 51,
+      "window_offset": 1,
+      "coordinate0": 4067147,
+      "genomic_position1": 4067148,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        51,
+        1133
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 51,
+      "window_offset": 1,
+      "coordinate0": 4067147,
+      "genomic_position1": 4067148,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        51,
+        1133
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 52,
+      "window_offset": 2,
+      "coordinate0": 4067146,
+      "genomic_position1": 4067147,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        52,
+        1134
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 52,
+      "window_offset": 2,
+      "coordinate0": 4067146,
+      "genomic_position1": 4067147,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        52,
+        1134
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 52,
+      "window_offset": 2,
+      "coordinate0": 4067146,
+      "genomic_position1": 4067147,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        52,
+        1134
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 53,
+      "window_offset": 3,
+      "coordinate0": 4067145,
+      "genomic_position1": 4067146,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        53,
+        1135
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 53,
+      "window_offset": 3,
+      "coordinate0": 4067145,
+      "genomic_position1": 4067146,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        53,
+        1135
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 53,
+      "window_offset": 3,
+      "coordinate0": 4067145,
+      "genomic_position1": 4067146,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        53,
+        1135
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 54,
+      "window_offset": 4,
+      "coordinate0": 4067144,
+      "genomic_position1": 4067145,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        54,
+        1136
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 54,
+      "window_offset": 4,
+      "coordinate0": 4067144,
+      "genomic_position1": 4067145,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        54,
+        1136
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 54,
+      "window_offset": 4,
+      "coordinate0": 4067144,
+      "genomic_position1": 4067145,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        54,
+        1136
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 55,
+      "window_offset": 5,
+      "coordinate0": 4067143,
+      "genomic_position1": 4067144,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        55,
+        1137
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 55,
+      "window_offset": 5,
+      "coordinate0": 4067143,
+      "genomic_position1": 4067144,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        55,
+        1137
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 55,
+      "window_offset": 5,
+      "coordinate0": 4067143,
+      "genomic_position1": 4067144,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        55,
+        1137
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 56,
+      "window_offset": 6,
+      "coordinate0": 4067142,
+      "genomic_position1": 4067143,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        56,
+        1138
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 56,
+      "window_offset": 6,
+      "coordinate0": 4067142,
+      "genomic_position1": 4067143,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        56,
+        1138
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 56,
+      "window_offset": 6,
+      "coordinate0": 4067142,
+      "genomic_position1": 4067143,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        56,
+        1138
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 57,
+      "window_offset": 7,
+      "coordinate0": 4067141,
+      "genomic_position1": 4067142,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        57,
+        1139
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 57,
+      "window_offset": 7,
+      "coordinate0": 4067141,
+      "genomic_position1": 4067142,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        57,
+        1139
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 57,
+      "window_offset": 7,
+      "coordinate0": 4067141,
+      "genomic_position1": 4067142,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        57,
+        1139
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 58,
+      "window_offset": 8,
+      "coordinate0": 4067140,
+      "genomic_position1": 4067141,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        58,
+        1140
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 58,
+      "window_offset": 8,
+      "coordinate0": 4067140,
+      "genomic_position1": 4067141,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        58,
+        1140
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 58,
+      "window_offset": 8,
+      "coordinate0": 4067140,
+      "genomic_position1": 4067141,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        58,
+        1140
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 59,
+      "window_offset": 9,
+      "coordinate0": 4067139,
+      "genomic_position1": 4067140,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        59,
+        1141
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 59,
+      "window_offset": 9,
+      "coordinate0": 4067139,
+      "genomic_position1": 4067140,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        59,
+        1141
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 59,
+      "window_offset": 9,
+      "coordinate0": 4067139,
+      "genomic_position1": 4067140,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        59,
+        1141
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 60,
+      "window_offset": 10,
+      "coordinate0": 4067138,
+      "genomic_position1": 4067139,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        60,
+        1142
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 60,
+      "window_offset": 10,
+      "coordinate0": 4067138,
+      "genomic_position1": 4067139,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        60,
+        1142
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 60,
+      "window_offset": 10,
+      "coordinate0": 4067138,
+      "genomic_position1": 4067139,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        60,
+        1142
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 61,
+      "window_offset": 11,
+      "coordinate0": 4067137,
+      "genomic_position1": 4067138,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        61,
+        1143
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 61,
+      "window_offset": 11,
+      "coordinate0": 4067137,
+      "genomic_position1": 4067138,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        61,
+        1143
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 61,
+      "window_offset": 11,
+      "coordinate0": 4067137,
+      "genomic_position1": 4067138,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        61,
+        1143
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 62,
+      "window_offset": 12,
+      "coordinate0": 4067136,
+      "genomic_position1": 4067137,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        62,
+        1144
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 62,
+      "window_offset": 12,
+      "coordinate0": 4067136,
+      "genomic_position1": 4067137,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        62,
+        1144
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 62,
+      "window_offset": 12,
+      "coordinate0": 4067136,
+      "genomic_position1": 4067137,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        62,
+        1144
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 63,
+      "window_offset": 13,
+      "coordinate0": 4067135,
+      "genomic_position1": 4067136,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        63,
+        1145
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 63,
+      "window_offset": 13,
+      "coordinate0": 4067135,
+      "genomic_position1": 4067136,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        63,
+        1145
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 63,
+      "window_offset": 13,
+      "coordinate0": 4067135,
+      "genomic_position1": 4067136,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        63,
+        1145
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 64,
+      "window_offset": 14,
+      "coordinate0": 4067134,
+      "genomic_position1": 4067135,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        64,
+        1146
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 64,
+      "window_offset": 14,
+      "coordinate0": 4067134,
+      "genomic_position1": 4067135,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        64,
+        1146
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 64,
+      "window_offset": 14,
+      "coordinate0": 4067134,
+      "genomic_position1": 4067135,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        64,
+        1146
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 65,
+      "window_offset": 15,
+      "coordinate0": 4067133,
+      "genomic_position1": 4067134,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        65,
+        1147
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 65,
+      "window_offset": 15,
+      "coordinate0": 4067133,
+      "genomic_position1": 4067134,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        65,
+        1147
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 65,
+      "window_offset": 15,
+      "coordinate0": 4067133,
+      "genomic_position1": 4067134,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        65,
+        1147
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 66,
+      "window_offset": 16,
+      "coordinate0": 4067132,
+      "genomic_position1": 4067133,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        66,
+        1148
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 66,
+      "window_offset": 16,
+      "coordinate0": 4067132,
+      "genomic_position1": 4067133,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        66,
+        1148
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 66,
+      "window_offset": 16,
+      "coordinate0": 4067132,
+      "genomic_position1": 4067133,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        66,
+        1148
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 67,
+      "window_offset": 17,
+      "coordinate0": 4067131,
+      "genomic_position1": 4067132,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        67,
+        1149
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 67,
+      "window_offset": 17,
+      "coordinate0": 4067131,
+      "genomic_position1": 4067132,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        67,
+        1149
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 67,
+      "window_offset": 17,
+      "coordinate0": 4067131,
+      "genomic_position1": 4067132,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        67,
+        1149
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 68,
+      "window_offset": 18,
+      "coordinate0": 4067130,
+      "genomic_position1": 4067131,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        68,
+        1150
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 68,
+      "window_offset": 18,
+      "coordinate0": 4067130,
+      "genomic_position1": 4067131,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        68,
+        1150
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 68,
+      "window_offset": 18,
+      "coordinate0": 4067130,
+      "genomic_position1": 4067131,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        68,
+        1150
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 69,
+      "window_offset": 19,
+      "coordinate0": 4067129,
+      "genomic_position1": 4067130,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        69,
+        1151
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 69,
+      "window_offset": 19,
+      "coordinate0": 4067129,
+      "genomic_position1": 4067130,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        69,
+        1151
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 69,
+      "window_offset": 19,
+      "coordinate0": 4067129,
+      "genomic_position1": 4067130,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        69,
+        1151
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 70,
+      "window_offset": 20,
+      "coordinate0": 4067128,
+      "genomic_position1": 4067129,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        70,
+        1152
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 70,
+      "window_offset": 20,
+      "coordinate0": 4067128,
+      "genomic_position1": 4067129,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        70,
+        1152
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 70,
+      "window_offset": 20,
+      "coordinate0": 4067128,
+      "genomic_position1": 4067129,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        70,
+        1152
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 71,
+      "window_offset": 21,
+      "coordinate0": 4067127,
+      "genomic_position1": 4067128,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        71,
+        1153
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 71,
+      "window_offset": 21,
+      "coordinate0": 4067127,
+      "genomic_position1": 4067128,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        71,
+        1153
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 71,
+      "window_offset": 21,
+      "coordinate0": 4067127,
+      "genomic_position1": 4067128,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        71,
+        1153
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 72,
+      "window_offset": 22,
+      "coordinate0": 4067126,
+      "genomic_position1": 4067127,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        72,
+        1154
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 72,
+      "window_offset": 22,
+      "coordinate0": 4067126,
+      "genomic_position1": 4067127,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        72,
+        1154
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 72,
+      "window_offset": 22,
+      "coordinate0": 4067126,
+      "genomic_position1": 4067127,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        72,
+        1154
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 73,
+      "window_offset": 23,
+      "coordinate0": 4067125,
+      "genomic_position1": 4067126,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        73,
+        1155
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 73,
+      "window_offset": 23,
+      "coordinate0": 4067125,
+      "genomic_position1": 4067126,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        73,
+        1155
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 73,
+      "window_offset": 23,
+      "coordinate0": 4067125,
+      "genomic_position1": 4067126,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        73,
+        1155
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 74,
+      "window_offset": 24,
+      "coordinate0": 4067124,
+      "genomic_position1": 4067125,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        74,
+        1156
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 74,
+      "window_offset": 24,
+      "coordinate0": 4067124,
+      "genomic_position1": 4067125,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        74,
+        1156
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 74,
+      "window_offset": 24,
+      "coordinate0": 4067124,
+      "genomic_position1": 4067125,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        74,
+        1156
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 75,
+      "window_offset": 25,
+      "coordinate0": 4067123,
+      "genomic_position1": 4067124,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        75,
+        1157
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 75,
+      "window_offset": 25,
+      "coordinate0": 4067123,
+      "genomic_position1": 4067124,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        75,
+        1157
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 75,
+      "window_offset": 25,
+      "coordinate0": 4067123,
+      "genomic_position1": 4067124,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        75,
+        1157
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 76,
+      "window_offset": 26,
+      "coordinate0": 4067122,
+      "genomic_position1": 4067123,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        76,
+        1158
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 76,
+      "window_offset": 26,
+      "coordinate0": 4067122,
+      "genomic_position1": 4067123,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        76,
+        1158
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 76,
+      "window_offset": 26,
+      "coordinate0": 4067122,
+      "genomic_position1": 4067123,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        76,
+        1158
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 77,
+      "window_offset": 27,
+      "coordinate0": 4067121,
+      "genomic_position1": 4067122,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        77,
+        1159
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 77,
+      "window_offset": 27,
+      "coordinate0": 4067121,
+      "genomic_position1": 4067122,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        77,
+        1159
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 77,
+      "window_offset": 27,
+      "coordinate0": 4067121,
+      "genomic_position1": 4067122,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        77,
+        1159
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 78,
+      "window_offset": 28,
+      "coordinate0": 4067120,
+      "genomic_position1": 4067121,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        78,
+        1160
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 78,
+      "window_offset": 28,
+      "coordinate0": 4067120,
+      "genomic_position1": 4067121,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        78,
+        1160
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 78,
+      "window_offset": 28,
+      "coordinate0": 4067120,
+      "genomic_position1": 4067121,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        78,
+        1160
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 79,
+      "window_offset": 29,
+      "coordinate0": 4067119,
+      "genomic_position1": 4067120,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        79,
+        1161
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 79,
+      "window_offset": 29,
+      "coordinate0": 4067119,
+      "genomic_position1": 4067120,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        79,
+        1161
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 79,
+      "window_offset": 29,
+      "coordinate0": 4067119,
+      "genomic_position1": 4067120,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        79,
+        1161
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 80,
+      "window_offset": 30,
+      "coordinate0": 4067118,
+      "genomic_position1": 4067119,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        80,
+        1162
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 80,
+      "window_offset": 30,
+      "coordinate0": 4067118,
+      "genomic_position1": 4067119,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        80,
+        1162
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 80,
+      "window_offset": 30,
+      "coordinate0": 4067118,
+      "genomic_position1": 4067119,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        80,
+        1162
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 81,
+      "window_offset": 31,
+      "coordinate0": 4067117,
+      "genomic_position1": 4067118,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        81,
+        1163
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 81,
+      "window_offset": 31,
+      "coordinate0": 4067117,
+      "genomic_position1": 4067118,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        81,
+        1163
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 81,
+      "window_offset": 31,
+      "coordinate0": 4067117,
+      "genomic_position1": 4067118,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        81,
+        1163
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 82,
+      "window_offset": 32,
+      "coordinate0": 4067116,
+      "genomic_position1": 4067117,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        82,
+        1164
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 82,
+      "window_offset": 32,
+      "coordinate0": 4067116,
+      "genomic_position1": 4067117,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        82,
+        1164
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 82,
+      "window_offset": 32,
+      "coordinate0": 4067116,
+      "genomic_position1": 4067117,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        82,
+        1164
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 83,
+      "window_offset": 33,
+      "coordinate0": 4067115,
+      "genomic_position1": 4067116,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        83,
+        1165
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 83,
+      "window_offset": 33,
+      "coordinate0": 4067115,
+      "genomic_position1": 4067116,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        83,
+        1165
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 83,
+      "window_offset": 33,
+      "coordinate0": 4067115,
+      "genomic_position1": 4067116,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        83,
+        1165
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 84,
+      "window_offset": 34,
+      "coordinate0": 4067114,
+      "genomic_position1": 4067115,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        84,
+        1166
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 84,
+      "window_offset": 34,
+      "coordinate0": 4067114,
+      "genomic_position1": 4067115,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        84,
+        1166
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 84,
+      "window_offset": 34,
+      "coordinate0": 4067114,
+      "genomic_position1": 4067115,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        84,
+        1166
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 85,
+      "window_offset": 35,
+      "coordinate0": 4067113,
+      "genomic_position1": 4067114,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        85,
+        1167
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 85,
+      "window_offset": 35,
+      "coordinate0": 4067113,
+      "genomic_position1": 4067114,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        85,
+        1167
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 85,
+      "window_offset": 35,
+      "coordinate0": 4067113,
+      "genomic_position1": 4067114,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        85,
+        1167
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 86,
+      "window_offset": 36,
+      "coordinate0": 4067112,
+      "genomic_position1": 4067113,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        86,
+        1168
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 86,
+      "window_offset": 36,
+      "coordinate0": 4067112,
+      "genomic_position1": 4067113,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        86,
+        1168
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 86,
+      "window_offset": 36,
+      "coordinate0": 4067112,
+      "genomic_position1": 4067113,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        86,
+        1168
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 87,
+      "window_offset": 37,
+      "coordinate0": 4067111,
+      "genomic_position1": 4067112,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        87,
+        1169
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 87,
+      "window_offset": 37,
+      "coordinate0": 4067111,
+      "genomic_position1": 4067112,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        87,
+        1169
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 87,
+      "window_offset": 37,
+      "coordinate0": 4067111,
+      "genomic_position1": 4067112,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        87,
+        1169
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 88,
+      "window_offset": 38,
+      "coordinate0": 4067110,
+      "genomic_position1": 4067111,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        88,
+        1170
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 88,
+      "window_offset": 38,
+      "coordinate0": 4067110,
+      "genomic_position1": 4067111,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        88,
+        1170
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 88,
+      "window_offset": 38,
+      "coordinate0": 4067110,
+      "genomic_position1": 4067111,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        88,
+        1170
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 89,
+      "window_offset": 39,
+      "coordinate0": 4067109,
+      "genomic_position1": 4067110,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        89,
+        1171
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 89,
+      "window_offset": 39,
+      "coordinate0": 4067109,
+      "genomic_position1": 4067110,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        89,
+        1171
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 89,
+      "window_offset": 39,
+      "coordinate0": 4067109,
+      "genomic_position1": 4067110,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        89,
+        1171
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 90,
+      "window_offset": 40,
+      "coordinate0": 4067108,
+      "genomic_position1": 4067109,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        90,
+        1172
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 90,
+      "window_offset": 40,
+      "coordinate0": 4067108,
+      "genomic_position1": 4067109,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        90,
+        1172
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 90,
+      "window_offset": 40,
+      "coordinate0": 4067108,
+      "genomic_position1": 4067109,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        90,
+        1172
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 91,
+      "window_offset": 41,
+      "coordinate0": 4067107,
+      "genomic_position1": 4067108,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        91,
+        1173
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 91,
+      "window_offset": 41,
+      "coordinate0": 4067107,
+      "genomic_position1": 4067108,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        91,
+        1173
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 91,
+      "window_offset": 41,
+      "coordinate0": 4067107,
+      "genomic_position1": 4067108,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        91,
+        1173
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 92,
+      "window_offset": 42,
+      "coordinate0": 4067106,
+      "genomic_position1": 4067107,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        92,
+        1174
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 92,
+      "window_offset": 42,
+      "coordinate0": 4067106,
+      "genomic_position1": 4067107,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        92,
+        1174
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 92,
+      "window_offset": 42,
+      "coordinate0": 4067106,
+      "genomic_position1": 4067107,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        92,
+        1174
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 93,
+      "window_offset": 43,
+      "coordinate0": 4067105,
+      "genomic_position1": 4067106,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        93,
+        1175
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 93,
+      "window_offset": 43,
+      "coordinate0": 4067105,
+      "genomic_position1": 4067106,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        93,
+        1175
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 93,
+      "window_offset": 43,
+      "coordinate0": 4067105,
+      "genomic_position1": 4067106,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        93,
+        1175
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 94,
+      "window_offset": 44,
+      "coordinate0": 4067104,
+      "genomic_position1": 4067105,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        94,
+        1176
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 94,
+      "window_offset": 44,
+      "coordinate0": 4067104,
+      "genomic_position1": 4067105,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        94,
+        1176
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 94,
+      "window_offset": 44,
+      "coordinate0": 4067104,
+      "genomic_position1": 4067105,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        94,
+        1176
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 95,
+      "window_offset": 45,
+      "coordinate0": 4067103,
+      "genomic_position1": 4067104,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        95,
+        1177
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 95,
+      "window_offset": 45,
+      "coordinate0": 4067103,
+      "genomic_position1": 4067104,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        95,
+        1177
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 95,
+      "window_offset": 45,
+      "coordinate0": 4067103,
+      "genomic_position1": 4067104,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        95,
+        1177
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 96,
+      "window_offset": 46,
+      "coordinate0": 4067102,
+      "genomic_position1": 4067103,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        96,
+        1178
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 96,
+      "window_offset": 46,
+      "coordinate0": 4067102,
+      "genomic_position1": 4067103,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        96,
+        1178
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 96,
+      "window_offset": 46,
+      "coordinate0": 4067102,
+      "genomic_position1": 4067103,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        96,
+        1178
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 97,
+      "window_offset": 47,
+      "coordinate0": 4067101,
+      "genomic_position1": 4067102,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        97,
+        1179
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 97,
+      "window_offset": 47,
+      "coordinate0": 4067101,
+      "genomic_position1": 4067102,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        97,
+        1179
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 97,
+      "window_offset": 47,
+      "coordinate0": 4067101,
+      "genomic_position1": 4067102,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        97,
+        1179
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 98,
+      "window_offset": 48,
+      "coordinate0": 4067100,
+      "genomic_position1": 4067101,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        98,
+        1180
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 98,
+      "window_offset": 48,
+      "coordinate0": 4067100,
+      "genomic_position1": 4067101,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        98,
+        1180
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 98,
+      "window_offset": 48,
+      "coordinate0": 4067100,
+      "genomic_position1": 4067101,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        98,
+        1180
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 99,
+      "window_offset": 49,
+      "coordinate0": 4067099,
+      "genomic_position1": 4067100,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        99,
+        1181
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 99,
+      "window_offset": 49,
+      "coordinate0": 4067099,
+      "genomic_position1": 4067100,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        99,
+        1181
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 99,
+      "window_offset": 49,
+      "coordinate0": 4067099,
+      "genomic_position1": 4067100,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        99,
+        1181
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 100,
+      "window_offset": 50,
+      "coordinate0": 4067098,
+      "genomic_position1": 4067099,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        100,
+        1182
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 100,
+      "window_offset": 50,
+      "coordinate0": 4067098,
+      "genomic_position1": 4067099,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        100,
+        1182
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 100,
+      "window_offset": 50,
+      "coordinate0": 4067098,
+      "genomic_position1": 4067099,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        100,
+        1182
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 101,
+      "window_offset": 51,
+      "coordinate0": 4067097,
+      "genomic_position1": 4067098,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        101,
+        1183
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 101,
+      "window_offset": 51,
+      "coordinate0": 4067097,
+      "genomic_position1": 4067098,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        101,
+        1183
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 101,
+      "window_offset": 51,
+      "coordinate0": 4067097,
+      "genomic_position1": 4067098,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        101,
+        1183
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 102,
+      "window_offset": 52,
+      "coordinate0": 4067096,
+      "genomic_position1": 4067097,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        102,
+        1184
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 102,
+      "window_offset": 52,
+      "coordinate0": 4067096,
+      "genomic_position1": 4067097,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        102,
+        1184
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 102,
+      "window_offset": 52,
+      "coordinate0": 4067096,
+      "genomic_position1": 4067097,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        102,
+        1184
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 103,
+      "window_offset": 53,
+      "coordinate0": 4067095,
+      "genomic_position1": 4067096,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        103,
+        1185
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 103,
+      "window_offset": 53,
+      "coordinate0": 4067095,
+      "genomic_position1": 4067096,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        103,
+        1185
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 103,
+      "window_offset": 53,
+      "coordinate0": 4067095,
+      "genomic_position1": 4067096,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        103,
+        1185
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 104,
+      "window_offset": 54,
+      "coordinate0": 4067094,
+      "genomic_position1": 4067095,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        104,
+        1186
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 104,
+      "window_offset": 54,
+      "coordinate0": 4067094,
+      "genomic_position1": 4067095,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        104,
+        1186
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 104,
+      "window_offset": 54,
+      "coordinate0": 4067094,
+      "genomic_position1": 4067095,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        104,
+        1186
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 105,
+      "window_offset": 55,
+      "coordinate0": 4067093,
+      "genomic_position1": 4067094,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        105,
+        1187
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 105,
+      "window_offset": 55,
+      "coordinate0": 4067093,
+      "genomic_position1": 4067094,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        105,
+        1187
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 105,
+      "window_offset": 55,
+      "coordinate0": 4067093,
+      "genomic_position1": 4067094,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        105,
+        1187
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 106,
+      "window_offset": 56,
+      "coordinate0": 4067092,
+      "genomic_position1": 4067093,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        106,
+        1188
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 106,
+      "window_offset": 56,
+      "coordinate0": 4067092,
+      "genomic_position1": 4067093,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        106,
+        1188
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 106,
+      "window_offset": 56,
+      "coordinate0": 4067092,
+      "genomic_position1": 4067093,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        106,
+        1188
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 107,
+      "window_offset": 57,
+      "coordinate0": 4067091,
+      "genomic_position1": 4067092,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        107,
+        1189
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 107,
+      "window_offset": 57,
+      "coordinate0": 4067091,
+      "genomic_position1": 4067092,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        107,
+        1189
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 107,
+      "window_offset": 57,
+      "coordinate0": 4067091,
+      "genomic_position1": 4067092,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        107,
+        1189
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 108,
+      "window_offset": 58,
+      "coordinate0": 4067090,
+      "genomic_position1": 4067091,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        108,
+        1190
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 108,
+      "window_offset": 58,
+      "coordinate0": 4067090,
+      "genomic_position1": 4067091,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        108,
+        1190
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 108,
+      "window_offset": 58,
+      "coordinate0": 4067090,
+      "genomic_position1": 4067091,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        108,
+        1190
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 109,
+      "window_offset": 59,
+      "coordinate0": 4067089,
+      "genomic_position1": 4067090,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        109,
+        1191
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 109,
+      "window_offset": 59,
+      "coordinate0": 4067089,
+      "genomic_position1": 4067090,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        109,
+        1191
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 109,
+      "window_offset": 59,
+      "coordinate0": 4067089,
+      "genomic_position1": 4067090,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        109,
+        1191
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 110,
+      "window_offset": 60,
+      "coordinate0": 4067088,
+      "genomic_position1": 4067089,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        110,
+        1192
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 110,
+      "window_offset": 60,
+      "coordinate0": 4067088,
+      "genomic_position1": 4067089,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        110,
+        1192
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 110,
+      "window_offset": 60,
+      "coordinate0": 4067088,
+      "genomic_position1": 4067089,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        110,
+        1192
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 111,
+      "window_offset": 61,
+      "coordinate0": 4067087,
+      "genomic_position1": 4067088,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        111,
+        1193
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 111,
+      "window_offset": 61,
+      "coordinate0": 4067087,
+      "genomic_position1": 4067088,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        111,
+        1193
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 111,
+      "window_offset": 61,
+      "coordinate0": 4067087,
+      "genomic_position1": 4067088,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        111,
+        1193
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 112,
+      "window_offset": 62,
+      "coordinate0": 4067086,
+      "genomic_position1": 4067087,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        112,
+        1194
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 112,
+      "window_offset": 62,
+      "coordinate0": 4067086,
+      "genomic_position1": 4067087,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        112,
+        1194
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 112,
+      "window_offset": 62,
+      "coordinate0": 4067086,
+      "genomic_position1": 4067087,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        112,
+        1194
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 113,
+      "window_offset": 63,
+      "coordinate0": 4067085,
+      "genomic_position1": 4067086,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        113,
+        1195
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 113,
+      "window_offset": 63,
+      "coordinate0": 4067085,
+      "genomic_position1": 4067086,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        113,
+        1195
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 113,
+      "window_offset": 63,
+      "coordinate0": 4067085,
+      "genomic_position1": 4067086,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        113,
+        1195
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 114,
+      "window_offset": 64,
+      "coordinate0": 4067084,
+      "genomic_position1": 4067085,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        114,
+        1196
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 114,
+      "window_offset": 64,
+      "coordinate0": 4067084,
+      "genomic_position1": 4067085,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        114,
+        1196
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 114,
+      "window_offset": 64,
+      "coordinate0": 4067084,
+      "genomic_position1": 4067085,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        114,
+        1196
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 115,
+      "window_offset": 65,
+      "coordinate0": 4067083,
+      "genomic_position1": 4067084,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        115,
+        1197
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 115,
+      "window_offset": 65,
+      "coordinate0": 4067083,
+      "genomic_position1": 4067084,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        115,
+        1197
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 115,
+      "window_offset": 65,
+      "coordinate0": 4067083,
+      "genomic_position1": 4067084,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        115,
+        1197
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 116,
+      "window_offset": 66,
+      "coordinate0": 4067082,
+      "genomic_position1": 4067083,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        116,
+        1198
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 116,
+      "window_offset": 66,
+      "coordinate0": 4067082,
+      "genomic_position1": 4067083,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        116,
+        1198
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 116,
+      "window_offset": 66,
+      "coordinate0": 4067082,
+      "genomic_position1": 4067083,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        116,
+        1198
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 117,
+      "window_offset": 67,
+      "coordinate0": 4067081,
+      "genomic_position1": 4067082,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        117,
+        1199
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 117,
+      "window_offset": 67,
+      "coordinate0": 4067081,
+      "genomic_position1": 4067082,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        117,
+        1199
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 117,
+      "window_offset": 67,
+      "coordinate0": 4067081,
+      "genomic_position1": 4067082,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        117,
+        1199
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 118,
+      "window_offset": 68,
+      "coordinate0": 4067080,
+      "genomic_position1": 4067081,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        118,
+        1200
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 118,
+      "window_offset": 68,
+      "coordinate0": 4067080,
+      "genomic_position1": 4067081,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        118,
+        1200
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 118,
+      "window_offset": 68,
+      "coordinate0": 4067080,
+      "genomic_position1": 4067081,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        118,
+        1200
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 119,
+      "window_offset": 69,
+      "coordinate0": 4067079,
+      "genomic_position1": 4067080,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        119,
+        1201
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 119,
+      "window_offset": 69,
+      "coordinate0": 4067079,
+      "genomic_position1": 4067080,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        119,
+        1201
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 119,
+      "window_offset": 69,
+      "coordinate0": 4067079,
+      "genomic_position1": 4067080,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        119,
+        1201
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 120,
+      "window_offset": 70,
+      "coordinate0": 4067078,
+      "genomic_position1": 4067079,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        120,
+        1202
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 120,
+      "window_offset": 70,
+      "coordinate0": 4067078,
+      "genomic_position1": 4067079,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        120,
+        1202
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 120,
+      "window_offset": 70,
+      "coordinate0": 4067078,
+      "genomic_position1": 4067079,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        120,
+        1202
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 121,
+      "window_offset": 71,
+      "coordinate0": 4067077,
+      "genomic_position1": 4067078,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        121,
+        1203
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 121,
+      "window_offset": 71,
+      "coordinate0": 4067077,
+      "genomic_position1": 4067078,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        121,
+        1203
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 121,
+      "window_offset": 71,
+      "coordinate0": 4067077,
+      "genomic_position1": 4067078,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        121,
+        1203
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 122,
+      "window_offset": 72,
+      "coordinate0": 4067076,
+      "genomic_position1": 4067077,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        122,
+        1204
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 122,
+      "window_offset": 72,
+      "coordinate0": 4067076,
+      "genomic_position1": 4067077,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        122,
+        1204
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 122,
+      "window_offset": 72,
+      "coordinate0": 4067076,
+      "genomic_position1": 4067077,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        122,
+        1204
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 123,
+      "window_offset": 73,
+      "coordinate0": 4067075,
+      "genomic_position1": 4067076,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        123,
+        1205
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 123,
+      "window_offset": 73,
+      "coordinate0": 4067075,
+      "genomic_position1": 4067076,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        123,
+        1205
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 123,
+      "window_offset": 73,
+      "coordinate0": 4067075,
+      "genomic_position1": 4067076,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        123,
+        1205
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 124,
+      "window_offset": 74,
+      "coordinate0": 4067074,
+      "genomic_position1": 4067075,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        124,
+        1206
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 124,
+      "window_offset": 74,
+      "coordinate0": 4067074,
+      "genomic_position1": 4067075,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        124,
+        1206
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 124,
+      "window_offset": 74,
+      "coordinate0": 4067074,
+      "genomic_position1": 4067075,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        124,
+        1206
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 125,
+      "window_offset": 75,
+      "coordinate0": 4067073,
+      "genomic_position1": 4067074,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        125,
+        1207
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 125,
+      "window_offset": 75,
+      "coordinate0": 4067073,
+      "genomic_position1": 4067074,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        125,
+        1207
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 125,
+      "window_offset": 75,
+      "coordinate0": 4067073,
+      "genomic_position1": 4067074,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        125,
+        1207
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 126,
+      "window_offset": 76,
+      "coordinate0": 4067072,
+      "genomic_position1": 4067073,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        126,
+        1208
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 126,
+      "window_offset": 76,
+      "coordinate0": 4067072,
+      "genomic_position1": 4067073,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        126,
+        1208
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 126,
+      "window_offset": 76,
+      "coordinate0": 4067072,
+      "genomic_position1": 4067073,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        126,
+        1208
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 127,
+      "window_offset": 77,
+      "coordinate0": 4067071,
+      "genomic_position1": 4067072,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        127,
+        1209
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 127,
+      "window_offset": 77,
+      "coordinate0": 4067071,
+      "genomic_position1": 4067072,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        127,
+        1209
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 127,
+      "window_offset": 77,
+      "coordinate0": 4067071,
+      "genomic_position1": 4067072,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        127,
+        1209
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 128,
+      "window_offset": 78,
+      "coordinate0": 4067070,
+      "genomic_position1": 4067071,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        128,
+        1210
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 128,
+      "window_offset": 78,
+      "coordinate0": 4067070,
+      "genomic_position1": 4067071,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        128,
+        1210
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 128,
+      "window_offset": 78,
+      "coordinate0": 4067070,
+      "genomic_position1": 4067071,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        128,
+        1210
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 129,
+      "window_offset": 79,
+      "coordinate0": 4067069,
+      "genomic_position1": 4067070,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        129,
+        1211
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 129,
+      "window_offset": 79,
+      "coordinate0": 4067069,
+      "genomic_position1": 4067070,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        129,
+        1211
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 129,
+      "window_offset": 79,
+      "coordinate0": 4067069,
+      "genomic_position1": 4067070,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        129,
+        1211
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 130,
+      "window_offset": 80,
+      "coordinate0": 4067068,
+      "genomic_position1": 4067069,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        130,
+        1212
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 130,
+      "window_offset": 80,
+      "coordinate0": 4067068,
+      "genomic_position1": 4067069,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        130,
+        1212
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 130,
+      "window_offset": 80,
+      "coordinate0": 4067068,
+      "genomic_position1": 4067069,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        130,
+        1212
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 131,
+      "window_offset": 81,
+      "coordinate0": 4067067,
+      "genomic_position1": 4067068,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        131,
+        1213
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 131,
+      "window_offset": 81,
+      "coordinate0": 4067067,
+      "genomic_position1": 4067068,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        131,
+        1213
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 131,
+      "window_offset": 81,
+      "coordinate0": 4067067,
+      "genomic_position1": 4067068,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        131,
+        1213
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 132,
+      "window_offset": 82,
+      "coordinate0": 4067066,
+      "genomic_position1": 4067067,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        132,
+        1214
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 132,
+      "window_offset": 82,
+      "coordinate0": 4067066,
+      "genomic_position1": 4067067,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        132,
+        1214
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 132,
+      "window_offset": 82,
+      "coordinate0": 4067066,
+      "genomic_position1": 4067067,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        132,
+        1214
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 133,
+      "window_offset": 83,
+      "coordinate0": 4067065,
+      "genomic_position1": 4067066,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        133,
+        1215
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 133,
+      "window_offset": 83,
+      "coordinate0": 4067065,
+      "genomic_position1": 4067066,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        133,
+        1215
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 133,
+      "window_offset": 83,
+      "coordinate0": 4067065,
+      "genomic_position1": 4067066,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        133,
+        1215
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 134,
+      "window_offset": 84,
+      "coordinate0": 4067064,
+      "genomic_position1": 4067065,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        134,
+        1216
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 134,
+      "window_offset": 84,
+      "coordinate0": 4067064,
+      "genomic_position1": 4067065,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        134,
+        1216
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 134,
+      "window_offset": 84,
+      "coordinate0": 4067064,
+      "genomic_position1": 4067065,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        134,
+        1216
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 135,
+      "window_offset": 85,
+      "coordinate0": 4067063,
+      "genomic_position1": 4067064,
+      "reference": "T",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        135,
+        1217
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 135,
+      "window_offset": 85,
+      "coordinate0": 4067063,
+      "genomic_position1": 4067064,
+      "reference": "T",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        135,
+        1217
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 135,
+      "window_offset": 85,
+      "coordinate0": 4067063,
+      "genomic_position1": 4067064,
+      "reference": "T",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        135,
+        1217
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 136,
+      "window_offset": 86,
+      "coordinate0": 4067062,
+      "genomic_position1": 4067063,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        136,
+        1218
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 136,
+      "window_offset": 86,
+      "coordinate0": 4067062,
+      "genomic_position1": 4067063,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        136,
+        1218
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 136,
+      "window_offset": 86,
+      "coordinate0": 4067062,
+      "genomic_position1": 4067063,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        136,
+        1218
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 137,
+      "window_offset": 87,
+      "coordinate0": 4067061,
+      "genomic_position1": 4067062,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        137,
+        1219
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 137,
+      "window_offset": 87,
+      "coordinate0": 4067061,
+      "genomic_position1": 4067062,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        137,
+        1219
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 137,
+      "window_offset": 87,
+      "coordinate0": 4067061,
+      "genomic_position1": 4067062,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        137,
+        1219
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 138,
+      "window_offset": 88,
+      "coordinate0": 4067060,
+      "genomic_position1": 4067061,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        138,
+        1220
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 138,
+      "window_offset": 88,
+      "coordinate0": 4067060,
+      "genomic_position1": 4067061,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        138,
+        1220
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 138,
+      "window_offset": 88,
+      "coordinate0": 4067060,
+      "genomic_position1": 4067061,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        138,
+        1220
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 139,
+      "window_offset": 89,
+      "coordinate0": 4067059,
+      "genomic_position1": 4067060,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        139,
+        1221
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 139,
+      "window_offset": 89,
+      "coordinate0": 4067059,
+      "genomic_position1": 4067060,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        139,
+        1221
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 139,
+      "window_offset": 89,
+      "coordinate0": 4067059,
+      "genomic_position1": 4067060,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        139,
+        1221
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 140,
+      "window_offset": 90,
+      "coordinate0": 4067058,
+      "genomic_position1": 4067059,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        140,
+        1222
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 140,
+      "window_offset": 90,
+      "coordinate0": 4067058,
+      "genomic_position1": 4067059,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        140,
+        1222
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 140,
+      "window_offset": 90,
+      "coordinate0": 4067058,
+      "genomic_position1": 4067059,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        140,
+        1222
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 141,
+      "window_offset": 91,
+      "coordinate0": 4067057,
+      "genomic_position1": 4067058,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        141,
+        1223
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 141,
+      "window_offset": 91,
+      "coordinate0": 4067057,
+      "genomic_position1": 4067058,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        141,
+        1223
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 141,
+      "window_offset": 91,
+      "coordinate0": 4067057,
+      "genomic_position1": 4067058,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        141,
+        1223
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 142,
+      "window_offset": 92,
+      "coordinate0": 4067056,
+      "genomic_position1": 4067057,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        142,
+        1224
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 142,
+      "window_offset": 92,
+      "coordinate0": 4067056,
+      "genomic_position1": 4067057,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        142,
+        1224
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 142,
+      "window_offset": 92,
+      "coordinate0": 4067056,
+      "genomic_position1": 4067057,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        142,
+        1224
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 143,
+      "window_offset": 93,
+      "coordinate0": 4067055,
+      "genomic_position1": 4067056,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        143,
+        1225
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 143,
+      "window_offset": 93,
+      "coordinate0": 4067055,
+      "genomic_position1": 4067056,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        143,
+        1225
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 143,
+      "window_offset": 93,
+      "coordinate0": 4067055,
+      "genomic_position1": 4067056,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        143,
+        1225
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 144,
+      "window_offset": 94,
+      "coordinate0": 4067054,
+      "genomic_position1": 4067055,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        144,
+        1226
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 144,
+      "window_offset": 94,
+      "coordinate0": 4067054,
+      "genomic_position1": 4067055,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        144,
+        1226
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 144,
+      "window_offset": 94,
+      "coordinate0": 4067054,
+      "genomic_position1": 4067055,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        144,
+        1226
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 145,
+      "window_offset": 95,
+      "coordinate0": 4067053,
+      "genomic_position1": 4067054,
+      "reference": "A",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        145,
+        1227
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 145,
+      "window_offset": 95,
+      "coordinate0": 4067053,
+      "genomic_position1": 4067054,
+      "reference": "A",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        145,
+        1227
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 145,
+      "window_offset": 95,
+      "coordinate0": 4067053,
+      "genomic_position1": 4067054,
+      "reference": "A",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        145,
+        1227
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 146,
+      "window_offset": 96,
+      "coordinate0": 4067052,
+      "genomic_position1": 4067053,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        146,
+        1228
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 146,
+      "window_offset": 96,
+      "coordinate0": 4067052,
+      "genomic_position1": 4067053,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        146,
+        1228
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 146,
+      "window_offset": 96,
+      "coordinate0": 4067052,
+      "genomic_position1": 4067053,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        146,
+        1228
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 147,
+      "window_offset": 97,
+      "coordinate0": 4067051,
+      "genomic_position1": 4067052,
+      "reference": "C",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        147,
+        1229
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 147,
+      "window_offset": 97,
+      "coordinate0": 4067051,
+      "genomic_position1": 4067052,
+      "reference": "C",
+      "alternative": "G",
+      "alternative_index": 2,
+      "synchronized_input_indices": [
+        147,
+        1229
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 147,
+      "window_offset": 97,
+      "coordinate0": 4067051,
+      "genomic_position1": 4067052,
+      "reference": "C",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        147,
+        1229
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 148,
+      "window_offset": 98,
+      "coordinate0": 4067050,
+      "genomic_position1": 4067051,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        148,
+        1230
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 148,
+      "window_offset": 98,
+      "coordinate0": 4067050,
+      "genomic_position1": 4067051,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        148,
+        1230
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 148,
+      "window_offset": 98,
+      "coordinate0": 4067050,
+      "genomic_position1": 4067051,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        148,
+        1230
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 149,
+      "window_offset": 99,
+      "coordinate0": 4067049,
+      "genomic_position1": 4067050,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        149,
+        1231
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 149,
+      "window_offset": 99,
+      "coordinate0": 4067049,
+      "genomic_position1": 4067050,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        149,
+        1231
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 149,
+      "window_offset": 99,
+      "coordinate0": 4067049,
+      "genomic_position1": 4067050,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        149,
+        1231
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 150,
+      "window_offset": 100,
+      "coordinate0": 4067048,
+      "genomic_position1": 4067049,
+      "reference": "G",
+      "alternative": "A",
+      "alternative_index": 0,
+      "synchronized_input_indices": [
+        150,
+        1232
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 150,
+      "window_offset": 100,
+      "coordinate0": 4067048,
+      "genomic_position1": 4067049,
+      "reference": "G",
+      "alternative": "C",
+      "alternative_index": 1,
+      "synchronized_input_indices": [
+        150,
+        1232
+      ],
+      "synchronized_copies": 2
+    },
+    {
+      "position": 150,
+      "window_offset": 100,
+      "coordinate0": 4067048,
+      "genomic_position1": 4067049,
+      "reference": "G",
+      "alternative": "T",
+      "alternative_index": 3,
+      "synchronized_input_indices": [
+        150,
+        1232
+      ],
+      "synchronized_copies": 2
+    }
+  ]
+}

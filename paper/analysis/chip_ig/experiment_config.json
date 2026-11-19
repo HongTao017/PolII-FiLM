@@ -1,0 +1,61 @@
+{
+  "model_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
+  "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008",
+  "resource_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/ALL_CHIP_MOTIF_FROZEN_MLP_SCREEN_20261012",
+  "selection_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/FIG5_SPLICE4_FILM_CHIP_ATTRIBUTION_TENFOLD_20261013",
+  "output_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/A_CHIP_ZEROCOUNT_GE40_1550_20261104",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "pilot_gene": "TAOK1",
+  "baseline": "zero_chip_count_before_saved_train_standardization",
+  "ig_steps": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "internal_batch_size": 2,
+  "absolute_tolerance_in_target_sd": 0.0001,
+  "relative_tolerance": 0.01,
+  "step_stability_relative_tolerance": 0.02,
+  "fp32_saved_prediction_tolerance_in_target_sd": 0.01,
+  "threads": 2,
+  "composite_intervals": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "method": "conditional_ChIP_IG",
+  "cohort": "TF_nonzero_percentage_ge40",
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "original_weights_frozen": true,
+  "expected_genes": 1550
+}

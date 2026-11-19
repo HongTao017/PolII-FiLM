@@ -1,0 +1,23 @@
+{
+  "filename": "fig5a.pdf",
+  "panel": "A",
+  "description": "ZBTB7A完整600bp TSS归因与50bp来源seqlet联动放大",
+  "gene": "ZBTB7A",
+  "fold": 10,
+  "pattern": "r0_pos_patterns_pattern_0",
+  "seqlet": 75,
+  "entry_script": "code/render.py",
+  "kind": "linked_full_TSS_and_seqlet_zoom",
+  "legacy_server_directory": "/mnt/HDD8TB/hongtao/end/pig/fig5/fig5.a",
+  "source_data_sha256": {
+    "data/attribution_600bp.tsv": "736fed4be51a0b95b14ed459b91a9387239737e38d7768da52106c3a92775f5d",
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/fonts/arialbi.ttf": "267a411525980d648f10a7222a6ff1ebe4d4feeefbf9b3100cae2b5cfab5594a",
+    "data/fonts/ariali.ttf": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288",
+    "data/ISM_figure_selection.json": "b9e237f7975ccbd516726bf49bdc1ed45b599395043d720b0fa61b63616d2b66",
+    "data/selected_real_attribution.npz": "00af641cc0b773cddcaaddf4e93b34789804d430fb31a3e8713a1fa242803350",
+    "data/selection.json": "bf997891fe4f159a9669f56901ed43f12f5cb0070ede06e5c3163438fa804b85",
+    "data/TOMTOM_pair.json": "a0105532ffe37be3910f48100514097a561aa80895c677564a729049f29fd7c7"
+  }
+}

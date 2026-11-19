@@ -1,0 +1,32 @@
+{
+  "panel": "E",
+  "filename": "fig1e.pdf",
+  "description": "A1BG region: three sequencing-assay IGV tracks, original website screenshot",
+  "canvas_inches": [
+    7.086666666666667,
+    3.465
+  ],
+  "source_pdf": "G:\\序列分析数据\\output\\pdf\\NascentAtlas_focused_figures_600dpi_20261025\\04_igv_tracks_main_600dpi.pdf",
+  "source_pdf_sha256": "c6b034dde2738ac69e51e570f17895c92e24abd21cf85f23a02fc2067616473f",
+  "entry_script": "code/render.py",
+  "frozen_data_sha256": {
+    "data/region.json": "91ae58971a5ed8fcbac16e4a798183d24df62d68c4858415adb1b7587d738a6a",
+    "data/region_annotation.json": "6138604d2a62fa2599566ff7ce94deacbb48b3fbdd2e210d88c4ff7688386522",
+    "data/signal_cache/NP-3E3F5FDE87.json": "bcac6c57fb3062f85509e4a1d00b36dda29c42ad6e748c3a51841c2970edc3fd",
+    "data/signal_cache/NP-410E006606.json": "c26d3672ccc08de33aa227816ad9ac67743c4951605a20dd59f5689ae8a26b1d",
+    "data/signal_cache/NP-663C656923.json": "593d3f33b5a59425a8ffa308214a76908a02e247c7f60431a9537b029011e7bd",
+    "data/source_600dpi.png": "28414a38b94c9109fbbb7503cbcb337ed140c78a9108d312ccb985dc66eb97e1",
+    "data/tracks.json": "df3a8f02a2d74b9c115f72f160601a22f9c258db442152d5c934cf86299bce9a",
+    "data/visible_signal_bins.tsv": "76767ba1edbaa48b40af6ea4d1943c16a63ad5672ad3f5e128f5f0b981d52e3e"
+  },
+  "kind": "original website screenshot",
+  "effective_dpi": 600,
+  "source_pixels": [
+    4252,
+    2079
+  ],
+  "source_refresh": "Original Vue components and capture script archived; approved PDF redraw uses frozen screenshot.",
+  "original_server_directory": "/mnt/HDD8TB/hongtao/end/pig/fig1_archive_20261028T060119Z/fig1.f",
+  "original_panel": "F",
+  "source_directory": "G:\\序列分析数据\\fig1_packaging_20261104\\server_archive\\fig1_archive_20261028T060119Z\\fig1.f"
+}

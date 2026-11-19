@@ -1,0 +1,447 @@
+[
+  {
+    "pattern_id": "r0_pos_patterns_pattern_0",
+    "region": "tss_sequence",
+    "region_index": 0,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/tss_sequence.h5",
+    "h5_group": "pos_patterns/pattern_0",
+    "seqlets": 97,
+    "matches": [
+      {
+        "TF": "KLF16",
+        "matrix_id": "MA0741.1",
+        "p_value": 6.85376e-05,
+        "q_value": 0.011868,
+        "orientation": "-"
+      },
+      {
+        "TF": "SP2",
+        "matrix_id": "MA0516.3",
+        "p_value": 9.63969e-05,
+        "q_value": 0.011868,
+        "orientation": "+"
+      },
+      {
+        "TF": "SP4",
+        "matrix_id": "MA0685.2",
+        "p_value": 0.000161618,
+        "q_value": 0.0132651,
+        "orientation": "+"
+      },
+      {
+        "TF": "SP1",
+        "matrix_id": "MA0079.5",
+        "p_value": 0.000466602,
+        "q_value": 0.028723,
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "pattern_id": "r0_pos_patterns_pattern_1",
+    "region": "tss_sequence",
+    "region_index": 0,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/tss_sequence.h5",
+    "h5_group": "pos_patterns/pattern_1",
+    "seqlets": 78,
+    "matches": [
+      {
+        "TF": "KLF16",
+        "matrix_id": "MA0741.1",
+        "p_value": 0.000102006,
+        "q_value": 0.0253469,
+        "orientation": "-"
+      }
+    ]
+  },
+  {
+    "pattern_id": "r0_neg_patterns_pattern_0",
+    "region": "tss_sequence",
+    "region_index": 0,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/tss_sequence.h5",
+    "h5_group": "neg_patterns/pattern_0",
+    "seqlets": 92,
+    "matches": []
+  },
+  {
+    "pattern_id": "r0_neg_patterns_pattern_1",
+    "region": "tss_sequence",
+    "region_index": 0,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/tss_sequence.h5",
+    "h5_group": "neg_patterns/pattern_1",
+    "seqlets": 45,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_0",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "pos_patterns/pattern_0",
+    "seqlets": 499,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "pos_patterns/pattern_1",
+    "seqlets": 252,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_2",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "pos_patterns/pattern_2",
+    "seqlets": 119,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_3",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "pos_patterns/pattern_3",
+    "seqlets": 43,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_0",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_0",
+    "seqlets": 52,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_1",
+    "seqlets": 44,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_2",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_2",
+    "seqlets": 34,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_3",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_3",
+    "seqlets": 30,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_4",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_4",
+    "seqlets": 29,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_5",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_5",
+    "seqlets": 25,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_6",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_6",
+    "seqlets": 21,
+    "matches": []
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_7",
+    "region": "first_donor_sequence",
+    "region_index": 1,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_donor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_7",
+    "seqlets": 21,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_pos_patterns_pattern_0",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "pos_patterns/pattern_0",
+    "seqlets": 519,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_pos_patterns_pattern_1",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "pos_patterns/pattern_1",
+    "seqlets": 52,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_0",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_0",
+    "seqlets": 258,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_1",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_1",
+    "seqlets": 66,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_2",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_2",
+    "seqlets": 63,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_3",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_3",
+    "seqlets": 51,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_4",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_4",
+    "seqlets": 46,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_5",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_5",
+    "seqlets": 35,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_6",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_6",
+    "seqlets": 28,
+    "matches": []
+  },
+  {
+    "pattern_id": "r2_neg_patterns_pattern_7",
+    "region": "first_acceptor_sequence",
+    "region_index": 2,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/first_acceptor_sequence.h5",
+    "h5_group": "neg_patterns/pattern_7",
+    "seqlets": 23,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_0",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_0",
+    "seqlets": 49,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_1",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_1",
+    "seqlets": 35,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_2",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_2",
+    "seqlets": 34,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_3",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_3",
+    "seqlets": 28,
+    "matches": [
+      {
+        "TF": "ZNF384",
+        "matrix_id": "MA1125.2",
+        "p_value": 8.98934e-05,
+        "q_value": 0.0224733,
+        "orientation": "-"
+      }
+    ]
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_4",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_4",
+    "seqlets": 27,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_5",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_5",
+    "seqlets": 26,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_6",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_6",
+    "seqlets": 26,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_7",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_7",
+    "seqlets": 22,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_8",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "pos_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "pos_patterns/pattern_8",
+    "seqlets": 21,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_0",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "neg_patterns/pattern_0",
+    "seqlets": 473,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_1",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "neg_patterns/pattern_1",
+    "seqlets": 39,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_2",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "neg_patterns/pattern_2",
+    "seqlets": 27,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_3",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "neg_patterns/pattern_3",
+    "seqlets": 27,
+    "matches": []
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_4",
+    "region": "pre_tes_sequence",
+    "region_index": 3,
+    "sign": "neg_patterns",
+    "h5_path": "modisco/pre_tes_sequence.h5",
+    "h5_group": "neg_patterns/pattern_4",
+    "seqlets": 26,
+    "matches": []
+  }
+]

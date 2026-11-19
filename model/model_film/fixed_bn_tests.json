@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "train_eval_same_statistics": true,
+  "minibatch_composition_independent": true,
+  "affine_weights_learn": true,
+  "parent_train_does_not_update_statistics": true,
+  "constant_columns_safe_variance": 1.0,
+  "checkpoint_roundtrip": true,
+  "unfitted_forward_rejected": true,
+  "refitting_rejected": true
+}

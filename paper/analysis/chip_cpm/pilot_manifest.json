@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "groups": 1,
+    "matched_groups": 1,
+    "bams": 2,
+    "bytes": 10766198343,
+    "empty_regions": 0
+  },
+  "source_sha256": "679bfe9f913144bc2dc567a54d36be2bf675c5327bce21c7b79391dddc742b17",
+  "bed_sha256": "bef042382dd7d0d681f0a1e9d2d150a47fcb89bdeec736f424e87b85e41d383e",
+  "points_sha256": "5727e1b9288dda414f1b4b427252404979c5c345ffe289e7682106a55fe0fb33",
+  "groups": [
+    {
+      "pair_id": "HepG2_FOXA2",
+      "tf": "FOXA2",
+      "cell": "HepG2",
+      "mean_chip_log10_count_plus1": "0.332132253137327",
+      "mean_IG_strength": "0.29860296423018995",
+      "experiment": "ENCSR066EBK",
+      "peak": "ENCFF589WTM",
+      "replicates": [
+        1,
+        2
+      ],
+      "bam_matches": {
+        "1": [
+          "ENCFF018JVU"
+        ],
+        "2": [
+          "ENCFF621VCV"
+        ]
+      },
+      "bams": [
+        {
+          "@id": "/files/ENCFF018JVU/",
+          "@type": [
+            "File",
+            "Item"
+          ],
+          "accession": "ENCFF018JVU",
+          "assembly": "GRCh38",
+          "biological_replicates": [
+            1
+          ],
+          "dataset": "/experiments/ENCSR066EBK/",
+          "file_format": "bam",
+          "file_size": 5252233736,
+          "href": "/files/ENCFF018JVU/@@download/ENCFF018JVU.bam",
+          "md5sum": "c86e2f6d6c59dc43ec3e0825a44f96f1",
+          "output_type": "alignments",
+          "s3_uri": "s3://encode-public/2020/12/09/bf532b57-5423-480a-aad0-39ebd8e66715/ENCFF018JVU.bam",
+          "status": "released"
+        },
+        {
+          "@id": "/files/ENCFF621VCV/",
+          "@type": [
+            "File",
+            "Item"
+          ],
+          "accession": "ENCFF621VCV",
+          "assembly": "GRCh38",
+          "biological_replicates": [
+            2
+          ],
+          "dataset": "/experiments/ENCSR066EBK/",
+          "file_format": "bam",
+          "file_size": 5513964607,
+          "href": "/files/ENCFF621VCV/@@download/ENCFF621VCV.bam",
+          "md5sum": "ad91e32aad0bf698e7ea97938a429077",
+          "output_type": "alignments",
+          "s3_uri": "s3://encode-public/2020/12/09/e617d4e4-f5b9-474a-965d-c457d3114226/ENCFF621VCV.bam",
+          "status": "released"
+        }
+      ],
+      "status": "matched"
+    }
+  ]
+}

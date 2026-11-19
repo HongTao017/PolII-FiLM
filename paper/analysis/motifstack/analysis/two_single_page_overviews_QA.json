@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "13_groups_plus_16_individuals",
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_13groups_16individuals_SINGLE_PAGE_5x4.pdf",
+      "labels": 29,
+      "scale": 1.07,
+      "rotation": 2,
+      "minimum_leaf_gap_deg": 0.21517241379309532,
+      "angular_layout": "29 equally spaced clade/singleton centers; clade endpoints symmetric at +/-0.22 of an annotation interval; other leaf angles interpolated in original order",
+      "QA": {
+        "label_names": [
+          "GNN3G*",
+          "GNGNGG*",
+          "TN3T",
+          "NNTTNN*",
+          "6T-02*",
+          "TN5T3WTT",
+          "4T-01",
+          "4T-02",
+          "6A-02*",
+          "TNWTT",
+          "6G*",
+          "CN3C",
+          "RGNGG",
+          "N3GNG*",
+          "GAGNC",
+          "6T-06*",
+          "CN3GN*",
+          "GCMNNG*",
+          "6C-01*",
+          "GGNGNG*",
+          "CCN3C*",
+          "SN3G",
+          "6C-02*",
+          "4GNG-03*",
+          "3GNGG*",
+          "S3C",
+          "4TKTW5T-01",
+          "4GSNGG",
+          "4TKTW5T-02"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            1.8
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        },
+        "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_13groups_16individuals_SINGLE_PAGE_5x4.pdf",
+        "page_count": 1,
+        "canvas_points": [
+          360,
+          288
+        ],
+        "min_text_pt": 12,
+        "font": "Arial",
+        "all_text_black": true,
+        "embedded_images": 0,
+        "pdf_sha256": "bad8beb5586c687bcd47dac9b04db060c214b04cf7f180f916c04b3cbacf1d45",
+        "all_visible_text_crop": 0,
+        "all_visible_text_overlaps": 0
+      }
+    },
+    {
+      "figure": "previous_13_group_labels",
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_13groups_ONLY_SINGLE_PAGE_5x4.pdf",
+      "labels": 13,
+      "scale": 1.26,
+      "rotation": 102,
+      "angular_layout": "original 13-group layout unchanged",
+      "QA": {
+        "label_names": [
+          "TN3T",
+          "TN5T3WTT",
+          "4T-01",
+          "4T-02",
+          "TNWTT",
+          "CN3C",
+          "RGNGG",
+          "GAGNC",
+          "SN3G",
+          "S3C",
+          "4TKTW5T-01",
+          "4GSNGG",
+          "4TKTW5T-02"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            -1.52
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        },
+        "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_13groups_ONLY_SINGLE_PAGE_5x4.pdf",
+        "page_count": 1,
+        "canvas_points": [
+          360,
+          288
+        ],
+        "min_text_pt": 12,
+        "font": "Arial",
+        "all_text_black": true,
+        "embedded_images": 0,
+        "pdf_sha256": "660d97376d305b5977164598839ce868292360ebed9636ae17507a4158eb430d",
+        "all_visible_text_crop": 0,
+        "all_visible_text_overlaps": 0
+      }
+    }
+  ],
+  "existing_PDF_files_preserved": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all_hit_labels_overview_5x4.pdf": "6a2bc96124181d9ee6e83b8f57072ff1c3f44e9852cba8529fa07219e4be128b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all44_individual_labels_5x4.pdf": "284768be8485b9e923217459a4d5eedfb846ebdfa21df4aad5beb1e673c1b5d3"
+  },
+  "all_matched_patterns_covered": 44,
+  "multi_pattern_group_labels": 13,
+  "independent_pattern_labels": 16,
+  "tree_topology_unchanged": true,
+  "partitions_unchanged": true,
+  "TOMTOM_unchanged": true,
+  "output_format": "two separate single-page vector PDFs",
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "all_ordinary_text_pt": 12
+}

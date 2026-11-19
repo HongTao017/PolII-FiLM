@@ -1,0 +1,28 @@
+{
+  "samples": 105,
+  "features": 10855,
+  "source_matrix_sha256": "08d8fa55de917c64acc2f15da1cb773b204c76e402e48496f3bc2d5b76fd78bf",
+  "metadata_sha256": "34abf95c47196eaf38b7db928c42695bfb13b14b1fff3bc34960c1df8465131d",
+  "input_values_as_saved": true,
+  "restandardized": false,
+  "extra_imputation": false,
+  "labels_used_during_fit": false,
+  "pca_variance_retained": {
+    "30": 0.8093991075765598,
+    "50": 0.909700450668975,
+    "104": 1.0000000000000002
+  },
+  "original_PCA_max_absolute_error": [
+    5.372839950723574e-10,
+    4.717026769185395e-10
+  ],
+  "high_dimensional_silhouette": {
+    "assay": 0.07431617722294519,
+    "cell_type": 0.025493217296936748,
+    "study": 0.17692774876121636
+  },
+  "sklearn_version": "1.7.2",
+  "numpy_version": "2.2.6",
+  "pandas_version": "3.0.3",
+  "scipy_version": "1.16.2"
+}

@@ -1,0 +1,8 @@
+{
+  "approved_source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\19_RF_BQIP_top30_importance_reference.pdf",
+  "approved_sha256": "17d1334bc5a976345643dc549725d61cdee234112d939054bb52e68ac21be62b",
+  "training_root": "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train",
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "drawing_inputs": "All inputs necessary for offline redraw are in data/. Original training arrays/model checkpoints are not needed for redraw.",
+  "interpretation": "383项特征中的前30项随机森林不纯度重要性。每折先平均5个种子，再报告10折均值±样本SD；前30项未再次归一化。该重要性非负，无促进/抑制方向，也不等同SHAP或回归系数。"
+}

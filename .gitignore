@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv*/
+outputs/
+downloads/
+release_assets/
+*.pt
+*.joblib
+*.ttf
+*.otf
+*.part[0-9]*
+*.egg-info/

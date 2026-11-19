@@ -1,0 +1,27 @@
+{
+  "panel": "B",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "frozen_data_hashes_verified": 17,
+  "page_size_pt": [
+    576.0,
+    504.0
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "samples": 105,
+    "assay_counts": {
+      "GRO-seq": 55,
+      "MNET-seq": 19,
+      "PRO-seq": 31
+    },
+    "colors": {
+      "GRO-seq": "#F16B6F",
+      "MNET-seq": "#F7B6D2",
+      "PRO-seq": "#9EDAE4"
+    },
+    "frozen_coordinates_verified": true,
+    "connector_lines": 0
+  }
+}

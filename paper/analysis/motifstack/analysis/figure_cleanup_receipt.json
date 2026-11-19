@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "time_Asia_Shanghai": "2026-10-19T13:39:30.910209+08:00",
+  "deleted_old_pdf_count": 10,
+  "deleted_old_pdf_paths": [
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_continuous_ring_5x4.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_continuous_ring_darker_grey_5x4.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_even_labels_5x4.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_hit_status_purple_ring_5x4.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_less_dense_5x4.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_straight_spaced_5x4.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_JASPAR_reference_matrix_panels.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all_314_PFM_matrix_atlas.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_radial_314_default.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_reference_style_circular_5x4.pdf"
+  ],
+  "recoverable_archive": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/archive/previous_figures_20261019_133930.zip",
+  "archive_sha256": "3b2ecb6abdba4d687c2904340198f62536918e63f9630ea9715a798887c475f9",
+  "archive_verified": true,
+  "current_pdfs": {
+    "motifStack_sequence_names_overview_5x4.pdf": "d1159ea0a975f4f460171dee34e97fa6c86cfaeefef6c4e0aac58ce8b4fa74e7",
+    "motifStack_matched44_sequence_names_5x4.pdf": "45bdbd60e198586227980d3834bac9e8a5aa372535e143d1337a845ed015bf2c"
+  },
+  "current_pdf_count": 2,
+  "current_pdfs_unchanged": true,
+  "naming_table_unchanged": true,
+  "original_tree_unchanged": true,
+  "original_data_deleted": false,
+  "backup_manifest": {
+    "figures/motifStack_11_JASPAR_continuous_ring_5x4.pdf": {
+      "sha256": "40e60ebdaef4c88be3d17e0bc3be412f6ec3d85696325bcef05b25666654d4ca",
+      "bytes": 78261
+    },
+    "figures/motifStack_11_JASPAR_continuous_ring_darker_grey_5x4.pdf": {
+      "sha256": "5bcada749504dc71839ca4ed64c82ac0d2c36c5b580a4c3646d643140aba9892",
+      "bytes": 78263
+    },
+    "figures/motifStack_11_JASPAR_even_labels_5x4.pdf": {
+      "sha256": "182fca1dce4e49a5988fc8390923458bc32f6c319a0d9c805b104ef16bfcddaa",
+      "bytes": 88121
+    },
+    "figures/motifStack_11_JASPAR_hit_status_purple_ring_5x4.pdf": {
+      "sha256": "85d98be130621c4ecd31b8ea1a1c0baf988f2c77c5df67ade04f6c5595dbcd83",
+      "bytes": 86899
+    },
+    "figures/motifStack_11_JASPAR_less_dense_5x4.pdf": {
+      "sha256": "e54263a070b7f4bc4924a16c7e14e4ff8d7c0fc519a499e34d7c8fba9d00e000",
+      "bytes": 122308
+    },
+    "figures/motifStack_11_JASPAR_straight_spaced_5x4.pdf": {
+      "sha256": "f9e600df5d12012cba8868725013f36a74ac717d2ea7464c99b4e0aae3331ba4",
+      "bytes": 77636
+    },
+    "figures/motifStack_JASPAR_reference_matrix_panels.pdf": {
+      "sha256": "862b338b01266b8e1309beaf24834c2faeafe1ae22b91ab417ebfe6d18e72b7a",
+      "bytes": 2029166
+    },
+    "figures/motifStack_all_314_PFM_matrix_atlas.pdf": {
+      "sha256": "b3936def287b100ba42af1696fba85809e600262e83d9b874ae5c3e21ea92df8",
+      "bytes": 22831525
+    },
+    "figures/motifStack_radial_314_default.pdf": {
+      "sha256": "1847b689d7771a9f59e67817122587165194652088c05d8ec379b39691178f93",
+      "bytes": 17938826
+    },
+    "figures/motifStack_reference_style_circular_5x4.pdf": {
+      "sha256": "d27e537adbc4ab911236e3f6ba66e169b1b32a58ba975e5c91250886e4657db3",
+      "bytes": 76650
+    },
+    "README_motifStack_\u91cd\u7ed8\u8bf4\u660e.md": {
+      "sha256": "2294dda705b624d63dcc0fe8130b7d9a2503a567dab584af4b33c756854c0760",
+      "bytes": 19535
+    },
+    "analysis/matched44_sequence_naming_notes.md": {
+      "sha256": "26bcf15ab0f69325d0e24e1e27fd68ba30b4410f8e43f512590995f96b5dc01b",
+      "bytes": 3770
+    }
+  }
+}

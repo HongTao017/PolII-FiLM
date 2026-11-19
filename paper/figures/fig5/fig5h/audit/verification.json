@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "source_pdf_sha256": "269deeb29431fde03249ea24fa9efd1051183286b402b3b94ca64501420591ec",
+  "redraw_pixel_identical": false,
+  "pixel_dimensions": [
+    1210,
+    663
+  ],
+  "comparison_dpi": 144,
+  "changed_pixel_fraction": 0.0033843162185408174,
+  "mean_absolute_rgb_difference_0_to_255": 0.296612359713964,
+  "canvas_inches": [
+    8.4,
+    4.6
+  ],
+  "editable_true_type": true,
+  "plotting_data_rows": 360,
+  "curve_source_check": "All 5400 rows match after sorting and normalizing numeric values to 9 decimal places",
+  "local_versions": {
+    "python": "3.13.7",
+    "matplotlib": "3.10.9",
+    "numpy": "2.2.6",
+    "pandas": "3.0.3"
+  }
+}

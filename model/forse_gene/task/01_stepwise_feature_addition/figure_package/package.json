@@ -1,0 +1,24 @@
+{
+  "panel": "C",
+  "filename": "fig4.c.pdf",
+  "description": "逐组增加特征：测试集10折小提琴图",
+  "canvas_inches": [
+    7.4,
+    5.3
+  ],
+  "source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\26_final_test_feature_comparison_TF_binding_site_NA.pdf",
+  "approved_pdf_sha256": "f17dd08c988e7a37798f2c26a9ec165a091b8a53991e6fb83ba2c9b0778fb312",
+  "entry_script": "code/render.py",
+  "frozen_input_sha256": {
+    "data/fold_metrics.tsv": "4e1597f7cd823d79b9901d54f67e8f4a57a04dd0941c95c8c40670f388b6bf79",
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/fonts/arialbi.ttf": "267a411525980d648f10a7222a6ff1ebe4d4feeefbf9b3100cae2b5cfab5594a",
+    "data/fonts/ariali.ttf": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288",
+    "data/reference_statistics.json": "840620da2fd63300cb33d6a7c252c208d0844c64ef6a827b770c077e0c58a376"
+  },
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "previous_approved_pdf_sha256": "20205c0a1bad17fa63d43dc0853871981a1e70942059c8b40b491d23105277d1",
+  "legend_label": "T: TF binding site (2)",
+  "label_change_only": true
+}

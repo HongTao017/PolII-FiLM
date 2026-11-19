@@ -1,0 +1,376 @@
+{
+  "TSS": {
+    "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/SP4_MA0685_2_F04_TSS600_IMPORTANCE.pdf",
+    "canvas_inches": [
+      12,
+      3.5
+    ],
+    "point_count": 600,
+    "raw_scores_preserved": true,
+    "smoothing": false,
+    "subsampling": false,
+    "signed_range": [
+      -0.001883242861367762,
+      0.0012909399811178446
+    ],
+    "seqlet_input_half_open": [
+      280,
+      330
+    ],
+    "motif_input_half_open": [
+      296,
+      305
+    ],
+    "TSS_index0": 300,
+    "text_boxes": [
+      {
+        "text": "TSS",
+        "bounds_px": [
+          645.855,
+          278.95,
+          32.375,
+          15.0
+        ]
+      },
+      {
+        "text": "Position in TSS input (bp)",
+        "bounds_px": [
+          534.625,
+          49.94444444444444,
+          220.75,
+          18.0
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_px": [
+          128.23,
+          104.05555555555556,
+          9.25,
+          15.0
+        ]
+      },
+      {
+        "text": "150",
+        "bounds_px": [
+          375.5425,
+          104.05555555555556,
+          27.625,
+          15.0
+        ]
+      },
+      {
+        "text": "300",
+        "bounds_px": [
+          632.0425,
+          104.05555555555556,
+          27.625,
+          15.0
+        ]
+      },
+      {
+        "text": "450",
+        "bounds_px": [
+          888.5425000000001,
+          104.05555555555556,
+          27.625,
+          15.0
+        ]
+      },
+      {
+        "text": "599",
+        "bounds_px": [
+          1143.2075000000002,
+          104.05555555555556,
+          27.875,
+          15.0
+        ]
+      },
+      {
+        "text": "Importance\nscore",
+        "bounds_px": [
+          16.950000000000003,
+          143.6875,
+          38.800000000000004,
+          97.625
+        ]
+      },
+      {
+        "text": "-0.002",
+        "bounds_px": [
+          73.76388888888889,
+          124.38888888888891,
+          47.125,
+          15.0
+        ]
+      },
+      {
+        "text": "-0.001",
+        "bounds_px": [
+          73.76388888888889,
+          153.94444444444446,
+          47.125,
+          15.0
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_px": [
+          111.63888888888889,
+          183.5,
+          9.25,
+          15.0
+        ]
+      },
+      {
+        "text": "+0.001",
+        "bounds_px": [
+          69.63888888888889,
+          213.05555555555554,
+          51.25,
+          15.0
+        ]
+      },
+      {
+        "text": "+0.002",
+        "bounds_px": [
+          69.63888888888889,
+          242.6111111111111,
+          51.25,
+          15.0
+        ]
+      },
+      {
+        "text": "SP4-like motif \u00b7 MA0685.2",
+        "bounds_px": [
+          132.0,
+          317.5,
+          193.375,
+          15.0
+        ]
+      },
+      {
+        "text": "KLHL23 \u00b7 Fold 04 \u00b7 complete TSS window (600 bp)",
+        "bounds_px": [
+          132.0,
+          287.671875,
+          375.875,
+          15.078125
+        ]
+      },
+      {
+        "text": "Grey: pattern source seqlet (50 bp); dark grey: SP4-like match (9 bp)",
+        "bounds_px": [
+          132.0,
+          12.250000000000002,
+          506.25,
+          15.078124999999998
+        ]
+      }
+    ],
+    "sha256": "ec8f0ce03a9924d35ad50d17f8afecc51a621495165eee1759925914753c928c",
+    "bytes": 37611,
+    "pages": 1,
+    "font_sizes": [
+      12.0,
+      14.0
+    ],
+    "fonts": [
+      [
+        15,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ]
+    ],
+    "no_raster_images": true,
+    "text_within_canvas": true,
+    "neighbouring_tick_labels_do_not_overlap": true,
+    "rendered_on_server_in_memory": true
+  },
+  "CWM": {
+    "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/SP4_MA0685_2_F04_PATTERN_CWM.pdf",
+    "canvas_inches": [
+      12,
+      3.8
+    ],
+    "matrix_shape": [
+      50,
+      4
+    ],
+    "n_seqlets": 166,
+    "vector_base_letters": 200,
+    "native_H5_values_preserved": true,
+    "positive_negative_stacks_preserved": true,
+    "text_boxes": [
+      {
+        "text": "Pattern position (bp)",
+        "bounds_px": [
+          557.25,
+          30.78888888888889,
+          175.5,
+          18.0
+        ]
+      },
+      {
+        "text": "1",
+        "bounds_px": [
+          137.635,
+          61.28888888888889,
+          9.25,
+          15.0
+        ]
+      },
+      {
+        "text": "10",
+        "bounds_px": [
+          317.69,
+          61.28888888888889,
+          18.5,
+          15.0
+        ]
+      },
+      {
+        "text": "20",
+        "bounds_px": [
+          522.89,
+          61.28888888888889,
+          18.5,
+          15.0
+        ]
+      },
+      {
+        "text": "30",
+        "bounds_px": [
+          728.1525,
+          61.28888888888889,
+          18.375,
+          15.0
+        ]
+      },
+      {
+        "text": "40",
+        "bounds_px": [
+          933.29,
+          61.28888888888889,
+          18.5,
+          15.0
+        ]
+      },
+      {
+        "text": "50",
+        "bounds_px": [
+          1138.5525,
+          61.28888888888889,
+          18.375,
+          15.0
+        ]
+      },
+      {
+        "text": "Contribution\nscore",
+        "bounds_px": [
+          7.825000000000003,
+          137.3125,
+          38.800000000000004,
+          105.375
+        ]
+      },
+      {
+        "text": "-0.001",
+        "bounds_px": [
+          73.76388888888889,
+          89.8,
+          47.125,
+          15.0
+        ]
+      },
+      {
+        "text": "-0.0005",
+        "bounds_px": [
+          64.63888888888889,
+          135.4,
+          56.25,
+          15.0
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_px": [
+          111.63888888888889,
+          181.0,
+          9.25,
+          15.0
+        ]
+      },
+      {
+        "text": "+0.0005",
+        "bounds_px": [
+          60.513888888888886,
+          226.6,
+          60.375,
+          15.0
+        ]
+      },
+      {
+        "text": "+0.001",
+        "bounds_px": [
+          69.63888888888889,
+          272.2,
+          51.25,
+          15.0
+        ]
+      },
+      {
+        "text": "SP4-like motif \u00b7 MA0685.2",
+        "bounds_px": [
+          132.0,
+          346.0,
+          193.375,
+          15.0
+        ]
+      },
+      {
+        "text": "Pattern CWM \u00b7 166 seqlets \u00b7 Fold 04 / r0_neg_patterns_pattern_0",
+        "bounds_px": [
+          132.0,
+          313.41875,
+          484.75,
+          15.28125
+        ]
+      }
+    ],
+    "sha256": "d4e49123ca1ea85257fb9acb7f02be9556e2b6e1f0b5bd4b85e19ea258c2958c",
+    "bytes": 88846,
+    "pages": 1,
+    "font_sizes": [
+      12.0,
+      14.0
+    ],
+    "fonts": [
+      [
+        15,
+        "ttf",
+        "Type0",
+        "ELUGPM+ArialMT",
+        "F1",
+        "Identity-H"
+      ]
+    ],
+    "no_raster_images": true,
+    "text_within_canvas": true,
+    "neighbouring_tick_labels_do_not_overlap": true,
+    "rendered_on_server_in_memory": true
+  },
+  "source": {
+    "pattern": "F04__r0_neg_patterns_pattern_0",
+    "gene": "KLHL23",
+    "H5": "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco/tss_sequence.h5",
+    "H5_SHA256": "b7de769d86c38981e8a65911375cce499785a10d0cc6c6a6fd5ef5e3598cc5ff",
+    "CWM_is_pattern_aggregate_not_gene_zoom": true,
+    "grey_track_is_single_KLHL23_TSS_actual_attribution": true,
+    "no_result_download": true,
+    "user_authorized_size_override": true
+  }
+}

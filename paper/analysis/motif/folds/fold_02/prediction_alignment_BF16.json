@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "fold": 2,
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "EPSTI1",
+      "saved_BF16": 7.637875277649495,
+      "reproduced_BF16": 7.637875277649495,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "2ab2bbf839540d1e717ceb25eed579af9a88d18fad560415d23f55b201101c86",
+      "saved_prediction_sha256": "bf13c1258164fa5ece54aa3d56dc06d0143c1935f3b6a3b29a066ece605e5d35"
+    },
+    {
+      "seed": 20260915,
+      "gene": "JMJD6",
+      "saved_BF16": -3.3282284141187177,
+      "reproduced_BF16": -3.3282284141187177,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "2ab2bbf839540d1e717ceb25eed579af9a88d18fad560415d23f55b201101c86",
+      "saved_prediction_sha256": "bf13c1258164fa5ece54aa3d56dc06d0143c1935f3b6a3b29a066ece605e5d35"
+    },
+    {
+      "seed": 20260916,
+      "gene": "EPSTI1",
+      "saved_BF16": 4.001899252527408,
+      "reproduced_BF16": 4.001899252527408,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541",
+      "saved_prediction_sha256": "9f8eb427004e1ca1bfcc585a40980c564af3028a91bab3f8ae35fcba01c74179"
+    },
+    {
+      "seed": 20260916,
+      "gene": "JMJD6",
+      "saved_BF16": -4.491740742157785,
+      "reproduced_BF16": -4.491740742157785,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541",
+      "saved_prediction_sha256": "9f8eb427004e1ca1bfcc585a40980c564af3028a91bab3f8ae35fcba01c74179"
+    },
+    {
+      "seed": 20260917,
+      "gene": "EPSTI1",
+      "saved_BF16": 3.827372403321548,
+      "reproduced_BF16": 3.827372403321548,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "da903b3cd4f559666e00b46e322ba497d16945db00d6e8f390beba389cbb4c57",
+      "saved_prediction_sha256": "489b98855d927f28b6d9be548754d05a179d30e0b4c469b749c0ad6fbea53316"
+    },
+    {
+      "seed": 20260917,
+      "gene": "JMJD6",
+      "saved_BF16": -3.4736674551236013,
+      "reproduced_BF16": -3.4736674551236013,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "da903b3cd4f559666e00b46e322ba497d16945db00d6e8f390beba389cbb4c57",
+      "saved_prediction_sha256": "489b98855d927f28b6d9be548754d05a179d30e0b4c469b749c0ad6fbea53316"
+    },
+    {
+      "seed": 20260918,
+      "gene": "EPSTI1",
+      "saved_BF16": 5.107235964164523,
+      "reproduced_BF16": 5.107235964164523,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "8a7ac65eb3c3d06e0942a931a546dc62f8d9cdd37c89b464b6efc66be5bf8122",
+      "saved_prediction_sha256": "d485793231a3d8ed4da0d4429932c50dc396288331b880dc537840c81d8714a6"
+    },
+    {
+      "seed": 20260918,
+      "gene": "JMJD6",
+      "saved_BF16": -1.5756879700098725,
+      "reproduced_BF16": -1.5756879700098723,
+      "abs_error": 2.220446049250313e-16,
+      "checkpoint_sha256": "8a7ac65eb3c3d06e0942a931a546dc62f8d9cdd37c89b464b6efc66be5bf8122",
+      "saved_prediction_sha256": "d485793231a3d8ed4da0d4429932c50dc396288331b880dc537840c81d8714a6"
+    },
+    {
+      "seed": 20260919,
+      "gene": "EPSTI1",
+      "saved_BF16": 5.805343360987963,
+      "reproduced_BF16": 5.805343360987963,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59",
+      "saved_prediction_sha256": "007221abd4e41e1c2974fe6c367a0e6881df3eeb9e19c1be6d28abc0f164ef1c"
+    },
+    {
+      "seed": 20260919,
+      "gene": "JMJD6",
+      "saved_BF16": -2.4846819762903936,
+      "reproduced_BF16": -2.4846819762903936,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59",
+      "saved_prediction_sha256": "007221abd4e41e1c2974fe6c367a0e6881df3eeb9e19c1be6d28abc0f164ef1c"
+    }
+  ],
+  "source": "Original CUDA BF16 autocast / batch64 / inverse_target; numerical QC only",
+  "attribution_precision_unchanged": "FP32",
+  "scientific_completeness_tolerances_unchanged": true,
+  "atol": 0.0002,
+  "rtol": 2e-05
+}

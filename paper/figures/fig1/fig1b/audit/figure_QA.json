@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "figure_directory": "figures/final_figure_small",
+  "source_data_frozen": true,
+  "editable_Arial_TrueType": true,
+  "raster_images": 0,
+  "figures": [
+    {
+      "filename": "tSNE_PI_by_assay.pdf",
+      "PDF_sha256": "a871b3fd38e368e362d38fd78dddcf518b84d7daeff8a219c9c5b0c4e5c7e2f7",
+      "color_by": "assay",
+      "samples": 105,
+      "canvas_inches": [
+        5.0,
+        4.0
+      ],
+      "equal_axis_scaling": true,
+      "shared_coordinates": true,
+      "connector_lines": 0,
+      "skill": "final-figure-small",
+      "font": "Arial",
+      "axis_tick_pt": 12,
+      "axis_title_pt": 14,
+      "legend_pt": 12,
+      "PDF_fonttype": 42,
+      "axis_linewidth_pt": 1.3,
+      "point_area_pt2": 28,
+      "no_text_overlap": true,
+      "all_text_inside_canvas": true
+    },
+    {
+      "filename": "tSNE_PI_by_cell_line.pdf",
+      "PDF_sha256": "7ed7efb74c452d9ff88ffe4db04eddb16379f7e10d573b63224e91d35e84fa9b",
+      "color_by": "cell_type",
+      "samples": 105,
+      "canvas_inches": [
+        7.5,
+        5.0
+      ],
+      "equal_axis_scaling": true,
+      "shared_coordinates": true,
+      "connector_lines": 0,
+      "skill": "final-figure-small",
+      "font": "Arial",
+      "axis_tick_pt": 12,
+      "axis_title_pt": 14,
+      "legend_pt": 12,
+      "PDF_fonttype": 42,
+      "axis_linewidth_pt": 1.3,
+      "point_area_pt2": 28,
+      "no_text_overlap": true,
+      "all_text_inside_canvas": true
+    },
+    {
+      "filename": "tSNE_PI_by_author.pdf",
+      "PDF_sha256": "97c9e3246cc90c77b16dd78c62db503cdc1fa8baf37cd3ccd68cab2d532e05b0",
+      "color_by": "study",
+      "samples": 105,
+      "canvas_inches": [
+        7.5,
+        5.0
+      ],
+      "equal_axis_scaling": true,
+      "shared_coordinates": true,
+      "connector_lines": 0,
+      "skill": "final-figure-small",
+      "font": "Arial",
+      "axis_tick_pt": 12,
+      "axis_title_pt": 14,
+      "legend_pt": 12,
+      "PDF_fonttype": 42,
+      "axis_linewidth_pt": 1.3,
+      "point_area_pt2": 28,
+      "no_text_overlap": true,
+      "all_text_inside_canvas": true
+    },
+    {
+      "filename": "tSNE_parameter_comparison.pdf",
+      "PDF_sha256": "99ebdc73bdbeb2f961b1e39c8f69c058466805532380a861024e0b670c1ad212",
+      "pages": 9,
+      "purpose": "Seven perplexity choices and best cell-line/author settings; labels and parameters explicit"
+    }
+  ],
+  "PDF_font_sizes_verified": [
+    12,
+    14
+  ],
+  "Arial_TrueType_embedded": true,
+  "all_main_views_visual_review": "PASS; no overlap, clipping or connector lines",
+  "same_original_105_coordinates": true,
+  "full_legends_preserved": true,
+  "style_update_audit": "audit/style_update_20261023.json"
+}

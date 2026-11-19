@@ -1,0 +1,17 @@
+{
+  "panel": "D",
+  "pages": 1,
+  "canvas_pt": [
+    360.0,
+    288.0
+  ],
+  "offline_reproduction": "PASS; SSH/scp/curl/wget disabled",
+  "pixel_exact_reproduction": true,
+  "pixel_mean_abs_difference": 0.0,
+  "source_data_frozen": true,
+  "main_pdf_sha256": "3ad48bad65acd206d640a2ee8d5efce568f684fbf8efaca315c3715680243077",
+  "main_entry_sha256": "be0aea9c9bcd2a6864ac6aac8208fe100ba0d61edd92123bfd542aaa86c5caa8",
+  "n": 15351,
+  "pearson_r": 0.7276337789866727,
+  "spearman_rho": 0.7495096391963461
+}

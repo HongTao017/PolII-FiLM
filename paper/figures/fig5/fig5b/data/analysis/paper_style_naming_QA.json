@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_paper_style_ALL29_SINGLE_PAGE_5x4.pdf",
+      "annotation_count": 29,
+      "unique_display_names": 24,
+      "scale": 1.21,
+      "rotation": 174,
+      "QA": {
+        "label_names": [
+          "GNN3G*",
+          "GNGNGG*",
+          "TN3T",
+          "NNTTNN*",
+          "5T+*",
+          "TN5T3WTT",
+          "5T+",
+          "13T+",
+          "5T+*",
+          "TNWTT",
+          "6G+*",
+          "CN3C",
+          "RGNGG",
+          "N3GNG*",
+          "GAGNC",
+          "5T+*",
+          "CN3GN*",
+          "GCMNNG*",
+          "6G+*",
+          "GGNGNG*",
+          "CCN3C*",
+          "SN3G",
+          "6G+*",
+          "4GNG*",
+          "3GNGG*",
+          "S3C",
+          "4TKTW5T",
+          "4GSNGG",
+          "4TKTW5T"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            -1.52
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        },
+        "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_paper_style_ALL29_SINGLE_PAGE_5x4.pdf",
+        "page_count": 1,
+        "canvas_points": [
+          360,
+          288
+        ],
+        "min_text_pt": 12,
+        "font": "Arial",
+        "all_text_black": true,
+        "embedded_images": 0,
+        "pdf_sha256": "434f4bfa52e0633af68e6d2865dc1d6ac8ce2e40684b3bf55b432c391ec7dcf3",
+        "all_visible_text_crop": 0,
+        "all_visible_text_overlaps": 0
+      }
+    },
+    {
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_paper_style_13CLADES_SINGLE_PAGE_5x4.pdf",
+      "annotation_count": 13,
+      "unique_display_names": 12,
+      "scale": 1.26,
+      "rotation": 102,
+      "QA": {
+        "label_names": [
+          "TN3T",
+          "TN5T3WTT",
+          "5T+",
+          "13T+",
+          "TNWTT",
+          "CN3C",
+          "RGNGG",
+          "GAGNC",
+          "SN3G",
+          "S3C",
+          "4TKTW5T",
+          "4GSNGG",
+          "4TKTW5T"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            1.8
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        },
+        "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_paper_style_13CLADES_SINGLE_PAGE_5x4.pdf",
+        "page_count": 1,
+        "canvas_points": [
+          360,
+          288
+        ],
+        "min_text_pt": 12,
+        "font": "Arial",
+        "all_text_black": true,
+        "embedded_images": 0,
+        "pdf_sha256": "60d89792c3889df983141ef72631d09dea8e378c4486642619f59d976420a80a",
+        "all_visible_text_crop": 0,
+        "all_visible_text_overlaps": 0
+      }
+    }
+  ],
+  "repeat_feature_classes": {
+    "T": {
+      "name": "5T+",
+      "min_repeats": 5,
+      "max_repeats": 18,
+      "members": 9,
+      "all_run_lengths": [
+        14,
+        5,
+        5,
+        18,
+        15,
+        13,
+        11,
+        8,
+        8
+      ],
+      "reverse_complement_symbol": "A"
+    },
+    "G": {
+      "name": "6G+",
+      "min_repeats": 6,
+      "max_repeats": 13,
+      "members": 3,
+      "all_run_lengths": [
+        7,
+        6,
+        13
+      ],
+      "reverse_complement_symbol": "C"
+    }
+  },
+  "native_tree_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "source_h5_sha256_verified": {
+    "folds/fold_01/modisco/tss_sequence.h5": "850d4cc5d209b49967913a8d53e548da6b05620ef891c352cf2ec600826cdccd",
+    "folds/fold_01/modisco/first_donor_sequence.h5": "b2fe36a5962aa8364b3d062b7bf6bb2737dae7035f72a56de28c4f9f762b7a3d",
+    "folds/fold_01/modisco/first_acceptor_sequence.h5": "af3fa1f5332e1d3340b25786b7806a0bfe0fa0332315cc8a2abc75094d6faa03",
+    "folds/fold_01/modisco/pre_tes_sequence.h5": "4242578870d4fceb2b55c6940636ee168430ba1eb7c318429bd6af9c68eb2aa4",
+    "folds/fold_02/modisco/tss_sequence.h5": "87fb70fae78cc36775572f126480df17cc6b033eaae881dfb4b8d8b961479169",
+    "folds/fold_02/modisco/first_donor_sequence.h5": "54a1e8488371f600441be716a0379491b926ef9ce49427158cb1c2b23301f6a4",
+    "folds/fold_02/modisco/first_acceptor_sequence.h5": "099af1277ef56f4ba4791b3893d66ea77607d220f9e84217306b936f2dd7b2cb",
+    "folds/fold_02/modisco/pre_tes_sequence.h5": "14fb81baaec44bd9c87a63e2cacff8bfb5f14f435016240458616668f0d6726f",
+    "folds/fold_03/modisco/tss_sequence.h5": "8086eb77027a49ab2381130debfb8dcca34c9e7e7bdf5b603b744e0fd3100bc5",
+    "folds/fold_03/modisco/first_donor_sequence.h5": "47687232f6b07cf36a361830627ab0ca2d852a958c5fd91f0c6324d14d3db01c",
+    "folds/fold_03/modisco/first_acceptor_sequence.h5": "81236c6af86275bc2aae149e49fc258542e059a00b3ddfce9a06fbedd9864c66",
+    "folds/fold_03/modisco/pre_tes_sequence.h5": "bd95991ee6c20fdf720f52f23ee0f98062d6e02036fc9213976a3bf068b62ae0",
+    "folds/fold_04/modisco/tss_sequence.h5": "b7de769d86c38981e8a65911375cce499785a10d0cc6c6a6fd5ef5e3598cc5ff",
+    "folds/fold_04/modisco/first_donor_sequence.h5": "6e54224b613c4857bad6f41070271ddf0a080c4647881673c6583b253e783bd3",
+    "folds/fold_04/modisco/first_acceptor_sequence.h5": "1a524c9670182f0ce023bb80f7c525750b50893cfdcfef53d13cef937b72fa3b",
+    "folds/fold_04/modisco/pre_tes_sequence.h5": "819cb5f683d1f340d7d91087159ee92ab1be9f4d7feb06610a041d52f103b10c",
+    "folds/fold_05/modisco/tss_sequence.h5": "88356bafc962ea65704838c9fb211fcc2fc289b32ad03495105212b758c117eb",
+    "folds/fold_05/modisco/first_donor_sequence.h5": "55dfab4f937ecea63e1aaf30c7dac3489dd08687846cfbcb88a0d2c74b93c081",
+    "folds/fold_05/modisco/first_acceptor_sequence.h5": "41aacbcd86d74512a1319a86d889b222ffd46406585965913c617ca3b6b1b50e",
+    "folds/fold_05/modisco/pre_tes_sequence.h5": "2b1e9f963cd8f4ebd12e65d4ec62124545070125d2d703173c150f370ae96cd9",
+    "folds/fold_06/modisco/tss_sequence.h5": "ec10263aff4b56dc274f7f42eedd8db2b45f284c20f07383dedffae09f5d498a",
+    "folds/fold_06/modisco/first_donor_sequence.h5": "888f702c6260a84481851379af50a1335685b5100f7ddab7911d8e9f3b027eb9",
+    "folds/fold_06/modisco/first_acceptor_sequence.h5": "14ddfaecabb15dbfee5159dc8f2c46e52cafafe8319cbd18893222387af36f6f",
+    "folds/fold_06/modisco/pre_tes_sequence.h5": "91ec862fcb60c03209089e15b6fd26cb6c1498ea7c565af2011245b117afd602",
+    "folds/fold_07/modisco/tss_sequence.h5": "0631288073ea5aeb0a7f0093aedfda79b2468d48b817c2c65f0e887749b36539",
+    "folds/fold_07/modisco/first_donor_sequence.h5": "80bdd462f343afd20bf987ad5b8d4befc9cf1d26fdab444284cdf617709b660b",
+    "folds/fold_07/modisco/first_acceptor_sequence.h5": "50fadcd6fbecc133f2cacd6b63b0c79c9bd22bd2887fb34dd6d95202a500f361",
+    "folds/fold_07/modisco/pre_tes_sequence.h5": "096d075a0af901a7b9ef3bd38865950eb5afbeb52b819604362446f9abded72c",
+    "folds/fold_08/modisco/tss_sequence.h5": "14c9a75b76d70483a8e0ac6469242a32dfb41955b507d00650c0fc3ff1c852c2",
+    "folds/fold_08/modisco/first_donor_sequence.h5": "e82c121a1e11bfa41bbd627b94ac3cde65311e526fd809a62e9aa640e3071e46",
+    "folds/fold_08/modisco/first_acceptor_sequence.h5": "c8ea82171ccc18e1eca49c7e0266a84422e59c3ccd3b5bdbaa88aa099a8626eb",
+    "folds/fold_08/modisco/pre_tes_sequence.h5": "57e6535ba2168b6a0842ff25622ac3344960f47dbbe2ae48ad60301b137d6d53",
+    "folds/fold_09/modisco/tss_sequence.h5": "7853a9d5f2456304e2258a39c658233d7957a49856bc8f7973197ce5e74c5697",
+    "folds/fold_09/modisco/first_donor_sequence.h5": "f67fe19d5a4d00577bc7275fc848850c7d101db99224fdca47ec1ca9111f260c",
+    "folds/fold_09/modisco/first_acceptor_sequence.h5": "06facd816506f14cde8f843ab97e4eea725717124157ff73964cdb89c41c438e",
+    "folds/fold_09/modisco/pre_tes_sequence.h5": "c72f780a373d6b77fa13822ab697bd3984d9637dbe04580fdff1841a040f96e5",
+    "folds/fold_10/modisco/tss_sequence.h5": "660ab2325128a7eef5eacc084182e774e9e489bd83f6e127d3db97e5cc5beedf",
+    "folds/fold_10/modisco/first_donor_sequence.h5": "eefad9078f75d03e818ca36edebc04621c20ba9ffe591e87eb6f985815bf781b",
+    "folds/fold_10/modisco/first_acceptor_sequence.h5": "8962b8c8c3ccb5794c91ce1bd7e39e45e4a22da358ce433f9dbfcc6a8af094ba",
+    "folds/fold_10/modisco/pre_tes_sequence.h5": "40c883f230b7a1992361cd24ee0c52044b4468608aad35a2be97fcd4ba159e52"
+  },
+  "source_matrices_and_matches_unchanged": true,
+  "partitions_unchanged": true,
+  "annotation_units": 29,
+  "clades": 13,
+  "independent_patterns": 16,
+  "matched_patterns": 44,
+  "TOMTOM_records": 79,
+  "all_old_figures_preserved": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_13groups_16individuals_SINGLE_PAGE_5x4.pdf": "bad8beb5586c687bcd47dac9b04db060c214b04cf7f180f916c04b3cbacf1d45",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all_hit_labels_overview_5x4.pdf": "6a2bc96124181d9ee6e83b8f57072ff1c3f44e9852cba8529fa07219e4be128b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_13groups_ONLY_SINGLE_PAGE_5x4.pdf": "660d97376d305b5977164598839ce868292360ebed9636ae17507a4158eb430d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all44_individual_labels_5x4.pdf": "284768be8485b9e923217459a4d5eedfb846ebdfa21df4aad5beb1e673c1b5d3"
+  },
+  "method": {
+    "reference": "https://doi.org/10.1038/s41467-024-47744-0",
+    "borrowed": "IUPAC conserved sequence, minimum repeated unit, optional longer repeats (+); reverse complements represented by a shared feature name",
+    "not_claimed": "No reimplementation of the original paper manual clustering; no new TF family validation",
+    "group_cores": "unchanged validated aligned 4-12 bp cores from the frozen clade partition",
+    "individual_cores": "unchanged maximum-information 6bp individual features, explicitly marked *",
+    "repeat_definition": "maximal exact Cavener single-base run containing the frozen core in each original PPM; clade prefix is the minimum observed within that native clade; independent homopolymer labels retain the broader A/T or C/G pooled feature-class lower bound and *; + only if the relevant observed run lengths vary",
+    "mixed_cores": "IUPAC order retained; exact repeated whole multi-base units compressed when present, otherwise single-letter repeat notation; no + added without extension evidence",
+    "same_name": "shared short-sequence feature, not a claim of same native branch or full motif; repeated names retained at distinct tree positions"
+  }
+}

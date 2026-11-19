@@ -1,0 +1,16 @@
+{
+  "method": "original_test_batch_BF16_reproduction",
+  "batch_size": 64,
+  "original_batch_start": 384,
+  "max_saved_batch_abs_error": 1.7763568394002505e-15,
+  "gene_reproduced_prediction": 15.375232259109293,
+  "gene_saved_prediction": 15.375232259109293,
+  "gene_saved_abs_error": 0.0,
+  "gene": "ATG10",
+  "gene_index": 4410,
+  "fold": 2,
+  "seed": 20260916,
+  "FP32_prediction": 15.289237976074219,
+  "FP32_saved_difference": 0.08599428303507395,
+  "checkpoint_sha256": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541"
+}

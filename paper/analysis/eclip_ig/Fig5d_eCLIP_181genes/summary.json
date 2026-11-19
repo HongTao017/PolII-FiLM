@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "genes": 181,
+  "gene_seed_results": 905,
+  "assay": "HepG2 RBP eCLIP",
+  "baseline": "zero_eCLIP_count_before_saved_train_standardization",
+  "cohort": "A gene passes when at least 40% of 103 distinct HepG2 RBPs have a positive count in gene body or pause",
+  "main": {
+    "pearson_r": 0.6188216440819135,
+    "spearman_rho": 0.7104072398190046,
+    "quadratic_R2": 0.3937301590731477,
+    "rbps": 103
+  },
+  "sensitivity": {
+    "pearson_r": -0.6051613067010069,
+    "spearman_rho": -0.7708692628257685,
+    "quadratic_R2": 0.5788081148144966,
+    "rbps": 102
+  },
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/A_ECLIP_ZEROCOUNT_GE40_181_20261105/Fig5d_eCLIP_181genes",
+  "x": "Mean log10(count+1) across both regions and all genes, including zeros, z-scored across RBPs",
+  "y": "Mean across genes and five seeds of the sum of absolute IG_S for both regions",
+  "sensitivity_y": "Absolute integrated path gradient for S per log10(count+1) unit, averaged across seeds and positive gene-region entries",
+  "top5": [
+    {
+      "rbp": "NCBP2",
+      "mean_absolute_IG_S": 0.3449600111708495,
+      "genes_with_signal": 102,
+      "contribution_rank": 1
+    },
+    {
+      "rbp": "GRWD1",
+      "mean_absolute_IG_S": 0.22464814031283328,
+      "genes_with_signal": 158,
+      "contribution_rank": 2
+    },
+    {
+      "rbp": "PRPF8",
+      "mean_absolute_IG_S": 0.21019547073640613,
+      "genes_with_signal": 175,
+      "contribution_rank": 3
+    },
+    {
+      "rbp": "CSTF2T",
+      "mean_absolute_IG_S": 0.20055188127647322,
+      "genes_with_signal": 148,
+      "contribution_rank": 4
+    },
+    {
+      "rbp": "PCBP2",
+      "mean_absolute_IG_S": 0.19442796699948134,
+      "genes_with_signal": 165,
+      "contribution_rank": 5
+    }
+  ]
+}

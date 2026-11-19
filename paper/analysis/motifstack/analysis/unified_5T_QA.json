@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_UNIFIED_5T_ALL_SINGLE_PAGE_5x4.pdf",
+      "annotations": 28,
+      "QA": {
+        "label_names": [
+          "GNN3G*",
+          "GNGNGG*",
+          "TN3T",
+          "NNTTNN*",
+          "5T+*",
+          "TN5T3WTT",
+          "5T+",
+          "5T+*",
+          "TNWTT",
+          "6G+*",
+          "CN3C",
+          "RGNGG",
+          "N3GNG*",
+          "GAGNC",
+          "5T+*",
+          "CN3GN*",
+          "GCMNNG*",
+          "6G+*",
+          "GGNGNG*",
+          "CCN3C*",
+          "SN3G",
+          "6G+*",
+          "4GNG*",
+          "3GNGG*",
+          "S3C",
+          "4TKTW5T",
+          "4GSNGG",
+          "4TKTW5T"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            -1.52
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        },
+        "shared_annotation": "5T+",
+        "shared_native_clades": [
+          "G03",
+          "G04"
+        ],
+        "shared_label_count": 1,
+        "bracket_target_count": 2,
+        "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_UNIFIED_5T_ALL_SINGLE_PAGE_5x4.pdf",
+        "page_count": 1,
+        "canvas_points": [
+          360,
+          288
+        ],
+        "min_text_pt": 12,
+        "font": "Arial",
+        "all_text_black": true,
+        "embedded_images": 0,
+        "pdf_sha256": "9afe6a6da62acbbafb19826d30ca8028e5356b89a1957ab05f785683d3a99932",
+        "all_visible_text_crop": 0,
+        "all_visible_text_overlaps": 0
+      }
+    },
+    {
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_UNIFIED_5T_CLADES_SINGLE_PAGE_5x4.pdf",
+      "annotations": 12,
+      "QA": {
+        "label_names": [
+          "TN3T",
+          "TN5T3WTT",
+          "5T+",
+          "TNWTT",
+          "CN3C",
+          "RGNGG",
+          "GAGNC",
+          "SN3G",
+          "S3C",
+          "4TKTW5T",
+          "4GSNGG",
+          "4TKTW5T"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            1.8
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        },
+        "shared_annotation": "5T+",
+        "shared_native_clades": [
+          "G03",
+          "G04"
+        ],
+        "shared_label_count": 1,
+        "bracket_target_count": 2,
+        "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_UNIFIED_5T_CLADES_SINGLE_PAGE_5x4.pdf",
+        "page_count": 1,
+        "canvas_points": [
+          360,
+          288
+        ],
+        "min_text_pt": 12,
+        "font": "Arial",
+        "all_text_black": true,
+        "embedded_images": 0,
+        "pdf_sha256": "063ca63593f57b31b889d129781f0f815783172930fb9281d08189597bf2ab02",
+        "all_visible_text_crop": 0,
+        "all_visible_text_overlaps": 0
+      }
+    }
+  ],
+  "merged_sequence_feature_class": "poly(A/T)",
+  "shared_annotation": "5T+",
+  "native_clades_preserved": [
+    "G03",
+    "G04"
+  ],
+  "members": 6,
+  "matched_members": 4,
+  "observed_runs": [
+    14,
+    5,
+    5,
+    18,
+    15,
+    13
+  ],
+  "minimum_repeats": 5,
+  "maximum_repeats": 18,
+  "tree_reclustered": false,
+  "grey_sectors_unchanged": 29,
+  "matched_patterns": 44,
+  "TOMTOM_records": 79,
+  "interpretation": "one shared descriptive homopolymer feature class, two retained native clades; no claim of one experimentally validated TF family"
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "assay_tsne",
+  "canvas_inches": [
+    8,
+    7
+  ],
+  "colors": {
+    "GRO-seq": "#F16B6F",
+    "MNET-seq": "#F7B6D2",
+    "PRO-seq": "#9EDAE4"
+  },
+  "panel": "B",
+  "filename": "fig1b.pdf",
+  "description": "105-sample t-SNE colored by sequencing assay, enlarged final version",
+  "entry_script": "code/render.py",
+  "source_directory": "G:\\序列分析画图\\Png\\png\\PCA(样本标准话)\\tSNE_PI_parameter_search_20261023",
+  "source_pdf_sha256": "b2338b8fdab4f8d11ccf4eddbe60334e7a6299fdacc2e77e77695506e90b9c46",
+  "frozen_data_sha256": {
+    "data/author_colors.tsv": "cdd19456d6b8129d635bc409baeb4a2cb69dd979445279594a81ab03a9dfab25",
+    "data/cell_line_colors.json": "b47abc46888d34f13bd161c0c654a007421a648bc7f187ce4198630b6daee503",
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/paper_like_pi_pca_scores.tsv": "34abf95c47196eaf38b7db928c42695bfb13b14b1fff3bc34960c1df8465131d",
+    "data/sample_standardized_pca_input_matrix.tsv": "08d8fa55de917c64acc2f15da1cb773b204c76e402e48496f3bc2d5b76fd78bf",
+    "data/search_analysis/all_parameter_summary.tsv": "93f9bd7c74839fc17e07d5a727b088c58b4eab8cc5aa9996d83ebcd002e469e7",
+    "data/search_analysis/all_runs.tsv": "afbf50ef2711657c5043b6d4028f03121b3a96c480b74ad69652542363ec8ec1",
+    "data/search_analysis/best_parameters_by_category.tsv": "0ff0e057e64e1d2b43368aa2d2685f94660d790862dbf23aa2295affe187be03",
+    "data/search_analysis/initial_parameter_summary.tsv": "82054b57da8bdf81a2b22eac64c09c436e3af25419d8a09559f4c54a9cc63cf2",
+    "data/search_analysis/initial_runs.tsv": "4b129f7525073ee7520cdee96ecb80b91c6e87d7887298ef87e3d5602d796fe9",
+    "data/search_analysis/search_protocol.json": "a9ac464a0c1ba1a2e35c12e30ed122122e6dd2e2335ad4e4f79322633ae6f628",
+    "data/search_analysis/selected_parameters.json": "fe594fcdd6d7c089c796eed67babf4a961ac34af4a6d19644ac8347ef0ec055d",
+    "data/search_analysis/validated_parameter_summary.tsv": "93f9bd7c74839fc17e07d5a727b088c58b4eab8cc5aa9996d83ebcd002e469e7",
+    "data/search_inputs.npz": "90aea87bf8ba3a850d06f7c2bf7d7221cd4c97334dd4797ec653ce3a09dae998",
+    "data/selected_embedding.npz": "f07795d587b6514e44f3d571e2b180a09a60864d4dae8d57a0f76b0d72e0c559",
+    "data/selected_embedding.tsv": "5545d2e2a6379369e4c6ad1b5cf1f4ebc4a94fbab1a6abeb1160ec218b31be8e"
+  }
+}

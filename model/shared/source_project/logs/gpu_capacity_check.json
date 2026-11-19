@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "batch_size": 64,
+  "precision": "bfloat16",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "peak_allocated_mib": 2240.2,
+  "peak_reserved_mib": 2362.0,
+  "synthetic_batch_only": true,
+  "checkpoint_saved": false
+}

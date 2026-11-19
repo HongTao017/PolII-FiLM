@@ -1,0 +1,370 @@
+{
+  "status": "PASS",
+  "method": "custom DeepLIFT Rescale with explicit GroupNorm square/rsqrt Rescale and symmetric product rule; fixed actual FiLM regulation",
+  "unit_tests": [
+    {
+      "dtype": "torch.float32",
+      "constant_reference": false,
+      "max_error": 2.86102294921875e-06
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": false,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "dtype": "torch.float32",
+      "constant_reference": true,
+      "max_error": 0.000244140625
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": true,
+      "max_error": 2.651212582804874e-13
+    }
+  ],
+  "models": [
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915",
+      "checkpoint_sha256": "db792d2d3a0d4fde0422b147f7fb145a7ab9709ea42a6a3fa6fa8b3d93e714b7",
+      "preprocessing_sha256": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+      "fingerprint": "63dabe93eea80b84a839eb709b94e360daacf73f89d9335acc95a6069c34a534",
+      "seed": 20260915,
+      "examples": [
+        {
+          "gene": "SPTB",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.2148914337158203,
+          "completeness_error": -1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.1628934144973755,
+          "completeness_error": -8.940696716308594e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.0718238353729248,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.1429758071899414,
+          "completeness_error": -1.043081283569336e-06,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.21834516525268555,
+          "completeness_error": -1.1026859283447266e-06,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.03379058837890625,
+          "completeness_error": -7.82310962677002e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916",
+      "checkpoint_sha256": "f080641ff21c572913430e667a6ba621985bb62f1fe97da3836afc6c5fde6ae1",
+      "preprocessing_sha256": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+      "fingerprint": "48b9d16c1c19f64b73ca8d808f356a1abc41ebe64a598fa3dc87b4fddf09416f",
+      "seed": 20260916,
+      "examples": [
+        {
+          "gene": "SPTB",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.089905858039856,
+          "completeness_error": 3.5762786865234375e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.09324479103088379,
+          "completeness_error": 1.9371509552001953e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.06681299209594727,
+          "completeness_error": -2.3096799850463867e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.09684085845947266,
+          "completeness_error": 3.203749656677246e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "identical",
+          "prediction_delta": -9.5367431640625e-07,
+          "completeness_error": 9.5367431640625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.23410511016845703,
+          "completeness_error": -4.76837158203125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.08159160614013672,
+          "completeness_error": -6.258487701416016e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917",
+      "checkpoint_sha256": "940b49af7011ad43b738c400963097ad7f010ef72a09bb176c1b5d86c037dd35",
+      "preprocessing_sha256": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+      "fingerprint": "ef2d0aab2a4e37a0447b9ae1528d59afcde98fc505a6f21623c2f835b4b982c0",
+      "seed": 20260917,
+      "examples": [
+        {
+          "gene": "SPTB",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.6006639003753662,
+          "completeness_error": -1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.010443329811096191,
+          "completeness_error": -1.7043203115463257e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.019921422004699707,
+          "completeness_error": -1.862645149230957e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.06202411651611328,
+          "completeness_error": 2.5331974029541016e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "identical",
+          "prediction_delta": -9.5367431640625e-07,
+          "completeness_error": 9.5367431640625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.24360084533691406,
+          "completeness_error": 7.897615432739258e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.13942718505859375,
+          "completeness_error": 1.043081283569336e-06,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918",
+      "checkpoint_sha256": "ada9f8dd3e54cf8445b2507a65524bd5a4b69a9fa39c997ca0eceac76e30e3dd",
+      "preprocessing_sha256": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+      "fingerprint": "f5a359353da1e401c9a999e2a210862a4f388014f13d83c7e27fc457aade8520",
+      "seed": 20260918,
+      "examples": [
+        {
+          "gene": "SPTB",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.6146483421325684,
+          "completeness_error": 1.7881393432617188e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "identical",
+          "prediction_delta": 2.384185791015625e-07,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.07476925849914551,
+          "completeness_error": -1.6391277313232422e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.07765364646911621,
+          "completeness_error": 2.9802322387695312e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.10372161865234375,
+          "completeness_error": 1.3709068298339844e-06,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.0765066146850586,
+          "completeness_error": 9.685754776000977e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.02243804931640625,
+          "completeness_error": 1.9371509552001953e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919",
+      "checkpoint_sha256": "e7a2c85c40431ca8a699dbefd853b756f3ddbe5ca164738aeb3338ed47105601",
+      "preprocessing_sha256": "51495e1f8bd805380b320d5d7f3ea2d16ce1dd31644156258ea6c095ba8a6336",
+      "fingerprint": "41fced7511599d6a467cd10a2aebe904693933c862bededa864a197f152cde6b",
+      "seed": 20260919,
+      "examples": [
+        {
+          "gene": "SPTB",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.1353782415390015,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.13659346103668213,
+          "completeness_error": -2.9802322387695312e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "SPTB",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.09391665458679199,
+          "completeness_error": 5.960464477539063e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.05829143524169922,
+          "completeness_error": -2.421438694000244e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.3084440231323242,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "CD79A",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.18239593505859375,
+          "completeness_error": -8.195638656616211e-07,
+          "forward_error": 0.0
+        }
+      ]
+    }
+  ],
+  "device": "cpu",
+  "completed_utc": "2026-10-15T14:13:03Z",
+  "optimizer_updates": 0,
+  "bn_refits": 0,
+  "preprocessing_refits": 0,
+  "code_sha256": {
+    "verify_precision_alignment.py": "5457ef4146e62deca47c503713a11d7fca23e6cfd18cfbf54f0564f7781b978f",
+    "run_fold.py": "b7aa3fcc6490a5e4a6bcb767a876e7d0cba4d35f412d536097a5a7022e33624f",
+    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
+    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "draw_reference_style.py": "519baa5aa6db7f7810f558c692eeb02e309daad9df822602376dfa73f22d6771",
+    "final_figure_small.py": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
+    "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "run_pipeline.py": "c539e1bb2e00deeeaf5047438eb9ebea4d8619c9b5e3065de72e346569ac5f20",
+    "plot_perturbations.py": "318e6204f9148533758440c5259ba5457cbf4a8ba308185f8bc2e425fe8694f7"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "pid": 637761,
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/parallel_worker.py\", line 143, in <module>\n    main(args)\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/parallel_worker.py\", line 75, in main\n    assert torch.allclose(hypo.cpu(),cpu_hypo,atol=2e-5,rtol=.002), 'GPU/CPU attribution disagreement'\nAssertionError: GPU/CPU attribution disagreement\n"
+}

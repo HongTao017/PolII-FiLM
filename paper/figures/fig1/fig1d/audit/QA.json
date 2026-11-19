@@ -1,0 +1,89 @@
+{
+  "filename": "redraw.pdf",
+  "PDF_sha256": "3975ad7472c29897f747cdbc47148a75871fd2978c56615533e8b7bce3c13bfd",
+  "input_sha256": "b2bd2074bcdef877eb137f7111ff298b6a2bc28d7b7ce61d1a337feb01a0b343",
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "font": "Arial",
+  "tick_pt": 12,
+  "axis_label_pt": 14,
+  "ordinary_text_pt": 12,
+  "PDF_fonttype": 42,
+  "axis_linewidth_pt": 1.3,
+  "original_statistics_verified": true,
+  "original_colors_preserved": false,
+  "show_outliers": false,
+  "whiskers": "1.5 IQR",
+  "statistics": [
+    {
+      "comparison": "after_preprocessing_pearson_r",
+      "test": "one-sided Mann-Whitney U",
+      "alternative": "Same > Different",
+      "statistic": 19207.0,
+      "p_value": 0.00014909475489336386,
+      "n_same": 54,
+      "n_different": 548,
+      "same_median": 0.5661739900709447,
+      "different_median": 0.48765174602621053
+    },
+    {
+      "comparison": "before_imputation_pearson_r",
+      "test": "one-sided Mann-Whitney U",
+      "alternative": "Same > Different",
+      "statistic": 19173.0,
+      "p_value": 0.0001659834572003942,
+      "n_same": 54,
+      "n_different": 548,
+      "same_median": 0.5631841213279208,
+      "different_median": 0.4859195231867891
+    }
+  ],
+  "boxes": [
+    {
+      "position": 1,
+      "n": 54,
+      "q1": 0.4653414239160452,
+      "median": 0.5661739900709447,
+      "q3": 0.6218054124094572,
+      "whisker_low": 0.2592052146147134,
+      "whisker_high": 0.7622008220957428
+    },
+    {
+      "position": 2,
+      "n": 548,
+      "q1": 0.37653986210122176,
+      "median": 0.48765174602621053,
+      "q3": 0.5825013435187862,
+      "whisker_low": 0.0689224665383098,
+      "whisker_high": 0.8530037427945483
+    },
+    {
+      "position": 4,
+      "n": 54,
+      "q1": 0.4595855661864353,
+      "median": 0.5631841213279208,
+      "q3": 0.6159524470569318,
+      "whisker_low": 0.2698177187401637,
+      "whisker_high": 0.7704609014879082
+    },
+    {
+      "position": 5,
+      "n": 548,
+      "q1": 0.3742949162050951,
+      "median": 0.4859195231867891,
+      "q3": 0.5826625288945687,
+      "whisker_low": 0.0647521654110399,
+      "whisker_high": 0.8518515094583138
+    }
+  ],
+  "all_text_inside_canvas": true,
+  "no_text_overlap": true,
+  "raster_images": 0,
+  "colors": {
+    "Same": "#C89EC4",
+    "Different": "#84B1ED"
+  },
+  "labels_match_user_reference": true
+}

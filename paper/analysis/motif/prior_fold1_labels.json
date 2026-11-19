@@ -1,0 +1,37 @@
+{
+  "labels": [
+    {
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "region": "tss_sequence",
+      "pattern_sign": "pos_patterns",
+      "fold1_pattern_id": "r0_pos_patterns_pattern_1"
+    },
+    {
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "region": "tss_sequence",
+      "pattern_sign": "neg_patterns",
+      "fold1_pattern_id": "r0_neg_patterns_pattern_0"
+    },
+    {
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "region": "first_donor_sequence",
+      "pattern_sign": "pos_patterns",
+      "fold1_pattern_id": "r1_pos_patterns_pattern_1"
+    },
+    {
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "region": "pre_tes_sequence",
+      "pattern_sign": "pos_patterns",
+      "fold1_pattern_id": "r3_pos_patterns_pattern_1"
+    }
+  ],
+  "main_examples": [
+    "GLI4",
+    "HES1"
+  ],
+  "interpretation": "Fold1-selected labels; fold2-10 are descriptive same-label follow-up, not independent biological confirmation. No forced replacement when absent."
+}

@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "pattern_id": "r0_neg_patterns_pattern_0",
+  "region": "tss_sequence",
+  "region_index": 0,
+  "gene": "RHOG",
+  "gene_row": 106,
+  "gene_index": 8124,
+  "chrom": "chr11",
+  "strand": "-",
+  "dna_group": "7344",
+  "TF": "SP4",
+  "matrix_id": "MA0685.2",
+  "all_TF_matches": [
+    {
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "p_value": 9.87923e-05,
+      "q_value": 0.0243257,
+      "orientation": "-"
+    },
+    {
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "p_value": 0.000207672,
+      "q_value": 0.0255676,
+      "orientation": "-"
+    },
+    {
+      "TF": "SP2",
+      "matrix_id": "MA0516.3",
+      "p_value": 0.00037841,
+      "q_value": 0.0303088,
+      "orientation": "-"
+    },
+    {
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "p_value": 0.000492364,
+      "q_value": 0.0303088,
+      "orientation": "+"
+    }
+  ],
+  "pattern_sign": "neg_patterns",
+  "motif_start": 246,
+  "motif_end": 255,
+  "motif_reverse": true,
+  "WT_pwm_score_bits": 6.781918433452384,
+  "WT_fimo_p": 9.07e-05,
+  "highlight_position": 249,
+  "highlight_alternative": "A",
+  "highlight_reference": "C",
+  "highlight_delta_PWM_bits": -9.378656116722816,
+  "window_start": 200,
+  "window_end": 301,
+  "physical_motif_start0": 3841004,
+  "selection_hash": 561140985,
+  "instance_id": "instance_004",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "outputs_sha256": {
+    "WT_mutants_fimo.tsv.stderr": "6db26a7461073f0b1f45a06dd29045740b1f2f038340c51e57618c84a8ecdba2",
+    "target.meme": "b6d03c639c7022b7ed42af81afbdb0211f846b7391ce6b12c2a679bbd2461196",
+    "mean_delta.npy": "7f545a1aceb97f885a979527a414207033296d7dba847a9b077583418f476f21",
+    "seed_20260915_delta.npy": "d6922349ba9a59511a770e07e180121faa850c3f04f5683fc3ec210627a4bbef",
+    "seed_20260917_delta.npy": "abfa120df90584fd90d6010ea984c05d0a1e6c43aed6eaab3686307e7786ee58",
+    "seed_20260919_variants.json": "46b4079cd04e87783ac18ec03f44fe594a8f3992257ee6f059d8c12188cd5331",
+    "seed_20260918_variants.json": "f025e0caa99c1359e900a3821ae24c00966719dd5896643003d1c6ee4fd46d97",
+    "seed_20260918_delta.npy": "19df33d232df8a52bd809d9d1d5e4f530fb05c806b21279943badea61536f1ee",
+    "seed_20260916_delta.npy": "a71c4a01933778efe115b4520c3fb30803e8e4ab1a82d0c2ff4d60e865b87d0f",
+    "seed_20260916_variants.json": "d46912c90fb5e0177884149faa8675475fa78b561155504d70bf1c0a52cef088",
+    "seed_20260919_delta.npy": "af64f3a28ac87a41ed0880727b22e0c2566ca31a5f079adc0a281a126f29af77",
+    "seed_20260915_variants.json": "a2c4909e3493ba8f582836a0425b0513a2d4c08c71eddd263b6e2f22f4d20d5d",
+    "seed_20260917_variants.json": "d7731f88e1c50ae907f09e7cf23b2acd0b67c07fa983c5bbe2d96e30b15c46a3",
+    "highlight.json": "0207575eae7ce8b72479e0e590258055b963df0137e8d8474fab1cd6512c460b",
+    "WT_mutants.fa": "ebcb16bd80df21ef0e9a2beeb03cacce6219cd6e38b9cef5defaa023f04ed1b2",
+    "variant_effects.tsv": "bf915b3eeb73d86b856dc178101647b65e83c4862199560119c4bf550dd9e7e2",
+    "seed_sd_delta.npy": "266d80bec6159db7ba3eeb70d7633dbcb3e3f4034f6e4acca719ac210a98f85e",
+    "WT_mutants_fimo.tsv": "8e9c64eacda09c2718a5707fe072d399fe6c4f222c4f462980024f0c7b238ff5"
+  }
+}

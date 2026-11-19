@@ -1,0 +1,50 @@
+group_id	pattern_id	logo_method	reverse_complemented	raw_start1	raw_end1	observed_run_length	logo_bp
+G01	F03-Donor-P01	frozen shared-core aligned PPM, equal pattern weights	0	17	21		5
+G01	F08-Acceptor-P00	frozen shared-core aligned PPM, equal pattern weights	0	23	27		5
+G02	F07-preTES-P02	frozen shared-core aligned PPM, equal pattern weights	0	14	25		12
+G02	F07-preTES-P03	frozen shared-core aligned PPM, equal pattern weights	0	14	25		12
+G03	F01-Donor-P01	minimum-length center-crop of aligned exact Cavener T run	0	25	29	14	5
+G03	F06-preTES-P02	minimum-length center-crop of aligned exact Cavener T run	0	12	16	5	5
+G03	F07-preTES-P06	minimum-length center-crop of aligned exact Cavener T run	0	19	23	5	5
+G04	F04-preTES-P01	minimum-length center-crop of aligned exact Cavener T run	1	25	37	18	13
+G04	F04-Acceptor-P02	minimum-length center-crop of aligned exact Cavener T run	0	18	30	15	13
+G04	F07-preTES-P05	minimum-length center-crop of aligned exact Cavener T run	0	22	34	13	13
+G05	F03-Acceptor-P03	frozen shared-core aligned PPM, equal pattern weights	0	23	27		5
+G05	F03-preTES-P02	frozen shared-core aligned PPM, equal pattern weights	0	21	25		5
+G06	F02-TSS-N00	frozen shared-core aligned PPM, equal pattern weights	0	28	32		5
+G06	F08-TSS-N00	frozen shared-core aligned PPM, equal pattern weights	0	30	34		5
+G07	F01-TSS-P01	frozen shared-core aligned PPM, equal pattern weights	0	21	25		5
+G07	F02-TSS-P01	frozen shared-core aligned PPM, equal pattern weights	0	23	27		5
+G08	F05-preTES-N03	frozen shared-core aligned PPM, equal pattern weights	0	22	26		5
+G08	F07-preTES-N05	frozen shared-core aligned PPM, equal pattern weights	0	27	31		5
+G09	F07-TSS-P00	frozen shared-core aligned PPM, equal pattern weights	0	20	24		5
+G09	F10-TSS-P00	frozen shared-core aligned PPM, equal pattern weights	0	15	19		5
+G09	F09-TSS-P00	frozen shared-core aligned PPM, equal pattern weights	0	20	24		5
+G09	F04-TSS-N00	frozen shared-core aligned PPM, equal pattern weights	1	30	34		5
+G09	F05-TSS-P00	frozen shared-core aligned PPM, equal pattern weights	0	22	26		5
+G10	F06-TSS-P00	frozen shared-core aligned PPM, equal pattern weights	1	29	32		4
+G10	F06-TSS-N00	frozen shared-core aligned PPM, equal pattern weights	0	19	22		4
+G10	F07-TSS-N00	frozen shared-core aligned PPM, equal pattern weights	0	17	20		4
+G11	F04-Donor-P01	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G11	F04-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	17	28		12
+G11	F09-Acceptor-P03	frozen shared-core aligned PPM, equal pattern weights	0	21	32		12
+G11	F01-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G11	F02-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	11	22		12
+G11	F03-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	12	23		12
+G11	F05-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G11	F08-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	10	21		12
+G11	F01-Acceptor-P02	frozen shared-core aligned PPM, equal pattern weights	1	19	30		12
+G11	F05-preTES-P01	frozen shared-core aligned PPM, equal pattern weights	1	11	22		12
+G11	F09-Acceptor-P05	frozen shared-core aligned PPM, equal pattern weights	0	17	28		12
+G11	F09-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	11	22		12
+G11	F10-Acceptor-P02	frozen shared-core aligned PPM, equal pattern weights	0	14	25		12
+G11	F02-preTES-P01	frozen shared-core aligned PPM, equal pattern weights	0	20	31		12
+G11	F05-preTES-P00	frozen shared-core aligned PPM, equal pattern weights	1	24	35		12
+G12	F02-TSS-P02	frozen shared-core aligned PPM, equal pattern weights	0	22	29		8
+G12	F05-TSS-N00	frozen shared-core aligned PPM, equal pattern weights	1	26	33		8
+G13	F03-preTES-P00	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G13	F07-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G13	F06-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G13	F09-Acceptor-P02	frozen shared-core aligned PPM, equal pattern weights	0	13	24		12
+G13	F04-preTES-P02	frozen shared-core aligned PPM, equal pattern weights	0	12	23		12
+G13	F10-Acceptor-P01	frozen shared-core aligned PPM, equal pattern weights	0	14	25		12

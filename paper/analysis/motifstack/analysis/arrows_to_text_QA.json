@@ -1,0 +1,622 @@
+{
+  "status": "PASS",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_TITLES_LOGOS_ARROWS_TO_TEXT_5x4.pdf",
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "titles": 13,
+  "logos": 13,
+  "title_font_pt": 12,
+  "title_font": "Arial",
+  "all_letters_vector_paths": true,
+  "embedded_images": 0,
+  "scale": 1.07,
+  "rotation": 144,
+  "legend_position": [
+    1.3,
+    1.8
+  ],
+  "annotation_blocks_overlap": 0,
+  "annotation_blocks_crop": 0,
+  "logo_color": {
+    "A": "#4B8F58",
+    "C": "#477FB3",
+    "G": "#CBA54E",
+    "T": "#C96368"
+  },
+  "letter_height": "p(base,position) * (2 - Shannon_entropy(position)) bits against uniform 0.25 background; common 0-2 bit scale",
+  "logo_orientation": "clade alignment anchor, with original member reverse-complements explicitly recorded",
+  "logo_source": "equal-weight mean original H5 sequence PPMs, no added pseudocounts; frozen aligned cores except poly-T groups",
+  "homopolymer_logo": "center-crop each observed aligned Cavener T run to that clade minimum (5 or 13), then equal-weight PPM average; no synthetic consensus logos",
+  "native_tree_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "native_topology_unchanged": true,
+  "original_cyclic_leaf_order_unchanged": true,
+  "grey_regions": 29,
+  "outer_ring_matched_patterns": 44,
+  "outer_ring_unmatched_patterns": 270,
+  "angular_layout": "13 annotation clades equally spaced, native leaf order preserved; angles are for display, not quantitative distances",
+  "logos_QA": [
+    {
+      "group_id": "G01",
+      "title": "TN3T",
+      "length_bp": 5,
+      "consensus": "TNTTT",
+      "letter_paths": 20,
+      "IC_bits": [
+        1.1097575288628447,
+        0.15492091497263694,
+        0.8604768746359772,
+        0.7040305355807224,
+        0.8192097411473585
+      ],
+      "logo_shift_toward_title_pt": 7.129745792187518,
+      "original_tallest_letter_top_local": -0.10902424711371553,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G02",
+      "title": "TN5T3WTT",
+      "length_bp": 12,
+      "consensus": "TTTTTTTWWWTT",
+      "letter_paths": 47,
+      "IC_bits": [
+        0.804056722629459,
+        0.2755191305723501,
+        1.0550517294002386,
+        0.7086066260394785,
+        0.6771252527256064,
+        1.018904627254405,
+        0.6361136162157457,
+        0.3061370867943849,
+        0.5501220202820436,
+        0.5635407505842118,
+        0.8357320676982833,
+        0.8870499387862729
+      ],
+      "logo_shift_toward_title_pt": 7.523627548318282,
+      "original_tallest_letter_top_local": -0.11449482705997613,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G03",
+      "title": "5T+",
+      "length_bp": 5,
+      "consensus": "TTTTT",
+      "letter_paths": 20,
+      "IC_bits": [
+        1.0108707358038393,
+        0.40364638518560714,
+        0.4407897827813092,
+        0.7949334556902112,
+        0.56801163376068
+      ],
+      "logo_shift_toward_title_pt": 7.841730702212357,
+      "original_tallest_letter_top_local": -0.11891292641961607,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G04",
+      "title": "13T+",
+      "length_bp": 13,
+      "consensus": "TTTTTTTTTTTTT",
+      "letter_paths": 52,
+      "IC_bits": [
+        0.4929702299204364,
+        0.7405721166458781,
+        0.6052465174025672,
+        0.6572534537315518,
+        0.6632153590560343,
+        0.3800770223922454,
+        0.7651724252397798,
+        0.7634358299368327,
+        1.13039945772129,
+        1.0130106309447355,
+        0.7084171835949555,
+        0.6244775911180023,
+        1.0031824260946243
+      ],
+      "logo_shift_toward_title_pt": 6.981123904406712,
+      "original_tallest_letter_top_local": -0.106960054227871,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G05",
+      "title": "TNWTT",
+      "length_bp": 5,
+      "consensus": "TNWTT",
+      "letter_paths": 17,
+      "IC_bits": [
+        1.3661945449394832,
+        0.17200192486857313,
+        0.6491225254246811,
+        0.9237023742748012,
+        1.3810044064107188
+      ],
+      "logo_shift_toward_title_pt": 5.176768273842824,
+      "original_tallest_letter_top_local": -0.08189955935892812,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G06",
+      "title": "CN3C",
+      "length_bp": 5,
+      "consensus": "CNCCC",
+      "letter_paths": 20,
+      "IC_bits": [
+        1.1634046742364084,
+        0.05192238463631438,
+        0.992952105158925,
+        1.0504847388169973,
+        0.8561796819023821
+      ],
+      "logo_shift_toward_title_pt": 6.743486345497859,
+      "original_tallest_letter_top_local": -0.10365953257635915,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G07",
+      "title": "RGNGG",
+      "length_bp": 5,
+      "consensus": "RGNGG",
+      "letter_paths": 19,
+      "IC_bits": [
+        0.28926924015903155,
+        0.9090454040128844,
+        0.0026163594628614284,
+        1.2323329835427457,
+        1.6152105081531227
+      ],
+      "logo_shift_toward_title_pt": 3.4904843412975146,
+      "original_tallest_letter_top_local": -0.05847894918468771,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G08",
+      "title": "GAGNC",
+      "length_bp": 5,
+      "consensus": "GAGGC",
+      "letter_paths": 20,
+      "IC_bits": [
+        0.9679381168090044,
+        0.7416510157973706,
+        0.7316671188600288,
+        0.6131636437149843,
+        0.839499536667319
+      ],
+      "logo_shift_toward_title_pt": 8.150845558975167,
+      "original_tallest_letter_top_local": -0.12320618831909955,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G09",
+      "title": "SN3G",
+      "length_bp": 5,
+      "consensus": "SNGGG",
+      "letter_paths": 20,
+      "IC_bits": [
+        0.26444037522547936,
+        0.23189014869997404,
+        0.7999345737122421,
+        0.650826535478314,
+        0.77811042654032
+      ],
+      "logo_shift_toward_title_pt": 9.360471069271858,
+      "original_tallest_letter_top_local": -0.1400065426287758,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G10",
+      "title": "S3C",
+      "length_bp": 4,
+      "consensus": "SCCC",
+      "letter_paths": 16,
+      "IC_bits": [
+        0.3021626601674108,
+        0.8213798111583808,
+        1.0268550789562687,
+        0.6175733182457162
+      ],
+      "logo_shift_toward_title_pt": 7.726643431514866,
+      "original_tallest_letter_top_local": -0.11731449210437313,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G11",
+      "title": "4TKTW5T",
+      "length_bp": 12,
+      "consensus": "TTTTKTWTTTTT",
+      "letter_paths": 48,
+      "IC_bits": [
+        0.7498953852887826,
+        1.1134425229184286,
+        0.9043915235797775,
+        0.9899270059869676,
+        0.2835136686009223,
+        0.7962101925193621,
+        0.29666671831898306,
+        1.0155303891582217,
+        0.8513258135147073,
+        1.1106524989943285,
+        0.7439293402946754,
+        0.9921153232368414
+      ],
+      "logo_shift_toward_title_pt": 7.103213834987314,
+      "original_tallest_letter_top_local": -0.10865574770815714,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G12",
+      "title": "4GSNGG",
+      "length_bp": 8,
+      "consensus": "GGGGSNGG",
+      "letter_paths": 29,
+      "IC_bits": [
+        0.8718993386357261,
+        2.0,
+        0.7370835353111795,
+        0.8639673450616927,
+        0.28843469159840174,
+        0.23015386667744808,
+        0.838682704496361,
+        0.66396261165495
+      ],
+      "logo_shift_toward_title_pt": 0.7199999999999986,
+      "original_tallest_letter_top_local": -0.01999999999999999,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    },
+    {
+      "group_id": "G13",
+      "title": "4TKTW5T",
+      "length_bp": 12,
+      "consensus": "TTTTKTWTTTTT",
+      "letter_paths": 48,
+      "IC_bits": [
+        1.270361687839281,
+        1.3448357415095558,
+        1.1224524804467049,
+        1.3084424981786258,
+        0.36792115822400895,
+        1.4055756848408745,
+        0.5863606680235076,
+        1.2866688934883481,
+        1.3864608996308683,
+        1.3364025558627337,
+        1.3259796433848052,
+        1.1912216595531087
+      ],
+      "logo_shift_toward_title_pt": 4.999855069145703,
+      "original_tallest_letter_top_local": -0.07944243151591254,
+      "new_tallest_letter_top_local": -0.01,
+      "new_conservative_title_logo_gap_pt": 2.16
+    }
+  ],
+  "PDF_QA": {
+    "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_TITLES_LOGOS_ARROWS_TO_TEXT_5x4.pdf",
+    "page_count": 1,
+    "canvas_points": [
+      360,
+      288
+    ],
+    "min_text_pt": 12,
+    "font": "Arial",
+    "all_text_black": true,
+    "embedded_images": 0,
+    "pdf_sha256": "d17a1ac31673358e564a4304b97442b669f81c29faf232b44ee6333a42267127",
+    "all_visible_text_crop": 0,
+    "all_visible_text_overlaps": 0,
+    "grey_regions": 29
+  },
+  "change": "straight outward arrows point to title inner edge and match title centerline",
+  "arrow_QA": [
+    {
+      "group_id": "G01",
+      "title": "TN3T",
+      "start": [
+        -0.916721426836084,
+        0.6660371029301703
+      ],
+      "arrow_tip": [
+        -0.8966455865001528,
+        0.7997793084406454
+      ],
+      "title_anchor": [
+        -0.924961181303276,
+        0.820351792270882
+      ],
+      "title_reading_angle_deg": 324.0,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12000000000000006,
+      "gap_to_text_edge_pt": 2.520000000000002,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G02",
+      "title": "TN5T3WTT",
+      "start": [
+        -1.1212393864099697,
+        0.16372487673837183
+      ],
+      "arrow_tip": [
+        -1.1656162145954252,
+        0.2914774266941303
+      ],
+      "title_anchor": [
+        -1.2002489385762118,
+        0.29653454342905305
+      ],
+      "title_reading_angle_deg": 351.6923076923077,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.11999999999999998,
+      "gap_to_text_edge_pt": 2.5199999999999902,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G03",
+      "title": "5T+",
+      "start": [
+        -1.0688949149567466,
+        -0.37609474561552936
+      ],
+      "arrow_tip": [
+        -1.1675582151250552,
+        -0.28359842082422654
+      ],
+      "title_anchor": [
+        -1.2005741285890763,
+        -0.29521519568372506
+      ],
+      "title_reading_angle_deg": 379.38461538461536,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12000000000000004,
+      "gap_to_text_edge_pt": 2.5200000000000076,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G04",
+      "title": "13T+",
+      "start": [
+        -0.7716795000670839,
+        -0.8297555941819346
+      ],
+      "arrow_tip": [
+        -0.9020266991713488,
+        -0.7937052878632225
+      ],
+      "title_anchor": [
+        -0.9258622542288868,
+        -0.8193346911941446
+      ],
+      "title_reading_angle_deg": 407.0769230769231,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.11999999999999993,
+      "gap_to_text_edge_pt": 2.5200000000000062,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G05",
+      "title": "TNWTT",
+      "start": [
+        -0.29768161145816485,
+        -1.0933294357601784
+      ],
+      "arrow_tip": [
+        -0.42985173703763685,
+        -1.1219838386383851
+      ],
+      "title_anchor": [
+        -0.4390464952745874,
+        -1.1557544830054096
+      ],
+      "title_reading_angle_deg": 434.7692307692308,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12000000000000004,
+      "gap_to_text_edge_pt": 2.520000000000013,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G06",
+      "title": "CN3C",
+      "start": [
+        0.24451154688350366,
+        -1.1064346796538134
+      ],
+      "arrow_tip": [
+        0.37514293669542437,
+        -1.1414412061282582
+      ],
+      "title_anchor": [
+        0.3826953835822976,
+        -1.1756166438872826
+      ],
+      "title_reading_angle_deg": 282.46153846153845,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.11999999999999997,
+      "gap_to_text_edge_pt": 2.519999999999994,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G07",
+      "title": "RGNGG",
+      "start": [
+        0.7306900565177363,
+        -0.8660690724221177
+      ],
+      "arrow_tip": [
+        0.8626267517915931,
+        -0.8363583783842219
+      ],
+      "title_anchor": [
+        0.885196229237359,
+        -0.8631094286033266
+      ],
+      "title_reading_angle_deg": 310.15384615384613,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12,
+      "gap_to_text_edge_pt": 2.519999999999998,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G08",
+      "title": "GAGNC",
+      "start": [
+        1.049476279973525,
+        -0.427297477962287
+      ],
+      "arrow_tip": [
+        1.15249317383162,
+        -0.3396759253634544
+      ],
+      "title_anchor": [
+        1.1849092865451423,
+        -0.35287424482254565
+      ],
+      "title_reading_angle_deg": 337.8461538461538,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.11999999999999994,
+      "gap_to_text_edge_pt": 2.5200000000000085,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G09",
+      "title": "SN3G",
+      "start": [
+        1.127840135247609,
+        0.10936281920586455
+      ],
+      "arrow_tip": [
+        1.178337298795207,
+        0.23482218861942084
+      ],
+      "title_anchor": [
+        1.2131739060103248,
+        0.23820017585142886
+      ],
+      "title_reading_angle_deg": 5.538461538461547,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12,
+      "gap_to_text_edge_pt": 2.5200000000000093,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G10",
+      "title": "S3C",
+      "start": [
+        0.9478294074835284,
+        0.6209694124587968
+      ],
+      "arrow_tip": [
+        0.9342385491086657,
+        0.755525369103735
+      ],
+      "title_anchor": [
+        0.9635150039390236,
+        0.7747058068611484
+      ],
+      "title_reading_angle_deg": 33.230769230769226,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12000000000000009,
+      "gap_to_text_edge_pt": 2.519999999999996,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G11",
+      "title": "4TKTW5T",
+      "start": [
+        0.550682385047595,
+        0.9903193968100859
+      ],
+      "arrow_tip": [
+        0.4761170066163538,
+        1.1031467925941145
+      ],
+      "title_anchor": [
+        0.4931264260798451,
+        1.1337356737360427
+      ],
+      "title_reading_angle_deg": 60.923076923076906,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.12000000000000008,
+      "gap_to_text_edge_pt": 2.520000000000003,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G12",
+      "title": "4GSNGG",
+      "start": [
+        0.027380664639419003,
+        1.132799141994689
+      ],
+      "arrow_tip": [
+        -0.09107720425982631,
+        1.1980505802612065
+      ],
+      "title_anchor": [
+        -0.09023147317656166,
+        1.2330403607540132
+      ],
+      "title_reading_angle_deg": 88.61538461538458,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.11999999999999997,
+      "gap_to_text_edge_pt": 2.520000000000001,
+      "points_outward": true,
+      "straight": true
+    },
+    {
+      "group_id": "G13",
+      "title": "4TKTW5T",
+      "start": [
+        -0.5021936360648666,
+        1.0157682554578817
+      ],
+      "arrow_tip": [
+        -0.4222642602884074,
+        1.1248613890089232
+      ],
+      "title_anchor": [
+        -0.4377759643843808,
+        1.1562363318142728
+      ],
+      "title_reading_angle_deg": 296.30769230769226,
+      "title_centerline_local_y": 0.12,
+      "arrow_tip_local_y": 0.11999999999999998,
+      "gap_to_text_edge_pt": 2.5199999999999956,
+      "points_outward": true,
+      "straight": true
+    }
+  ],
+  "arrows": 13,
+  "arrow_crossings": 0,
+  "arrow_directions_outward": 13,
+  "title_and_logo_positions_unchanged": true,
+  "tree_coordinates_unchanged": true,
+  "gap_between_arrow_tip_and_text_pt": 2.52,
+  "unchanged_logo_tables": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/analysis/title_logos_core_PPM.tsv": "cd1a4c0e7b823a63ea0d41d4553c676cce2aad157afeef92e411bc3c5e485091",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/analysis/title_logos_source_coordinates.tsv": "49b67f39776d1428aa557ad1f92ca90c7b18532cd4c3bd4d6f89d0fb2993fe0e"
+  },
+  "old_figures_preserved": true
+}

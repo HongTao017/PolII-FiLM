@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "genes": 1550,
+  "seeds": 5,
+  "source_groups": 838,
+  "factors": 366,
+  "pearson_r": 0.455671305118754,
+  "pearson_p": 3.649985006538971e-20,
+  "linear_R2": 0.2076363383086286,
+  "spearman_rho": 0.4411419323679132,
+  "slope": 0.004760784994524353,
+  "intercept": -0.10918763937792561,
+  "x": "Unchanged mean regional ChIP CPM",
+  "y": "Original mean absolute IG_S, equal averaging over 1550 genes, 5 seeds and source groups; two regions summed",
+  "y_axis_limits": [
+    0,
+    0.35
+  ],
+  "y_tick_step": 0.05,
+  "source_points_sha256": "ae5b34e2d0b6603585cc2270d448155f49ceb68006189ab81fb90b9dfd6f29a8",
+  "code_sha256": "8e773af6800548096a1ca438b174c15abf89405261f22dd775913498a1d00539",
+  "output_sha256": "7c774e3e24250f650345044c15c56adb9e388ade501d5298523b2f507657b333",
+  "points_sha256": "86ca8e6221180840f2ee343c47baea20fd1100a10b80f83bc039dc7ff7d33a56"
+}

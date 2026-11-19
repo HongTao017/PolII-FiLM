@@ -1,0 +1,63 @@
+{
+  "canvas_inches": [
+    8,
+    2.5
+  ],
+  "typography": "final-figure-small: ticks 12 pt, axis titles 14 pt, editable PDF",
+  "layout": "reference-matched horizontal compact panel; no title or footer",
+  "y_limits": [
+    -0.0015,
+    0.0015
+  ],
+  "tick_step": 0.0005,
+  "unit": "original-scale Y_PC1",
+  "delta": "WT_minus_disrupted",
+  "groups": [
+    {
+      "label": "KLF16",
+      "n": 335,
+      "p_holm": 0.0301593968120637,
+      "stars": "*",
+      "above_display": 17,
+      "below_display": 11
+    },
+    {
+      "label": "SP1",
+      "n": 223,
+      "p_holm": 0.0185996280074398,
+      "stars": "*",
+      "above_display": 11,
+      "below_display": 3
+    },
+    {
+      "label": "SP2",
+      "n": 268,
+      "p_holm": 0.0185596288074238,
+      "stars": "*",
+      "above_display": 11,
+      "below_display": 3
+    },
+    {
+      "label": "SP4",
+      "n": 238,
+      "p_holm": 0.0061198776024479,
+      "stars": "**",
+      "above_display": 13,
+      "below_display": 3
+    },
+    {
+      "label": "Background",
+      "n": 389,
+      "p_holm": null,
+      "stars": "",
+      "above_display": 7,
+      "below_display": 20
+    }
+  ],
+  "significance": "Existing exploratory TF-pooled matched tests; Holm corrected",
+  "boundary_triangles": "Values outside this zoom remain in the data and the full-range companion figure",
+  "background": "Matched controls of displayed groups, deduplicated by match ID then mean per source DNA group",
+  "data_source": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/raincloud_significant_only_20261112/plot_values.tsv",
+  "new_inference": false,
+  "new_statistics": false
+}

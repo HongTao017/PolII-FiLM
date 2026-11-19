@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "pattern_id": "r0_pos_patterns_pattern_0",
+  "region": "tss_sequence",
+  "region_index": 0,
+  "gene": "ADORA1",
+  "gene_row": 121,
+  "gene_index": 1339,
+  "chrom": "chr1",
+  "strand": "+",
+  "dna_group": "1197",
+  "TF": "KLF16",
+  "matrix_id": "MA0741.1",
+  "all_TF_matches": [
+    {
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "p_value": 9.57636e-05,
+      "q_value": 0.02358,
+      "orientation": "-"
+    },
+    {
+      "TF": "EGR1",
+      "matrix_id": "MA0162.5",
+      "p_value": 0.000272154,
+      "q_value": 0.0335064,
+      "orientation": "-"
+    }
+  ],
+  "pattern_sign": "pos_patterns",
+  "motif_start": 207,
+  "motif_end": 218,
+  "motif_reverse": true,
+  "WT_pwm_score_bits": 13.316299755939102,
+  "WT_fimo_p": 6.27e-06,
+  "highlight_position": 210,
+  "highlight_alternative": "A",
+  "highlight_reference": "G",
+  "highlight_delta_PWM_bits": -11.65508344519798,
+  "window_start": 162,
+  "window_end": 263,
+  "physical_motif_start0": 203127632,
+  "selection_hash": 803904817,
+  "instance_id": "instance_012",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "outputs_sha256": {
+    "WT_mutants_fimo.tsv.stderr": "c4bcfc508bda754eede1352d1ceb80d1cd4cc1969c3f3f122d070a5e87e722ae",
+    "target.meme": "a645df70fda542e2f57c5d825f5fb255d2f9707344297cbb58d89d7a470c186d",
+    "mean_delta.npy": "fb27eb97fed23456fac7c27f442f249d37cf5e3223a48aeac35f85d55ca9ab1f",
+    "seed_20260915_delta.npy": "54ccad2614ac03aa12969a0ad33c3cde8a39a1aa173ec8349830898a65323e2a",
+    "seed_20260917_delta.npy": "41b9b432d0a052a59875f341418949d611cf623b6965104dc4bb82b7a913f3c8",
+    "seed_20260919_variants.json": "92649957ae69419f129c291265ea83c76c9234da8dce659cdb92da1f5147ede1",
+    "seed_20260918_variants.json": "8380e269e24eb3a91a3db07b2778b812f85f9e6e16664932ce9ac8e77825ca2a",
+    "seed_20260918_delta.npy": "4e103836a195f250b17a392f952df8bc0c98715216d4dceab4c3eb2eca39fd20",
+    "seed_20260916_delta.npy": "841f83cfee67b440971e3bdf1a7731b994ce210fe06505dfbb1e5eef43dab35d",
+    "seed_20260916_variants.json": "0cb3659411f3e5ed02bb6483ef4553066aad18fe8d3293ceb5d5d4240b0aa4a6",
+    "seed_20260919_delta.npy": "2b8c0b7b2a023c45eadf4b04a0b93c6f772e2b472781df411d40e8c709073e52",
+    "seed_20260915_variants.json": "ccf003cd392761fe9a32b7e00f83d3f9e0c961b664cdafbc17666e8aee23b7cc",
+    "seed_20260917_variants.json": "c471389dc0de614aaab467c94136149d16f418b91388edab41850164add06e29",
+    "highlight.json": "38ce00e3183b7a92adbb9c683d7e63114b89d560e41097aeb6a3413a059cbe54",
+    "WT_mutants.fa": "e401be875cd42d89e3c00df398ced0309eeb9824d61f2131f88d1dab86320041",
+    "variant_effects.tsv": "ea18badfa90e5473a68237bdf4acf37d72ec46bb0b107212a6956b1eee682091",
+    "seed_sd_delta.npy": "dd2d27c247652d6c461a0783b8c12a8e837183171b5645b44a152201c686700a",
+    "WT_mutants_fimo.tsv": "94ae6e71d67047f177f10650e085bc2553a4e8de5ed14a07a1547433533e64e1"
+  }
+}

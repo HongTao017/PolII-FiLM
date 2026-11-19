@@ -1,0 +1,41 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+UPSTREAM_COMMIT = "d84c00082da3d04eb05169e290e53f1c7da2b9c5"
+
+CONFIG = {
+    "run_name": "default",
+    "sequence_length": 2300,
+    "condition_fusion": "direct_film",
+    "film_mlp_hidden_layers": [512, 256],
+    "film_mlp_dropout": 0.2,
+    "film_dimensions_conv": [896, 1152],
+    "film_dimensions_transformer": [1536, 1536],
+    "dim": 1536,
+    "heads": 8,
+    "gqa": 2,
+    "attn_dropout": 0.05,
+    "dropout_rate": 0.2,
+    "output_central_bins": -1,
+    "readout": "valid_length_weighted_mean",
+    "output_channels": 1,
+    "final_softplus": False,
+    "loss_style": "mse",
+    "batch_size": 1,
+    "gradient_accumulation": 8,
+    "epochs": 100,
+    "patience": 25,
+    "lr": 0.0001,
+    "wd": 0.001,
+    "film_wd": 0.01,
+    "gradient_clipping": 1.0,
+    "num_workers": 2,
+    "precision": "bfloat16",
+    "activation_offload": True,
+    "checkpoint_metric": "pearson_r",
+    "dna_normalization": "batchnorm",
+    "groupnorm_groups": 32,
+    "evaluate_test": True,
+    "train_eval_sample_size": 2048,
+    "replicate_seeds": [20260915, 20260916, 20260917, 20260918, 20260919],
+}

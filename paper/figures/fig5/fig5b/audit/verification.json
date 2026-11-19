@@ -1,0 +1,19 @@
+{
+  "panel": "B",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "source_data_hashes_verified": 28,
+  "canvas_points": [
+    360.0,
+    288.0
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "patterns": 314,
+    "matched_patterns": 44,
+    "displayed_partition_names_and_logos": 13,
+    "partition_shadows": 29,
+    "native_tree_unchanged": true
+  }
+}

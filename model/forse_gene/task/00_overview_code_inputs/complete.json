@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "completed_seed_fits": 1550,
+  "full_10fold_combinations": 26,
+  "ordered_selected_groups": [
+    "B",
+    "Q",
+    "I",
+    "P"
+  ],
+  "greedy_selected_groups": [
+    "B",
+    "Q",
+    "P",
+    "I"
+  ],
+  "outer_fold_local_selection_oof": {
+    "pearson_r": 0.72443207950614,
+    "spearman_rho": 0.7458012501568682,
+    "r2": 0.51571303606798,
+    "rmse": 5.161652846433229,
+    "mae": 3.774418140966485
+  },
+  "elapsed_minutes": 84.25579422314962,
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "source_data_modified": false
+}

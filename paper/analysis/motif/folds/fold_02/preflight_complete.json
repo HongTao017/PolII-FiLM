@@ -1,0 +1,370 @@
+{
+  "status": "PASS",
+  "method": "custom DeepLIFT Rescale with explicit GroupNorm square/rsqrt Rescale and symmetric product rule; fixed actual FiLM regulation",
+  "unit_tests": [
+    {
+      "dtype": "torch.float32",
+      "constant_reference": false,
+      "max_error": 2.86102294921875e-06
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": false,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "dtype": "torch.float32",
+      "constant_reference": true,
+      "max_error": 0.000244140625
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": true,
+      "max_error": 2.651212582804874e-13
+    }
+  ],
+  "models": [
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915",
+      "checkpoint_sha256": "2ab2bbf839540d1e717ceb25eed579af9a88d18fad560415d23f55b201101c86",
+      "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+      "fingerprint": "7515e8762b9510ac966ec3182d4a341f6033baac83802ba9450ae311e9c304a6",
+      "seed": 20260915,
+      "examples": [
+        {
+          "gene": "EPSTI1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.7044601440429688,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "identical",
+          "prediction_delta": -9.5367431640625e-07,
+          "completeness_error": 9.5367431640625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.013156414031982422,
+          "completeness_error": -2.980232238769531e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.054033756256103516,
+          "completeness_error": -2.086162567138672e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.9151692390441895,
+          "completeness_error": 3.5762786865234375e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.12050724029541016,
+          "completeness_error": 3.725290298461914e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.04038810729980469,
+          "completeness_error": 4.0978193283081055e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916",
+      "checkpoint_sha256": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541",
+      "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+      "fingerprint": "cc6d958f1e74b605fba29345179ae527306303961b8ed678b6996d3aa27abfcd",
+      "seed": 20260916,
+      "examples": [
+        {
+          "gene": "EPSTI1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.7789337635040283,
+          "completeness_error": 5.960464477539062e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "identical",
+          "prediction_delta": -4.76837158203125e-07,
+          "completeness_error": 4.76837158203125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.012798786163330078,
+          "completeness_error": 1.0011717677116394e-06,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.024628162384033203,
+          "completeness_error": 1.0542571544647217e-06,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.6091189384460449,
+          "completeness_error": 1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "identical",
+          "prediction_delta": 4.76837158203125e-07,
+          "completeness_error": -4.76837158203125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.13588476181030273,
+          "completeness_error": 4.470348358154297e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.013645172119140625,
+          "completeness_error": -6.556510925292969e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917",
+      "checkpoint_sha256": "da903b3cd4f559666e00b46e322ba497d16945db00d6e8f390beba389cbb4c57",
+      "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+      "fingerprint": "8939187f527a469503775a075ea1853e3cbf93386987a99db2709c2091173006",
+      "seed": 20260917,
+      "examples": [
+        {
+          "gene": "EPSTI1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.796999454498291,
+          "completeness_error": -4.172325134277344e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.04572010040283203,
+          "completeness_error": -4.507601261138916e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.08128929138183594,
+          "completeness_error": -1.6391277313232422e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.666764497756958,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.09092330932617188,
+          "completeness_error": -3.2782554626464844e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.014357328414916992,
+          "completeness_error": 8.195638656616211e-08,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918",
+      "checkpoint_sha256": "8a7ac65eb3c3d06e0942a931a546dc62f8d9cdd37c89b464b6efc66be5bf8122",
+      "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+      "fingerprint": "64975460ec0ee9070ee780deb1e6434b6dccf30eb213dd98fc88b4fe09c4f138",
+      "seed": 20260918,
+      "examples": [
+        {
+          "gene": "EPSTI1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.47881603240966797,
+          "completeness_error": -4.172325134277344e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.013831615447998047,
+          "completeness_error": -4.76837158203125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.03815889358520508,
+          "completeness_error": -3.390014171600342e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.5602313280105591,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.13874614238739014,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.03884255886077881,
+          "completeness_error": -1.3783574104309082e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919",
+      "checkpoint_sha256": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59",
+      "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+      "fingerprint": "bb58fd29d574e1e941011c9b39ec50243341bb3732e67710ed7a1f7744c8e59d",
+      "seed": 20260919,
+      "examples": [
+        {
+          "gene": "EPSTI1",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.5773100852966309,
+          "completeness_error": 1.7881393432617188e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.02829885482788086,
+          "completeness_error": 4.4330954551696777e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "EPSTI1",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.0447239875793457,
+          "completeness_error": 3.0174851417541504e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.692192792892456,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.0407564640045166,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "JMJD6",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.043370723724365234,
+          "completeness_error": -1.862645149230957e-07,
+          "forward_error": 0.0
+        }
+      ]
+    }
+  ],
+  "device": "cpu",
+  "completed_utc": "2026-10-15T06:12:16Z",
+  "optimizer_updates": 0,
+  "bn_refits": 0,
+  "preprocessing_refits": 0,
+  "code_sha256": {
+    "verify_precision_alignment.py": "5457ef4146e62deca47c503713a11d7fca23e6cfd18cfbf54f0564f7781b978f",
+    "run_fold.py": "b7aa3fcc6490a5e4a6bcb767a876e7d0cba4d35f412d536097a5a7022e33624f",
+    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
+    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "draw_reference_style.py": "519baa5aa6db7f7810f558c692eeb02e309daad9df822602376dfa73f22d6771",
+    "final_figure_small.py": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
+    "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "run_pipeline.py": "41e4f463b150e4d71b4efca49f7573d16d64926242833064471655bec4f86709",
+    "plot_perturbations.py": "318e6204f9148533758440c5259ba5457cbf4a8ba308185f8bc2e425fe8694f7"
+  }
+}

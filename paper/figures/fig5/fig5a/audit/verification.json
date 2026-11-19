@@ -1,0 +1,26 @@
+{
+  "panel": "A",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "source_data_hashes_verified": 9,
+  "canvas_points": [
+    864.0,
+    504.0
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "gene": "ZBTB7A",
+    "input_bp": 600,
+    "TSS_index0": 300,
+    "source_seqlet_halfopen": [
+      55,
+      105
+    ],
+    "matched_site_halfopen": [
+      96,
+      105
+    ],
+    "observed_base_attribution_definition_verified": true
+  }
+}

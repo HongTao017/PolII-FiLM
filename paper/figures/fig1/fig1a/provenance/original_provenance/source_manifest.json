@@ -1,0 +1,41 @@
+{
+  "backend": "Python/matplotlib",
+  "ordering": "global_hierarchical_clustering",
+  "clustering_distance": "1 - absolute Spearman correlation",
+  "clustering_linkage": "average",
+  "assay_order": [
+    "GRO-seq",
+    "PRO-seq",
+    "mNET-seq"
+  ],
+  "sample_count": 105,
+  "transcript_union_count": 16696,
+  "min_common_transcripts": 500,
+  "sample_correlation_nan_cells": 0,
+  "inputs": [
+    {
+      "file": "Gro_seq_human_transcript_log2_pi_matrix.tsv",
+      "assay": "GRO-seq",
+      "sha256": "a00d625e5ba16f7992bba4b112c364b035021130ad361ba1e5af67232461510d",
+      "sample_count": 55
+    },
+    {
+      "file": "PRO_seq_human_transcript_log2_pi_matrix.tsv",
+      "assay": "PRO-seq",
+      "sha256": "55e9453d81e04cb21c0780ca097e80e0740c4c9fdb3343e4a6033847d1f299e4",
+      "sample_count": 31
+    },
+    {
+      "file": "Mnet_seq_human_transcript_log2_pi_matrix.tsv",
+      "assay": "mNET-seq",
+      "sha256": "ab8d4c5eddd31e5bd0fce491a95d98257a57c36c61df5ba28ea2323a2ce34b52",
+      "sample_count": 19
+    }
+  ],
+  "software": {
+    "python": "3.13.7",
+    "matplotlib": "3.10.9",
+    "numpy": "2.2.6",
+    "pandas": "3.0.3"
+  }
+}

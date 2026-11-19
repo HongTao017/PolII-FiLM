@@ -1,0 +1,37 @@
+/* The home illustration is shared by all top-level page banners. */
+:root{--page-banner-image:url('/images/nascent-chemistry-hero-v1.webp')}
+#app .page-main{
+ width:100%;max-width:none;padding-top:0;display:grid;align-content:start;
+ grid-template-columns:minmax(0,1fr) min(1256px,calc(100% - 80px)) minmax(0,1fr);
+}
+#app .page-main>*{grid-column:2;min-width:0}
+#app .page-main>.page-title{grid-column:1/-1}
+#app :is(.page-title,.browse-banner){
+ background-color:#eaf4ff;background-image:var(--page-banner-image);
+ background-position:center;background-size:cover;background-repeat:no-repeat;
+ color:#24344d;border-bottom:1px solid #dce9f5;
+}
+#app .page-title{display:block;margin:0 0 30px;padding:36px 0}
+#app .page-title-inner{display:flex;align-items:center;flex-direction:column;gap:18px}
+#app .page-title-copy{min-width:0;max-width:960px;text-align:center}
+#app :is(.page-title,.browse-banner) h1{
+ color:#204f78;font-size:38px;font-weight:600;line-height:1.3;text-wrap:balance;overflow-wrap:anywhere;
+}
+#app .page-title h1{margin:8px 0 10px}
+#app .page-title .eyebrow{color:#345776}
+#app .page-title .subtitle{margin-inline:auto}
+#app :is(.page-title .subtitle,.browse-banner p){color:#415b76;font-size:14px;line-height:1.8;text-wrap:pretty}
+#app .page-actions{flex-shrink:0;flex-wrap:wrap;justify-content:center}
+#app .page-actions .button.secondary{background:#fff;border-color:#b8d0e5;color:#345776}
+#app .page-main>.back-link{justify-self:start}
+@media(max-width:1150px){#app .page-main{grid-template-columns:minmax(0,1fr) calc(100% - 48px) minmax(0,1fr)}}
+@media(max-width:760px){
+ #app .page-main{grid-template-columns:16px minmax(0,1fr) 16px}
+ #app .page-title{padding:28px 0;margin-bottom:24px}
+ #app .page-title-inner{gap:16px}
+ #app :is(.page-title,.browse-banner){background-position:center}
+ #app :is(.page-title,.browse-banner) h1{font-size:30px}
+ #app :is(.page-title .subtitle,.browse-banner p){font-size:13px}
+ #app .page-actions{max-width:100%;gap:10px}
+ #app .page-actions .button{max-width:100%;white-space:normal;text-align:left}
+}

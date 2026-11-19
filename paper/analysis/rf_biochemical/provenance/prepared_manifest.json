@@ -1,0 +1,146 @@
+{
+  "gene_count": 15351,
+  "feature_count": 2554,
+  "module_sizes": {
+    "DamID": 10,
+    "ChIP_seq": 2284,
+    "ChIA_PET": 50,
+    "ATAC_seq": 4,
+    "eCLIP": 206
+  },
+  "region_lengths": {
+    "tss_sequence": 600,
+    "first_donor_sequence": 2000,
+    "first_acceptor_sequence": 2000,
+    "pre_tes_sequence": 1000
+  },
+  "region_definitions": {
+    "tss_sequence": {
+      "anchor": "tss_bed0",
+      "anchor_type": "nucleotide",
+      "relative_start": -300,
+      "relative_end": 300
+    },
+    "first_donor_sequence": {
+      "anchor": "first_donor_boundary0",
+      "anchor_type": "boundary",
+      "relative_start": -1000,
+      "relative_end": 1000
+    },
+    "first_acceptor_sequence": {
+      "anchor": "first_acceptor_boundary0",
+      "anchor_type": "boundary",
+      "relative_start": -1000,
+      "relative_end": 1000
+    },
+    "pre_tes_sequence": {
+      "anchor": "tes_bed0",
+      "anchor_type": "nucleotide",
+      "relative_start": -1000,
+      "relative_end": 0
+    }
+  },
+  "sequence_bp_length": 5600,
+  "sequence_input_mode": "four_independent_dilated_encoders",
+  "dna_sequences_concatenated": false,
+  "separator_length": 0,
+  "dna_encoding": "bool one-hot A,C,G,T; N=0000",
+  "dna_orientation": "transcriptional; negative strand reverse complemented",
+  "splice_definition": "exon_number 1 -> exon_number 2 of the original representative transcript",
+  "splice_boundary_convention": "0-based interbase boundary; 1000 bases on either side; junction at index 1000",
+  "intronless_policy": "keep original gene/target/fold; both splice windows all zero; status in metadata only",
+  "annotation_status_counts": {
+    "paired_first_intron": 15125,
+    "intronless": 226
+  },
+  "donor_dinucleotides": {
+    "GT": 15003,
+    "GC": 108,
+    "AT": 12,
+    "GA": 1,
+    "TT": 1
+  },
+  "acceptor_dinucleotides": {
+    "AG": 15111,
+    "AC": 12,
+    "AA": 1,
+    "AT": 1
+  },
+  "regulatory_transform": "log10(count+1), then train-fold median imputation and z-score",
+  "target_transform": "train-fold z-score",
+  "split_strategy": "inherited original folds, NOT regrouped for extended four-region windows",
+  "split_seed": 20260916,
+  "fold_gene_counts": [
+    1535,
+    1535,
+    1535,
+    1536,
+    1535,
+    1535,
+    1535,
+    1535,
+    1535,
+    1535
+  ],
+  "cross_fold_overlap_pairs": 586,
+  "cross_fold_overlap_genes": 601,
+  "same_gene_overlapping_window_pairs": 23954,
+  "evaluation_scope": "exploratory inherited-fold CV; cross-fold DNA overlap present",
+  "source_records": [
+    {
+      "source": "annotation",
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/data/input/annotation.tsv",
+      "sha256": "841442efc2a6d42b2d98722e6de4d50991ef25cdc2eb87885eb22e86e055fbf0"
+    },
+    {
+      "source": "regulatory",
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/data/input/regulatory_counts_2554X_with_Y_PC1.tsv",
+      "sha256": "c37e68c413640ca8dc895e4d0d67384129917a2e63582d1911cb64c5783018a8"
+    },
+    {
+      "source": "fasta",
+      "path": "/home/user_011/sequence features/groseq_project/reference/GRCh38.p14.genome.fa"
+    },
+    {
+      "source": "exon_gtf",
+      "path": "/home/user_011/sequence features/groseq_project/reference/MANE.GRCh38.v1.5.standard_chromosomes.gtf.gz",
+      "sha256": "e4322a4726ae5b2c78fc692715f233af81fc4ccbf619e677f478f601cabf6486"
+    },
+    {
+      "source": "original_prepared_manifest",
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/data/bpnet_prepared/manifest.json",
+      "sha256": "25df5f7a9a94c854fc91b9cd2362c2d26481d73d114aad0a6bad5110792ff98a"
+    }
+  ],
+  "fasta_stat": {
+    "size": 3346463894,
+    "mtime_ns": 1715612512000000000
+  },
+  "prepared_sha256": {
+    "cross_fold_overlap_pairs.tsv": "e8c86cb45f00cc8ab05668d0e8c3168c47539349b1378c1ab4f6ee8f4adfedbe",
+    "feature_manifest.tsv": "0edbd67811978d0297d4efc8c60814ae032f03ee4be1a7d485ec68896f04a8d4",
+    "first_acceptor_sequence.npy": "3962a4bfc9ce5a3e452e0a10003dd134b69a303ad16cff3f53879fb456d70d04",
+    "first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",
+    "four_region_window_overlap_audit.tsv": "02b8924a828c5c8b06388cb4e2405d5e3ab9685f942592168873ba0ee1431b0a",
+    "genes.tsv": "61f882ab48aea1497ce794239558ada40d30863c221cd313328c3c2e331326af",
+    "module_sizes.json": "95aa4b9088e4d8803cdbcd6b62bf11c8b9aa358df270f1bc5505bc5542a70eaa",
+    "pre_tes_sequence.npy": "83c7973800bdc510f90796cb1e212efe27be2c64b98005142008b9f799f6bb58",
+    "region_intervals.tsv": "5c95ee4868e585a59b5fee42912acfdbcfbe5f3ab1c88b82d5e7b4cef538f26d",
+    "regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
+    "target.npy": "8b4290f02eb502bd269ecd00b2a70b9adf30f3a3db56d58f8e62eada99f7c02d",
+    "tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
+    "../bpnet_splits/fold_assignments.tsv": "86a07649645821eeeb318ac0db854c9254f19df3a2c82f20311fc5de5b700f57",
+    "../bpnet_splits/round_01.tsv": "b952c1bc19fce5997768e32c893074594bd908ac7860e0a986910efe30ef0237",
+    "../bpnet_splits/round_02.tsv": "0478a0267ada220df07f0dbf8874f9292eb1b9c0920db0db0bdc4a9f270468aa",
+    "../bpnet_splits/round_03.tsv": "8fd92dbd0e672e2532c27d6658d8e36ae6f8d655e7599cdbf8ac4853aa230340",
+    "../bpnet_splits/round_04.tsv": "c7d6cba55c8ed93b4c4f2175b0c3d74ae07730232d866c6017bbb06b5c75f9b4",
+    "../bpnet_splits/round_05.tsv": "d3894cd20cb43371cdf5b2286a1c06c3230ff98bae51fe4fe15ee9b107e7cffb",
+    "../bpnet_splits/round_06.tsv": "b9ca98ca405294c008235d7637076eee31d76846ee4c0318bc7d25a3e6cd6d1b",
+    "../bpnet_splits/round_07.tsv": "c8d0389de24e34559a987b1976c688413d78194ae9f91f8df9c4088768de7cb4",
+    "../bpnet_splits/round_08.tsv": "64cea3eb2d3b9f1ebe2a3996b2b51f64e513f35e8e1618cae7361cf82704da66",
+    "../bpnet_splits/round_09.tsv": "42e2b814131c4872e0e23f0d5315bbfde3e8657226517567fe8ad6df3896ca68",
+    "../bpnet_splits/round_10.tsv": "13cfef35f977a0303a9694ff95b5112e2dcdbe4e923cd65830f80af0bebe6cb7",
+    "../bpnet_splits/split_summary.tsv": "39ba0266b5d6ed18a114a5c5938221064a52e38856ecee236731eb1cc5190970",
+    "../bpnet_splits/window_overlap_audit.tsv": "362f5d36c66bc558f7f5867392bb309fe601abfec5760001362437136fb66b0c"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "stage": "running_fold",
+  "pid": 500907,
+  "updated_utc": "2026-10-15T07:49:38Z",
+  "recovery_revision": "fimo_empty_01",
+  "completed_folds": [
+    1
+  ],
+  "current_fold": 2,
+  "fold_pid": 500952,
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "fold1_reused": true,
+  "fold_progress": {
+    "status": "failed",
+    "stage": "TOMTOM",
+    "pid": 463689,
+    "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 130, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_fold.py\", line 93, in main\n    plan=science.freeze_perturbations(config,selected,metadata,annotations)\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_pipeline.py\", line 255, in freeze_perturbations\n    scan_fimo(config,scan_folder/'target.meme',scan_folder/'seqlets.fa',scan_folder/'fimo.tsv')\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/run_pipeline.py\", line 331, in scan_fimo\n    assert header and 'sequence_name' in header[0], 'Unexpected FIMO text output, not silently treated as no matches'\nAssertionError: Unexpected FIMO text output, not silently treated as no matches\n"
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/resume_controller_fimo_01.py\", line 108, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/resume_controller_fimo_01.py\", line 83, in main\n    raise RuntimeError(f\"Fold {run['fold']} failed, exit {process.returncode}; see {folder/'controller_parallel.log'}\")\nRuntimeError: Fold 2 failed, exit 1; see /mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/controller_parallel.log\n"
+}

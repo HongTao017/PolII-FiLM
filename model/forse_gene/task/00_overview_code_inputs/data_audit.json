@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "gene_count": 15351,
+  "feature_count": 786,
+  "group_counts": {
+    "B": 22,
+    "Q": 13,
+    "I": 8,
+    "C": 61,
+    "P": 340,
+    "E": 340,
+    "T": 2
+  },
+  "missing_feature_cells": 3267,
+  "max_target_difference": 0.0,
+  "independent_genomic_interval_count": 60952,
+  "independent_cross_fold_window_overlap_pairs": 0,
+  "fold_sizes": {
+    "7": 1535,
+    "8": 1535,
+    "4": 1535,
+    "1": 1535,
+    "6": 1536,
+    "2": 1535,
+    "5": 1535,
+    "10": 1535,
+    "9": 1535,
+    "3": 1535
+  },
+  "overlap_component_count": 13717,
+  "original_data_modified": false,
+  "exact_current_round_files_matched": true,
+  "limitation": "Four CNN input windows are coordinate-disjoint, not all full-gene BQICPET feature windows; homology is not controlled."
+}

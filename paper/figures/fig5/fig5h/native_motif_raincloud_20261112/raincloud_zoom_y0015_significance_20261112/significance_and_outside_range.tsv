@@ -1,0 +1,22 @@
+page	label	sign	n	below_range	above_range	p_holm	stars
+1	EGR1	pos_patterns	57	3	4	1.0	
+1	KLF16	pos_patterns	335	11	17	0.0301593968120637	*
+1	SP1	pos_patterns	223	3	11	0.0185996280074398	*
+1	SP2	pos_patterns	268	3	11	0.0185596288074238	*
+1	Background	pos_patterns	389	20	7		
+2	SP4	pos_patterns	238	3	13	0.0061198776024479	**
+2	ZNF184	pos_patterns	99	1	0	1.0	
+2	ZNF384	pos_patterns	393	1	0	1.0	
+2	Background	pos_patterns	619	12	2		
+3	CTCF	neg_patterns	14	0	0	1.0	
+3	EGR1	neg_patterns	18	0	0	1.0	
+3	KLF16	neg_patterns	285	9	5	1.0	
+3	MAZ	neg_patterns	22	0	2	1.0	
+3	Background	neg_patterns	313	7	5		
+4	PAX8	neg_patterns	25	0	0	1.0	
+4	SP1	neg_patterns	219	8	2	1.0	
+4	SP2	neg_patterns	201	8	2	1.0	
+4	SP4	neg_patterns	201	8	2	1.0	
+4	Background	neg_patterns	240	6	2		
+5	ZNF407	neg_patterns	24	1	1	1.0	
+5	Background	neg_patterns	24	0	0		

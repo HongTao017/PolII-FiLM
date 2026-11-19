@@ -1,0 +1,18 @@
+{
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scipy": "1.17.1",
+  "scikit_learn": "1.9.0",
+  "xgboost": "3.2.0",
+  "arguments": {
+    "model": "xgboost",
+    "input": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_cleaned/POLII_G1_G6_cleaned_786X.tsv",
+    "output_root": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/05_regression_models",
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "jobs": 6,
+    "xgb_threads": 4
+  }
+}

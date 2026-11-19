@@ -1,0 +1,26 @@
+{
+  "execution": "tenfold sequential folds, four idle GPUs within each fold",
+  "scientific_config_sha256": "8025fbbdb03d666960bdf73f7ba6077ea7597c86ce49ab98bcb10e0428164d31",
+  "execution_config_sha256": "2fb53f7fcd514a48e350d6c6f2c237c2e5a3041ed58c583163b8a59908373b3f",
+  "code_sha256": {
+    "verify_precision_alignment.py": "5457ef4146e62deca47c503713a11d7fca23e6cfd18cfbf54f0564f7781b978f",
+    "run_fold.py": "b7aa3fcc6490a5e4a6bcb767a876e7d0cba4d35f412d536097a5a7022e33624f",
+    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
+    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "draw_reference_style.py": "519baa5aa6db7f7810f558c692eeb02e309daad9df822602376dfa73f22d6771",
+    "final_figure_small.py": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
+    "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "run_pipeline.py": "c539e1bb2e00deeeaf5047438eb9ebea4d8619c9b5e3065de72e346569ac5f20",
+    "plot_perturbations.py": "318e6204f9148533758440c5259ba5457cbf4a8ba308185f8bc2e425fe8694f7"
+  },
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "preflight_sha256": "1d754b94202a62c2637c11b076afc9bae29cfb9bdde068fadf4c2d617d2492e7",
+  "prediction_alignment_sha256": "30f830f41597c3c5f570e05479dba697ded8c4dcc7c5ddcda717f6fa30ec02c7",
+  "BF16_alignment_sha256": "68d31fdf8e55d9e08fa73488871a933981e4cceb120decd5f5f6d500c84fcc4e"
+}

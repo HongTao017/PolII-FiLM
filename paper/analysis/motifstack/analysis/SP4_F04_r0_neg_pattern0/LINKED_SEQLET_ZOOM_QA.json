@@ -1,0 +1,362 @@
+{
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/SP4_MA0685_2_F04_TSS600_LINKED_SEQLET_ZOOM.pdf",
+  "sha256": "fa657e959a6e02a55db2b1617edc7fcb5186995e4acfbfabec7521869c37e884",
+  "bytes": 71207,
+  "canvas_inches": [
+    12,
+    6.2
+  ],
+  "unit": "original-scale signed Y_PC1 attribution",
+  "top_600_points_unchanged": true,
+  "bottom_exactly_top_slice": true,
+  "both_panels_y_ticks": [
+    -0.002,
+    -0.001,
+    0,
+    0.001,
+    0.002
+  ],
+  "positive_ticks_have_explicit_plus_sign": true,
+  "negative_sign_preserved": true,
+  "source_seqlet_input0_halfopen": [
+    280,
+    330
+  ],
+  "displayed_seqlet_input0_inclusive": [
+    280,
+    329
+  ],
+  "motif_input0_inclusive": [
+    296,
+    304
+  ],
+  "bottom_is_single_actual_seqlet_not_pattern_aggregate": true,
+  "bottom_letters": 50,
+  "H5_source_scores_verified": true,
+  "all_visible_text_inside_canvas": true,
+  "neighbouring_ticks_do_not_overlap": true,
+  "no_raster_images": true,
+  "fonts": [
+    [
+      15,
+      "ttf",
+      "Type0",
+      "ELUGPM+ArialMT",
+      "F1",
+      "Identity-H"
+    ],
+    [
+      22,
+      "ttf",
+      "Type0",
+      "ELUGPM+Arial-BoldMT",
+      "F2",
+      "Identity-H"
+    ]
+  ],
+  "font_sizes": [
+    12.0,
+    14.0
+  ],
+  "server_memory_render_only": true,
+  "no_result_download": true,
+  "text_boxes": [
+    {
+      "text": "TSS",
+      "bounds": [
+        635.6575,
+        525.5120000000001,
+        32.375,
+        15.0
+      ]
+    },
+    {
+      "text": "TSS input position (bp)",
+      "bounds": [
+        551.875,
+        347.77777777777777,
+        198.25,
+        18.0
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        140.22,
+        378.27777777777777,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "150",
+      "bounds": [
+        384.5325,
+        378.27777777777777,
+        27.625,
+        15.0
+      ]
+    },
+    {
+      "text": "300",
+      "bounds": [
+        638.0325,
+        378.27777777777777,
+        27.625,
+        15.0
+      ]
+    },
+    {
+      "text": "450",
+      "bounds": [
+        891.5325000000001,
+        378.27777777777777,
+        27.625,
+        15.0
+      ]
+    },
+    {
+      "text": "599",
+      "bounds": [
+        1143.2175,
+        378.27777777777777,
+        27.875,
+        15.0
+      ]
+    },
+    {
+      "text": "Importance\nscore",
+      "bounds": [
+        31.727777777777774,
+        413.08750000000003,
+        38.8,
+        97.625
+      ]
+    },
+    {
+      "text": "-0.002",
+      "bounds": [
+        87.15277777777777,
+        400.5444444444445,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "-0.001",
+      "bounds": [
+        87.15277777777777,
+        426.72222222222223,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        125.02777777777777,
+        452.90000000000003,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "+0.001",
+      "bounds": [
+        83.02777777777777,
+        479.07777777777784,
+        51.25,
+        15.0
+      ]
+    },
+    {
+      "text": "+0.002",
+      "bounds": [
+        83.02777777777777,
+        505.2555555555556,
+        51.25,
+        15.0
+      ]
+    },
+    {
+      "text": "TSS input position (bp)",
+      "bounds": [
+        551.875,
+        43.977777777777774,
+        198.25,
+        18.0
+      ]
+    },
+    {
+      "text": "280",
+      "bounds": [
+        140.26500000000033,
+        74.47777777777777,
+        27.75,
+        15.0
+      ]
+    },
+    {
+      "text": "290",
+      "bounds": [
+        343.0025000000005,
+        74.47777777777777,
+        27.875,
+        15.0
+      ]
+    },
+    {
+      "text": "300",
+      "bounds": [
+        545.9274999999998,
+        74.47777777777777,
+        27.625,
+        15.0
+      ]
+    },
+    {
+      "text": "310",
+      "bounds": [
+        748.7275,
+        74.47777777777777,
+        27.625,
+        15.0
+      ]
+    },
+    {
+      "text": "320",
+      "bounds": [
+        951.5275000000001,
+        74.47777777777777,
+        27.625,
+        15.0
+      ]
+    },
+    {
+      "text": "329",
+      "bounds": [
+        1133.9850000000006,
+        74.47777777777777,
+        27.75,
+        15.0
+      ]
+    },
+    {
+      "text": "Contribution\nscore",
+      "bounds": [
+        31.727777777777774,
+        136.41250000000002,
+        38.8,
+        105.375
+      ]
+    },
+    {
+      "text": "-0.002",
+      "bounds": [
+        87.15277777777777,
+        100.1888888888889,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "-0.001",
+      "bounds": [
+        87.15277777777777,
+        140.14444444444445,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        125.02777777777777,
+        180.10000000000002,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "+0.001",
+      "bounds": [
+        83.02777777777777,
+        220.0555555555556,
+        51.25,
+        15.0
+      ]
+    },
+    {
+      "text": "+0.002",
+      "bounds": [
+        83.02777777777777,
+        260.0111111111112,
+        51.25,
+        15.0
+      ]
+    },
+    {
+      "text": "a",
+      "bounds": [
+        42.00000000000001,
+        580.3,
+        10.875,
+        18.0
+      ]
+    },
+    {
+      "text": "SP4-like motif \u00b7 MA0685.2",
+      "bounds": [
+        144.0,
+        583.3,
+        193.375,
+        15.0
+      ]
+    },
+    {
+      "text": "KLHL23 \u00b7 Fold 04 / r0_neg_patterns_pattern_0",
+      "bounds": [
+        144.0,
+        558.21875,
+        344.875,
+        15.28125
+      ]
+    },
+    {
+      "text": "Complete TSS input (600 bp)",
+      "bounds": [
+        144.0,
+        530.521875,
+        215.25,
+        15.078125
+      ]
+    },
+    {
+      "text": "b",
+      "bounds": [
+        42.00000000000001,
+        301.3,
+        11.875,
+        18.0
+      ]
+    },
+    {
+      "text": "Source seqlet zoom: TSS input 280\u2013329 bp (50 bp)",
+      "bounds": [
+        144.0,
+        304.221875,
+        379.125,
+        15.078125
+      ]
+    },
+    {
+      "text": "Grey: source seqlet; dark grey: SP4-like site (296\u2013304 bp). Signed attribution to Y_PC1.",
+      "bounds": [
+        144.0,
+        21.700000000000003,
+        647.875,
+        15.28125
+      ]
+    }
+  ]
+}

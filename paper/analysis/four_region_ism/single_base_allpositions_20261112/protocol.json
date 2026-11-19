@@ -1,0 +1,426 @@
+{
+  "genes": 15351,
+  "position_sampling": "every valid base; no position subsampling",
+  "region_lengths": {
+    "tss_sequence": 600,
+    "first_donor_sequence": 2000,
+    "first_acceptor_sequence": 2000,
+    "pre_tes_sequence": 1000
+  },
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "group_source_sha256": "8a0fd3a11ac638052cf8543492081e90ecb3f4c7275a2dd673ac76a5787f081a",
+  "coverage_sha256": "e7ff2919b4c5d5b98acaeca3dbc48803d6f994e714ba9993d7b0096b5fc9e826",
+  "code_sha256": "2d45047bb7d8372b13fbe84f1a1a7968221092af54e50961c1e341e88010bf7f",
+  "inference_helper_sha256": "61dbec535579f7e608f1a13192c0a3fb5eafd592283d79cec12ca8a3a225f486",
+  "window_bases": 85061598,
+  "unique_physical_sites": 70035600,
+  "variant_predictions": 1050534000,
+  "checkpoint_records": [
+    {
+      "fold": 1,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 1,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 1,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 1,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 1,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 2,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 2,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 2,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 2,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 2,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 3,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 3,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 3,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 3,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 3,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 4,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 4,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 4,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 4,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 4,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 5,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 5,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 5,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 5,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 5,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 6,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 6,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 6,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 6,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 6,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_06/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 7,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 7,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 7,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 7,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 7,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_07/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 8,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 8,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 8,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 8,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 8,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_08/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 9,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 9,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 9,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 9,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 9,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_09/seed_20260919/run_spec.json"
+    },
+    {
+      "fold": 10,
+      "seed": 20260915,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915/run_spec.json"
+    },
+    {
+      "fold": 10,
+      "seed": 20260916,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260916/run_spec.json"
+    },
+    {
+      "fold": 10,
+      "seed": 20260917,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260917/run_spec.json"
+    },
+    {
+      "fold": 10,
+      "seed": 20260918,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260918/run_spec.json"
+    },
+    {
+      "fold": 10,
+      "seed": 20260919,
+      "directory": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919",
+      "checkpoint": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/best.pt",
+      "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/preprocessing.npz",
+      "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/run_spec.json"
+    }
+  ]
+}

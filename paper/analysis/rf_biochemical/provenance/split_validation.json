@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "gene_count": 15351,
+  "interval_count": 60952,
+  "component_count": 13717,
+  "fold_gene_counts": [
+    1535,
+    1535,
+    1535,
+    1535,
+    1535,
+    1536,
+    1535,
+    1535,
+    1535,
+    1535
+  ],
+  "cross_fold_overlap_pairs": 0,
+  "cross_fold_overlap_bp": 0,
+  "fold_pairs_checked": 45,
+  "round_role_pairs_checked": 30,
+  "original_data_hashes_verified": true,
+  "split_manifest_sha256": "a43e7e5170c5b1ff0dc6a63e1859d84bb6346468f026d2f6c5e1fdfe08263d3a",
+  "source_manifest_sha256": "f166375f8f114735f6d5e69c1d9e960e7deffa69f28421c85489d58d2939b75b",
+  "metadata_sha256": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8"
+}

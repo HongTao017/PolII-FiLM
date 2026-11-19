@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "fold": 4,
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "CYP20A1",
+      "saved_BF16": 5.165039279984258,
+      "reproduced_BF16": 5.165039279984258,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "a71073bad8b99dfbd2085849b2ac6d0ef19c6c2b0987935bf10e377123f8310d",
+      "saved_prediction_sha256": "06d2ed8ce328c7797f7d695d3349401108ba7b34234da621e5bdec8701c991aa"
+    },
+    {
+      "seed": 20260915,
+      "gene": "LRRC3C",
+      "saved_BF16": 2.0654597606472964,
+      "reproduced_BF16": 2.0654597606472964,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "a71073bad8b99dfbd2085849b2ac6d0ef19c6c2b0987935bf10e377123f8310d",
+      "saved_prediction_sha256": "06d2ed8ce328c7797f7d695d3349401108ba7b34234da621e5bdec8701c991aa"
+    },
+    {
+      "seed": 20260916,
+      "gene": "CYP20A1",
+      "saved_BF16": 6.4106646942972425,
+      "reproduced_BF16": 6.4106646942972425,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "a91031478767752850f3465ee06a6e25d4544693443f08bf4aceda4b28658ad9",
+      "saved_prediction_sha256": "8ef2df3af3cd41e611d81f111983f4af09a667d930da717d17084bc0b3b67307"
+    },
+    {
+      "seed": 20260916,
+      "gene": "LRRC3C",
+      "saved_BF16": 4.324966326145269,
+      "reproduced_BF16": 4.324966326145269,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "a91031478767752850f3465ee06a6e25d4544693443f08bf4aceda4b28658ad9",
+      "saved_prediction_sha256": "8ef2df3af3cd41e611d81f111983f4af09a667d930da717d17084bc0b3b67307"
+    },
+    {
+      "seed": 20260917,
+      "gene": "CYP20A1",
+      "saved_BF16": 5.222975345766257,
+      "reproduced_BF16": 5.222975345766257,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "3eec4a2a3ed1ad973f7a7e2a915477d54bf3d9b20608eccd841f8dbb804e228a",
+      "saved_prediction_sha256": "38314732a3b2c9dcb20f53bad64220a3de5d2aada4feba93c8810a4fd0bffc2d"
+    },
+    {
+      "seed": 20260917,
+      "gene": "LRRC3C",
+      "saved_BF16": 8.148746667757221,
+      "reproduced_BF16": 8.148746667757221,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "3eec4a2a3ed1ad973f7a7e2a915477d54bf3d9b20608eccd841f8dbb804e228a",
+      "saved_prediction_sha256": "38314732a3b2c9dcb20f53bad64220a3de5d2aada4feba93c8810a4fd0bffc2d"
+    },
+    {
+      "seed": 20260918,
+      "gene": "CYP20A1",
+      "saved_BF16": 5.367815510221256,
+      "reproduced_BF16": 5.367815510221256,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "f0f1eed22d8b7a5f2a36ecc6fe314b8b78173914c9be81bc558cbda796799412",
+      "saved_prediction_sha256": "a373bdf20ff59d5095aa7c159700728f6a640c5cddf364bed0371b9f96ef8ede"
+    },
+    {
+      "seed": 20260918,
+      "gene": "LRRC3C",
+      "saved_BF16": 3.629733536761277,
+      "reproduced_BF16": 3.629733536761277,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "f0f1eed22d8b7a5f2a36ecc6fe314b8b78173914c9be81bc558cbda796799412",
+      "saved_prediction_sha256": "a373bdf20ff59d5095aa7c159700728f6a640c5cddf364bed0371b9f96ef8ede"
+    },
+    {
+      "seed": 20260919,
+      "gene": "CYP20A1",
+      "saved_BF16": 3.224181076287282,
+      "reproduced_BF16": 3.224181076287282,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "4bd3164aa2d03f23d1f79ecec86b9ce76e02b2688473d129c5f2df46e03dcc6a",
+      "saved_prediction_sha256": "75b8ec62d30ed6c45740c5b83012acd91c44b0cf6e2217ddf94c80a4cbc2acf3"
+    },
+    {
+      "seed": 20260919,
+      "gene": "LRRC3C",
+      "saved_BF16": 6.034080266714248,
+      "reproduced_BF16": 6.0340802667142475,
+      "abs_error": 8.881784197001252e-16,
+      "checkpoint_sha256": "4bd3164aa2d03f23d1f79ecec86b9ce76e02b2688473d129c5f2df46e03dcc6a",
+      "saved_prediction_sha256": "75b8ec62d30ed6c45740c5b83012acd91c44b0cf6e2217ddf94c80a4cbc2acf3"
+    }
+  ],
+  "source": "Original CUDA BF16 autocast / batch64 / inverse_target; numerical QC only",
+  "attribution_precision_unchanged": "FP32",
+  "scientific_completeness_tolerances_unchanged": true,
+  "atol": 0.0002,
+  "rtol": 2e-05
+}

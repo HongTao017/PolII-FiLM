@@ -1,0 +1,112 @@
+{
+  "source": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/tf_annotation_effects.tsv",
+  "source_sha256": "5c963f598af954d1ace78b35fccc2b70ac0abf51d362d3340df8cce972b0e22c",
+  "target": "original-scale signed pausing-related Y_PC1, no log transformation",
+  "delta": "WT_minus_disrupted",
+  "plotted": "raw motif and matched-background disruption effects; not background-subtracted effects",
+  "unit": "one mean value per positive DNA-overlap group for each TF/sign",
+  "scatter": "all values, no downsampling",
+  "same_y_limits": [
+    -0.00526369448475318,
+    0.00448199001920658
+  ],
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "positive_negative_separate": true,
+  "pages": [
+    {
+      "page": 1,
+      "file": "01_positive_raincloud.pdf",
+      "sign": "pos_patterns",
+      "labels": [
+        "EGR1",
+        "KLF16",
+        "SP1",
+        "SP2",
+        "Background"
+      ],
+      "n_dna_groups": [
+        57,
+        335,
+        223,
+        268,
+        389
+      ],
+      "background": "matched controls of displayed patterns, deduplicated by match ID, then mean per source DNA group"
+    },
+    {
+      "page": 2,
+      "file": "02_positive_raincloud.pdf",
+      "sign": "pos_patterns",
+      "labels": [
+        "SP4",
+        "ZNF184",
+        "ZNF384",
+        "Background"
+      ],
+      "n_dna_groups": [
+        238,
+        99,
+        393,
+        619
+      ],
+      "background": "matched controls of displayed patterns, deduplicated by match ID, then mean per source DNA group"
+    },
+    {
+      "page": 3,
+      "file": "03_negative_raincloud.pdf",
+      "sign": "neg_patterns",
+      "labels": [
+        "CTCF",
+        "EGR1",
+        "KLF16",
+        "MAZ",
+        "Background"
+      ],
+      "n_dna_groups": [
+        14,
+        18,
+        285,
+        22,
+        313
+      ],
+      "background": "matched controls of displayed patterns, deduplicated by match ID, then mean per source DNA group"
+    },
+    {
+      "page": 4,
+      "file": "04_negative_raincloud.pdf",
+      "sign": "neg_patterns",
+      "labels": [
+        "PAX8",
+        "SP1",
+        "SP2",
+        "SP4",
+        "Background"
+      ],
+      "n_dna_groups": [
+        25,
+        219,
+        201,
+        201,
+        240
+      ],
+      "background": "matched controls of displayed patterns, deduplicated by match ID, then mean per source DNA group"
+    },
+    {
+      "page": 5,
+      "file": "05_negative_raincloud.pdf",
+      "sign": "neg_patterns",
+      "labels": [
+        "ZNF407",
+        "Background"
+      ],
+      "n_dna_groups": [
+        24,
+        24
+      ],
+      "background": "matched controls of displayed patterns, deduplicated by match ID, then mean per source DNA group"
+    }
+  ]
+}

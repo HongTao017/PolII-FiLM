@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "gene_count": 15351,
+  "feature_count": 2576,
+  "group_counts": {
+    "B": 22,
+    "ChIP": 2284,
+    "eCLIP": 206,
+    "ChIAPET": 50,
+    "DamID": 10,
+    "ATAC": 4
+  },
+  "ATAC_included_columns": 4,
+  "all_2554_A_model_regulatory_columns_included": true,
+  "base_features_exactly_previous_B": true,
+  "regulatory_rows_aligned_by_gene": true,
+  "target_matches_all_sources": true,
+  "source_hashes_verified": true,
+  "missing_feature_cells": 1385,
+  "all_missing_columns": 0,
+  "independent_genomic_interval_count": 60952,
+  "cross_fold_DNA_window_overlap_pairs": 0,
+  "exact_current_round_files_matched": true,
+  "fold_sizes": {
+    "7": 1535,
+    "8": 1535,
+    "4": 1535,
+    "1": 1535,
+    "6": 1536,
+    "2": 1535,
+    "5": 1535,
+    "10": 1535,
+    "9": 1535,
+    "3": 1535
+  },
+  "source_data_modified": false,
+  "limitation": "Isolation covers the original four CNN input windows, not entire B-feature gene spans, assay peaks, or homologous sequences."
+}

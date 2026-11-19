@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "stage": "perturbation",
+  "seed": 20260915,
+  "gpu": 4,
+  "start": 0,
+  "stop": 5,
+  "checkpoint": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915",
+    "checkpoint_sha256": "ed19c14606c0fc424b29a07628bf1fad1280b3b30f0fba31390d679bf60e5209",
+    "preprocessing_sha256": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+    "fingerprint": "a7cdbc5bb4bb18e7fa1d889c74a1a6857bb12d14c3f69e9d95711e65a68287b0"
+  },
+  "device_compatibility": null,
+  "selected_genes_sha256": "630386956fb904ab9f3212f0903e482fc4944c46e1bc45f7045fbcba4e28bac4",
+  "outputs_sha256": {
+    "perturbations/instance_000/seed_20260915_delta.npy": "32087b8a3efd5fe75edf26a0484366af58ab18e2696baba32b394d2a8a9600b8",
+    "perturbations/instance_000/seed_20260915_variants.json": "7978c33522fe274ec572ffbcb3b75a435dea6cd01d5535ce481558604823ae96",
+    "perturbations/instance_001/seed_20260915_delta.npy": "c48b4873bc2a268c46c75bc323a5642693c25a1db6088280d763986b7b442c83",
+    "perturbations/instance_001/seed_20260915_variants.json": "52d23dfbd9e93afda091e189cd73e57b5ab36e4cb99233b1456165383af187a3",
+    "perturbations/instance_002/seed_20260915_delta.npy": "5003321be4a9b178646b3befa97fc942c2c81a1b10d3fab1afacc5c6254ec198",
+    "perturbations/instance_002/seed_20260915_variants.json": "09215cfd36a2e7a33d527d8637a0ce458cd586065ff4c715f1086e58696f84d5",
+    "perturbations/instance_003/seed_20260915_delta.npy": "2d73d9ed3fc18e5b80d83c8b73b6103db769d6842a747642d36f5a2f3501fbaa",
+    "perturbations/instance_003/seed_20260915_variants.json": "22b596d5077f2aa1d9f3f9ebbc9f5eba960de149988278a8834969b2d14d5104",
+    "perturbations/instance_004/seed_20260915_delta.npy": "05d6dd87ea90797253663d27fbe38ac3045e5644061a42c83c367c76d8a81a5f",
+    "perturbations/instance_004/seed_20260915_variants.json": "b18e189226dfa54aaf00c924ccaa1cb2e4168b7f9f424ebf787c58ac51fe2156"
+  }
+}

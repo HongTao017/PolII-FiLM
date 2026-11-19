@@ -1,0 +1,165 @@
+{
+  "output": "G:\\\u5e8f\u5217\u5206\u6790\u753b\u56fe\\Png\\png\\fig5\\fig5c\\audit\\redraw.pdf",
+  "sha256": "5ac83a0884eb025860abe828f8f616646cfaccccf2c66d93d8e8264650ef816c",
+  "bytes": 75335,
+  "canvas_inches": [
+    8,
+    5.4
+  ],
+  "native_TOMTOM": {
+    "Query_ID": "r0_pos_patterns_pattern_0",
+    "Target_ID": "MA0685.2",
+    "Optimal_offset": "-20",
+    "p-value": "0.000175518",
+    "E-value": "0.0219398",
+    "q-value": "0.0173997",
+    "Overlap": "9",
+    "Query_consensus": "GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG",
+    "Target_consensus": "GGGGCGGGG",
+    "Orientation": "+"
+  },
+  "full_pattern_TOMTOM_statistics_retained": true,
+  "displayed_query_positions": [
+    21,
+    29
+  ],
+  "gene": "ZBTB7A",
+  "TF": "SP4",
+  "target_reverse_complement": false,
+  "query_matrix": [
+    [
+      0.05102040816326531,
+      0.15306122448979592,
+      0.7142857142857143,
+      0.08163265306122448
+    ],
+    [
+      0.04081632653061224,
+      0.17346938775510204,
+      0.7346938775510204,
+      0.05102040816326531
+    ],
+    [
+      0.05102040816326531,
+      0.23469387755102042,
+      0.6632653061224489,
+      0.05102040816326531
+    ],
+    [
+      0.030612244897959183,
+      0.061224489795918366,
+      0.826530612244898,
+      0.08163265306122448
+    ],
+    [
+      0.12244897959183675,
+      0.4285714285714286,
+      0.2551020408163266,
+      0.19387755102040818
+    ],
+    [
+      0.05102040816326531,
+      0.16326530612244897,
+      0.673469387755102,
+      0.11224489795918367
+    ],
+    [
+      0.09183673469387756,
+      0.22448979591836735,
+      0.5816326530612245,
+      0.10204081632653061
+    ],
+    [
+      0.0816326530612245,
+      0.14285714285714288,
+      0.653061224489796,
+      0.12244897959183675
+    ],
+    [
+      0.05102040816326531,
+      0.09183673469387756,
+      0.7857142857142857,
+      0.07142857142857142
+    ]
+  ],
+  "target_oriented_matrix": [
+    [
+      0.14885115,
+      0.000999,
+      0.65434565,
+      0.1958042
+    ],
+    [
+      0.000999,
+      0.000999,
+      0.997003,
+      0.000999
+    ],
+    [
+      0.000999,
+      0.000999,
+      0.997003,
+      0.000999
+    ],
+    [
+      0.000999,
+      0.000999,
+      0.997003,
+      0.000999
+    ],
+    [
+      0.275,
+      0.723,
+      0.001,
+      0.001
+    ],
+    [
+      0.000999,
+      0.000999,
+      0.997003,
+      0.000999
+    ],
+    [
+      0.000999,
+      0.000999,
+      0.92007992,
+      0.07792208
+    ],
+    [
+      0.289,
+      0.001,
+      0.66,
+      0.05
+    ],
+    [
+      0.000999,
+      0.000999,
+      0.997003,
+      0.000999
+    ]
+  ],
+  "glyph_heights_exact": true,
+  "no_axis_spines": true,
+  "upper_ticks_visible": true,
+  "lower_no_ticks": true,
+  "all_text_inside_canvas": true,
+  "no_text_overlap": true,
+  "raster_images": 0,
+  "font_sizes": [
+    12.0,
+    14.0
+  ],
+  "sequence_colors": {
+    "A": "#007F01",
+    "C": "#0200F3",
+    "G": "#F5B029",
+    "T": "#FF0003"
+  },
+  "selection_is_significant_alternative_match": true,
+  "other_match": [],
+  "upper_y_limits": [
+    0,
+    1.25
+  ],
+  "display_PPM_source": "native discovered pattern and original reference MEME; orientation and overlap from original full-pattern TOMTOM"
+}

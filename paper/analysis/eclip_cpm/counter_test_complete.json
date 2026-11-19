@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "counts": {
+    "plus": 3,
+    "minus": 1,
+    "right": 1
+  },
+  "meta": {
+    "records": 13,
+    "usable": 6,
+    "read1_skipped": 1,
+    "read2_used": 5,
+    "unpaired_used": 1,
+    "filtered": 5,
+    "multimappers_skipped": 1,
+    "NH_missing": 0,
+    "spliced_region_contig_reads": 2
+  },
+  "counter_sha256": "2866adfd2f831b699ca10d4143e558e17552f139837d5541dcf3dda99a73d7a7"
+}

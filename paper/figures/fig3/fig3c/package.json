@@ -1,0 +1,19 @@
+{
+  "panel": "C",
+  "filename": "fig3c.pdf",
+  "description": "Test-fold Pearson violin plot: significant comparisons and nine displayed feature combinations",
+  "source_data_sha256": {
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/reference_violin_packet.json": "0b2f216167ecaf9b709bc5f8458bcf667e8650b4870479f1449367c54f641823",
+    "data/fig3b_final_style/selected_scatter_packet.json": "f8f014eb8e0b72f4a073392262588e3a92d62134da19ac147c3ec06e2fc489d1",
+    "data/reference_violin_significant_groups_preview/test_paired_comparisons.tsv": "a21e1017bcd1cd221ec9f0a2b5990bf73986c7d22342b48d2b366b4285d00176",
+    "data/test_fold_scores.tsv": "83129f440de70eaf6de856bd7ae3182e3cff94da87d5bb38ca183db5381692d5",
+    "data/test_paired_comparisons.tsv": "a21e1017bcd1cd221ec9f0a2b5990bf73986c7d22342b48d2b366b4285d00176",
+    "data/displayed_fold_scores.tsv": "b15b23c8f597c1f2e396dd213f8635112537516573c60359c4c11933309c2eea",
+    "data/statistical_metadata.json": "db5420b45c5b52fce8b2b588788d051b4b7e674b19f589ed0a9879dd142a4eb0"
+  },
+  "fingerprint": "c13b03947d1c64bd21ad4525860c8a1528cb98ff6d9d711936451f360cbaf0a4",
+  "legacy_panel": "B",
+  "legacy_server_directory": "/mnt/HDD8TB/hongtao/end/pig/fig3/fig3.b"
+}

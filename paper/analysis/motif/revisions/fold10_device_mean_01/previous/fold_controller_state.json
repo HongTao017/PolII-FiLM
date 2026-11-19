@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "DeepLIFT_parallel",
+  "pid": 632172,
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/run_fold.py\", line 130, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/run_fold.py\", line 90, in main\n    parallel.run_tasks(tasks,execution['physical_gpus'],'DeepLIFT_parallel')\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/run_parallel.py\", line 108, in run_tasks\n    raise RuntimeError(json.dumps(errors))\nRuntimeError: [{\"task\": {\"stage\": \"attribution\", \"seed\": 20260919, \"start\": 0, \"stop\": 50, \"path\": \"parallel/attribution/seed_20260919/part_000_050\"}, \"exit_code\": 1, \"gpu\": 3}]\n"
+}

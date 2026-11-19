@@ -1,0 +1,3114 @@
+{
+  "instances": [
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "region": "first_acceptor_sequence",
+      "region_index": 2,
+      "gene": "KCNMB3",
+      "gene_row": 6,
+      "gene_index": 3438,
+      "chrom": "chr3",
+      "strand": "-",
+      "dna_group": "3074",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000120233,
+          "q_value": 0.0300582,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 978,
+      "motif_end": 986,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.677471898153746,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 980,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 932,
+      "window_end": 1033,
+      "physical_motif_start0": 179244707,
+      "selection_hash": 24900167,
+      "instance_id": "instance_000"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "region": "first_acceptor_sequence",
+      "region_index": 2,
+      "gene": "TPM4",
+      "gene_row": 133,
+      "gene_index": 13120,
+      "chrom": "chr19",
+      "strand": "+",
+      "dna_group": "11711",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000120233,
+          "q_value": 0.0300582,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 485,
+      "motif_end": 493,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.677471898153746,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 487,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 439,
+      "window_end": 540,
+      "physical_motif_start0": 16081397,
+      "selection_hash": 117449088,
+      "instance_id": "instance_001"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "region": "first_acceptor_sequence",
+      "region_index": 2,
+      "gene": "ITFG2",
+      "gene_row": 177,
+      "gene_index": 8974,
+      "chrom": "chr12",
+      "strand": "+",
+      "dna_group": "8087",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000120233,
+          "q_value": 0.0300582,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 108,
+      "motif_end": 116,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.677471898153746,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 110,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 62,
+      "window_end": 163,
+      "physical_motif_start0": 2816330,
+      "selection_hash": 124570211,
+      "instance_id": "instance_002"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "region": "first_acceptor_sequence",
+      "region_index": 2,
+      "gene": "HTR3B",
+      "gene_row": 119,
+      "gene_index": 8820,
+      "chrom": "chr11",
+      "strand": "+",
+      "dna_group": "7949",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000120233,
+          "q_value": 0.0300582,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 555,
+      "motif_end": 563,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 12.422673599004257,
+      "WT_fimo_p": 5.88e-05,
+      "highlight_position": 557,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 509,
+      "window_end": 610,
+      "physical_motif_start0": 113908849,
+      "selection_hash": 153812400,
+      "instance_id": "instance_003"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "region": "first_acceptor_sequence",
+      "region_index": 2,
+      "gene": "MTCH2",
+      "gene_row": 160,
+      "gene_index": 8341,
+      "chrom": "chr11",
+      "strand": "-",
+      "dna_group": "7541",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000120233,
+          "q_value": 0.0300582,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 1485,
+      "motif_end": 1493,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.677471898153746,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 1487,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 1439,
+      "window_end": 1540,
+      "physical_motif_start0": 47638558,
+      "selection_hash": 281411470,
+      "instance_id": "instance_004"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "PLCD3",
+      "gene_row": 179,
+      "gene_index": 12146,
+      "chrom": "chr17",
+      "strand": "-",
+      "dna_group": "10847",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 3.82514e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 7.24633e-05,
+          "q_value": 0.00623895,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 7.60133e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000105849,
+          "q_value": 0.00651583,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 242,
+      "motif_end": 251,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 16.44697713944363,
+      "WT_fimo_p": 1.5e-06,
+      "highlight_position": 245,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 196,
+      "window_end": 297,
+      "physical_motif_start0": 45132564,
+      "selection_hash": 49299502,
+      "instance_id": "instance_005"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "KLHDC7B",
+      "gene_row": 83,
+      "gene_index": 14804,
+      "chrom": "chr22",
+      "strand": "+",
+      "dna_group": "13212",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 3.82514e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 7.24633e-05,
+          "q_value": 0.00623895,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 7.60133e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000105849,
+          "q_value": 0.00651583,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 99,
+      "motif_end": 108,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.994974400782517,
+      "WT_fimo_p": 5.17e-06,
+      "highlight_position": 102,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 53,
+      "window_end": 154,
+      "physical_motif_start0": 50545697,
+      "selection_hash": 70630332,
+      "instance_id": "instance_006"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "WAC",
+      "gene_row": 66,
+      "gene_index": 7558,
+      "chrom": "chr10",
+      "strand": "+",
+      "dna_group": "6822",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 3.82514e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 7.24633e-05,
+          "q_value": 0.00623895,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 7.60133e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000105849,
+          "q_value": 0.00651583,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 507,
+      "motif_end": 516,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.994974400782517,
+      "WT_fimo_p": 5.17e-06,
+      "highlight_position": 510,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 461,
+      "window_end": 562,
+      "physical_motif_start0": 28533324,
+      "selection_hash": 478428313,
+      "instance_id": "instance_007"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "GDF1",
+      "gene_row": 162,
+      "gene_index": 13198,
+      "chrom": "chr19",
+      "strand": "-",
+      "dna_group": "11782",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 3.82514e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 7.24633e-05,
+          "q_value": 0.00623895,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 7.60133e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000105849,
+          "q_value": 0.00651583,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 222,
+      "motif_end": 231,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 13.037898073718003,
+      "WT_fimo_p": 1.07e-05,
+      "highlight_position": 225,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 176,
+      "window_end": 277,
+      "physical_motif_start0": 18896227,
+      "selection_hash": 1043722241,
+      "instance_id": "instance_008"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "PRSS21",
+      "gene_row": 82,
+      "gene_index": 11099,
+      "chrom": "chr16",
+      "strand": "+",
+      "dna_group": "9970",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 3.82514e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 7.24633e-05,
+          "q_value": 0.00623895,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 7.60133e-05,
+          "q_value": 0.00623895,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000105849,
+          "q_value": 0.00651583,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 252,
+      "motif_end": 261,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 16.44697713944363,
+      "WT_fimo_p": 1.5e-06,
+      "highlight_position": 255,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 206,
+      "window_end": 307,
+      "physical_motif_start0": 2817188,
+      "selection_hash": 1124214587,
+      "instance_id": "instance_009"
+    }
+  ],
+  "skipped": [
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IGF1R",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAP9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DYNLRB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PDLIM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RWDD3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF571",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TXNL4A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HHIP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TXNL4A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HSDL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HHIP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HSDL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HHIP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTIF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KIAA0319",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KIAA0319",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "S1PR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NTN5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF142",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NTN5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF750",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CELSR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "WAC",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CELSR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ASB6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GSE1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAP9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GGA3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DYNLRB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CYCS",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TIMD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "EEF2K",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAD1L1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTARC2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "EEF2K",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNIP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PDLIM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF571",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TXNL4A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTDH",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF571",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RWDD3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HHIP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMEM41B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HHIP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTIF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IL1RAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IL1RAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TAFA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CDK19",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CDK19",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CDK19",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GNGT2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SRRT",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZDHHC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CELSR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SETDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SETDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAP9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DHRS12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DHRS12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTDH",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTARC2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GPR137B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MYH7B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAJA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAJA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TPM4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CYCS",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CYCS",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PCM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PDLIM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PCM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "EEF2K",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTARC2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF571",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTDH",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MYH7B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNIP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "S1PR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "S1PR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "S1PR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "S1PR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ITFG2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GRAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ITFG2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GRAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SAXO5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MCM7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PLA2G3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "WAC",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF142",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SAXO5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GNGT2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TPM4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF530",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARRDC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GDF5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TPM4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GDF1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ASB6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HES7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARHGAP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "EIF4EBP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TRAPPC5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARHGAP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTFP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ASB6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARHGAP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAD2L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DYNLRB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ELOB",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GLTP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TIMD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NRP2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAJA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SETDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAP9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TXNL4A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CLOCK",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CLOCK",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TXNL4A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SMURF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HSDL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SMURF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMEM41B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SMURF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LAMA3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "VPS37A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAP9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAP9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "FGF7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RWDD3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CLOCK",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HSDL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NRP2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GPR137C",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNIP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GPR137C",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARMH4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SMURF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IL1RAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IMPA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TPM4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DYNLRB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TIMD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GGA3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HTR3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PDLIM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TIMD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PCM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PCM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GPR137B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ITFG2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF750",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GDF5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF750",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF124",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "BCL7A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "EIF4EBP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SETDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SETDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TOR1B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DHRS12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TIMD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAD1L1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARID2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF366",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PDLIM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAD1L1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PFKFB4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTIF2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAJA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SLITRK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CYCS",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UNC119B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "OSER1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTPBP10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERINC3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CLOCK",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MED14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTDH",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PACRGL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "FGF7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTDH",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RWDD3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HSDL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMEM41B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNIP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GPR137C",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARMH4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IL1RAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CDH20",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IL1RAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GTF2H5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IMPA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATG16L2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GRAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NTN5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SAXO5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GRAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NCOR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "LHX9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NTN5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PLA2G3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NTN5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MCM7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SAXO5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF530",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MORN3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SAXO5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ARRDC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PLA2G3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TRAPPC5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF530",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MCM7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CELSR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CELSR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "EIF4EBP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TPM4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GDF1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GDF1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GSE1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SHKBP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTFP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF674",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TOR1B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF366",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UBASH3A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UBASH3A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "POLR1E",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SF3B2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "UBASH3A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PFKFB4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GREM2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NPIPB11",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "S1PR3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SAXO5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GRAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TFAP2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IGF1R",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DYNLRB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MAL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GGA3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CYCS",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SERPINB12",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZC3H14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZC3H14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CD58",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMC7",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ATP10A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "RFTN2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MYH7B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GREM2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "TMEM41B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GNGT2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NIPAL4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZBED3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNMB3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "IGF1R",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "SETDB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MACC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GLTP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CYCS",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "NKAP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZNF366",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PCM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "PDLIM1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "DNAAF10",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTCH2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZC3H14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "CLOCK",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "HSDL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "ZC3H14",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "KCNIP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "GGA3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_pos_patterns_pattern_0",
+      "gene": "MTARC2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "AQP7B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "AQP7B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "TRAPPC5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "PLA2G3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "CD79A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "KLK13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "GNGT2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    }
+  ],
+  "selection": "up to ten most-supported annotated patterns; five SHA256-ordered distinct genes per pattern; never use ISM effects to select",
+  "WT_hit_policy": "FIMO p<=1e-4 target hit inside a real TF-MoDISco seqlet; lowest p then coordinate. Not measured binding.",
+  "plan_frozen_before_mutant_inference": true
+}

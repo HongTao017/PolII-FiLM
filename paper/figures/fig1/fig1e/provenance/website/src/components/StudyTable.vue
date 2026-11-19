@@ -1,0 +1,5 @@
+<script setup>
+import AssayBadge from './AssayBadge.vue'
+defineProps({ rows: Array })
+</script>
+<template><div class="table-scroll"><table><thead><tr><th>GEO study</th><th>Assay</th><th>Cell label</th><th>Profiles</th><th>Source</th><th></th></tr></thead><tbody><tr v-for="study in rows" :key="study.gse"><td><RouterLink class="profile-id" :to="`/studies/${study.gse}`">{{ study.gse }}</RouterLink><div class="small">{{ study.authors.join(' / ') }}</div></td><td><div class="badge-wrap"><AssayBadge v-for="assay in study.assays" :key="assay" :assay="assay" :to="{path:'/samples',query:{study:study.gse,assay}}" /></div></td><td><span class="cell-tags"><RouterLink v-for="cell in study.cells.slice(0,3)" :key="cell" class="interactive-tag" :to="{path:'/samples',query:{study:study.gse,cell}}" :aria-label="`Browse ${cell} profiles in ${study.gse}`">{{ cell }}</RouterLink><span v-if="study.cells.length>3">+{{ study.cells.length-3 }}</span></span></td><td class="number">{{ study.profile_count }}</td><td><span class="source-tag">GEO</span></td><td><RouterLink class="table-link" :to="`/studies/${study.gse}`">View study ↗</RouterLink></td></tr></tbody></table></div></template>

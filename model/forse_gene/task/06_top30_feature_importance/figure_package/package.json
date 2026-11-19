@@ -1,0 +1,22 @@
+{
+  "panel": "E",
+  "filename": "fig4.e.pdf",
+  "description": "BQIP随机森林前30个特征重要性",
+  "canvas_inches": [
+    8,
+    8.5
+  ],
+  "source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\19_RF_BQIP_top30_importance_reference.pdf",
+  "approved_pdf_sha256": "17d1334bc5a976345643dc549725d61cdee234112d939054bb52e68ac21be62b",
+  "entry_script": "code/render.py",
+  "frozen_input_sha256": {
+    "data/fold_importance.tsv": "63ba798397a99aecb2bf1e1d9ffb4fd502c5edaa075c955e3c3f5e2f41ae2594",
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/fonts/arialbi.ttf": "267a411525980d648f10a7222a6ff1ebe4d4feeefbf9b3100cae2b5cfab5594a",
+    "data/fonts/ariali.ttf": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288",
+    "data/importance_packet.json": "839e758be1f0255e34b0fcec09bc161f7c9a02e93e177225353d382d57af95ea",
+    "data/top30_importance.tsv": "55a10fd633ebb8d9c02eb8021c01055a78e81573d4d188d338ce4ad7e6da141b"
+  },
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c"
+}

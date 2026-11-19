@@ -1,0 +1,15 @@
+{
+  "remote_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/motif",
+  "old_pilot_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015",
+  "frozen_selection_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/FIG5_SPLICE4_FILM_CHIP_ATTRIBUTION_TENFOLD_20261013",
+  "analysis_python": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/bin/python",
+  "folds": [1,2,3,4,5,6,7,8,9,10],
+  "physical_gpus": [1,2,3,6],
+  "genes_per_fold": 200,
+  "genes_per_task": 50,
+  "instances_per_task": 5,
+  "fold_1_policy": "Verify and copy registered complete outputs unchanged, zero attribution/inference calls",
+  "fold_2_to_10_policy": "Independent fold-specific discovery and frozen perturbation selection with original method and thresholds",
+  "plot_canvas_inches": [10,4.8],
+  "scope": "Ten-fold sampled conditional-DNA DeepLIFT and saturation mutagenesis: 2000 held-out genes/DNA groups, 50 original A/FiLM checkpoints, no training or ChIP alteration. Not all 15351 genes or independent biological validation."
+}

@@ -1,0 +1,14 @@
+{
+  "filename": "fig5.d.pdf",
+  "description": "ZBTB7A/SP4 101bp饱和扰动曲线与热图",
+  "kind": "ism",
+  "entry_script": "render.py",
+  "curve_smoothing_sigma_bp": 1.1,
+  "heatmap_smoothing": "none",
+  "source_data_unscaled": true,
+  "posthoc_illustrative_selection": true,
+  "user_selected_final": true,
+  "axis_spine_linewidth_pt": 1.3,
+  "axis_update_data_and_curves_unchanged": true,
+  "panel": "D"
+}

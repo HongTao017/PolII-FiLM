@@ -1,0 +1,25 @@
+{
+  "kind": "fixed_training_batchnorm",
+  "fitted": true,
+  "fit_rows": 12281,
+  "constant_features": 32,
+  "constant_variance": 1.0,
+  "eps": 1e-05,
+  "affine_trainable": true,
+  "batch_statistics_used": false,
+  "running_statistics_updated": false,
+  "variance_min": 1.0,
+  "variance_max": 1.0000815391540527,
+  "statistics_sha256": "8561575d22d744a676798d9b0efcb4e411ea96e84340fe6f93becd6e3899a64f",
+  "training_genes_sha256": "57ac8c166ad9812d2ae20d1e209d384c5517123fc62c58d2e4d17d4f36f189ad",
+  "training_fold_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

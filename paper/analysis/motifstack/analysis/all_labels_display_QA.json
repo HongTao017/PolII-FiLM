@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "overview": {
+    "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all_hit_labels_overview_5x4.pdf",
+    "page_count": 3,
+    "canvas_points": [
+      360,
+      288
+    ],
+    "min_text_pt": 12,
+    "font": "Arial",
+    "all_text_black": true,
+    "embedded_images": 0,
+    "pdf_sha256": "6a2bc96124181d9ee6e83b8f57072ff1c3f44e9852cba8529fa07219e4be128b"
+  },
+  "overview_layout": {
+    "scale": 1.02,
+    "rotation": 42,
+    "pages": [
+      {
+        "label_names": [
+          "GNN3G*",
+          "NNTTNN*",
+          "4T-01",
+          "TNWTT",
+          "RGNGG",
+          "6T-06*",
+          "6C-01*",
+          "SN3G",
+          "3GNGG*",
+          "4GSNGG"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            1.8
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        }
+      },
+      {
+        "label_names": [
+          "GNGNGG*",
+          "6T-02*",
+          "4T-02",
+          "6G*",
+          "N3GNG*",
+          "CN3GN*",
+          "GGNGNG*",
+          "6C-02*",
+          "S3C",
+          "4TKTW5T-02"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            1.8
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        }
+      },
+      {
+        "label_names": [
+          "TN3T",
+          "TN5T3WTT",
+          "6A-02*",
+          "CN3C",
+          "GAGNC",
+          "GCMNNG*",
+          "CCN3C*",
+          "4GNG-03*",
+          "4TKTW5T-01"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": {
+          "text": [
+            "Matched",
+            "Unmatched"
+          ],
+          "colour": [
+            "#918BB4",
+            "#DDDDEA"
+          ],
+          "placement": [
+            1.3,
+            1.8
+          ],
+          "clipped": 0,
+          "overlaps": 0
+        }
+      }
+    ]
+  },
+  "detail": {
+    "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all44_individual_labels_5x4.pdf",
+    "page_count": 2,
+    "canvas_points": [
+      360,
+      288
+    ],
+    "min_text_pt": 12,
+    "font": "Arial",
+    "all_text_black": true,
+    "embedded_images": 0,
+    "pdf_sha256": "284768be8485b9e923217459a4d5eedfb846ebdfa21df4aad5beb1e673c1b5d3"
+  },
+  "detail_layout": {
+    "scale": 1.12,
+    "rotation": 162,
+    "pages": [
+      {
+        "label_names": [
+          "GNN3G",
+          "6T-01",
+          "NNTTNN",
+          "6T-03",
+          "3TNTT",
+          "6T-05",
+          "TW3TW",
+          "4CNC",
+          "GRGNGG",
+          "GAGGCT",
+          "CN3GN",
+          "6C-01",
+          "CCN3C",
+          "4GNG-01",
+          "4GNG-02",
+          "4GNG-03",
+          "GSN3G",
+          "5TA",
+          "6T-07",
+          "6T-09",
+          "NY4G",
+          "6T-10"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": null
+      },
+      {
+        "label_names": [
+          "GNGNGG",
+          "TTN3T",
+          "6T-02",
+          "6T-04",
+          "6A-01",
+          "6A-02",
+          "6G",
+          "CN4C",
+          "N3GNG",
+          "6T-06",
+          "GCMNNG",
+          "GGNGNG",
+          "GGN3G",
+          "CG4C",
+          "6C-02",
+          "3GNGG",
+          "CCNSCC",
+          "6A-03",
+          "6T-08",
+          "6A-04",
+          "4CYC",
+          "TW4T"
+        ],
+        "grey_regions": 29,
+        "clipped": 0,
+        "overlapping": 0,
+        "legend": null
+      }
+    ]
+  },
+  "all_matched_patterns": 44,
+  "group_labels": 13,
+  "independent_labels": 16,
+  "overview_total_labels": 29,
+  "detail_individual_labels": 44,
+  "partition_unchanged": true,
+  "tree_unchanged": true,
+  "original_TOMTOM_unchanged": true,
+  "PDF_verification": [
+    {
+      "file": "motifStack_all_hit_labels_overview_5x4.pdf",
+      "page": 1,
+      "grey_regions": 29,
+      "text_overlaps": 0,
+      "text_crop": 0
+    },
+    {
+      "file": "motifStack_all_hit_labels_overview_5x4.pdf",
+      "page": 2,
+      "grey_regions": 29,
+      "text_overlaps": 0,
+      "text_crop": 0
+    },
+    {
+      "file": "motifStack_all_hit_labels_overview_5x4.pdf",
+      "page": 3,
+      "grey_regions": 29,
+      "text_overlaps": 0,
+      "text_crop": 0
+    },
+    {
+      "file": "motifStack_all44_individual_labels_5x4.pdf",
+      "page": 1,
+      "grey_regions": 29,
+      "text_overlaps": 0,
+      "text_crop": 0
+    },
+    {
+      "file": "motifStack_all44_individual_labels_5x4.pdf",
+      "page": 2,
+      "grey_regions": 29,
+      "text_overlaps": 0,
+      "text_crop": 0
+    }
+  ],
+  "previous_figures_archive": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/archive/before_all_labels_20261019_063313.zip"
+}

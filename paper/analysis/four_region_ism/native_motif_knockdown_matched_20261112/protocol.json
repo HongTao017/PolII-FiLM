@@ -1,0 +1,380 @@
+{
+  "model": "original Model A, 2554 actual fixed regulatory inputs",
+  "target": "original-scale signed Y_PC1, positively oriented to pausing index",
+  "delta": "WT_minus_disrupted",
+  "source_genes": 2000,
+  "background_universe_genes": 15351,
+  "source_patterns": 44,
+  "labels": 11,
+  "source_gene_units": 1620,
+  "mutable_gene_units": 1450,
+  "matched_pairs": 1368,
+  "unique_positive_genes": 994,
+  "positive_scope": "all original annotated native MoDISco seqlets; one highest-PWM core per pattern and gene",
+  "background_scope": "same test fold, same region, position, length, exact core GC, central-window GC within .02, low both-strand native PWM; preferential exact base composition; no background DNA-group reuse",
+  "adaptations": [
+    "Positive and negative contribution patterns are reported separately.",
+    "A source de novo PWM core is fixed by the best archived Tomtom alignment overlap.",
+    "Use all 15351 held-out genes as background universe because original discovery covered 2000 genes.",
+    "Require equal overlap-copy signature, synchronizing edits in all valid physical copies.",
+    "Report low match fractions rather than silently relaxing thresholds; <90% strata are exploratory."
+  ],
+  "random_seed": 20261112,
+  "shuffles_per_core": 1000,
+  "choose_mutation": "lowest native oriented PWM score, never model output",
+  "source_fingerprints": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/selected_genes.tsv": "981bbb025c284f917397bd485683d64674bc4ed553dc09a3f26f71cc3fdca217",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/modisco_input_order.npy": "78327778d957ea2d0dfa8c7d2db1e5adfac2b3b2f23a10d08c791f4bcd0cdc7b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/annotated_patterns.json": "aa6003fdca816fd162ab6d8f23e7be106081ea6cfbce6df119c27e1bb66897fa",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/tomtom/tomtom.tsv": "c888e84782c9776f1f4d27989ff36e3c86bb45de06f3faeece0dd91582b7d3f5",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/tomtom/tomtom.xml": "f05cff1ff94b1c19ea358f5e2ceff3f84cca1d693bf69efe48adf112787f6413",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/modisco/tss_sequence.h5": "850d4cc5d209b49967913a8d53e548da6b05620ef891c352cf2ec600826cdccd",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/modisco/first_donor_sequence.h5": "b2fe36a5962aa8364b3d062b7bf6bb2737dae7035f72a56de28c4f9f762b7a3d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/modisco/pre_tes_sequence.h5": "4242578870d4fceb2b55c6940636ee168430ba1eb7c318429bd6af9c68eb2aa4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/selected_genes.tsv": "0df9b8651547eea48331bbd82c056f85e0c3f163ec338dd2b23d9bff1e3730c2",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/modisco_input_order.npy": "312e0e13e243a0130f1e689d670586d28e71c408ba40510d874bb067e1b7abba",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/annotated_patterns.json": "a1a933adbdaa3fc0009ae508439f8f877c2a7385a64684050ae64abfd7a023c5",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/tomtom/tomtom.tsv": "46fc699fdb53723cdbb2f572716b9d2c5ba9195263ae287737a95d8ccbcaad45",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/tomtom/tomtom.xml": "2cc678f2871c20707e9bb61a0d17b23108daca8e08e3307652481acdc64a77df",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/modisco/tss_sequence.h5": "87fb70fae78cc36775572f126480df17cc6b033eaae881dfb4b8d8b961479169",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/modisco/first_acceptor_sequence.h5": "099af1277ef56f4ba4791b3893d66ea77607d220f9e84217306b936f2dd7b2cb",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/modisco/pre_tes_sequence.h5": "14fb81baaec44bd9c87a63e2cacff8bfb5f14f435016240458616668f0d6726f",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/selected_genes.tsv": "d16ebc4090ef0f45b8ae6343c50b19eb0fe9d89b2117af03ae7451741c862baa",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/modisco_input_order.npy": "af663ee6fb896ec9e9c0a5dffe52a56e87950868e9911971d1cd6a6b373119ee",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/annotated_patterns.json": "6b386c5fff1e0096cdd04693790f8990bb29c77bd5995f93a618c29834113086",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/tomtom/tomtom.tsv": "b85dd61622ab390bb09005deb490a6ea8f03e1355c6ff5c6acc462389ff1b4b4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/tomtom/tomtom.xml": "85127612a0dbfca2f84d8df62bf595f73418434a1efee88075ba81964f45d85e",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/modisco/tss_sequence.h5": "8086eb77027a49ab2381130debfb8dcca34c9e7e7bdf5b603b744e0fd3100bc5",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/modisco/first_donor_sequence.h5": "47687232f6b07cf36a361830627ab0ca2d852a958c5fd91f0c6324d14d3db01c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_03/modisco/pre_tes_sequence.h5": "bd95991ee6c20fdf720f52f23ee0f98062d6e02036fc9213976a3bf068b62ae0",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/selected_genes.tsv": "d14a38f49cfce6a335bcdfccc9bc7b9af314685e06d10aa61940ee11a6f4c7c0",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco_input_order.npy": "566d13982a07bce0e6492d7d5f253a9b99f4e0be73c3cbeb110a1b4a588af587",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/annotated_patterns.json": "138faee2e9ecbb27a5db7048ffdc55fee0f98bf88643725674f944d844f6d4f5",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/tomtom/tomtom.tsv": "88c95e4d9c9f7b16405f7644c8e7ff9f329644b7a67d473eeecda024bcbfea4c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/tomtom/tomtom.xml": "303b98f9e6c2024d17f64e0da2b53ff22976a6c9278c98e738c3dd8f9997c889",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco/tss_sequence.h5": "b7de769d86c38981e8a65911375cce499785a10d0cc6c6a6fd5ef5e3598cc5ff",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco/first_acceptor_sequence.h5": "1a524c9670182f0ce023bb80f7c525750b50893cfdcfef53d13cef937b72fa3b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco/pre_tes_sequence.h5": "819cb5f683d1f340d7d91087159ee92ab1be9f4d7feb06610a041d52f103b10c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/selected_genes.tsv": "94387a59ab6fd967a1cd5e1a039add3354ead0f3c1dae347f34089914729e5c7",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/modisco_input_order.npy": "fe7a6abd252b6321cc2416eb6349fdc54a37ef3818aba3074fd5093c01a6c1f7",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/annotated_patterns.json": "ba973446df223e25f57b261bfe279b55335ec59110e02b2c31c439be86756492",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/tomtom/tomtom.tsv": "e88539aa7379a15de698554d3be9af2f3d2c4200e12591de2954d887ee0f2cf3",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/tomtom/tomtom.xml": "a866deb73347e425de3f1f40694475a8ec601cd4afd3dce4a63c61589b04d944",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/modisco/tss_sequence.h5": "88356bafc962ea65704838c9fb211fcc2fc289b32ad03495105212b758c117eb",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05/modisco/pre_tes_sequence.h5": "2b1e9f963cd8f4ebd12e65d4ec62124545070125d2d703173c150f370ae96cd9",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/selected_genes.tsv": "29ea354014281cfcaa6df7a52d2964449f5bf249cecdfa4a94552296179b42c2",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/modisco_input_order.npy": "e5638019a3327bf16c45ebf2c258c9d33c56ba1fa31e74bcc180618f03229efd",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/annotated_patterns.json": "a2baf333861436f07790c961e98cc18849d6cbeea5e67be38c24c74af888bbc0",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/tomtom/tomtom.tsv": "bebc82029ae3117c549d37617e7963719df4a55fbadca1571a542055dded4654",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/tomtom/tomtom.xml": "08809f47b066613c9119e340ae70f3b2eec0a073fcab90aa813761050452d8a7",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/modisco/tss_sequence.h5": "ec10263aff4b56dc274f7f42eedd8db2b45f284c20f07383dedffae09f5d498a",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_06/modisco/pre_tes_sequence.h5": "91ec862fcb60c03209089e15b6fd26cb6c1498ea7c565af2011245b117afd602",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/selected_genes.tsv": "f899fbec373e6521646273ed5ff425fd971e52e091134d7d8459787c730735a3",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/modisco_input_order.npy": "b9255330ec9a9a201336bfbf006129898d275da2072d89c1fd0a910351d4d76b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/annotated_patterns.json": "cbf55dc83e681bf4f9c3f39b2ba01d151d53ee89cccc325ec0d47d3aaafdb456",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/tomtom/tomtom.tsv": "0c331dd843c4e2a2de0d87ff5acd78087198ded77850e4a5f9c10472decdaaa0",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/tomtom/tomtom.xml": "7e7796ce63d98c2d6ff77a2fac33f46514ab6fee4b3d0620ade404e65ab59fda",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/modisco/tss_sequence.h5": "0631288073ea5aeb0a7f0093aedfda79b2468d48b817c2c65f0e887749b36539",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_07/modisco/pre_tes_sequence.h5": "096d075a0af901a7b9ef3bd38865950eb5afbeb52b819604362446f9abded72c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/selected_genes.tsv": "f5315ea11f111adce42ac5775e97dfb5f82befbcc51166aa249f2fe40b232672",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/modisco_input_order.npy": "131c81e04c8268034d687ee03bcc445bea2fdf7e65e0c9587246d1dace1d02f9",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/annotated_patterns.json": "e5d992c48ddbb08c2d5dedfd8122c68e31ac303c4c5e2e59210731907da324e7",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/tomtom/tomtom.tsv": "be5f422f262c68506ee9d266cdf82befe754deda93b89345ff0bda3dd97ed691",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/tomtom/tomtom.xml": "ae758bfbdd4f6cd4f09d13b68a50bfc78059b02ac2fe57cc0d88245748ec914a",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/modisco/tss_sequence.h5": "14c9a75b76d70483a8e0ac6469242a32dfb41955b507d00650c0fc3ff1c852c2",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_08/modisco/first_acceptor_sequence.h5": "c8ea82171ccc18e1eca49c7e0266a84422e59c3ccd3b5bdbaa88aa099a8626eb",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_09/selected_genes.tsv": "f1319ce938b345f68410adec717343a7e90e6a316a2d9377ab022bd9354b90ee",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_09/modisco_input_order.npy": "11c171fbc6aebc70a056ad474ea5e5e9444a5b8daaff0bc72f2890284a7ac06b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_09/annotated_patterns.json": "511aee485645ee5c10ef6fbf48cc5269764a14f8b2ee3d054fb8d2735e0b06dc",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_09/tomtom/tomtom.tsv": "f43432e135b6b527de7919d83d59be207e0a49671b076637b47629cbb0958ebd",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_09/tomtom/tomtom.xml": "46219ada3eae9ed8a31d25d51b173e1c24d84f6af5bfd2fdd9039e1ad13c954c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_09/modisco/first_acceptor_sequence.h5": "06facd816506f14cde8f843ab97e4eea725717124157ff73964cdb89c41c438e",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/selected_genes.tsv": "630386956fb904ab9f3212f0903e482fc4944c46e1bc45f7045fbcba4e28bac4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/modisco_input_order.npy": "aa57e7583aa863b176f82dce05c129376015a99771e8969de2f749b290a5d4a2",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/annotated_patterns.json": "1865bde583bb611e32a6b12b1f6b9a366e8fc7699a5e35dd3594328bfb5d4299",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/tomtom/tomtom.tsv": "4995aac4a72b46fad96ec088620b61628491bd6bf7bec43d352af82704754769",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/tomtom/tomtom.xml": "d3ca26551705b391b1aae0e8c2e2f482b43a2fc11fdf917a21ad04b803277ccc",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/modisco/tss_sequence.h5": "660ab2325128a7eef5eacc084182e774e9e489bd83f6e127d3db97e5cc5beedf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/modisco/first_acceptor_sequence.h5": "8962b8c8c3ccb5794c91ce1bd7e39e45e4a22da358ce433f9dbfcc6a8af094ba",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/modisco/pre_tes_sequence.h5": "40c883f230b7a1992361cd24ee0c52044b4468608aad35a2be97fcd4ba159e52"
+  },
+  "checkpoint_checks": [
+    {
+      "fold": 1,
+      "seed": 20260915,
+      "sha256": "5baf39628193ba588f9ada111d84a971b9784784dd6321163741e86747c470b1"
+    },
+    {
+      "fold": 1,
+      "seed": 20260916,
+      "sha256": "98955e790d736d509f971e6ae7819d9c4ea300856a1b5ab501449d439c048286"
+    },
+    {
+      "fold": 1,
+      "seed": 20260917,
+      "sha256": "f452bd46235e821aa05b60f46df36e44d3dc758ed923c48365ed2dafe415aaea"
+    },
+    {
+      "fold": 1,
+      "seed": 20260918,
+      "sha256": "4c93931c0306ac93adbffec6f2646bac1e7a8bd1dac88facadfa57facd514f81"
+    },
+    {
+      "fold": 1,
+      "seed": 20260919,
+      "sha256": "b86ca5ce28a717e6ddcc9dd1e1f10b69cf8ff30f5e3565308aad078ab3e663a0"
+    },
+    {
+      "fold": 2,
+      "seed": 20260915,
+      "sha256": "2ab2bbf839540d1e717ceb25eed579af9a88d18fad560415d23f55b201101c86"
+    },
+    {
+      "fold": 2,
+      "seed": 20260916,
+      "sha256": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541"
+    },
+    {
+      "fold": 2,
+      "seed": 20260917,
+      "sha256": "da903b3cd4f559666e00b46e322ba497d16945db00d6e8f390beba389cbb4c57"
+    },
+    {
+      "fold": 2,
+      "seed": 20260918,
+      "sha256": "8a7ac65eb3c3d06e0942a931a546dc62f8d9cdd37c89b464b6efc66be5bf8122"
+    },
+    {
+      "fold": 2,
+      "seed": 20260919,
+      "sha256": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59"
+    },
+    {
+      "fold": 3,
+      "seed": 20260915,
+      "sha256": "d67f8137ed65c8b8a72b79fddc8b6fec641d6eba57c6139dc998cfd30db9c591"
+    },
+    {
+      "fold": 3,
+      "seed": 20260916,
+      "sha256": "103eed75945894670b25faeac0afa1dabd6c67e387a3555136797055b1b451d0"
+    },
+    {
+      "fold": 3,
+      "seed": 20260917,
+      "sha256": "7bd54fce70ccb4203746b1c6f113993af5ca9441aa6a210f5444df2fa7bdf847"
+    },
+    {
+      "fold": 3,
+      "seed": 20260918,
+      "sha256": "0b3666d74f7bca3e776c4832409fe6c32387e4eb4ce356c62a3916125bec4ed2"
+    },
+    {
+      "fold": 3,
+      "seed": 20260919,
+      "sha256": "e18b27f1fb43c0dfee5d91bd6b6820ab78d27a4d531d6b09c5e36d93d46fe55e"
+    },
+    {
+      "fold": 4,
+      "seed": 20260915,
+      "sha256": "a71073bad8b99dfbd2085849b2ac6d0ef19c6c2b0987935bf10e377123f8310d"
+    },
+    {
+      "fold": 4,
+      "seed": 20260916,
+      "sha256": "a91031478767752850f3465ee06a6e25d4544693443f08bf4aceda4b28658ad9"
+    },
+    {
+      "fold": 4,
+      "seed": 20260917,
+      "sha256": "3eec4a2a3ed1ad973f7a7e2a915477d54bf3d9b20608eccd841f8dbb804e228a"
+    },
+    {
+      "fold": 4,
+      "seed": 20260918,
+      "sha256": "f0f1eed22d8b7a5f2a36ecc6fe314b8b78173914c9be81bc558cbda796799412"
+    },
+    {
+      "fold": 4,
+      "seed": 20260919,
+      "sha256": "4bd3164aa2d03f23d1f79ecec86b9ce76e02b2688473d129c5f2df46e03dcc6a"
+    },
+    {
+      "fold": 5,
+      "seed": 20260915,
+      "sha256": "ee86f0de5475738d259ad18a3f7cd29cde460ba276b2c122959c41b6dfab791b"
+    },
+    {
+      "fold": 5,
+      "seed": 20260916,
+      "sha256": "b2757805b47e6b266b6498b2f8e23dffb679f6632ccbbab7cff44f6d2a058fcf"
+    },
+    {
+      "fold": 5,
+      "seed": 20260917,
+      "sha256": "bcbdb47e068f34c1e3b80c8df397e716010e2e3c81dd38589bfb9bd58bbca1d8"
+    },
+    {
+      "fold": 5,
+      "seed": 20260918,
+      "sha256": "b3e9c0860497ce3c040e9a6af52fec743c64833c3e44a8db8603fb655a32a871"
+    },
+    {
+      "fold": 5,
+      "seed": 20260919,
+      "sha256": "69649a1bd80780393fcf445d55b070ef100cffdce6879feb290f5a835061d309"
+    },
+    {
+      "fold": 6,
+      "seed": 20260915,
+      "sha256": "bbbdf892ded723fde3f10dfafe91e937b1fd0f4573def8e9c164a824502954e3"
+    },
+    {
+      "fold": 6,
+      "seed": 20260916,
+      "sha256": "eae4ffefe3f8f7eae82391e1d6a2a348bd6588c9a460301db82e0772770ecec4"
+    },
+    {
+      "fold": 6,
+      "seed": 20260917,
+      "sha256": "19b9dc7037f7259a0e012e61313fa4a5461eeb7501dc54faa745425f94d4cbb8"
+    },
+    {
+      "fold": 6,
+      "seed": 20260918,
+      "sha256": "b8357a1da4cb0df9c2b8d0665bc3d6c7123ad5c98b3589ce33b08d04902b0276"
+    },
+    {
+      "fold": 6,
+      "seed": 20260919,
+      "sha256": "4f0f78e8ebcd3b337cbe1e97a6da14d40d01c9270ac9aa1033e6710eacf10be4"
+    },
+    {
+      "fold": 7,
+      "seed": 20260915,
+      "sha256": "61ed9211fec68741f8fb139d16545e1664c50ce5cdf059aa635725e60b0df534"
+    },
+    {
+      "fold": 7,
+      "seed": 20260916,
+      "sha256": "1dac9e61c410b602d71d6613238c602af0c9fa8c35c80d803cc1c849d88ebe4e"
+    },
+    {
+      "fold": 7,
+      "seed": 20260917,
+      "sha256": "f4967651397786c6345e56fc96b6147ffbe38ff5d51d54d84ac16ab924af9134"
+    },
+    {
+      "fold": 7,
+      "seed": 20260918,
+      "sha256": "b8b05d802c99dc2aa97730702b1ca87ebb1f67bb66fe295bb47850a3514ea59a"
+    },
+    {
+      "fold": 7,
+      "seed": 20260919,
+      "sha256": "1af45f64331d257c1c20182dd0b89e4a809fdd646096aef37f775b3d6d62133b"
+    },
+    {
+      "fold": 8,
+      "seed": 20260915,
+      "sha256": "db792d2d3a0d4fde0422b147f7fb145a7ab9709ea42a6a3fa6fa8b3d93e714b7"
+    },
+    {
+      "fold": 8,
+      "seed": 20260916,
+      "sha256": "f080641ff21c572913430e667a6ba621985bb62f1fe97da3836afc6c5fde6ae1"
+    },
+    {
+      "fold": 8,
+      "seed": 20260917,
+      "sha256": "940b49af7011ad43b738c400963097ad7f010ef72a09bb176c1b5d86c037dd35"
+    },
+    {
+      "fold": 8,
+      "seed": 20260918,
+      "sha256": "ada9f8dd3e54cf8445b2507a65524bd5a4b69a9fa39c997ca0eceac76e30e3dd"
+    },
+    {
+      "fold": 8,
+      "seed": 20260919,
+      "sha256": "e7a2c85c40431ca8a699dbefd853b756f3ddbe5ca164738aeb3338ed47105601"
+    },
+    {
+      "fold": 9,
+      "seed": 20260915,
+      "sha256": "07477430f04d5b814be98feecca853f8706d5f87879e76a06939b2e0b54cbe78"
+    },
+    {
+      "fold": 9,
+      "seed": 20260916,
+      "sha256": "ec4e9eb9948c60a6b54835488220974944090556c30a64d5d9539a570abcaed0"
+    },
+    {
+      "fold": 9,
+      "seed": 20260917,
+      "sha256": "272dec95f74c46f8a7a43f7d421d3a7714949cd8646d89f1845200a099a5e63c"
+    },
+    {
+      "fold": 9,
+      "seed": 20260918,
+      "sha256": "4c11e718e0dd1ddb566975161b01e093c4fbb466fddc1f76a7fb0f9361030b33"
+    },
+    {
+      "fold": 9,
+      "seed": 20260919,
+      "sha256": "9ff73269c27dd70be086342eeb7e8bce11f90572da233e0bcafce7cf2a77da78"
+    },
+    {
+      "fold": 10,
+      "seed": 20260915,
+      "sha256": "ed19c14606c0fc424b29a07628bf1fad1280b3b30f0fba31390d679bf60e5209"
+    },
+    {
+      "fold": 10,
+      "seed": 20260916,
+      "sha256": "f5f201eb6859393bfa3dbaf9004af318bbe8c7073e9438c82cf0843559a4f133"
+    },
+    {
+      "fold": 10,
+      "seed": 20260917,
+      "sha256": "d6034710e654662286ed80901c682955e1317a31c9a7d11cb1beea72da85fff7"
+    },
+    {
+      "fold": 10,
+      "seed": 20260918,
+      "sha256": "310a0a50cbce7f04b6269e1eb6be19dda51363f3eb8b18e3697e8878642ac529"
+    },
+    {
+      "fold": 10,
+      "seed": 20260919,
+      "sha256": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6"
+    }
+  ],
+  "pausenet_reference_sha256": "e51060eff9d53bab63fb9e9cb18dbe692f5932015ecf1269c2494cc748b489d5",
+  "script_sha256": "c8d89c84f087faf6c33a766246483369fadeee33c085ad912ef5bc13b6e324c1",
+  "plans": {
+    "1": "346551af13481ce4aef615ea08e1170129bc64ed16e329fc21a0cc43c9daae4b",
+    "2": "6d2153daac950867ad7b6bcccc8b1fd3fa4d61ec2299ef68282a55293f3c76e9",
+    "3": "cd393f9badd46b7515538110633b0a7f416118dcbc2dffc999b191579da08220",
+    "4": "45b57478464479c2740de33ed823017a1daca9030ae9cc3b43c09f44b13beaac",
+    "5": "f7914173a435b013e71f47f5ccfe6284e910d1485f9df591438040b104e5b09e",
+    "6": "a2976b48c7bb3d8a42f1453367672a6066974fc568985898e1398ff2cd6005ea",
+    "7": "b70975f5c81de772c22d66347cc419a053b64df0858b8df12b7f42b5880018f2",
+    "8": "ddc94e37028090a80bfc6a37a1a71474b96111254a954b42242fb6552f6e75e5",
+    "9": "2fbbcb795a6d434e16c5780507a53c1c01ce3035b0bd35b8ed90ad36da3c3e93",
+    "10": "64a5a0a7a0136c51fe0cca95bd0373367e4a67d6ef0677024b90459426662536"
+  },
+  "pattern_sha256": "19ec9102c8a6f939c6efd29866f3875917423f7200b1c3f9890697c4c87e3f23",
+  "physical_gpus": [
+    4,
+    5
+  ],
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "variant_forward_predictions": 27360
+}

@@ -1,0 +1,42 @@
+{
+  "parent_run_manifest_sha256": "62d4f07cd48321a351bbe2ed3616e42e6059809ac906ca30e07cb4f3303da046",
+  "handoff_sha256": "8fed69a6bfedd0771ff804d395f348c3ae5ee42b29f16ae944f4537f8d3e2ce2",
+  "scientific_config_sha256": "ee8cab41e6e24a596baadf1312fd9cce532c7ceb4d50345441f0a1c6c40b5207",
+  "execution_config_sha256": "462dcbb91ec5e6a5c0b517758529899278a4a6421bb14d7648a30cbef5c37298",
+  "code_sha256": {
+    "test_pipeline.py": "20133b0d6459357ffbe9206da3fa101b649de03a1bbcc2d10e1cac4a3bad8cbe",
+    "launch.py": "db1810bcd38c591d9c661f75ce7c1081aafce4319d6111a59703fe5255e6614b",
+    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
+    "launch_parallel.py": "b3a52bd3b705172c79a23564db81b6e6c3c7b9499b8086d6b71854364238fb90",
+    "handoff_four_gpu.py": "f50483929212a9ec0552311d04b7820d078ab4a66b9e9f08af96e90fdf240b96",
+    "test_downstream.py": "53bbbc3cbf549094e3cca56ecd30de4b17c5f8bd02f7eeb0bdaf30586d234ec3",
+    "test_parallel.py": "c24421c6468df612ba694d646614ea2dae758367e9b319ce613d687efa745724",
+    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "run_pipeline.py": "41e4f463b150e4d71b4efca49f7573d16d64926242833064471655bec4f86709",
+    "plot_perturbations.py": "0e8a6914d27b200f7ddedd78b1c2bbeaf064bb21cabce2aa3b78455d6bfdedc8"
+  },
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "original_references_reused": 200,
+  "changes": "Execution only: independent gene shards on four GPUs; same attribution arithmetic, references, checkpoints and thresholds. Mutation summaries reconstructed from the same five saved seed arrays.",
+  "incomplete_single_process_in_memory_results_not_saved": {
+    "pid": 398204,
+    "status": "running",
+    "stage": "DeepLIFT",
+    "updated_utc": "2026-10-15T01:55:21Z",
+    "complete_seeds": 0,
+    "seed": 20260915,
+    "gene": "ZBTB20",
+    "genes": 40,
+    "total_genes": 200,
+    "references_per_gene": 20,
+    "max_completeness_error": 1.6167759895324707e-06
+  },
+  "preflight_sha256": "c459065346e32c4468f5b8e463a06ee61f84e1142c6282ae0106bac9e5ba52ed"
+}

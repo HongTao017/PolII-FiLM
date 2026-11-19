@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "TPH2",
+      "conditional_FP32": 11.152621269226074,
+      "official_FP32": 11.152621269226074,
+      "saved_BF16": 11.142806777414188,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.009814491811885873
+    },
+    {
+      "seed": 20260915,
+      "gene": "SECISBP2",
+      "conditional_FP32": 1.9722856283187866,
+      "official_FP32": 1.9722856283187866,
+      "saved_BF16": 1.954673545639432,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.017612082679354657
+    },
+    {
+      "seed": 20260916,
+      "gene": "TPH2",
+      "conditional_FP32": 9.109777450561523,
+      "official_FP32": 9.109777450561523,
+      "saved_BF16": 9.123436836364789,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.013659385803265423
+    },
+    {
+      "seed": 20260916,
+      "gene": "SECISBP2",
+      "conditional_FP32": 1.1447453498840332,
+      "official_FP32": 1.1447453498840332,
+      "saved_BF16": 1.1469255692196734,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.0021802193356401656
+    },
+    {
+      "seed": 20260917,
+      "gene": "TPH2",
+      "conditional_FP32": 9.901402473449707,
+      "official_FP32": 9.901402473449707,
+      "saved_BF16": 9.931184812784547,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.029782339334840202
+    },
+    {
+      "seed": 20260917,
+      "gene": "SECISBP2",
+      "conditional_FP32": 4.090935230255127,
+      "official_FP32": 4.090935230255127,
+      "saved_BF16": 4.10386012575629,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.012924895501162936
+    },
+    {
+      "seed": 20260918,
+      "gene": "TPH2",
+      "conditional_FP32": 11.789237976074219,
+      "official_FP32": 11.789237976074219,
+      "saved_BF16": 11.83516218577398,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.045924209699760965
+    },
+    {
+      "seed": 20260918,
+      "gene": "SECISBP2",
+      "conditional_FP32": 2.0887444019317627,
+      "official_FP32": 2.0887444019317627,
+      "saved_BF16": 2.084490184706893,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.0042542172248696275
+    },
+    {
+      "seed": 20260919,
+      "gene": "TPH2",
+      "conditional_FP32": 11.12525749206543,
+      "official_FP32": 11.12525749206543,
+      "saved_BF16": 11.142806777414188,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.01754928534875866
+    },
+    {
+      "seed": 20260919,
+      "gene": "SECISBP2",
+      "conditional_FP32": 1.2832565307617188,
+      "official_FP32": 1.2832565307617188,
+      "saved_BF16": 1.2839542437908824,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.0006977130291636602
+    }
+  ],
+  "comparison": "FP32 conditional wrapper versus FP32 original model; saved BF16 separately checked on CUDA",
+  "atol": 2e-05,
+  "rtol": 2e-05
+}

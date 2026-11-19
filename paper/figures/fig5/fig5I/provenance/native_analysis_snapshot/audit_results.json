@@ -1,0 +1,161 @@
+{
+  "pairs_checked": 1368,
+  "physical_copy_bases_checked": 44214,
+  "max_noedit_batch_difference": 1.7770852451803876e-06,
+  "mean_abs_motif_delta": 0.0004902907563917525,
+  "median_abs_motif_delta": 0.00035672891146645,
+  "mean_abs_background_delta": 0.0004579784163541459,
+  "pattern_tests": 44,
+  "significant_holm_05": 0,
+  "minimum_holm_p": 0.2516749665006699,
+  "match_fraction": 0.9434482758620689,
+  "low_match_fraction_patterns": [
+    "F01__r1_pos_patterns_pattern_1",
+    "F01__r3_pos_patterns_pattern_1",
+    "F02__r0_pos_patterns_pattern_2",
+    "F02__r0_pos_patterns_pattern_3",
+    "F03__r1_pos_patterns_pattern_1",
+    "F03__r3_pos_patterns_pattern_0",
+    "F03__r3_neg_patterns_pattern_4",
+    "F04__r3_pos_patterns_pattern_1",
+    "F07__r3_pos_patterns_pattern_6"
+  ],
+  "pdfs": [
+    {
+      "file": "CTCF_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "EGR1_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "EGR1_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "KLF16_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "KLF16_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "MAZ_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "PAX8_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "SP1_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "SP1_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "SP2_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "SP2_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "SP4_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "SP4_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "ZNF184_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "ZNF384_positive_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "ZNF407_negative_native_knockdown.pdf",
+      "pages": 1,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    },
+    {
+      "file": "all_motifs_native_knockdown_atlas.pdf",
+      "pages": 16,
+      "embedded_font_types": [
+        "Type0"
+      ],
+      "text_outside_canvas": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "fit": "Ordinary least squares with intercept; linear fit in both panels",
+  "x": "Previously computed matched mean regional CPM, unchanged; not a model input",
+  "denominator": "u + 0.1, where u = log10(original peak count + 1); applied per gene/region/source/seed before aggregation",
+  "reduction": "Sum two regions; average all 1550 genes and five seeds within each source group; average source groups equally. Zero inputs retained as zero contributions.",
+  "before": {
+    "pearson_r": 0.44999623689962,
+    "pearson_p": 1.5069094274416553e-19,
+    "n": 364,
+    "slope": 0.004692639776543382,
+    "intercept": -0.10662998454615596,
+    "linear_R2": 0.2024966132238189
+  },
+  "after": {
+    "pearson_r": 0.4180790699025655,
+    "pearson_p": 7.829362128340009e-17,
+    "n": 364,
+    "slope": 0.007469790410404935,
+    "intercept": -0.1500886598194185,
+    "linear_R2": 0.17479010869059425
+  },
+  "source_summary_sha256": "21718c6593fc194fcccbf3ac1eb8f78ffe55778df05d4a8ed9b35edb539e0672",
+  "source_points_sha256": "d09b881d8e2d3dff4d991c87f13cb192442a187d1ffc554249d83ffa84ff0ec0",
+  "code_sha256": "4733bdf5ae56fcf8221c5351e6ae707e7fc142d8b00b2636f9b59052e247379f",
+  "output_sha256": "356964fe0b58cbff7ec9779d175e00752ef3b9040fed34e37d69760a8a11afd0",
+  "points_sha256": "bd380cf5250420eccb3914126630d05bb352b995f7bb980969256a73faf61444"
+}

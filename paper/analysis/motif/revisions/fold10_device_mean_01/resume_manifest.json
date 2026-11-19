@@ -1,0 +1,231 @@
+{
+  "status": "deployed",
+  "created_utc": "2026-10-16T01:01:18Z",
+  "reason": "Fold-10 seed 20260919 first-reference GPU/CPU attribution QC failed; registered output is the 20-reference mean",
+  "correction": "Compare the 20-reference mean at the unchanged GPU/CPU atol=2e-5, rtol=.002; retain every GPU and CPU completeness test; record first-reference discrepancy",
+  "scientific_arithmetic_unchanged": true,
+  "completeness_tolerances_unchanged": true,
+  "motif_thresholds_unchanged": true,
+  "original_checkpoints_and_references_unchanged": true,
+  "physical_gpus": [
+    4,
+    5,
+    6
+  ],
+  "diagnostic": {
+    "seed": 20260919,
+    "gene": "TPH2",
+    "first_reference_max_difference": 4.7862064093351364e-05,
+    "first_reference_mismatched_elements": 760,
+    "first_reference_total_elements": 22400,
+    "mean_max_difference": 2.5758054107427597e-06,
+    "mean_mismatched_elements": 0,
+    "mean_total_elements": 22400,
+    "reference_sha256": "ea5df897cf1d464bdb87e962e4e8a8b548101cf581bcbcbb653b32daeadec889"
+  },
+  "root_run_manifest_sha256": "03defb4cec0daff310a1b3ff9bb76872d5316d86dd104375904380d0fb958990",
+  "fold10_run_manifest_sha256": "98da49470619d5dddb7e8c9fabb6ea6d06bd32ef39d56e902436e12f4e9e10ec",
+  "protocol_manifest_sha256": "c20a05f785bb9119dd0ccf37d92844ef19a55fe91fd403d30f723d521e2dd324",
+  "dependency_fingerprints_sha256": "41bb9f87d41574e99265a8f46b28d10ce61ea2f13bc60f780417b5257e5bbed4",
+  "original_parallel_worker_sha256": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+  "patched_parallel_worker_sha256": "1f7f5bdf6732ae62166a924a3e520038580a89b57edd1a43fb9c028c4ea6100c",
+  "original_execution_config_sha256": "2fb53f7fcd514a48e350d6c6f2c237c2e5a3041ed58c583163b8a59908373b3f",
+  "revised_execution_config_sha256": "71691895b182e4a316127cdeb503b6e2beba9f182b1ad3da518d6975a7ce90c2",
+  "resume_fold_sha256": "952524edb22a497dbc3368bf63e4a67afd7ea13c726f6e5a9809e0495950ccb4",
+  "resume_root_sha256": "beb5c47455b975b542b8e762476db6d444e468ca74535900b42d5a098eef203d",
+  "completed_attribution_shards": [
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260915,
+        "start": 0,
+        "stop": 50,
+        "path": "parallel/attribution/seed_20260915/part_000_050"
+      },
+      "complete_sha256": "3b74f008dba3e2a1b7c3890f8b72c1f966416e074cd3e3a09bf7a86cb6407b58"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260915,
+        "start": 50,
+        "stop": 100,
+        "path": "parallel/attribution/seed_20260915/part_050_100"
+      },
+      "complete_sha256": "879430fee76740d02aa9a9b26a7539f8ab0059e49b11b51e2462b91a14f8a27b"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260915,
+        "start": 100,
+        "stop": 150,
+        "path": "parallel/attribution/seed_20260915/part_100_150"
+      },
+      "complete_sha256": "c8861c89ecdfc7aabb0c76ef8b53bdb9dbd04b50a5eb1a516eceba4927855cfd"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260915,
+        "start": 150,
+        "stop": 200,
+        "path": "parallel/attribution/seed_20260915/part_150_200"
+      },
+      "complete_sha256": "d8fa2d5330c40a462efc2dd3e74eea0855d79e8391dbc5dbc2a9e4f89434a52a"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260916,
+        "start": 0,
+        "stop": 50,
+        "path": "parallel/attribution/seed_20260916/part_000_050"
+      },
+      "complete_sha256": "56c61c1a736c1f387d4843762d989dc40fd66252488c3f7ba0e2a423f4ca4ff0"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260916,
+        "start": 50,
+        "stop": 100,
+        "path": "parallel/attribution/seed_20260916/part_050_100"
+      },
+      "complete_sha256": "8e06212fe49a091b5cb5a0cdc771e2a38a01dea97ab39cb87648af7e205a64c4"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260916,
+        "start": 100,
+        "stop": 150,
+        "path": "parallel/attribution/seed_20260916/part_100_150"
+      },
+      "complete_sha256": "1d4a36c1acc5578962138fb625490d243ece1de9f48f085747a723f40b73ccb9"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260916,
+        "start": 150,
+        "stop": 200,
+        "path": "parallel/attribution/seed_20260916/part_150_200"
+      },
+      "complete_sha256": "9bb20a3f76dd4c67459670492c7bb050dfd4115cf2cf21f0bfb4c48a827fc786"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260917,
+        "start": 0,
+        "stop": 50,
+        "path": "parallel/attribution/seed_20260917/part_000_050"
+      },
+      "complete_sha256": "578a02ff840c3ac5d769163667cea6e61b8d881b970fc7b7b09812c2fcb5f083"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260917,
+        "start": 50,
+        "stop": 100,
+        "path": "parallel/attribution/seed_20260917/part_050_100"
+      },
+      "complete_sha256": "b0ae1233fbaee221b55430df85494489b9688e29575f7b8d9fe4faf20424114b"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260917,
+        "start": 100,
+        "stop": 150,
+        "path": "parallel/attribution/seed_20260917/part_100_150"
+      },
+      "complete_sha256": "d0f9a7a79a29143acfc6a342acde740bd423b53745164e93a84ad5f7bb9a51bb"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260917,
+        "start": 150,
+        "stop": 200,
+        "path": "parallel/attribution/seed_20260917/part_150_200"
+      },
+      "complete_sha256": "8b6376064edc52c6ea2a01ca7be37b9bb92b9604e4b3deb2320742f3d66564a3"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260918,
+        "start": 0,
+        "stop": 50,
+        "path": "parallel/attribution/seed_20260918/part_000_050"
+      },
+      "complete_sha256": "f9d378074818900aa629bc23fa7f0b939a485d3f67f900bd245c987cb5d3537f"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260918,
+        "start": 50,
+        "stop": 100,
+        "path": "parallel/attribution/seed_20260918/part_050_100"
+      },
+      "complete_sha256": "7aa6336c45b2ad5eade9d2882427fe000a723cc97a1fee7f3230a584596b9d21"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260918,
+        "start": 100,
+        "stop": 150,
+        "path": "parallel/attribution/seed_20260918/part_100_150"
+      },
+      "complete_sha256": "bab4ec3c11af5335439abd616f109ae4c4936e19ab1d6681fccf1df902fc110e"
+    },
+    {
+      "task": {
+        "stage": "attribution",
+        "seed": 20260918,
+        "start": 150,
+        "stop": 200,
+        "path": "parallel/attribution/seed_20260918/part_150_200"
+      },
+      "complete_sha256": "7089863d8bd259483e0f27a1c5518fda94ff4ff707495d73c663184b803bc054"
+    }
+  ],
+  "completed_merged_seeds": [
+    {
+      "seed": 20260915,
+      "complete_sha256": "fe961601ee4dfcd33aed13a5c0fd3941e91838e64a606ed6553c772c873275d7"
+    },
+    {
+      "seed": 20260916,
+      "complete_sha256": "75060da50a1d2230d3df0c16ebfbcae3a069fb3499c0b12b14fb76b56a979eb1"
+    },
+    {
+      "seed": 20260917,
+      "complete_sha256": "714def5b9aaa0f4324153d95bc7a36088c319f883b8ac134158d98add0364686"
+    },
+    {
+      "seed": 20260918,
+      "complete_sha256": "fec96e34e8483ed978f20107a7b0806051e2336d4a73230b922f9ffc8485eed2"
+    }
+  ],
+  "archived_failed_shard": "revisions/fold10_device_mean_01/previous/failed_part_000_050",
+  "previous_files_sha256": {
+    "fold_controller_state.json": "51e89671091c8aad1ed46b6a6abc4aeddd6220135c923cb716beb78885c40564",
+    "fold_launch_record.json": "a8f1d61c37cd6395584a6e4083bcbaaaf5843a13fa78e949d92dbe232b700ca9",
+    "root_launch_record.json": "1c2a18b6c8500feccc3c86ba361ce84f58941936f45bafdcd189efcc17e5ff30",
+    "original_parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "root_controller_state.json": "7382f8e55382ea3954f9f1ddd1638c9dcd979a4c4d891343ad908b554fc8ceea",
+    "fold_run_manifest.json": "98da49470619d5dddb7e8c9fabb6ea6d06bd32ef39d56e902436e12f4e9e10ec",
+    "root_controller.log": "10e9a4619d268c0203d469ac523fd673bb5e4578bbf17d25f4294c5115d38b60",
+    "fold_controller_parallel.log": "7e132ae75c736a54e0743a028cc40e7cb632900bd4c7f72070b407691ca4a0c9",
+    "fold_parallel_execution_config.json": "2fb53f7fcd514a48e350d6c6f2c237c2e5a3041ed58c583163b8a59908373b3f",
+    "protocol_manifest.json": "c20a05f785bb9119dd0ccf37d92844ef19a55fe91fd403d30f723d521e2dd324",
+    "root_run_manifest.json": "03defb4cec0daff310a1b3ff9bb76872d5316d86dd104375904380d0fb958990",
+    "fold_parallel_execution_manifest.json": "099954f935d98013ee7214c744f13f2e0fb3d19c4160c0aa5c73149d217a7ade"
+  }
+}

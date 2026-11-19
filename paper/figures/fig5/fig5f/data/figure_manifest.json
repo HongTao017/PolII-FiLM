@@ -1,0 +1,113 @@
+{
+  "status": "complete",
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "font": "Arial",
+  "ticks_pt": 12,
+  "axis_titles_pt": 14,
+  "text_pdf_fonttype": 42,
+  "fit": "OLS linear regression with intercept",
+  "figures": [
+    {
+      "panel": "before",
+      "pdf": "Fig5f_ChIP_CPM_vs_IG.pdf",
+      "pearson_r": 0.44999623689961943,
+      "pearson_p": 1.506909427441815e-19,
+      "n": 364,
+      "slope": 0.004692639776543382,
+      "intercept": -0.10662998454615596,
+      "linear_R2": 0.2024966132238189,
+      "pdf_sha256": "4f385d56e32cb5ecdfa540863f88477f63a13824ac7e3c4da7f6b5ec65bdc88c",
+      "data_sha256": "9059e1e455512fd70b491e589a70fcd7d127730398f72933aecd5890ff6fa79c",
+      "ylim": [
+        0,
+        0.4
+      ],
+      "maximum_local_count": 92,
+      "top5": [
+        {
+          "factor": "FOXA2",
+          "mean_ChIP_CPM": 34.44265635610414,
+          "mean_absolute_IG_S": 0.2986029642873082
+        },
+        {
+          "factor": "POLR2G",
+          "mean_ChIP_CPM": 50.45798459172033,
+          "mean_absolute_IG_S": 0.1982933868644168
+        },
+        {
+          "factor": "TAF1",
+          "mean_ChIP_CPM": 35.317226142398006,
+          "mean_absolute_IG_S": 0.1963544511631632
+        },
+        {
+          "factor": "C11orf30",
+          "mean_ChIP_CPM": 41.31901295056202,
+          "mean_absolute_IG_S": 0.194728235530685
+        },
+        {
+          "factor": "POLR2B",
+          "mean_ChIP_CPM": 45.92938541731559,
+          "mean_absolute_IG_S": 0.1870402005958545
+        }
+      ]
+    },
+    {
+      "panel": "after",
+      "pdf": "FigS_ChIP_CPM_input_normalized.pdf",
+      "pearson_r": 0.4180790699025658,
+      "pearson_p": 7.829362128339405e-17,
+      "n": 364,
+      "slope": 0.007469790410404935,
+      "intercept": -0.1500886598194185,
+      "linear_R2": 0.17479010869059425,
+      "pdf_sha256": "1771ecd572e84ecbb8c1be1286c8a3d1166580243cccf76bd8cbfd6c19d2e3b7",
+      "data_sha256": "5895e112b2127930e50fdbcd78d7520bea35253aa3572ac10e1bab971a586cb4",
+      "ylim": [
+        0,
+        0.55
+      ],
+      "maximum_local_count": 80,
+      "top5": [
+        {
+          "factor": "TAF1",
+          "mean_ChIP_CPM": 35.317226142398006,
+          "input_normalized_IG_S": 0.4096693370333111
+        },
+        {
+          "factor": "FOXA2",
+          "mean_ChIP_CPM": 34.44265635610414,
+          "input_normalized_IG_S": 0.3889429755190248
+        },
+        {
+          "factor": "POLR2B",
+          "mean_ChIP_CPM": 45.92938541731559,
+          "input_normalized_IG_S": 0.3789891193265522
+        },
+        {
+          "factor": "GATA4",
+          "mean_ChIP_CPM": 34.87648074131606,
+          "input_normalized_IG_S": 0.3545842518510684
+        },
+        {
+          "factor": "POLR2G",
+          "mean_ChIP_CPM": 50.45798459172033,
+          "input_normalized_IG_S": 0.334323210149789
+        }
+      ]
+    }
+  ],
+  "color": "Gray-green points; top five factors by panel contribution highlighted green",
+  "colorbar": false,
+  "grid": false,
+  "frame": "Left and bottom spines only",
+  "axis_linewidth_pt": 1.5,
+  "tick_linewidth_pt": 1.0,
+  "source_summary_sha256": "21718c6593fc194fcccbf3ac1eb8f78ffe55778df05d4a8ed9b35edb539e0672",
+  "source_data_sha256": "d09b881d8e2d3dff4d991c87f13cb192442a187d1ffc554249d83ffa84ff0ec0",
+  "script_sha256": "a2f00527421d42decd95fb83d9337e9950a222fb09c3640739423e1b2404bd86",
+  "style_helper_sha256": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
+  "notes": "Same 364 factors as previous paired analysis. Plot style changed; factor values, normalization and averaging unchanged. No identity line: axes have different units."
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_reference_style_circular_5x4.pdf",
+  "patterns": 314,
+  "existing_matched_patterns": 44,
+  "displayed_major_branches": 8,
+  "patterns_in_labelled_branches": 299,
+  "display_cut_k": 15,
+  "display_partition_is_not_family_validation": true,
+  "layout": "radial cladogram; rank-spaced heights as motifStack treeview trueDist=FALSE",
+  "matrix_comparison": "frozen native motifStack defaults; not recomputed",
+  "major_labels": [
+    {
+      "group": 1,
+      "n": 75,
+      "representative": "F03-Acceptor-P02",
+      "label": "VHHSRR",
+      "core_start0": 30,
+      "window_mean_ic": 0.31063964285003065,
+      "matched_patterns": 5
+    },
+    {
+      "group": 2,
+      "n": 146,
+      "representative": "F09-preTES-N04",
+      "label": "GHKSMY",
+      "core_start0": 24,
+      "window_mean_ic": 0.5334790232093035,
+      "matched_patterns": 29
+    },
+    {
+      "group": 4,
+      "n": 18,
+      "representative": "F05-Acceptor-N03",
+      "label": "GGAGGC",
+      "core_start0": 21,
+      "window_mean_ic": 1.2152583898370535,
+      "matched_patterns": 0
+    },
+    {
+      "group": 8,
+      "n": 12,
+      "representative": "F07-Acceptor-N08",
+      "label": "RSYTCM",
+      "core_start0": 33,
+      "window_mean_ic": 0.8830682335924548,
+      "matched_patterns": 0
+    },
+    {
+      "group": 3,
+      "n": 15,
+      "representative": "F09-Acceptor-P03",
+      "label": "TTTKTW",
+      "core_start0": 27,
+      "window_mean_ic": 1.1313518796006181,
+      "matched_patterns": 6
+    },
+    {
+      "group": 7,
+      "n": 18,
+      "representative": "F06-Donor-N06",
+      "label": "HDGKGG",
+      "core_start0": 34,
+      "window_mean_ic": 0.789109002051057,
+      "matched_patterns": 2
+    },
+    {
+      "group": 11,
+      "n": 6,
+      "representative": "F04-preTES-P02",
+      "label": "TWTTTT",
+      "core_start0": 16,
+      "window_mean_ic": 1.4316252494519297,
+      "matched_patterns": 2
+    },
+    {
+      "group": 6,
+      "n": 9,
+      "representative": "F02-Acceptor-N02",
+      "label": "TAYAGR",
+      "core_start0": 18,
+      "window_mean_ic": 1.0502571853673839,
+      "matched_patterns": 0
+    }
+  ],
+  "font": "Arial",
+  "min_text_pt": 11.999999046325684,
+  "canvas_points": [
+    360,
+    288
+  ],
+  "all_text_black": true,
+  "embedded_images": 0,
+  "geometry": {
+    "clipped": [],
+    "label_collisions": []
+  },
+  "topology_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "pdf_sha256": "d27e537adbc4ab911236e3f6ba66e169b1b32a58ba975e5c91250886e4657db3"
+}

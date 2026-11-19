@@ -1,0 +1,21 @@
+{
+  "panel": "F",
+  "pages": 1,
+  "canvas_pt": [
+    1152.0,
+    792.0
+  ],
+  "offline_reproduction": "PASS; SSH/scp/curl/wget disabled",
+  "pixel_exact_reproduction": true,
+  "pixel_mean_abs_difference": 0.0,
+  "source_data_frozen": true,
+  "main_pdf_sha256": "a076f91d5cd137e0d22d6874ec2ef3d030b6e0c1e164b3a5ad63c6f1ce6859ca",
+  "main_entry_sha256": "be0aea9c9bcd2a6864ac6aac8208fe100ba0d61edd92123bfd542aaa86c5caa8",
+  "correlation_shape": [
+    30,
+    43
+  ],
+  "full_heatmap_restored": true,
+  "minimum_pairwise_genes": 15074,
+  "maximum_pairwise_genes": 15351
+}

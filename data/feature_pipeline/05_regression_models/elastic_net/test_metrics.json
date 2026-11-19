@@ -1,0 +1,17 @@
+{
+  "n_test": 3071,
+  "pearson_r": 0.7401316806564514,
+  "pearson_p": 0.0,
+  "spearman_rho": 0.7511387700423351,
+  "spearman_p": 0.0,
+  "r2": 0.5474979123238051,
+  "rmse": 4.97111324239811,
+  "mae": 3.6691162959208583,
+  "model": "elastic_net",
+  "best_cv_rmse": 5.01241226056105,
+  "best_parameters": {
+    "model__alpha": 0.03,
+    "model__l1_ratio": 0.8
+  },
+  "elapsed_minutes": 0.9666889826456706
+}

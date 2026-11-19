@@ -1,0 +1,99 @@
+{
+  "status": "planned",
+  "genes": 15351,
+  "group_counts": {
+    "Q1": 3838,
+    "Q2": 3838,
+    "Q3": 3837,
+    "Q4": 3838
+  },
+  "quantiles": {
+    "0.0": -22.509813389778213,
+    "0.25": -3.9621953533557837,
+    "0.5": 0.19575428773883843,
+    "0.75": 3.98610036848099,
+    "1.0": 21.103352931681236
+  },
+  "bins_per_window": 30,
+  "folds": {
+    "1": {
+      "genes": 1535,
+      "sites": 183603,
+      "shared_sites": 73742,
+      "matched_four_genes": 70,
+      "plan_sha256": "41d391dd5dea245fd5960532be6c54e5497fbb77fee79721cd6e45559eecd86b"
+    },
+    "2": {
+      "genes": 1535,
+      "sites": 184047,
+      "shared_sites": 72867,
+      "matched_four_genes": 93,
+      "plan_sha256": "2236d129546fc197a914228c74efac1464c56bca0e1527b53dd85a0769b10808"
+    },
+    "3": {
+      "genes": 1535,
+      "sites": 183927,
+      "shared_sites": 72620,
+      "matched_four_genes": 83,
+      "plan_sha256": "22a5226e1dd40af5e13742acd9894980e3ddf1110ae62652a5a3122b36a6bf98"
+    },
+    "4": {
+      "genes": 1535,
+      "sites": 183595,
+      "shared_sites": 72547,
+      "matched_four_genes": 92,
+      "plan_sha256": "3407a03463122469cfc79493e68decb870cb1808bc0561f92920aaefc187148e"
+    },
+    "5": {
+      "genes": 1535,
+      "sites": 184008,
+      "shared_sites": 72958,
+      "matched_four_genes": 76,
+      "plan_sha256": "4ea2277beef703d7394685a5fc71bdea92c29a9e45de8b5c42d426c60da3ec3c"
+    },
+    "6": {
+      "genes": 1536,
+      "sites": 183482,
+      "shared_sites": 71772,
+      "matched_four_genes": 120,
+      "plan_sha256": "61d891f6c1689b6ba8c882132a9c964e63a2b054df1035e6f40355741c741a49"
+    },
+    "7": {
+      "genes": 1535,
+      "sites": 183076,
+      "shared_sites": 72799,
+      "matched_four_genes": 94,
+      "plan_sha256": "0735b938b62ab46fe83b0661c915ced40dfadd639928005ad7359739108f9d2a"
+    },
+    "8": {
+      "genes": 1535,
+      "sites": 183128,
+      "shared_sites": 73788,
+      "matched_four_genes": 92,
+      "plan_sha256": "4443add78e05c984e5f7169010ec9de7473ea5ada491d170a7aa94c849ae1cce"
+    },
+    "9": {
+      "genes": 1535,
+      "sites": 183760,
+      "shared_sites": 72922,
+      "matched_four_genes": 91,
+      "plan_sha256": "86911000aafb784db26d47492f77cb2a03c50ea9b725bf5a67c892028c63bbc8"
+    },
+    "10": {
+      "genes": 1535,
+      "sites": 183918,
+      "shared_sites": 74558,
+      "matched_four_genes": 84,
+      "plan_sha256": "108fdeeb1041421928146ee88fb248130e179417dc2af3c91929fca2089f1f24"
+    }
+  },
+  "model_seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "genes_per_result_shard": 20,
+  "mutation_forward_sequences": 27548160
+}

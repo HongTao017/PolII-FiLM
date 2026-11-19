@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "fold": 3,
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "COQ5",
+      "saved_BF16": 4.980663322846953,
+      "reproduced_BF16": 4.980663322846953,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "d67f8137ed65c8b8a72b79fddc8b6fec641d6eba57c6139dc998cfd30db9c591",
+      "saved_prediction_sha256": "157bc46b80b9a99dfe802bb99e5990d1841d546ad4abea7dfbfa86ebe51b8209"
+    },
+    {
+      "seed": 20260915,
+      "gene": "NFATC3",
+      "saved_BF16": 1.8943922710192969,
+      "reproduced_BF16": 1.8943922710192966,
+      "abs_error": 2.220446049250313e-16,
+      "checkpoint_sha256": "d67f8137ed65c8b8a72b79fddc8b6fec641d6eba57c6139dc998cfd30db9c591",
+      "saved_prediction_sha256": "157bc46b80b9a99dfe802bb99e5990d1841d546ad4abea7dfbfa86ebe51b8209"
+    },
+    {
+      "seed": 20260916,
+      "gene": "COQ5",
+      "saved_BF16": 6.087062379162528,
+      "reproduced_BF16": 6.087062379162528,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "103eed75945894670b25faeac0afa1dabd6c67e387a3555136797055b1b451d0",
+      "saved_prediction_sha256": "0cc9a608d68a4f8ccb4142c027bc71dd9be3f76b1ec0a5462e93d76878e1a142"
+    },
+    {
+      "seed": 20260916,
+      "gene": "NFATC3",
+      "saved_BF16": 3.5394329731727168,
+      "reproduced_BF16": 3.5394329731727168,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "103eed75945894670b25faeac0afa1dabd6c67e387a3555136797055b1b451d0",
+      "saved_prediction_sha256": "0cc9a608d68a4f8ccb4142c027bc71dd9be3f76b1ec0a5462e93d76878e1a142"
+    },
+    {
+      "seed": 20260917,
+      "gene": "COQ5",
+      "saved_BF16": 6.1161781438024105,
+      "reproduced_BF16": 6.1161781438024105,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "7bd54fce70ccb4203746b1c6f113993af5ca9441aa6a210f5444df2fa7bdf847",
+      "saved_prediction_sha256": "b54c3a65a760094f56075ccb56efc23775a8ad17d3f6d55a7ad39c2e638aacdd"
+    },
+    {
+      "seed": 20260917,
+      "gene": "NFATC3",
+      "saved_BF16": 3.1172543858944053,
+      "reproduced_BF16": 3.1172543858944053,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "7bd54fce70ccb4203746b1c6f113993af5ca9441aa6a210f5444df2fa7bdf847",
+      "saved_prediction_sha256": "b54c3a65a760094f56075ccb56efc23775a8ad17d3f6d55a7ad39c2e638aacdd"
+    },
+    {
+      "seed": 20260918,
+      "gene": "COQ5",
+      "saved_BF16": 6.52379884876078,
+      "reproduced_BF16": 6.52379884876078,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "0b3666d74f7bca3e776c4832409fe6c32387e4eb4ce356c62a3916125bec4ed2",
+      "saved_prediction_sha256": "5f24596ed7f8d8829d96e660082c5f9c3698301a214aab1cbe73e979d4e9d7a9"
+    },
+    {
+      "seed": 20260918,
+      "gene": "NFATC3",
+      "saved_BF16": 1.865276506379413,
+      "reproduced_BF16": 1.865276506379413,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "0b3666d74f7bca3e776c4832409fe6c32387e4eb4ce356c62a3916125bec4ed2",
+      "saved_prediction_sha256": "5f24596ed7f8d8829d96e660082c5f9c3698301a214aab1cbe73e979d4e9d7a9"
+    },
+    {
+      "seed": 20260919,
+      "gene": "COQ5",
+      "saved_BF16": 5.795904732763692,
+      "reproduced_BF16": 5.795904732763692,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "e18b27f1fb43c0dfee5d91bd6b6820ab78d27a4d531d6b09c5e36d93d46fe55e",
+      "saved_prediction_sha256": "07bf047488ed18ee5cc0b70027e414c6eda9285a0447664fd7b24bf0ffe6b0e0"
+    },
+    {
+      "seed": 20260919,
+      "gene": "NFATC3",
+      "saved_BF16": 3.4957593262128914,
+      "reproduced_BF16": 3.4957593262128914,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "e18b27f1fb43c0dfee5d91bd6b6820ab78d27a4d531d6b09c5e36d93d46fe55e",
+      "saved_prediction_sha256": "07bf047488ed18ee5cc0b70027e414c6eda9285a0447664fd7b24bf0ffe6b0e0"
+    }
+  ],
+  "source": "Original CUDA BF16 autocast / batch64 / inverse_target; numerical QC only",
+  "attribution_precision_unchanged": "FP32",
+  "scientific_completeness_tolerances_unchanged": true,
+  "atol": 0.0002,
+  "rtol": 2e-05
+}

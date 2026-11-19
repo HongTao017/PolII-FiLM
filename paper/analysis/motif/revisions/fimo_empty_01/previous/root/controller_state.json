@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "stage": "running_fold",
+  "pid": 463672,
+  "updated_utc": "2026-10-15T07:10:41Z",
+  "completed_folds": [
+    1
+  ],
+  "current_fold": 2,
+  "fold_pid": 463689,
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "fold1_reused": true,
+  "fold_progress": {
+    "status": "running",
+    "stage": "TOMTOM",
+    "pid": 463689,
+    "updated_utc": "2026-10-15T07:08:03Z",
+    "patterns": 30
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/controller_tenfold.py\", line 89, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/controller_tenfold.py\", line 66, in main\n    raise RuntimeError(f\"Fold {run['fold']} failed, exit {process.returncode}; see {folder/'controller_parallel.log'}\")\nRuntimeError: Fold 2 failed, exit 1; see /mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_02/controller_parallel.log\n"
+}

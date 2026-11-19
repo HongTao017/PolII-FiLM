@@ -1,0 +1,50 @@
+{
+  "search": {
+    "name": "search",
+    "path": "./images/about/search.png",
+    "width": 1256,
+    "height": 164
+  },
+  "browse": {
+    "name": "browse",
+    "path": "./images/about/browse.png",
+    "width": 1256,
+    "height": 938
+  },
+  "genes": {
+    "name": "genes",
+    "path": "./images/about/genes.png",
+    "width": 1256,
+    "height": 1103
+  },
+  "sample-comparison": {
+    "name": "sample-comparison",
+    "path": "./images/about/sample-comparison.png",
+    "width": 1256,
+    "height": 727
+  },
+  "gene-features": {
+    "name": "gene-features",
+    "path": "./images/about/gene-features.png",
+    "width": 1256,
+    "height": 962
+  },
+  "genome-browser": {
+    "name": "genome-browser",
+    "path": "./images/about/genome-browser.png",
+    "width": 1256,
+    "height": 1240
+  },
+  "sequence-statistics": {
+    "name": "sequence-statistics",
+    "path": "./images/about/sequence-statistics.png",
+    "width": 1254,
+    "height": 662
+  },
+  "statistics": {
+    "name": "statistics",
+    "path": "./images/about/statistics.png",
+    "width": 1256,
+    "height": 553
+  }
+}

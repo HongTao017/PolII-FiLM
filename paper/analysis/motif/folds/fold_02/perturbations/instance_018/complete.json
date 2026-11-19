@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "pattern_id": "r0_pos_patterns_pattern_2",
+  "region": "tss_sequence",
+  "region_index": 0,
+  "gene": "LEMD2",
+  "gene_row": 8,
+  "gene_index": 5014,
+  "chrom": "chr6",
+  "strand": "-",
+  "dna_group": "4504",
+  "TF": "SP1",
+  "matrix_id": "MA0079.5",
+  "all_TF_matches": [
+    {
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "p_value": 4.52736e-05,
+      "q_value": 0.0111583,
+      "orientation": "+"
+    },
+    {
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "p_value": 0.000185299,
+      "q_value": 0.0228348,
+      "orientation": "+"
+    },
+    {
+      "TF": "SP2",
+      "matrix_id": "MA0516.3",
+      "p_value": 0.000429015,
+      "q_value": 0.0352457,
+      "orientation": "+"
+    }
+  ],
+  "pattern_sign": "pos_patterns",
+  "motif_start": 297,
+  "motif_end": 306,
+  "motif_reverse": false,
+  "WT_pwm_score_bits": 12.78677002451021,
+  "WT_fimo_p": 1.22e-05,
+  "highlight_position": 298,
+  "highlight_alternative": "A",
+  "highlight_reference": "G",
+  "highlight_delta_PWM_bits": -9.325158963166299,
+  "window_start": 251,
+  "window_end": 352,
+  "physical_motif_start0": 33789124,
+  "selection_hash": 1204445816,
+  "instance_id": "instance_018",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "outputs_sha256": {
+    "WT_mutants_fimo.tsv.stderr": "599d2996bc7fe5163fe502c17d08b1cec73882dd2f78cf9a940486748163e757",
+    "target.meme": "f01253f00aa7e289a54874bf6e0dc6e723c730cb181aedfa6bbe8808474fbd03",
+    "mean_delta.npy": "5b11147ff1ac6733df1d617cea2df97d1fa1f1e3cda69ab2f0e149b95aca5dec",
+    "seed_20260915_delta.npy": "1b51c738ab08794bad5ed08297cc32478608abfb720dc4fd71c5b51257a56629",
+    "seed_20260917_delta.npy": "6c9890cc2ae9059c55569093e18749f61d01b5ea264d4a3a6777b3f902ce3556",
+    "seed_20260919_variants.json": "c0a939b0fa0d2e3aed09edd8cf008e63dba92159037e15cd32960dd8c9681096",
+    "seed_20260918_variants.json": "5d8639f66ca21b50d2644412371369c38f2424581331e2ccbca1e72560a41382",
+    "seed_20260918_delta.npy": "ffe90e5a6542309a07407a6f7551c8617a665c2cc538e8374fe55bf4cd046a0a",
+    "seed_20260916_delta.npy": "2d6d93ffc481d629703ef6b3596bafa3fcd2b4cf71a1e8d5b7623b6a3f24695a",
+    "seed_20260916_variants.json": "70b9247334eedb0a8a19942fe15101ad7f178259fddc1ef7c39da3542e6090a4",
+    "seed_20260919_delta.npy": "5ea83a0a88ae3e8b2a853e88627b88ed7536cdeb860a0598cc9f6e0190ac8065",
+    "seed_20260915_variants.json": "5c246ea0f2986876a7b8e229b47eaadf1adf616e097a19bc7266c8999826de26",
+    "seed_20260917_variants.json": "4ea5374917be0e71e5d4964d02dae9a5d1205a09bef41fe20e6c4188946496a8",
+    "highlight.json": "c811bfea440becc6bbd337bc63fb66448be5882b728d86a26c969a0e5ea368e3",
+    "WT_mutants.fa": "595029a4e2a558bbd66b351e3e2cdf04b47b250ac5f705249557968809b3c367",
+    "variant_effects.tsv": "307330a07ee84099505b473b27a9a8bc03a39d125affc49092a32788d37728e3",
+    "seed_sd_delta.npy": "8314512b4a2bcb5134f2b7186eabbf4a187391689d6ccad44840859da4b56fa8",
+    "WT_mutants_fimo.tsv": "c9cbf5b2f7d7e619ae736d2de7c1d968019ec740a3127dc7fbea228c45ff294e"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "matched_pairs": 1368,
+  "positive_genes": 994,
+  "retained_labels": 11,
+  "retained_patterns": 44,
+  "source_labels": 11,
+  "source_patterns": 44,
+  "low_match_fraction_patterns": 9,
+  "PDFs": [
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/CTCF_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/EGR1_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/EGR1_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/KLF16_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/KLF16_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/MAZ_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/PAX8_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/SP1_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/SP1_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/SP2_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/SP2_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/SP4_negative_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/SP4_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/ZNF184_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/ZNF384_positive_native_knockdown.pdf",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/figures/ZNF407_negative_native_knockdown.pdf"
+  ],
+  "target": "pausing-related signed PC1, not raw PI or NET-seq counts",
+  "source_scope": "native seqlets in archived 2000 held-out genes; full held-out background universe",
+  "sign": "WT_minus_disrupted; positive means disruption lowers predicted pausing-related PC1"
+}

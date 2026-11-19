@@ -1,0 +1,23 @@
+{
+  "panel": "E",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "frozen_data_hashes_verified": 8,
+  "page_size_pt": [
+    510.24,
+    249.48
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "format": "original website screenshot",
+    "effective_dpi": 600,
+    "pixels": [
+      4252,
+      2079
+    ],
+    "signal_cache_tracks": 3,
+    "region_annotation_and_signal_data_included": true,
+    "original_website_code_included": true
+  }
+}

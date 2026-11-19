@@ -1,0 +1,55 @@
+{
+  "feature_source": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/POLII_BQICPET_786X.tsv",
+  "feature_sha256": "76ad0e6296967789f34efd1e99f777bceeca8a4e65367b455aa6f0eea39ffd33",
+  "dictionary_sha256": "9d0a19cb62874af9a8c7dbf831c5fba21390961c84cb447a652e09deaafe299c",
+  "split_source": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
+  "metadata_sha256": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8",
+  "split_manifest_sha256": "a43e7e5170c5b1ff0dc6a63e1859d84bb6346468f026d2f6c5e1fdfe08263d3a",
+  "current_training_config_sha256": "e75b15c0c7eecf58ad5afd1debf9db61ad46b5ddcaec14e7426a56181f12c07d",
+  "script_sha256": "67feeeed9b5dab61b01f42a2053551062c6b981b6e47e4219f029845b26fb58d",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "rf_parameters": {
+    "n_estimators": 300,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": true
+  },
+  "group_counts": {
+    "B": 22,
+    "Q": 13,
+    "I": 8,
+    "C": 61,
+    "P": 340,
+    "E": 340,
+    "T": 2
+  },
+  "train_valid_test": [
+    8,
+    1,
+    1
+  ],
+  "validation_fold": "test_fold % 10 + 1",
+  "scaling": "none",
+  "imputation": "training-only median; training-empty columns become zero",
+  "refit_train_plus_validation_for_test": false,
+  "feature_order": "ordered addition path, as in legacy scripts",
+  "test_used_for_selection": false,
+  "software": {
+    "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0",
+    "joblib": "1.6.0"
+  },
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c"
+}

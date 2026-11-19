@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "pdf": "G:\\\u5e8f\u5217\u5206\u6790\u753b\u56fe\\Png\\png\\fig5\\fig5e\\fig5e_supplement_S9b.pdf",
+  "pdf_sha256": "9d675cf10b3a19249ff542d582a6216748c01ab22eb5220327adb9ce163e5a7f",
+  "main_pdf_sha256_unchanged": "44d750d8a0564e94f1e6362b271d7126520064776aacb83f137ce80b7f128b77",
+  "r": 0.11184095549107423,
+  "p": 0.26308361551862197,
+  "n": 102,
+  "linear_R2": 0.01250839932515644,
+  "slope": 7.590947432714362e-05,
+  "intercept": 0.09463846723714926,
+  "x": "Same mean regional eCLIP CPM as the main figure",
+  "y": "Input-normalized absolute eCLIP IG_S",
+  "denominator": "log10(original eCLIP peak count + 1) + 0.1, per gene/region/seed before aggregation",
+  "reduction": "Sum the two regional normalized absolute IG_S values; average all 181 genes and five seeds, retaining zero regions",
+  "excluded": [
+    "TBRG4"
+  ],
+  "top5": [
+    {
+      "rbp": "NCBP2",
+      "mean_eCLIP_CPM": 390.11243540938,
+      "normalized_absolute_IG_S": 0.5811527474172137
+    },
+    {
+      "rbp": "DDX3X",
+      "mean_eCLIP_CPM": 353.79204817893657,
+      "normalized_absolute_IG_S": 0.2760493606653818
+    },
+    {
+      "rbp": "DGCR8",
+      "mean_eCLIP_CPM": 406.5997318734959,
+      "normalized_absolute_IG_S": 0.2655500868268957
+    },
+    {
+      "rbp": "GRWD1",
+      "mean_eCLIP_CPM": 358.1029379058914,
+      "normalized_absolute_IG_S": 0.2457945441873593
+    },
+    {
+      "rbp": "FTO",
+      "mean_eCLIP_CPM": 514.3107706184833,
+      "normalized_absolute_IG_S": 0.239139749189966
+    }
+  ],
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "code_sha256": "fe6e6ad8467985672c313ec18f4c5e32e5406bcd09f1127c3fef77adb884645f",
+  "source_points_sha256": "f97527367644bc380d7581d3cedc1472e6c752894b0fbc8ca28720a86304288f",
+  "source_summary_sha256": "324332d7ce1119979939f6968d361a74412f2c91cf678dc360fd7b0940f68d06",
+  "axis_linewidth_pt": 1.5,
+  "tick_linewidth_pt": 1.0
+}

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "completed_seed_fits": 820,
+  "full_10fold_combinations": 15,
+  "ordered_selected_groups": [
+    "B",
+    "ChIP",
+    "eCLIP"
+  ],
+  "greedy_selected_groups": [
+    "B",
+    "ChIP",
+    "eCLIP"
+  ],
+  "outer_fold_local_selection_oof": {
+    "pearson_r": 0.781314212935672,
+    "spearman_rho": 0.7947874812931938,
+    "r2": 0.574838620684219,
+    "rmse": 4.8363119568048445,
+    "mae": 3.553254517250901
+  },
+  "elapsed_minutes": 57.60718658367793,
+  "fingerprint": "c13b03947d1c64bd21ad4525860c8a1528cb98ff6d9d711936451f360cbaf0a4",
+  "source_data_modified": false
+}

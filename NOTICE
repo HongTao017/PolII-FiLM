@@ -1,0 +1,26 @@
+Parts of this draft are adapted from Corgi by Ekin Deniz Aksu.
+Copyright 2026 Ekin Deniz Aksu.
+Source: https://github.com/ekinda/corgi
+License: Apache License, Version 2.0.
+
+Modified on 2026-10-08 for a user-requested, undeployed architecture draft:
+four independent dilated-convolution DNA inputs, 2554 regulatory features,
+1536-channel adapters, and a signed scalar readout. Other adaptations and
+limitations are listed in README.md. This is not the author's released model.
+
+Further user-requested change on 2026-10-08: Transformer depth reduced from
+nine to three. Retained FiLM at block 3 only; removed the former block-6 site
+and reduced the Transformer FiLM generator output dimension accordingly.
+
+Further user-requested change on 2026-10-08: replaced per-region pointwise
+scalar readout and equal averaging with mean pooling of Transformer features,
+four-region feature concatenation, and one 6144 -> 256 -> 1 regression head.
+No cross-region attention, raw DNA concatenation or direct regulator embedding
+concatenation was added. This remains an undeployed local draft.
+
+Further user-requested ablation on 2026-10-08: all Transformer/FlashAttention
+definitions, calls and their dedicated FiLM MLP removed in this separate
+experiment. Convolution FiLM, projections and pooled feature-concat head retained.
+Training is authorized in an independent directory; original data remain unchanged.
+
+Public release packaging, 2026-11-19: this project publishes the separately modified no-Transformer model and its associated analyses. Existing third-party notices are retained. Microsoft Arial font binaries, runtime environments, credentials, manuscript files and raw FASTQ/BAM files are not redistributed. Data retain their original source terms.

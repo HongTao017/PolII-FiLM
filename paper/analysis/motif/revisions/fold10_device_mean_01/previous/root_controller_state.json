@@ -1,0 +1,87 @@
+{
+  "status": "failed",
+  "stage": "running_fold",
+  "pid": 501847,
+  "updated_utc": "2026-10-15T17:03:07Z",
+  "recovery_revision": "fimo_empty_01",
+  "completed_folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "current_fold": 10,
+  "fold_pid": 632172,
+  "physical_gpus": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "fold1_reused": true,
+  "fold_progress": {
+    "status": "running",
+    "stage": "DeepLIFT_parallel",
+    "pid": 632172,
+    "updated_utc": "2026-10-15T17:03:02Z",
+    "devices": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "completed_tasks": 15,
+    "total_tasks": 20,
+    "complete_seeds": [
+      20260915,
+      20260916,
+      20260917
+    ],
+    "active": [
+      {
+        "gpu": 2,
+        "pid": 637760,
+        "task": {
+          "stage": "attribution",
+          "seed": 20260918,
+          "start": 150,
+          "stop": 200,
+          "path": "parallel/attribution/seed_20260918/part_150_200"
+        },
+        "progress": {
+          "status": "running",
+          "pid": 637760,
+          "stage": "DeepLIFT",
+          "updated_utc": "2026-10-15T17:03:00Z",
+          "seed": 20260918,
+          "gpu": 2,
+          "genes": 46,
+          "total_genes": 50,
+          "gene": "PACSIN2",
+          "absolute_gene_row": 195,
+          "max_completeness_error": 2.205371856689453e-06
+        }
+      }
+    ],
+    "pending_tasks": 3,
+    "errors": [
+      {
+        "task": {
+          "stage": "attribution",
+          "seed": 20260919,
+          "start": 0,
+          "stop": 50,
+          "path": "parallel/attribution/seed_20260919/part_000_050"
+        },
+        "exit_code": 1,
+        "gpu": 3
+      }
+    ]
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/resume_controller_fimo_01.py\", line 108, in <module>\n    main()\n  File \"/mnt/HDD8TB/hongtao/Data_Seq/task/motif/resume_controller_fimo_01.py\", line 83, in main\n    raise RuntimeError(f\"Fold {run['fold']} failed, exit {process.returncode}; see {folder/'controller_parallel.log'}\")\nRuntimeError: Fold 10 failed, exit 1; see /mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/controller_parallel.log\n"
+}

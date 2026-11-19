@@ -1,0 +1,37 @@
+{
+  "panel": "A",
+  "filename": "fig1a.pdf",
+  "description": "105-sample absolute Spearman correlation heatmap",
+  "canvas_inches": [
+    5.871523745079167,
+    5.962468626968056
+  ],
+  "source_pdf": "G:\\序列分析画图\\Png\\png\\热力图\\pi_sample_abs_spearman_heatmap_105x105.pdf",
+  "source_pdf_sha256": "07551f43f1fc8b6092a92bc7ee18292f018dbf6bca05a6421fe64ef9446384e3",
+  "entry_script": "code/render.py",
+  "frozen_data_sha256": {
+    "data/export_bbox_inches.json": "87fc4c4ead359ab84529e4cf3c0e154256ce37827adb67a48805cfb74bc0c1b0",
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/pi_cell_line_colors.tsv": "ebf507c20ded49f70625ef85ca3710522e9492d300e698fd68bdeb0a17d2376b",
+    "data/pi_sample_abs_spearman_correlation_ordered.tsv": "c997a1c9796c85c4a2875508d2710eec70a2442a704e476589aee272f33cde84",
+    "data/pi_sample_metadata_ordered.tsv": "3b0c20fa2b551646a99c6933da365bdfcdb89583bdea40f3594bb2de31945fc9",
+    "data/pi_sample_pairwise_common_transcripts_ordered.tsv": "c825ed8971efeb5f2b1bd8dc8d775815975e78b1dac048c187c2db4fb7dc5628",
+    "data/raw/Gro_seq_human_transcript_log2_pi_matrix.tsv": "a00d625e5ba16f7992bba4b112c364b035021130ad361ba1e5af67232461510d",
+    "data/raw/Mnet_seq_human_transcript_log2_pi_matrix.tsv": "ab8d4c5eddd31e5bd0fce491a95d98257a57c36c61df5ba28ea2323a2ce34b52",
+    "data/raw/PRO_seq_human_transcript_log2_pi_matrix.tsv": "55e9453d81e04cb21c0780ca097e80e0740c4c9fdb3343e4a6033847d1f299e4",
+    "data/sample_linkage.npy": "c65795fb78b8fd56d4e63a9ae968e764b03dcebdbc69df10b12992e4b5873eaa"
+  },
+  "statistic": "absolute Spearman",
+  "sample_count": 105,
+  "min_common_transcripts": 500,
+  "linkage": "average",
+  "distance": "1 - absolute Spearman",
+  "redraw_mode": "Frozen correlations, original linkage and original layout",
+  "matplotlib_reproduction_version": "3.10.9",
+  "original_package_panel": "A",
+  "reference_revision": "2026-10-28 A/B/C/D reference; frozen data and statistics",
+  "original_server_directory": "/mnt/HDD8TB/hongtao/end/pig/fig1/fig1.a",
+  "original_panel": "A",
+  "source_directory": "G:\\序列分析数据\\fig1_packaging_20261104\\server_archive\\fig1\\fig1.a"
+}

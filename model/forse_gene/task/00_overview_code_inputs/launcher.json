@@ -1,0 +1,17 @@
+{
+  "pid": 2179040,
+  "command": [
+    "/home/user_011/miniconda3/envs/model/bin/python",
+    "-u",
+    "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train/train_bqicpet.py",
+    "--mode",
+    "run",
+    "--workers",
+    "4",
+    "--rf-threads",
+    "4"
+  ],
+  "log": "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train/training_20261020T091704Z.log",
+  "started_utc": "20261020T091704Z",
+  "output_root": "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train"
+}

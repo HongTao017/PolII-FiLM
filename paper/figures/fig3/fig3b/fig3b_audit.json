@@ -1,0 +1,22 @@
+{
+  "figure": "fig3b.pdf",
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "font": "Arial",
+  "label_pt": 12,
+  "prediction_label_pt": 14,
+  "all_text_black": true,
+  "pdf_fonttype": 42,
+  "candidate_features": 2576,
+  "selected_features": 2512,
+  "n_trees_per_forest": 300,
+  "drawn_tree_icons": 3,
+  "matrix_entries": "illustrative symbols, not numerical data",
+  "all_text_within_canvas": true,
+  "no_text_overlap": true,
+  "source": "verified_workflow.json",
+  "source_sha256": "db0747d37ed7ec052b6381cf228b381d2e02e3fd5fdd49f5aa5e2b96a9cdc524",
+  "pdf_sha256": "41985ce9d04a8a76d7a2b73c8c51a7fd5cd1a844a011bcf74eb4fe651474e32f"
+}

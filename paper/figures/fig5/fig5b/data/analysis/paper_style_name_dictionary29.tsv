@@ -1,0 +1,30 @@
+unit_id	old_name	new_name	scope	conserved_IUPAC	patterns	matched	branch_min_repeats	branch_max_repeats	branch_run_lengths	original_patterns
+S01	GNN3G*	GNN3G*	individual_pattern	GNNGGG	1	1				Fold 09 / r2_neg_patterns_pattern_0
+S02	GNGNGG*	GNGNGG*	individual_pattern	GNGNGG	1	1				Fold 06 / r0_pos_patterns_pattern_1
+G01	TN3T	TN3T	shared_core_clade	TNTTT	2	2				Fold 03 / r1_pos_patterns_pattern_1;Fold 08 / r2_pos_patterns_pattern_0
+S03	NNTTNN*	NNTTNN*	individual_pattern	NNTTNN	1	1				Fold 03 / r1_pos_patterns_pattern_0
+S04	6T-02*	5T+*	individual_pattern	TTTTTT	1	1				Fold 06 / r3_pos_patterns_pattern_3
+G02	TN5T3WTT	TN5T3WTT	shared_core_clade	TNTTTTTWWWTT	2	1				Fold 07 / r3_pos_patterns_pattern_2;Fold 07 / r3_pos_patterns_pattern_3
+G03	4T-01	5T+	shared_core_clade	TTTT	3	2	5	14	14;5;5	Fold 01 / r1_pos_patterns_pattern_1;Fold 06 / r3_pos_patterns_pattern_2;Fold 07 / r3_pos_patterns_pattern_6
+G04	4T-02	13T+	shared_core_clade	TTTT	3	2	13	18	18;15;13	Fold 04 / r3_pos_patterns_pattern_1;Fold 04 / r2_pos_patterns_pattern_2;Fold 07 / r3_pos_patterns_pattern_5
+S05	6A-02*	5T+*	individual_pattern	AAAAAA	1	1				Fold 01 / r3_pos_patterns_pattern_1
+G05	TNWTT	TNWTT	shared_core_clade	TNWTT	2	1				Fold 03 / r2_pos_patterns_pattern_3;Fold 03 / r3_pos_patterns_pattern_2
+S06	6G*	6G+*	individual_pattern	GGGGGG	1	1				Fold 02 / r0_pos_patterns_pattern_3
+G06	CN3C	CN3C	shared_core_clade	CNCCC	2	2				Fold 02 / r0_neg_patterns_pattern_0;Fold 08 / r0_neg_patterns_pattern_0
+G07	RGNGG	RGNGG	shared_core_clade	RGNGG	2	1				Fold 01 / r0_pos_patterns_pattern_1;Fold 02 / r0_pos_patterns_pattern_1
+S07	N3GNG*	N3GNG*	individual_pattern	NGGGNG	1	1				Fold 04 / r2_neg_patterns_pattern_9
+G08	GAGNC	GAGNC	shared_core_clade	GAGNC	2	1				Fold 05 / r3_neg_patterns_pattern_3;Fold 07 / r3_neg_patterns_pattern_5
+S08	6T-06*	5T+*	individual_pattern	TTTTTT	1	1				Fold 10 / r3_pos_patterns_pattern_0
+S09	CN3GN*	CN3GN*	individual_pattern	CNGGGN	1	1				Fold 03 / r3_neg_patterns_pattern_4
+S10	GCMNNG*	GCMNNG*	individual_pattern	GCMNNG	1	1				Fold 02 / r2_neg_patterns_pattern_6
+S11	6C-01*	6G+*	individual_pattern	CCCCCC	1	1				Fold 04 / r0_neg_patterns_pattern_1
+S12	GGNGNG*	GGNGNG*	individual_pattern	GGNGNG	1	1				Fold 03 / r0_pos_patterns_pattern_0
+S13	CCN3C*	CCN3C*	individual_pattern	CCNCCC	1	1				Fold 01 / r0_neg_patterns_pattern_0
+G09	SN3G	SN3G	shared_core_clade	SNGGG	5	4				Fold 07 / r0_pos_patterns_pattern_0;Fold 10 / r0_pos_patterns_pattern_0;Fold 09 / r0_pos_patterns_pattern_0;Fold 04 / r0_neg_patterns_pattern_0;Fold 05 / r0_pos_patterns_pattern_0
+S14	6C-02*	6G+*	individual_pattern	CCCCCC	1	1				Fold 10 / r0_neg_patterns_pattern_1
+S15	4GNG-03*	4GNG*	individual_pattern	GGGGNG	1	1				Fold 02 / r0_pos_patterns_pattern_0
+S16	3GNGG*	3GNGG*	individual_pattern	GGGNGG	1	1				Fold 03 / r0_pos_patterns_pattern_1
+G10	S3C	S3C	shared_core_clade	SCCC	3	2				Fold 06 / r0_pos_patterns_pattern_0;Fold 06 / r0_neg_patterns_pattern_0;Fold 07 / r0_neg_patterns_pattern_0
+G11	4TKTW5T-01	4TKTW5T	shared_core_clade	TTTTKTWTTTTT	15	6				Fold 04 / r1_pos_patterns_pattern_1;Fold 04 / r2_pos_patterns_pattern_1;Fold 09 / r2_pos_patterns_pattern_3;Fold 01 / r2_pos_patterns_pattern_1;Fold 02 / r2_pos_patterns_pattern_1;Fold 03 / r2_pos_patterns_pattern_1;Fold 05 / r2_pos_patterns_pattern_1;Fold 08 / r2_pos_patterns_pattern_1;Fold 01 / r2_pos_patterns_pattern_2;Fold 05 / r3_pos_patterns_pattern_1;Fold 09 / r2_pos_patterns_pattern_5;Fold 09 / r2_pos_patterns_pattern_1;Fold 10 / r2_pos_patterns_pattern_2;Fold 02 / r3_pos_patterns_pattern_1;Fold 05 / r3_pos_patterns_pattern_0
+G12	4GSNGG	4GSNGG	shared_core_clade	GGGGSNGG	2	2				Fold 02 / r0_pos_patterns_pattern_2;Fold 05 / r0_neg_patterns_pattern_0
+G13	4TKTW5T-02	4TKTW5T	shared_core_clade	TTTTKTWTTTTT	6	2				Fold 03 / r3_pos_patterns_pattern_0;Fold 07 / r2_pos_patterns_pattern_1;Fold 06 / r2_pos_patterns_pattern_1;Fold 09 / r2_pos_patterns_pattern_2;Fold 04 / r3_pos_patterns_pattern_2;Fold 10 / r2_pos_patterns_pattern_1

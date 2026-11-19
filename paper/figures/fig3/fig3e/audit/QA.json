@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "qa": {
+    "canvas_inches": [
+      8.0,
+      8.5
+    ],
+    "bars": 30,
+    "feature_label_pt": 12,
+    "axis_title_pt": 14,
+    "pdf_fonttype": 42,
+    "text_bounds": "PASS",
+    "label_collisions": "PASS"
+  },
+  "fold_means_verified": true,
+  "top30_not_renormalized": true,
+  "interpretation": "Unsigned RF impurity importance; not causal effects."
+}

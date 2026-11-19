@@ -1,0 +1,85 @@
+{
+  "source_files_sha256": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/POLII_BQICPET_786X.tsv": "76ad0e6296967789f34efd1e99f777bceeca8a4e65367b455aa6f0eea39ffd33",
+    "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/feature_dictionary_long.tsv": "9d0a19cb62874af9a8c7dbf831c5fba21390961c84cb447a652e09deaafe299c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/data/genes_repartitioned.tsv": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/feature_manifest.tsv": "0edbd67811978d0297d4efc8c60814ae032f03ee4be1a7d485ec68896f04a8d4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/target.npy": "8b4290f02eb502bd269ecd00b2a70b9adf30f3a3db56d58f8e62eada99f7c02d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/genes.tsv": "61f882ab48aea1497ce794239558ada40d30863c221cd313328c3c2e331326af",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/manifest.json": "f166375f8f114735f6d5e69c1d9e960e7deffa69f28421c85489d58d2939b75b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/split_manifest.json": "a43e7e5170c5b1ff0dc6a63e1859d84bb6346468f026d2f6c5e1fdfe08263d3a",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/split_validation.json": "e0d8ba59404645db96639316bfe0590b7014fcb134a5971e82cd5ba908e6fdad",
+    "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train/train_bqicpet.py": "67feeeed9b5dab61b01f42a2053551062c6b981b6e47e4219f029845b26fb58d"
+  },
+  "legacy_engine_sha256": "67feeeed9b5dab61b01f42a2053551062c6b981b6e47e4219f029845b26fb58d",
+  "script_sha256": "c74fecd5cec3c188f489effcf0f3af53d39656a51e79bfa49324b900bdae6a71",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "group_counts": {
+    "B": 22,
+    "ChIP": 2284,
+    "eCLIP": 206,
+    "ChIAPET": 50,
+    "DamID": 10,
+    "ATAC": 4
+  },
+  "canonical_group_order": [
+    "B",
+    "ChIP",
+    "eCLIP",
+    "ChIAPET",
+    "DamID",
+    "ATAC"
+  ],
+  "mandatory_base_group": "B",
+  "excluded_groups": [
+    "Q",
+    "I",
+    "C",
+    "P",
+    "E",
+    "T"
+  ],
+  "regulatory_feature_count": 2554,
+  "regulatory_inputs_exactly_A_model": true,
+  "restart_scope": "fresh five-assay experiment; no previous REG4 fits or selections reused",
+  "rf_parameters": {
+    "n_estimators": 300,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": true
+  },
+  "train_valid_test": [
+    8,
+    1,
+    1
+  ],
+  "validation_fold": "test_fold % 10 + 1",
+  "input_scaling": "none",
+  "regulatory_transform": "original log10(count+1), no z-score or new transform",
+  "imputation": "training-only median; retain training-empty columns as zero",
+  "refit_train_plus_validation_for_test": false,
+  "test_used_for_selection": false,
+  "ordered_bonferroni": 5,
+  "greedy_bonferroni": 15,
+  "fold_local_rule": "each fold independently chooses largest positive validation Pearson gain, no p-value gate",
+  "software": {
+    "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0",
+    "joblib": "1.6.0"
+  },
+  "current_sklearn_version": "1.9.0",
+  "fingerprint": "c13b03947d1c64bd21ad4525860c8a1528cb98ff6d9d711936451f360cbaf0a4"
+}

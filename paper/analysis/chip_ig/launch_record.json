@@ -1,0 +1,10 @@
+{
+  "pid": 4171545,
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "mode": "frozen-model inference; preflight then full then figures",
+  "root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/A_CHIP_ZEROCOUNT_GE40_1550_20261104"
+}

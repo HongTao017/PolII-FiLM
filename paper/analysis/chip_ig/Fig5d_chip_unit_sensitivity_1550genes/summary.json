@@ -1,0 +1,56 @@
+{
+  "pearson_r": -0.46739389569355927,
+  "spearman_rho": -0.8214626482771694,
+  "quadratic_R2": 0.3349793179392433,
+  "plotted_factors": 364,
+  "genes": 1550,
+  "gene_seed_results": 7750,
+  "total_factors": 366,
+  "source_cell_groups": 838,
+  "active_source_cell_groups": 835,
+  "x": "Same ChIP signal z-score as the original factor figure, including zero counts",
+  "y": "Absolute path-averaged gradient of S per log10(count+1) unit; average over five seeds and positive gene-region entries within each source cell, then weight active source cells equally within each TF",
+  "excluded_factors": [
+    "POLR3G",
+    "SYNCRIP"
+  ],
+  "source_manifest_sha256": "a058b9b0f6c0f2b790c67341ad36843fa653cef2f16a218fca31a09bbb3717f4",
+  "original_factor_points_sha256": "b7b29efd5a5a263d03dd74c2c2b59910cdb103105ab26967e1df97c5b9ca20d0",
+  "code_sha256": "355edb5cfc593c4ad7f3f874cefc13fbbd0caf383bfb61e1c65ffe0be0e7d4e6",
+  "top5": [
+    {
+      "tf": "BRF1",
+      "mean_absolute_unit_sensitivity_S": 4.758304234299674,
+      "absolute_IG_rank": 363,
+      "n_active_source_cells": 2
+    },
+    {
+      "tf": "BRF2",
+      "mean_absolute_unit_sensitivity_S": 4.246016497579964,
+      "absolute_IG_rank": 361,
+      "n_active_source_cells": 2
+    },
+    {
+      "tf": "XRCC4",
+      "mean_absolute_unit_sensitivity_S": 3.5946126590841816,
+      "absolute_IG_rank": 349,
+      "n_active_source_cells": 1
+    },
+    {
+      "tf": "SUPT20H",
+      "mean_absolute_unit_sensitivity_S": 3.4180091647911772,
+      "absolute_IG_rank": 359,
+      "n_active_source_cells": 2
+    },
+    {
+      "tf": "RBM17",
+      "mean_absolute_unit_sensitivity_S": 3.249427413345407,
+      "absolute_IG_rank": 354,
+      "n_active_source_cells": 1
+    }
+  ],
+  "output_sha256": {
+    "ChIP_unit_sensitivity_by_TF.pdf": "8ba8bbe58182d8aee9c3502d0030a61df0c2a3fbf37766fb8455dba0fac3fadf",
+    "factor_points.tsv": "ed3c2d6a8a78e3f186803bf7aca028b4f8c424f89270ef55b48120b08370a687"
+  }
+}

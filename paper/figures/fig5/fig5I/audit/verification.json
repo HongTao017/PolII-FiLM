@@ -1,0 +1,61 @@
+{
+  "panel": "I",
+  "status": "PASS",
+  "source_pdf_byte_identical": false,
+  "boundary_triangles_displayed": false,
+  "source_data_hashes_verified": 8,
+  "canvas_points": [
+    576.0,
+    180.0
+  ],
+  "embedded_TrueType_fonts": [
+    "/GCWXDV+DejaVuSans-Oblique",
+    "/BMQQDV+DejaVuSans"
+  ],
+  "no_raster_images": true,
+  "no_significance_stars": true,
+  "y_limits": [
+    -0.002,
+    0.002
+  ],
+  "tick_step": 0.001,
+  "display_power": -3,
+  "groups": [
+    {
+      "label": "KLF16",
+      "points": 335,
+      "below_display": 7,
+      "above_display": 6
+    },
+    {
+      "label": "SP1",
+      "points": 223,
+      "below_display": 2,
+      "above_display": 3
+    },
+    {
+      "label": "SP2",
+      "points": 268,
+      "below_display": 2,
+      "above_display": 3
+    },
+    {
+      "label": "SP4",
+      "points": 238,
+      "below_display": 2,
+      "above_display": 4
+    },
+    {
+      "label": "Background",
+      "points": 389,
+      "below_display": 8,
+      "above_display": 4
+    }
+  ],
+  "total_points": 1453,
+  "no_subsampling": true,
+  "raw_aggregation_reproduced": true,
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "no_inference": true
+}

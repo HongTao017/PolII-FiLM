@@ -1,0 +1,457 @@
+{
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/SP4_MA0685_2_F04_FULL_INPUT_PATTERN_CWM.pdf",
+  "sha256": "9e0f013cba6ff2e32a9f12477e71d43ea8b4a13a461e42fb459ab4a22bd4dc60",
+  "canvas_inches": [
+    13.2,
+    6.8
+  ],
+  "canvas_points": [
+    0.0,
+    0.0,
+    950.4000244140625,
+    489.6000061035156
+  ],
+  "raster_images": 0,
+  "vector_cwm_letters": 200,
+  "font_sizes": [
+    12.0,
+    14.0
+  ],
+  "fonts": [
+    [
+      15,
+      "ttf",
+      "Type0",
+      "ELUGPM+ArialMT",
+      "F1",
+      "Identity-H"
+    ],
+    [
+      22,
+      "ttf",
+      "Type0",
+      "ELUGPM+Arial-BoldMT",
+      "F2",
+      "Identity-H"
+    ]
+  ],
+  "all_text_inside_canvas": true,
+  "top_length": 5600,
+  "region_order": [
+    "tss_sequence",
+    "first_donor_sequence",
+    "first_acceptor_sequence",
+    "pre_tes_sequence"
+  ],
+  "region_lengths": [
+    600,
+    2000,
+    2000,
+    1000
+  ],
+  "region_boundaries": [
+    0,
+    600,
+    2600,
+    4600,
+    5600
+  ],
+  "top_gene": "KLHL23",
+  "top_selected_row": 13,
+  "top_gene_index": 2273,
+  "top_actual_equals_old_TSS": true,
+  "bottom_is_native_pattern_CWM": true,
+  "bottom_n_seqlets": 166,
+  "bottom_signed_range": [
+    -0.0009556372242514044,
+    0.0004000100514925848
+  ],
+  "top_signed_range": [
+    -0.0033777400385588408,
+    0.003387665841728449
+  ],
+  "source_sha256": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_acceptor_sequence.npy": "3962a4bfc9ce5a3e452e0a10003dd134b69a303ad16cff3f53879fb456d70d04",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/pre_tes_sequence.npy": "83c7973800bdc510f90796cb1e212efe27be2c64b98005142008b9f799f6bb58",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/attributions/seed_20260915/hypothetical.npy": "2e95fbed6e2861a51fefc29e41db2f54e0babe5206a405bb4bd639d4dab4d215",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/attributions/seed_20260916/hypothetical.npy": "cd343e5bdbec8cd744d35590d2be60189f3f02a87387fb57904a26bcdf3527ce",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/attributions/seed_20260917/hypothetical.npy": "51453a5a62cba6c7adc5e007797863136c20360fbf74df10cb134faed7cc03ad",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/attributions/seed_20260918/hypothetical.npy": "341e0e324a2871e2915cbf98062106a92aa10058a4ce5f53c6ed16dc59984cee",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/attributions/seed_20260919/hypothetical.npy": "5d6dfc3cf2a9bb6f6009c788305a8adab432a687fd7060c0eea9b9f17e934b46"
+  },
+  "rendered_in_memory": true,
+  "result_not_downloaded": true,
+  "all_text_bounds": [
+    {
+      "text": "TSS window",
+      "bounds": [
+        152.39464285714286,
+        377.76800000000003,
+        92.625,
+        15.0
+      ]
+    },
+    {
+      "text": "First donor window",
+      "bounds": [
+        389.1714285714286,
+        377.76800000000003,
+        140.0,
+        15.0
+      ]
+    },
+    {
+      "text": "First acceptor window",
+      "bounds": [
+        779.3857142857142,
+        377.68987500000003,
+        161.0,
+        15.078125
+      ]
+    },
+    {
+      "text": "Pre-TES window",
+      "bounds": [
+        1098.3589285714286,
+        377.76800000000003,
+        124.125,
+        15.0
+      ]
+    },
+    {
+      "text": "TSS",
+      "bounds": [
+        182.51964285714286,
+        574.909542907401,
+        32.375,
+        25.179345981487813
+      ]
+    },
+    {
+      "text": "Donor",
+      "bounds": [
+        436.4839285714286,
+        574.909542907401,
+        45.375,
+        25.179345981487813
+      ]
+    },
+    {
+      "text": "Acceptor",
+      "bounds": [
+        827.0732142857142,
+        574.9093838033606,
+        65.625,
+        25.257630085528262
+      ]
+    },
+    {
+      "text": "TES",
+      "bounds": [
+        1217.1138888888888,
+        573.4885881026889,
+        40.56518908784119,
+        26.60030078619991
+      ]
+    },
+    {
+      "text": "Grey: source seqlet",
+      "bounds": [
+        286.86785714285713,
+        543.575875,
+        144.25,
+        15.078125
+      ]
+    },
+    {
+      "text": "Concatenated model input position (bp)",
+      "bounds": [
+        529.475,
+        347.41111111111115,
+        340.25,
+        18.0
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        133.975,
+        408.4666666666667,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "600",
+      "bounds": [
+        244.9392857142857,
+        408.4666666666667,
+        27.75,
+        15.0
+      ]
+    },
+    {
+      "text": "1600",
+      "bounds": [
+        440.6714285714286,
+        408.4666666666667,
+        37.0,
+        15.0
+      ]
+    },
+    {
+      "text": "2600",
+      "bounds": [
+        641.0285714285715,
+        408.4666666666667,
+        37.0,
+        15.0
+      ]
+    },
+    {
+      "text": "3600",
+      "bounds": [
+        841.4482142857142,
+        408.4666666666667,
+        36.875,
+        15.0
+      ]
+    },
+    {
+      "text": "4600",
+      "bounds": [
+        1041.742857142857,
+        408.4666666666667,
+        37.0,
+        15.0
+      ]
+    },
+    {
+      "text": "5600",
+      "bounds": [
+        1242.1625,
+        408.4666666666667,
+        36.875,
+        15.0
+      ]
+    },
+    {
+      "text": "Importance\nscore",
+      "bounds": [
+        33.35555555555554,
+        452.6875,
+        38.8,
+        97.625
+      ]
+    },
+    {
+      "text": "-0.006",
+      "bounds": [
+        83.14166666666665,
+        396.0440263756689,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "-0.003",
+      "bounds": [
+        83.26666666666665,
+        443.96222260041066,
+        47.0,
+        15.0
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        121.01666666666665,
+        491.88041882515233,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "0.003",
+      "bounds": [
+        88.76666666666665,
+        539.798615049894,
+        41.5,
+        15.0
+      ]
+    },
+    {
+      "text": "0.006",
+      "bounds": [
+        88.64166666666665,
+        587.7168112746358,
+        41.625,
+        15.0
+      ]
+    },
+    {
+      "text": "Pattern position (bp)",
+      "bounds": [
+        611.85,
+        50.94444444444446,
+        175.5,
+        18.0
+      ]
+    },
+    {
+      "text": "1",
+      "bounds": [
+        145.195,
+        78.66666666666667,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "10",
+      "bounds": [
+        342.53,
+        78.66666666666667,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "20",
+      "bounds": [
+        566.9300000000001,
+        78.66666666666667,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "30",
+      "bounds": [
+        791.3925,
+        78.66666666666667,
+        18.375,
+        15.0
+      ]
+    },
+    {
+      "text": "40",
+      "bounds": [
+        1015.73,
+        78.66666666666667,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "50",
+      "bounds": [
+        1240.1925,
+        78.66666666666667,
+        18.375,
+        15.0
+      ]
+    },
+    {
+      "text": "Contribution\nscore",
+      "bounds": [
+        33.23055555555554,
+        136.01250000000002,
+        38.8,
+        105.375
+      ]
+    },
+    {
+      "text": "-0.002",
+      "bounds": [
+        83.14166666666665,
+        54.79096960306077,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "-0.001",
+      "bounds": [
+        83.14166666666665,
+        126.69249290465737,
+        47.125,
+        15.0
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        121.01666666666665,
+        198.59401620625397,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "0.001",
+      "bounds": [
+        88.64166666666665,
+        270.4955395078506,
+        41.625,
+        15.0
+      ]
+    },
+    {
+      "text": "a",
+      "bounds": [
+        46.2,
+        634.8,
+        10.875,
+        18.0
+      ]
+    },
+    {
+      "text": "SP4-like motif \u00b7 MA0685.2",
+      "bounds": [
+        138.6,
+        639.16,
+        193.37500000000003,
+        15.0
+      ]
+    },
+    {
+      "text": "KLHL23 \u00b7 Fold 04 \u00b7 complete model input",
+      "bounds": [
+        138.6,
+        610.521875,
+        303.25,
+        15.078125
+      ]
+    },
+    {
+      "text": "b",
+      "bounds": [
+        46.2,
+        311.8,
+        11.875,
+        18.0
+      ]
+    },
+    {
+      "text": "Pattern CWM \u00b7 166 seqlets",
+      "bounds": [
+        138.6,
+        314.721875,
+        199.75000000000003,
+        15.078125
+      ]
+    },
+    {
+      "text": "Fold 04 / r0_neg_patterns_pattern_0",
+      "bounds": [
+        138.6,
+        287.31875,
+        270.25,
+        15.28125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_11_JASPAR_even_labels_5x4.pdf",
+  "patterns": 314,
+  "existing_matched_patterns": 44,
+  "original_TOMTOM_records": 79,
+  "distinct_JASPAR_annotations": 11,
+  "annotation_selection": "Prefer smaller original q-values, subject to distinct qualified representative queries.",
+  "annotation_mapping": [
+    {
+      "query": "F03-Donor-P00",
+      "TF": "ZNF184",
+      "matrix_id": "MA2120.1",
+      "q": 0.0226579,
+      "p": 9.06315e-05,
+      "overlap": 13,
+      "leaf": 65,
+      "label_angle_deg": 8.963520555877247,
+      "anchor_angle_deg": 74.52229299363057
+    },
+    {
+      "query": "F04-preTES-P01",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "q": 0.000225959,
+      "p": 9.03835e-07,
+      "overlap": 8,
+      "leaf": 118,
+      "label_angle_deg": 41.69079328314998,
+      "anchor_angle_deg": 108.9171974522293
+    },
+    {
+      "query": "F02-TSS-N00",
+      "TF": "MAZ",
+      "matrix_id": "MA1522.2",
+      "q": 0.0158051,
+      "p": 0.000322255,
+      "overlap": 8,
+      "leaf": 36,
+      "label_angle_deg": 74.4180660104227,
+      "anchor_angle_deg": 124.96815286624204
+    },
+    {
+      "query": "F08-TSS-N00",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "q": 0.00651583,
+      "p": 0.000105849,
+      "overlap": 9,
+      "leaf": 239,
+      "label_angle_deg": 107.14533873769543,
+      "anchor_angle_deg": 126.11464968152868
+    },
+    {
+      "query": "F04-Acceptor-N09",
+      "TF": "EGR1",
+      "matrix_id": "MA0162.5",
+      "q": 0.0139206,
+      "p": 5.58508e-05,
+      "overlap": 10,
+      "leaf": 116,
+      "label_angle_deg": 139.87261146496817,
+      "anchor_angle_deg": 152.48407643312103
+    },
+    {
+      "query": "F07-preTES-N05",
+      "TF": "ZNF407",
+      "matrix_id": "MA2553.1",
+      "q": 0.0370115,
+      "p": 0.000149095,
+      "overlap": 17,
+      "leaf": 234,
+      "label_angle_deg": 172.5998841922409,
+      "anchor_angle_deg": 158.21656050955414
+    },
+    {
+      "query": "F03-preTES-N04",
+      "TF": "CTCF",
+      "matrix_id": "MA0139.2",
+      "q": 0.0409677,
+      "p": 0.000164542,
+      "overlap": 15,
+      "leaf": 91,
+      "label_angle_deg": 205.3271569195136,
+      "anchor_angle_deg": 185.7324840764331
+    },
+    {
+      "query": "F02-Acceptor-N06",
+      "TF": "PAX8",
+      "matrix_id": "MA2094.1",
+      "q": 0.0385651,
+      "p": 0.000154727,
+      "overlap": 16,
+      "leaf": 52,
+      "label_angle_deg": 238.05442964678633,
+      "anchor_angle_deg": 216.687898089172
+    },
+    {
+      "query": "F04-TSS-N00",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "q": 0.000555622,
+      "p": 2.24733e-06,
+      "overlap": 9,
+      "leaf": 94,
+      "label_angle_deg": 270.781702374059,
+      "anchor_angle_deg": 248.78980891719746
+    },
+    {
+      "query": "F05-TSS-P00",
+      "TF": "SP2",
+      "matrix_id": "MA0516.3",
+      "q": 0.00659368,
+      "p": 4.79024e-05,
+      "overlap": 9,
+      "leaf": 124,
+      "label_angle_deg": 303.50897510133177,
+      "anchor_angle_deg": 249.93630573248407
+    },
+    {
+      "query": "F02-TSS-P00",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "q": 0.00734001,
+      "p": 2.97812e-05,
+      "overlap": 11,
+      "leaf": 32,
+      "label_angle_deg": 336.2362478286045,
+      "anchor_angle_deg": 252.22929936305735
+    }
+  ],
+  "labels_are_clusters": false,
+  "no_display_cut": true,
+  "tree_tip_order_unchanged": true,
+  "all_labels_uniformly_spaced": true,
+  "layout_QA": {
+    "clipped": [],
+    "label_collisions": [],
+    "angular_gap_deg": 32.72727272727273
+  },
+  "font": "Arial",
+  "min_text_pt": 11.999999046325684,
+  "canvas_points": [
+    360,
+    288
+  ],
+  "all_text_black": true,
+  "embedded_images": 0,
+  "topology_sha256": "e01e6dfa70e4643e129452e57bab07464c7f6dd003566358b3c722d1bb6459f2",
+  "pdf_sha256": "182fca1dce4e49a5988fc8390923458bc32f6c319a0d9c805b104ef16bfcddaa"
+}

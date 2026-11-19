@@ -1,0 +1,132 @@
+[
+  {
+    "path": "model/ordered_BQIP/deployment_all_genes/seed_20260915.joblib",
+    "seed": 20260915,
+    "groups": [
+      "B",
+      "Q",
+      "I",
+      "P"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/ordered_BQIP/deployment_all_genes/seed_20260916.joblib",
+    "seed": 20260916,
+    "groups": [
+      "B",
+      "Q",
+      "I",
+      "P"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/ordered_BQIP/deployment_all_genes/seed_20260917.joblib",
+    "seed": 20260917,
+    "groups": [
+      "B",
+      "Q",
+      "I",
+      "P"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/ordered_BQIP/deployment_all_genes/seed_20260918.joblib",
+    "seed": 20260918,
+    "groups": [
+      "B",
+      "Q",
+      "I",
+      "P"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/ordered_BQIP/deployment_all_genes/seed_20260919.joblib",
+    "seed": 20260919,
+    "groups": [
+      "B",
+      "Q",
+      "I",
+      "P"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/greedy_BQPI/deployment_all_genes/seed_20260915.joblib",
+    "seed": 20260915,
+    "groups": [
+      "B",
+      "Q",
+      "P",
+      "I"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/greedy_BQPI/deployment_all_genes/seed_20260916.joblib",
+    "seed": 20260916,
+    "groups": [
+      "B",
+      "Q",
+      "P",
+      "I"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/greedy_BQPI/deployment_all_genes/seed_20260917.joblib",
+    "seed": 20260917,
+    "groups": [
+      "B",
+      "Q",
+      "P",
+      "I"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/greedy_BQPI/deployment_all_genes/seed_20260918.joblib",
+    "seed": 20260918,
+    "groups": [
+      "B",
+      "Q",
+      "P",
+      "I"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  },
+  {
+    "path": "model/greedy_BQPI/deployment_all_genes/seed_20260919.joblib",
+    "seed": 20260919,
+    "groups": [
+      "B",
+      "Q",
+      "P",
+      "I"
+    ],
+    "features": 383,
+    "trees": 300,
+    "load": "PASS"
+  }
+]

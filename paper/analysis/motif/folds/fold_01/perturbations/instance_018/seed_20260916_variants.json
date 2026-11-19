@@ -1,0 +1,2133 @@
+{
+  "seed": 20260916,
+  "WT_prediction_signed_Y_PC1": -0.7899788618087769,
+  "variants": [
+    {
+      "position": 166,
+      "coordinate0": 111245029,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00013244152069091797,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 166,
+      "coordinate0": 111245029,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00040590763092041016,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 166,
+      "coordinate0": 111245029,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0008187294006347656,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 167,
+      "coordinate0": 111245030,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -9.262561798095703e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 167,
+      "coordinate0": 111245030,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0003502368927001953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 167,
+      "coordinate0": 111245030,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00028526782989501953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 168,
+      "coordinate0": 111245031,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00042235851287841797,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 168,
+      "coordinate0": 111245031,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0002841949462890625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 168,
+      "coordinate0": 111245031,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.000674128532409668,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 169,
+      "coordinate0": 111245032,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00022220611572265625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 169,
+      "coordinate0": 111245032,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0005323886871337891,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 169,
+      "coordinate0": 111245032,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 8.630752563476562e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 170,
+      "coordinate0": 111245033,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0004903078079223633,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 170,
+      "coordinate0": 111245033,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00033795833587646484,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 170,
+      "coordinate0": 111245033,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.000491023063659668,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 171,
+      "coordinate0": 111245034,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 4.8279762268066406e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 171,
+      "coordinate0": 111245034,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0002778768539428711,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 171,
+      "coordinate0": 111245034,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002580881118774414,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 172,
+      "coordinate0": 111245035,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -2.6226043701171875e-06,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 172,
+      "coordinate0": 111245035,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0004146099090576172,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 172,
+      "coordinate0": 111245035,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0004526376724243164,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 173,
+      "coordinate0": 111245036,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0003205537796020508,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 173,
+      "coordinate0": 111245036,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001399517059326172,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 173,
+      "coordinate0": 111245036,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0007474422454833984,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 174,
+      "coordinate0": 111245037,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -1.8715858459472656e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 174,
+      "coordinate0": 111245037,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0004410743713378906,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 174,
+      "coordinate0": 111245037,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0001385211944580078,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 175,
+      "coordinate0": 111245038,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.0005556344985961914,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 175,
+      "coordinate0": 111245038,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0003923177719116211,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 175,
+      "coordinate0": 111245038,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0010035037994384766,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 176,
+      "coordinate0": 111245039,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 7.164478302001953e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 176,
+      "coordinate0": 111245039,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 3.8623809814453125e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 176,
+      "coordinate0": 111245039,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0003148317337036133,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 177,
+      "coordinate0": 111245040,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.0004044771194458008,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 177,
+      "coordinate0": 111245040,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00032782554626464844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 177,
+      "coordinate0": 111245040,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006225109100341797,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 178,
+      "coordinate0": 111245041,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0003833770751953125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 178,
+      "coordinate0": 111245041,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0005060434341430664,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 178,
+      "coordinate0": 111245041,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006415843963623047,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 179,
+      "coordinate0": 111245042,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0004621744155883789,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 179,
+      "coordinate0": 111245042,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00020956993103027344,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 179,
+      "coordinate0": 111245042,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006952285766601562,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 180,
+      "coordinate0": 111245043,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00011587142944335938,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 180,
+      "coordinate0": 111245043,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -4.6372413635253906e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 180,
+      "coordinate0": 111245043,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005941390991210938,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 181,
+      "coordinate0": 111245044,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0002454519271850586,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 181,
+      "coordinate0": 111245044,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00033414363861083984,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 181,
+      "coordinate0": 111245044,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002874135971069336,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 182,
+      "coordinate0": 111245045,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00016570091247558594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 182,
+      "coordinate0": 111245045,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0003145933151245117,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 182,
+      "coordinate0": 111245045,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0004063844680786133,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 183,
+      "coordinate0": 111245046,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -8.440017700195312e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 183,
+      "coordinate0": 111245046,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0005081892013549805,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 183,
+      "coordinate0": 111245046,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00036132335662841797,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 184,
+      "coordinate0": 111245047,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0003635883331298828,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 184,
+      "coordinate0": 111245047,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 0.00011074542999267578,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 184,
+      "coordinate0": 111245047,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0007857084274291992,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 185,
+      "coordinate0": 111245048,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -7.998943328857422e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 185,
+      "coordinate0": 111245048,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00027441978454589844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 185,
+      "coordinate0": 111245048,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005376338958740234,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 186,
+      "coordinate0": 111245049,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00025522708892822266,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 186,
+      "coordinate0": 111245049,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001468658447265625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 186,
+      "coordinate0": 111245049,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005789995193481445,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 187,
+      "coordinate0": 111245050,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -5.0902366638183594e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 187,
+      "coordinate0": 111245050,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0002732276916503906,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 187,
+      "coordinate0": 111245050,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0004099607467651367,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 188,
+      "coordinate0": 111245051,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00042760372161865234,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 188,
+      "coordinate0": 111245051,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -6.401538848876953e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 188,
+      "coordinate0": 111245051,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00043570995330810547,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 189,
+      "coordinate0": 111245052,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00011324882507324219,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 189,
+      "coordinate0": 111245052,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0002694129943847656,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 189,
+      "coordinate0": 111245052,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00089263916015625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 190,
+      "coordinate0": 111245053,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0002332925796508789,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 190,
+      "coordinate0": 111245053,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00021147727966308594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 190,
+      "coordinate0": 111245053,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001971721649169922,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 191,
+      "coordinate0": 111245054,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00036406517028808594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 191,
+      "coordinate0": 111245054,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0007892847061157227,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 191,
+      "coordinate0": 111245054,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0010166168212890625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 192,
+      "coordinate0": 111245055,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00026154518127441406,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 192,
+      "coordinate0": 111245055,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0004843473434448242,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 192,
+      "coordinate0": 111245055,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006765127182006836,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 193,
+      "coordinate0": 111245056,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00037229061126708984,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 193,
+      "coordinate0": 111245056,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0002429485321044922,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 193,
+      "coordinate0": 111245056,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0007452964782714844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 194,
+      "coordinate0": 111245057,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0004036426544189453,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 194,
+      "coordinate0": 111245057,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0002028942108154297,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 194,
+      "coordinate0": 111245057,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0003795623779296875,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 195,
+      "coordinate0": 111245058,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00015282630920410156,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 195,
+      "coordinate0": 111245058,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001285076141357422,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 195,
+      "coordinate0": 111245058,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0004955530166625977,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 196,
+      "coordinate0": 111245059,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001207590103149414,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 196,
+      "coordinate0": 111245059,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00015294551849365234,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 196,
+      "coordinate0": 111245059,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0003865957260131836,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 197,
+      "coordinate0": 111245060,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001188516616821289,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 197,
+      "coordinate0": 111245060,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -7.2479248046875e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 197,
+      "coordinate0": 111245060,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005158185958862305,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 198,
+      "coordinate0": 111245061,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00023984909057617188,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 198,
+      "coordinate0": 111245061,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -9.906291961669922e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 198,
+      "coordinate0": 111245061,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0003275871276855469,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 199,
+      "coordinate0": 111245062,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -4.0531158447265625e-06,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 199,
+      "coordinate0": 111245062,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001342296600341797,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 199,
+      "coordinate0": 111245062,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0003248453140258789,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 200,
+      "coordinate0": 111245063,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -7.987022399902344e-06,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 200,
+      "coordinate0": 111245063,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0003529787063598633,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 200,
+      "coordinate0": 111245063,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00020563602447509766,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 201,
+      "coordinate0": 111245064,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00030303001403808594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 201,
+      "coordinate0": 111245064,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00033724308013916016,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 201,
+      "coordinate0": 111245064,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.000743865966796875,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 202,
+      "coordinate0": 111245065,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -1.1205673217773438e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 202,
+      "coordinate0": 111245065,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -6.091594696044922e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 202,
+      "coordinate0": 111245065,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0004684925079345703,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 203,
+      "coordinate0": 111245066,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0001385211944580078,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 203,
+      "coordinate0": 111245066,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00043129920959472656,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 203,
+      "coordinate0": 111245066,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00039708614349365234,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 204,
+      "coordinate0": 111245067,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.000644683837890625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 204,
+      "coordinate0": 111245067,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0006445646286010742,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 204,
+      "coordinate0": 111245067,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00080108642578125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 205,
+      "coordinate0": 111245068,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0001518726348876953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 205,
+      "coordinate0": 111245068,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00026416778564453125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 205,
+      "coordinate0": 111245068,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005838871002197266,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 206,
+      "coordinate0": 111245069,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0004734992980957031,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 206,
+      "coordinate0": 111245069,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0002931356430053711,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 206,
+      "coordinate0": 111245069,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00036513805389404297,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 207,
+      "coordinate0": 111245070,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0003485679626464844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 207,
+      "coordinate0": 111245070,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00032973289489746094,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 207,
+      "coordinate0": 111245070,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006482601165771484,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 208,
+      "coordinate0": 111245071,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0003796815872192383,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 208,
+      "coordinate0": 111245071,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00036013126373291016,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 208,
+      "coordinate0": 111245071,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006095170974731445,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 209,
+      "coordinate0": 111245072,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0005397796630859375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 209,
+      "coordinate0": 111245072,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00022339820861816406,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 209,
+      "coordinate0": 111245072,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0009313821792602539,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 210,
+      "coordinate0": 111245073,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00047016143798828125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 210,
+      "coordinate0": 111245073,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0004286766052246094,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 210,
+      "coordinate0": 111245073,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0005725622177124023,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 211,
+      "coordinate0": 111245074,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00033545494079589844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 211,
+      "coordinate0": 111245074,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 4.38690185546875e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 211,
+      "coordinate0": 111245074,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0007238388061523438,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 212,
+      "coordinate0": 111245075,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 7.56978988647461e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 212,
+      "coordinate0": 111245075,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00028455257415771484,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 212,
+      "coordinate0": 111245075,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005680322647094727,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 213,
+      "coordinate0": 111245076,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0004878044128417969,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 213,
+      "coordinate0": 111245076,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001823902130126953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 213,
+      "coordinate0": 111245076,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.000645756721496582,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 214,
+      "coordinate0": 111245077,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00019025802612304688,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 214,
+      "coordinate0": 111245077,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0004611015319824219,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 214,
+      "coordinate0": 111245077,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005754232406616211,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 215,
+      "coordinate0": 111245078,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00044989585876464844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 215,
+      "coordinate0": 111245078,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 2.586841583251953e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 215,
+      "coordinate0": 111245078,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00032901763916015625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 216,
+      "coordinate0": 111245079,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 6.175041198730469e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 216,
+      "coordinate0": 111245079,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0001354217529296875,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 216,
+      "coordinate0": 111245079,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002346038818359375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 217,
+      "coordinate0": 111245080,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -8.392333984375e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 217,
+      "coordinate0": 111245080,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0003807544708251953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 217,
+      "coordinate0": 111245080,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002815723419189453,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 218,
+      "coordinate0": 111245081,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 7.3909759521484375e-06,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 218,
+      "coordinate0": 111245081,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.000293731689453125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 218,
+      "coordinate0": 111245081,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005925893783569336,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 219,
+      "coordinate0": 111245082,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0004049539566040039,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 219,
+      "coordinate0": 111245082,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00011837482452392578,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 219,
+      "coordinate0": 111245082,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0004749298095703125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 220,
+      "coordinate0": 111245083,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00029718875885009766,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 220,
+      "coordinate0": 111245083,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0003066062927246094,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 220,
+      "coordinate0": 111245083,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006278753280639648,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 221,
+      "coordinate0": 111245084,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001513957977294922,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 221,
+      "coordinate0": 111245084,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00025844573974609375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 221,
+      "coordinate0": 111245084,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0001704692840576172,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 222,
+      "coordinate0": 111245085,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00020706653594970703,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 222,
+      "coordinate0": 111245085,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0002950429916381836,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 222,
+      "coordinate0": 111245085,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0007108449935913086,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 223,
+      "coordinate0": 111245086,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00033164024353027344,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 223,
+      "coordinate0": 111245086,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0002936124801635742,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 223,
+      "coordinate0": 111245086,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002912282943725586,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 224,
+      "coordinate0": 111245087,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 7.128715515136719e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 224,
+      "coordinate0": 111245087,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00035512447357177734,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 224,
+      "coordinate0": 111245087,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006395578384399414,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 225,
+      "coordinate0": 111245088,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 4.947185516357422e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 225,
+      "coordinate0": 111245088,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00023162364959716797,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 225,
+      "coordinate0": 111245088,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00043952465057373047,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 226,
+      "coordinate0": 111245089,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 9.655952453613281e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 226,
+      "coordinate0": 111245089,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0003190040588378906,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 226,
+      "coordinate0": 111245089,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.000832676887512207,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 227,
+      "coordinate0": 111245090,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00016987323760986328,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 227,
+      "coordinate0": 111245090,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00011110305786132812,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 227,
+      "coordinate0": 111245090,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002378225326538086,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 228,
+      "coordinate0": 111245091,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00042247772216796875,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 228,
+      "coordinate0": 111245091,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0001596212387084961,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 228,
+      "coordinate0": 111245091,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0008385181427001953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 229,
+      "coordinate0": 111245092,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0002987384796142578,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 229,
+      "coordinate0": 111245092,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00024831295013427734,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 229,
+      "coordinate0": 111245092,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006890296936035156,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 230,
+      "coordinate0": 111245093,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00015842914581298828,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 230,
+      "coordinate0": 111245093,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00035774707794189453,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 230,
+      "coordinate0": 111245093,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0007314682006835938,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 231,
+      "coordinate0": 111245094,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0002802610397338867,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 231,
+      "coordinate0": 111245094,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0002455711364746094,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 231,
+      "coordinate0": 111245094,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0005072355270385742,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 232,
+      "coordinate0": 111245095,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0005251169204711914,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 232,
+      "coordinate0": 111245095,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0006297826766967773,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 232,
+      "coordinate0": 111245095,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0011147260665893555,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 233,
+      "coordinate0": 111245096,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0006594657897949219,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 233,
+      "coordinate0": 111245096,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00023949146270751953,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 233,
+      "coordinate0": 111245096,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0007174015045166016,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 234,
+      "coordinate0": 111245097,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0007151365280151367,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 234,
+      "coordinate0": 111245097,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00040340423583984375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 234,
+      "coordinate0": 111245097,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0009216070175170898,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 235,
+      "coordinate0": 111245098,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00019502639770507812,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 235,
+      "coordinate0": 111245098,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -1.3709068298339844e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 235,
+      "coordinate0": 111245098,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006142854690551758,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 236,
+      "coordinate0": 111245099,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001842975616455078,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 236,
+      "coordinate0": 111245099,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0002593994140625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 236,
+      "coordinate0": 111245099,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00030410289764404297,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 237,
+      "coordinate0": 111245100,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00024640560150146484,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 237,
+      "coordinate0": 111245100,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -5.9723854064941406e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 237,
+      "coordinate0": 111245100,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0003999471664428711,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 238,
+      "coordinate0": 111245101,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00013780593872070312,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 238,
+      "coordinate0": 111245101,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 5.245208740234375e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 238,
+      "coordinate0": 111245101,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00048172473907470703,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 239,
+      "coordinate0": 111245102,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00013506412506103516,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 239,
+      "coordinate0": 111245102,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -8.928775787353516e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 239,
+      "coordinate0": 111245102,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005550384521484375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 240,
+      "coordinate0": 111245103,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 1.5139579772949219e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 240,
+      "coordinate0": 111245103,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00022268295288085938,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 240,
+      "coordinate0": 111245103,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.000423431396484375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 241,
+      "coordinate0": 111245104,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0002859830856323242,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 241,
+      "coordinate0": 111245104,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 3.5762786865234375e-06,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 241,
+      "coordinate0": 111245104,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0006014108657836914,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 242,
+      "coordinate0": 111245105,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001537799835205078,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 242,
+      "coordinate0": 111245105,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00012862682342529297,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 242,
+      "coordinate0": 111245105,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006772279739379883,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 243,
+      "coordinate0": 111245106,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00017154216766357422,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 243,
+      "coordinate0": 111245106,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 0.00021398067474365234,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 243,
+      "coordinate0": 111245106,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0007419586181640625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 244,
+      "coordinate0": 111245107,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.0002090930938720703,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 244,
+      "coordinate0": 111245107,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 7.68899917602539e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 244,
+      "coordinate0": 111245107,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006362199783325195,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 245,
+      "coordinate0": 111245108,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00033295154571533203,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 245,
+      "coordinate0": 111245108,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.000217437744140625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 245,
+      "coordinate0": 111245108,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00042748451232910156,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 246,
+      "coordinate0": 111245109,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00023448467254638672,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 246,
+      "coordinate0": 111245109,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00020313262939453125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 246,
+      "coordinate0": 111245109,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00045549869537353516,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 247,
+      "coordinate0": 111245110,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0003476142883300781,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 247,
+      "coordinate0": 111245110,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0004210472106933594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 247,
+      "coordinate0": 111245110,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.000400543212890625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 248,
+      "coordinate0": 111245111,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0001519918441772461,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 248,
+      "coordinate0": 111245111,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001195669174194336,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 248,
+      "coordinate0": 111245111,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0005092620849609375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 249,
+      "coordinate0": 111245112,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00041174888610839844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 249,
+      "coordinate0": 111245112,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00046896934509277344,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 249,
+      "coordinate0": 111245112,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 5.507469177246094e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 250,
+      "coordinate0": 111245113,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0005753040313720703,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 250,
+      "coordinate0": 111245113,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -4.208087921142578e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 250,
+      "coordinate0": 111245113,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006661415100097656,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 251,
+      "coordinate0": 111245114,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.000125885009765625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 251,
+      "coordinate0": 111245114,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0001399517059326172,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 251,
+      "coordinate0": 111245114,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006084442138671875,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 252,
+      "coordinate0": 111245115,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00028336048126220703,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 252,
+      "coordinate0": 111245115,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00013697147369384766,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 252,
+      "coordinate0": 111245115,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006750822067260742,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 253,
+      "coordinate0": 111245116,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.0002416372299194336,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 253,
+      "coordinate0": 111245116,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00020492076873779297,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 253,
+      "coordinate0": 111245116,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006651878356933594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 254,
+      "coordinate0": 111245117,
+      "alternative": "A",
+      "delta_signed_Y_PC1": 0.00014710426330566406,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 254,
+      "coordinate0": 111245117,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00011682510375976562,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 254,
+      "coordinate0": 111245117,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006566047668457031,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 255,
+      "coordinate0": 111245118,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00035071372985839844,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 255,
+      "coordinate0": 111245118,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00041663646697998047,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 255,
+      "coordinate0": 111245118,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0004642009735107422,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 256,
+      "coordinate0": 111245119,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0002872943878173828,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 256,
+      "coordinate0": 111245119,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0003857612609863281,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 256,
+      "coordinate0": 111245119,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 3.0994415283203125e-06,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 257,
+      "coordinate0": 111245120,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 1.1801719665527344e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 257,
+      "coordinate0": 111245120,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00017702579498291016,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 257,
+      "coordinate0": 111245120,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00039458274841308594,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 258,
+      "coordinate0": 111245121,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -9.751319885253906e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 258,
+      "coordinate0": 111245121,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.000513911247253418,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 258,
+      "coordinate0": 111245121,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.00022661685943603516,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 259,
+      "coordinate0": 111245122,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00023031234741210938,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 259,
+      "coordinate0": 111245122,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00020694732666015625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 259,
+      "coordinate0": 111245122,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.0003529787063598633,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 260,
+      "coordinate0": 111245123,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00033283233642578125,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 260,
+      "coordinate0": 111245123,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.00021600723266601562,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 260,
+      "coordinate0": 111245123,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.000805974006652832,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 261,
+      "coordinate0": 111245124,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.0001735687255859375,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 261,
+      "coordinate0": 111245124,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00041854381561279297,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 261,
+      "coordinate0": 111245124,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005593299865722656,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 262,
+      "coordinate0": 111245125,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0005384683609008789,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 262,
+      "coordinate0": 111245125,
+      "alternative": "G",
+      "delta_signed_Y_PC1": 3.981590270996094e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 262,
+      "coordinate0": 111245125,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006721019744873047,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 263,
+      "coordinate0": 111245126,
+      "alternative": "C",
+      "delta_signed_Y_PC1": -0.0002714395523071289,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 263,
+      "coordinate0": 111245126,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00040352344512939453,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 263,
+      "coordinate0": 111245126,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 5.650520324707031e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 264,
+      "coordinate0": 111245127,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.00016736984252929688,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 264,
+      "coordinate0": 111245127,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -0.00010013580322265625,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 264,
+      "coordinate0": 111245127,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0002065896987915039,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 265,
+      "coordinate0": 111245128,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 0.0003179311752319336,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 265,
+      "coordinate0": 111245128,
+      "alternative": "G",
+      "delta_signed_Y_PC1": -8.20159912109375e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 265,
+      "coordinate0": 111245128,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0005173683166503906,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 266,
+      "coordinate0": 111245129,
+      "alternative": "A",
+      "delta_signed_Y_PC1": -0.00018680095672607422,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 266,
+      "coordinate0": 111245129,
+      "alternative": "C",
+      "delta_signed_Y_PC1": 1.0967254638671875e-05,
+      "synchronized_copies": 1
+    },
+    {
+      "position": 266,
+      "coordinate0": 111245129,
+      "alternative": "T",
+      "delta_signed_Y_PC1": 0.0006527900695800781,
+      "synchronized_copies": 1
+    }
+  ],
+  "checkpoint": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_01/seed_20260916",
+    "checkpoint_sha256": "98955e790d736d509f971e6ae7819d9c4ea300856a1b5ab501449d439c048286",
+    "preprocessing_sha256": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
+    "fingerprint": "e4f4e2a22aac9bc0567aacaf3654b1991a6b1a09966238bed2acb21d25ce9088"
+  }
+}

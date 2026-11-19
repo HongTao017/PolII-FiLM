@@ -1,0 +1,30 @@
+{
+  "user_selected": true,
+  "screened_instances_before_selection": 237,
+  "gene": "ZBTB7A",
+  "TF": "SP4",
+  "matrix_id": "MA0685.2",
+  "TOMTOM": {
+    "Query_ID": "r0_pos_patterns_pattern_0",
+    "Target_ID": "MA0685.2",
+    "Optimal_offset": "-20",
+    "p-value": "0.000175518",
+    "E-value": "0.0219398",
+    "q-value": "0.0173997",
+    "Overlap": "9",
+    "Query_consensus": "GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG",
+    "Target_consensus": "GGGGCGGGG",
+    "Orientation": "+"
+  },
+  "smoothed_stats": {
+    "smoothed_peak_ratio_all_flanks": 1.3172012391086374,
+    "smoothed_peak_ratio_distant_flanks": 1.3172012391086374,
+    "smoothed_mean_ratio": 1.8192703152685277,
+    "smoothed_global_peak_inside_core": true,
+    "smoothed_core_peak": 0.003520006258042824,
+    "smoothed_flank_peak": 0.0026723374937187624,
+    "smoothed_core_peak_position": 99,
+    "definition": "Both curves, Gaussian sigma1.1bp. Core is exact FIMO interval; flanks exclude2bp boundary guard and5bp display edges; no display cropping."
+  },
+  "scope": "Only this final case retained; original full TOMTOM search universe retained to document its original p/q values."
+}

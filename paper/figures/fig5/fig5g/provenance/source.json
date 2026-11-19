@@ -1,0 +1,9 @@
+{
+  "source_experiment": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/full_gene_q4_20261108/",
+  "source_curve_file": "position_curves.tsv",
+  "source_curve_sha256": "868ac4bf3c5903e6573cac26b321e8fae8fd32fe944ecc2b6c4d3db23ce307c2",
+  "previous_layout_pdf_sha256": "dd8a8eaef02cceb4f891b485b30d81c5d53155c074663321d54c771be27d4169",
+  "source_genes": 15351,
+  "test_folds": 10,
+  "source_score": "saluki_abs_mean_delta"
+}

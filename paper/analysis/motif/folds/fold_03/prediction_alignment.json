@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "NFATC3",
+      "conditional_FP32": 1.8875648975372314,
+      "official_FP32": 1.8875648975372314,
+      "saved_BF16": 1.8943922710192969,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.006827373482065413
+    },
+    {
+      "seed": 20260915,
+      "gene": "COQ5",
+      "conditional_FP32": 4.992520332336426,
+      "official_FP32": 4.992520332336426,
+      "saved_BF16": 4.980663322846953,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.011857009489473214
+    },
+    {
+      "seed": 20260916,
+      "gene": "NFATC3",
+      "conditional_FP32": 3.5318143367767334,
+      "official_FP32": 3.5318143367767334,
+      "saved_BF16": 3.5394329731727168,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.007618636395983369
+    },
+    {
+      "seed": 20260916,
+      "gene": "COQ5",
+      "conditional_FP32": 6.082709789276123,
+      "official_FP32": 6.082709789276123,
+      "saved_BF16": 6.087062379162528,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.004352589886404523
+    },
+    {
+      "seed": 20260917,
+      "gene": "NFATC3",
+      "conditional_FP32": 3.1149535179138184,
+      "official_FP32": 3.1149535179138184,
+      "saved_BF16": 3.1172543858944053,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.002300867980586929
+    },
+    {
+      "seed": 20260917,
+      "gene": "COQ5",
+      "conditional_FP32": 6.1083269119262695,
+      "official_FP32": 6.1083269119262695,
+      "saved_BF16": 6.1161781438024105,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.007851231876141007
+    },
+    {
+      "seed": 20260918,
+      "gene": "NFATC3",
+      "conditional_FP32": 1.868346929550171,
+      "official_FP32": 1.868346929550171,
+      "saved_BF16": 1.865276506379413,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.0030704231707578966
+    },
+    {
+      "seed": 20260918,
+      "gene": "COQ5",
+      "conditional_FP32": 6.526716232299805,
+      "official_FP32": 6.526716232299805,
+      "saved_BF16": 6.52379884876078,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.0029173835390245983
+    },
+    {
+      "seed": 20260919,
+      "gene": "NFATC3",
+      "conditional_FP32": 3.4818782806396484,
+      "official_FP32": 3.4818782806396484,
+      "saved_BF16": 3.4957593262128914,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.01388104557324299
+    },
+    {
+      "seed": 20260919,
+      "gene": "COQ5",
+      "conditional_FP32": 5.789308547973633,
+      "official_FP32": 5.789308547973633,
+      "saved_BF16": 5.795904732763692,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.006596184790058857
+    }
+  ],
+  "comparison": "FP32 conditional wrapper versus FP32 original model; saved BF16 separately checked on CUDA",
+  "atol": 2e-05,
+  "rtol": 2e-05
+}

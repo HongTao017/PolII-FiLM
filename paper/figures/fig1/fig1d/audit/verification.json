@@ -1,0 +1,43 @@
+{
+  "panel": "D",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "frozen_data_hashes_verified": 5,
+  "page_size_pt": [
+    360.0,
+    288.0
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "statistics_and_box_geometry_unchanged": true,
+    "colors": {
+      "Same": "#C89EC4",
+      "Different": "#84B1ED"
+    },
+    "statistics": [
+      {
+        "comparison": "after_preprocessing_pearson_r",
+        "test": "one-sided Mann-Whitney U",
+        "alternative": "Same > Different",
+        "statistic": 19207.0,
+        "p_value": 0.00014909475489336386,
+        "n_same": 54,
+        "n_different": 548,
+        "same_median": 0.5661739900709447,
+        "different_median": 0.48765174602621053
+      },
+      {
+        "comparison": "before_imputation_pearson_r",
+        "test": "one-sided Mann-Whitney U",
+        "alternative": "Same > Different",
+        "statistic": 19173.0,
+        "p_value": 0.0001659834572003942,
+        "n_same": 54,
+        "n_different": 548,
+        "same_median": 0.5631841213279208,
+        "different_median": 0.4859195231867891
+      }
+    ]
+  }
+}

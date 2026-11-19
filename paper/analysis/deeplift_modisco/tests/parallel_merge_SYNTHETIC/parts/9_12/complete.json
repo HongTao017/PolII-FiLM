@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "stage": "attribution",
+  "seed": 20260915,
+  "start": 9,
+  "stop": 12,
+  "selected_genes_sha256": "e6be54d232c891e7764968c7d0b6548fa2c2d0838118809e67483bf8347725a4",
+  "checkpoint": {
+    "folder": "SYNTHETIC_NOT_MODEL",
+    "checkpoint_sha256": "synthetic"
+  },
+  "outputs_sha256": {
+    "parts/9_12/hypothetical.npy": "9956577287342f8cc4f5802d604e65a6f51f4141f7c543b2916c4135ebb16756",
+    "parts/9_12/completeness.npz": "9736a66765d5278c2d43f5f9c3ec74c393440546172825b0ee90e648381bdedb"
+  }
+}

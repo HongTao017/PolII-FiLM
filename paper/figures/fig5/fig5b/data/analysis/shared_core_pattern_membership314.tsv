@@ -1,0 +1,315 @@
+pattern_id	pattern_key	tree_rank	matched	group_id	sequence_group_name	display_label	status	TFs	JASPAR_ids	q_values
+F08-Acceptor-N02	F08__r2_neg_patterns_pattern_2	1	0				not_annotated_on_overview			
+F08-Acceptor-N03	F08__r2_neg_patterns_pattern_3	2	0				not_annotated_on_overview			
+F08-Acceptor-N05	F08__r2_neg_patterns_pattern_5	3	0				not_annotated_on_overview			
+F08-Acceptor-N00	F08__r2_neg_patterns_pattern_0	4	0				not_annotated_on_overview			
+F08-Acceptor-N04	F08__r2_neg_patterns_pattern_4	5	0				not_annotated_on_overview			
+F02-Acceptor-N04	F02__r2_neg_patterns_pattern_4	6	0				not_annotated_on_overview			
+F05-preTES-N02	F05__r3_neg_patterns_pattern_2	7	0				not_annotated_on_overview			
+F06-Acceptor-N04	F06__r2_neg_patterns_pattern_4	8	0				not_annotated_on_overview			
+F04-preTES-N01	F04__r3_neg_patterns_pattern_1	9	0				not_annotated_on_overview			
+F01-Acceptor-N04	F01__r2_neg_patterns_pattern_4	10	0				not_annotated_on_overview			
+F10-Donor-N01	F10__r1_neg_patterns_pattern_1	11	0				not_annotated_on_overview			
+F03-Donor-N01	F03__r1_neg_patterns_pattern_1	12	0				not_annotated_on_overview			
+F04-Donor-N01	F04__r1_neg_patterns_pattern_1	13	0				not_annotated_on_overview			
+F08-Donor-N01	F08__r1_neg_patterns_pattern_1	14	0				not_annotated_on_overview			
+F07-Donor-N00	F07__r1_neg_patterns_pattern_0	15	0				not_annotated_on_overview			
+F08-Donor-P01	F08__r1_pos_patterns_pattern_1	16	0				not_annotated_on_overview			
+F07-preTES-N01	F07__r3_neg_patterns_pattern_1	17	0				not_annotated_on_overview			
+F03-Acceptor-P02	F03__r2_pos_patterns_pattern_2	18	0				not_annotated_on_overview			
+F05-Acceptor-N05	F05__r2_neg_patterns_pattern_5	19	0				not_annotated_on_overview			
+F06-Donor-N00	F06__r1_neg_patterns_pattern_0	20	0				not_annotated_on_overview			
+F08-preTES-N00	F08__r3_neg_patterns_pattern_0	21	0				not_annotated_on_overview			
+F02-Acceptor-N00	F02__r2_neg_patterns_pattern_0	22	0				not_annotated_on_overview			
+F05-Acceptor-N00	F05__r2_neg_patterns_pattern_0	23	0				not_annotated_on_overview			
+F04-Donor-N00	F04__r1_neg_patterns_pattern_0	24	0				not_annotated_on_overview			
+F06-Acceptor-N00	F06__r2_neg_patterns_pattern_0	25	0				not_annotated_on_overview			
+F09-Acceptor-N00	F09__r2_neg_patterns_pattern_0	26	1	S01		S01	independent_matched_pattern	KLF16	MA0741.1	0.0466881
+F01-Acceptor-N00	F01__r2_neg_patterns_pattern_0	27	0				not_annotated_on_overview			
+F10-Acceptor-N00	F10__r2_neg_patterns_pattern_0	28	0				not_annotated_on_overview			
+F07-preTES-N00	F07__r3_neg_patterns_pattern_0	29	0				not_annotated_on_overview			
+F07-Acceptor-N00	F07__r2_neg_patterns_pattern_0	30	0				not_annotated_on_overview			
+F05-preTES-N00	F05__r3_neg_patterns_pattern_0	31	0				not_annotated_on_overview			
+F04-preTES-N00	F04__r3_neg_patterns_pattern_0	32	0				not_annotated_on_overview			
+F02-preTES-N00	F02__r3_neg_patterns_pattern_0	33	0				not_annotated_on_overview			
+F09-preTES-N00	F09__r3_neg_patterns_pattern_0	34	0				not_annotated_on_overview			
+F06-TSS-P01	F06__r0_pos_patterns_pattern_1	35	1	S02		S02	independent_matched_pattern	KLF16	MA0741.1	0.0253469
+F07-TSS-P01	F07__r0_pos_patterns_pattern_1	36	0				not_annotated_on_overview			
+F04-TSS-P01	F04__r0_pos_patterns_pattern_1	37	0				not_annotated_on_overview			
+F08-TSS-P01	F08__r0_pos_patterns_pattern_1	38	0				not_annotated_on_overview			
+F01-TSS-P00	F01__r0_pos_patterns_pattern_0	39	0				not_annotated_on_overview			
+F08-Donor-N03	F08__r1_neg_patterns_pattern_3	40	0				not_annotated_on_overview			
+F03-Donor-N00	F03__r1_neg_patterns_pattern_0	41	0				not_annotated_on_overview			
+F03-Acceptor-N00	F03__r2_neg_patterns_pattern_0	42	0				not_annotated_on_overview			
+F04-Acceptor-N00	F04__r2_neg_patterns_pattern_0	43	0				not_annotated_on_overview			
+F07-TSS-N01	F07__r0_neg_patterns_pattern_1	44	0				not_annotated_on_overview			
+F04-preTES-P00	F04__r3_pos_patterns_pattern_0	45	0				not_annotated_on_overview			
+F07-Donor-N01	F07__r1_neg_patterns_pattern_1	46	0				not_annotated_on_overview			
+F01-preTES-P00	F01__r3_pos_patterns_pattern_0	47	0				not_annotated_on_overview			
+F06-TSS-N01	F06__r0_neg_patterns_pattern_1	48	0				not_annotated_on_overview			
+F10-TSS-N00	F10__r0_neg_patterns_pattern_0	49	0				not_annotated_on_overview			
+F08-Donor-N02	F08__r1_neg_patterns_pattern_2	50	0				not_annotated_on_overview			
+F10-preTES-P01	F10__r3_pos_patterns_pattern_1	51	0				not_annotated_on_overview			
+F06-Donor-P02	F06__r1_pos_patterns_pattern_2	52	0				not_annotated_on_overview			
+F02-Acceptor-P00	F02__r2_pos_patterns_pattern_0	53	0				not_annotated_on_overview			
+F03-Acceptor-P00	F03__r2_pos_patterns_pattern_0	54	0				not_annotated_on_overview			
+F01-Acceptor-P00	F01__r2_pos_patterns_pattern_0	55	0				not_annotated_on_overview			
+F05-Acceptor-P00	F05__r2_pos_patterns_pattern_0	56	0				not_annotated_on_overview			
+F06-Acceptor-P00	F06__r2_pos_patterns_pattern_0	57	0				not_annotated_on_overview			
+F09-Acceptor-P00	F09__r2_pos_patterns_pattern_0	58	0				not_annotated_on_overview			
+F04-Acceptor-P00	F04__r2_pos_patterns_pattern_0	59	0				not_annotated_on_overview			
+F03-Donor-P01	F03__r1_pos_patterns_pattern_1	60	1	G01	TN3T	TN3T	shared_core_clade	ZNF384	MA1125.2	0.0143787
+F08-Acceptor-P00	F08__r2_pos_patterns_pattern_0	61	1	G01	TN3T	TN3T	shared_core_clade	ZNF384	MA1125.2	0.0300582
+F07-Acceptor-P00	F07__r2_pos_patterns_pattern_0	62	0				not_annotated_on_overview			
+F10-Acceptor-P00	F10__r2_pos_patterns_pattern_0	63	0				not_annotated_on_overview			
+F01-Donor-P00	F01__r1_pos_patterns_pattern_0	64	0				not_annotated_on_overview			
+F06-Donor-P01	F06__r1_pos_patterns_pattern_1	65	0				not_annotated_on_overview			
+F03-Donor-P00	F03__r1_pos_patterns_pattern_0	66	1	S03		S03	independent_matched_pattern	ZNF184	MA2120.1	0.0226579
+F07-Donor-P01	F07__r1_pos_patterns_pattern_1	67	0				not_annotated_on_overview			
+F08-Donor-P00	F08__r1_pos_patterns_pattern_0	68	0				not_annotated_on_overview			
+F04-Donor-P00	F04__r1_pos_patterns_pattern_0	69	0				not_annotated_on_overview			
+F02-Donor-P00	F02__r1_pos_patterns_pattern_0	70	0				not_annotated_on_overview			
+F05-Donor-P00	F05__r1_pos_patterns_pattern_0	71	0				not_annotated_on_overview			
+F09-Donor-P00	F09__r1_pos_patterns_pattern_0	72	0				not_annotated_on_overview			
+F07-Donor-P00	F07__r1_pos_patterns_pattern_0	73	0				not_annotated_on_overview			
+F06-Donor-P00	F06__r1_pos_patterns_pattern_0	74	0				not_annotated_on_overview			
+F10-Donor-P00	F10__r1_pos_patterns_pattern_0	75	0				not_annotated_on_overview			
+F06-preTES-N00	F06__r3_neg_patterns_pattern_0	76	0				not_annotated_on_overview			
+F05-preTES-N01	F05__r3_neg_patterns_pattern_1	77	0				not_annotated_on_overview			
+F09-preTES-N01	F09__r3_neg_patterns_pattern_1	78	0				not_annotated_on_overview			
+F02-preTES-N01	F02__r3_neg_patterns_pattern_1	79	0				not_annotated_on_overview			
+F08-preTES-N01	F08__r3_neg_patterns_pattern_1	80	0				not_annotated_on_overview			
+F06-preTES-P01	F06__r3_pos_patterns_pattern_1	81	0				not_annotated_on_overview			
+F07-preTES-P00	F07__r3_pos_patterns_pattern_0	82	0				not_annotated_on_overview			
+F06-preTES-P03	F06__r3_pos_patterns_pattern_3	83	1	S04		S04	independent_matched_pattern	ZNF384	MA1125.2	0.0224733
+F06-preTES-P07	F06__r3_pos_patterns_pattern_7	84	0				not_annotated_on_overview			
+F07-preTES-P01	F07__r3_pos_patterns_pattern_1	85	0				not_annotated_on_overview			
+F07-preTES-P08	F07__r3_pos_patterns_pattern_8	86	0				not_annotated_on_overview			
+F03-preTES-P01	F03__r3_pos_patterns_pattern_1	87	0				not_annotated_on_overview			
+F04-Acceptor-P05	F04__r2_pos_patterns_pattern_5	88	0				not_annotated_on_overview			
+F02-preTES-P00	F02__r3_pos_patterns_pattern_0	89	0				not_annotated_on_overview			
+F06-preTES-P04	F06__r3_pos_patterns_pattern_4	90	0				not_annotated_on_overview			
+F07-preTES-P02	F07__r3_pos_patterns_pattern_2	91	1	G02	TN5T3WTT	TN5T3WTT	shared_core_clade	ZNF384	MA1125.2	0.0172816
+F07-preTES-P03	F07__r3_pos_patterns_pattern_3	92	0	G02	TN5T3WTT	TN5T3WTT	shared_core_clade			
+F01-Donor-P01	F01__r1_pos_patterns_pattern_1	93	1	G03	4T-01	4T-01	shared_core_clade	ZNF384	MA1125.2	0.00918934
+F06-preTES-P02	F06__r3_pos_patterns_pattern_2	94	0	G03	4T-01	4T-01	shared_core_clade			
+F07-preTES-P06	F07__r3_pos_patterns_pattern_6	95	1	G03	4T-01	4T-01	shared_core_clade	ZNF384	MA1125.2	0.0183627
+F04-preTES-P01	F04__r3_pos_patterns_pattern_1	96	1	G04	4T-02	4T-02	shared_core_clade	ZNF384	MA1125.2	0.000225959
+F04-Acceptor-P02	F04__r2_pos_patterns_pattern_2	97	1	G04	4T-02	4T-02	shared_core_clade	ZNF384	MA1125.2	0.0255158
+F07-preTES-P05	F07__r3_pos_patterns_pattern_5	98	0	G04	4T-02	4T-02	shared_core_clade			
+F01-preTES-P01	F01__r3_pos_patterns_pattern_1	99	1	S05		S05	independent_matched_pattern	ZNF384	MA1125.2	0.010247
+F06-preTES-P05	F06__r3_pos_patterns_pattern_5	100	0				not_annotated_on_overview			
+F03-Acceptor-P03	F03__r2_pos_patterns_pattern_3	101	0	G05	TNWTT	TNWTT	shared_core_clade			
+F03-preTES-P02	F03__r3_pos_patterns_pattern_2	102	1	G05	TNWTT	TNWTT	shared_core_clade	ZNF384	MA1125.2	0.0280458
+F01-preTES-P03	F01__r3_pos_patterns_pattern_3	103	0				not_annotated_on_overview			
+F05-Acceptor-N09	F05__r2_neg_patterns_pattern_9	104	0				not_annotated_on_overview			
+F03-Acceptor-N03	F03__r2_neg_patterns_pattern_3	105	0				not_annotated_on_overview			
+F04-Acceptor-N03	F04__r2_neg_patterns_pattern_3	106	0				not_annotated_on_overview			
+F08-preTES-N02	F08__r3_neg_patterns_pattern_2	107	0				not_annotated_on_overview			
+F02-TSS-P03	F02__r0_pos_patterns_pattern_3	108	1	S06		S06	independent_matched_pattern	KLF16;EGR1;SP2;SP4;SP1	MA0741.1;MA0162.5;MA0516.3;MA0685.2;MA0079.5	0.0385951;0.0466561;0.0466561;0.0466561;0.0466561
+F09-Donor-N04	F09__r1_neg_patterns_pattern_4	109	0				not_annotated_on_overview			
+F02-TSS-N00	F02__r0_neg_patterns_pattern_0	110	1	G06	CN3C	CN3C	shared_core_clade	SP4;KLF16;SP2;SP1;MAZ	MA0685.2;MA0741.1;MA0516.3;MA0079.5;MA1522.2	0.0158051;0.0158051;0.0158051;0.0158051;0.0158051
+F08-TSS-N00	F08__r0_neg_patterns_pattern_0	111	1	G06	CN3C	CN3C	shared_core_clade	SP1;KLF16;SP2;SP4	MA0079.5;MA0741.1;MA0516.3;MA0685.2	0.00623895;0.00623895;0.00623895;0.00651583
+F01-Acceptor-N06	F01__r2_neg_patterns_pattern_6	112	0				not_annotated_on_overview			
+F03-Acceptor-N04	F03__r2_neg_patterns_pattern_4	113	0				not_annotated_on_overview			
+F05-Acceptor-N08	F05__r2_neg_patterns_pattern_8	114	0				not_annotated_on_overview			
+F06-Donor-N04	F06__r1_neg_patterns_pattern_4	115	0				not_annotated_on_overview			
+F03-TSS-N00	F03__r0_neg_patterns_pattern_0	116	0				not_annotated_on_overview			
+F01-TSS-P01	F01__r0_pos_patterns_pattern_1	117	1	G07	RGNGG	RGNGG	shared_core_clade	KLF16;SP4	MA0741.1;MA0685.2	0.0442091;0.0442091
+F02-TSS-P01	F02__r0_pos_patterns_pattern_1	118	0	G07	RGNGG	RGNGG	shared_core_clade			
+F01-preTES-N02	F01__r3_neg_patterns_pattern_2	119	0				not_annotated_on_overview			
+F06-Donor-N07	F06__r1_neg_patterns_pattern_7	120	0				not_annotated_on_overview			
+F01-Donor-N02	F01__r1_neg_patterns_pattern_2	121	0				not_annotated_on_overview			
+F03-preTES-N03	F03__r3_neg_patterns_pattern_3	122	0				not_annotated_on_overview			
+F05-Acceptor-N10	F05__r2_neg_patterns_pattern_10	123	0				not_annotated_on_overview			
+F08-Acceptor-N06	F08__r2_neg_patterns_pattern_6	124	0				not_annotated_on_overview			
+F09-Donor-N06	F09__r1_neg_patterns_pattern_6	125	0				not_annotated_on_overview			
+F06-preTES-N03	F06__r3_neg_patterns_pattern_3	126	0				not_annotated_on_overview			
+F10-TSS-P02	F10__r0_pos_patterns_pattern_2	127	0				not_annotated_on_overview			
+F08-preTES-N03	F08__r3_neg_patterns_pattern_3	128	0				not_annotated_on_overview			
+F09-Donor-N05	F09__r1_neg_patterns_pattern_5	129	0				not_annotated_on_overview			
+F07-Donor-N04	F07__r1_neg_patterns_pattern_4	130	0				not_annotated_on_overview			
+F01-preTES-N00	F01__r3_neg_patterns_pattern_0	131	0				not_annotated_on_overview			
+F07-preTES-N04	F07__r3_neg_patterns_pattern_4	132	0				not_annotated_on_overview			
+F09-TSS-N00	F09__r0_neg_patterns_pattern_0	133	0				not_annotated_on_overview			
+F04-Acceptor-N09	F04__r2_neg_patterns_pattern_9	134	1	S07		S07	independent_matched_pattern	EGR1	MA0162.5	0.0139206
+F05-TSS-N01	F05__r0_neg_patterns_pattern_1	135	0				not_annotated_on_overview			
+F06-Donor-N05	F06__r1_neg_patterns_pattern_5	136	0				not_annotated_on_overview			
+F01-Donor-N01	F01__r1_neg_patterns_pattern_1	137	0				not_annotated_on_overview			
+F05-preTES-N03	F05__r3_neg_patterns_pattern_3	138	0	G08	GAGNC	GAGNC	shared_core_clade			
+F07-preTES-N05	F07__r3_neg_patterns_pattern_5	139	1	G08	GAGNC	GAGNC	shared_core_clade	ZNF407	MA2553.1	0.0370115
+F05-Acceptor-N02	F05__r2_neg_patterns_pattern_2	140	0				not_annotated_on_overview			
+F04-Acceptor-N02	F04__r2_neg_patterns_pattern_2	141	0				not_annotated_on_overview			
+F10-Acceptor-N04	F10__r2_neg_patterns_pattern_4	142	0				not_annotated_on_overview			
+F02-Donor-P01	F02__r1_pos_patterns_pattern_1	143	0				not_annotated_on_overview			
+F02-TSS-N02	F02__r0_neg_patterns_pattern_2	144	0				not_annotated_on_overview			
+F01-preTES-P02	F01__r3_pos_patterns_pattern_2	145	0				not_annotated_on_overview			
+F07-preTES-P04	F07__r3_pos_patterns_pattern_4	146	0				not_annotated_on_overview			
+F04-Acceptor-P04	F04__r2_pos_patterns_pattern_4	147	0				not_annotated_on_overview			
+F02-TSS-N01	F02__r0_neg_patterns_pattern_1	148	0				not_annotated_on_overview			
+F04-Acceptor-P03	F04__r2_pos_patterns_pattern_3	149	0				not_annotated_on_overview			
+F10-preTES-P00	F10__r3_pos_patterns_pattern_0	150	1	S08		S08	independent_matched_pattern	ZNF384	MA1125.2	0.0057218
+F06-preTES-P00	F06__r3_pos_patterns_pattern_0	151	0				not_annotated_on_overview			
+F06-preTES-P06	F06__r3_pos_patterns_pattern_6	152	0				not_annotated_on_overview			
+F01-TSS-N02	F01__r0_neg_patterns_pattern_2	153	0				not_annotated_on_overview			
+F09-TSS-N01	F09__r0_neg_patterns_pattern_1	154	0				not_annotated_on_overview			
+F02-TSS-N03	F02__r0_neg_patterns_pattern_3	155	0				not_annotated_on_overview			
+F03-Donor-P02	F03__r1_pos_patterns_pattern_2	156	0				not_annotated_on_overview			
+F07-preTES-P07	F07__r3_pos_patterns_pattern_7	157	0				not_annotated_on_overview			
+F09-TSS-N02	F09__r0_neg_patterns_pattern_2	158	0				not_annotated_on_overview			
+F06-preTES-P08	F06__r3_pos_patterns_pattern_8	159	0				not_annotated_on_overview			
+F05-TSS-N04	F05__r0_neg_patterns_pattern_4	160	0				not_annotated_on_overview			
+F09-Acceptor-P04	F09__r2_pos_patterns_pattern_4	161	0				not_annotated_on_overview			
+F01-Acceptor-N11	F01__r2_neg_patterns_pattern_11	162	0				not_annotated_on_overview			
+F03-preTES-N04	F03__r3_neg_patterns_pattern_4	163	1	S09		S09	independent_matched_pattern	CTCF	MA0139.2	0.0409677
+F10-Acceptor-N06	F10__r2_neg_patterns_pattern_6	164	0				not_annotated_on_overview			
+F03-Acceptor-N05	F03__r2_neg_patterns_pattern_5	165	0				not_annotated_on_overview			
+F09-preTES-N04	F09__r3_neg_patterns_pattern_4	166	0				not_annotated_on_overview			
+F03-preTES-N02	F03__r3_neg_patterns_pattern_2	167	0				not_annotated_on_overview			
+F07-preTES-N07	F07__r3_neg_patterns_pattern_7	168	0				not_annotated_on_overview			
+F05-preTES-N06	F05__r3_neg_patterns_pattern_6	169	0				not_annotated_on_overview			
+F03-Acceptor-N09	F03__r2_neg_patterns_pattern_9	170	0				not_annotated_on_overview			
+F01-preTES-N01	F01__r3_neg_patterns_pattern_1	171	0				not_annotated_on_overview			
+F06-preTES-N04	F06__r3_neg_patterns_pattern_4	172	0				not_annotated_on_overview			
+F05-Donor-N00	F05__r1_neg_patterns_pattern_0	173	0				not_annotated_on_overview			
+F06-Donor-N03	F06__r1_neg_patterns_pattern_3	174	0				not_annotated_on_overview			
+F07-TSS-P02	F07__r0_pos_patterns_pattern_2	175	0				not_annotated_on_overview			
+F07-Donor-N02	F07__r1_neg_patterns_pattern_2	176	0				not_annotated_on_overview			
+F02-preTES-N03	F02__r3_neg_patterns_pattern_3	177	0				not_annotated_on_overview			
+F03-Acceptor-N06	F03__r2_neg_patterns_pattern_6	178	0				not_annotated_on_overview			
+F01-TSS-N01	F01__r0_neg_patterns_pattern_1	179	0				not_annotated_on_overview			
+F04-TSS-N02	F04__r0_neg_patterns_pattern_2	180	0				not_annotated_on_overview			
+F08-TSS-N01	F08__r0_neg_patterns_pattern_1	181	0				not_annotated_on_overview			
+F02-Donor-N00	F02__r1_neg_patterns_pattern_0	182	0				not_annotated_on_overview			
+F07-preTES-N02	F07__r3_neg_patterns_pattern_2	183	0				not_annotated_on_overview			
+F08-Donor-P02	F08__r1_pos_patterns_pattern_2	184	0				not_annotated_on_overview			
+F05-TSS-N02	F05__r0_neg_patterns_pattern_2	185	0				not_annotated_on_overview			
+F05-Donor-N01	F05__r1_neg_patterns_pattern_1	186	0				not_annotated_on_overview			
+F06-Donor-N02	F06__r1_neg_patterns_pattern_2	187	0				not_annotated_on_overview			
+F10-TSS-P01	F10__r0_pos_patterns_pattern_1	188	0				not_annotated_on_overview			
+F06-preTES-N02	F06__r3_neg_patterns_pattern_2	189	0				not_annotated_on_overview			
+F02-Acceptor-N06	F02__r2_neg_patterns_pattern_6	190	1	S10		S10	independent_matched_pattern	PAX8	MA2094.1	0.0385651
+F05-preTES-N04	F05__r3_neg_patterns_pattern_4	191	0				not_annotated_on_overview			
+F07-Donor-N03	F07__r1_neg_patterns_pattern_3	192	0				not_annotated_on_overview			
+F07-Donor-N05	F07__r1_neg_patterns_pattern_5	193	0				not_annotated_on_overview			
+F10-Donor-P01	F10__r1_pos_patterns_pattern_1	194	0				not_annotated_on_overview			
+F01-Acceptor-N09	F01__r2_neg_patterns_pattern_9	195	0				not_annotated_on_overview			
+F07-preTES-N06	F07__r3_neg_patterns_pattern_6	196	0				not_annotated_on_overview			
+F09-Donor-N02	F09__r1_neg_patterns_pattern_2	197	0				not_annotated_on_overview			
+F05-preTES-N05	F05__r3_neg_patterns_pattern_5	198	0				not_annotated_on_overview			
+F02-preTES-N04	F02__r3_neg_patterns_pattern_4	199	0				not_annotated_on_overview			
+F09-preTES-N03	F09__r3_neg_patterns_pattern_3	200	0				not_annotated_on_overview			
+F05-TSS-N03	F05__r0_neg_patterns_pattern_3	201	0				not_annotated_on_overview			
+F06-Donor-P03	F06__r1_pos_patterns_pattern_3	202	0				not_annotated_on_overview			
+F04-TSS-N01	F04__r0_neg_patterns_pattern_1	203	1	S11		S11	independent_matched_pattern	KLF16	MA0741.1	0.00821567
+F01-Donor-N00	F01__r1_neg_patterns_pattern_0	204	0				not_annotated_on_overview			
+F08-TSS-P00	F08__r0_pos_patterns_pattern_0	205	0				not_annotated_on_overview			
+F09-TSS-P01	F09__r0_pos_patterns_pattern_1	206	0				not_annotated_on_overview			
+F06-Donor-N01	F06__r1_neg_patterns_pattern_1	207	0				not_annotated_on_overview			
+F08-Donor-N00	F08__r1_neg_patterns_pattern_0	208	0				not_annotated_on_overview			
+F10-Donor-N00	F10__r1_neg_patterns_pattern_0	209	0				not_annotated_on_overview			
+F09-Donor-N00	F09__r1_neg_patterns_pattern_0	210	0				not_annotated_on_overview			
+F10-Donor-N02	F10__r1_neg_patterns_pattern_2	211	0				not_annotated_on_overview			
+F03-TSS-P00	F03__r0_pos_patterns_pattern_0	212	1	S12		S12	independent_matched_pattern	KLF16;EGR1	MA0741.1;MA0162.5	0.02358;0.0335064
+F05-TSS-P01	F05__r0_pos_patterns_pattern_1	213	0				not_annotated_on_overview			
+F01-TSS-N00	F01__r0_neg_patterns_pattern_0	214	1	S13		S13	independent_matched_pattern	SP4;SP1;SP2;KLF16	MA0685.2;MA0079.5;MA0516.3;MA0741.1	0.0243257;0.0255676;0.0303088;0.0303088
+F07-TSS-P00	F07__r0_pos_patterns_pattern_0	215	1	G09	SN3G	SN3G	shared_core_clade	SP2	MA0516.3	0.0251707
+F10-TSS-P00	F10__r0_pos_patterns_pattern_0	216	1	G09	SN3G	SN3G	shared_core_clade	SP1;SP4;SP2;KLF16	MA0079.5;MA0685.2;MA0516.3;MA0741.1	0.0173997;0.0173997;0.0173997;0.0173997
+F09-TSS-P00	F09__r0_pos_patterns_pattern_0	217	0	G09	SN3G	SN3G	shared_core_clade			
+F04-TSS-N00	F04__r0_neg_patterns_pattern_0	218	1	G09	SN3G	SN3G	shared_core_clade	SP1;SP4;SP2	MA0079.5;MA0685.2;MA0516.3	0.000555622;0.00212697;0.00214277
+F05-TSS-P00	F05__r0_pos_patterns_pattern_0	219	1	G09	SN3G	SN3G	shared_core_clade	SP2;SP1;KLF16;SP4	MA0516.3;MA0079.5;MA0741.1;MA0685.2	0.00659368;0.00659368;0.0200356;0.0200356
+F10-TSS-N01	F10__r0_neg_patterns_pattern_1	220	1	S14		S14	independent_matched_pattern	KLF16	MA0741.1	0.03567
+F02-TSS-P00	F02__r0_pos_patterns_pattern_0	221	1	S15		S15	independent_matched_pattern	KLF16	MA0741.1	0.00734001
+F04-TSS-P00	F04__r0_pos_patterns_pattern_0	222	0				not_annotated_on_overview			
+F03-TSS-P01	F03__r0_pos_patterns_pattern_1	223	1	S16		S16	independent_matched_pattern	SP4;SP1;SP2;KLF16	MA0685.2;MA0079.5;MA0516.3;MA0741.1	0.0159589;0.0294263;0.0294263;0.0353782
+F06-TSS-P00	F06__r0_pos_patterns_pattern_0	224	1	G10	S3C	S3C	shared_core_clade	KLF16;SP2;SP4;SP1	MA0741.1;MA0516.3;MA0685.2;MA0079.5	0.011868;0.011868;0.0132651;0.028723
+F06-TSS-N00	F06__r0_neg_patterns_pattern_0	225	0	G10	S3C	S3C	shared_core_clade			
+F07-TSS-N00	F07__r0_neg_patterns_pattern_0	226	1	G10	S3C	S3C	shared_core_clade	KLF16;SP4;SP2;SP1	MA0741.1;MA0685.2;MA0516.3;MA0079.5	0.0202126;0.0202126;0.0202126;0.0230507
+F06-preTES-N01	F06__r3_neg_patterns_pattern_1	227	0				not_annotated_on_overview			
+F01-Acceptor-N03	F01__r2_neg_patterns_pattern_3	228	0				not_annotated_on_overview			
+F09-preTES-N02	F09__r3_neg_patterns_pattern_2	229	0				not_annotated_on_overview			
+F03-Acceptor-N02	F03__r2_neg_patterns_pattern_2	230	0				not_annotated_on_overview			
+F03-preTES-N00	F03__r3_neg_patterns_pattern_0	231	0				not_annotated_on_overview			
+F02-preTES-N05	F02__r3_neg_patterns_pattern_5	232	0				not_annotated_on_overview			
+F07-Acceptor-N02	F07__r2_neg_patterns_pattern_2	233	0				not_annotated_on_overview			
+F02-Acceptor-N01	F02__r2_neg_patterns_pattern_1	234	0				not_annotated_on_overview			
+F03-Acceptor-N01	F03__r2_neg_patterns_pattern_1	235	0				not_annotated_on_overview			
+F07-Acceptor-N05	F07__r2_neg_patterns_pattern_5	236	0				not_annotated_on_overview			
+F04-preTES-N02	F04__r3_neg_patterns_pattern_2	237	0				not_annotated_on_overview			
+F06-Acceptor-N01	F06__r2_neg_patterns_pattern_1	238	0				not_annotated_on_overview			
+F05-Acceptor-N04	F05__r2_neg_patterns_pattern_4	239	0				not_annotated_on_overview			
+F09-Acceptor-N01	F09__r2_neg_patterns_pattern_1	240	0				not_annotated_on_overview			
+F04-Acceptor-N01	F04__r2_neg_patterns_pattern_1	241	0				not_annotated_on_overview			
+F10-Acceptor-N01	F10__r2_neg_patterns_pattern_1	242	0				not_annotated_on_overview			
+F01-Acceptor-N01	F01__r2_neg_patterns_pattern_1	243	0				not_annotated_on_overview			
+F05-Acceptor-N03	F05__r2_neg_patterns_pattern_3	244	0				not_annotated_on_overview			
+F06-Acceptor-N03	F06__r2_neg_patterns_pattern_3	245	0				not_annotated_on_overview			
+F04-preTES-N03	F04__r3_neg_patterns_pattern_3	246	0				not_annotated_on_overview			
+F09-Acceptor-N03	F09__r2_neg_patterns_pattern_3	247	0				not_annotated_on_overview			
+F01-Acceptor-N07	F01__r2_neg_patterns_pattern_7	248	0				not_annotated_on_overview			
+F02-Acceptor-N07	F02__r2_neg_patterns_pattern_7	249	0				not_annotated_on_overview			
+F10-Acceptor-N07	F10__r2_neg_patterns_pattern_7	250	0				not_annotated_on_overview			
+F04-Acceptor-N07	F04__r2_neg_patterns_pattern_7	251	0				not_annotated_on_overview			
+F10-Acceptor-N03	F10__r2_neg_patterns_pattern_3	252	0				not_annotated_on_overview			
+F07-Acceptor-N06	F07__r2_neg_patterns_pattern_6	253	0				not_annotated_on_overview			
+F09-Acceptor-N04	F09__r2_neg_patterns_pattern_4	254	0				not_annotated_on_overview			
+F04-Acceptor-N06	F04__r2_neg_patterns_pattern_6	255	0				not_annotated_on_overview			
+F07-Acceptor-N08	F07__r2_neg_patterns_pattern_8	256	0				not_annotated_on_overview			
+F04-Donor-P01	F04__r1_pos_patterns_pattern_1	257	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F04-Acceptor-P01	F04__r2_pos_patterns_pattern_1	258	1	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade	ZNF384	MA1125.2	0.00468491
+F09-Acceptor-P03	F09__r2_pos_patterns_pattern_3	259	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F01-Acceptor-P01	F01__r2_pos_patterns_pattern_1	260	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F02-Acceptor-P01	F02__r2_pos_patterns_pattern_1	261	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F03-Acceptor-P01	F03__r2_pos_patterns_pattern_1	262	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F05-Acceptor-P01	F05__r2_pos_patterns_pattern_1	263	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F08-Acceptor-P01	F08__r2_pos_patterns_pattern_1	264	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F01-Acceptor-P02	F01__r2_pos_patterns_pattern_2	265	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F05-preTES-P01	F05__r3_pos_patterns_pattern_1	266	1	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade	ZNF384	MA1125.2	0.0401279
+F09-Acceptor-P05	F09__r2_pos_patterns_pattern_5	267	0	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade			
+F09-Acceptor-P01	F09__r2_pos_patterns_pattern_1	268	1	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade	ZNF384	MA1125.2	0.0201215
+F10-Acceptor-P02	F10__r2_pos_patterns_pattern_2	269	1	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade	ZNF384	MA1125.2	0.0195769
+F02-preTES-P01	F02__r3_pos_patterns_pattern_1	270	1	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade	ZNF384	MA1125.2	0.0271405
+F05-preTES-P00	F05__r3_pos_patterns_pattern_0	271	1	G11	4TKTW5T-01	4TKTW5T-01	shared_core_clade	ZNF384	MA1125.2	0.010659
+F09-Donor-N03	F09__r1_neg_patterns_pattern_3	272	0				not_annotated_on_overview			
+F05-Acceptor-N01	F05__r2_neg_patterns_pattern_1	273	0				not_annotated_on_overview			
+F04-Acceptor-N08	F04__r2_neg_patterns_pattern_8	274	0				not_annotated_on_overview			
+F07-preTES-N03	F07__r3_neg_patterns_pattern_3	275	0				not_annotated_on_overview			
+F02-preTES-N02	F02__r3_neg_patterns_pattern_2	276	0				not_annotated_on_overview			
+F07-Acceptor-N03	F07__r2_neg_patterns_pattern_3	277	0				not_annotated_on_overview			
+F05-Acceptor-N06	F05__r2_neg_patterns_pattern_6	278	0				not_annotated_on_overview			
+F01-Acceptor-N05	F01__r2_neg_patterns_pattern_5	279	0				not_annotated_on_overview			
+F02-Acceptor-N03	F02__r2_neg_patterns_pattern_3	280	0				not_annotated_on_overview			
+F07-Acceptor-N04	F07__r2_neg_patterns_pattern_4	281	0				not_annotated_on_overview			
+F07-Acceptor-N07	F07__r2_neg_patterns_pattern_7	282	0				not_annotated_on_overview			
+F10-Acceptor-N05	F10__r2_neg_patterns_pattern_5	283	0				not_annotated_on_overview			
+F02-TSS-P02	F02__r0_pos_patterns_pattern_2	284	1	G12	4GSNGG	4GSNGG	shared_core_clade	SP1;SP4;SP2	MA0079.5;MA0685.2;MA0516.3	0.0111583;0.0228348;0.0352457
+F05-TSS-N00	F05__r0_neg_patterns_pattern_0	285	1	G12	4GSNGG	4GSNGG	shared_core_clade	SP1	MA0079.5	0.0251695
+F03-Acceptor-N08	F03__r2_neg_patterns_pattern_8	286	0				not_annotated_on_overview			
+F02-Donor-N01	F02__r1_neg_patterns_pattern_1	287	0				not_annotated_on_overview			
+F06-Donor-N06	F06__r1_neg_patterns_pattern_6	288	0				not_annotated_on_overview			
+F08-TSS-N02	F08__r0_neg_patterns_pattern_2	289	0				not_annotated_on_overview			
+F03-preTES-P00	F03__r3_pos_patterns_pattern_0	290	1	G13	4TKTW5T-02	4TKTW5T-02	shared_core_clade	ZNF384	MA1125.2	0.00297812
+F07-Acceptor-P01	F07__r2_pos_patterns_pattern_1	291	0	G13	4TKTW5T-02	4TKTW5T-02	shared_core_clade			
+F06-Acceptor-P01	F06__r2_pos_patterns_pattern_1	292	0	G13	4TKTW5T-02	4TKTW5T-02	shared_core_clade			
+F09-Acceptor-P02	F09__r2_pos_patterns_pattern_2	293	0	G13	4TKTW5T-02	4TKTW5T-02	shared_core_clade			
+F04-preTES-P02	F04__r3_pos_patterns_pattern_2	294	1	G13	4TKTW5T-02	4TKTW5T-02	shared_core_clade	ZNF384	MA1125.2	0.0237736
+F10-Acceptor-P01	F10__r2_pos_patterns_pattern_1	295	0	G13	4TKTW5T-02	4TKTW5T-02	shared_core_clade			
+F05-Acceptor-N07	F05__r2_neg_patterns_pattern_7	296	0				not_annotated_on_overview			
+F06-Acceptor-N07	F06__r2_neg_patterns_pattern_7	297	0				not_annotated_on_overview			
+F06-Acceptor-N06	F06__r2_neg_patterns_pattern_6	298	0				not_annotated_on_overview			
+F01-Acceptor-N08	F01__r2_neg_patterns_pattern_8	299	0				not_annotated_on_overview			
+F08-Acceptor-N01	F08__r2_neg_patterns_pattern_1	300	0				not_annotated_on_overview			
+F03-Acceptor-N07	F03__r2_neg_patterns_pattern_7	301	0				not_annotated_on_overview			
+F04-Acceptor-N04	F04__r2_neg_patterns_pattern_4	302	0				not_annotated_on_overview			
+F10-Acceptor-N02	F10__r2_neg_patterns_pattern_2	303	0				not_annotated_on_overview			
+F07-Acceptor-N01	F07__r2_neg_patterns_pattern_1	304	0				not_annotated_on_overview			
+F09-Acceptor-N02	F09__r2_neg_patterns_pattern_2	305	0				not_annotated_on_overview			
+F01-Acceptor-N02	F01__r2_neg_patterns_pattern_2	306	0				not_annotated_on_overview			
+F02-Acceptor-N02	F02__r2_neg_patterns_pattern_2	307	0				not_annotated_on_overview			
+F03-preTES-N01	F03__r3_neg_patterns_pattern_1	308	0				not_annotated_on_overview			
+F06-Acceptor-N02	F06__r2_neg_patterns_pattern_2	309	0				not_annotated_on_overview			
+F09-Donor-N01	F09__r1_neg_patterns_pattern_1	310	0				not_annotated_on_overview			
+F02-Acceptor-N05	F02__r2_neg_patterns_pattern_5	311	0				not_annotated_on_overview			
+F06-Acceptor-N05	F06__r2_neg_patterns_pattern_5	312	0				not_annotated_on_overview			
+F01-Acceptor-N10	F01__r2_neg_patterns_pattern_10	313	0				not_annotated_on_overview			
+F04-Acceptor-N05	F04__r2_neg_patterns_pattern_5	314	0				not_annotated_on_overview			

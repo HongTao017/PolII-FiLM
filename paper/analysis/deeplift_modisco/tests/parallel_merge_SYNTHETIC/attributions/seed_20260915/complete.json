@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "seed": 20260915,
+  "genes": 12,
+  "folder": "SYNTHETIC_NOT_MODEL",
+  "checkpoint_sha256": "synthetic",
+  "method": "SYNTHETIC_MERGE_TEST",
+  "execution": "four-device independent gene shards, restored original gene order",
+  "output_sha256": {
+    "hypothetical.npy": "92760c4d7532d3db60cd7ea6465e9d821824a327d5087538fa14f083c05e2213",
+    "completeness.npz": "99bf3b99d7f054af209cbd7de6ded16fd70b8a9ac4097daeb9ff450ee86def57"
+  }
+}

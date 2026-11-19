@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "selected_parameters": {
+    "config_id": "c006",
+    "pca_components": 30,
+    "pca_variance_retained": 0.8093991075765598,
+    "perplexity": 10.0,
+    "early_exaggeration": 8.0,
+    "learning_rate": 50.0,
+    "max_iter": 2000,
+    "n_iter_without_progress": 500,
+    "init": "random",
+    "metric": "euclidean",
+    "method": "barnes_hut",
+    "angle": 0.5,
+    "random_state": 42
+  },
+  "coordinate_reproduction_exact": true,
+  "maximum_absolute_error": 0.0,
+  "sample_count": 105
+}

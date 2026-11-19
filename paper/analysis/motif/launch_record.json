@@ -1,0 +1,15 @@
+{
+  "pid": 740922,
+  "command": [
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/bin/python",
+    "-B",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/resume_controller_fold10_device_mean_01.py"
+  ],
+  "recovery_revision": "fold10_device_mean_01",
+  "physical_gpus": [
+    4,
+    5,
+    6
+  ],
+  "launched_utc": "2026-10-16T01:02:08Z"
+}

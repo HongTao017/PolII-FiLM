@@ -1,0 +1,11 @@
+{
+  "approved_source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\26_final_test_feature_comparison_TF_binding_site_NA.pdf",
+  "approved_sha256": "f17dd08c988e7a37798f2c26a9ec165a091b8a53991e6fb83ba2c9b0778fb312",
+  "training_root": "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train",
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "drawing_inputs": "All inputs necessary for offline redraw are in data/. Original training arrays/model checkpoints are not needed for redraw.",
+  "interpretation": "12模型×10折测试分布；每折为5种子集成。11项双侧配对t检验，Bonferroni×11。N/A仅替换两处校正P=1的显示，不代表缺失；原始P值保存在数据和PDF元信息中。重叠训练折的检验属探索性分析。",
+  "previous_approved_source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\22_final_test_feature_comparison_custom_palette_NA.pdf",
+  "previous_approved_sha256": "20205c0a1bad17fa63d43dc0853871981a1e70942059c8b40b491d23105277d1",
+  "label_change": "Predicted CTCF binding -> TF binding site. Display-name change only; the same two CTCF-derived features, data, p-values and palette are retained."
+}

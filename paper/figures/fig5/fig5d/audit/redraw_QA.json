@@ -1,0 +1,137 @@
+{
+  "axis_spine_linewidth_pt": 1.3,
+  "output": "G:\\\u5e8f\u5217\u5206\u6790\u753b\u56fe\\Png\\png\\fig5\\fig5d\\audit\\redraw.pdf",
+  "sha256": "b8ac272c72a8e908e17a210426b2369bb53815fb3e8dafe8c1251c8d2dc3d0ee",
+  "bytes": 77613,
+  "canvas_inches": [
+    18,
+    5.5
+  ],
+  "curve_y_limits": [
+    0.0,
+    0.0038016067586862505
+  ],
+  "curve_y_ticks": [
+    0.0,
+    0.001,
+    0.002,
+    0.003,
+    0.004
+  ],
+  "curve_y_tick_labels": [
+    "0",
+    "0.001",
+    "0.002",
+    "0.003",
+    "0.004"
+  ],
+  "displayed_bp": 101,
+  "full_original_screening_window_displayed": true,
+  "source_data_exact_and_unscaled": true,
+  "heatmap_exact_and_unscaled": true,
+  "curve_amplitude_rescaled": false,
+  "curve_smoothing_sigma_bp": 1.1,
+  "curve_smoothing_kernel_radius_bp": 5,
+  "curve_smoothing_padding": "zero",
+  "curve_y_axis_mode": "1.08_times_smoothed_peak",
+  "raw_curve_peak": 0.003910255432128906,
+  "smoothed_curve_peak": 0.003520006258042824,
+  "heatmap_color_limit": 0.003910255432128906,
+  "zero_baseline_preserved": true,
+  "all_text_inside_canvas": true,
+  "sequence_letters_do_not_overlap": true,
+  "unit": "signed original predicted Y_PC1; mutant minus WT",
+  "n_seeds": 5,
+  "mutant_predictions": 1515,
+  "source_completion_sha256": "44bbebc3afb3a3901c6ae6425d2e9b3cee20179cec834e2d5c71b2814c2c5843",
+  "WT_cells_zero": true,
+  "raster_images": 0,
+  "font_sizes": [
+    12.0,
+    14.0
+  ],
+  "sequence_colors": {
+    "A": "#007F01",
+    "C": "#0200F3",
+    "G": "#F5B029",
+    "T": "#FF0003"
+  },
+  "contrast": {
+    "candidate_id": "candidate_015",
+    "fold": 10,
+    "gene": "ZBTB7A",
+    "pattern": "r0_pos_patterns_pattern_0",
+    "core_mean": 0.0031626807318793407,
+    "flank_mean": 0.002220985624525282,
+    "mean_ratio": 1.4239987404490015,
+    "core_peak": 0.003910255432128906,
+    "flank_peak": 0.003489112854003906,
+    "peak_ratio": 1.1207019078335976,
+    "global_peak_inside_core": true,
+    "synchronized_copies_min": 2,
+    "synchronized_copies_max": 2,
+    "attribution_preselection_ratio": 0.8706177768451008
+  },
+  "smoothed_contrast": {
+    "smoothed_peak_ratio_all_flanks": 1.3172012391086374,
+    "smoothed_peak_ratio_distant_flanks": 1.3172012391086374,
+    "smoothed_mean_ratio": 1.8192703152685277,
+    "smoothed_global_peak_inside_core": true,
+    "smoothed_core_peak": 0.003520006258042824,
+    "smoothed_flank_peak": 0.0026723374937187624,
+    "smoothed_core_peak_position": 99,
+    "definition": "Both curves, Gaussian sigma1.1bp. Core is exact FIMO interval; flanks exclude2bp boundary guard and5bp display edges; no display cropping."
+  },
+  "highlight": {
+    "position": 99,
+    "reference": "C",
+    "alternative": "G",
+    "genomic_position1": 4067100,
+    "mean_delta_signed_Y_PC1": 0.003910255432128906,
+    "seed_deltas": [
+      0.002941131591796875,
+      0.0036649703979492188,
+      0.0036535263061523438,
+      0.003933906555175781,
+      0.0053577423095703125
+    ],
+    "seed_SD": 0.0008889675536828631,
+    "selection": "Posthoc illustrative: at maximum of dominant smoothed gain/loss curve inside independently annotated FIMO site, use strongest same-direction raw substitution.",
+    "FIMO_WT": [
+      {
+        "motif_id": "MA0685.2",
+        "motif_alt_id": "SP4",
+        "sequence_name": "WT",
+        "start": "47",
+        "stop": "55",
+        "strand": "-",
+        "score": "8.31633",
+        "p-value": "7.38e-05",
+        "q-value": "",
+        "matched_sequence": "GGGGGGGGG"
+      }
+    ],
+    "FIMO_same_site_mutant": [],
+    "FIMO_same_site_loss": true,
+    "overlapping_target_match_remaining": true,
+    "delta_PWM_same_site_bits": -9.378656116722816
+  },
+  "highlight_selection_is_posthoc": true,
+  "selection_is_illustrative": true,
+  "genomic_start_end1": [
+    4067149,
+    4067049
+  ],
+  "source_input_window": [
+    50,
+    151
+  ],
+  "source_motif_window": [
+    96,
+    105
+  ],
+  "synchronized_copies": [
+    2
+  ],
+  "server_memory_render_only": true
+}

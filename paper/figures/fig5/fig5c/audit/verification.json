@@ -1,0 +1,25 @@
+{
+  "panel": "C",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "source_data_hashes_verified": 13,
+  "canvas_points": [
+    576.0,
+    388.8
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "gene": "ZBTB7A",
+    "TF": "SP4",
+    "target": "MA0685.2",
+    "query_positions_inclusive": [
+      21,
+      29
+    ],
+    "p_value": 0.000175518,
+    "q_value": 0.0173997,
+    "overlap_bp": 9,
+    "probability_matrices_normalized": true
+  }
+}

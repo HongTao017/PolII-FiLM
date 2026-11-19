@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "genes": 1550,
+  "gene_seed_results": 7750,
+  "source_groups": 838,
+  "factors": 366,
+  "bams": 1673,
+  "pearson_r": 0.2157368663311013,
+  "pearson_p": 3.1507540863807695e-05,
+  "linear_R2": 0.046542395494363474,
+  "slope": 0.003407837478135217,
+  "intercept": -0.10883707602762206,
+  "spearman_rho": 0.13362024154308275,
+  "positive": 211,
+  "negative": 153,
+  "zero": 2,
+  "x": "Same mean regional CPM as the completed absolute-IG figure",
+  "y": "Signed IG_Y summed across the two regions, averaged over 1550 genes, 5 seeds and source cells",
+  "code_sha256": "625e44cead01a05ced0ea2ab6c7014c304581430e5b0012e1ae8af3a3fd9bd94",
+  "output_sha256": "dec90a887da3b26e9922517b2ae76f4f79498ad5b48eb8a398126e0792ce28d7",
+  "input_hashes_sha256": "50b1573ef3cabee0962b2d9ce952e8ef86bde769c2e9192c733ad57ebf090559",
+  "bottom3": [
+    {
+      "factor": "EBF1",
+      "mean_ChIP_CPM": 37.71691298813048,
+      "mean_signed_IG_Y": -0.17727899776997547,
+      "n_source_groups": 1
+    },
+    {
+      "factor": "ZFX",
+      "mean_ChIP_CPM": 34.65371553827931,
+      "mean_signed_IG_Y": -0.1682653058193074,
+      "n_source_groups": 3
+    },
+    {
+      "factor": "ZNF444",
+      "mean_ChIP_CPM": 33.46514635878926,
+      "mean_signed_IG_Y": -0.16186651576708838,
+      "n_source_groups": 1
+    }
+  ],
+  "top2": [
+    {
+      "factor": "ATF4",
+      "mean_ChIP_CPM": 39.797382932113145,
+      "mean_signed_IG_Y": 0.2501298488355993,
+      "n_source_groups": 1
+    },
+    {
+      "factor": "FOXA2",
+      "mean_ChIP_CPM": 34.44265635610414,
+      "mean_signed_IG_Y": 0.34314415662893427,
+      "n_source_groups": 1
+    }
+  ]
+}

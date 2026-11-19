@@ -1,0 +1,51 @@
+/* Shared card treatment inspired by the InTxDB statistics headings. */
+:root{--data-title-background:#fff;--data-title-text:#30343b;--data-title-description:#64748b;--data-title-accent:#7299bd}
+#app :is(.panel>.panel-head,.gene-genome-browser>.genome-heading,.pi-section-heading){
+ background:var(--data-title-background);color:var(--data-title-text);border-bottom:0;
+ border-top-left-radius:inherit;border-top-right-radius:inherit;
+}
+#app .pi-section-heading{padding:22px 24px;border-radius:8px}
+#app :is(.panel-head,.genome-heading,.pi-section-heading) :is(h2,h3),
+#app :is(.download-card,.release-card)>h2,
+#app .release-card>div>h2,
+#app .quick-link-card h3{
+ display:inline-block;max-width:100%;color:var(--data-title-text);font-size:18px;font-weight:700;
+ line-height:1.5;text-transform:uppercase;text-wrap:balance;
+}
+#app :is(.panel-head,.genome-heading,.pi-section-heading) :is(h2,h3)::after,
+#app :is(.download-card,.release-card)>h2::after,
+#app .release-card>div>h2::after,
+#app .quick-link-card h3::after{
+ content:"";display:block;width:100%;max-width:270px;height:1px;background:var(--data-title-accent);margin-top:8px;
+}
+#app :is(.panel-head,.genome-heading,.pi-section-heading) :is(p,.small,.tiny-label){color:var(--data-title-description)}
+#app :is(.panel-head,.genome-heading,.pi-section-heading) p{margin-top:10px;text-wrap:pretty}
+#app :is(.panel-head,.genome-heading,.pi-section-heading) :is(.text-link,.table-link){color:#345776}
+#app :is(.panel-head,.genome-heading,.pi-section-heading) .button.secondary{background:#fff;color:#345776;border-color:#d5dfeb}
+#app .panel-head .status-tag{background:#f2f6fa;color:#345776;border-color:#d5dfeb}
+#app :is(.panel,.gene-genome-browser,.quick-link-card,.release-card){
+ background:#fff;border-color:#e1e6eb;box-shadow:0 2px 6px #0f172a0d;
+ transition:transform 180ms ease-out;
+}
+/* Lift the whole card without changing the document flow or chart dimensions. */
+@media(hover:hover) and (pointer:fine){
+ #app :is(.panel,.gene-genome-browser,.quick-link-card,.release-card):hover{
+  transform:translateY(-4px);box-shadow:0 8px 18px #0f172a14;
+ }
+}
+#app :is(.panel,.gene-genome-browser,.quick-link-card,.release-card):focus-within{box-shadow:0 8px 18px #0f172a14}
+#app .quick-link-card::before{display:none}
+#app .quick-link-card :is(.quick-link-icon,.quick-link-icon::before,.quick-link-icon>svg,h3,.quick-link-action){transition-duration:180ms}
+@media(max-width:600px){
+ #app .pi-section-heading{padding:18px}
+ #app :is(.panel-head,.genome-heading,.pi-section-heading) :is(h2,h3){font-size:17px}
+}
+@media(prefers-reduced-motion:reduce){
+ #app :is(.panel,.gene-genome-browser,.quick-link-card,.release-card){transition:none!important;transform:none!important}
+}
+
+/* Browse has a full-width title banner and its own contained results layout. */
+#app .browse-main{width:100%;max-width:none;padding:0}
+
+/* The assay and author sections share one outer card. */
+#app .gene-pi-combined>.gene-pi-card{border:0;border-radius:0;box-shadow:none;transform:none;transition:none}

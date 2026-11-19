@@ -1,0 +1,17 @@
+{
+  "seed": 20260915,
+  "WT_prediction": -10.877616882324219,
+  "native_WT": -10.877616882324219,
+  "predictions": "original native model forward for WT and every mutant; cached wrapper not used",
+  "cached_wrapper_WT": -10.877616882324219,
+  "cached_wrapper_first_mutant_batch_difference": 8.58306884765625e-06,
+  "identity": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260915",
+    "checkpoint_sha256": "ed19c14606c0fc424b29a07628bf1fad1280b3b30f0fba31390d679bf60e5209",
+    "preprocessing_sha256": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+    "fingerprint": "a7cdbc5bb4bb18e7fa1d889c74a1a6857bb12d14c3f69e9d95711e65a68287b0"
+  },
+  "model_eval": true,
+  "regulatory_input_fixed": true,
+  "normalization_unchanged": true
+}

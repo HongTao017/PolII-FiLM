@@ -1,0 +1,147 @@
+{
+  "status": "complete",
+  "genes": 1550,
+  "seeds": 5,
+  "verified_gene_seed_results": 7750,
+  "source_groups": 838,
+  "active_factors": 364,
+  "all_factors": 366,
+  "bams": 1673,
+  "denominator": "u + 0.1, where u = log10(original peak count + 1); applied per gene/region/source/seed before aggregation",
+  "reduction": "Sum two regions; average all 1550 genes and five seeds within each source group; average source groups equally. Zero inputs retained as zero contributions.",
+  "x": "Previously computed matched mean regional CPM, unchanged; not a model input",
+  "before": {
+    "n": 364,
+    "pearson_r": 0.4499962368996197,
+    "pearson_p": 1.5069094274417417e-19,
+    "spearman_rho": 0.43341540153495317,
+    "spearman_p": 4.213409368836403e-18,
+    "linear_R2": 0.20249661322381865,
+    "quadratic_R2": 0.20553691724967138,
+    "quadratic_F_p": 9.189812822814898e-19
+  },
+  "after": {
+    "n": 364,
+    "pearson_r": 0.4180790699025656,
+    "pearson_p": 7.829362128339839e-17,
+    "spearman_rho": 0.39967902583095605,
+    "spearman_p": 2.15316027519084e-15,
+    "linear_R2": 0.17479010869059433,
+    "quadratic_R2": 0.17829569838165915,
+    "quadratic_F_p": 4.0379289401344673e-16
+  },
+  "all_366_before": {
+    "n": 366,
+    "pearson_r": 0.45567130512062176,
+    "pearson_p": 3.649985005097312e-20,
+    "spearman_rho": 0.4411419323679132,
+    "spearman_p": 7.332290748285962e-19,
+    "linear_R2": 0.20763633831033076,
+    "quadratic_R2": 0.2111894599772942,
+    "quadratic_F_p": 1.9977721466690958e-19
+  },
+  "all_366_after": {
+    "n": 366,
+    "pearson_r": 0.4247597339872254,
+    "pearson_p": 1.824989027442176e-17,
+    "spearman_rho": 0.4079218191037871,
+    "spearman_p": 4.1595088379574414e-16,
+    "linear_R2": 0.18042083161689848,
+    "quadratic_R2": 0.1846399807295508,
+    "quadratic_F_p": 8.12677662769351e-17
+  },
+  "sensitivity_positive_entries_only": {
+    "n": 364,
+    "pearson_r": -0.26261049334323927,
+    "pearson_p": 3.7242928659566423e-07,
+    "spearman_rho": -0.40314007287855347,
+    "spearman_p": 1.1724077230844677e-15,
+    "linear_R2": 0.06896427121397952,
+    "quadratic_R2": 0.09520408905901745,
+    "quadratic_F_p": 1.4367743692755454e-08
+  },
+  "original_peak_signal_vs_primary_normalized": {
+    "n": 364,
+    "pearson_r": 0.7092922013703697,
+    "pearson_p": 6.247437434558871e-57,
+    "spearman_rho": 0.8252740301587612,
+    "spearman_p": 7.450964569045983e-92,
+    "linear_R2": 0.5030954269248251,
+    "quadratic_R2": 0.5423487970259235,
+    "quadratic_F_p": 5.327172920927696e-62
+  },
+  "excluded_primary": [
+    "POLR3G",
+    "SYNCRIP"
+  ],
+  "exclude_reason": "No positive original ChIP input in the complete cohort",
+  "S": "abs(predicted PC1 - original training-fold mean)",
+  "offset": 0.1,
+  "paper": "Corgi Supplementary Fig. S9b, score/(input+0.1) followed by quadratic regression; adaptation, not an exact assay/cohort replication",
+  "caveat": "Residual association is descriptive and does not establish absence of leakage, biological causality or independent effects.",
+  "input_cpm_sha256": "80b88efa27befa52a604024b26fb76ad2aed19813df19567b1738c6835b8c27a",
+  "source_manifest_sha256": "a058b9b0f6c0f2b790c67341ad36843fa653cef2f16a218fca31a09bbb3717f4",
+  "original_factor_points_sha256": "b7b29efd5a5a263d03dd74c2c2b59910cdb103105ab26967e1df97c5b9ca20d0",
+  "code_sha256": "86135e41269f686c8b5c2da2ceb1b5b9b4ee873dce6db35e9a3e03a1f5a7efd8",
+  "collector_code_sha256": "4fd9f92037e02e5417c41f5ee213a403b76ccbf1f1a30bfa2306b8b950ac906f",
+  "highlights": [
+    {
+      "factor": "KLF16",
+      "mean_ChIP_CPM": 36.36491361166847,
+      "mean_absolute_IG_S": 0.0550542562431745,
+      "input_normalized_IG_S": 0.10388324617744749,
+      "positive_entries_only_normalized_IG_S": 0.13230816070258308,
+      "active_gene_regions": 1217,
+      "n_source_groups": 1,
+      "original_signal_zscore": 0.5312663776765545,
+      "included_primary": true,
+      "original_rank": 164,
+      "normalized_rank": 185
+    },
+    {
+      "factor": "SP1",
+      "mean_ChIP_CPM": 32.857431180133226,
+      "mean_absolute_IG_S": 0.07031734518021286,
+      "input_normalized_IG_S": 0.14620765506547093,
+      "positive_entries_only_normalized_IG_S": 0.35427775670207745,
+      "active_gene_regions": 6891,
+      "n_source_groups": 7,
+      "original_signal_zscore": -0.0004328600656312,
+      "included_primary": true,
+      "original_rank": 101,
+      "normalized_rank": 72
+    },
+    {
+      "factor": "SP2",
+      "mean_ChIP_CPM": 32.77664161396334,
+      "mean_absolute_IG_S": 0.028859765575623263,
+      "input_normalized_IG_S": 0.0700946077796986,
+      "positive_entries_only_normalized_IG_S": 0.5444119771694805,
+      "active_gene_regions": 725,
+      "n_source_groups": 3,
+      "original_signal_zscore": -1.0413272582619484,
+      "included_primary": true,
+      "original_rank": 295,
+      "normalized_rank": 280
+    },
+    {
+      "factor": "SP4",
+      "mean_ChIP_CPM": 32.34278897039242,
+      "mean_absolute_IG_S": 0.060706183125313264,
+      "input_normalized_IG_S": 0.13529638811559366,
+      "positive_entries_only_normalized_IG_S": 0.20340388126010686,
+      "active_gene_regions": 1031,
+      "n_source_groups": 1,
+      "original_signal_zscore": -0.109651823497072,
+      "included_primary": true,
+      "original_rank": 133,
+      "normalized_rank": 92
+    }
+  ],
+  "outputs_sha256": {
+    "ChIP_CPM_S9b_before_after.pdf": "e365ae58d2d15d61b2747e61cc5cb1dd765210033224dc48818b721a0165b9d6",
+    "KLF16_SP1_SP2_SP4.tsv": "c59274451b2667a72667afc7142923ee5f68d88b12c7c860d720180f4d23a53f",
+    "factor_points.tsv": "d09b881d8e2d3dff4d991c87f13cb192442a187d1ffc554249d83ffa84ff0ec0",
+    "source_group_points.tsv": "f6a8c968b744955a3d5c4f995449a5deb1beb34d87a8a1f51f7bdd7be118a021"
+  }
+}

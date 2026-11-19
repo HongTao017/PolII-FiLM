@@ -1,0 +1,48 @@
+{
+  "candidate_columns": 2576,
+  "candidate_groups": {
+    "ChIP": 2284,
+    "eCLIP": 206,
+    "ChIAPET": 50,
+    "B": 22,
+    "DamID": 10,
+    "ATAC": 4
+  },
+  "selected_columns": 2512,
+  "selected_table_columns": [
+    "group",
+    "feature"
+  ],
+  "selected_preview": [
+    {
+      "group": "B",
+      "feature": "B::log10_transcript_span_bp"
+    },
+    {
+      "group": "B",
+      "feature": "B::log10_spliced_length_bp"
+    }
+  ],
+  "selected_groups": {
+    "ChIP": 2284,
+    "eCLIP": 206,
+    "B": 22
+  },
+  "sources": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/data/feature_manifest.tsv": "e84a1870bd5a6392038ff957a57c8d5619dcebba3cf57bd86a125a49e238fe0b",
+    "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/ordered_validation_selection/final_selected_features.tsv": "7f9e9d39be93fa3860f11c91d4df588439f27f083d399fe485894a285bd1e472"
+  },
+  "n_genes": 15351,
+  "random_forest": {
+    "n_estimators": 300,
+    "criterion": "squared_error",
+    "max_features": "sqrt",
+    "n_seeds": 5
+  },
+  "figure_semantics": {
+    "matrix": "Illustrative symbols, not numerical measurements",
+    "trees": "Three schematic icons representing a 300-tree random forest",
+    "selection": "Archived uniform ordered-validation selected combination; not fold-local independent selection or external validation",
+    "prediction": "Mean tree prediction of Y_PC1"
+  }
+}

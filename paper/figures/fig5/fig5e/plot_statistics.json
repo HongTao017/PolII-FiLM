@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "pdf": "G:\\\u5e8f\u5217\u5206\u6790\u753b\u56fe\\Png\\png\\fig5\\fig5e\\fig5e.pdf",
+  "pdf_sha256": "44d750d8a0564e94f1e6362b271d7126520064776aacb83f137ce80b7f128b77",
+  "bytes": 47131,
+  "canvas_inches": [
+    5,
+    4
+  ],
+  "r": 0.20624692516194087,
+  "p": 0.036603396800080124,
+  "n": 103,
+  "top5": [
+    "NCBP2",
+    "GRWD1",
+    "PRPF8",
+    "CSTF2T",
+    "PCBP2"
+  ],
+  "source_sha256": "a2e84074a181f3354970dbe97d8d5b94dda0e02b54a0ab6742ae359c0274c8e2",
+  "code_sha256": "f941fb4de86cb24b511e288104bccd8a20f060ccd7276789d29f506fde8fcc46",
+  "assay": "HepG2 RBP eCLIP",
+  "test_genes": 181,
+  "gene_seed_results": 905,
+  "bams": 206,
+  "fit": "OLS linear regression with intercept",
+  "linear_R2": 0.042537794138755344,
+  "slope": 0.00010051812047253803,
+  "intercept": 0.046147453544509325,
+  "x": "Mean regional eCLIP abundance (CPM)",
+  "y": "Mean absolute IG_S summed across two regions, averaged across genes and seeds",
+  "display": "Only r in upper left; no panel letter; top five contribution labels",
+  "source_summary_sha256": "7f41870caf7057f1dc16225fa46c0f44b9bc917a3430672011ac968a95a98b2e",
+  "axis_linewidth_pt": 1.5,
+  "tick_linewidth_pt": 1.0
+}

@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "requested_models": [
+    "B",
+    "BQ",
+    "BI",
+    "BC",
+    "BP",
+    "BE",
+    "BPQ",
+    "BPE",
+    "BPI",
+    "BPQI",
+    "BPQE",
+    "BPQIT"
+  ],
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "protected_files_sha256": {
+    "run_config.json": "517511f6479ba75c29e381bde13be2a33a647247e051df2eeed334b3f5e425f2",
+    "complete.json": "8f6238433636df191cbc5ab8ff0880b2567f106ddf334ff73a7c186591230d9f",
+    "status.json": "8f6238433636df191cbc5ab8ff0880b2567f106ddf334ff73a7c186591230d9f",
+    "evaluated_model_fold_metrics.tsv": "1adcdac0e45d7559bb190297db5b9fe2a672e76355d5620d4aabfdd806ea117a",
+    "evaluated_model_summary.tsv": "a07f90b4f400165e45beca2dc2b8ac20c818f588d33949a9914e3b2fa00eadb9"
+  },
+  "original_summary_files_unchanged": true,
+  "fold_units": "five-seed ensemble",
+  "elapsed_minutes": 9.125641838709514,
+  "table_sha256": "4e1597f7cd823d79b9901d54f67e8f4a57a04dd0941c95c8c40670f388b6bf79"
+}

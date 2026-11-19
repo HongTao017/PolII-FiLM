@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "logos": 13,
+  "all_compatible": true,
+  "details": [
+    {
+      "group": "G01",
+      "title": "TN3T",
+      "expanded_title": "TNTTT",
+      "logo_Cavener_consensus": "TNTTT",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "TTTTT"
+    },
+    {
+      "group": "G02",
+      "title": "TN5T3WTT",
+      "expanded_title": "TNTTTTTWWWTT",
+      "logo_Cavener_consensus": "TTTTTTTWWWTT",
+      "compatible_with_title": true,
+      "differences": [
+        {
+          "position": 2,
+          "title_letter": "N",
+          "logo_consensus_letter": "T",
+          "allowed_bases": "ACGT",
+          "probabilities": {
+            "A": 0.21428571428571427,
+            "C": 0.18571428571428572,
+            "G": 0.08571428571428572,
+            "T": 0.5142857142857142
+          }
+        }
+      ],
+      "dominant_bases": "TTTTTTTTTTTT"
+    },
+    {
+      "group": "G03",
+      "title": "5T+",
+      "expanded_title": "TTTTT",
+      "logo_Cavener_consensus": "TTTTT",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "TTTTT"
+    },
+    {
+      "group": "G04",
+      "title": "13T+",
+      "expanded_title": "TTTTTTTTTTTTT",
+      "logo_Cavener_consensus": "TTTTTTTTTTTTT",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "TTTTTTTTTTTTT"
+    },
+    {
+      "group": "G05",
+      "title": "TNWTT",
+      "expanded_title": "TNWTT",
+      "logo_Cavener_consensus": "TNWTT",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "TTTTT"
+    },
+    {
+      "group": "G06",
+      "title": "CN3C",
+      "expanded_title": "CNCCC",
+      "logo_Cavener_consensus": "CNCCC",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "CCCCC"
+    },
+    {
+      "group": "G07",
+      "title": "RGNGG",
+      "expanded_title": "RGNGG",
+      "logo_Cavener_consensus": "RGNGG",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "GGAGG"
+    },
+    {
+      "group": "G08",
+      "title": "GAGNC",
+      "expanded_title": "GAGNC",
+      "logo_Cavener_consensus": "GAGGC",
+      "compatible_with_title": true,
+      "differences": [
+        {
+          "position": 4,
+          "title_letter": "N",
+          "logo_consensus_letter": "G",
+          "allowed_bases": "ACGT",
+          "probabilities": {
+            "A": 0.09500000000000001,
+            "C": 0.22000000000000003,
+            "G": 0.6475,
+            "T": 0.037500000000000006
+          }
+        }
+      ],
+      "dominant_bases": "GAGGC"
+    },
+    {
+      "group": "G09",
+      "title": "SN3G",
+      "expanded_title": "SNGGG",
+      "logo_Cavener_consensus": "SNGGG",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "GGGGG"
+    },
+    {
+      "group": "G10",
+      "title": "S3C",
+      "expanded_title": "SCCC",
+      "logo_Cavener_consensus": "SCCC",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "CCCC"
+    },
+    {
+      "group": "G11",
+      "title": "4TKTW5T",
+      "expanded_title": "TTTTKTWTTTTT",
+      "logo_Cavener_consensus": "TTTTKTWTTTTT",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "TTTTTTTTTTTT"
+    },
+    {
+      "group": "G12",
+      "title": "4GSNGG",
+      "expanded_title": "GGGGSNGG",
+      "logo_Cavener_consensus": "GGGGSNGG",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "GGGGGGGG"
+    },
+    {
+      "group": "G13",
+      "title": "4TKTW5T",
+      "expanded_title": "TTTTKTWTTTTT",
+      "logo_Cavener_consensus": "TTTTKTWTTTTT",
+      "compatible_with_title": true,
+      "differences": [],
+      "dominant_bases": "TTTTGTATTTTT"
+    }
+  ]
+}

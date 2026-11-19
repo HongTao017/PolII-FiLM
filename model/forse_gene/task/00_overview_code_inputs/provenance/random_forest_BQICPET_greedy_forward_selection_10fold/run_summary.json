@@ -1,0 +1,70 @@
+{
+  "method": "RandomForestRegressor greedy significance-ranked forward group selection",
+  "candidate_groups": [
+    "Q",
+    "I",
+    "C",
+    "P",
+    "E",
+    "T"
+  ],
+  "final_selected_groups": [
+    "B",
+    "P",
+    "Q",
+    "I"
+  ],
+  "final_feature_count": 383,
+  "folds": 10,
+  "paired_test": "one-sided paired t-test on fold Pearson correlations",
+  "selection_rule": "At each step, evaluate every remaining group added to the current model; select the positive significant candidate with the smallest adjusted P value",
+  "multiple_testing": "Bonferroni correction using the maximum 21 planned pairwise candidate comparisons",
+  "alpha": 0.05,
+  "z_score_applied": false,
+  "imputation": "training-fold median only",
+  "hyperparameter_search": false,
+  "fixed_parameters": {
+    "n_estimators": 300,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": true
+  },
+  "final_selection_cv_metrics": {
+    "model_id": "BPQI",
+    "included_groups": "B+P+Q+I",
+    "feature_count": 383,
+    "rmse_cv_mean": 5.128167814534629,
+    "rmse_cv_sd": 0.1718995532632819,
+    "rmse_pooled_oof": 5.130756876450806,
+    "mae_cv_mean": 3.7537907250940004,
+    "mae_cv_sd": 0.0963706840427346,
+    "mae_pooled_oof": 3.753790399355392,
+    "r2_cv_mean": 0.5215274744241365,
+    "r2_cv_sd": 0.018075263552668534,
+    "r2_pooled_oof": 0.5214932524351659,
+    "pearson_r_cv_mean": 0.7301968324240354,
+    "pearson_r_cv_sd": 0.01417847090771732,
+    "pearson_r_pooled_oof": 0.7298159395366022,
+    "spearman_rho_cv_mean": 0.751936939614555,
+    "spearman_rho_cv_sd": 0.01159382461246666,
+    "spearman_rho_pooled_oof": 0.7519446659094084
+  },
+  "input": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/POLII_BQICPET_786X.tsv",
+  "input_sha256": "76ad0e6296967789f34efd1e99f777bceeca8a4e65367b455aa6f0eea39ffd33",
+  "dictionary": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/feature_dictionary_long.tsv",
+  "dictionary_sha256": "9d0a19cb62874af9a8c7dbf831c5fba21390961c84cb447a652e09deaafe299c",
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/model/random_forest_BQICPET_greedy_forward_selection_10fold",
+  "elapsed_minutes": 17.204309018452964,
+  "software": {
+    "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+    "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0"
+  },
+  "interpretation_warning": "Feature groups are selected using these CV results. The same CV metrics are exploratory selection metrics, not an independent final test estimate."
+}

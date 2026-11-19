@@ -1,0 +1,256 @@
+{
+  "source_plot_values": "/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112/raincloud_all_motifs_20261112/raincloud_plot_values.tsv",
+  "y_limits": [
+    -0.0015,
+    0.0015
+  ],
+  "y_tick_step": 0.0005,
+  "scientific_display_factor": 0.001,
+  "delta": "WT_minus_disrupted",
+  "pages": [
+    {
+      "page": 1,
+      "file": "01_positive_zoom_significance.pdf",
+      "groups": [
+        {
+          "page": 1,
+          "label": "EGR1",
+          "sign": "pos_patterns",
+          "n": 57,
+          "below_range": 3,
+          "above_range": 4,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 1,
+          "label": "KLF16",
+          "sign": "pos_patterns",
+          "n": 335,
+          "below_range": 11,
+          "above_range": 17,
+          "p_holm": 0.0301593968120637,
+          "stars": "*"
+        },
+        {
+          "page": 1,
+          "label": "SP1",
+          "sign": "pos_patterns",
+          "n": 223,
+          "below_range": 3,
+          "above_range": 11,
+          "p_holm": 0.0185996280074398,
+          "stars": "*"
+        },
+        {
+          "page": 1,
+          "label": "SP2",
+          "sign": "pos_patterns",
+          "n": 268,
+          "below_range": 3,
+          "above_range": 11,
+          "p_holm": 0.0185596288074238,
+          "stars": "*"
+        },
+        {
+          "page": 1,
+          "label": "Background",
+          "sign": "pos_patterns",
+          "n": 389,
+          "below_range": 20,
+          "above_range": 7,
+          "p_holm": NaN,
+          "stars": ""
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "file": "02_positive_zoom_significance.pdf",
+      "groups": [
+        {
+          "page": 2,
+          "label": "SP4",
+          "sign": "pos_patterns",
+          "n": 238,
+          "below_range": 3,
+          "above_range": 13,
+          "p_holm": 0.0061198776024479,
+          "stars": "**"
+        },
+        {
+          "page": 2,
+          "label": "ZNF184",
+          "sign": "pos_patterns",
+          "n": 99,
+          "below_range": 1,
+          "above_range": 0,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 2,
+          "label": "ZNF384",
+          "sign": "pos_patterns",
+          "n": 393,
+          "below_range": 1,
+          "above_range": 0,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 2,
+          "label": "Background",
+          "sign": "pos_patterns",
+          "n": 619,
+          "below_range": 12,
+          "above_range": 2,
+          "p_holm": NaN,
+          "stars": ""
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "file": "03_negative_zoom_significance.pdf",
+      "groups": [
+        {
+          "page": 3,
+          "label": "CTCF",
+          "sign": "neg_patterns",
+          "n": 14,
+          "below_range": 0,
+          "above_range": 0,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 3,
+          "label": "EGR1",
+          "sign": "neg_patterns",
+          "n": 18,
+          "below_range": 0,
+          "above_range": 0,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 3,
+          "label": "KLF16",
+          "sign": "neg_patterns",
+          "n": 285,
+          "below_range": 9,
+          "above_range": 5,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 3,
+          "label": "MAZ",
+          "sign": "neg_patterns",
+          "n": 22,
+          "below_range": 0,
+          "above_range": 2,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 3,
+          "label": "Background",
+          "sign": "neg_patterns",
+          "n": 313,
+          "below_range": 7,
+          "above_range": 5,
+          "p_holm": NaN,
+          "stars": ""
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "file": "04_negative_zoom_significance.pdf",
+      "groups": [
+        {
+          "page": 4,
+          "label": "PAX8",
+          "sign": "neg_patterns",
+          "n": 25,
+          "below_range": 0,
+          "above_range": 0,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 4,
+          "label": "SP1",
+          "sign": "neg_patterns",
+          "n": 219,
+          "below_range": 8,
+          "above_range": 2,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 4,
+          "label": "SP2",
+          "sign": "neg_patterns",
+          "n": 201,
+          "below_range": 8,
+          "above_range": 2,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 4,
+          "label": "SP4",
+          "sign": "neg_patterns",
+          "n": 201,
+          "below_range": 8,
+          "above_range": 2,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 4,
+          "label": "Background",
+          "sign": "neg_patterns",
+          "n": 240,
+          "below_range": 6,
+          "above_range": 2,
+          "p_holm": NaN,
+          "stars": ""
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "file": "05_negative_zoom_significance.pdf",
+      "groups": [
+        {
+          "page": 5,
+          "label": "ZNF407",
+          "sign": "neg_patterns",
+          "n": 24,
+          "below_range": 1,
+          "above_range": 1,
+          "p_holm": 1.0,
+          "stars": ""
+        },
+        {
+          "page": 5,
+          "label": "Background",
+          "sign": "neg_patterns",
+          "n": 24,
+          "below_range": 0,
+          "above_range": 0,
+          "p_holm": NaN,
+          "stars": ""
+        }
+      ]
+    }
+  ],
+  "significance": "Previously computed All_regions TF/sign pooled matched-difference tests with Holm correction; exploratory; shared annotations are not independent evidence.",
+  "no_individual_point_significance": true,
+  "individual_pattern_tests": "none significant after Holm",
+  "clipping": "All original data retained; triangular boundary markers indicate values outside this zoom; full-range companion atlas retained unchanged."
+}

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "fold": 8,
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "SPTB",
+      "saved_BF16": 1.5554084347966466,
+      "reproduced_BF16": 1.5554084347966466,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "db792d2d3a0d4fde0422b147f7fb145a7ab9709ea42a6a3fa6fa8b3d93e714b7",
+      "saved_prediction_sha256": "54c4b96308e3cb9c989048874a78984107f151afae6156bf01d037fe898027fc"
+    },
+    {
+      "seed": 20260915,
+      "gene": "CD79A",
+      "saved_BF16": -7.6576430155637665,
+      "reproduced_BF16": -7.6576430155637665,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "db792d2d3a0d4fde0422b147f7fb145a7ab9709ea42a6a3fa6fa8b3d93e714b7",
+      "saved_prediction_sha256": "54c4b96308e3cb9c989048874a78984107f151afae6156bf01d037fe898027fc"
+    },
+    {
+      "seed": 20260916,
+      "gene": "SPTB",
+      "saved_BF16": 3.052166004807881,
+      "reproduced_BF16": 3.052166004807881,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "f080641ff21c572913430e667a6ba621985bb62f1fe97da3836afc6c5fde6ae1",
+      "saved_prediction_sha256": "0c84170367e5d33872e7ec6b31fa24b2f243dfeb966f454993601a85803006c7"
+    },
+    {
+      "seed": 20260916,
+      "gene": "CD79A",
+      "saved_BF16": -9.808323795774085,
+      "reproduced_BF16": -9.808323795774085,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "f080641ff21c572913430e667a6ba621985bb62f1fe97da3836afc6c5fde6ae1",
+      "saved_prediction_sha256": "0c84170367e5d33872e7ec6b31fa24b2f243dfeb966f454993601a85803006c7"
+    },
+    {
+      "seed": 20260917,
+      "gene": "SPTB",
+      "saved_BF16": 1.4972819272233948,
+      "reproduced_BF16": 1.4972819272233948,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "940b49af7011ad43b738c400963097ad7f010ef72a09bb176c1b5d86c037dd35",
+      "saved_prediction_sha256": "0e023ea9dfa226c0d3407a77949fbffd3a0aacba470e59c9c64ddaaceec180ba"
+    },
+    {
+      "seed": 20260917,
+      "gene": "CD79A",
+      "saved_BF16": -9.866450303347335,
+      "reproduced_BF16": -9.866450303347337,
+      "abs_error": 1.7763568394002505e-15,
+      "checkpoint_sha256": "940b49af7011ad43b738c400963097ad7f010ef72a09bb176c1b5d86c037dd35",
+      "saved_prediction_sha256": "0e023ea9dfa226c0d3407a77949fbffd3a0aacba470e59c9c64ddaaceec180ba"
+    },
+    {
+      "seed": 20260918,
+      "gene": "SPTB",
+      "saved_BF16": 2.9504446165546905,
+      "reproduced_BF16": 2.9504446165546905,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "ada9f8dd3e54cf8445b2507a65524bd5a4b69a9fa39c997ca0eceac76e30e3dd",
+      "saved_prediction_sha256": "29a003041a916f733b8a158b3cd6f97ee9fa4c36a73f96ef029c2111f3861011"
+    },
+    {
+      "seed": 20260918,
+      "gene": "CD79A",
+      "saved_BF16": -9.92457681092059,
+      "reproduced_BF16": -9.92457681092059,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "ada9f8dd3e54cf8445b2507a65524bd5a4b69a9fa39c997ca0eceac76e30e3dd",
+      "saved_prediction_sha256": "29a003041a916f733b8a158b3cd6f97ee9fa4c36a73f96ef029c2111f3861011"
+    },
+    {
+      "seed": 20260919,
+      "gene": "SPTB",
+      "saved_BF16": 1.9913572415960352,
+      "reproduced_BF16": 1.9913572415960352,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "e7a2c85c40431ca8a699dbefd853b756f3ddbe5ca164738aeb3338ed47105601",
+      "saved_prediction_sha256": "7a19b256b0693507bb4cde0f2b9774f0773c3d6a77610702a418b5d1e1dfb374"
+    },
+    {
+      "seed": 20260919,
+      "gene": "CD79A",
+      "saved_BF16": -8.99455268974856,
+      "reproduced_BF16": -8.99455268974856,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "e7a2c85c40431ca8a699dbefd853b756f3ddbe5ca164738aeb3338ed47105601",
+      "saved_prediction_sha256": "7a19b256b0693507bb4cde0f2b9774f0773c3d6a77610702a418b5d1e1dfb374"
+    }
+  ],
+  "source": "Original CUDA BF16 autocast / batch64 / inverse_target; numerical QC only",
+  "attribution_precision_unchanged": "FP32",
+  "scientific_completeness_tolerances_unchanged": true,
+  "atol": 0.0002,
+  "rtol": 2e-05
+}

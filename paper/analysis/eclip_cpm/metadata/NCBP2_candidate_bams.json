@@ -1,0 +1,1878 @@
+{
+  "@context": "/terms/",
+  "@graph": [
+    {
+      "@id": "/files/ENCFF457IKB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF457IKB",
+      "analysis_step_version": {
+        "schema_version": "4",
+        "aliases": [
+          "encode:eclip-alignment-step-v-1-1"
+        ],
+        "software_versions": [
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:fastqc 0.10.1"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2015-02-12T21:31:41.492276+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+              "software_type": [
+                "quality metric"
+              ],
+              "description": "FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.  Babraham Bioinformatics Web site, http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "lab": "/labs/encode-consortium/",
+              "title": "FastQC",
+              "used_by": [
+                "community"
+              ],
+              "uuid": "40d96460-a590-11e4-bcd8-0800200c9a66",
+              "source_url": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/225b2920-a594-11e4-bcd8-0800200c9a66/",
+                "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+                "/software-versions/0f538581-e37a-4586-a42c-76d1f8976768/"
+              ],
+              "name": "fastqc",
+              "@id": "/software/fastqc/",
+              "status": "released"
+            },
+            "date_created": "2016-03-07T20:57:10.869870+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+            "@id": "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+            "version": "0.10.1",
+            "uuid": "4e336116-ab7a-4091-a8f1-5df7e3d334ca",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "download_checksum": "cc2e4d3da46a0d88b4ababe065d0021a",
+            "aliases": [
+              "encode:cutadapt 1.9.1"
+            ],
+            "software": {
+              "bug_tracker_url": "https://github.com/marcelm/cutadapt/issues",
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-01-08T20:56:40.441207+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+              "software_type": [
+                "other"
+              ],
+              "description": "Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.",
+              "lab": "/labs/encode-consortium/",
+              "title": "cutadapt",
+              "used_by": [
+                "community",
+                "uniform processing pipelines",
+                "ENCODE"
+              ],
+              "uuid": "1520d573-61a9-4867-ace9-bf0139d6ea14",
+              "url": "https://cutadapt.readthedocs.org/",
+              "source_url": "https://pypi.python.org/pypi/cutadapt",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+                "/software-versions/bb5928d1-8153-4fe4-99e5-e8389dfa5e02/",
+                "/software-versions/f0e164d8-b55b-4015-98a3-b8a48c11d115/",
+                "/software-versions/697f881b-c16a-40fc-93a9-60fdf0cbef2b/",
+                "/software-versions/d45d0827-cc45-4c6a-ba88-9e1ca8fc8195/",
+                "/software-versions/b0dd1949-b903-4439-a707-1013e445825e/",
+                "/software-versions/16e1fd37-325b-4d29-990e-baaee6162e9d/",
+                "/software-versions/cccef9c9-9049-4088-9488-2011c4160bc5/",
+                "/software-versions/28cdfc04-76cb-468b-8e0c-26bf0fd7c76c/",
+                "/software-versions/68f9e3e0-25a9-4b16-a0c2-6fcd65b19109/",
+                "/software-versions/15da865f-7355-4cdb-a088-1a28f8257bfa/"
+              ],
+              "name": "cutadapt",
+              "@id": "/software/cutadapt/",
+              "status": "released"
+            },
+            "date_created": "2016-01-08T20:59:20.908433+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+            "@id": "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+            "downloaded_url": "https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.9.1.tar.gz",
+            "version": "1.9.1",
+            "uuid": "06dc46e3-5089-4f78-a331-fdebd95f83dd",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:star 2.4.0i"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [
+                "/publications/9d43c048-c70c-42ab-895d-77a69fceb42b/"
+              ],
+              "purpose": [
+                "RNA-seq"
+              ],
+              "date_created": "2014-08-13T01:30:14.893029+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/ce2bde01-07ec-4b8a-b179-554ef95b71dd/",
+              "software_type": [
+                "aligner"
+              ],
+              "description": "STAR (Spliced Transcript Alignment to a Reference) aligns short and bulk RNA-seq reads to a reference genome using uncompressed suffix arrays.",
+              "lab": "/labs/encode-consortium/",
+              "title": "STAR",
+              "used_by": [
+                "ENCODE",
+                "uniform processing pipelines"
+              ],
+              "uuid": "adb49a18-c66d-4bbe-9cab-bea6fd12f8a3",
+              "source_url": "https://github.com/alexdobin/STAR/releases",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/834e3145-b752-4486-a613-c0c625262051/",
+                "/software-versions/195baf07-de0a-460d-9686-59d82bd75e50/",
+                "/software-versions/e038206f-d791-4744-9ee5-7d22bd1f39ee/",
+                "/software-versions/0bfb7a0a-afc7-4453-b735-ee878f23e7a9/",
+                "/software-versions/19f75e90-e991-4dc8-837d-8cd97ab5fb91/",
+                "/software-versions/70a085ad-194e-4de0-838c-7af257680f54/",
+                "/software-versions/f533aae8-827c-4dfe-bfe3-81143728bad8/",
+                "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+                "/software-versions/e7a3ccb9-f3e3-405e-9ee5-7ae53ece93e8/",
+                "/software-versions/dd2d092b-61f7-491e-a127-5099a6a32d9b/",
+                "/software-versions/ef94cd69-7316-480d-b785-e1cb36d1ea97/",
+                "/software-versions/055f6c18-7b20-4499-9f5b-ac4bec338c47/",
+                "/software-versions/475e856f-4d0e-459d-8417-23abd75613e3/",
+                "/software-versions/cab07b5a-9dd9-4417-947f-2771d21db315/",
+                "/software-versions/53519944-8257-4702-8167-0e32140ae5d6/",
+                "/software-versions/d6aa7af7-54ef-4759-b589-91deafbde9ae/",
+                "/software-versions/8dea726a-04c6-4936-ac5a-3a398cf55eef/",
+                "/software-versions/d8fef50e-4f22-4fdc-a437-2774b2ac846f/"
+              ],
+              "name": "star",
+              "@id": "/software/star/",
+              "status": "released"
+            },
+            "date_created": "2016-03-25T18:03:30.391701+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+            "downloaded_url": "https://github.com/alexdobin/STAR/releases/tag/STAR_2.4.0i",
+            "version": "2.4.0i",
+            "uuid": "de76db97-c034-4113-9053-74be4af14b1e",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-05-02T22:35:44.041717+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "read in a .bam file where the first 9 nt of the read name are the barcode and merge reads mapped to the same position that have the same barcode",
+              "lab": "/labs/gene-yeo/",
+              "title": "barcode_collapse_pe.py",
+              "used_by": [
+                "community",
+                "ENCODE"
+              ],
+              "uuid": "3f90d824-0060-41fa-8d00-e45a0aa01035",
+              "url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+              "schema_version": "10",
+              "award": "/awards/U54HG007005/",
+              "versions": [
+                "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/"
+              ],
+              "name": "barcode_collapse_pe.py",
+              "@id": "/software/barcode_collapse_pe.py/",
+              "status": "released"
+            },
+            "date_created": "2016-05-02T22:36:27.011432+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/",
+            "downloaded_url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+            "uuid": "cfd16418-8997-4a0c-bb47-bf6326e26850",
+            "status": "released"
+          }
+        ],
+        "analysis_step": {
+          "aliases": [
+            "gene-yeo:eclip_fastq_to_bam"
+          ],
+          "analysis_step_types": [
+            "QA calculation",
+            "read trimming",
+            "filtering",
+            "alignment"
+          ],
+          "documents": [],
+          "date_created": "2016-03-25T17:33:23.667192+00:00",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "input_file_types": [
+            "reads"
+          ],
+          "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+          "current_version": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+          "title": "ENCODE3 eCLIP trimming and mapping step",
+          "step_label": "eclip-trimming-mapping-step",
+          "uuid": "49b998c5-d8bd-4d78-9fe9-d07182da99a9",
+          "schema_version": "17",
+          "output_file_types": [
+            "alignments"
+          ],
+          "major_version": 1,
+          "pipelines": [
+            {
+              "analysis_steps": [
+                "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+                "/analysis-steps/eclip-makebigwig-step-v-1/",
+                "/analysis-steps/eclip-bigbed-to-bed-step-v-1/",
+                "/analysis-steps/eclip-normalization-step-v-1/",
+                "/analysis-steps/eclip-merge-peaks-step-v-1/"
+              ],
+              "aliases": [],
+              "references": [],
+              "documents": [
+                "/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/"
+              ],
+              "assay_term_names": [
+                "eCLIP"
+              ],
+              "date_created": "2016-03-25T17:43:36.122005+00:00",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "ENCODE eCLIP pipeline Version 1",
+              "accession": "ENCPL357ADL",
+              "lab": "/labs/gene-yeo/",
+              "title": "eCLIP pipeline",
+              "uuid": "6fd6bde4-f7cc-4bc4-a76e-3bb6237251ef",
+              "schema_version": "14",
+              "award": "/awards/U54HG007005/",
+              "alternate_accessions": [],
+              "@id": "/pipelines/ENCPL357ADL/",
+              "status": "released"
+            }
+          ],
+          "versions": [
+            "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/"
+          ],
+          "name": "eclip-trimming-mapping-step-v-1",
+          "@id": "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+          "status": "released"
+        },
+        "date_created": "2016-03-25T18:11:32.845285+00:00",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "name": "eclip-trimming-mapping-step-v-1-0",
+        "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+        "@id": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+        "uuid": "0a16411a-b742-45f6-88e5-896ba04f759f",
+        "status": "released",
+        "minor_version": 0
+      },
+      "assembly": "hg19",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR018RVZ/",
+      "derived_from": [
+        "/files/ENCFF731KNX/",
+        "/files/ENCFF838SXG/"
+      ],
+      "file_format": "bam",
+      "file_size": 358867758,
+      "href": "/files/ENCFF457IKB/@@download/ENCFF457IKB.bam",
+      "md5sum": "8378ebc3a7e4ffd2c31c2b92f95cccd8",
+      "output_type": "alignments",
+      "quality_metrics": [],
+      "s3_uri": "s3://encode-public/2016/03/24/bcb40450-c04b-430d-8ac6-d3c9232bc314/ENCFF457IKB.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files/477_01_NCBP2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF138FXS/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF138FXS",
+      "analysis_step_version": {
+        "schema_version": "4",
+        "aliases": [
+          "encode:eclip-alignment-step-v-1-1"
+        ],
+        "software_versions": [
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:fastqc 0.10.1"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2015-02-12T21:31:41.492276+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+              "software_type": [
+                "quality metric"
+              ],
+              "description": "FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.  Babraham Bioinformatics Web site, http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "lab": "/labs/encode-consortium/",
+              "title": "FastQC",
+              "used_by": [
+                "community"
+              ],
+              "uuid": "40d96460-a590-11e4-bcd8-0800200c9a66",
+              "source_url": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/225b2920-a594-11e4-bcd8-0800200c9a66/",
+                "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+                "/software-versions/0f538581-e37a-4586-a42c-76d1f8976768/"
+              ],
+              "name": "fastqc",
+              "@id": "/software/fastqc/",
+              "status": "released"
+            },
+            "date_created": "2016-03-07T20:57:10.869870+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+            "@id": "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+            "version": "0.10.1",
+            "uuid": "4e336116-ab7a-4091-a8f1-5df7e3d334ca",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "download_checksum": "cc2e4d3da46a0d88b4ababe065d0021a",
+            "aliases": [
+              "encode:cutadapt 1.9.1"
+            ],
+            "software": {
+              "bug_tracker_url": "https://github.com/marcelm/cutadapt/issues",
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-01-08T20:56:40.441207+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+              "software_type": [
+                "other"
+              ],
+              "description": "Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.",
+              "lab": "/labs/encode-consortium/",
+              "title": "cutadapt",
+              "used_by": [
+                "community",
+                "uniform processing pipelines",
+                "ENCODE"
+              ],
+              "uuid": "1520d573-61a9-4867-ace9-bf0139d6ea14",
+              "url": "https://cutadapt.readthedocs.org/",
+              "source_url": "https://pypi.python.org/pypi/cutadapt",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+                "/software-versions/bb5928d1-8153-4fe4-99e5-e8389dfa5e02/",
+                "/software-versions/f0e164d8-b55b-4015-98a3-b8a48c11d115/",
+                "/software-versions/697f881b-c16a-40fc-93a9-60fdf0cbef2b/",
+                "/software-versions/d45d0827-cc45-4c6a-ba88-9e1ca8fc8195/",
+                "/software-versions/b0dd1949-b903-4439-a707-1013e445825e/",
+                "/software-versions/16e1fd37-325b-4d29-990e-baaee6162e9d/",
+                "/software-versions/cccef9c9-9049-4088-9488-2011c4160bc5/",
+                "/software-versions/28cdfc04-76cb-468b-8e0c-26bf0fd7c76c/",
+                "/software-versions/68f9e3e0-25a9-4b16-a0c2-6fcd65b19109/",
+                "/software-versions/15da865f-7355-4cdb-a088-1a28f8257bfa/"
+              ],
+              "name": "cutadapt",
+              "@id": "/software/cutadapt/",
+              "status": "released"
+            },
+            "date_created": "2016-01-08T20:59:20.908433+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+            "@id": "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+            "downloaded_url": "https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.9.1.tar.gz",
+            "version": "1.9.1",
+            "uuid": "06dc46e3-5089-4f78-a331-fdebd95f83dd",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:star 2.4.0i"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [
+                "/publications/9d43c048-c70c-42ab-895d-77a69fceb42b/"
+              ],
+              "purpose": [
+                "RNA-seq"
+              ],
+              "date_created": "2014-08-13T01:30:14.893029+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/ce2bde01-07ec-4b8a-b179-554ef95b71dd/",
+              "software_type": [
+                "aligner"
+              ],
+              "description": "STAR (Spliced Transcript Alignment to a Reference) aligns short and bulk RNA-seq reads to a reference genome using uncompressed suffix arrays.",
+              "lab": "/labs/encode-consortium/",
+              "title": "STAR",
+              "used_by": [
+                "ENCODE",
+                "uniform processing pipelines"
+              ],
+              "uuid": "adb49a18-c66d-4bbe-9cab-bea6fd12f8a3",
+              "source_url": "https://github.com/alexdobin/STAR/releases",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/834e3145-b752-4486-a613-c0c625262051/",
+                "/software-versions/195baf07-de0a-460d-9686-59d82bd75e50/",
+                "/software-versions/e038206f-d791-4744-9ee5-7d22bd1f39ee/",
+                "/software-versions/0bfb7a0a-afc7-4453-b735-ee878f23e7a9/",
+                "/software-versions/19f75e90-e991-4dc8-837d-8cd97ab5fb91/",
+                "/software-versions/70a085ad-194e-4de0-838c-7af257680f54/",
+                "/software-versions/f533aae8-827c-4dfe-bfe3-81143728bad8/",
+                "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+                "/software-versions/e7a3ccb9-f3e3-405e-9ee5-7ae53ece93e8/",
+                "/software-versions/dd2d092b-61f7-491e-a127-5099a6a32d9b/",
+                "/software-versions/ef94cd69-7316-480d-b785-e1cb36d1ea97/",
+                "/software-versions/055f6c18-7b20-4499-9f5b-ac4bec338c47/",
+                "/software-versions/475e856f-4d0e-459d-8417-23abd75613e3/",
+                "/software-versions/cab07b5a-9dd9-4417-947f-2771d21db315/",
+                "/software-versions/53519944-8257-4702-8167-0e32140ae5d6/",
+                "/software-versions/d6aa7af7-54ef-4759-b589-91deafbde9ae/",
+                "/software-versions/8dea726a-04c6-4936-ac5a-3a398cf55eef/",
+                "/software-versions/d8fef50e-4f22-4fdc-a437-2774b2ac846f/"
+              ],
+              "name": "star",
+              "@id": "/software/star/",
+              "status": "released"
+            },
+            "date_created": "2016-03-25T18:03:30.391701+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+            "downloaded_url": "https://github.com/alexdobin/STAR/releases/tag/STAR_2.4.0i",
+            "version": "2.4.0i",
+            "uuid": "de76db97-c034-4113-9053-74be4af14b1e",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-05-02T22:35:44.041717+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "read in a .bam file where the first 9 nt of the read name are the barcode and merge reads mapped to the same position that have the same barcode",
+              "lab": "/labs/gene-yeo/",
+              "title": "barcode_collapse_pe.py",
+              "used_by": [
+                "community",
+                "ENCODE"
+              ],
+              "uuid": "3f90d824-0060-41fa-8d00-e45a0aa01035",
+              "url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+              "schema_version": "10",
+              "award": "/awards/U54HG007005/",
+              "versions": [
+                "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/"
+              ],
+              "name": "barcode_collapse_pe.py",
+              "@id": "/software/barcode_collapse_pe.py/",
+              "status": "released"
+            },
+            "date_created": "2016-05-02T22:36:27.011432+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/",
+            "downloaded_url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+            "uuid": "cfd16418-8997-4a0c-bb47-bf6326e26850",
+            "status": "released"
+          }
+        ],
+        "analysis_step": {
+          "aliases": [
+            "gene-yeo:eclip_fastq_to_bam"
+          ],
+          "analysis_step_types": [
+            "QA calculation",
+            "read trimming",
+            "filtering",
+            "alignment"
+          ],
+          "documents": [],
+          "date_created": "2016-03-25T17:33:23.667192+00:00",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "input_file_types": [
+            "reads"
+          ],
+          "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+          "current_version": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+          "title": "ENCODE3 eCLIP trimming and mapping step",
+          "step_label": "eclip-trimming-mapping-step",
+          "uuid": "49b998c5-d8bd-4d78-9fe9-d07182da99a9",
+          "schema_version": "17",
+          "output_file_types": [
+            "alignments"
+          ],
+          "major_version": 1,
+          "pipelines": [
+            {
+              "analysis_steps": [
+                "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+                "/analysis-steps/eclip-makebigwig-step-v-1/",
+                "/analysis-steps/eclip-bigbed-to-bed-step-v-1/",
+                "/analysis-steps/eclip-normalization-step-v-1/",
+                "/analysis-steps/eclip-merge-peaks-step-v-1/"
+              ],
+              "aliases": [],
+              "references": [],
+              "documents": [
+                "/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/"
+              ],
+              "assay_term_names": [
+                "eCLIP"
+              ],
+              "date_created": "2016-03-25T17:43:36.122005+00:00",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "ENCODE eCLIP pipeline Version 1",
+              "accession": "ENCPL357ADL",
+              "lab": "/labs/gene-yeo/",
+              "title": "eCLIP pipeline",
+              "uuid": "6fd6bde4-f7cc-4bc4-a76e-3bb6237251ef",
+              "schema_version": "14",
+              "award": "/awards/U54HG007005/",
+              "alternate_accessions": [],
+              "@id": "/pipelines/ENCPL357ADL/",
+              "status": "released"
+            }
+          ],
+          "versions": [
+            "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/"
+          ],
+          "name": "eclip-trimming-mapping-step-v-1",
+          "@id": "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+          "status": "released"
+        },
+        "date_created": "2016-03-25T18:11:32.845285+00:00",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "name": "eclip-trimming-mapping-step-v-1-0",
+        "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+        "@id": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+        "uuid": "0a16411a-b742-45f6-88e5-896ba04f759f",
+        "status": "released",
+        "minor_version": 0
+      },
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR018RVZ/",
+      "derived_from": [
+        "/files/ENCFF731KNX/",
+        "/files/ENCFF838SXG/"
+      ],
+      "file_format": "bam",
+      "file_size": 340619519,
+      "href": "/files/ENCFF138FXS/@@download/ENCFF138FXS.bam",
+      "md5sum": "25c76b1df9bbc7ee44ca78a6c6994227",
+      "output_type": "alignments",
+      "quality_metrics": [],
+      "s3_uri": "s3://encode-public/2016/09/09/435bf3be-b76c-47ff-83b0-fe6b2711d327/ENCFF138FXS.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/477_01_NCBP2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF025VQL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF025VQL",
+      "analysis_step_version": {
+        "schema_version": "4",
+        "aliases": [
+          "encode:eclip-alignment-step-v-1-1"
+        ],
+        "software_versions": [
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:fastqc 0.10.1"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2015-02-12T21:31:41.492276+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+              "software_type": [
+                "quality metric"
+              ],
+              "description": "FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.  Babraham Bioinformatics Web site, http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "lab": "/labs/encode-consortium/",
+              "title": "FastQC",
+              "used_by": [
+                "community"
+              ],
+              "uuid": "40d96460-a590-11e4-bcd8-0800200c9a66",
+              "source_url": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/225b2920-a594-11e4-bcd8-0800200c9a66/",
+                "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+                "/software-versions/0f538581-e37a-4586-a42c-76d1f8976768/"
+              ],
+              "name": "fastqc",
+              "@id": "/software/fastqc/",
+              "status": "released"
+            },
+            "date_created": "2016-03-07T20:57:10.869870+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+            "@id": "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+            "version": "0.10.1",
+            "uuid": "4e336116-ab7a-4091-a8f1-5df7e3d334ca",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "download_checksum": "cc2e4d3da46a0d88b4ababe065d0021a",
+            "aliases": [
+              "encode:cutadapt 1.9.1"
+            ],
+            "software": {
+              "bug_tracker_url": "https://github.com/marcelm/cutadapt/issues",
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-01-08T20:56:40.441207+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+              "software_type": [
+                "other"
+              ],
+              "description": "Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.",
+              "lab": "/labs/encode-consortium/",
+              "title": "cutadapt",
+              "used_by": [
+                "community",
+                "uniform processing pipelines",
+                "ENCODE"
+              ],
+              "uuid": "1520d573-61a9-4867-ace9-bf0139d6ea14",
+              "url": "https://cutadapt.readthedocs.org/",
+              "source_url": "https://pypi.python.org/pypi/cutadapt",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+                "/software-versions/bb5928d1-8153-4fe4-99e5-e8389dfa5e02/",
+                "/software-versions/f0e164d8-b55b-4015-98a3-b8a48c11d115/",
+                "/software-versions/697f881b-c16a-40fc-93a9-60fdf0cbef2b/",
+                "/software-versions/d45d0827-cc45-4c6a-ba88-9e1ca8fc8195/",
+                "/software-versions/b0dd1949-b903-4439-a707-1013e445825e/",
+                "/software-versions/16e1fd37-325b-4d29-990e-baaee6162e9d/",
+                "/software-versions/cccef9c9-9049-4088-9488-2011c4160bc5/",
+                "/software-versions/28cdfc04-76cb-468b-8e0c-26bf0fd7c76c/",
+                "/software-versions/68f9e3e0-25a9-4b16-a0c2-6fcd65b19109/",
+                "/software-versions/15da865f-7355-4cdb-a088-1a28f8257bfa/"
+              ],
+              "name": "cutadapt",
+              "@id": "/software/cutadapt/",
+              "status": "released"
+            },
+            "date_created": "2016-01-08T20:59:20.908433+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+            "@id": "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+            "downloaded_url": "https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.9.1.tar.gz",
+            "version": "1.9.1",
+            "uuid": "06dc46e3-5089-4f78-a331-fdebd95f83dd",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:star 2.4.0i"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [
+                "/publications/9d43c048-c70c-42ab-895d-77a69fceb42b/"
+              ],
+              "purpose": [
+                "RNA-seq"
+              ],
+              "date_created": "2014-08-13T01:30:14.893029+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/ce2bde01-07ec-4b8a-b179-554ef95b71dd/",
+              "software_type": [
+                "aligner"
+              ],
+              "description": "STAR (Spliced Transcript Alignment to a Reference) aligns short and bulk RNA-seq reads to a reference genome using uncompressed suffix arrays.",
+              "lab": "/labs/encode-consortium/",
+              "title": "STAR",
+              "used_by": [
+                "ENCODE",
+                "uniform processing pipelines"
+              ],
+              "uuid": "adb49a18-c66d-4bbe-9cab-bea6fd12f8a3",
+              "source_url": "https://github.com/alexdobin/STAR/releases",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/834e3145-b752-4486-a613-c0c625262051/",
+                "/software-versions/195baf07-de0a-460d-9686-59d82bd75e50/",
+                "/software-versions/e038206f-d791-4744-9ee5-7d22bd1f39ee/",
+                "/software-versions/0bfb7a0a-afc7-4453-b735-ee878f23e7a9/",
+                "/software-versions/19f75e90-e991-4dc8-837d-8cd97ab5fb91/",
+                "/software-versions/70a085ad-194e-4de0-838c-7af257680f54/",
+                "/software-versions/f533aae8-827c-4dfe-bfe3-81143728bad8/",
+                "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+                "/software-versions/e7a3ccb9-f3e3-405e-9ee5-7ae53ece93e8/",
+                "/software-versions/dd2d092b-61f7-491e-a127-5099a6a32d9b/",
+                "/software-versions/ef94cd69-7316-480d-b785-e1cb36d1ea97/",
+                "/software-versions/055f6c18-7b20-4499-9f5b-ac4bec338c47/",
+                "/software-versions/475e856f-4d0e-459d-8417-23abd75613e3/",
+                "/software-versions/cab07b5a-9dd9-4417-947f-2771d21db315/",
+                "/software-versions/53519944-8257-4702-8167-0e32140ae5d6/",
+                "/software-versions/d6aa7af7-54ef-4759-b589-91deafbde9ae/",
+                "/software-versions/8dea726a-04c6-4936-ac5a-3a398cf55eef/",
+                "/software-versions/d8fef50e-4f22-4fdc-a437-2774b2ac846f/"
+              ],
+              "name": "star",
+              "@id": "/software/star/",
+              "status": "released"
+            },
+            "date_created": "2016-03-25T18:03:30.391701+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+            "downloaded_url": "https://github.com/alexdobin/STAR/releases/tag/STAR_2.4.0i",
+            "version": "2.4.0i",
+            "uuid": "de76db97-c034-4113-9053-74be4af14b1e",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-05-02T22:35:44.041717+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "read in a .bam file where the first 9 nt of the read name are the barcode and merge reads mapped to the same position that have the same barcode",
+              "lab": "/labs/gene-yeo/",
+              "title": "barcode_collapse_pe.py",
+              "used_by": [
+                "community",
+                "ENCODE"
+              ],
+              "uuid": "3f90d824-0060-41fa-8d00-e45a0aa01035",
+              "url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+              "schema_version": "10",
+              "award": "/awards/U54HG007005/",
+              "versions": [
+                "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/"
+              ],
+              "name": "barcode_collapse_pe.py",
+              "@id": "/software/barcode_collapse_pe.py/",
+              "status": "released"
+            },
+            "date_created": "2016-05-02T22:36:27.011432+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/",
+            "downloaded_url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+            "uuid": "cfd16418-8997-4a0c-bb47-bf6326e26850",
+            "status": "released"
+          }
+        ],
+        "analysis_step": {
+          "aliases": [
+            "gene-yeo:eclip_fastq_to_bam"
+          ],
+          "analysis_step_types": [
+            "QA calculation",
+            "read trimming",
+            "filtering",
+            "alignment"
+          ],
+          "documents": [],
+          "date_created": "2016-03-25T17:33:23.667192+00:00",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "input_file_types": [
+            "reads"
+          ],
+          "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+          "current_version": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+          "title": "ENCODE3 eCLIP trimming and mapping step",
+          "step_label": "eclip-trimming-mapping-step",
+          "uuid": "49b998c5-d8bd-4d78-9fe9-d07182da99a9",
+          "schema_version": "17",
+          "output_file_types": [
+            "alignments"
+          ],
+          "major_version": 1,
+          "pipelines": [
+            {
+              "analysis_steps": [
+                "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+                "/analysis-steps/eclip-makebigwig-step-v-1/",
+                "/analysis-steps/eclip-bigbed-to-bed-step-v-1/",
+                "/analysis-steps/eclip-normalization-step-v-1/",
+                "/analysis-steps/eclip-merge-peaks-step-v-1/"
+              ],
+              "aliases": [],
+              "references": [],
+              "documents": [
+                "/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/"
+              ],
+              "assay_term_names": [
+                "eCLIP"
+              ],
+              "date_created": "2016-03-25T17:43:36.122005+00:00",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "ENCODE eCLIP pipeline Version 1",
+              "accession": "ENCPL357ADL",
+              "lab": "/labs/gene-yeo/",
+              "title": "eCLIP pipeline",
+              "uuid": "6fd6bde4-f7cc-4bc4-a76e-3bb6237251ef",
+              "schema_version": "14",
+              "award": "/awards/U54HG007005/",
+              "alternate_accessions": [],
+              "@id": "/pipelines/ENCPL357ADL/",
+              "status": "released"
+            }
+          ],
+          "versions": [
+            "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/"
+          ],
+          "name": "eclip-trimming-mapping-step-v-1",
+          "@id": "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+          "status": "released"
+        },
+        "date_created": "2016-03-25T18:11:32.845285+00:00",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "name": "eclip-trimming-mapping-step-v-1-0",
+        "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+        "@id": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+        "uuid": "0a16411a-b742-45f6-88e5-896ba04f759f",
+        "status": "released",
+        "minor_version": 0
+      },
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR018RVZ/",
+      "derived_from": [
+        "/files/ENCFF841ZMA/",
+        "/files/ENCFF444ZHJ/"
+      ],
+      "file_format": "bam",
+      "file_size": 369139143,
+      "href": "/files/ENCFF025VQL/@@download/ENCFF025VQL.bam",
+      "md5sum": "314105abb690e68633dda34adf6036aa",
+      "output_type": "alignments",
+      "quality_metrics": [],
+      "s3_uri": "s3://encode-public/2016/09/09/ed1dbb57-ab77-4bdd-88b7-9dec71ca3863/ENCFF025VQL.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/477_02_NCBP2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF071ZJE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF071ZJE",
+      "analysis_step_version": {
+        "schema_version": "4",
+        "aliases": [
+          "encode:eclip-alignment-step-v-1-1"
+        ],
+        "software_versions": [
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:fastqc 0.10.1"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2015-02-12T21:31:41.492276+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+              "software_type": [
+                "quality metric"
+              ],
+              "description": "FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.  Babraham Bioinformatics Web site, http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "lab": "/labs/encode-consortium/",
+              "title": "FastQC",
+              "used_by": [
+                "community"
+              ],
+              "uuid": "40d96460-a590-11e4-bcd8-0800200c9a66",
+              "source_url": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/225b2920-a594-11e4-bcd8-0800200c9a66/",
+                "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+                "/software-versions/0f538581-e37a-4586-a42c-76d1f8976768/"
+              ],
+              "name": "fastqc",
+              "@id": "/software/fastqc/",
+              "status": "released"
+            },
+            "date_created": "2016-03-07T20:57:10.869870+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/81a6cc12-2847-4e2e-8f2c-f566699eb29e/",
+            "@id": "/software-versions/4e336116-ab7a-4091-a8f1-5df7e3d334ca/",
+            "version": "0.10.1",
+            "uuid": "4e336116-ab7a-4091-a8f1-5df7e3d334ca",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "download_checksum": "cc2e4d3da46a0d88b4ababe065d0021a",
+            "aliases": [
+              "encode:cutadapt 1.9.1"
+            ],
+            "software": {
+              "bug_tracker_url": "https://github.com/marcelm/cutadapt/issues",
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-01-08T20:56:40.441207+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+              "software_type": [
+                "other"
+              ],
+              "description": "Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.",
+              "lab": "/labs/encode-consortium/",
+              "title": "cutadapt",
+              "used_by": [
+                "community",
+                "uniform processing pipelines",
+                "ENCODE"
+              ],
+              "uuid": "1520d573-61a9-4867-ace9-bf0139d6ea14",
+              "url": "https://cutadapt.readthedocs.org/",
+              "source_url": "https://pypi.python.org/pypi/cutadapt",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+                "/software-versions/bb5928d1-8153-4fe4-99e5-e8389dfa5e02/",
+                "/software-versions/f0e164d8-b55b-4015-98a3-b8a48c11d115/",
+                "/software-versions/697f881b-c16a-40fc-93a9-60fdf0cbef2b/",
+                "/software-versions/d45d0827-cc45-4c6a-ba88-9e1ca8fc8195/",
+                "/software-versions/b0dd1949-b903-4439-a707-1013e445825e/",
+                "/software-versions/16e1fd37-325b-4d29-990e-baaee6162e9d/",
+                "/software-versions/cccef9c9-9049-4088-9488-2011c4160bc5/",
+                "/software-versions/28cdfc04-76cb-468b-8e0c-26bf0fd7c76c/",
+                "/software-versions/68f9e3e0-25a9-4b16-a0c2-6fcd65b19109/",
+                "/software-versions/15da865f-7355-4cdb-a088-1a28f8257bfa/"
+              ],
+              "name": "cutadapt",
+              "@id": "/software/cutadapt/",
+              "status": "released"
+            },
+            "date_created": "2016-01-08T20:59:20.908433+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/a00d89e0-a488-4adf-9738-25149afc4087/",
+            "@id": "/software-versions/06dc46e3-5089-4f78-a331-fdebd95f83dd/",
+            "downloaded_url": "https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.9.1.tar.gz",
+            "version": "1.9.1",
+            "uuid": "06dc46e3-5089-4f78-a331-fdebd95f83dd",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [
+              "encode:star 2.4.0i"
+            ],
+            "software": {
+              "aliases": [],
+              "references": [
+                "/publications/9d43c048-c70c-42ab-895d-77a69fceb42b/"
+              ],
+              "purpose": [
+                "RNA-seq"
+              ],
+              "date_created": "2014-08-13T01:30:14.893029+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/ce2bde01-07ec-4b8a-b179-554ef95b71dd/",
+              "software_type": [
+                "aligner"
+              ],
+              "description": "STAR (Spliced Transcript Alignment to a Reference) aligns short and bulk RNA-seq reads to a reference genome using uncompressed suffix arrays.",
+              "lab": "/labs/encode-consortium/",
+              "title": "STAR",
+              "used_by": [
+                "ENCODE",
+                "uniform processing pipelines"
+              ],
+              "uuid": "adb49a18-c66d-4bbe-9cab-bea6fd12f8a3",
+              "source_url": "https://github.com/alexdobin/STAR/releases",
+              "schema_version": "10",
+              "award": "/awards/ENCODE/",
+              "versions": [
+                "/software-versions/834e3145-b752-4486-a613-c0c625262051/",
+                "/software-versions/195baf07-de0a-460d-9686-59d82bd75e50/",
+                "/software-versions/e038206f-d791-4744-9ee5-7d22bd1f39ee/",
+                "/software-versions/0bfb7a0a-afc7-4453-b735-ee878f23e7a9/",
+                "/software-versions/19f75e90-e991-4dc8-837d-8cd97ab5fb91/",
+                "/software-versions/70a085ad-194e-4de0-838c-7af257680f54/",
+                "/software-versions/f533aae8-827c-4dfe-bfe3-81143728bad8/",
+                "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+                "/software-versions/e7a3ccb9-f3e3-405e-9ee5-7ae53ece93e8/",
+                "/software-versions/dd2d092b-61f7-491e-a127-5099a6a32d9b/",
+                "/software-versions/ef94cd69-7316-480d-b785-e1cb36d1ea97/",
+                "/software-versions/055f6c18-7b20-4499-9f5b-ac4bec338c47/",
+                "/software-versions/475e856f-4d0e-459d-8417-23abd75613e3/",
+                "/software-versions/cab07b5a-9dd9-4417-947f-2771d21db315/",
+                "/software-versions/53519944-8257-4702-8167-0e32140ae5d6/",
+                "/software-versions/d6aa7af7-54ef-4759-b589-91deafbde9ae/",
+                "/software-versions/8dea726a-04c6-4936-ac5a-3a398cf55eef/",
+                "/software-versions/d8fef50e-4f22-4fdc-a437-2774b2ac846f/"
+              ],
+              "name": "star",
+              "@id": "/software/star/",
+              "status": "released"
+            },
+            "date_created": "2016-03-25T18:03:30.391701+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/de76db97-c034-4113-9053-74be4af14b1e/",
+            "downloaded_url": "https://github.com/alexdobin/STAR/releases/tag/STAR_2.4.0i",
+            "version": "2.4.0i",
+            "uuid": "de76db97-c034-4113-9053-74be4af14b1e",
+            "status": "released"
+          },
+          {
+            "schema_version": "4",
+            "aliases": [],
+            "software": {
+              "aliases": [],
+              "references": [],
+              "date_created": "2016-05-02T22:35:44.041717+00:00",
+              "@type": [
+                "Software",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "read in a .bam file where the first 9 nt of the read name are the barcode and merge reads mapped to the same position that have the same barcode",
+              "lab": "/labs/gene-yeo/",
+              "title": "barcode_collapse_pe.py",
+              "used_by": [
+                "community",
+                "ENCODE"
+              ],
+              "uuid": "3f90d824-0060-41fa-8d00-e45a0aa01035",
+              "url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+              "schema_version": "10",
+              "award": "/awards/U54HG007005/",
+              "versions": [
+                "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/"
+              ],
+              "name": "barcode_collapse_pe.py",
+              "@id": "/software/barcode_collapse_pe.py/",
+              "status": "released"
+            },
+            "date_created": "2016-05-02T22:36:27.011432+00:00",
+            "@type": [
+              "SoftwareVersion",
+              "Item"
+            ],
+            "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+            "@id": "/software-versions/cfd16418-8997-4a0c-bb47-bf6326e26850/",
+            "downloaded_url": "https://github.com/YeoLab/gscripts/blob/master/gscripts/clipseq/barcode_collapse_pe.py",
+            "uuid": "cfd16418-8997-4a0c-bb47-bf6326e26850",
+            "status": "released"
+          }
+        ],
+        "analysis_step": {
+          "aliases": [
+            "gene-yeo:eclip_fastq_to_bam"
+          ],
+          "analysis_step_types": [
+            "QA calculation",
+            "read trimming",
+            "filtering",
+            "alignment"
+          ],
+          "documents": [],
+          "date_created": "2016-03-25T17:33:23.667192+00:00",
+          "@type": [
+            "AnalysisStep",
+            "Item"
+          ],
+          "input_file_types": [
+            "reads"
+          ],
+          "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+          "current_version": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+          "title": "ENCODE3 eCLIP trimming and mapping step",
+          "step_label": "eclip-trimming-mapping-step",
+          "uuid": "49b998c5-d8bd-4d78-9fe9-d07182da99a9",
+          "schema_version": "17",
+          "output_file_types": [
+            "alignments"
+          ],
+          "major_version": 1,
+          "pipelines": [
+            {
+              "analysis_steps": [
+                "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+                "/analysis-steps/eclip-makebigwig-step-v-1/",
+                "/analysis-steps/eclip-bigbed-to-bed-step-v-1/",
+                "/analysis-steps/eclip-normalization-step-v-1/",
+                "/analysis-steps/eclip-merge-peaks-step-v-1/"
+              ],
+              "aliases": [],
+              "references": [],
+              "documents": [
+                "/documents/739ca190-8d43-4a68-90ce-1a0ddfffc6fd/"
+              ],
+              "assay_term_names": [
+                "eCLIP"
+              ],
+              "date_created": "2016-03-25T17:43:36.122005+00:00",
+              "@type": [
+                "Pipeline",
+                "Item"
+              ],
+              "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+              "description": "ENCODE eCLIP pipeline Version 1",
+              "accession": "ENCPL357ADL",
+              "lab": "/labs/gene-yeo/",
+              "title": "eCLIP pipeline",
+              "uuid": "6fd6bde4-f7cc-4bc4-a76e-3bb6237251ef",
+              "schema_version": "14",
+              "award": "/awards/U54HG007005/",
+              "alternate_accessions": [],
+              "@id": "/pipelines/ENCPL357ADL/",
+              "status": "released"
+            }
+          ],
+          "versions": [
+            "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/"
+          ],
+          "name": "eclip-trimming-mapping-step-v-1",
+          "@id": "/analysis-steps/eclip-trimming-mapping-step-v-1/",
+          "status": "released"
+        },
+        "date_created": "2016-03-25T18:11:32.845285+00:00",
+        "@type": [
+          "AnalysisStepVersion",
+          "Item"
+        ],
+        "name": "eclip-trimming-mapping-step-v-1-0",
+        "submitted_by": "/users/332d0e03-a907-4f53-8358-bb00118277c8/",
+        "@id": "/analysis-step-versions/eclip-trimming-mapping-step-v-1-0/",
+        "uuid": "0a16411a-b742-45f6-88e5-896ba04f759f",
+        "status": "released",
+        "minor_version": 0
+      },
+      "assembly": "hg19",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR018RVZ/",
+      "derived_from": [
+        "/files/ENCFF841ZMA/",
+        "/files/ENCFF444ZHJ/"
+      ],
+      "file_format": "bam",
+      "file_size": 383109593,
+      "href": "/files/ENCFF071ZJE/@@download/ENCFF071ZJE.bam",
+      "md5sum": "448743068aa630b5cedb97f88b8890a7",
+      "output_type": "alignments",
+      "quality_metrics": [],
+      "s3_uri": "s3://encode-public/2016/03/24/7eb4ab28-db5f-41b3-9e6d-977d351cc696/ENCFF071ZJE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files/477_02_NCBP2.merged.bam"
+    }
+  ],
+  "@id": "/search/?type=File&dataset=%2Fexperiments%2FENCSR018RVZ%2F&file_format=bam&format=json&limit=all&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name&field=quality_metrics&field=analysis_step_version&field=controlled_by",
+  "@type": [
+    "Search"
+  ],
+  "clear_filters": "/search/?type=File",
+  "columns": {
+    "@id": {
+      "title": "ID"
+    },
+    "title": {
+      "title": "Title"
+    },
+    "accession": {
+      "title": "Accession"
+    },
+    "dataset": {
+      "title": "Dataset"
+    },
+    "assembly": {
+      "title": "Genome assembly"
+    },
+    "technical_replicates": {
+      "title": "Technical replicates"
+    },
+    "biological_replicates": {
+      "title": "Biological replicates"
+    },
+    "file_format": {
+      "title": "File Format"
+    },
+    "file_type": {
+      "title": "File type"
+    },
+    "file_format_type": {
+      "title": "File format type"
+    },
+    "file_size": {
+      "title": "File size"
+    },
+    "assay_term_name": {
+      "title": "Assay term name"
+    },
+    "biosample_ontology.term_name": {
+      "title": "Biosample name"
+    },
+    "biosample_ontology.organ_slims": {
+      "title": "Organ"
+    },
+    "simple_biosample_summary": {
+      "title": "Simple biosample summary"
+    },
+    "origin_batches": {
+      "title": "Batch"
+    },
+    "target.label": {
+      "title": "Target label"
+    },
+    "href": {
+      "title": "Download URL"
+    },
+    "derived_from": {
+      "title": "Derived from"
+    },
+    "genome_annotation": {
+      "title": "Genome annotation"
+    },
+    "replicate.library.accession": {
+      "title": "Library"
+    },
+    "paired_end": {
+      "title": "Paired end identifier"
+    },
+    "paired_with": {
+      "title": "Paired with"
+    },
+    "preferred_default": {
+      "title": "Preferred Default"
+    },
+    "run_type": {
+      "title": "Run type"
+    },
+    "read_length": {
+      "title": "Read length"
+    },
+    "mapped_read_length": {
+      "title": "Mapped read length (nt)"
+    },
+    "cropped_read_length": {
+      "title": "Cropped read length (nt)"
+    },
+    "cropped_read_length_tolerance": {
+      "title": "Cropped read length tolerance (nt)"
+    },
+    "mapped_run_type": {
+      "title": "Mapped run type for bam files"
+    },
+    "read_length_units": {
+      "title": "Read length units"
+    },
+    "output_category": {
+      "title": "Output category"
+    },
+    "output_type": {
+      "title": "Output type"
+    },
+    "index_of": {
+      "title": "Index of"
+    },
+    "quality_metrics": {
+      "title": "QC Metric"
+    },
+    "lab.title": {
+      "title": "Lab"
+    },
+    "award.project": {
+      "title": "Project"
+    },
+    "step_run": {
+      "title": "Analysis step run"
+    },
+    "date_created": {
+      "title": "Date created"
+    },
+    "analysis_step_version": {
+      "title": "Analysis step version"
+    },
+    "restricted": {
+      "title": "Restricted file"
+    },
+    "submitter_comment": {
+      "title": "Submitter comment"
+    },
+    "status": {
+      "title": "Status"
+    },
+    "annotation_type": {
+      "title": "Annotation type"
+    },
+    "annotation_subtype": {
+      "title": "Annotation subtype"
+    },
+    "biochemical_inputs": {
+      "title": "Biochemical activity"
+    },
+    "encyclopedia_version": {
+      "title": "Encyclopedia version"
+    }
+  },
+  "facet_groups": [
+    {
+      "name": "File",
+      "title": "Format",
+      "facet_fields": [
+        "output_category",
+        "output_type",
+        "file_format",
+        "file_format_type",
+        "file_type"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Assay",
+      "facet_fields": [
+        "assay_title",
+        "platform.term_name",
+        "target.label",
+        "targets.label"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Annotation",
+      "facet_fields": [
+        "annotation_type",
+        "annotation_subtype",
+        "encyclopedia_version"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Biosample",
+      "facet_fields": [
+        "biosample_ontology.term_name",
+        "biosample_ontology.organ_slims",
+        "origin_batches",
+        "biosample_ontology.cell_slims",
+        "biosample_ontology.system_slims"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Analysis",
+      "facet_fields": [
+        "assembly"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Provenance",
+      "facet_fields": [
+        "award.project",
+        "lab.title"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Quality",
+      "facet_fields": [
+        "status",
+        "audit.ERROR.category",
+        "audit.NOT_COMPLIANT.category",
+        "audit.WARNING.category",
+        "audit.INTERNAL_ACTION.category"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "field": "type",
+      "title": "Data Type",
+      "terms": [
+        {
+          "key": "File",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "status",
+      "title": "Status",
+      "terms": [
+        {
+          "key": "released",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "output_category",
+      "title": "Output category",
+      "terms": [
+        {
+          "key": "alignment",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "output_type",
+      "title": "Output type",
+      "terms": [
+        {
+          "key": "alignments",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "file_format",
+      "title": "File format",
+      "terms": [
+        {
+          "key": "bed",
+          "doc_count": 10
+        },
+        {
+          "key": "bigBed",
+          "doc_count": 10
+        },
+        {
+          "key": "bigWig",
+          "doc_count": 8
+        },
+        {
+          "key": "bam",
+          "doc_count": 4
+        },
+        {
+          "key": "fastq",
+          "doc_count": 4
+        }
+      ],
+      "total": 36,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "file_type",
+      "title": "File type",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "award.project",
+      "title": "Project",
+      "terms": [
+        {
+          "key": "ENCODE",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assembly",
+      "title": "Genome assembly",
+      "terms": [
+        {
+          "key": "GRCh38",
+          "doc_count": 2
+        },
+        {
+          "key": "hg19",
+          "doc_count": 2
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "lab.title",
+      "title": "Lab",
+      "terms": [
+        {
+          "key": "Gene Yeo, UCSD",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assay_title",
+      "title": "Assay title",
+      "terms": [
+        {
+          "key": "eCLIP",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.term_name",
+      "title": "Biosample",
+      "terms": [
+        {
+          "key": "HepG2",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.organ_slims",
+      "title": "Organ",
+      "terms": [
+        {
+          "key": "endocrine gland",
+          "doc_count": 4
+        },
+        {
+          "key": "epithelium",
+          "doc_count": 4
+        },
+        {
+          "key": "exocrine gland",
+          "doc_count": 4
+        },
+        {
+          "key": "liver",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "origin_batches",
+      "title": "Batch",
+      "terms": [
+        {
+          "key": "/biosamples/ENCBS308ZPA/",
+          "doc_count": 2
+        },
+        {
+          "key": "/biosamples/ENCBS362ASG/",
+          "doc_count": 2
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.cell_slims",
+      "title": "Cell",
+      "terms": [
+        {
+          "key": "cancer cell",
+          "doc_count": 4
+        },
+        {
+          "key": "epithelial cell",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.system_slims",
+      "title": "Systems",
+      "terms": [
+        {
+          "key": "digestive system",
+          "doc_count": 4
+        },
+        {
+          "key": "endocrine system",
+          "doc_count": 4
+        },
+        {
+          "key": "exocrine system",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "target.label",
+      "title": "Target of assay",
+      "terms": [
+        {
+          "key": "NCBP2",
+          "doc_count": 4
+        }
+      ],
+      "total": 4,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "dataset",
+      "title": "dataset",
+      "terms": [
+        {
+          "key": "/experiments/ENCSR018RVZ/",
+          "isEqual": true
+        }
+      ],
+      "appended": true,
+      "total": 0
+    }
+  ],
+  "filters": [
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR018RVZ/",
+      "remove": "/search/?type=File&file_format=bam&format=json&limit=all&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name&field=quality_metrics&field=analysis_step_version&field=controlled_by"
+    },
+    {
+      "field": "file_format",
+      "term": "bam",
+      "remove": "/search/?type=File&dataset=%2Fexperiments%2FENCSR018RVZ%2F&format=json&limit=all&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name&field=quality_metrics&field=analysis_step_version&field=controlled_by"
+    },
+    {
+      "field": "type",
+      "term": "File",
+      "remove": "/search/?dataset=%2Fexperiments%2FENCSR018RVZ%2F&file_format=bam&format=json&limit=all&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name&field=quality_metrics&field=analysis_step_version&field=controlled_by"
+    }
+  ],
+  "notification": "Success",
+  "sort": {
+    "date_created": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "label": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "uuid": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    }
+  },
+  "title": "Search",
+  "total": 4
+}

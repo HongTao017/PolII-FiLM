@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "stage": "attribution",
+  "seed": 20260919,
+  "gpu": 1,
+  "start": 0,
+  "stop": 50,
+  "checkpoint": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919",
+    "checkpoint_sha256": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59",
+    "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
+    "fingerprint": "bb58fd29d574e1e941011c9b39ec50243341bb3732e67710ed7a1f7744c8e59d"
+  },
+  "device_compatibility": {
+    "gpu": 1,
+    "seed": 20260919,
+    "gene": "EPSTI1",
+    "max_attribution_difference": 1.902226358652115e-07,
+    "delta_difference": 9.5367431640625e-07,
+    "cpu_completeness_error": 4.4330954551696777e-07,
+    "status": "PASS"
+  },
+  "selected_genes_sha256": "0df9b8651547eea48331bbd82c056f85e0c3f163ec338dd2b23d9bff1e3730c2",
+  "outputs_sha256": {
+    "parallel/attribution/seed_20260919/part_000_050/hypothetical.npy": "d68ffc2d603ed067945dd13d9c6a87590c0681551573c4f5daed1359bf4fa0e2",
+    "parallel/attribution/seed_20260919/part_000_050/completeness.npz": "2d375ea112217e13dc385ad2eec9fb81f83b57a780e5a3fc7d0245a98dae7991"
+  }
+}

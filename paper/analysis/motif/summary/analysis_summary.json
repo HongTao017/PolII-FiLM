@@ -1,0 +1,22 @@
+{
+  "scope": "Ten-fold sampled conditional-DNA DeepLIFT and saturation mutagenesis: 2000 held-out genes/DNA groups, 50 original A/FiLM checkpoints, no training or ChIP alteration. Not all 15351 genes or independent biological validation.",
+  "folds_complete": 10,
+  "models": 50,
+  "genes": 2000,
+  "unique_DNA_groups": 2000,
+  "fold1_reused_without_inference": true,
+  "patterns": 314,
+  "annotated_patterns": 44,
+  "perturbed_instances": 207,
+  "positive_r": 146,
+  "negative_r": 61,
+  "direction_matches_pattern": 188,
+  "SNP_rows": 62721,
+  "mutant_predictions": 313605,
+  "optimizer_updates": 0,
+  "BN_refits": 0,
+  "preprocessor_refits": 0,
+  "inference_readout": "Original-scale signed pooled Y_PC1, mutant minus WT, five-seed prediction average",
+  "interpretation": "Exploratory model-internal association. SNPs dependent; fold training sets overlap. No biological causality, binding validation, accuracy improvement, RNA logFC or full-gene OOF claim.",
+  "prior_confirmation": "Fold1-selected motif labels, not same genes repeated or forced motif rediscovery; absent is not zero effect."
+}

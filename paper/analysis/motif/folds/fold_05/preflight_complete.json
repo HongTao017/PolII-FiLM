@@ -1,0 +1,370 @@
+{
+  "status": "PASS",
+  "method": "custom DeepLIFT Rescale with explicit GroupNorm square/rsqrt Rescale and symmetric product rule; fixed actual FiLM regulation",
+  "unit_tests": [
+    {
+      "dtype": "torch.float32",
+      "constant_reference": false,
+      "max_error": 2.86102294921875e-06
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": false,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "dtype": "torch.float32",
+      "constant_reference": true,
+      "max_error": 0.000244140625
+    },
+    {
+      "dtype": "torch.float64",
+      "constant_reference": true,
+      "max_error": 2.651212582804874e-13
+    }
+  ],
+  "models": [
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260915",
+      "checkpoint_sha256": "ee86f0de5475738d259ad18a3f7cd29cde460ba276b2c122959c41b6dfab791b",
+      "preprocessing_sha256": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+      "fingerprint": "d384799a16c47a7571cc24a9c548475743e23c6bc73c14f49284ac0b564a98f3",
+      "seed": 20260915,
+      "examples": [
+        {
+          "gene": "TBP",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.5098127126693726,
+          "completeness_error": -1.7881393432617188e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "identical",
+          "prediction_delta": 5.960464477539063e-08,
+          "completeness_error": -5.960464477539063e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.12505370378494263,
+          "completeness_error": -2.8312206268310547e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.1524127721786499,
+          "completeness_error": -8.940696716308594e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.7845458984375,
+          "completeness_error": -1.3113021850585938e-06,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.022153377532958984,
+          "completeness_error": 3.725290298461914e-09,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.0561680793762207,
+          "completeness_error": 4.246830940246582e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260916",
+      "checkpoint_sha256": "b2757805b47e6b266b6498b2f8e23dffb679f6632ccbbab7cff44f6d2a058fcf",
+      "preprocessing_sha256": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+      "fingerprint": "dd299956fe107202d50a25e5e7d266bda00cda9e1bf0833c4056f34b3b76df77",
+      "seed": 20260916,
+      "examples": [
+        {
+          "gene": "TBP",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.9099802374839783,
+          "completeness_error": 5.960464477539063e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.06883710622787476,
+          "completeness_error": 9.685754776000977e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.02021259069442749,
+          "completeness_error": -9.499490261077881e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.9145498275756836,
+          "completeness_error": 3.5762786865234375e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.007997989654541016,
+          "completeness_error": 4.284083843231201e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.012540340423583984,
+          "completeness_error": 5.047768354415894e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260917",
+      "checkpoint_sha256": "bcbdb47e068f34c1e3b80c8df397e716010e2e3c81dd38589bfb9bd58bbca1d8",
+      "preprocessing_sha256": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+      "fingerprint": "d5b85dde03727ad61beea763cbf6083e024265b8551f98d3c7284f9a1688591c",
+      "seed": 20260917,
+      "examples": [
+        {
+          "gene": "TBP",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.362804651260376,
+          "completeness_error": -1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.013391375541687012,
+          "completeness_error": 4.470348358154297e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.007510066032409668,
+          "completeness_error": 8.568167686462402e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.3082175254821777,
+          "completeness_error": -3.5762786865234375e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.05043649673461914,
+          "completeness_error": 2.682209014892578e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.003509044647216797,
+          "completeness_error": -1.3969838619232178e-07,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260918",
+      "checkpoint_sha256": "b3e9c0860497ce3c040e9a6af52fec743c64833c3e44a8db8603fb655a32a871",
+      "preprocessing_sha256": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+      "fingerprint": "d8508e69077c9bc44c842a52c9220e2fba64b2438694a0ca604c8818d305710a",
+      "seed": 20260918,
+      "examples": [
+        {
+          "gene": "TBP",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.20870691537857056,
+          "completeness_error": 3.2782554626464844e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.027950197458267212,
+          "completeness_error": 1.955777406692505e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.03429059684276581,
+          "completeness_error": 3.203749656677246e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.3126144409179688,
+          "completeness_error": 1.1920928955078125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "identical",
+          "prediction_delta": 4.76837158203125e-07,
+          "completeness_error": -4.76837158203125e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.017790555953979492,
+          "completeness_error": -1.825392246246338e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.024568557739257812,
+          "completeness_error": -9.313225746154785e-08,
+          "forward_error": 0.0
+        }
+      ]
+    },
+    {
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_05/seed_20260919",
+      "checkpoint_sha256": "69649a1bd80780393fcf445d55b070ef100cffdce6879feb290f5a835061d309",
+      "preprocessing_sha256": "68297452aa151d4854b4bc3f43b9f9f611b4dfbb5f7e769731815bb3dfa8ae35",
+      "fingerprint": "24a8e4573f7f1a09297090f27b061bf248cc05f735e5fe9e692e076afab64435",
+      "seed": 20260919,
+      "examples": [
+        {
+          "gene": "TBP",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 0.5715147256851196,
+          "completeness_error": 5.960464477539063e-08,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "identical",
+          "prediction_delta": -2.384185791015625e-07,
+          "completeness_error": 2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": 0.03180307149887085,
+          "completeness_error": 1.9744038581848145e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "TBP",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": 0.018195748329162598,
+          "completeness_error": 2.7567148208618164e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "reverse_numeric_test",
+          "prediction_delta": 1.4677352905273438,
+          "completeness_error": -2.384185791015625e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "identical",
+          "prediction_delta": 0.0,
+          "completeness_error": 0.0,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_0",
+          "prediction_delta": -0.038011789321899414,
+          "completeness_error": 4.172325134277344e-07,
+          "forward_error": 0.0
+        },
+        {
+          "gene": "BROX",
+          "reference": "physical_consistent_dinuc_1",
+          "prediction_delta": -0.044936418533325195,
+          "completeness_error": 4.3213367462158203e-07,
+          "forward_error": 0.0
+        }
+      ]
+    }
+  ],
+  "device": "cpu",
+  "completed_utc": "2026-10-15T10:15:36Z",
+  "optimizer_updates": 0,
+  "bn_refits": 0,
+  "preprocessing_refits": 0,
+  "code_sha256": {
+    "verify_precision_alignment.py": "5457ef4146e62deca47c503713a11d7fca23e6cfd18cfbf54f0564f7781b978f",
+    "run_fold.py": "b7aa3fcc6490a5e4a6bcb767a876e7d0cba4d35f412d536097a5a7022e33624f",
+    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
+    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "draw_reference_style.py": "519baa5aa6db7f7810f558c692eeb02e309daad9df822602376dfa73f22d6771",
+    "final_figure_small.py": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
+    "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "run_pipeline.py": "c539e1bb2e00deeeaf5047438eb9ebea4d8619c9b5e3065de72e346569ac5f20",
+    "plot_perturbations.py": "318e6204f9148533758440c5259ba5457cbf4a8ba308185f8bc2e425fe8694f7"
+  }
+}

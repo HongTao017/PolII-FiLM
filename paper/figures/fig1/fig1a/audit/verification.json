@@ -1,0 +1,22 @@
+{
+  "panel": "A",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "frozen_data_hashes_verified": 11,
+  "page_size_pt": [
+    422.7496948242,
+    429.2977294922
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "samples": 105,
+    "matrix_shape": [
+      105,
+      105
+    ],
+    "statistic": "absolute Spearman",
+    "symmetry_and_diagonal_verified": true,
+    "original_order_and_linkage_preserved": true
+  }
+}

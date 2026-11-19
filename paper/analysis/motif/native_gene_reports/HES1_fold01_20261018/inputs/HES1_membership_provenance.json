@@ -1,0 +1,189 @@
+[
+  {
+    "pattern_id": "r0_neg_patterns_pattern_2",
+    "region": "tss_sequence",
+    "original_seqlet_index": 5,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 501,
+    "input_end0": 551,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r0_neg_patterns_pattern_2",
+    "region": "tss_sequence",
+    "original_seqlet_index": 9,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 444,
+    "input_end0": 494,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r0_neg_patterns_pattern_2",
+    "region": "tss_sequence",
+    "original_seqlet_index": 11,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 477,
+    "input_end0": 527,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r0_neg_patterns_pattern_2",
+    "region": "tss_sequence",
+    "original_seqlet_index": 14,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 386,
+    "input_end0": 436,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_0",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 300,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 209,
+    "input_end0": 259,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_0",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 472,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 1431,
+    "input_end0": 1481,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 4,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 38,
+    "input_end0": 88,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r1_pos_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 5,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 1090,
+    "input_end0": 1140,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 3,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 1667,
+    "input_end0": 1717,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 17,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 1605,
+    "input_end0": 1655,
+    "is_revcomp": true
+  },
+  {
+    "pattern_id": "r1_neg_patterns_pattern_1",
+    "region": "first_donor_sequence",
+    "original_seqlet_index": 21,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 1400,
+    "input_end0": 1450,
+    "is_revcomp": true
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_2",
+    "region": "pre_tes_sequence",
+    "original_seqlet_index": 13,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 614,
+    "input_end0": 664,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r3_pos_patterns_pattern_2",
+    "region": "pre_tes_sequence",
+    "original_seqlet_index": 17,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 678,
+    "input_end0": 728,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_0",
+    "region": "pre_tes_sequence",
+    "original_seqlet_index": 20,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 153,
+    "input_end0": 203,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_0",
+    "region": "pre_tes_sequence",
+    "original_seqlet_index": 21,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 179,
+    "input_end0": 229,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_0",
+    "region": "pre_tes_sequence",
+    "original_seqlet_index": 22,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 111,
+    "input_end0": 161,
+    "is_revcomp": false
+  },
+  {
+    "pattern_id": "r3_neg_patterns_pattern_0",
+    "region": "pre_tes_sequence",
+    "original_seqlet_index": 24,
+    "h5_example_idx": 7,
+    "selected_gene_row": 46,
+    "gene_index": 3515,
+    "input_start0": 216,
+    "input_end0": 266,
+    "is_revcomp": false
+  }
+]

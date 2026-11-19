@@ -1,0 +1,1318 @@
+{
+  "@context": "/terms/",
+  "@graph": [
+    {
+      "@id": "/files/ENCFF201XIY/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF201XIY",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR351PVI/",
+      "derived_from": [
+        "/files/ENCFF065END/",
+        "/files/ENCFF142LPF/"
+      ],
+      "file_format": "bam",
+      "file_size": 148866440,
+      "href": "/files/ENCFF201XIY/@@download/ENCFF201XIY.bam",
+      "md5sum": "803e0904d1200174fe6dea5a65fd8acf",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/a53cd8fd-43aa-44f1-8fcc-37256f46903e/ENCFF201XIY.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/227_01_SLTM.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF204HYV/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF204HYV",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR756NPZ/",
+      "derived_from": [
+        "/files/ENCFF183PTD/",
+        "/files/ENCFF901JEH/"
+      ],
+      "file_format": "bam",
+      "file_size": 511677737,
+      "href": "/files/ENCFF204HYV/@@download/ENCFF204HYV.bam",
+      "md5sum": "7d5f16082aaef1c9a455d3b415682491",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/6f27b472-5707-4240-962c-88b405af5555/ENCFF204HYV.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/545_INPUT_S18_L002_R1_001.unassigned.adapterTrim.round2.rmRep.rmDup.sorted.bam"
+    },
+    {
+      "@id": "/files/ENCFF198ISB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF198ISB",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR828ZID/",
+      "derived_from": [
+        "/files/ENCFF016HQT/",
+        "/files/ENCFF120AAW/"
+      ],
+      "file_format": "bam",
+      "file_size": 326086390,
+      "href": "/files/ENCFF198ISB/@@download/ENCFF198ISB.bam",
+      "md5sum": "c62c4b5f5a4cd6da9702c3ed18278c13",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/6099d61c-5aad-4de0-91f1-014c0619f98f/ENCFF198ISB.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/206_01_HNRNPK.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF214HOA/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF214HOA",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR989VIY/",
+      "derived_from": [
+        "/files/ENCFF867TIG/",
+        "/files/ENCFF467FPH/"
+      ],
+      "file_format": "bed",
+      "file_size": 2265777,
+      "href": "/files/ENCFF214HOA/@@download/ENCFF214HOA.bed.gz",
+      "md5sum": "c628ad529a214f731bd2055f6240720d",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2016/11/30/5e185828-266c-4eb8-bdd9-89288dc57ebf/ENCFF214HOA.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20161130_bed_GRCh38/301_01.basedon_301_01.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    },
+    {
+      "@id": "/files/ENCFF186QJV/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF186QJV",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR580MFX/",
+      "derived_from": [
+        "/files/ENCFF853HTH/",
+        "/files/ENCFF369GNR/"
+      ],
+      "file_format": "bed",
+      "file_size": 1119636,
+      "href": "/files/ENCFF186QJV/@@download/ENCFF186QJV.bed.gz",
+      "md5sum": "f273b3c52863c958465858ada4de3406",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2016/11/30/9a5651d6-b78e-4e06-b7cf-40da810c710e/ENCFF186QJV.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20161130_bed_GRCh38/650_01.basedon_650_01.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    },
+    {
+      "@id": "/files/ENCFF207XKP/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF207XKP",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR921SXC/",
+      "derived_from": [
+        "/files/ENCFF039NQM/",
+        "/files/ENCFF865ZYB/"
+      ],
+      "file_format": "bam",
+      "file_size": 299668040,
+      "href": "/files/ENCFF207XKP/@@download/ENCFF207XKP.bam",
+      "md5sum": "177d12b6479b64beae20a9096d63b9ef",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/d8d2c28e-6262-4559-91a6-ec55a6ec2dfd/ENCFF207XKP.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/655_01_XPO5.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF202RTW/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF202RTW",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR805SRN/",
+      "derived_from": [
+        "/files/ENCFF365UUW/",
+        "/files/ENCFF276CTM/"
+      ],
+      "file_format": "bam",
+      "file_size": 490353942,
+      "href": "/files/ENCFF202RTW/@@download/ENCFF202RTW.bam",
+      "md5sum": "a0a48f4d7dc0131cf61df7897835a9af",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/2e272308-9db8-44e1-ad8d-d68116dad849/ENCFF202RTW.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/558_01_LARP4.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF181DXK/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF181DXK",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR464OSH/",
+      "derived_from": [
+        "/files/ENCFF331AAL/",
+        "/files/ENCFF821CAW/"
+      ],
+      "file_format": "bam",
+      "file_size": 625897413,
+      "href": "/files/ENCFF181DXK/@@download/ENCFF181DXK.bam",
+      "md5sum": "bbfb9bdcb0e3113d1b2ff97566ee395f",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/b422a6bc-51e4-4ae9-9ab1-783252362f90/ENCFF181DXK.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/694_02_FUS.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF213PRP/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF213PRP",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR214BZA/",
+      "derived_from": [
+        "/files/ENCFF362KWY/",
+        "/files/ENCFF390FNJ/"
+      ],
+      "file_format": "bed",
+      "file_size": 1321413,
+      "href": "/files/ENCFF213PRP/@@download/ENCFF213PRP.bed.gz",
+      "md5sum": "3f7db2a70647f9ec5ba8ab59fdd8eaba",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2016/11/30/912345ab-a7b8-428f-a736-07b98b946d5b/ENCFF213PRP.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20161130_bed_GRCh38/603_02.basedon_603_02.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    },
+    {
+      "@id": "/files/ENCFF209PMC/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF209PMC",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR754NDA/",
+      "derived_from": [
+        "/files/ENCFF261SEG/",
+        "/files/ENCFF807WFL/"
+      ],
+      "file_format": "bed",
+      "file_size": 1104150,
+      "href": "/files/ENCFF209PMC/@@download/ENCFF209PMC.bed.gz",
+      "md5sum": "1856ee4fff406e4b4aef1bae39477898",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2016/11/30/89bb99b8-c8eb-4c2a-a9b1-98bdde092862/ENCFF209PMC.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20161130_bed_GRCh38/552_02.basedon_552_02.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    },
+    {
+      "@id": "/files/ENCFF208OVE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF208OVE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR919HSE/",
+      "derived_from": [
+        "/files/ENCFF762UXF/",
+        "/files/ENCFF093WJU/"
+      ],
+      "file_format": "bam",
+      "file_size": 848429539,
+      "href": "/files/ENCFF208OVE/@@download/ENCFF208OVE.bam",
+      "md5sum": "53f4cc75071ed770637caa3bd0f2dd1b",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/4edef1cc-0b13-4ba0-b7e9-0e97585945a7/ENCFF208OVE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/292_01_CSTF2T.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF186RBL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF186RBL",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR839KAX/",
+      "derived_from": [
+        "/files/ENCFF869DFG/",
+        "/files/ENCFF903ZBT/"
+      ],
+      "file_format": "bam",
+      "file_size": 514171283,
+      "href": "/files/ENCFF186RBL/@@download/ENCFF186RBL.bam",
+      "md5sum": "ebf7090c365d7c51364bd4cc20c30a5f",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/43a50674-d174-48e9-b4d4-6e5726f1acd3/ENCFF186RBL.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/297_INPUT_ATTACTCG-CCTATCCT_L006_R1.unassigned.adapterTrim.round2.rmRep.rmDup.sorted.bam"
+    },
+    {
+      "@id": "/files/ENCFF205KCK/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF205KCK",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR721HPX/",
+      "derived_from": [
+        "/files/ENCFF288LEG/",
+        "/files/ENCFF700YZD/"
+      ],
+      "file_format": "bed",
+      "file_size": 1349894,
+      "href": "/files/ENCFF205KCK/@@download/ENCFF205KCK.bed.gz",
+      "md5sum": "5641a92dfa9696934dce559b33ca1a45",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2018/04/29/98023dfb-84cc-4101-98d6-ba4af8b4b67b/ENCFF205KCK.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/712_02.basedon_712_02.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    },
+    {
+      "@id": "/files/ENCFF177YJA/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF177YJA",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR464OSH/",
+      "derived_from": [
+        "/files/ENCFF400CXS/",
+        "/files/ENCFF161SRN/"
+      ],
+      "file_format": "bam",
+      "file_size": 800746967,
+      "href": "/files/ENCFF177YJA/@@download/ENCFF177YJA.bam",
+      "md5sum": "0dda25166ee333c03b7738d6d8255699",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/b39341a7-ff13-4e82-9060-24788ec69039/ENCFF177YJA.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/694_01_FUS.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF204THM/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF204THM",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR361OCV/",
+      "derived_from": [
+        "/files/ENCFF169ABN/",
+        "/files/ENCFF637GMD/"
+      ],
+      "file_format": "bed",
+      "file_size": 190752,
+      "href": "/files/ENCFF204THM/@@download/ENCFF204THM.bed.gz",
+      "md5sum": "01a6fbad297f0acbd2eea16b2bba910f",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2018/04/29/106b9198-a9e2-4c32-954d-4c9a91f09c4c/ENCFF204THM.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/703_02.basedon_703_02.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    },
+    {
+      "@id": "/files/ENCFF202ITE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF202ITE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR979EWD/",
+      "derived_from": [
+        "/files/ENCFF659GPS/",
+        "/files/ENCFF366NPD/"
+      ],
+      "file_format": "bam",
+      "file_size": 646443738,
+      "href": "/files/ENCFF202ITE/@@download/ENCFF202ITE.bam",
+      "md5sum": "13415863a3abaa7e1101bca794883afc",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/05/23/27fb68ae-96e6-4b0c-8aa1-d9a33716f646/ENCFF202ITE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/593_02_STAU2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF190ITO/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF190ITO",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR115GAA/",
+      "derived_from": [
+        "/files/ENCFF837BRE/",
+        "/files/ENCFF130FRI/"
+      ],
+      "file_format": "bam",
+      "file_size": 495620625,
+      "href": "/files/ENCFF190ITO/@@download/ENCFF190ITO.bam",
+      "md5sum": "f8292c313c2ddc54fcae5be11da5c32b",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/7b9a9925-bfb8-4f9b-9fe0-6d8d0c778931/ENCFF190ITO.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/345_INPUT_CGCTCATT-ATAGAGGC_L002_R1.unassigned.adapterTrim.round2.rmRep.rmDup.sorted.bam"
+    },
+    {
+      "@id": "/files/ENCFF205BLM/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF205BLM",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR121NVA/",
+      "derived_from": [
+        "/files/ENCFF507XFA/",
+        "/files/ENCFF770UHE/"
+      ],
+      "file_format": "bam",
+      "file_size": 443669666,
+      "href": "/files/ENCFF205BLM/@@download/ENCFF205BLM.bam",
+      "md5sum": "f75683e4e3ed9be13d2c2236c67f8647",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/2a94ceb5-1416-4bad-a863-16d56c4f8017/ENCFF205BLM.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/291_01_PRPF8.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF189PHS/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF189PHS",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR916SRV/",
+      "derived_from": [
+        "/files/ENCFF669MVS/",
+        "/files/ENCFF718RWU/"
+      ],
+      "file_format": "bam",
+      "file_size": 63589316,
+      "href": "/files/ENCFF189PHS/@@download/ENCFF189PHS.bam",
+      "md5sum": "b7df2388373b06a95683c3f76a8d1458",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/53c345e9-b66f-4416-a6da-7c73b10e7fc1/ENCFF189PHS.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/617_02_TBRG4.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF190UCK/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF190UCK",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR565DGW/",
+      "derived_from": [
+        "/files/ENCFF809XHX/",
+        "/files/ENCFF336UXX/"
+      ],
+      "file_format": "bed",
+      "file_size": 963864,
+      "href": "/files/ENCFF190UCK/@@download/ENCFF190UCK.bed.gz",
+      "md5sum": "1c6b27b585fb123d6ffbbbdb93656cd2",
+      "output_type": "peaks",
+      "s3_uri": "s3://encode-public/2016/11/30/308acaa8-406c-48c3-8006-f94f3386eb2c/ENCFF190UCK.bed.gz",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20161130_bed_GRCh38/654_02.basedon_654_02.peaks.l2inputnormnew.bed.compressed.bed.narrowPeak.encode.bed.gz"
+    }
+  ],
+  "@id": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name",
+  "@type": [
+    "Search"
+  ],
+  "clear_filters": "/search/?type=File",
+  "columns": {
+    "@id": {
+      "title": "ID"
+    },
+    "title": {
+      "title": "Title"
+    },
+    "accession": {
+      "title": "Accession"
+    },
+    "dataset": {
+      "title": "Dataset"
+    },
+    "assembly": {
+      "title": "Genome assembly"
+    },
+    "technical_replicates": {
+      "title": "Technical replicates"
+    },
+    "biological_replicates": {
+      "title": "Biological replicates"
+    },
+    "file_format": {
+      "title": "File Format"
+    },
+    "file_type": {
+      "title": "File type"
+    },
+    "file_format_type": {
+      "title": "File format type"
+    },
+    "file_size": {
+      "title": "File size"
+    },
+    "assay_term_name": {
+      "title": "Assay term name"
+    },
+    "biosample_ontology.term_name": {
+      "title": "Biosample name"
+    },
+    "biosample_ontology.organ_slims": {
+      "title": "Organ"
+    },
+    "simple_biosample_summary": {
+      "title": "Simple biosample summary"
+    },
+    "origin_batches": {
+      "title": "Batch"
+    },
+    "target.label": {
+      "title": "Target label"
+    },
+    "href": {
+      "title": "Download URL"
+    },
+    "derived_from": {
+      "title": "Derived from"
+    },
+    "genome_annotation": {
+      "title": "Genome annotation"
+    },
+    "replicate.library.accession": {
+      "title": "Library"
+    },
+    "paired_end": {
+      "title": "Paired end identifier"
+    },
+    "paired_with": {
+      "title": "Paired with"
+    },
+    "preferred_default": {
+      "title": "Preferred Default"
+    },
+    "run_type": {
+      "title": "Run type"
+    },
+    "read_length": {
+      "title": "Read length"
+    },
+    "mapped_read_length": {
+      "title": "Mapped read length (nt)"
+    },
+    "cropped_read_length": {
+      "title": "Cropped read length (nt)"
+    },
+    "cropped_read_length_tolerance": {
+      "title": "Cropped read length tolerance (nt)"
+    },
+    "mapped_run_type": {
+      "title": "Mapped run type for bam files"
+    },
+    "read_length_units": {
+      "title": "Read length units"
+    },
+    "output_category": {
+      "title": "Output category"
+    },
+    "output_type": {
+      "title": "Output type"
+    },
+    "index_of": {
+      "title": "Index of"
+    },
+    "quality_metrics": {
+      "title": "QC Metric"
+    },
+    "lab.title": {
+      "title": "Lab"
+    },
+    "award.project": {
+      "title": "Project"
+    },
+    "step_run": {
+      "title": "Analysis step run"
+    },
+    "date_created": {
+      "title": "Date created"
+    },
+    "analysis_step_version": {
+      "title": "Analysis step version"
+    },
+    "restricted": {
+      "title": "Restricted file"
+    },
+    "submitter_comment": {
+      "title": "Submitter comment"
+    },
+    "status": {
+      "title": "Status"
+    },
+    "annotation_type": {
+      "title": "Annotation type"
+    },
+    "annotation_subtype": {
+      "title": "Annotation subtype"
+    },
+    "biochemical_inputs": {
+      "title": "Biochemical activity"
+    },
+    "encyclopedia_version": {
+      "title": "Encyclopedia version"
+    }
+  },
+  "facet_groups": [
+    {
+      "name": "File",
+      "title": "Format",
+      "facet_fields": [
+        "output_category",
+        "output_type",
+        "file_format",
+        "file_format_type",
+        "file_type"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Assay",
+      "facet_fields": [
+        "assay_title",
+        "platform.term_name",
+        "target.label",
+        "targets.label"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Annotation",
+      "facet_fields": [
+        "annotation_type",
+        "annotation_subtype",
+        "encyclopedia_version"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Biosample",
+      "facet_fields": [
+        "biosample_ontology.term_name",
+        "biosample_ontology.organ_slims",
+        "origin_batches",
+        "biosample_ontology.cell_slims",
+        "biosample_ontology.system_slims"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Analysis",
+      "facet_fields": [
+        "assembly"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Provenance",
+      "facet_fields": [
+        "award.project",
+        "lab.title"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Quality",
+      "facet_fields": [
+        "status",
+        "audit.ERROR.category",
+        "audit.NOT_COMPLIANT.category",
+        "audit.WARNING.category",
+        "audit.INTERNAL_ACTION.category"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "field": "type",
+      "title": "Data Type",
+      "terms": [
+        {
+          "key": "File",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "status",
+      "title": "Status",
+      "terms": [
+        {
+          "key": "released",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "output_category",
+      "title": "Output category",
+      "terms": [
+        {
+          "key": "alignment",
+          "doc_count": 13
+        },
+        {
+          "key": "annotation",
+          "doc_count": 7
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "output_type",
+      "title": "Output type",
+      "terms": [
+        {
+          "key": "alignments",
+          "doc_count": 13
+        },
+        {
+          "key": "peaks",
+          "doc_count": 7
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "file_format",
+      "title": "File format",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 13
+        },
+        {
+          "key": "bed",
+          "doc_count": 7
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "file_format_type",
+      "title": "File format type",
+      "terms": [
+        {
+          "key": "narrowPeak",
+          "doc_count": 7
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "file_type",
+      "title": "File type",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 13
+        },
+        {
+          "key": "bed narrowPeak",
+          "doc_count": 7
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "award.project",
+      "title": "Project",
+      "terms": [
+        {
+          "key": "ENCODE",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assembly",
+      "title": "Genome assembly",
+      "terms": [
+        {
+          "key": "GRCh38",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "lab.title",
+      "title": "Lab",
+      "terms": [
+        {
+          "key": "Gene Yeo, UCSD",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assay_title",
+      "title": "Assay title",
+      "terms": [
+        {
+          "key": "eCLIP",
+          "doc_count": 17
+        },
+        {
+          "key": "Control eCLIP",
+          "doc_count": 3
+        }
+      ],
+      "total": 20,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.term_name",
+      "title": "Biosample",
+      "terms": [
+        {
+          "key": "HepG2",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.organ_slims",
+      "title": "Organ",
+      "terms": [
+        {
+          "key": "endocrine gland",
+          "doc_count": 20
+        },
+        {
+          "key": "epithelium",
+          "doc_count": 20
+        },
+        {
+          "key": "exocrine gland",
+          "doc_count": 20
+        },
+        {
+          "key": "liver",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "origin_batches",
+      "title": "Batch",
+      "terms": [
+        {
+          "key": "/biosamples/ENCBS548DJV/",
+          "doc_count": 4
+        },
+        {
+          "key": "/biosamples/ENCBS492SDY/",
+          "doc_count": 3
+        },
+        {
+          "key": "/biosamples/ENCBS074YUC/",
+          "doc_count": 2
+        },
+        {
+          "key": "/biosamples/ENCBS575NGC/",
+          "doc_count": 2
+        },
+        {
+          "key": "/biosamples/ENCBS621TAB/",
+          "doc_count": 2
+        },
+        {
+          "key": "/biosamples/ENCBS881CIF/",
+          "doc_count": 2
+        },
+        {
+          "key": "/biosamples/ENCBS308ZPA/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS537ADD/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS768GCL/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS861HMN/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS864WAF/",
+          "doc_count": 1
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.cell_slims",
+      "title": "Cell",
+      "terms": [
+        {
+          "key": "cancer cell",
+          "doc_count": 20
+        },
+        {
+          "key": "epithelial cell",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.system_slims",
+      "title": "Systems",
+      "terms": [
+        {
+          "key": "digestive system",
+          "doc_count": 20
+        },
+        {
+          "key": "endocrine system",
+          "doc_count": 20
+        },
+        {
+          "key": "exocrine system",
+          "doc_count": 20
+        }
+      ],
+      "total": 20,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "target.label",
+      "title": "Target of assay",
+      "terms": [
+        {
+          "key": "FUS",
+          "doc_count": 2
+        },
+        {
+          "key": "CSTF2T",
+          "doc_count": 1
+        },
+        {
+          "key": "DDX59",
+          "doc_count": 1
+        },
+        {
+          "key": "DHX30",
+          "doc_count": 1
+        },
+        {
+          "key": "G3BP1",
+          "doc_count": 1
+        },
+        {
+          "key": "HNRNPK",
+          "doc_count": 1
+        },
+        {
+          "key": "LARP4",
+          "doc_count": 1
+        },
+        {
+          "key": "NIP7",
+          "doc_count": 1
+        },
+        {
+          "key": "PRPF8",
+          "doc_count": 1
+        },
+        {
+          "key": "RBM15",
+          "doc_count": 1
+        },
+        {
+          "key": "SLTM",
+          "doc_count": 1
+        },
+        {
+          "key": "SRSF1",
+          "doc_count": 1
+        },
+        {
+          "key": "STAU2",
+          "doc_count": 1
+        },
+        {
+          "key": "SUPV3L1",
+          "doc_count": 1
+        },
+        {
+          "key": "TBRG4",
+          "doc_count": 1
+        },
+        {
+          "key": "XPO5",
+          "doc_count": 1
+        }
+      ],
+      "total": 20,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "accession",
+      "title": "accession",
+      "terms": [
+        {
+          "key": "ENCFF177YJA",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF181DXK",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF186QJV",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF186RBL",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF189PHS",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF190ITO",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF190UCK",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF198ISB",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF201XIY",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF202ITE",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF202RTW",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF204HYV",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF204THM",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF205BLM",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF205KCK",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF207XKP",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF208OVE",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF209PMC",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF213PRP",
+          "isEqual": true
+        },
+        {
+          "key": "ENCFF214HOA",
+          "isEqual": true
+        }
+      ],
+      "appended": true,
+      "total": 0
+    }
+  ],
+  "filters": [
+    {
+      "field": "accession",
+      "term": "ENCFF177YJA",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF181DXK",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF186QJV",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF186RBL",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF189PHS",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF190ITO",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF190UCK",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF198ISB",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF201XIY",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF202ITE",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF202RTW",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF204HYV",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF204THM",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF205BLM",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF205KCK",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF207XKP",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF208OVE",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF209PMC",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF213PRP",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "accession",
+      "term": "ENCFF214HOA",
+      "remove": "/search/?type=File&format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "type",
+      "term": "File",
+      "remove": "/search/?format=json&limit=all&accession=ENCFF177YJA&accession=ENCFF181DXK&accession=ENCFF186QJV&accession=ENCFF186RBL&accession=ENCFF189PHS&accession=ENCFF190ITO&accession=ENCFF190UCK&accession=ENCFF198ISB&accession=ENCFF201XIY&accession=ENCFF202ITE&accession=ENCFF202RTW&accession=ENCFF204HYV&accession=ENCFF204THM&accession=ENCFF205BLM&accession=ENCFF205KCK&accession=ENCFF207XKP&accession=ENCFF208OVE&accession=ENCFF209PMC&accession=ENCFF213PRP&accession=ENCFF214HOA&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    }
+  ],
+  "notification": "Success",
+  "sort": {
+    "date_created": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "label": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "uuid": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    }
+  },
+  "title": "Search",
+  "total": 20
+}

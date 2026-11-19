@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "native_package": "motifStack 1.54.0",
+  "patterns": 314,
+  "pairs": 49141,
+  "all_pattern_ids_present_once_in_atlas": false,
+  "files": {
+    "motifStack_radial_314_default.pdf": {
+      "pages": 1,
+      "page_points": [
+        360,
+        288
+      ],
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT"
+      ],
+      "min_text_pt": 12.5,
+      "all_labels_black": true,
+      "text_clipping": 0,
+      "embedded_raster_images": 0,
+      "bytes": 17938826,
+      "sha256": "1847b689d7771a9f59e67817122587165194652088c05d8ec379b39691178f93"
+    }
+  },
+  "scientific_defaults_verified": true,
+  "interpretation": "PPM information logos; existing TOMTOM q-values; no fabricated coordinate distributions"
+}

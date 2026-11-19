@@ -1,0 +1,435 @@
+{
+  "output": "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/SP4_MA0685_2_F04_TOMTOM_ALIGNMENT.pdf",
+  "sha256": "a3c95a181ccf6b16a5ec3532f41235b5cffdd15c298724f81ff0c0d8f11c3472",
+  "bytes": 74532,
+  "canvas_inches": [
+    8,
+    5.4
+  ],
+  "upper_logo_axes_height_inches": 1.836,
+  "previous_upper_logo_axes_height_inches": 0.68,
+  "information_values_not_rescaled": true,
+  "query_description_lines": 2,
+  "target_description_lines": 1,
+  "description_fontsize": 12,
+  "user_authorized_size_override": true,
+  "font_sizes": [
+    12.0,
+    14.0
+  ],
+  "fonts": [
+    [
+      15,
+      "ttf",
+      "Type0",
+      "ELUGPM+ArialMT",
+      "F1",
+      "Identity-H"
+    ],
+    [
+      22,
+      "ttf",
+      "Type0",
+      "ELUGPM+Arial-BoldMT",
+      "F2",
+      "Identity-H"
+    ],
+    [
+      29,
+      "ttf",
+      "Type0",
+      "DTWKUJ+Arial-ItalicMT",
+      "F3",
+      "Identity-H"
+    ]
+  ],
+  "source_SHA256": {
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/tomtom/tomtom.xml": "303b98f9e6c2024d17f64e0da2b53ff22976a6c9278c98e738c3dd8f9997c889",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/tomtom/tomtom.tsv": "88c95e4d9c9f7b16405f7644c8e7ff9f329644b7a67d473eeecda024bcbfea4c",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/patterns.meme": "6039a7e4b4a1fd8d889e3a461f111735dab4fec72e8b619f45103cff3c0574b5",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/jaspar_125.meme": "3e3cd339aeea19abfcae8ce75ff5d6849d56b3e4cc89164a634b7192db5b73b9",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco/tss_sequence.h5": "b7de769d86c38981e8a65911375cce499785a10d0cc6c6a6fd5ef5e3598cc5ff"
+  },
+  "native_TOMTOM_row": {
+    "Query_ID": "r0_neg_patterns_pattern_0",
+    "Target_ID": "MA0685.2",
+    "Optimal_offset": "-23",
+    "p-value": "1.7206e-05",
+    "E-value": "0.00215075",
+    "q-value": "0.00212697",
+    "Overlap": "9",
+    "Query_consensus": "CCGCCCCCCCGGCGCCCCCCCCCCCCCGCCCCGGCCCCCCGCCCCCCCCC",
+    "Target_consensus": "CCCCGCCCC",
+    "Orientation": "-"
+  },
+  "XML_native_match": {
+    "idx": "3",
+    "rc": "y",
+    "off": "-23",
+    "pv": "1.72e-05",
+    "ev": "2.15e-03",
+    "qv": "2.13e-03"
+  },
+  "query_full_length": 50,
+  "shown_query_1based_inclusive": [
+    24,
+    32
+  ],
+  "target_full_length": 9,
+  "shown_target_after_orientation_1based": [
+    1,
+    9
+  ],
+  "target_reverse_complement": true,
+  "aligned_consensus_query": "CCCCGCCCC",
+  "aligned_consensus_target": "CCCCGCCCC",
+  "query_matrix": [
+    [
+      0.036273314509325805,
+      0.8068933227573291,
+      0.09045763618305447,
+      0.06637572655029061
+    ],
+    [
+      0.096478,
+      0.554034,
+      0.204846,
+      0.144642
+    ],
+    [
+      0.042293838064454255,
+      0.8189347370412634,
+      0.10249809224828303,
+      0.036273332645999384
+    ],
+    [
+      0.14464205785682313,
+      0.674443269777308,
+      0.1024980409992164,
+      0.07841663136665256
+    ],
+    [
+      0.06637565353704253,
+      0.16270288610797973,
+      0.5901565868903892,
+      0.18076487346458858
+    ],
+    [
+      0.07239625067737547,
+      0.7045454931818452,
+      0.1386210970347679,
+      0.08443715910601138
+    ],
+    [
+      0.07841661568332313,
+      0.7587301517460303,
+      0.10249802049960409,
+      0.060355212071042406
+    ],
+    [
+      0.06637567344973061,
+      0.7466887013245195,
+      0.12055995177601929,
+      0.06637567344973061
+    ],
+    [
+      0.04229377885311057,
+      0.8731185634407181,
+      0.054334772832613586,
+      0.03025288487355756
+    ]
+  ],
+  "target_oriented_matrix": [
+    [
+      0.0012477496880625779,
+      0.9962567509358122,
+      0.0012477496880625779,
+      0.0012477496880625779
+    ],
+    [
+      0.050199822589920166,
+      0.6595902968156335,
+      0.001248750561937753,
+      0.2889611300325085
+    ],
+    [
+      0.07809396095301951,
+      0.9194105402947298,
+      0.0012477493761253117,
+      0.0012477493761253117
+    ],
+    [
+      0.0012477496880625779,
+      0.9962567509358122,
+      0.0012477496880625779,
+      0.0012477496880625779
+    ],
+    [
+      0.0012487506243753122,
+      0.0012487506243753122,
+      0.7225273612636806,
+      0.27497513748756874
+    ],
+    [
+      0.0012477496880625779,
+      0.9962567509358122,
+      0.0012477496880625779,
+      0.0012477496880625779
+    ],
+    [
+      0.0012477496880625779,
+      0.9962567509358122,
+      0.0012477496880625779,
+      0.0012477496880625779
+    ],
+    [
+      0.0012477496880625779,
+      0.9962567509358122,
+      0.0012477496880625779,
+      0.0012477496880625779
+    ],
+    [
+      0.19585804896451225,
+      0.6539421634855409,
+      0.001247750311937578,
+      0.14895203723800932
+    ]
+  ],
+  "letter_height_rule": "p(base)*[2-entropy(column)] bits; no sample-size correction; original XML probabilities with row-sum normalization for printed-rounding only",
+  "both_y_axes_bits": true,
+  "reference_style_text": true,
+  "CWM_core_statistics": {
+    "scope": "native pattern CWM, displayed core positions24-32; base contributions summed per position",
+    "sum": -0.005163706620039538,
+    "max": 0.0003584578938767137,
+    "min": -0.0009136941212365132
+  },
+  "xy_axis_lines_visible": false,
+  "pattern_xy_ticks_visible": true,
+  "database_xy_ticks_visible": false,
+  "database_axis_titles_visible": false,
+  "colors": {
+    "A": "#007F01",
+    "C": "#0200F3",
+    "G": "#F5B029",
+    "T": "#FF0003"
+  },
+  "palette_source": "exact hexadecimal values explicitly specified by user",
+  "palette_sampling": "none; exact user hex codes",
+  "vector_letters": 72,
+  "matrix_geometry_exact": true,
+  "visible_text_inside_canvas": true,
+  "no_text_overlap": true,
+  "no_raster_images": true,
+  "server_memory_render_only": true,
+  "result_not_downloaded": true,
+  "text_boxes": [
+    {
+      "text": "Pattern position (bp)",
+      "bounds": [
+        340.25,
+        268.9333333333333,
+        175.5,
+        18.0
+      ]
+    },
+    {
+      "text": "24",
+      "bounds": [
+        109.41666666666674,
+        296.6555555555555,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "25",
+      "bounds": [
+        186.8125,
+        296.6555555555555,
+        18.375,
+        15.0
+      ]
+    },
+    {
+      "text": "26",
+      "bounds": [
+        264.08333333333326,
+        296.6555555555555,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "27",
+      "bounds": [
+        341.41666666666674,
+        296.6555555555555,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "28",
+      "bounds": [
+        418.7499999999998,
+        296.6555555555555,
+        18.5,
+        15.0
+      ]
+    },
+    {
+      "text": "29",
+      "bounds": [
+        496.02083333333326,
+        296.6555555555555,
+        18.625,
+        15.0
+      ]
+    },
+    {
+      "text": "30",
+      "bounds": [
+        573.4791666666667,
+        296.6555555555555,
+        18.375,
+        15.0
+      ]
+    },
+    {
+      "text": "31",
+      "bounds": [
+        650.8124999999998,
+        296.6555555555555,
+        18.375,
+        15.0
+      ]
+    },
+    {
+      "text": "32",
+      "bounds": [
+        728.1458333333333,
+        296.6555555555555,
+        18.375,
+        15.0
+      ]
+    },
+    {
+      "text": "Bits",
+      "bounds": [
+        34.69444444444444,
+        394.2125,
+        18.0,
+        32.375
+      ]
+    },
+    {
+      "text": "0",
+      "bounds": [
+        63.80555555555556,
+        309.59999999999997,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "1",
+      "bounds": [
+        63.80555555555556,
+        399.16097560975606,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "2",
+      "bounds": [
+        63.80555555555556,
+        488.7219512195122,
+        9.25,
+        15.0
+      ]
+    },
+    {
+      "text": "Discovered pattern (PPM)",
+      "bounds": [
+        80.0,
+        511.421875,
+        191.625,
+        15.078125
+      ]
+    },
+    {
+      "text": "Fold 04 / r0_neg_patterns_pattern_0",
+      "bounds": [
+        80.0,
+        227.890625,
+        285.625,
+        15.109375
+      ]
+    },
+    {
+      "text": " \u00b7 166 seqlets \u00b7 24\u201332 bp \u00b7 CCCCGCCCC",
+      "bounds": [
+        365.625,
+        227.921875,
+        307.5,
+        15.078125
+      ]
+    },
+    {
+      "text": "CWM sum importance score \u22120.00516, max +0.000358, min \u22120.000914",
+      "bounds": [
+        80.0,
+        200.921875,
+        528.875,
+        15.078125
+      ]
+    },
+    {
+      "text": "p-val. 1.72e\u221205 ",
+      "bounds": [
+        80.0,
+        147.0,
+        119.625,
+        15.0
+      ]
+    },
+    {
+      "text": "H. sapiens",
+      "bounds": [
+        199.625,
+        147.0,
+        78.75,
+        15.0
+      ]
+    },
+    {
+      "text": " TFBS ",
+      "bounds": [
+        278.375,
+        147.0,
+        51.5,
+        15.0
+      ]
+    },
+    {
+      "text": "MA0685.2",
+      "bounds": [
+        329.875,
+        147.0,
+        76.875,
+        15.0
+      ]
+    },
+    {
+      "text": " \u00b7 SP4 \u00b7 q-val. 0.00213 \u00b7 RC",
+      "bounds": [
+        406.75,
+        147.0,
+        205.0,
+        15.0
+      ]
+    }
+  ]
+}

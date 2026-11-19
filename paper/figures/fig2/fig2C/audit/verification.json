@@ -1,0 +1,19 @@
+{
+  "panel": "C",
+  "pages": 1,
+  "canvas_pt": [
+    532.8,
+    381.6
+  ],
+  "offline_reproduction": "PASS; SSH/scp/curl/wget disabled",
+  "pixel_exact_reproduction": true,
+  "pixel_mean_abs_difference": 0.0,
+  "source_data_frozen": true,
+  "main_pdf_sha256": "ebd9e9786dd9064719b56d6ffcb85cd9fd0e77215d6b4a5c2ffda208972da594",
+  "main_entry_sha256": "be0aea9c9bcd2a6864ac6aac8208fe100ba0d61edd92123bfd542aaa86c5caa8",
+  "models": 12,
+  "test_fold_values": 120,
+  "full_test_validation_records": 240,
+  "comparisons": 11,
+  "statistics_exact_to_original": true
+}

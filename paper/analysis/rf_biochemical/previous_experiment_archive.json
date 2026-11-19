@@ -1,0 +1,20 @@
+{
+  "status": "archived",
+  "original_path": "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG4_RF_20261027",
+  "archive_path": "/mnt/HDD8TB/hongtao/Data_Seq/model/_archived/B_REG4_RF_20261027_superseded_20261027T025042Z",
+  "replacement_path": "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027",
+  "recoverable": true,
+  "permanent_deletion": false,
+  "completed_seed_fits_preserved": 555,
+  "key_files_sha256": {
+    "run_config.json": "010516ec4e6c4ac4e0e03ecbff69057efe0aaeb4d3649fcb7a2bf019c29a339c",
+    "complete.json": "c9e7a3f448e76707d4e721bfd6f23e1a5f5d0420dee3656b2550b3b83f3f6e76",
+    "final_source_preservation.json": "f55e64e5ec83d709683ff82091fd0c432b3bfdb3a8c327360480fb88db34117a",
+    "evaluated_model_summary.tsv": "25df8b7ff00a5a4b5a1605548f7c00cbffc836e79b380a4019d3fe97d3c03069",
+    "ordered_validation_selection/decisions.tsv": "eb5f68697908e41361a8cea5841708484dbd3b8de6bd5d4caa8d2218815a1fd2",
+    "greedy_validation_selection/selection_path.tsv": "db175cda96842f4aabab37041512ace7e9896b4cd8190b5228562a11b038dc10",
+    "outer_fold_local_selection/oof_predictions.tsv": "0fc8245664a3776c1154ab9245fede003c6ebc9ea025d1704c743b043353d527"
+  },
+  "archived_utc": "2026-10-27T02:50:42Z",
+  "A_model_or_original_input_modified": false
+}

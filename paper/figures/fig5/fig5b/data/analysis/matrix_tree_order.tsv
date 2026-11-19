@@ -1,0 +1,315 @@
+short_id	pattern_key	fold	region	attribution_sign	seqlet_memberships	existing_matches	existing_TF	tree_order
+F08-Acceptor-N02	F08__r2_neg_patterns_pattern_2	8	first_acceptor_sequence	neg_patterns	28	0		1
+F08-Acceptor-N03	F08__r2_neg_patterns_pattern_3	8	first_acceptor_sequence	neg_patterns	26	0		2
+F08-Acceptor-N05	F08__r2_neg_patterns_pattern_5	8	first_acceptor_sequence	neg_patterns	23	0		3
+F08-Acceptor-N00	F08__r2_neg_patterns_pattern_0	8	first_acceptor_sequence	neg_patterns	44	0		4
+F08-Acceptor-N04	F08__r2_neg_patterns_pattern_4	8	first_acceptor_sequence	neg_patterns	24	0		5
+F02-Acceptor-N04	F02__r2_neg_patterns_pattern_4	2	first_acceptor_sequence	neg_patterns	45	0		6
+F05-preTES-N02	F05__r3_neg_patterns_pattern_2	5	pre_tes_sequence	neg_patterns	53	0		7
+F06-Acceptor-N04	F06__r2_neg_patterns_pattern_4	6	first_acceptor_sequence	neg_patterns	46	0		8
+F04-preTES-N01	F04__r3_neg_patterns_pattern_1	4	pre_tes_sequence	neg_patterns	47	0		9
+F01-Acceptor-N04	F01__r2_neg_patterns_pattern_4	1	first_acceptor_sequence	neg_patterns	47	0		10
+F10-Donor-N01	F10__r1_neg_patterns_pattern_1	10	first_donor_sequence	neg_patterns	43	0		11
+F03-Donor-N01	F03__r1_neg_patterns_pattern_1	3	first_donor_sequence	neg_patterns	79	0		12
+F04-Donor-N01	F04__r1_neg_patterns_pattern_1	4	first_donor_sequence	neg_patterns	63	0		13
+F08-Donor-N01	F08__r1_neg_patterns_pattern_1	8	first_donor_sequence	neg_patterns	59	0		14
+F07-Donor-N00	F07__r1_neg_patterns_pattern_0	7	first_donor_sequence	neg_patterns	71	0		15
+F08-Donor-P01	F08__r1_pos_patterns_pattern_1	8	first_donor_sequence	pos_patterns	54	0		16
+F07-preTES-N01	F07__r3_neg_patterns_pattern_1	7	pre_tes_sequence	neg_patterns	69	0		17
+F03-Acceptor-P02	F03__r2_pos_patterns_pattern_2	3	first_acceptor_sequence	pos_patterns	52	0		18
+F05-Acceptor-N05	F05__r2_neg_patterns_pattern_5	5	first_acceptor_sequence	neg_patterns	62	0		19
+F06-Donor-N00	F06__r1_neg_patterns_pattern_0	6	first_donor_sequence	neg_patterns	52	0		20
+F08-preTES-N00	F08__r3_neg_patterns_pattern_0	8	pre_tes_sequence	neg_patterns	286	0		21
+F02-Acceptor-N00	F02__r2_neg_patterns_pattern_0	2	first_acceptor_sequence	neg_patterns	248	0		22
+F05-Acceptor-N00	F05__r2_neg_patterns_pattern_0	5	first_acceptor_sequence	neg_patterns	284	0		23
+F04-Donor-N00	F04__r1_neg_patterns_pattern_0	4	first_donor_sequence	neg_patterns	555	0		24
+F06-Acceptor-N00	F06__r2_neg_patterns_pattern_0	6	first_acceptor_sequence	neg_patterns	258	0		25
+F09-Acceptor-N00	F09__r2_neg_patterns_pattern_0	9	first_acceptor_sequence	neg_patterns	295	1	KLF16	26
+F01-Acceptor-N00	F01__r2_neg_patterns_pattern_0	1	first_acceptor_sequence	neg_patterns	242	0		27
+F10-Acceptor-N00	F10__r2_neg_patterns_pattern_0	10	first_acceptor_sequence	neg_patterns	208	0		28
+F07-preTES-N00	F07__r3_neg_patterns_pattern_0	7	pre_tes_sequence	neg_patterns	283	0		29
+F07-Acceptor-N00	F07__r2_neg_patterns_pattern_0	7	first_acceptor_sequence	neg_patterns	214	0		30
+F05-preTES-N00	F05__r3_neg_patterns_pattern_0	5	pre_tes_sequence	neg_patterns	384	0		31
+F04-preTES-N00	F04__r3_neg_patterns_pattern_0	4	pre_tes_sequence	neg_patterns	487	0		32
+F02-preTES-N00	F02__r3_neg_patterns_pattern_0	2	pre_tes_sequence	neg_patterns	400	0		33
+F09-preTES-N00	F09__r3_neg_patterns_pattern_0	9	pre_tes_sequence	neg_patterns	351	0		34
+F06-TSS-P01	F06__r0_pos_patterns_pattern_1	6	tss_sequence	pos_patterns	78	1	KLF16	35
+F07-TSS-P01	F07__r0_pos_patterns_pattern_1	7	tss_sequence	pos_patterns	60	0		36
+F04-TSS-P01	F04__r0_pos_patterns_pattern_1	4	tss_sequence	pos_patterns	41	0		37
+F08-TSS-P01	F08__r0_pos_patterns_pattern_1	8	tss_sequence	pos_patterns	46	0		38
+F01-TSS-P00	F01__r0_pos_patterns_pattern_0	1	tss_sequence	pos_patterns	37	0		39
+F08-Donor-N03	F08__r1_neg_patterns_pattern_3	8	first_donor_sequence	neg_patterns	39	0		40
+F03-Donor-N00	F03__r1_neg_patterns_pattern_0	3	first_donor_sequence	neg_patterns	426	0		41
+F03-Acceptor-N00	F03__r2_neg_patterns_pattern_0	3	first_acceptor_sequence	neg_patterns	262	0		42
+F04-Acceptor-N00	F04__r2_neg_patterns_pattern_0	4	first_acceptor_sequence	neg_patterns	233	0		43
+F07-TSS-N01	F07__r0_neg_patterns_pattern_1	7	tss_sequence	neg_patterns	48	0		44
+F04-preTES-P00	F04__r3_pos_patterns_pattern_0	4	pre_tes_sequence	pos_patterns	48	0		45
+F07-Donor-N01	F07__r1_neg_patterns_pattern_1	7	first_donor_sequence	neg_patterns	49	0		46
+F01-preTES-P00	F01__r3_pos_patterns_pattern_0	1	pre_tes_sequence	pos_patterns	49	0		47
+F06-TSS-N01	F06__r0_neg_patterns_pattern_1	6	tss_sequence	neg_patterns	45	0		48
+F10-TSS-N00	F10__r0_neg_patterns_pattern_0	10	tss_sequence	neg_patterns	50	0		49
+F08-Donor-N02	F08__r1_neg_patterns_pattern_2	8	first_donor_sequence	neg_patterns	52	0		50
+F10-preTES-P01	F10__r3_pos_patterns_pattern_1	10	pre_tes_sequence	pos_patterns	39	0		51
+F06-Donor-P02	F06__r1_pos_patterns_pattern_2	6	first_donor_sequence	pos_patterns	119	0		52
+F02-Acceptor-P00	F02__r2_pos_patterns_pattern_0	2	first_acceptor_sequence	pos_patterns	493	0		53
+F03-Acceptor-P00	F03__r2_pos_patterns_pattern_0	3	first_acceptor_sequence	pos_patterns	504	0		54
+F01-Acceptor-P00	F01__r2_pos_patterns_pattern_0	1	first_acceptor_sequence	pos_patterns	548	0		55
+F05-Acceptor-P00	F05__r2_pos_patterns_pattern_0	5	first_acceptor_sequence	pos_patterns	704	0		56
+F06-Acceptor-P00	F06__r2_pos_patterns_pattern_0	6	first_acceptor_sequence	pos_patterns	519	0		57
+F09-Acceptor-P00	F09__r2_pos_patterns_pattern_0	9	first_acceptor_sequence	pos_patterns	327	0		58
+F04-Acceptor-P00	F04__r2_pos_patterns_pattern_0	4	first_acceptor_sequence	pos_patterns	437	0		59
+F03-Donor-P01	F03__r1_pos_patterns_pattern_1	3	first_donor_sequence	pos_patterns	289	1	ZNF384	60
+F08-Acceptor-P00	F08__r2_pos_patterns_pattern_0	8	first_acceptor_sequence	pos_patterns	623	1	ZNF384	61
+F07-Acceptor-P00	F07__r2_pos_patterns_pattern_0	7	first_acceptor_sequence	pos_patterns	712	0		62
+F10-Acceptor-P00	F10__r2_pos_patterns_pattern_0	10	first_acceptor_sequence	pos_patterns	485	0		63
+F01-Donor-P00	F01__r1_pos_patterns_pattern_0	1	first_donor_sequence	pos_patterns	489	0		64
+F06-Donor-P01	F06__r1_pos_patterns_pattern_1	6	first_donor_sequence	pos_patterns	252	0		65
+F03-Donor-P00	F03__r1_pos_patterns_pattern_0	3	first_donor_sequence	pos_patterns	533	1	ZNF184	66
+F07-Donor-P01	F07__r1_pos_patterns_pattern_1	7	first_donor_sequence	pos_patterns	314	0		67
+F08-Donor-P00	F08__r1_pos_patterns_pattern_0	8	first_donor_sequence	pos_patterns	674	0		68
+F04-Donor-P00	F04__r1_pos_patterns_pattern_0	4	first_donor_sequence	pos_patterns	587	0		69
+F02-Donor-P00	F02__r1_pos_patterns_pattern_0	2	first_donor_sequence	pos_patterns	638	0		70
+F05-Donor-P00	F05__r1_pos_patterns_pattern_0	5	first_donor_sequence	pos_patterns	845	0		71
+F09-Donor-P00	F09__r1_pos_patterns_pattern_0	9	first_donor_sequence	pos_patterns	886	0		72
+F07-Donor-P00	F07__r1_pos_patterns_pattern_0	7	first_donor_sequence	pos_patterns	350	0		73
+F06-Donor-P00	F06__r1_pos_patterns_pattern_0	6	first_donor_sequence	pos_patterns	499	0		74
+F10-Donor-P00	F10__r1_pos_patterns_pattern_0	10	first_donor_sequence	pos_patterns	685	0		75
+F06-preTES-N00	F06__r3_neg_patterns_pattern_0	6	pre_tes_sequence	neg_patterns	473	0		76
+F05-preTES-N01	F05__r3_neg_patterns_pattern_1	5	pre_tes_sequence	neg_patterns	90	0		77
+F09-preTES-N01	F09__r3_neg_patterns_pattern_1	9	pre_tes_sequence	neg_patterns	142	0		78
+F02-preTES-N01	F02__r3_neg_patterns_pattern_1	2	pre_tes_sequence	neg_patterns	153	0		79
+F08-preTES-N01	F08__r3_neg_patterns_pattern_1	8	pre_tes_sequence	neg_patterns	132	0		80
+F06-preTES-P01	F06__r3_pos_patterns_pattern_1	6	pre_tes_sequence	pos_patterns	35	0		81
+F07-preTES-P00	F07__r3_pos_patterns_pattern_0	7	pre_tes_sequence	pos_patterns	63	0		82
+F06-preTES-P03	F06__r3_pos_patterns_pattern_3	6	pre_tes_sequence	pos_patterns	28	1	ZNF384	83
+F06-preTES-P07	F06__r3_pos_patterns_pattern_7	6	pre_tes_sequence	pos_patterns	22	0		84
+F07-preTES-P01	F07__r3_pos_patterns_pattern_1	7	pre_tes_sequence	pos_patterns	35	0		85
+F07-preTES-P08	F07__r3_pos_patterns_pattern_8	7	pre_tes_sequence	pos_patterns	22	0		86
+F03-preTES-P01	F03__r3_pos_patterns_pattern_1	3	pre_tes_sequence	pos_patterns	21	0		87
+F04-Acceptor-P05	F04__r2_pos_patterns_pattern_5	4	first_acceptor_sequence	pos_patterns	20	0		88
+F02-preTES-P00	F02__r3_pos_patterns_pattern_0	2	pre_tes_sequence	pos_patterns	31	0		89
+F06-preTES-P04	F06__r3_pos_patterns_pattern_4	6	pre_tes_sequence	pos_patterns	27	0		90
+F07-preTES-P02	F07__r3_pos_patterns_pattern_2	7	pre_tes_sequence	pos_patterns	35	1	ZNF384	91
+F07-preTES-P03	F07__r3_pos_patterns_pattern_3	7	pre_tes_sequence	pos_patterns	35	0		92
+F01-Donor-P01	F01__r1_pos_patterns_pattern_1	1	first_donor_sequence	pos_patterns	21	1	ZNF384	93
+F06-preTES-P02	F06__r3_pos_patterns_pattern_2	6	pre_tes_sequence	pos_patterns	34	0		94
+F07-preTES-P06	F07__r3_pos_patterns_pattern_6	7	pre_tes_sequence	pos_patterns	23	1	ZNF384	95
+F04-preTES-P01	F04__r3_pos_patterns_pattern_1	4	pre_tes_sequence	pos_patterns	39	1	ZNF384	96
+F04-Acceptor-P02	F04__r2_pos_patterns_pattern_2	4	first_acceptor_sequence	pos_patterns	32	1	ZNF384	97
+F07-preTES-P05	F07__r3_pos_patterns_pattern_5	7	pre_tes_sequence	pos_patterns	26	0		98
+F01-preTES-P01	F01__r3_pos_patterns_pattern_1	1	pre_tes_sequence	pos_patterns	25	1	ZNF384	99
+F06-preTES-P05	F06__r3_pos_patterns_pattern_5	6	pre_tes_sequence	pos_patterns	26	0		100
+F03-Acceptor-P03	F03__r2_pos_patterns_pattern_3	3	first_acceptor_sequence	pos_patterns	20	0		101
+F03-preTES-P02	F03__r3_pos_patterns_pattern_2	3	pre_tes_sequence	pos_patterns	20	1	ZNF384	102
+F01-preTES-P03	F01__r3_pos_patterns_pattern_3	1	pre_tes_sequence	pos_patterns	20	0		103
+F05-Acceptor-N09	F05__r2_neg_patterns_pattern_9	5	first_acceptor_sequence	neg_patterns	24	0		104
+F03-Acceptor-N03	F03__r2_neg_patterns_pattern_3	3	first_acceptor_sequence	neg_patterns	30	0		105
+F04-Acceptor-N03	F04__r2_neg_patterns_pattern_3	4	first_acceptor_sequence	neg_patterns	60	0		106
+F08-preTES-N02	F08__r3_neg_patterns_pattern_2	8	pre_tes_sequence	neg_patterns	24	0		107
+F02-TSS-P03	F02__r0_pos_patterns_pattern_3	2	tss_sequence	pos_patterns	20	5	KLF16;EGR1;SP2;SP4;SP1	108
+F09-Donor-N04	F09__r1_neg_patterns_pattern_4	9	first_donor_sequence	neg_patterns	22	0		109
+F02-TSS-N00	F02__r0_neg_patterns_pattern_0	2	tss_sequence	neg_patterns	28	5	SP4;KLF16;SP2;SP1;MAZ	110
+F08-TSS-N00	F08__r0_neg_patterns_pattern_0	8	tss_sequence	neg_patterns	32	4	SP1;KLF16;SP2;SP4	111
+F01-Acceptor-N06	F01__r2_neg_patterns_pattern_6	1	first_acceptor_sequence	neg_patterns	43	0		112
+F03-Acceptor-N04	F03__r2_neg_patterns_pattern_4	3	first_acceptor_sequence	neg_patterns	27	0		113
+F05-Acceptor-N08	F05__r2_neg_patterns_pattern_8	5	first_acceptor_sequence	neg_patterns	26	0		114
+F06-Donor-N04	F06__r1_neg_patterns_pattern_4	6	first_donor_sequence	neg_patterns	29	0		115
+F03-TSS-N00	F03__r0_neg_patterns_pattern_0	3	tss_sequence	neg_patterns	39	0		116
+F01-TSS-P01	F01__r0_pos_patterns_pattern_1	1	tss_sequence	pos_patterns	31	2	KLF16;SP4	117
+F02-TSS-P01	F02__r0_pos_patterns_pattern_1	2	tss_sequence	pos_patterns	22	0		118
+F01-preTES-N02	F01__r3_neg_patterns_pattern_2	1	pre_tes_sequence	neg_patterns	20	0		119
+F06-Donor-N07	F06__r1_neg_patterns_pattern_7	6	first_donor_sequence	neg_patterns	21	0		120
+F01-Donor-N02	F01__r1_neg_patterns_pattern_2	1	first_donor_sequence	neg_patterns	20	0		121
+F03-preTES-N03	F03__r3_neg_patterns_pattern_3	3	pre_tes_sequence	neg_patterns	22	0		122
+F05-Acceptor-N10	F05__r2_neg_patterns_pattern_10	5	first_acceptor_sequence	neg_patterns	21	0		123
+F08-Acceptor-N06	F08__r2_neg_patterns_pattern_6	8	first_acceptor_sequence	neg_patterns	21	0		124
+F09-Donor-N06	F09__r1_neg_patterns_pattern_6	9	first_donor_sequence	neg_patterns	20	0		125
+F06-preTES-N03	F06__r3_neg_patterns_pattern_3	6	pre_tes_sequence	neg_patterns	27	0		126
+F10-TSS-P02	F10__r0_pos_patterns_pattern_2	10	tss_sequence	pos_patterns	22	0		127
+F08-preTES-N03	F08__r3_neg_patterns_pattern_3	8	pre_tes_sequence	neg_patterns	20	0		128
+F09-Donor-N05	F09__r1_neg_patterns_pattern_5	9	first_donor_sequence	neg_patterns	20	0		129
+F07-Donor-N04	F07__r1_neg_patterns_pattern_4	7	first_donor_sequence	neg_patterns	25	0		130
+F01-preTES-N00	F01__r3_neg_patterns_pattern_0	1	pre_tes_sequence	neg_patterns	27	0		131
+F07-preTES-N04	F07__r3_neg_patterns_pattern_4	7	pre_tes_sequence	neg_patterns	26	0		132
+F09-TSS-N00	F09__r0_neg_patterns_pattern_0	9	tss_sequence	neg_patterns	34	0		133
+F04-Acceptor-N09	F04__r2_neg_patterns_pattern_9	4	first_acceptor_sequence	neg_patterns	23	1	EGR1	134
+F05-TSS-N01	F05__r0_neg_patterns_pattern_1	5	tss_sequence	neg_patterns	27	0		135
+F06-Donor-N05	F06__r1_neg_patterns_pattern_5	6	first_donor_sequence	neg_patterns	25	0		136
+F01-Donor-N01	F01__r1_neg_patterns_pattern_1	1	first_donor_sequence	neg_patterns	41	0		137
+F05-preTES-N03	F05__r3_neg_patterns_pattern_3	5	pre_tes_sequence	neg_patterns	40	0		138
+F07-preTES-N05	F07__r3_neg_patterns_pattern_5	7	pre_tes_sequence	neg_patterns	25	1	ZNF407	139
+F05-Acceptor-N02	F05__r2_neg_patterns_pattern_2	5	first_acceptor_sequence	neg_patterns	72	0		140
+F04-Acceptor-N02	F04__r2_neg_patterns_pattern_2	4	first_acceptor_sequence	neg_patterns	74	0		141
+F10-Acceptor-N04	F10__r2_neg_patterns_pattern_4	10	first_acceptor_sequence	neg_patterns	33	0		142
+F02-Donor-P01	F02__r1_pos_patterns_pattern_1	2	first_donor_sequence	pos_patterns	34	0		143
+F02-TSS-N02	F02__r0_neg_patterns_pattern_2	2	tss_sequence	neg_patterns	21	0		144
+F01-preTES-P02	F01__r3_pos_patterns_pattern_2	1	pre_tes_sequence	pos_patterns	22	0		145
+F07-preTES-P04	F07__r3_pos_patterns_pattern_4	7	pre_tes_sequence	pos_patterns	29	0		146
+F04-Acceptor-P04	F04__r2_pos_patterns_pattern_4	4	first_acceptor_sequence	pos_patterns	22	0		147
+F02-TSS-N01	F02__r0_neg_patterns_pattern_1	2	tss_sequence	neg_patterns	26	0		148
+F04-Acceptor-P03	F04__r2_pos_patterns_pattern_3	4	first_acceptor_sequence	pos_patterns	30	0		149
+F10-preTES-P00	F10__r3_pos_patterns_pattern_0	10	pre_tes_sequence	pos_patterns	47	1	ZNF384	150
+F06-preTES-P00	F06__r3_pos_patterns_pattern_0	6	pre_tes_sequence	pos_patterns	49	0		151
+F06-preTES-P06	F06__r3_pos_patterns_pattern_6	6	pre_tes_sequence	pos_patterns	26	0		152
+F01-TSS-N02	F01__r0_neg_patterns_pattern_2	1	tss_sequence	neg_patterns	24	0		153
+F09-TSS-N01	F09__r0_neg_patterns_pattern_1	9	tss_sequence	neg_patterns	24	0		154
+F02-TSS-N03	F02__r0_neg_patterns_pattern_3	2	tss_sequence	neg_patterns	21	0		155
+F03-Donor-P02	F03__r1_pos_patterns_pattern_2	3	first_donor_sequence	pos_patterns	27	0		156
+F07-preTES-P07	F07__r3_pos_patterns_pattern_7	7	pre_tes_sequence	pos_patterns	22	0		157
+F09-TSS-N02	F09__r0_neg_patterns_pattern_2	9	tss_sequence	neg_patterns	22	0		158
+F06-preTES-P08	F06__r3_pos_patterns_pattern_8	6	pre_tes_sequence	pos_patterns	21	0		159
+F05-TSS-N04	F05__r0_neg_patterns_pattern_4	5	tss_sequence	neg_patterns	21	0		160
+F09-Acceptor-P04	F09__r2_pos_patterns_pattern_4	9	first_acceptor_sequence	pos_patterns	25	0		161
+F01-Acceptor-N11	F01__r2_neg_patterns_pattern_11	1	first_acceptor_sequence	neg_patterns	21	0		162
+F03-preTES-N04	F03__r3_neg_patterns_pattern_4	3	pre_tes_sequence	neg_patterns	20	1	CTCF	163
+F10-Acceptor-N06	F10__r2_neg_patterns_pattern_6	10	first_acceptor_sequence	neg_patterns	24	0		164
+F03-Acceptor-N05	F03__r2_neg_patterns_pattern_5	3	first_acceptor_sequence	neg_patterns	26	0		165
+F09-preTES-N04	F09__r3_neg_patterns_pattern_4	9	pre_tes_sequence	neg_patterns	20	0		166
+F03-preTES-N02	F03__r3_neg_patterns_pattern_2	3	pre_tes_sequence	neg_patterns	22	0		167
+F07-preTES-N07	F07__r3_neg_patterns_pattern_7	7	pre_tes_sequence	neg_patterns	21	0		168
+F05-preTES-N06	F05__r3_neg_patterns_pattern_6	5	pre_tes_sequence	neg_patterns	21	0		169
+F03-Acceptor-N09	F03__r2_neg_patterns_pattern_9	3	first_acceptor_sequence	neg_patterns	21	0		170
+F01-preTES-N01	F01__r3_neg_patterns_pattern_1	1	pre_tes_sequence	neg_patterns	21	0		171
+F06-preTES-N04	F06__r3_neg_patterns_pattern_4	6	pre_tes_sequence	neg_patterns	26	0		172
+F05-Donor-N00	F05__r1_neg_patterns_pattern_0	5	first_donor_sequence	neg_patterns	41	0		173
+F06-Donor-N03	F06__r1_neg_patterns_pattern_3	6	first_donor_sequence	neg_patterns	30	0		174
+F07-TSS-P02	F07__r0_pos_patterns_pattern_2	7	tss_sequence	pos_patterns	24	0		175
+F07-Donor-N02	F07__r1_neg_patterns_pattern_2	7	first_donor_sequence	neg_patterns	32	0		176
+F02-preTES-N03	F02__r3_neg_patterns_pattern_3	2	pre_tes_sequence	neg_patterns	26	0		177
+F03-Acceptor-N06	F03__r2_neg_patterns_pattern_6	3	first_acceptor_sequence	neg_patterns	25	0		178
+F01-TSS-N01	F01__r0_neg_patterns_pattern_1	1	tss_sequence	neg_patterns	32	0		179
+F04-TSS-N02	F04__r0_neg_patterns_pattern_2	4	tss_sequence	neg_patterns	28	0		180
+F08-TSS-N01	F08__r0_neg_patterns_pattern_1	8	tss_sequence	neg_patterns	28	0		181
+F02-Donor-N00	F02__r1_neg_patterns_pattern_0	2	first_donor_sequence	neg_patterns	25	0		182
+F07-preTES-N02	F07__r3_neg_patterns_pattern_2	7	pre_tes_sequence	neg_patterns	30	0		183
+F08-Donor-P02	F08__r1_pos_patterns_pattern_2	8	first_donor_sequence	pos_patterns	23	0		184
+F05-TSS-N02	F05__r0_neg_patterns_pattern_2	5	tss_sequence	neg_patterns	27	0		185
+F05-Donor-N01	F05__r1_neg_patterns_pattern_1	5	first_donor_sequence	neg_patterns	38	0		186
+F06-Donor-N02	F06__r1_neg_patterns_pattern_2	6	first_donor_sequence	neg_patterns	34	0		187
+F10-TSS-P01	F10__r0_pos_patterns_pattern_1	10	tss_sequence	pos_patterns	44	0		188
+F06-preTES-N02	F06__r3_neg_patterns_pattern_2	6	pre_tes_sequence	neg_patterns	27	0		189
+F02-Acceptor-N06	F02__r2_neg_patterns_pattern_6	2	first_acceptor_sequence	neg_patterns	32	1	PAX8	190
+F05-preTES-N04	F05__r3_neg_patterns_pattern_4	5	pre_tes_sequence	neg_patterns	26	0		191
+F07-Donor-N03	F07__r1_neg_patterns_pattern_3	7	first_donor_sequence	neg_patterns	27	0		192
+F07-Donor-N05	F07__r1_neg_patterns_pattern_5	7	first_donor_sequence	neg_patterns	20	0		193
+F10-Donor-P01	F10__r1_pos_patterns_pattern_1	10	first_donor_sequence	pos_patterns	23	0		194
+F01-Acceptor-N09	F01__r2_neg_patterns_pattern_9	1	first_acceptor_sequence	neg_patterns	23	0		195
+F07-preTES-N06	F07__r3_neg_patterns_pattern_6	7	pre_tes_sequence	neg_patterns	22	0		196
+F09-Donor-N02	F09__r1_neg_patterns_pattern_2	9	first_donor_sequence	neg_patterns	26	0		197
+F05-preTES-N05	F05__r3_neg_patterns_pattern_5	5	pre_tes_sequence	neg_patterns	26	0		198
+F02-preTES-N04	F02__r3_neg_patterns_pattern_4	2	pre_tes_sequence	neg_patterns	25	0		199
+F09-preTES-N03	F09__r3_neg_patterns_pattern_3	9	pre_tes_sequence	neg_patterns	23	0		200
+F05-TSS-N03	F05__r0_neg_patterns_pattern_3	5	tss_sequence	neg_patterns	23	0		201
+F06-Donor-P03	F06__r1_pos_patterns_pattern_3	6	first_donor_sequence	pos_patterns	43	0		202
+F04-TSS-N01	F04__r0_neg_patterns_pattern_1	4	tss_sequence	neg_patterns	53	1	KLF16	203
+F01-Donor-N00	F01__r1_neg_patterns_pattern_0	1	first_donor_sequence	neg_patterns	51	0		204
+F08-TSS-P00	F08__r0_pos_patterns_pattern_0	8	tss_sequence	pos_patterns	46	0		205
+F09-TSS-P01	F09__r0_pos_patterns_pattern_1	9	tss_sequence	pos_patterns	93	0		206
+F06-Donor-N01	F06__r1_neg_patterns_pattern_1	6	first_donor_sequence	neg_patterns	44	0		207
+F08-Donor-N00	F08__r1_neg_patterns_pattern_0	8	first_donor_sequence	neg_patterns	136	0		208
+F10-Donor-N00	F10__r1_neg_patterns_pattern_0	10	first_donor_sequence	neg_patterns	142	0		209
+F09-Donor-N00	F09__r1_neg_patterns_pattern_0	9	first_donor_sequence	neg_patterns	171	0		210
+F10-Donor-N02	F10__r1_neg_patterns_pattern_2	10	first_donor_sequence	neg_patterns	43	0		211
+F03-TSS-P00	F03__r0_pos_patterns_pattern_0	3	tss_sequence	pos_patterns	99	2	KLF16;EGR1	212
+F05-TSS-P01	F05__r0_pos_patterns_pattern_1	5	tss_sequence	pos_patterns	98	0		213
+F01-TSS-N00	F01__r0_neg_patterns_pattern_0	1	tss_sequence	neg_patterns	88	4	SP4;SP1;SP2;KLF16	214
+F07-TSS-P00	F07__r0_pos_patterns_pattern_0	7	tss_sequence	pos_patterns	109	1	SP2	215
+F10-TSS-P00	F10__r0_pos_patterns_pattern_0	10	tss_sequence	pos_patterns	98	4	SP1;SP4;SP2;KLF16	216
+F09-TSS-P00	F09__r0_pos_patterns_pattern_0	9	tss_sequence	pos_patterns	125	0		217
+F04-TSS-N00	F04__r0_neg_patterns_pattern_0	4	tss_sequence	neg_patterns	166	3	SP1;SP4;SP2	218
+F05-TSS-P00	F05__r0_pos_patterns_pattern_0	5	tss_sequence	pos_patterns	103	4	SP2;SP1;KLF16;SP4	219
+F10-TSS-N01	F10__r0_neg_patterns_pattern_1	10	tss_sequence	neg_patterns	49	1	KLF16	220
+F02-TSS-P00	F02__r0_pos_patterns_pattern_0	2	tss_sequence	pos_patterns	46	1	KLF16	221
+F04-TSS-P00	F04__r0_pos_patterns_pattern_0	4	tss_sequence	pos_patterns	47	0		222
+F03-TSS-P01	F03__r0_pos_patterns_pattern_1	3	tss_sequence	pos_patterns	92	4	SP4;SP1;SP2;KLF16	223
+F06-TSS-P00	F06__r0_pos_patterns_pattern_0	6	tss_sequence	pos_patterns	97	4	KLF16;SP2;SP4;SP1	224
+F06-TSS-N00	F06__r0_neg_patterns_pattern_0	6	tss_sequence	neg_patterns	92	0		225
+F07-TSS-N00	F07__r0_neg_patterns_pattern_0	7	tss_sequence	neg_patterns	85	4	KLF16;SP4;SP2;SP1	226
+F06-preTES-N01	F06__r3_neg_patterns_pattern_1	6	pre_tes_sequence	neg_patterns	39	0		227
+F01-Acceptor-N03	F01__r2_neg_patterns_pattern_3	1	first_acceptor_sequence	neg_patterns	66	0		228
+F09-preTES-N02	F09__r3_neg_patterns_pattern_2	9	pre_tes_sequence	neg_patterns	52	0		229
+F03-Acceptor-N02	F03__r2_neg_patterns_pattern_2	3	first_acceptor_sequence	neg_patterns	41	0		230
+F03-preTES-N00	F03__r3_neg_patterns_pattern_0	3	pre_tes_sequence	neg_patterns	30	0		231
+F02-preTES-N05	F02__r3_neg_patterns_pattern_5	2	pre_tes_sequence	neg_patterns	20	0		232
+F07-Acceptor-N02	F07__r2_neg_patterns_pattern_2	7	first_acceptor_sequence	neg_patterns	79	0		233
+F02-Acceptor-N01	F02__r2_neg_patterns_pattern_1	2	first_acceptor_sequence	neg_patterns	58	0		234
+F03-Acceptor-N01	F03__r2_neg_patterns_pattern_1	3	first_acceptor_sequence	neg_patterns	43	0		235
+F07-Acceptor-N05	F07__r2_neg_patterns_pattern_5	7	first_acceptor_sequence	neg_patterns	55	0		236
+F04-preTES-N02	F04__r3_neg_patterns_pattern_2	4	pre_tes_sequence	neg_patterns	41	0		237
+F06-Acceptor-N01	F06__r2_neg_patterns_pattern_1	6	first_acceptor_sequence	neg_patterns	66	0		238
+F05-Acceptor-N04	F05__r2_neg_patterns_pattern_4	5	first_acceptor_sequence	neg_patterns	62	0		239
+F09-Acceptor-N01	F09__r2_neg_patterns_pattern_1	9	first_acceptor_sequence	neg_patterns	146	0		240
+F04-Acceptor-N01	F04__r2_neg_patterns_pattern_1	4	first_acceptor_sequence	neg_patterns	81	0		241
+F10-Acceptor-N01	F10__r2_neg_patterns_pattern_1	10	first_acceptor_sequence	neg_patterns	112	0		242
+F01-Acceptor-N01	F01__r2_neg_patterns_pattern_1	1	first_acceptor_sequence	neg_patterns	97	0		243
+F05-Acceptor-N03	F05__r2_neg_patterns_pattern_3	5	first_acceptor_sequence	neg_patterns	70	0		244
+F06-Acceptor-N03	F06__r2_neg_patterns_pattern_3	6	first_acceptor_sequence	neg_patterns	51	0		245
+F04-preTES-N03	F04__r3_neg_patterns_pattern_3	4	pre_tes_sequence	neg_patterns	23	0		246
+F09-Acceptor-N03	F09__r2_neg_patterns_pattern_3	9	first_acceptor_sequence	neg_patterns	91	0		247
+F01-Acceptor-N07	F01__r2_neg_patterns_pattern_7	1	first_acceptor_sequence	neg_patterns	38	0		248
+F02-Acceptor-N07	F02__r2_neg_patterns_pattern_7	2	first_acceptor_sequence	neg_patterns	25	0		249
+F10-Acceptor-N07	F10__r2_neg_patterns_pattern_7	10	first_acceptor_sequence	neg_patterns	22	0		250
+F04-Acceptor-N07	F04__r2_neg_patterns_pattern_7	4	first_acceptor_sequence	neg_patterns	26	0		251
+F10-Acceptor-N03	F10__r2_neg_patterns_pattern_3	10	first_acceptor_sequence	neg_patterns	37	0		252
+F07-Acceptor-N06	F07__r2_neg_patterns_pattern_6	7	first_acceptor_sequence	neg_patterns	53	0		253
+F09-Acceptor-N04	F09__r2_neg_patterns_pattern_4	9	first_acceptor_sequence	neg_patterns	71	0		254
+F04-Acceptor-N06	F04__r2_neg_patterns_pattern_6	4	first_acceptor_sequence	neg_patterns	31	0		255
+F07-Acceptor-N08	F07__r2_neg_patterns_pattern_8	7	first_acceptor_sequence	neg_patterns	39	0		256
+F04-Donor-P01	F04__r1_pos_patterns_pattern_1	4	first_donor_sequence	pos_patterns	20	0		257
+F04-Acceptor-P01	F04__r2_pos_patterns_pattern_1	4	first_acceptor_sequence	pos_patterns	33	1	ZNF384	258
+F09-Acceptor-P03	F09__r2_pos_patterns_pattern_3	9	first_acceptor_sequence	pos_patterns	27	0		259
+F01-Acceptor-P01	F01__r2_pos_patterns_pattern_1	1	first_acceptor_sequence	pos_patterns	53	0		260
+F02-Acceptor-P01	F02__r2_pos_patterns_pattern_1	2	first_acceptor_sequence	pos_patterns	52	0		261
+F03-Acceptor-P01	F03__r2_pos_patterns_pattern_1	3	first_acceptor_sequence	pos_patterns	57	0		262
+F05-Acceptor-P01	F05__r2_pos_patterns_pattern_1	5	first_acceptor_sequence	pos_patterns	61	0		263
+F08-Acceptor-P01	F08__r2_pos_patterns_pattern_1	8	first_acceptor_sequence	pos_patterns	67	0		264
+F01-Acceptor-P02	F01__r2_pos_patterns_pattern_2	1	first_acceptor_sequence	pos_patterns	27	0		265
+F05-preTES-P01	F05__r3_pos_patterns_pattern_1	5	pre_tes_sequence	pos_patterns	21	1	ZNF384	266
+F09-Acceptor-P05	F09__r2_pos_patterns_pattern_5	9	first_acceptor_sequence	pos_patterns	20	0		267
+F09-Acceptor-P01	F09__r2_pos_patterns_pattern_1	9	first_acceptor_sequence	pos_patterns	66	1	ZNF384	268
+F10-Acceptor-P02	F10__r2_pos_patterns_pattern_2	10	first_acceptor_sequence	pos_patterns	31	1	ZNF384	269
+F02-preTES-P01	F02__r3_pos_patterns_pattern_1	2	pre_tes_sequence	pos_patterns	28	1	ZNF384	270
+F05-preTES-P00	F05__r3_pos_patterns_pattern_0	5	pre_tes_sequence	pos_patterns	29	1	ZNF384	271
+F09-Donor-N03	F09__r1_neg_patterns_pattern_3	9	first_donor_sequence	neg_patterns	22	0		272
+F05-Acceptor-N01	F05__r2_neg_patterns_pattern_1	5	first_acceptor_sequence	neg_patterns	80	0		273
+F04-Acceptor-N08	F04__r2_neg_patterns_pattern_8	4	first_acceptor_sequence	neg_patterns	25	0		274
+F07-preTES-N03	F07__r3_neg_patterns_pattern_3	7	pre_tes_sequence	neg_patterns	27	0		275
+F02-preTES-N02	F02__r3_neg_patterns_pattern_2	2	pre_tes_sequence	neg_patterns	51	0		276
+F07-Acceptor-N03	F07__r2_neg_patterns_pattern_3	7	first_acceptor_sequence	neg_patterns	65	0		277
+F05-Acceptor-N06	F05__r2_neg_patterns_pattern_6	5	first_acceptor_sequence	neg_patterns	36	0		278
+F01-Acceptor-N05	F01__r2_neg_patterns_pattern_5	1	first_acceptor_sequence	neg_patterns	45	0		279
+F02-Acceptor-N03	F02__r2_neg_patterns_pattern_3	2	first_acceptor_sequence	neg_patterns	50	0		280
+F07-Acceptor-N04	F07__r2_neg_patterns_pattern_4	7	first_acceptor_sequence	neg_patterns	55	0		281
+F07-Acceptor-N07	F07__r2_neg_patterns_pattern_7	7	first_acceptor_sequence	neg_patterns	40	0		282
+F10-Acceptor-N05	F10__r2_neg_patterns_pattern_5	10	first_acceptor_sequence	neg_patterns	28	0		283
+F02-TSS-P02	F02__r0_pos_patterns_pattern_2	2	tss_sequence	pos_patterns	21	3	SP1;SP4;SP2	284
+F05-TSS-N00	F05__r0_neg_patterns_pattern_0	5	tss_sequence	neg_patterns	28	1	SP1	285
+F03-Acceptor-N08	F03__r2_neg_patterns_pattern_8	3	first_acceptor_sequence	neg_patterns	21	0		286
+F02-Donor-N01	F02__r1_neg_patterns_pattern_1	2	first_donor_sequence	neg_patterns	21	0		287
+F06-Donor-N06	F06__r1_neg_patterns_pattern_6	6	first_donor_sequence	neg_patterns	21	0		288
+F08-TSS-N02	F08__r0_neg_patterns_pattern_2	8	tss_sequence	neg_patterns	22	0		289
+F03-preTES-P00	F03__r3_pos_patterns_pattern_0	3	pre_tes_sequence	pos_patterns	35	1	ZNF384	290
+F07-Acceptor-P01	F07__r2_pos_patterns_pattern_1	7	first_acceptor_sequence	pos_patterns	25	0		291
+F06-Acceptor-P01	F06__r2_pos_patterns_pattern_1	6	first_acceptor_sequence	pos_patterns	52	0		292
+F09-Acceptor-P02	F09__r2_pos_patterns_pattern_2	9	first_acceptor_sequence	pos_patterns	57	0		293
+F04-preTES-P02	F04__r3_pos_patterns_pattern_2	4	pre_tes_sequence	pos_patterns	22	1	ZNF384	294
+F10-Acceptor-P01	F10__r2_pos_patterns_pattern_1	10	first_acceptor_sequence	pos_patterns	40	0		295
+F05-Acceptor-N07	F05__r2_neg_patterns_pattern_7	5	first_acceptor_sequence	neg_patterns	30	0		296
+F06-Acceptor-N07	F06__r2_neg_patterns_pattern_7	6	first_acceptor_sequence	neg_patterns	23	0		297
+F06-Acceptor-N06	F06__r2_neg_patterns_pattern_6	6	first_acceptor_sequence	neg_patterns	28	0		298
+F01-Acceptor-N08	F01__r2_neg_patterns_pattern_8	1	first_acceptor_sequence	neg_patterns	26	0		299
+F08-Acceptor-N01	F08__r2_neg_patterns_pattern_1	8	first_acceptor_sequence	neg_patterns	44	0		300
+F03-Acceptor-N07	F03__r2_neg_patterns_pattern_7	3	first_acceptor_sequence	neg_patterns	25	0		301
+F04-Acceptor-N04	F04__r2_neg_patterns_pattern_4	4	first_acceptor_sequence	neg_patterns	50	0		302
+F10-Acceptor-N02	F10__r2_neg_patterns_pattern_2	10	first_acceptor_sequence	neg_patterns	60	0		303
+F07-Acceptor-N01	F07__r2_neg_patterns_pattern_1	7	first_acceptor_sequence	neg_patterns	97	0		304
+F09-Acceptor-N02	F09__r2_neg_patterns_pattern_2	9	first_acceptor_sequence	neg_patterns	132	0		305
+F01-Acceptor-N02	F01__r2_neg_patterns_pattern_2	1	first_acceptor_sequence	neg_patterns	83	0		306
+F02-Acceptor-N02	F02__r2_neg_patterns_pattern_2	2	first_acceptor_sequence	neg_patterns	53	0		307
+F03-preTES-N01	F03__r3_neg_patterns_pattern_1	3	pre_tes_sequence	neg_patterns	30	0		308
+F06-Acceptor-N02	F06__r2_neg_patterns_pattern_2	6	first_acceptor_sequence	neg_patterns	63	0		309
+F09-Donor-N01	F09__r1_neg_patterns_pattern_1	9	first_donor_sequence	neg_patterns	39	0		310
+F02-Acceptor-N05	F02__r2_neg_patterns_pattern_5	2	first_acceptor_sequence	neg_patterns	32	0		311
+F06-Acceptor-N05	F06__r2_neg_patterns_pattern_5	6	first_acceptor_sequence	neg_patterns	35	0		312
+F01-Acceptor-N10	F01__r2_neg_patterns_pattern_10	1	first_acceptor_sequence	neg_patterns	21	0		313
+F04-Acceptor-N05	F04__r2_neg_patterns_pattern_5	4	first_acceptor_sequence	neg_patterns	36	0		314

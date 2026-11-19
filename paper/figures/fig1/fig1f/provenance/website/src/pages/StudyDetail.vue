@@ -1,0 +1,17 @@
+<script setup>
+import { computed, ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
+import { ExternalLink, ArrowLeft } from '@lucide/vue'
+import { useCatalog } from '../composables/catalog.js'
+import PageTitle from '../components/PageTitle.vue'
+import LoadState from '../components/LoadState.vue'
+import AssayBadge from '../components/AssayBadge.vue'
+import SampleTable from '../components/SampleTable.vue'
+import Pagination from '../components/Pagination.vue'
+import EmptyState from '../components/EmptyState.vue'
+const { catalog,loading,error,reload }=useCatalog(),route=useRoute(),page=ref(1)
+const study=computed(()=>catalog.value?.studies.find(s=>s.gse===route.params.id))
+const profiles=computed(()=>catalog.value?.profiles.filter(p=>p.gse===route.params.id)||[])
+watch(()=>route.params.id,()=>page.value=1)
+</script>
+<template><LoadState :loading="loading" :error="error" @retry="reload"><template v-if="study"><PageTitle eyebrow="STUDY DETAIL" :title="study.gse" description="Profiles from a public GEO study. Study titles and publication details await individual verification."><a class="button secondary" :href="study.source_url" target="_blank" rel="noopener"><ExternalLink :size="16"/>Original GEO record</a></PageTitle><RouterLink :to="{path:'/samples',query:{view:'study'}}" class="back-link"><ArrowLeft :size="15"/>Back to GSE groups</RouterLink><div class="detail-grid"><section class="panel"><div class="panel-head"><h2>Study overview</h2><span class="status-tag">Pending review</span></div><dl class="detail-list"><dt>Source accession</dt><dd class="mono">{{ study.gse }}</dd><dt>Assay</dt><dd class="badge-wrap"><AssayBadge v-for="a in study.assays" :key="a" :assay="a"/></dd><dt>Cell label</dt><dd>{{ study.cells.join(', ') }}</dd><dt>Profile count</dt><dd>{{ study.profile_count }}</dd><dt>Author label from source</dt><dd>{{ study.authors.join(' / ') }}</dd><dt>Study title / PMID</dt><dd class="muted">Unverified</dd><dt>Species scope</dt><dd>Homo sapiens · Local human catalog</dd></dl></section><section class="panel"><div class="panel-head"><h2>Result availability</h2></div><div class="availability-list"><div><span class="available-dot"/>Original profile catalog<strong>Imported</strong></div><div><span class="available-dot"/>Existing log2 PI matrix<strong>Imported</strong></div><div><span class="pending-dot"/>GSM / SRR mappings<strong>Pending review</strong></div><div><span class="pending-dot"/>Raw library QC<strong>Not connected</strong></div><div><span class="pending-dot"/>Strand-specific BigWig<strong>Not connected</strong></div><div><span class="pending-dot"/>Reference and calculation protocol<strong>Unverified</strong></div></div><div class="panel-foot">Availability reflects imported files; it does not imply that raw data have been downloaded.</div></section></div><section class="panel latest-panel"><div class="panel-head"><div><h2>Related profiles</h2><p>{{ profiles.length }} individual analysis records</p></div><RouterLink :to="{path:'/samples',query:{study:study.gse}}" class="text-link">Filter and export ↗</RouterLink></div><SampleTable :rows="profiles.slice((page-1)*10,page*10)"/><Pagination v-model="page" :total="profiles.length"/></section></template><EmptyState v-else-if="catalog" title="Study not found in this catalog" description="Check the GSE accession or browse the GSE groups." to="/samples?view=study"/></LoadState></template>

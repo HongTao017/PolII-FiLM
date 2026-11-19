@@ -1,0 +1,25 @@
+{
+  "filename": "fig5c.pdf",
+  "description": "ZBTB7A来源pattern与SP4 MA0685.2的TOMTOM配对",
+  "kind": "pair",
+  "entry_script": "code/render.py",
+  "user_selected_example": true,
+  "source_ism_bundle": "SP4_MA0685_2_F10_ZBTB7A_ISM_MATCHED_101BP_SMOOTH_SIGMA1p1",
+  "panel": "C",
+  "legacy_server_directory": "/mnt/HDD8TB/hongtao/end/pig/fig5/fig5.c",
+  "source_data_sha256": {
+    "data/aligned_plot_matrices.npz": "c2aaed78898cb342332a5a894fe0a1d75024f17cb748462abaf61a5e0d0ad180",
+    "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+    "data/fonts/arialbi.ttf": "267a411525980d648f10a7222a6ff1ebe4d4feeefbf9b3100cae2b5cfab5594a",
+    "data/fonts/ariali.ttf": "86b32db9a06f9694e2a3760c42e5117bcdc5cc1255bb5186ca8ce0305e22f288",
+    "data/native_pattern_source.npz": "5db880628526221fac3ca57cffbb2e9e03b16f32d94fd17e8213dc76ef41c11a",
+    "data/selected_case.json": "b9e237f7975ccbd516726bf49bdc1ed45b599395043d720b0fa61b63616d2b66",
+    "data/source_tomtom/jaspar_125.meme": "3e3cd339aeea19abfcae8ce75ff5d6849d56b3e4cc89164a634b7192db5b73b9",
+    "data/source_tomtom/patterns.meme": "5423f5a2d61df761f140f1b31589ca82d43584a79b226a73fedc5d8db628f9e1",
+    "data/source_tomtom/tomtom.tsv": "4995aac4a72b46fad96ec088620b61628491bd6bf7bec43d352af82704754769",
+    "data/source_tomtom/tomtom.xml": "d3ca26551705b391b1aae0e8c2e2f482b43a2fc11fdf917a21ad04b803277ccc",
+    "data/target.meme": "b0d53d3469946d2bceb84640eac98fae471043a6ba82d26295dc98b4641790b7",
+    "data/TOMTOM_pair.json": "309be2ce8a8f54560cb86534396242556016b4c2d0ab718ceb7dc1e437b9385b"
+  }
+}

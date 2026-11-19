@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "LRRC3C",
+      "conditional_FP32": 2.0759434700012207,
+      "official_FP32": 2.0759434700012207,
+      "saved_BF16": 2.0654597606472964,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.010483709353924286
+    },
+    {
+      "seed": 20260915,
+      "gene": "CYP20A1",
+      "conditional_FP32": 5.1588053703308105,
+      "official_FP32": 5.1588053703308105,
+      "saved_BF16": 5.165039279984258,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.006233909653447611
+    },
+    {
+      "seed": 20260916,
+      "gene": "LRRC3C",
+      "conditional_FP32": 4.307056427001953,
+      "official_FP32": 4.307056427001953,
+      "saved_BF16": 4.324966326145269,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.017909899143315755
+    },
+    {
+      "seed": 20260916,
+      "gene": "CYP20A1",
+      "conditional_FP32": 6.426281452178955,
+      "official_FP32": 6.426281452178955,
+      "saved_BF16": 6.4106646942972425,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.015616757881712573
+    },
+    {
+      "seed": 20260917,
+      "gene": "LRRC3C",
+      "conditional_FP32": 8.11048698425293,
+      "official_FP32": 8.11048698425293,
+      "saved_BF16": 8.148746667757221,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.03825968350429143
+    },
+    {
+      "seed": 20260917,
+      "gene": "CYP20A1",
+      "conditional_FP32": 5.221503257751465,
+      "official_FP32": 5.221503257751465,
+      "saved_BF16": 5.222975345766257,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.001472088014792483
+    },
+    {
+      "seed": 20260918,
+      "gene": "LRRC3C",
+      "conditional_FP32": 3.6227428913116455,
+      "official_FP32": 3.6227428913116455,
+      "saved_BF16": 3.629733536761277,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.006990645449631572
+    },
+    {
+      "seed": 20260918,
+      "gene": "CYP20A1",
+      "conditional_FP32": 5.380394458770752,
+      "official_FP32": 5.380394458770752,
+      "saved_BF16": 5.367815510221256,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.01257894854949626
+    },
+    {
+      "seed": 20260919,
+      "gene": "LRRC3C",
+      "conditional_FP32": 6.049445152282715,
+      "official_FP32": 6.049445152282715,
+      "saved_BF16": 6.034080266714248,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": 0.015364885568466491
+    },
+    {
+      "seed": 20260919,
+      "gene": "CYP20A1",
+      "conditional_FP32": 3.218322277069092,
+      "official_FP32": 3.218322277069092,
+      "saved_BF16": 3.224181076287282,
+      "FP32_wrapper_error": 0.0,
+      "cross_precision_difference": -0.005858799218190214
+    }
+  ],
+  "comparison": "FP32 conditional wrapper versus FP32 original model; saved BF16 separately checked on CUDA",
+  "atol": 2e-05,
+  "rtol": 2e-05
+}

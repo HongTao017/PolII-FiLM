@@ -1,0 +1,3092 @@
+{
+  "ENCFF293IZG": {
+    "@id": "/files/ENCFF293IZG/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF293IZG",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR456JJQ/",
+    "derived_from": [
+      "/files/ENCFF545NBF/",
+      "/files/ENCFF615UKX/",
+      "/files/ENCFF051SNH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF169EKN/",
+      "/files/ENCFF253ZSN/"
+    ],
+    "file_format": "bed",
+    "file_size": 40630,
+    "href": "/files/ENCFF293IZG/@@download/ENCFF293IZG.bed.gz",
+    "md5sum": "603b1bed71ef06e93806841e73022916",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/7248e968-388a-468a-bbfd-3393e642a376/ENCFF293IZG.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/494.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF141DOI": {
+    "@id": "/files/ENCFF141DOI/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF141DOI",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR919HSE/",
+    "derived_from": [
+      "/files/ENCFF562AZL/",
+      "/files/ENCFF019IEW/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF625AZC/",
+      "/files/ENCFF539YZX/",
+      "/files/ENCFF208OVE/"
+    ],
+    "file_format": "bed",
+    "file_size": 478117,
+    "href": "/files/ENCFF141DOI/@@download/ENCFF141DOI.bed.gz",
+    "md5sum": "161c18ed2e106b726140b07f554bab4e",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/3c8771c9-b2d1-4fa5-8515-2a98c32cc52f/ENCFF141DOI.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/292.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF327VCE": {
+    "@id": "/files/ENCFF327VCE/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF327VCE",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR921SXC/",
+    "derived_from": [
+      "/files/ENCFF801OMV/",
+      "/files/ENCFF207XKP/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF986QCU/",
+      "/files/ENCFF957KNE/",
+      "/files/ENCFF764UJQ/"
+    ],
+    "file_format": "bed",
+    "file_size": 98958,
+    "href": "/files/ENCFF327VCE/@@download/ENCFF327VCE.bed.gz",
+    "md5sum": "c824853ceead7c6d47a86064e176778b",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/512cd493-673e-4a31-9c92-51e9a3bf6f0a/ENCFF327VCE.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/655.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF307MDW": {
+    "@id": "/files/ENCFF307MDW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF307MDW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR961OKA/",
+    "derived_from": [
+      "/files/ENCFF774NGW/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF086NCN/",
+      "/files/ENCFF647TKI/",
+      "/files/ENCFF345DPL/",
+      "/files/ENCFF240QBZ/"
+    ],
+    "file_format": "bed",
+    "file_size": 6857,
+    "href": "/files/ENCFF307MDW/@@download/ENCFF307MDW.bed.gz",
+    "md5sum": "49ee31254769747a3cc9165dd4e6bec3",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b5e8a852-bc83-439e-8fa1-0b163f829987/ENCFF307MDW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/298.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF232WUE": {
+    "@id": "/files/ENCFF232WUE/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF232WUE",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR337XGI/",
+    "derived_from": [
+      "/files/ENCFF399MVB/",
+      "/files/ENCFF829ROW/",
+      "/files/ENCFF056OAB/",
+      "/files/ENCFF112CRX/",
+      "/files/ENCFF535RVD/",
+      "/files/ENCFF269URO/"
+    ],
+    "file_format": "bed",
+    "file_size": 6752,
+    "href": "/files/ENCFF232WUE/@@download/ENCFF232WUE.bed.gz",
+    "md5sum": "20aa2aa3f04c4bd72a9fab4541ffd01b",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c07db856-9cf0-45e0-8cd7-3b9268cc60bc/ENCFF232WUE.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/745.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF321HPH": {
+    "@id": "/files/ENCFF321HPH/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF321HPH",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR655NZA/",
+    "derived_from": [
+      "/files/ENCFF561NXC/",
+      "/files/ENCFF689OKB/",
+      "/files/ENCFF492OPF/",
+      "/files/ENCFF963GMC/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF584DZW/"
+    ],
+    "file_format": "bed",
+    "file_size": 35365,
+    "href": "/files/ENCFF321HPH/@@download/ENCFF321HPH.bed.gz",
+    "md5sum": "5d68dbcd8dbfec7c7cc5e64e2fad29da",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/8f6ed43d-156f-4fa5-910c-080294f7e40a/ENCFF321HPH.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/235x4000.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF191XRG": {
+    "@id": "/files/ENCFF191XRG/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF191XRG",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR506UPY/",
+    "derived_from": [
+      "/files/ENCFF572VUS/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF600AXE/",
+      "/files/ENCFF699QMT/",
+      "/files/ENCFF734JUL/",
+      "/files/ENCFF935UME/"
+    ],
+    "file_format": "bed",
+    "file_size": 312454,
+    "href": "/files/ENCFF191XRG/@@download/ENCFF191XRG.bed.gz",
+    "md5sum": "e7faa593d597a61ec65371249fcd515f",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/0632612a-e685-472d-9200-0cbe48b7c6bd/ENCFF191XRG.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/652.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF227EJF": {
+    "@id": "/files/ENCFF227EJF/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF227EJF",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR977OXG/",
+    "derived_from": [
+      "/files/ENCFF404WOP/",
+      "/files/ENCFF331HUW/",
+      "/files/ENCFF882APR/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF080HMO/",
+      "/files/ENCFF155TML/"
+    ],
+    "file_format": "bed",
+    "file_size": 214522,
+    "href": "/files/ENCFF227EJF/@@download/ENCFF227EJF.bed.gz",
+    "md5sum": "2cc2c76523767685af39b423275db929",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/65e96bb2-ea8e-4486-b2d8-35588228e9c1/ENCFF227EJF.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/752.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF323PUC": {
+    "@id": "/files/ENCFF323PUC/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF323PUC",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR018WPY/",
+    "derived_from": [
+      "/files/ENCFF073PST/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF947JHV/",
+      "/files/ENCFF882PEQ/",
+      "/files/ENCFF636MSJ/",
+      "/files/ENCFF217IZI/"
+    ],
+    "file_format": "bed",
+    "file_size": 234555,
+    "href": "/files/ENCFF323PUC/@@download/ENCFF323PUC.bed.gz",
+    "md5sum": "f0e433d02e4d6f4aef0a663033b98a0a",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/d49c8a68-b2be-4a1f-8adc-9cd784e6a73c/ENCFF323PUC.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/762.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF335JTC": {
+    "@id": "/files/ENCFF335JTC/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF335JTC",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR406OOZ/",
+    "derived_from": [
+      "/files/ENCFF443VTY/",
+      "/files/ENCFF416HFS/",
+      "/files/ENCFF228FAK/",
+      "/files/ENCFF790BKB/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF723IPF/"
+    ],
+    "file_format": "bed",
+    "file_size": 77566,
+    "href": "/files/ENCFF335JTC/@@download/ENCFF335JTC.bed.gz",
+    "md5sum": "96aeffcf35a7b7448b20583ff38950d5",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/ac3dd796-e746-47ad-ad45-ff801d932730/ENCFF335JTC.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/632x.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF266TKW": {
+    "@id": "/files/ENCFF266TKW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF266TKW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR724RDN/",
+    "derived_from": [
+      "/files/ENCFF607WID/",
+      "/files/ENCFF103PRM/",
+      "/files/ENCFF255EGS/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF518JBW/",
+      "/files/ENCFF073PCD/"
+    ],
+    "file_format": "bed",
+    "file_size": 214660,
+    "href": "/files/ENCFF266TKW/@@download/ENCFF266TKW.bed.gz",
+    "md5sum": "886d3b108a60fce278526c9093caf412",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/2f90b63c-9af7-4c9c-88b1-b54288830c7c/ENCFF266TKW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/678.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF301IJW": {
+    "@id": "/files/ENCFF301IJW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF301IJW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR766FAC/",
+    "derived_from": [
+      "/files/ENCFF275HKC/",
+      "/files/ENCFF251QTX/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF959SXJ/",
+      "/files/ENCFF233HCD/",
+      "/files/ENCFF905UMJ/"
+    ],
+    "file_format": "bed",
+    "file_size": 138466,
+    "href": "/files/ENCFF301IJW/@@download/ENCFF301IJW.bed.gz",
+    "md5sum": "99c6ecc958a0ba6b0b8be3695809e1c4",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/5d81a488-89aa-4124-9005-2d4f6b80e663/ENCFF301IJW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/540.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF343TCO": {
+    "@id": "/files/ENCFF343TCO/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF343TCO",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR685AUR/",
+    "derived_from": [
+      "/files/ENCFF474PGR/",
+      "/files/ENCFF653PSU/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF712CBF/",
+      "/files/ENCFF265GVT/",
+      "/files/ENCFF506YVW/"
+    ],
+    "file_format": "bed",
+    "file_size": 68915,
+    "href": "/files/ENCFF343TCO/@@download/ENCFF343TCO.bed.gz",
+    "md5sum": "17257c3f824cffc05227773f64d69a1e",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/46e09d13-4035-4b5e-b891-4e99d605d948/ENCFF343TCO.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/743.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF317HGW": {
+    "@id": "/files/ENCFF317HGW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF317HGW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR513NDD/",
+    "derived_from": [
+      "/files/ENCFF944XFZ/",
+      "/files/ENCFF593CEQ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF160TWL/",
+      "/files/ENCFF743ZXA/",
+      "/files/ENCFF558CNE/"
+    ],
+    "file_format": "bed",
+    "file_size": 10106,
+    "href": "/files/ENCFF317HGW/@@download/ENCFF317HGW.bed.gz",
+    "md5sum": "d9938deb7f0ded952df161616f64dead",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c6e6abc9-1713-4517-88e8-82a771667588/ENCFF317HGW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/209.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF185OEI": {
+    "@id": "/files/ENCFF185OEI/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF185OEI",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR735HOK/",
+    "derived_from": [
+      "/files/ENCFF401TWM/",
+      "/files/ENCFF560ZTA/",
+      "/files/ENCFF148DUH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF101VSR/",
+      "/files/ENCFF311PHS/"
+    ],
+    "file_format": "bed",
+    "file_size": 48712,
+    "href": "/files/ENCFF185OEI/@@download/ENCFF185OEI.bed.gz",
+    "md5sum": "5b2e3b98ac5a7268da8749faea229c19",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c76191aa-38e8-4999-a7f7-b4e741b75006/ENCFF185OEI.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/729.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF193URO": {
+    "@id": "/files/ENCFF193URO/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF193URO",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR061SZV/",
+    "derived_from": [
+      "/files/ENCFF414UFZ/",
+      "/files/ENCFF951OAJ/",
+      "/files/ENCFF883DQC/",
+      "/files/ENCFF960NPN/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF492NNT/"
+    ],
+    "file_format": "bed",
+    "file_size": 42316,
+    "href": "/files/ENCFF193URO/@@download/ENCFF193URO.bed.gz",
+    "md5sum": "d0f45b397fbac1b176d1fc803bc9b507",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/25d41ec9-24db-45ce-aafd-9577392a9121/ENCFF193URO.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/383.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF349SVY": {
+    "@id": "/files/ENCFF349SVY/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF349SVY",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR384MWO/",
+    "derived_from": [
+      "/files/ENCFF616EZQ/",
+      "/files/ENCFF091VTP/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF645IXY/",
+      "/files/ENCFF548SIH/",
+      "/files/ENCFF399CRA/"
+    ],
+    "file_format": "bed",
+    "file_size": 72957,
+    "href": "/files/ENCFF349SVY/@@download/ENCFF349SVY.bed.gz",
+    "md5sum": "2d49c547e8e1d4ef0a00d7706f2dd22c",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/89528e11-b083-430d-8eca-c1e07c3ed9fe/ENCFF349SVY.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/572.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF341XMP": {
+    "@id": "/files/ENCFF341XMP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF341XMP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR861GYE/",
+    "derived_from": [
+      "/files/ENCFF909VPB/",
+      "/files/ENCFF756VXR/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF244QMW/",
+      "/files/ENCFF284RSI/",
+      "/files/ENCFF246BGL/"
+    ],
+    "file_format": "bed",
+    "file_size": 88646,
+    "href": "/files/ENCFF341XMP/@@download/ENCFF341XMP.bed.gz",
+    "md5sum": "2fa615989320c380a43040d384cde623",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1927111c-e301-45df-9205-49d2e3c5fbdf/ENCFF341XMP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/387.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF208ZMI": {
+    "@id": "/files/ENCFF208ZMI/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF208ZMI",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR987NYS/",
+    "derived_from": [
+      "/files/ENCFF389LEX/",
+      "/files/ENCFF186RBL/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF786BCU/",
+      "/files/ENCFF704TQZ/",
+      "/files/ENCFF889YGM/"
+    ],
+    "file_format": "bed",
+    "file_size": 192712,
+    "href": "/files/ENCFF208ZMI/@@download/ENCFF208ZMI.bed.gz",
+    "md5sum": "d8e71ea286834bcbec5af3204b65bb75",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/451feb92-67f7-4464-9aa5-8d45e951f508/ENCFF208ZMI.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/297.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF159MMZ": {
+    "@id": "/files/ENCFF159MMZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF159MMZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR893NWB/",
+    "derived_from": [
+      "/files/ENCFF971KUU/",
+      "/files/ENCFF886MOW/",
+      "/files/ENCFF869UTD/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF591FGE/",
+      "/files/ENCFF950JUB/"
+    ],
+    "file_format": "bed",
+    "file_size": 508762,
+    "href": "/files/ENCFF159MMZ/@@download/ENCFF159MMZ.bed.gz",
+    "md5sum": "d34ef52379fa77e8929b9dc6457c711d",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b6981fe0-ff37-47cf-b1d5-6709fa271347/ENCFF159MMZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/628.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF610JVZ": {
+    "@id": "/files/ENCFF610JVZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF610JVZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR755TJC/",
+    "derived_from": [
+      "/files/ENCFF536XVW/",
+      "/files/ENCFF956ELY/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF635FQJ/",
+      "/files/ENCFF487VHA/",
+      "/files/ENCFF569CXX/"
+    ],
+    "file_format": "bed",
+    "file_size": 10383,
+    "href": "/files/ENCFF610JVZ/@@download/ENCFF610JVZ.bed.gz",
+    "md5sum": "eea41572911814bf6d80937ac5464032",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/d6604bcb-3b2d-440b-a40e-6025ea697686/ENCFF610JVZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/321.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF592WIH": {
+    "@id": "/files/ENCFF592WIH/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF592WIH",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR907GUB/",
+    "derived_from": [
+      "/files/ENCFF025DXI/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF904WAE/",
+      "/files/ENCFF616NRU/",
+      "/files/ENCFF361GRY/",
+      "/files/ENCFF023GYY/"
+    ],
+    "file_format": "bed",
+    "file_size": 26038,
+    "href": "/files/ENCFF592WIH/@@download/ENCFF592WIH.bed.gz",
+    "md5sum": "294f55ccf75b7a732fb89070c2c7ee09",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c31aa64b-9858-4ed5-bea3-1c0a21700482/ENCFF592WIH.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/641.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF663QIZ": {
+    "@id": "/files/ENCFF663QIZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF663QIZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR565DGW/",
+    "derived_from": [
+      "/files/ENCFF809XHX/",
+      "/files/ENCFF705YYZ/",
+      "/files/ENCFF143TAM/",
+      "/files/ENCFF190UCK/",
+      "/files/ENCFF336UXX/",
+      "/files/ENCFF269URO/"
+    ],
+    "file_format": "bed",
+    "file_size": 4504,
+    "href": "/files/ENCFF663QIZ/@@download/ENCFF663QIZ.bed.gz",
+    "md5sum": "be5f42815045c7c56a42948a024bbf35",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/a8a3c51d-3e87-45ed-8ae4-79b38f9ec33f/ENCFF663QIZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/654.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF609LWQ": {
+    "@id": "/files/ENCFF609LWQ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF609LWQ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR061EVO/",
+    "derived_from": [
+      "/files/ENCFF471JAQ/",
+      "/files/ENCFF296HGS/",
+      "/files/ENCFF655NIG/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF774RKG/",
+      "/files/ENCFF761CYV/"
+    ],
+    "file_format": "bed",
+    "file_size": 171827,
+    "href": "/files/ENCFF609LWQ/@@download/ENCFF609LWQ.bed.gz",
+    "md5sum": "6cc103dd09fce7818fd2c194076f8474",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/efd96249-3a00-467a-a8e7-a0eef92c3385/ENCFF609LWQ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/302.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF566EAE": {
+    "@id": "/files/ENCFF566EAE/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF566EAE",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR841EQA/",
+    "derived_from": [
+      "/files/ENCFF701ZSE/",
+      "/files/ENCFF062LCG/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF899ZEH/",
+      "/files/ENCFF383ZAQ/",
+      "/files/ENCFF420FTB/"
+    ],
+    "file_format": "bed",
+    "file_size": 16281,
+    "href": "/files/ENCFF566EAE/@@download/ENCFF566EAE.bed.gz",
+    "md5sum": "66651294be1e7f07724dabc602542ce4",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/683cee0e-cf9e-469c-9b18-99840fa9fa8d/ENCFF566EAE.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/388.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF466UMQ": {
+    "@id": "/files/ENCFF466UMQ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF466UMQ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR486YGP/",
+    "derived_from": [
+      "/files/ENCFF836HIK/",
+      "/files/ENCFF149SFF/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF739YDO/",
+      "/files/ENCFF103YQS/",
+      "/files/ENCFF878TBN/"
+    ],
+    "file_format": "bed",
+    "file_size": 62410,
+    "href": "/files/ENCFF466UMQ/@@download/ENCFF466UMQ.bed.gz",
+    "md5sum": "0bf70fcd4c84e6f4fc69cb2d4b60919b",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/a13e3cf3-be8e-4a62-945a-72957207f14e/ENCFF466UMQ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/571.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF633LQC": {
+    "@id": "/files/ENCFF633LQC/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF633LQC",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR301TFY/",
+    "derived_from": [
+      "/files/ENCFF252TQP/",
+      "/files/ENCFF732TFX/",
+      "/files/ENCFF038LJH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF841ZPX/",
+      "/files/ENCFF897PMV/"
+    ],
+    "file_format": "bed",
+    "file_size": 55218,
+    "href": "/files/ENCFF633LQC/@@download/ENCFF633LQC.bed.gz",
+    "md5sum": "1a7ce64902a1ee75012b126ce87bee6f",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/99195095-1539-42a1-9f5b-c4f801c1dee3/ENCFF633LQC.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/544.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF642GNE": {
+    "@id": "/files/ENCFF642GNE/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF642GNE",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR339FUY/",
+    "derived_from": [
+      "/files/ENCFF803QKO/",
+      "/files/ENCFF547AHN/",
+      "/files/ENCFF454MWQ/",
+      "/files/ENCFF190ITO/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF514GGZ/"
+    ],
+    "file_format": "bed",
+    "file_size": 206727,
+    "href": "/files/ENCFF642GNE/@@download/ENCFF642GNE.bed.gz",
+    "md5sum": "86ff47e1810b0c961a1d1a299bcddaa9",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/0b5796ee-14e4-4ce0-8c1e-ccea46facde5/ENCFF642GNE.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/345.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF440ROZ": {
+    "@id": "/files/ENCFF440ROZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF440ROZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR550DVK/",
+    "derived_from": [
+      "/files/ENCFF230QOU/",
+      "/files/ENCFF885KNL/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF630YNF/",
+      "/files/ENCFF162FHQ/",
+      "/files/ENCFF534YQS/"
+    ],
+    "file_format": "bed",
+    "file_size": 71740,
+    "href": "/files/ENCFF440ROZ/@@download/ENCFF440ROZ.bed.gz",
+    "md5sum": "8c8128a6f0c7f28512fefe46090c4aae",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b48fa26b-58df-45db-af4a-b5411d50ba76/ENCFF440ROZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/203.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF442USD": {
+    "@id": "/files/ENCFF442USD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF442USD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR744GEU/",
+    "derived_from": [
+      "/files/ENCFF427IMN/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF145YYK/",
+      "/files/ENCFF777OWL/",
+      "/files/ENCFF032OPL/",
+      "/files/ENCFF705SDK/"
+    ],
+    "file_format": "bed",
+    "file_size": 103091,
+    "href": "/files/ENCFF442USD/@@download/ENCFF442USD.bed.gz",
+    "md5sum": "bb061daadc409dc8fe1ff2c292cc8567",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/6f23901f-378b-4022-ac62-720f79ac3844/ENCFF442USD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/205.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF351ZDU": {
+    "@id": "/files/ENCFF351ZDU/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF351ZDU",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR903PRV/",
+    "derived_from": [
+      "/files/ENCFF385LTB/",
+      "/files/ENCFF040XCG/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF214XZG/",
+      "/files/ENCFF762QRZ/",
+      "/files/ENCFF340BXW/"
+    ],
+    "file_format": "bed",
+    "file_size": 12762,
+    "href": "/files/ENCFF351ZDU/@@download/ENCFF351ZDU.bed.gz",
+    "md5sum": "410111a8bb5d1f02006d8dcf59128419",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/d7998053-829b-49b4-9bbc-7606932ccd1e/ENCFF351ZDU.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/723reseq1.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF573DXD": {
+    "@id": "/files/ENCFF573DXD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF573DXD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR490IEE/",
+    "derived_from": [
+      "/files/ENCFF476CPQ/",
+      "/files/ENCFF151VWF/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF573KHP/",
+      "/files/ENCFF132YAO/",
+      "/files/ENCFF022FGD/"
+    ],
+    "file_format": "bed",
+    "file_size": 51641,
+    "href": "/files/ENCFF573DXD/@@download/ENCFF573DXD.bed.gz",
+    "md5sum": "ca3159016440d903f3f46b1ab7ae0ce7",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/e2a3400d-25fa-4a5e-8538-d03cdb8db659/ENCFF573DXD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/629.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF534JCV": {
+    "@id": "/files/ENCFF534JCV/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF534JCV",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR805SRN/",
+    "derived_from": [
+      "/files/ENCFF540HIX/",
+      "/files/ENCFF519RGA/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF259KVP/",
+      "/files/ENCFF881RZM/",
+      "/files/ENCFF202RTW/"
+    ],
+    "file_format": "bed",
+    "file_size": 129055,
+    "href": "/files/ENCFF534JCV/@@download/ENCFF534JCV.bed.gz",
+    "md5sum": "398439ec70f34075b441eefda6055b28",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/4acc6ab4-c6b0-42fa-947d-650987373c90/ENCFF534JCV.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/558.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF614NUP": {
+    "@id": "/files/ENCFF614NUP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF614NUP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR141OIM/",
+    "derived_from": [
+      "/files/ENCFF680IKQ/",
+      "/files/ENCFF901JSX/",
+      "/files/ENCFF463LHG/",
+      "/files/ENCFF978MRH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF398FGK/"
+    ],
+    "file_format": "bed",
+    "file_size": 13100,
+    "href": "/files/ENCFF614NUP/@@download/ENCFF614NUP.bed.gz",
+    "md5sum": "e8abe5c49d73376a6e4d2feaf390b5fa",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/32bdde57-28a6-4108-99e7-345d99d7cbf2/ENCFF614NUP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/589.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF591BUK": {
+    "@id": "/files/ENCFF591BUK/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF591BUK",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR820WHR/",
+    "derived_from": [
+      "/files/ENCFF385AIL/",
+      "/files/ENCFF079ZKD/",
+      "/files/ENCFF045AEV/",
+      "/files/ENCFF431HUP/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF460SKC/"
+    ],
+    "file_format": "bed",
+    "file_size": 1538,
+    "href": "/files/ENCFF591BUK/@@download/ENCFF591BUK.bed.gz",
+    "md5sum": "4a8f224831d32f7ce998aae3466b8499",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b3bc2730-4aaf-49a0-8619-16ebe5ecb8ee/ENCFF591BUK.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/484.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF498IGK": {
+    "@id": "/files/ENCFF498IGK/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF498IGK",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR023UHL/",
+    "derived_from": [
+      "/files/ENCFF828HJF/",
+      "/files/ENCFF064QSN/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF585BNE/",
+      "/files/ENCFF177RJW/",
+      "/files/ENCFF307ZHU/"
+    ],
+    "file_format": "bed",
+    "file_size": 20927,
+    "href": "/files/ENCFF498IGK/@@download/ENCFF498IGK.bed.gz",
+    "md5sum": "fe2e5bac4437c1ca4b77d0f5ff15355d",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/e4e2e5d1-4264-4252-85cc-7d45605dfd64/ENCFF498IGK.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/649.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF587KKM": {
+    "@id": "/files/ENCFF587KKM/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF587KKM",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR290VLT/",
+    "derived_from": [
+      "/files/ENCFF619UHD/",
+      "/files/ENCFF794ILP/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF601NWD/",
+      "/files/ENCFF882SWK/",
+      "/files/ENCFF171PTV/"
+    ],
+    "file_format": "bed",
+    "file_size": 142751,
+    "href": "/files/ENCFF587KKM/@@download/ENCFF587KKM.bed.gz",
+    "md5sum": "2fb3372de4b6163b19ae18298bb4980e",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1929f05d-adef-40fa-b663-e73e94307e8f/ENCFF587KKM.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/695.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF644EIR": {
+    "@id": "/files/ENCFF644EIR/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF644EIR",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR488JKQ/",
+    "derived_from": [
+      "/files/ENCFF840HCE/",
+      "/files/ENCFF511WWE/",
+      "/files/ENCFF146BNV/",
+      "/files/ENCFF444SAJ/",
+      "/files/ENCFF978BQG/",
+      "/files/ENCFF269URO/"
+    ],
+    "file_format": "bed",
+    "file_size": 1346,
+    "href": "/files/ENCFF644EIR/@@download/ENCFF644EIR.bed.gz",
+    "md5sum": "f2302b8ec8ef5f33e74ea3eaf63d30fc",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/5943953f-29ef-4d8a-b95c-4334b23736f7/ENCFF644EIR.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/621.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF612HOP": {
+    "@id": "/files/ENCFF612HOP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF612HOP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR322HHA/",
+    "derived_from": [
+      "/files/ENCFF563EHM/",
+      "/files/ENCFF302ROS/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF413UKK/",
+      "/files/ENCFF902OZA/",
+      "/files/ENCFF467UOO/"
+    ],
+    "file_format": "bed",
+    "file_size": 53192,
+    "href": "/files/ENCFF612HOP/@@download/ENCFF612HOP.bed.gz",
+    "md5sum": "af3aa5df326ffd258cec7648e6fc1460",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/74424fe3-6c3e-4ba5-96ae-cb4515b364b5/ENCFF612HOP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/753.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF611SOO": {
+    "@id": "/files/ENCFF611SOO/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF611SOO",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR993FMY/",
+    "derived_from": [
+      "/files/ENCFF401RUI/",
+      "/files/ENCFF894PGH/",
+      "/files/ENCFF124ZON/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF527CKN/",
+      "/files/ENCFF580PEL/"
+    ],
+    "file_format": "bed",
+    "file_size": 4314,
+    "href": "/files/ENCFF611SOO/@@download/ENCFF611SOO.bed.gz",
+    "md5sum": "73e0d5b33647ad45adc30cc57ef438a5",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/e0239951-6788-48ba-b2f8-cf24821fd9bb/ENCFF611SOO.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/503.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF039XQD": {
+    "@id": "/files/ENCFF039XQD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF039XQD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR240MVJ/",
+    "derived_from": [
+      "/files/ENCFF587PLY/",
+      "/files/ENCFF382XRS/",
+      "/files/ENCFF621JPQ/",
+      "/files/ENCFF027WDY/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF125EPG/"
+    ],
+    "file_format": "bed",
+    "file_size": 7395,
+    "href": "/files/ENCFF039XQD/@@download/ENCFF039XQD.bed.gz",
+    "md5sum": "dfe483e4b6ed073f039ee21edba67b09",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/48415121-df8b-46df-bb3a-8f75a4dea353/ENCFF039XQD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/281.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF011NAP": {
+    "@id": "/files/ENCFF011NAP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF011NAP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR830BSQ/",
+    "derived_from": [
+      "/files/ENCFF644DWW/",
+      "/files/ENCFF977BAJ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF399DJZ/",
+      "/files/ENCFF536HGU/",
+      "/files/ENCFF785FUO/"
+    ],
+    "file_format": "bed",
+    "file_size": 99084,
+    "href": "/files/ENCFF011NAP/@@download/ENCFF011NAP.bed.gz",
+    "md5sum": "72fabc79091e82e38d9cac49a60322f2",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/dd5b6556-5a90-493d-beaa-60ae01be3012/ENCFF011NAP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/497.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF121RVH": {
+    "@id": "/files/ENCFF121RVH/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF121RVH",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR351PVI/",
+    "derived_from": [
+      "/files/ENCFF596UYR/",
+      "/files/ENCFF957GRM/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF021KOR/",
+      "/files/ENCFF725FNJ/",
+      "/files/ENCFF201XIY/"
+    ],
+    "file_format": "bed",
+    "file_size": 27643,
+    "href": "/files/ENCFF121RVH/@@download/ENCFF121RVH.bed.gz",
+    "md5sum": "d4efc9e969b2797d59e07d5ad6c28561",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/32caf70a-8ced-42df-ba63-3c8591497075/ENCFF121RVH.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/227.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF054VLU": {
+    "@id": "/files/ENCFF054VLU/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF054VLU",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR754NDA/",
+    "derived_from": [
+      "/files/ENCFF562QVD/",
+      "/files/ENCFF807WFL/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF261SEG/",
+      "/files/ENCFF209PMC/",
+      "/files/ENCFF165VFF/"
+    ],
+    "file_format": "bed",
+    "file_size": 33244,
+    "href": "/files/ENCFF054VLU/@@download/ENCFF054VLU.bed.gz",
+    "md5sum": "8343a6c128a83be3b1472e3e54c3d4ee",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/64fd7541-8f4f-4319-bf58-72be79727270/ENCFF054VLU.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/552.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF048FDF": {
+    "@id": "/files/ENCFF048FDF/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF048FDF",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR647HOX/",
+    "derived_from": [
+      "/files/ENCFF252MTE/",
+      "/files/ENCFF293ZZT/",
+      "/files/ENCFF745DZH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF757PDP/",
+      "/files/ENCFF991OSY/"
+    ],
+    "file_format": "bed",
+    "file_size": 75321,
+    "href": "/files/ENCFF048FDF/@@download/ENCFF048FDF.bed.gz",
+    "md5sum": "f399b9e754778f392b4efcd450bcac70",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/549987b4-1dd7-427f-96c8-5ec008952e12/ENCFF048FDF.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/651.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF045HSV": {
+    "@id": "/files/ENCFF045HSV/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF045HSV",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR277DEO/",
+    "derived_from": [
+      "/files/ENCFF273RFL/",
+      "/files/ENCFF432EVC/",
+      "/files/ENCFF623DUI/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF144QQC/",
+      "/files/ENCFF391WTM/"
+    ],
+    "file_format": "bed",
+    "file_size": 85129,
+    "href": "/files/ENCFF045HSV/@@download/ENCFF045HSV.bed.gz",
+    "md5sum": "6c1574e04e724a43e0c13d1ee68a05b9",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/74bcbe60-d43e-424c-86c6-a8206bfd6500/ENCFF045HSV.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/546.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF071QDP": {
+    "@id": "/files/ENCFF071QDP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF071QDP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR786TSC/",
+    "derived_from": [
+      "/files/ENCFF702XFC/",
+      "/files/ENCFF160LFR/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF841BJF/",
+      "/files/ENCFF340GPD/",
+      "/files/ENCFF245KXT/"
+    ],
+    "file_format": "bed",
+    "file_size": 76573,
+    "href": "/files/ENCFF071QDP/@@download/ENCFF071QDP.bed.gz",
+    "md5sum": "63dbac40ccceb56f7cc1ec33778b4814",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1de41f05-7757-431d-bcd3-6147f1354549/ENCFF071QDP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/493.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF137YFD": {
+    "@id": "/files/ENCFF137YFD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF137YFD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR194HZU/",
+    "derived_from": [
+      "/files/ENCFF560WXZ/",
+      "/files/ENCFF852DRN/",
+      "/files/ENCFF329FPZ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF645PLG/",
+      "/files/ENCFF405PYI/"
+    ],
+    "file_format": "bed",
+    "file_size": 33882,
+    "href": "/files/ENCFF137YFD/@@download/ENCFF137YFD.bed.gz",
+    "md5sum": "8c61ea0375cec5a9f7b1df60fae27055",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/caa97ea9-9576-4187-ae06-89c733268207/ENCFF137YFD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/553.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF005GER": {
+    "@id": "/files/ENCFF005GER/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF005GER",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR970FEW/",
+    "derived_from": [
+      "/files/ENCFF013SWN/",
+      "/files/ENCFF618EON/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF662MYI/",
+      "/files/ENCFF563XEI/",
+      "/files/ENCFF340WIB/"
+    ],
+    "file_format": "bed",
+    "file_size": 3828,
+    "href": "/files/ENCFF005GER/@@download/ENCFF005GER.bed.gz",
+    "md5sum": "7eee68ae1e09d6740c38a66af957b55e",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1472dd36-6d5a-44c1-b264-51fb1c027d72/ENCFF005GER.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/642.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF134LIU": {
+    "@id": "/files/ENCFF134LIU/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF134LIU",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR485QCG/",
+    "derived_from": [
+      "/files/ENCFF081LVD/",
+      "/files/ENCFF296TYQ/",
+      "/files/ENCFF690EFW/",
+      "/files/ENCFF487PQZ/",
+      "/files/ENCFF377WFP/",
+      "/files/ENCFF269URO/"
+    ],
+    "file_format": "bed",
+    "file_size": 13146,
+    "href": "/files/ENCFF134LIU/@@download/ENCFF134LIU.bed.gz",
+    "md5sum": "c8b59bbbcb5c1f2fce8673bd2109edbd",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1188d077-2bc0-457f-9b21-34a4b7d6ed68/ENCFF134LIU.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/230.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF002HYO": {
+    "@id": "/files/ENCFF002HYO/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF002HYO",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR265ZIS/",
+    "derived_from": [
+      "/files/ENCFF400HJB/",
+      "/files/ENCFF252ZKZ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF157WNL/",
+      "/files/ENCFF830FZH/",
+      "/files/ENCFF962TBZ/"
+    ],
+    "file_format": "bed",
+    "file_size": 93856,
+    "href": "/files/ENCFF002HYO/@@download/ENCFF002HYO.bed.gz",
+    "md5sum": "916f73ad34f2d3d300a4bab3e8d98470",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/fbb1f0d7-a02a-469a-8f3b-cad1f3215728/ENCFF002HYO.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/384.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF056LEW": {
+    "@id": "/files/ENCFF056LEW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF056LEW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR328LLU/",
+    "derived_from": [
+      "/files/ENCFF769KHX/",
+      "/files/ENCFF076WAG/",
+      "/files/ENCFF545ZWD/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF755DUB/",
+      "/files/ENCFF059KEP/"
+    ],
+    "file_format": "bed",
+    "file_size": 25706,
+    "href": "/files/ENCFF056LEW/@@download/ENCFF056LEW.bed.gz",
+    "md5sum": "86b3605b8e2b8614ed1020c25ee3c5e6",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1a16f10b-82c1-4804-a7f7-3259edb3000b/ENCFF056LEW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/282.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF027MEO": {
+    "@id": "/files/ENCFF027MEO/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF027MEO",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR815VVI/",
+    "derived_from": [
+      "/files/ENCFF127GEV/",
+      "/files/ENCFF684OXK/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF416LFA/",
+      "/files/ENCFF770GEL/",
+      "/files/ENCFF134NUB/"
+    ],
+    "file_format": "bed",
+    "file_size": 25096,
+    "href": "/files/ENCFF027MEO/@@download/ENCFF027MEO.bed.gz",
+    "md5sum": "65e0920ce7962b179f6aabc0a36b7bd9",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/68d5808a-c24f-41b5-8677-3556f59be0c8/ENCFF027MEO.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/556.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF033MGP": {
+    "@id": "/files/ENCFF033MGP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF033MGP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR361OCV/",
+    "derived_from": [
+      "/files/ENCFF204THM/",
+      "/files/ENCFF501GXB/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF216MCK/",
+      "/files/ENCFF169ABN/",
+      "/files/ENCFF637GMD/"
+    ],
+    "file_format": "bed",
+    "file_size": 7542,
+    "href": "/files/ENCFF033MGP/@@download/ENCFF033MGP.bed.gz",
+    "md5sum": "3067e5ef99963778192352f78c35cf69",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/fb3fa909-839b-408f-b7d0-ef91e793a35c/ENCFF033MGP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/703.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF139NXB": {
+    "@id": "/files/ENCFF139NXB/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF139NXB",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR965DLL/",
+    "derived_from": [
+      "/files/ENCFF056KWN/",
+      "/files/ENCFF417EZT/",
+      "/files/ENCFF960OTE/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF949MMS/",
+      "/files/ENCFF857OFG/"
+    ],
+    "file_format": "bed",
+    "file_size": 51600,
+    "href": "/files/ENCFF139NXB/@@download/ENCFF139NXB.bed.gz",
+    "md5sum": "08024ad8f7d67c441e4f67af1ac20a41",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/d1972068-5829-4335-a8ec-385c663315c5/ENCFF139NXB.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/437.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF056UAW": {
+    "@id": "/files/ENCFF056UAW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF056UAW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR041NUV/",
+    "derived_from": [
+      "/files/ENCFF286YIR/",
+      "/files/ENCFF222TZU/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF678TXO/",
+      "/files/ENCFF576OQO/",
+      "/files/ENCFF891XHE/"
+    ],
+    "file_format": "bed",
+    "file_size": 17399,
+    "href": "/files/ENCFF056UAW/@@download/ENCFF056UAW.bed.gz",
+    "md5sum": "9f2615bfacacb93f23ad8bcfa362d746",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/2a754c21-c952-44b9-ba15-c75b823fec15/ENCFF056UAW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/625.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF073IJF": {
+    "@id": "/files/ENCFF073IJF/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF073IJF",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR279UJF/",
+    "derived_from": [
+      "/files/ENCFF744CKU/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF232FWK/",
+      "/files/ENCFF072CLZ/",
+      "/files/ENCFF483VLR/",
+      "/files/ENCFF040BYE/"
+    ],
+    "file_format": "bed",
+    "file_size": 129503,
+    "href": "/files/ENCFF073IJF/@@download/ENCFF073IJF.bed.gz",
+    "md5sum": "171d85896de7a0b87dbcfb1566941af1",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b81f74fd-f4c2-4884-8f2e-a768f3d7ab79/ENCFF073IJF.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/228.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF112MVG": {
+    "@id": "/files/ENCFF112MVG/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF112MVG",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR973HOJ/",
+    "derived_from": [
+      "/files/ENCFF638WRZ/",
+      "/files/ENCFF500VOG/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF985TJF/",
+      "/files/ENCFF157JBC/",
+      "/files/ENCFF702QGF/"
+    ],
+    "file_format": "bed",
+    "file_size": 86089,
+    "href": "/files/ENCFF112MVG/@@download/ENCFF112MVG.bed.gz",
+    "md5sum": "6d026845542dd30b5366fc5f454a99ab",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/88081bb6-0830-4e99-b711-98004df04845/ENCFF112MVG.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/713.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF048YPA": {
+    "@id": "/files/ENCFF048YPA/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF048YPA",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR121NVA/",
+    "derived_from": [
+      "/files/ENCFF923IAU/",
+      "/files/ENCFF818CAZ/",
+      "/files/ENCFF672HFP/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF098XUM/",
+      "/files/ENCFF205BLM/"
+    ],
+    "file_format": "bed",
+    "file_size": 466157,
+    "href": "/files/ENCFF048YPA/@@download/ENCFF048YPA.bed.gz",
+    "md5sum": "09221539912060bf1da1e191724e8d84",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/936f97a6-de7e-4825-a1b3-9f05e8514315/ENCFF048YPA.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/291.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF098REE": {
+    "@id": "/files/ENCFF098REE/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF098REE",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR256CHX/",
+    "derived_from": [
+      "/files/ENCFF138HUE/",
+      "/files/ENCFF759UTZ/",
+      "/files/ENCFF914VUW/",
+      "/files/ENCFF502OYV/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF933ESS/"
+    ],
+    "file_format": "bed",
+    "file_size": 22087,
+    "href": "/files/ENCFF098REE/@@download/ENCFF098REE.bed.gz",
+    "md5sum": "e6e70bb8dc099db3346fda6a9a92ca66",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/bd9a2be8-6ad6-4be0-b21b-73a489f46f74/ENCFF098REE.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/692.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF752JNY": {
+    "@id": "/files/ENCFF752JNY/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF752JNY",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR267UCX/",
+    "derived_from": [
+      "/files/ENCFF501TRY/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF950RRY/",
+      "/files/ENCFF633FLY/",
+      "/files/ENCFF355NYZ/",
+      "/files/ENCFF175VJO/"
+    ],
+    "file_format": "bed",
+    "file_size": 278603,
+    "href": "/files/ENCFF752JNY/@@download/ENCFF752JNY.bed.gz",
+    "md5sum": "79e34550b612d13ff844ccabc16323a6",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/07b8e1bb-3d1f-48e7-9a65-7c43f87b3ff4/ENCFF752JNY.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/222.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF766OCH": {
+    "@id": "/files/ENCFF766OCH/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF766OCH",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR314UMJ/",
+    "derived_from": [
+      "/files/ENCFF372BZV/",
+      "/files/ENCFF966KQG/",
+      "/files/ENCFF105GZJ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF867ISO/",
+      "/files/ENCFF745EHU/"
+    ],
+    "file_format": "bed",
+    "file_size": 21519,
+    "href": "/files/ENCFF766OCH/@@download/ENCFF766OCH.bed.gz",
+    "md5sum": "20e996c2031f20d9332ecab935988f95",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1a4b30d0-e088-4cee-bf68-cf20878b6a58/ENCFF766OCH.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/218.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF765PIF": {
+    "@id": "/files/ENCFF765PIF/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF765PIF",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR773KRC/",
+    "derived_from": [
+      "/files/ENCFF432ASF/",
+      "/files/ENCFF327JJE/",
+      "/files/ENCFF060BMG/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF651VGM/",
+      "/files/ENCFF460TAE/"
+    ],
+    "file_format": "bed",
+    "file_size": 15314,
+    "href": "/files/ENCFF765PIF/@@download/ENCFF765PIF.bed.gz",
+    "md5sum": "5c8dcc5828518a1569195aa72b6def23",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/92802dbd-bd1f-406b-ade5-6fcb86713cfa/ENCFF765PIF.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/216.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF687EQE": {
+    "@id": "/files/ENCFF687EQE/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF687EQE",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR539BEV/",
+    "derived_from": [
+      "/files/ENCFF763ZLD/",
+      "/files/ENCFF699EEF/",
+      "/files/ENCFF974NJE/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF811KHK/",
+      "/files/ENCFF368XBY/"
+    ],
+    "file_format": "bed",
+    "file_size": 231137,
+    "href": "/files/ENCFF687EQE/@@download/ENCFF687EQE.bed.gz",
+    "md5sum": "61887c94a6f6811261b3b9e5f77a9a2c",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/6fe026c3-5893-4a45-84f9-ec4914a4b379/ENCFF687EQE.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/726.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF777NMK": {
+    "@id": "/files/ENCFF777NMK/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF777NMK",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR648LAH/",
+    "derived_from": [
+      "/files/ENCFF402KOO/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF957SIF/",
+      "/files/ENCFF871UZO/",
+      "/files/ENCFF635SWD/",
+      "/files/ENCFF887TNO/"
+    ],
+    "file_format": "bed",
+    "file_size": 204034,
+    "href": "/files/ENCFF777NMK/@@download/ENCFF777NMK.bed.gz",
+    "md5sum": "13c69c357e10e7c719c281487e9e2d56",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/61a16d63-8685-4fd6-b07d-0288d58f9c5c/ENCFF777NMK.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/492.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF678FCX": {
+    "@id": "/files/ENCFF678FCX/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF678FCX",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR979EWD/",
+    "derived_from": [
+      "/files/ENCFF202ITE/",
+      "/files/ENCFF446NFS/",
+      "/files/ENCFF559ATC/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF118WBK/",
+      "/files/ENCFF992ALD/"
+    ],
+    "file_format": "bed",
+    "file_size": 18986,
+    "href": "/files/ENCFF678FCX/@@download/ENCFF678FCX.bed.gz",
+    "md5sum": "76424f47189e613a0535d0d3c963eb2a",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/fad1a3d1-2625-4df4-ac07-ec99e9b54d6b/ENCFF678FCX.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/593.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF797QRS": {
+    "@id": "/files/ENCFF797QRS/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF797QRS",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR845VGB/",
+    "derived_from": [
+      "/files/ENCFF163CUI/",
+      "/files/ENCFF525BGY/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF714YUM/",
+      "/files/ENCFF145NQB/",
+      "/files/ENCFF452KYY/"
+    ],
+    "file_format": "bed",
+    "file_size": 41662,
+    "href": "/files/ENCFF797QRS/@@download/ENCFF797QRS.bed.gz",
+    "md5sum": "5f710e650a76d18b1924e97b62d4cfbc",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c6458fee-af94-4b3c-a0f7-8bcee6c9364d/ENCFF797QRS.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/595.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF813JIK": {
+    "@id": "/files/ENCFF813JIK/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF813JIK",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR916XIV/",
+    "derived_from": [
+      "/files/ENCFF815GWX/",
+      "/files/ENCFF556DEY/",
+      "/files/ENCFF810ZZO/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF204HYV/",
+      "/files/ENCFF623SYZ/"
+    ],
+    "file_format": "bed",
+    "file_size": 64220,
+    "href": "/files/ENCFF813JIK/@@download/ENCFF813JIK.bed.gz",
+    "md5sum": "215be95dfc9b5558883ba5c91b6b46b0",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/eb8e507f-2000-4a0f-8e3f-8be76ca81300/ENCFF813JIK.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/545.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF726SQU": {
+    "@id": "/files/ENCFF726SQU/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF726SQU",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR384KAN/",
+    "derived_from": [
+      "/files/ENCFF130PWU/",
+      "/files/ENCFF295MQP/",
+      "/files/ENCFF386UIG/",
+      "/files/ENCFF100OEX/",
+      "/files/ENCFF895BNM/",
+      "/files/ENCFF269URO/"
+    ],
+    "file_format": "bed",
+    "file_size": 183649,
+    "href": "/files/ENCFF726SQU/@@download/ENCFF726SQU.bed.gz",
+    "md5sum": "2591880b31f402fdbfda189cba6ce47d",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/a4ecc677-72d3-4217-bd31-6b47d135b285/ENCFF726SQU.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/696.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF721PWF": {
+    "@id": "/files/ENCFF721PWF/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF721PWF",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR202BFN/",
+    "derived_from": [
+      "/files/ENCFF033XVX/",
+      "/files/ENCFF243RQR/",
+      "/files/ENCFF358STL/",
+      "/files/ENCFF067JAD/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF825YLL/"
+    ],
+    "file_format": "bed",
+    "file_size": 230034,
+    "href": "/files/ENCFF721PWF/@@download/ENCFF721PWF.bed.gz",
+    "md5sum": "f0bd2d61ed030517945b6f7f080f88c4",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/0151fa4f-f1a4-480e-bd92-f6f75c09cc42/ENCFF721PWF.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/272.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF749IUB": {
+    "@id": "/files/ENCFF749IUB/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF749IUB",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR356ZMO/",
+    "derived_from": [
+      "/files/ENCFF162VKU/",
+      "/files/ENCFF233BIC/",
+      "/files/ENCFF780HTF/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF739ERP/",
+      "/files/ENCFF127MXD/"
+    ],
+    "file_format": "bed",
+    "file_size": 140962,
+    "href": "/files/ENCFF749IUB/@@download/ENCFF749IUB.bed.gz",
+    "md5sum": "73726a6265d6cf49b0536d48e87172e4",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/0686a653-4140-4ac3-8db8-58441592d15b/ENCFF749IUB.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/708.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF797GSK": {
+    "@id": "/files/ENCFF797GSK/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF797GSK",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR769UEW/",
+    "derived_from": [
+      "/files/ENCFF536WIF/",
+      "/files/ENCFF722RBO/",
+      "/files/ENCFF690NVV/",
+      "/files/ENCFF599CUU/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF330OFU/"
+    ],
+    "file_format": "bed",
+    "file_size": 2565,
+    "href": "/files/ENCFF797GSK/@@download/ENCFF797GSK.bed.gz",
+    "md5sum": "d133da6c740d336600751e92a2a0eebb",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b27b0cf2-ac3c-40bd-a72f-b3c81bc1659d/ENCFF797GSK.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/283.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF810EUA": {
+    "@id": "/files/ENCFF810EUA/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF810EUA",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR876EYA/",
+    "derived_from": [
+      "/files/ENCFF510PFS/",
+      "/files/ENCFF894HGK/",
+      "/files/ENCFF673LOJ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF797YXM/",
+      "/files/ENCFF936QEL/"
+    ],
+    "file_format": "bed",
+    "file_size": 745489,
+    "href": "/files/ENCFF810EUA/@@download/ENCFF810EUA.bed.gz",
+    "md5sum": "59c6e590149944d0209da7077203f15d",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/cf23d97e-9437-4f7a-8a16-7078df8ea6ad/ENCFF810EUA.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/643.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF796RMF": {
+    "@id": "/files/ENCFF796RMF/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF796RMF",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR527DXF/",
+    "derived_from": [
+      "/files/ENCFF499JDZ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF128MQR/",
+      "/files/ENCFF061QCD/",
+      "/files/ENCFF723JLV/",
+      "/files/ENCFF714YXE/"
+    ],
+    "file_format": "bed",
+    "file_size": 173686,
+    "href": "/files/ENCFF796RMF/@@download/ENCFF796RMF.bed.gz",
+    "md5sum": "668e69b68ac071f08cb66335ebf6a344",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c3363c45-01ad-4987-a537-d6a40e12d92d/ENCFF796RMF.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/631.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF759KCD": {
+    "@id": "/files/ENCFF759KCD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF759KCD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR623VEQ/",
+    "derived_from": [
+      "/files/ENCFF856EHA/",
+      "/files/ENCFF269QNL/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF378HWC/",
+      "/files/ENCFF681JJG/",
+      "/files/ENCFF258DPQ/"
+    ],
+    "file_format": "bed",
+    "file_size": 41378,
+    "href": "/files/ENCFF759KCD/@@download/ENCFF759KCD.bed.gz",
+    "md5sum": "af8bfd99edd2b45000ab2a6113156c73",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/a441c6c1-db71-462b-9a88-4ee5caed4ee1/ENCFF759KCD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/215.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF704OCI": {
+    "@id": "/files/ENCFF704OCI/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF704OCI",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR570WLM/",
+    "derived_from": [
+      "/files/ENCFF862YVK/",
+      "/files/ENCFF551IJQ/",
+      "/files/ENCFF815XNW/",
+      "/files/ENCFF015GLL/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF567ADV/"
+    ],
+    "file_format": "bed",
+    "file_size": 219021,
+    "href": "/files/ENCFF704OCI/@@download/ENCFF704OCI.bed.gz",
+    "md5sum": "a296630af5b4bfa095cb480088f16448",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/20e0970d-44f8-486b-9ba4-0bfad22d23c9/ENCFF704OCI.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/478.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF709FEU": {
+    "@id": "/files/ENCFF709FEU/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF709FEU",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR820UYE/",
+    "derived_from": [
+      "/files/ENCFF974AOE/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF554TBF/",
+      "/files/ENCFF145LAD/",
+      "/files/ENCFF715LJJ/",
+      "/files/ENCFF890DJI/"
+    ],
+    "file_format": "bed",
+    "file_size": 89887,
+    "href": "/files/ENCFF709FEU/@@download/ENCFF709FEU.bed.gz",
+    "md5sum": "12c82438c446ccef4adccd4e436cd766",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/031cb4b9-f3d8-43e2-93e9-b06a3aab86a6/ENCFF709FEU.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/750.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF771QAU": {
+    "@id": "/files/ENCFF771QAU/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF771QAU",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR366DGX/",
+    "derived_from": [
+      "/files/ENCFF269URO/",
+      "/files/ENCFF696LDT/",
+      "/files/ENCFF701PJM/",
+      "/files/ENCFF988MWD/",
+      "/files/ENCFF961WNO/",
+      "/files/ENCFF611AHG/"
+    ],
+    "file_format": "bed",
+    "file_size": 108513,
+    "href": "/files/ENCFF771QAU/@@download/ENCFF771QAU.bed.gz",
+    "md5sum": "674273b80c9ca23fcfa2871e14ddd978",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/bd37f01c-2ab5-4e31-a2d8-d40263383465/ENCFF771QAU.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/755.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF736RYV": {
+    "@id": "/files/ENCFF736RYV/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF736RYV",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR373ODC/",
+    "derived_from": [
+      "/files/ENCFF356SSO/",
+      "/files/ENCFF110YDG/",
+      "/files/ENCFF263MRM/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF588UIR/",
+      "/files/ENCFF125BMO/"
+    ],
+    "file_format": "bed",
+    "file_size": 7957,
+    "href": "/files/ENCFF736RYV/@@download/ENCFF736RYV.bed.gz",
+    "md5sum": "cf597c1b8e9d8014acdaccd18885a92e",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/7187cf0e-c064-4f4e-9501-f164a5ad277f/ENCFF736RYV.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/344.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF692RZM": {
+    "@id": "/files/ENCFF692RZM/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF692RZM",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR018RVZ/",
+    "derived_from": [
+      "/files/ENCFF355UYF/",
+      "/files/ENCFF838MYV/",
+      "/files/ENCFF138FXS/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF025VQL/",
+      "/files/ENCFF933CZY/"
+    ],
+    "file_format": "bed",
+    "file_size": 72197,
+    "href": "/files/ENCFF692RZM/@@download/ENCFF692RZM.bed.gz",
+    "md5sum": "b85516204db28c8152da3e3ea2870dc6",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/dd2347ae-6dad-4f50-9180-724ea4f55a64/ENCFF692RZM.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/477.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF993VRZ": {
+    "@id": "/files/ENCFF993VRZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF993VRZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR571ROL/",
+    "derived_from": [
+      "/files/ENCFF356JSO/",
+      "/files/ENCFF862XEI/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF438ULK/",
+      "/files/ENCFF594ZPR/",
+      "/files/ENCFF474WKB/"
+    ],
+    "file_format": "bed",
+    "file_size": 2821,
+    "href": "/files/ENCFF993VRZ/@@download/ENCFF993VRZ.bed.gz",
+    "md5sum": "c96f1ae47612d04ab2fd51b87c46c95e",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/646f1dc6-48be-423d-a334-6d7133a1e7fc/ENCFF993VRZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/311.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF999ZAW": {
+    "@id": "/files/ENCFF999ZAW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF999ZAW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR580MFX/",
+    "derived_from": [
+      "/files/ENCFF369GNR/",
+      "/files/ENCFF186QJV/",
+      "/files/ENCFF941QMM/",
+      "/files/ENCFF853HTH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF579FWN/"
+    ],
+    "file_format": "bed",
+    "file_size": 6273,
+    "href": "/files/ENCFF999ZAW/@@download/ENCFF999ZAW.bed.gz",
+    "md5sum": "73e10dfb07648b1205befe4d785894af",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/b7a58199-985e-474c-b2f4-b2a80ed9959d/ENCFF999ZAW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/650.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF992LCW": {
+    "@id": "/files/ENCFF992LCW/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF992LCW",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR543TPH/",
+    "derived_from": [
+      "/files/ENCFF302BJD/",
+      "/files/ENCFF673EQX/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF070DMZ/",
+      "/files/ENCFF936QKU/",
+      "/files/ENCFF249CVU/"
+    ],
+    "file_format": "bed",
+    "file_size": 92533,
+    "href": "/files/ENCFF992LCW/@@download/ENCFF992LCW.bed.gz",
+    "md5sum": "bceb99726552673f427c2189f85d839d",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/ad3e88d3-dc00-4acc-90fd-3f5ffa641c00/ENCFF992LCW.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/543.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF914WFQ": {
+    "@id": "/files/ENCFF914WFQ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF914WFQ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR820DQJ/",
+    "derived_from": [
+      "/files/ENCFF506LVL/",
+      "/files/ENCFF087FYK/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF722JFH/",
+      "/files/ENCFF026OKT/",
+      "/files/ENCFF134IIH/"
+    ],
+    "file_format": "bed",
+    "file_size": 7191,
+    "href": "/files/ENCFF914WFQ/@@download/ENCFF914WFQ.bed.gz",
+    "md5sum": "af063dedfcc28f93dd06626ec083e4a7",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/f86480c1-6e14-4dc7-9b16-7414d7a910b1/ENCFF914WFQ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/539.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF957AOZ": {
+    "@id": "/files/ENCFF957AOZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF957AOZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR018ZUE/",
+    "derived_from": [
+      "/files/ENCFF141QHH/",
+      "/files/ENCFF802VWZ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF949BFD/",
+      "/files/ENCFF903KIZ/",
+      "/files/ENCFF814MSM/"
+    ],
+    "file_format": "bed",
+    "file_size": 29362,
+    "href": "/files/ENCFF957AOZ/@@download/ENCFF957AOZ.bed.gz",
+    "md5sum": "0e50300b25bd88fc97f4ef18f76e0f8a",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/85edf313-a280-465a-b910-b6cc9e4daee0/ENCFF957AOZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/223.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF855CPQ": {
+    "@id": "/files/ENCFF855CPQ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF855CPQ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR828ZID/",
+    "derived_from": [
+      "/files/ENCFF198ISB/",
+      "/files/ENCFF553XCL/",
+      "/files/ENCFF754XAQ/",
+      "/files/ENCFF019JFZ/",
+      "/files/ENCFF288MWL/",
+      "/files/ENCFF269URO/"
+    ],
+    "file_format": "bed",
+    "file_size": 123250,
+    "href": "/files/ENCFF855CPQ/@@download/ENCFF855CPQ.bed.gz",
+    "md5sum": "535678bb78cfe5f3c4d2dbf3d1454057",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/847edc23-c101-4130-9e0b-b5de65484e38/ENCFF855CPQ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/206.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF972DFZ": {
+    "@id": "/files/ENCFF972DFZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF972DFZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR464OSH/",
+    "derived_from": [
+      "/files/ENCFF269URO/",
+      "/files/ENCFF177YJA/",
+      "/files/ENCFF117HXE/",
+      "/files/ENCFF685MZA/",
+      "/files/ENCFF181DXK/",
+      "/files/ENCFF951IBI/"
+    ],
+    "file_format": "bed",
+    "file_size": 18840,
+    "href": "/files/ENCFF972DFZ/@@download/ENCFF972DFZ.bed.gz",
+    "md5sum": "b7d32d6428ae1d9496a31b34825f677b",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/1d5aca82-f557-4e1e-a46b-741d1cf143b7/ENCFF972DFZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/694.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF848JWA": {
+    "@id": "/files/ENCFF848JWA/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF848JWA",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR352STY/",
+    "derived_from": [
+      "/files/ENCFF264DBW/",
+      "/files/ENCFF097KHT/",
+      "/files/ENCFF697NZQ/",
+      "/files/ENCFF417RUN/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF343FAD/"
+    ],
+    "file_format": "bed",
+    "file_size": 2402,
+    "href": "/files/ENCFF848JWA/@@download/ENCFF848JWA.bed.gz",
+    "md5sum": "8d7b78ab980f1e1b9c32f248bfd9100f",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/6351d640-9a64-4210-bd60-df9c88384e0e/ENCFF848JWA.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/730.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF825UVD": {
+    "@id": "/files/ENCFF825UVD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF825UVD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR050BDZ/",
+    "derived_from": [
+      "/files/ENCFF079MBG/",
+      "/files/ENCFF789KFH/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF346NQQ/",
+      "/files/ENCFF336IRY/",
+      "/files/ENCFF831VQE/"
+    ],
+    "file_format": "bed",
+    "file_size": 23440,
+    "href": "/files/ENCFF825UVD/@@download/ENCFF825UVD.bed.gz",
+    "md5sum": "c2e27a578e55398078419126b14a76b0",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/44e5dda4-4ec6-4e7d-a53a-cf66373c9472/ENCFF825UVD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/744.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF934ANS": {
+    "@id": "/files/ENCFF934ANS/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF934ANS",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR989VIY/",
+    "derived_from": [
+      "/files/ENCFF467FPH/",
+      "/files/ENCFF214HOA/",
+      "/files/ENCFF418ZXO/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF508DKJ/",
+      "/files/ENCFF867TIG/"
+    ],
+    "file_format": "bed",
+    "file_size": 41449,
+    "href": "/files/ENCFF934ANS/@@download/ENCFF934ANS.bed.gz",
+    "md5sum": "f794254a3ed28bd32f943fe319837ef5",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/42232978-1225-4bec-9376-e8fe57c0f2e0/ENCFF934ANS.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/301.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF869RUC": {
+    "@id": "/files/ENCFF869RUC/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF869RUC",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR916SRV/",
+    "derived_from": [
+      "/files/ENCFF269URO/",
+      "/files/ENCFF736HGJ/",
+      "/files/ENCFF189PHS/",
+      "/files/ENCFF061HNX/",
+      "/files/ENCFF348TAB/",
+      "/files/ENCFF949QUQ/"
+    ],
+    "file_format": "bed",
+    "file_size": 2463,
+    "href": "/files/ENCFF869RUC/@@download/ENCFF869RUC.bed.gz",
+    "md5sum": "858405a1b8078c50418062e54cf9ccaf",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/69313ee0-b985-447d-9871-1513fe9119f9/ENCFF869RUC.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/617.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF854BHP": {
+    "@id": "/files/ENCFF854BHP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF854BHP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR834YLD/",
+    "derived_from": [
+      "/files/ENCFF110MMH/",
+      "/files/ENCFF797RXZ/",
+      "/files/ENCFF967UUI/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF413DZP/",
+      "/files/ENCFF401NJF/"
+    ],
+    "file_format": "bed",
+    "file_size": 53963,
+    "href": "/files/ENCFF854BHP/@@download/ENCFF854BHP.bed.gz",
+    "md5sum": "9c247ac914abbf2c64dbb5bd3b100f14",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/fe81e9cc-5012-4dfa-97c6-4d7cd02862fd/ENCFF854BHP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/575.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF862EKD": {
+    "@id": "/files/ENCFF862EKD/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF862EKD",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR693JWP/",
+    "derived_from": [
+      "/files/ENCFF216VBT/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF608WNY/",
+      "/files/ENCFF405ERW/",
+      "/files/ENCFF094VSP/",
+      "/files/ENCFF824WZJ/"
+    ],
+    "file_format": "bed",
+    "file_size": 16641,
+    "href": "/files/ENCFF862EKD/@@download/ENCFF862EKD.bed.gz",
+    "md5sum": "2209feff42c033be51a8c2d38564d692",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/13018ac4-b9da-409b-a65e-4226284ba342/ENCFF862EKD.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/722reseq2.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF950VZO": {
+    "@id": "/files/ENCFF950VZO/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF950VZO",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR331MIC/",
+    "derived_from": [
+      "/files/ENCFF654YLH/",
+      "/files/ENCFF515JTZ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF410PJY/",
+      "/files/ENCFF807GZY/",
+      "/files/ENCFF037LUF/"
+    ],
+    "file_format": "bed",
+    "file_size": 55273,
+    "href": "/files/ENCFF950VZO/@@download/ENCFF950VZO.bed.gz",
+    "md5sum": "0177cf9c335c967077207b0650b1254b",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/078f2ae2-7986-4dab-a2a1-e7789c632238/ENCFF950VZO.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/393.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF927KRA": {
+    "@id": "/files/ENCFF927KRA/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF927KRA",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR489ABS/",
+    "derived_from": [
+      "/files/ENCFF545KJU/",
+      "/files/ENCFF723UHT/",
+      "/files/ENCFF998ACW/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF176RGG/",
+      "/files/ENCFF646LJL/"
+    ],
+    "file_format": "bed",
+    "file_size": 14132,
+    "href": "/files/ENCFF927KRA/@@download/ENCFF927KRA.bed.gz",
+    "md5sum": "7734332912b7abe0b672fac89bb4d0c8",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/18f01742-7734-4e68-a055-6e259f9e760c/ENCFF927KRA.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/501.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF899HHP": {
+    "@id": "/files/ENCFF899HHP/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF899HHP",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR721HPX/",
+    "derived_from": [
+      "/files/ENCFF395MJO/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF288LEG/",
+      "/files/ENCFF506GKX/",
+      "/files/ENCFF700YZD/",
+      "/files/ENCFF205KCK/"
+    ],
+    "file_format": "bed",
+    "file_size": 147031,
+    "href": "/files/ENCFF899HHP/@@download/ENCFF899HHP.bed.gz",
+    "md5sum": "7eaa706aca612844c3f95f2c5033267d",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/7b4ea285-c6ad-4cc3-adbc-9d91c68c4f2e/ENCFF899HHP.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/712.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF886SDQ": {
+    "@id": "/files/ENCFF886SDQ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF886SDQ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR993OLA/",
+    "derived_from": [
+      "/files/ENCFF076GHL/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF015NHN/",
+      "/files/ENCFF998WZW/",
+      "/files/ENCFF655LHZ/",
+      "/files/ENCFF270FPU/"
+    ],
+    "file_format": "bed",
+    "file_size": 54850,
+    "href": "/files/ENCFF886SDQ/@@download/ENCFF886SDQ.bed.gz",
+    "md5sum": "44d6b94bc7852d04a494baa83b0c59fb",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/8e26cbf9-e454-4d86-861d-e985593b396d/ENCFF886SDQ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/211.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF945NFS": {
+    "@id": "/files/ENCFF945NFS/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF945NFS",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR085JPB/",
+    "derived_from": [
+      "/files/ENCFF732NGW/",
+      "/files/ENCFF060BRD/",
+      "/files/ENCFF966QXZ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF014YMA/",
+      "/files/ENCFF847AOM/"
+    ],
+    "file_format": "bed",
+    "file_size": 4831,
+    "href": "/files/ENCFF945NFS/@@download/ENCFF945NFS.bed.gz",
+    "md5sum": "6376b40f17ce116515b230997fa590b3",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/6613215c-8190-491c-af4f-26c79c4f2cbd/ENCFF945NFS.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/602.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF985ECA": {
+    "@id": "/files/ENCFF985ECA/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF985ECA",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR135VMS/",
+    "derived_from": [
+      "/files/ENCFF825AVT/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF581BHC/",
+      "/files/ENCFF156KLS/",
+      "/files/ENCFF055MTP/",
+      "/files/ENCFF252SPM/"
+    ],
+    "file_format": "bed",
+    "file_size": 56931,
+    "href": "/files/ENCFF985ECA/@@download/ENCFF985ECA.bed.gz",
+    "md5sum": "c945f98be3a75847b7860250321ccda0",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/d282c2f6-735a-4fad-8813-799aa64392b1/ENCFF985ECA.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/592.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF986XOC": {
+    "@id": "/files/ENCFF986XOC/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF986XOC",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR097NEE/",
+    "derived_from": [
+      "/files/ENCFF555MNK/",
+      "/files/ENCFF228NIC/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF756NJB/",
+      "/files/ENCFF953KUR/",
+      "/files/ENCFF065ZXM/"
+    ],
+    "file_format": "bed",
+    "file_size": 522975,
+    "href": "/files/ENCFF986XOC/@@download/ENCFF986XOC.bed.gz",
+    "md5sum": "86dbf60abf187f7cbdbf2d4589c646a7",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/468d054a-92ba-42d9-b4bc-0260b9df41af/ENCFF986XOC.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/495.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF929AWR": {
+    "@id": "/files/ENCFF929AWR/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF929AWR",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR668MJX/",
+    "derived_from": [
+      "/files/ENCFF219KHR/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF059PZS/",
+      "/files/ENCFF338LOF/",
+      "/files/ENCFF229LHL/",
+      "/files/ENCFF236THW/"
+    ],
+    "file_format": "bed",
+    "file_size": 25391,
+    "href": "/files/ENCFF929AWR/@@download/ENCFF929AWR.bed.gz",
+    "md5sum": "12a85f53eb99457f73a9a945c5f63619",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/f34431c5-4492-413b-89c9-136e878c76d2/ENCFF929AWR.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/596.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF899AWZ": {
+    "@id": "/files/ENCFF899AWZ/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF899AWZ",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR214BZA/",
+    "derived_from": [
+      "/files/ENCFF362KWY/",
+      "/files/ENCFF991VJI/",
+      "/files/ENCFF390FNJ/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF538KWA/",
+      "/files/ENCFF213PRP/"
+    ],
+    "file_format": "bed",
+    "file_size": 70103,
+    "href": "/files/ENCFF899AWZ/@@download/ENCFF899AWZ.bed.gz",
+    "md5sum": "a13e6655c5b5be770f1ecc5010a146f9",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/44724ea1-1524-463b-abe7-aba3f3ff9bdf/ENCFF899AWZ.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/603.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  },
+  "ENCFF871NYM": {
+    "@id": "/files/ENCFF871NYM/",
+    "@type": [
+      "File",
+      "Item"
+    ],
+    "accession": "ENCFF871NYM",
+    "assembly": "GRCh38",
+    "biological_replicates": [
+      1,
+      2
+    ],
+    "dataset": "/experiments/ENCSR987FTF/",
+    "derived_from": [
+      "/files/ENCFF515BTB/",
+      "/files/ENCFF170YQV/",
+      "/files/ENCFF082QGS/",
+      "/files/ENCFF390PJW/",
+      "/files/ENCFF269URO/",
+      "/files/ENCFF239CML/"
+    ],
+    "file_format": "bed",
+    "file_size": 172924,
+    "href": "/files/ENCFF871NYM/@@download/ENCFF871NYM.bed.gz",
+    "md5sum": "179774c911e8fa42f7ead3d1a2f74324",
+    "output_type": "peaks",
+    "s3_uri": "s3://encode-public/2018/12/03/c97db3d0-ecfb-411a-87f2-ecc9507f8e29/ENCFF871NYM.bed.gz",
+    "status": "released",
+    "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180528_finalPeaks/GRCh38/ENCODE_hg38_peaks/204.01v02.IDR.out.0102merged.bed.blacklist_removed.bed.narrowPeak.encode.bed.gz"
+  }
+}

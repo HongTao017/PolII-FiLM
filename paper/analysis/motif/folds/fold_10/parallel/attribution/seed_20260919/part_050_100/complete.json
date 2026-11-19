@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "stage": "attribution",
+  "seed": 20260919,
+  "gpu": 5,
+  "start": 50,
+  "stop": 100,
+  "checkpoint": {
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919",
+    "checkpoint_sha256": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6",
+    "preprocessing_sha256": "99dd0ad2cf7b4c817b4b67f375d83339da747c93af38cab80364ddde1a74bc02",
+    "fingerprint": "c5e78543a009fa8614c5bce12fd5d279630e3e503f08fb8b03082350836d7089"
+  },
+  "device_compatibility": {
+    "gpu": 5,
+    "seed": 20260919,
+    "gene": "ZGLP1",
+    "comparison": "20-reference mean scientific attribution; original atol=2e-5, rtol=.002",
+    "max_attribution_difference": 1.7811544239521027e-07,
+    "first_reference_max_difference": 2.2910535335540771e-07,
+    "first_reference_allclose": true,
+    "first_reference_mismatched_elements": 0,
+    "delta_difference": 3.814697265625e-06,
+    "cpu_completeness_error": 2.0042061805725098e-06,
+    "status": "PASS"
+  },
+  "selected_genes_sha256": "630386956fb904ab9f3212f0903e482fc4944c46e1bc45f7045fbcba4e28bac4",
+  "outputs_sha256": {
+    "parallel/attribution/seed_20260919/part_050_100/hypothetical.npy": "f5eb5850a617eecb29819db4615b603f5117e5d08be19e1c4a0d2b4808770b47",
+    "parallel/attribution/seed_20260919/part_050_100/completeness.npz": "1352e2b19bb0f44c9feff984b31efcca519b583cad8edc07f239649d692e4d5c"
+  }
+}

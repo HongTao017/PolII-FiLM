@@ -1,0 +1,16 @@
+{
+  "n_test": 3071,
+  "pearson_r": 0.7372703670630472,
+  "pearson_p": 0.0,
+  "spearman_rho": 0.7470587423258452,
+  "spearman_p": 0.0,
+  "r2": 0.5434182832410287,
+  "rmse": 4.993472026226984,
+  "mae": 3.695328550783288,
+  "model": "ridge",
+  "best_cv_rmse": 5.052081270018098,
+  "best_parameters": {
+    "model__alpha": 316.2277660168379
+  },
+  "elapsed_minutes": 0.3937604308128357
+}

@@ -1,0 +1,59 @@
+{
+  "model_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
+  "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008",
+  "output_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/A_ECLIP_ZEROCOUNT_GE40_181_20261105",
+  "seeds": [
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "baseline": "zero_eCLIP_count_before_saved_train_standardization",
+  "ig_steps": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "internal_batch_size": 2,
+  "absolute_tolerance_in_target_sd": 0.0001,
+  "relative_tolerance": 0.01,
+  "step_stability_relative_tolerance": 0.02,
+  "fp32_saved_prediction_tolerance_in_target_sd": 0.01,
+  "threads": 2,
+  "composite_intervals": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "method": "conditional_eCLIP_IG",
+  "cohort": "HepG2_RBP_nonzero_percentage_ge40",
+  "physical_gpus": [
+    1,
+    2,
+    3
+  ],
+  "original_weights_frozen": true,
+  "expected_genes": 181,
+  "expected_factors": 103
+}

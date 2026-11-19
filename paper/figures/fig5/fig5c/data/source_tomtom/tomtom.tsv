@@ -1,0 +1,12 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+r0_pos_patterns_pattern_0	MA0079.5	-20	0.000111466	0.0139332	0.0173997	9	GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG	GGGGCGGGG	+
+r0_pos_patterns_pattern_0	MA0685.2	-20	0.000175518	0.0219398	0.0173997	9	GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG	GGGGCGGGG	+
+r0_pos_patterns_pattern_0	MA0516.3	-20	0.00024395	0.0304938	0.0173997	9	GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG	GGGGCGGGG	+
+r0_pos_patterns_pattern_0	MA0741.1	-19	0.000281508	0.0351884	0.0173997	11	GGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGCCGGCGGGGGGGCGCGCG	GGGGGCGTGGC	-
+r0_neg_patterns_pattern_1	MA0741.1	-13	0.000144864	0.018108	0.03567	11	GGCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCGCGCCCCGGCCGCCGCCG	GCCACGCCCCC	+
+r2_pos_patterns_pattern_2	MA1125.2	-20	7.83074e-05	0.00978843	0.0195769	8	TGTATTTTTCTTTTTTTTTTTTTTTTTTTGAGACGGAGTCTCGCTCTGTC	TTTTTTTT	-
+r3_pos_patterns_pattern_0	MA1125.2	-28	2.28872e-05	0.0028609	0.0057218	8	TAAGAGAATTTTCTTTTTTTTTTTTTTTTTTTTTTTATACATTTTTATAT	TTTTTTTT	-
+
+# Tomtom (Motif Comparison Tool): Version 5.5.9 compiled on May 27 2026 at 12:41:21
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -oc /mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/tomtom -min-overlap 5 -thresh 0.05 /mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/patterns.meme /mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_10/jaspar_125.meme

@@ -1,0 +1,7 @@
+{
+  "/Creator": "Matplotlib v3.10.9, https://matplotlib.org",
+  "/Producer": "Matplotlib pdf backend v3.10.9",
+  "/CreationDate": "D:20261027145521+08'00'",
+  "/Title": "REG5 scatter: slightly thicker lines",
+  "/Subject": "{\"reference_thread\": \"01a13f40-5270-7590-9efd-4b4dad994c44\", \"canvas_inches\": [5, 4], \"data\": {\"model\": \"BChIPeCLIP\", \"features\": 2512, \"metrics\": {\"n\": 15351, \"pearson_r\": 0.7813747861412689, \"spearman_rho\": 0.7948895397875735, \"rmse\": 4.837544254609939}, \"source_oof_sha256\": \"2a7c91dfe5a5bcc1505b1f4984c05306b3ee62c05f78e4b2def01cdcf88527b5\", \"data_fingerprint\": \"c13b03947d1c64bd21ad4525860c8a1528cb98ff6d9d711936451f360cbaf0a4\", \"scope\": \"Internal exploratory test OOF of the globally validation-selected shared model; not fold-local selection-procedure OOF or external validation\", \"method\": \"Original draw_oof: hexbin, gridsize65, mincnt1, bins=log, no count/point substitution\", \"palette\": [\"#1e367b\", \"#703b90\", \"#c93659\", \"#f37c22\", \"#f7df54\"], \"hexagon_gene_count_sum\": 15351, \"hexagons_rasterized_as_original\": true, \"all_text_editable\": true}, \"line_width_before\": {\"axes\": {\"left\": 0.8, \"bottom\": 0.8}, \"reference\": [0.8], \"colorbar\": {\"outline\": 0.8}}, \"line_width_after_pt\": 1.2, \"change\": \"Visible axes, ticks, identity line and colorbar outline widths; optional explicitly requested 5x4 skill canvas\"}"
+}

@@ -1,0 +1,32 @@
+{
+  "panel": "D",
+  "status": "PASS",
+  "source_pdf_byte_identical": true,
+  "source_data_hashes_verified": 32,
+  "canvas_points": [
+    1296.0,
+    396.0
+  ],
+  "offline_redraw_pixel_max_difference": 0,
+  "offline_redraw_pixel_mean_difference": 0.0,
+  "checks": {
+    "gene": "ZBTB7A",
+    "input_window_halfopen": [
+      50,
+      151
+    ],
+    "site_halfopen": [
+      96,
+      105
+    ],
+    "ISM_matrix_shape": [
+      4,
+      101
+    ],
+    "seeds": 5,
+    "seed_mean_verified": true,
+    "curve_smoothing_sigma_bp": 1.1,
+    "heatmap_smoothing": "none",
+    "values_unscaled": true
+  }
+}

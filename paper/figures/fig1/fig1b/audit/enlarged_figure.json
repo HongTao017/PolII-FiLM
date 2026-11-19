@@ -1,0 +1,41 @@
+{
+  "output": "redraw.pdf",
+  "canvas_inches": [
+    8,
+    7
+  ],
+  "sample_count": 105,
+  "assay_counts": {
+    "GRO-seq": 55,
+    "MNET-seq": 19,
+    "PRO-seq": 31
+  },
+  "colors": {
+    "GRO-seq": "#F16B6F",
+    "MNET-seq": "#F7B6D2",
+    "PRO-seq": "#9EDAE4"
+  },
+  "point_area_pt2": 58,
+  "tick_pt": 16,
+  "axis_title_pt": 18,
+  "legend_pt": 16,
+  "heading": null,
+  "legend_position": "bottom",
+  "major_tick_interval": 5,
+  "embedding_unchanged": true,
+  "connector_lines": 0,
+  "axis_spines_separated": true,
+  "bottom_spine_bounds": [
+    -15,
+    30
+  ],
+  "left_spine_bounds": [
+    -20,
+    20
+  ],
+  "note": "Same frozen embedding; no refitting, jitter, or relabeling.",
+  "input_sha256": {
+    "data/selected_embedding.npz": "f07795d587b6514e44f3d571e2b180a09a60864d4dae8d57a0f76b0d72e0c559",
+    "data/selected_embedding.tsv": "5545d2e2a6379369e4c6ad1b5cf1f4ebc4a94fbab1a6abeb1160ec218b31be8e"
+  }
+}

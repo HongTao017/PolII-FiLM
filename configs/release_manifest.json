@@ -1,0 +1,189 @@
+{
+  "repository": "HongTao017/PolII-FiLM",
+  "tag": "v1.0.0",
+  "format": "concatenate parts in listed order, then extract gzip-compressed tar into repository root",
+  "groups": {
+    "model_film": {
+      "files": 442,
+      "uncompressed_bytes": 4442230766,
+      "parts": [
+        {
+          "name": "model_film.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "1c23ee1eff67516bd8e44b04c5fe1e7fec7de822244cb02676c4805ae5eb720c",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/model_film.tar.gz.part001"
+        },
+        {
+          "name": "model_film.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "41bd1a1fba9a90123199fb05bbe0906d498ba99989f9b23cd22d6291feef1a5e",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/model_film.tar.gz.part002"
+        },
+        {
+          "name": "model_film.tar.gz.part003",
+          "bytes": 1073741824,
+          "sha256": "1841a2e46002f3293d7e8aa9a7de448be3fbbda6b9aa7eb808c897d744041912",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/model_film.tar.gz.part003"
+        },
+        {
+          "name": "model_film.tar.gz.part004",
+          "bytes": 459168314,
+          "sha256": "82c3ad59b074d87c4c0999903743c21ac8db7e46946714e665ec511291249f43",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/model_film.tar.gz.part004"
+        }
+      ]
+    },
+    "rf_models": {
+      "files": 5470,
+      "uncompressed_bytes": 3166919916,
+      "parts": [
+        {
+          "name": "rf_models.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "48d58d063c6aa1b977eef428269e9d135b98ca3f362f8390bc0d2f1560b3b691",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/rf_models.tar.gz.part001"
+        },
+        {
+          "name": "rf_models.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "3d8db54896ab3c9e0b80de829a1d337e335c49253aeac28e910f181071e3a0d6",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/rf_models.tar.gz.part002"
+        },
+        {
+          "name": "rf_models.tar.gz.part003",
+          "bytes": 392511442,
+          "sha256": "2bb8ea46c5355cf9e133ac32b547f3541066e67ab2fce58980bb5fc2bef2195f",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/rf_models.tar.gz.part003"
+        }
+      ]
+    },
+    "reference_inputs": {
+      "files": 60,
+      "uncompressed_bytes": 4145116199,
+      "parts": [
+        {
+          "name": "reference_inputs.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "ccf132d6c15fda6a267ccdceeb347f6e88cb2fee6591b41565051fb66ab192ca",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/reference_inputs.tar.gz.part001"
+        },
+        {
+          "name": "reference_inputs.tar.gz.part002",
+          "bytes": 129148385,
+          "sha256": "64388031eeef04c0ce8f4dd157856045d9f933c715ac2f0a4518033b034313a6",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/reference_inputs.tar.gz.part002"
+        }
+      ]
+    },
+    "feature_data": {
+      "files": 227,
+      "uncompressed_bytes": 4341591757,
+      "parts": [
+        {
+          "name": "feature_data.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "5be4946bb76c52c955683a21129bdaf06629639192e5849e6e7cd49d22dc1e78",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/feature_data.tar.gz.part001"
+        },
+        {
+          "name": "feature_data.tar.gz.part002",
+          "bytes": 183119300,
+          "sha256": "285cee9eb474fe9aa652c027e060b81d3a1f1b654f7feda7df6cc3d18c95eabb",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/feature_data.tar.gz.part002"
+        }
+      ]
+    },
+    "sequencing_processed": {
+      "files": 6429,
+      "uncompressed_bytes": 6191523847,
+      "parts": [
+        {
+          "name": "sequencing_processed.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "ade15c936ac30547c4f4570caf6753adb0ec504f204b9c7047b2b78619e9c896",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/sequencing_processed.tar.gz.part001"
+        },
+        {
+          "name": "sequencing_processed.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "cf3fa0da1b29c49ebfa95b30fc35aef3aae9e0f68c3bc949491dd2e1133ac1a1",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/sequencing_processed.tar.gz.part002"
+        },
+        {
+          "name": "sequencing_processed.tar.gz.part003",
+          "bytes": 1073741824,
+          "sha256": "9f1cb335c400c267a0b820516134e36028482004e0b97cc1fa36d8a8e74dd5dc",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/sequencing_processed.tar.gz.part003"
+        },
+        {
+          "name": "sequencing_processed.tar.gz.part004",
+          "bytes": 1073741824,
+          "sha256": "a4cdbde97da8ce5328cc940300a51dd017bfa58a95271ca77b0907d0783558e7",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/sequencing_processed.tar.gz.part004"
+        },
+        {
+          "name": "sequencing_processed.tar.gz.part005",
+          "bytes": 522692583,
+          "sha256": "9adf9182a3e1b5b89ac0d9eaf9203926950cceeadb1be82b03e4f1c25491f357",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/sequencing_processed.tar.gz.part005"
+        }
+      ]
+    },
+    "interpretation": {
+      "files": 46085,
+      "uncompressed_bytes": 8019393844,
+      "parts": [
+        {
+          "name": "interpretation.tar.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "d28e8e02bf09deca87ac83e4dc64fe61776a6219e713d076c1c01b48377c6d04",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part001"
+        },
+        {
+          "name": "interpretation.tar.gz.part002",
+          "bytes": 1073741824,
+          "sha256": "38fd0573965b802cbdbc8cb74f8bfd2c3e87bf08f84368cdf71063102c6d4764",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part002"
+        },
+        {
+          "name": "interpretation.tar.gz.part003",
+          "bytes": 1073741824,
+          "sha256": "f0251e2550fae464483f6acaa24beedc24d67518b7b32779f3fa527f688242d6",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part003"
+        },
+        {
+          "name": "interpretation.tar.gz.part004",
+          "bytes": 1073741824,
+          "sha256": "ceab9d52fe0f6fbd0d5a94c335028758eada93cd021a02f1736f197c9dc71c15",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part004"
+        },
+        {
+          "name": "interpretation.tar.gz.part005",
+          "bytes": 1073741824,
+          "sha256": "979e424ecfd22b3d4600441084d882344192e407fa567a468adb14adb2bc6046",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part005"
+        },
+        {
+          "name": "interpretation.tar.gz.part006",
+          "bytes": 1073741824,
+          "sha256": "c7f243db18b15a9ff6c1380d5786aa491b42effe16ebcd2654e29ab01f6c3929",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part006"
+        },
+        {
+          "name": "interpretation.tar.gz.part007",
+          "bytes": 584959965,
+          "sha256": "7dd81d529c25c78b2f5c1918311bd76daf21f3020e3c29466ef70de7e394853f",
+          "url": "https://github.com/HongTao017/PolII-FiLM/releases/download/v1.0.0/interpretation.tar.gz.part007"
+        }
+      ]
+    }
+  },
+  "excluded": [
+    "Raw FASTQ/BAM/SRA retained on original server",
+    "Runtime/virtual/R environments",
+    "Microsoft Arial font binaries",
+    "Credentials and SSH keys",
+    "Manuscript PDF/LaTeX and website frontend",
+    "Temporary upload archives and validation working directories"
+  ]
+}

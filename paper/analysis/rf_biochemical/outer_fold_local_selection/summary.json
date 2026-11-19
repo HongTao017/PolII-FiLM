@@ -1,0 +1,115 @@
+{
+  "selection_rule": "Each outer fold independently adds group with largest positive validation Pearson gain; no significance gate.",
+  "test_used_for_selection": false,
+  "outer_test_oof_metrics": {
+    "pearson_r": 0.781314212935672,
+    "spearman_rho": 0.7947874812931938,
+    "r2": 0.574838620684219,
+    "rmse": 4.8363119568048445,
+    "mae": 3.553254517250901
+  },
+  "n_genes": 15351,
+  "fold_models": [
+    {
+      "fold": 1,
+      "selected_model": "BChIPATAC",
+      "groups": "B+ChIP+ATAC",
+      "pearson_r": 0.7880300030890423,
+      "spearman_rho": 0.8035088416628091,
+      "r2": 0.5821684206573079,
+      "rmse": 4.793829171451067,
+      "mae": 3.5403013900415092
+    },
+    {
+      "fold": 2,
+      "selected_model": "BChIPATAC",
+      "groups": "B+ChIP+ATAC",
+      "pearson_r": 0.7813609296836684,
+      "spearman_rho": 0.7952435186531984,
+      "r2": 0.5779893346281363,
+      "rmse": 4.8068127011665736,
+      "mae": 3.5331803127831165
+    },
+    {
+      "fold": 3,
+      "selected_model": "BChIPATAC",
+      "groups": "B+ChIP+ATAC",
+      "pearson_r": 0.7524235668728053,
+      "spearman_rho": 0.7834142976357822,
+      "r2": 0.5425341036814249,
+      "rmse": 4.865943715448147,
+      "mae": 3.475955446899681
+    },
+    {
+      "fold": 4,
+      "selected_model": "BChIPeCLIP",
+      "groups": "B+ChIP+eCLIP",
+      "pearson_r": 0.7688197249343746,
+      "spearman_rho": 0.780368834346906,
+      "r2": 0.5612573944220556,
+      "rmse": 4.85533057670725,
+      "mae": 3.4962291881435954
+    },
+    {
+      "fold": 5,
+      "selected_model": "BChIPATAC",
+      "groups": "B+ChIP+ATAC",
+      "pearson_r": 0.8028984462471336,
+      "spearman_rho": 0.8035215380689721,
+      "r2": 0.5999551759550855,
+      "rmse": 4.741173762895399,
+      "mae": 3.518012478386837
+    },
+    {
+      "fold": 6,
+      "selected_model": "BChIPeCLIP",
+      "groups": "B+ChIP+eCLIP",
+      "pearson_r": 0.7846714169906823,
+      "spearman_rho": 0.7897709336152416,
+      "r2": 0.5728414414356149,
+      "rmse": 4.796014894307622,
+      "mae": 3.585627307996892
+    },
+    {
+      "fold": 7,
+      "selected_model": "BChIPDamID",
+      "groups": "B+ChIP+DamID",
+      "pearson_r": 0.7947890671103763,
+      "spearman_rho": 0.8032937921233793,
+      "r2": 0.588157359504442,
+      "rmse": 4.903056154965006,
+      "mae": 3.647734829697325
+    },
+    {
+      "fold": 8,
+      "selected_model": "BChIPeCLIPATAC",
+      "groups": "B+ChIP+eCLIP+ATAC",
+      "pearson_r": 0.7713734856692528,
+      "spearman_rho": 0.783841198602181,
+      "r2": 0.5665536070186681,
+      "rmse": 4.875314465056371,
+      "mae": 3.5826109652543
+    },
+    {
+      "fold": 9,
+      "selected_model": "BChIP",
+      "groups": "B+ChIP",
+      "pearson_r": 0.7804054537176396,
+      "spearman_rho": 0.7914554908165454,
+      "r2": 0.5756373906852397,
+      "rmse": 4.716083827003823,
+      "mae": 3.5352607139421632
+    },
+    {
+      "fold": 10,
+      "selected_model": "BChIPeCLIP",
+      "groups": "B+ChIP+eCLIP",
+      "pearson_r": 0.7876961634967915,
+      "spearman_rho": 0.8089879961125921,
+      "r2": 0.5744093878736316,
+      "rmse": 5.003090206351331,
+      "mae": 3.6176114495976304
+    }
+  ],
+  "interpretation": "Primary fold-local selection-procedure OOF; not one shared global feature set."
+}

@@ -1,0 +1,1794 @@
+{
+  "instances": [
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "TLE6",
+      "gene_row": 53,
+      "gene_index": 12844,
+      "chrom": "chr19",
+      "strand": "+",
+      "dna_group": "11472",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 2.97812e-05,
+          "q_value": 0.00734001,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 378,
+      "motif_end": 389,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 10.413029476009278,
+      "WT_fimo_p": 3.52e-05,
+      "highlight_position": 381,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 333,
+      "window_end": 434,
+      "physical_motif_start0": 2977641,
+      "selection_hash": 330581830,
+      "instance_id": "instance_000"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "TP53",
+      "gene_row": 125,
+      "gene_index": 11790,
+      "chrom": "chr17",
+      "strand": "-",
+      "dna_group": "10538",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 2.97812e-05,
+          "q_value": 0.00734001,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 502,
+      "motif_end": 513,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.906640436386825,
+      "WT_fimo_p": 1.78e-06,
+      "highlight_position": 505,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 457,
+      "window_end": 558,
+      "physical_motif_start0": 7687277,
+      "selection_hash": 685016438,
+      "instance_id": "instance_001"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "C12orf75",
+      "gene_row": 41,
+      "gene_index": 9578,
+      "chrom": "chr12",
+      "strand": "+",
+      "dna_group": "8626",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 2.97812e-05,
+          "q_value": 0.00734001,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 269,
+      "motif_end": 280,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 10.50267657263345,
+      "WT_fimo_p": 2.9e-05,
+      "highlight_position": 272,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 224,
+      "window_end": 325,
+      "physical_motif_start0": 105330659,
+      "selection_hash": 1017684443,
+      "instance_id": "instance_002"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "CHD4",
+      "gene_row": 70,
+      "gene_index": 9008,
+      "chrom": "chr12",
+      "strand": "-",
+      "dna_group": "8115",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 2.97812e-05,
+          "q_value": 0.00734001,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 173,
+      "motif_end": 184,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 9.151603716767285,
+      "WT_fimo_p": 9.15e-05,
+      "highlight_position": 176,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 128,
+      "window_end": 229,
+      "physical_motif_start0": 6607495,
+      "selection_hash": 1095470980,
+      "instance_id": "instance_003"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "RNF146",
+      "gene_row": 102,
+      "gene_index": 5397,
+      "chrom": "chr6",
+      "strand": "+",
+      "dna_group": "4844",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 2.97812e-05,
+          "q_value": 0.00734001,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 245,
+      "motif_end": 256,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 10.556759452785226,
+      "WT_fimo_p": 3.81e-05,
+      "highlight_position": 251,
+      "highlight_alternative": "G",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 200,
+      "window_end": 301,
+      "physical_motif_start0": 127266808,
+      "selection_hash": 1236994191,
+      "instance_id": "instance_004"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "LRRC59",
+      "gene_row": 33,
+      "gene_index": 12218,
+      "chrom": "chr17",
+      "strand": "-",
+      "dna_group": "10914",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "all_TF_matches": [
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 7.25397e-05,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000196862,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000254184,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000278557,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "MAZ",
+          "matrix_id": "MA1522.2",
+          "p_value": 0.000322255,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 179,
+      "motif_end": 188,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 7.246687844364633,
+      "WT_fimo_p": 7.89e-05,
+      "highlight_position": 179,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.378656116722816,
+      "window_start": 133,
+      "window_end": 234,
+      "physical_motif_start0": 50397635,
+      "selection_hash": 77353065,
+      "instance_id": "instance_005"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "MCUR1",
+      "gene_row": 128,
+      "gene_index": 4941,
+      "chrom": "chr6",
+      "strand": "-",
+      "dna_group": "4435",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "all_TF_matches": [
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 7.25397e-05,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000196862,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000254184,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000278557,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "MAZ",
+          "matrix_id": "MA1522.2",
+          "p_value": 0.000322255,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 246,
+      "motif_end": 255,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 16.160574550175202,
+      "WT_fimo_p": 1.5e-06,
+      "highlight_position": 246,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.378656116722816,
+      "window_start": 200,
+      "window_end": 301,
+      "physical_motif_start0": 13814602,
+      "selection_hash": 156385787,
+      "instance_id": "instance_006"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "LBR",
+      "gene_row": 32,
+      "gene_index": 1478,
+      "chrom": "chr1",
+      "strand": "-",
+      "dna_group": "1329",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "all_TF_matches": [
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 7.25397e-05,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000196862,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000254184,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000278557,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "MAZ",
+          "matrix_id": "MA1522.2",
+          "p_value": 0.000322255,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 399,
+      "motif_end": 408,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.028124254151553,
+      "WT_fimo_p": 8.83e-06,
+      "highlight_position": 399,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.378656116722816,
+      "window_start": 353,
+      "window_end": 454,
+      "physical_motif_start0": 225427930,
+      "selection_hash": 551421167,
+      "instance_id": "instance_007"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "EPN1",
+      "gene_row": 178,
+      "gene_index": 13793,
+      "chrom": "chr19",
+      "strand": "+",
+      "dna_group": "12298",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "all_TF_matches": [
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 7.25397e-05,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000196862,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000254184,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000278557,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "MAZ",
+          "matrix_id": "MA1522.2",
+          "p_value": 0.000322255,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 327,
+      "motif_end": 336,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.767633852214633,
+      "WT_fimo_p": 5.17e-06,
+      "highlight_position": 327,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.378656116722816,
+      "window_start": 281,
+      "window_end": 382,
+      "physical_motif_start0": 55675252,
+      "selection_hash": 690090694,
+      "instance_id": "instance_008"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "SLC2A1",
+      "gene_row": 165,
+      "gene_index": 453,
+      "chrom": "chr1",
+      "strand": "-",
+      "dna_group": "407",
+      "TF": "SP4",
+      "matrix_id": "MA0685.2",
+      "all_TF_matches": [
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 7.25397e-05,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000196862,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000254184,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000278557,
+          "q_value": 0.0158051,
+          "orientation": "-"
+        },
+        {
+          "TF": "MAZ",
+          "matrix_id": "MA1522.2",
+          "p_value": 0.000322255,
+          "q_value": 0.0158051,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "neg_patterns",
+      "motif_start": 160,
+      "motif_end": 169,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.767633852214633,
+      "WT_fimo_p": 5.17e-06,
+      "highlight_position": 160,
+      "highlight_alternative": "A",
+      "highlight_reference": "C",
+      "highlight_delta_PWM_bits": -9.378656116722816,
+      "window_start": 114,
+      "window_end": 215,
+      "physical_motif_start0": 42958999,
+      "selection_hash": 910584911,
+      "instance_id": "instance_009"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "region": "pre_tes_sequence",
+      "region_index": 3,
+      "gene": "ARID3A",
+      "gene_row": 55,
+      "gene_index": 12778,
+      "chrom": "chr19",
+      "strand": "+",
+      "dna_group": "11415",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000108562,
+          "q_value": 0.0271405,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 656,
+      "motif_end": 664,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 14.677471898153748,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 661,
+      "highlight_alternative": "G",
+      "highlight_reference": "A",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 610,
+      "window_end": 711,
+      "physical_motif_start0": 975594,
+      "selection_hash": 560708956,
+      "instance_id": "instance_010"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "region": "pre_tes_sequence",
+      "region_index": 3,
+      "gene": "CDK4",
+      "gene_row": 179,
+      "gene_index": 9402,
+      "chrom": "chr12",
+      "strand": "-",
+      "dna_group": "8468",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000108562,
+          "q_value": 0.0271405,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 492,
+      "motif_end": 500,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.677471898153746,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 494,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 446,
+      "window_end": 547,
+      "physical_motif_start0": 57748227,
+      "selection_hash": 1195176010,
+      "instance_id": "instance_011"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "region": "pre_tes_sequence",
+      "region_index": 3,
+      "gene": "FAM120AOS",
+      "gene_row": 107,
+      "gene_index": 7093,
+      "chrom": "chr9",
+      "strand": "-",
+      "dna_group": "6410",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000108562,
+          "q_value": 0.0271405,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 298,
+      "motif_end": 306,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 12.6551446011287,
+      "WT_fimo_p": 9.11e-05,
+      "highlight_position": 303,
+      "highlight_alternative": "G",
+      "highlight_reference": "A",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 252,
+      "window_end": 353,
+      "physical_motif_start0": 93444026,
+      "selection_hash": 1334419083,
+      "instance_id": "instance_012"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "region": "pre_tes_sequence",
+      "region_index": 3,
+      "gene": "LRRC74A",
+      "gene_row": 31,
+      "gene_index": 10384,
+      "chrom": "chr14",
+      "strand": "+",
+      "dna_group": "9346",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000108562,
+          "q_value": 0.0271405,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 457,
+      "motif_end": 465,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 14.677471898153748,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 462,
+      "highlight_alternative": "G",
+      "highlight_reference": "A",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 411,
+      "window_end": 512,
+      "physical_motif_start0": 76869760,
+      "selection_hash": 2053521037,
+      "instance_id": "instance_013"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "region": "pre_tes_sequence",
+      "region_index": 3,
+      "gene": "RIGI",
+      "gene_row": 100,
+      "gene_index": 6922,
+      "chrom": "chr9",
+      "strand": "-",
+      "dna_group": "6258",
+      "TF": "ZNF384",
+      "matrix_id": "MA1125.2",
+      "all_TF_matches": [
+        {
+          "TF": "ZNF384",
+          "matrix_id": "MA1125.2",
+          "p_value": 0.000108562,
+          "q_value": 0.0271405,
+          "orientation": "-"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 611,
+      "motif_end": 619,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 14.677471898153746,
+      "WT_fimo_p": 3.23e-05,
+      "highlight_position": 613,
+      "highlight_alternative": "C",
+      "highlight_reference": "T",
+      "highlight_delta_PWM_bits": -15.892092141224165,
+      "window_start": 565,
+      "window_end": 666,
+      "physical_motif_start0": 32455683,
+      "selection_hash": 2395324544,
+      "instance_id": "instance_014"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "AMD1",
+      "gene_row": 113,
+      "gene_index": 5339,
+      "chrom": "chr6",
+      "strand": "+",
+      "dna_group": "4787",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 4.52736e-05,
+          "q_value": 0.0111583,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000185299,
+          "q_value": 0.0228348,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000429015,
+          "q_value": 0.0352457,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 257,
+      "motif_end": 266,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 7.925688220123469,
+      "WT_fimo_p": 6.39e-05,
+      "highlight_position": 258,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 211,
+      "window_end": 312,
+      "physical_motif_start0": 110874741,
+      "selection_hash": 44276616,
+      "instance_id": "instance_015"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "TLE6",
+      "gene_row": 53,
+      "gene_index": 12844,
+      "chrom": "chr19",
+      "strand": "+",
+      "dna_group": "11472",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 4.52736e-05,
+          "q_value": 0.0111583,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000185299,
+          "q_value": 0.0228348,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000429015,
+          "q_value": 0.0352457,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 233,
+      "motif_end": 242,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 16.446977139443632,
+      "WT_fimo_p": 1.5e-06,
+      "highlight_position": 234,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 187,
+      "window_end": 288,
+      "physical_motif_start0": 2977496,
+      "selection_hash": 461666585,
+      "instance_id": "instance_016"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "SF3B4",
+      "gene_row": 37,
+      "gene_index": 921,
+      "chrom": "chr1",
+      "strand": "-",
+      "dna_group": "827",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 4.52736e-05,
+          "q_value": 0.0111583,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000185299,
+          "q_value": 0.0228348,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000429015,
+          "q_value": 0.0352457,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 515,
+      "motif_end": 524,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 16.446977139443632,
+      "WT_fimo_p": 1.5e-06,
+      "highlight_position": 516,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 469,
+      "window_end": 570,
+      "physical_motif_start0": 149927579,
+      "selection_hash": 1015521343,
+      "instance_id": "instance_017"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "LEMD2",
+      "gene_row": 8,
+      "gene_index": 5014,
+      "chrom": "chr6",
+      "strand": "-",
+      "dna_group": "4504",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 4.52736e-05,
+          "q_value": 0.0111583,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000185299,
+          "q_value": 0.0228348,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000429015,
+          "q_value": 0.0352457,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 297,
+      "motif_end": 306,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 12.78677002451021,
+      "WT_fimo_p": 1.22e-05,
+      "highlight_position": 298,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 251,
+      "window_end": 352,
+      "physical_motif_start0": 33789124,
+      "selection_hash": 1204445816,
+      "instance_id": "instance_018"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "ZC3HAV1L",
+      "gene_row": 153,
+      "gene_index": 6220,
+      "chrom": "chr7",
+      "strand": "-",
+      "dna_group": "5601",
+      "TF": "SP1",
+      "matrix_id": "MA0079.5",
+      "all_TF_matches": [
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 4.52736e-05,
+          "q_value": 0.0111583,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000185299,
+          "q_value": 0.0228348,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000429015,
+          "q_value": 0.0352457,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 539,
+      "motif_end": 548,
+      "motif_reverse": false,
+      "WT_pwm_score_bits": 7.913967561619071,
+      "WT_fimo_p": 7.43e-05,
+      "highlight_position": 540,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -9.325158963166299,
+      "window_start": 493,
+      "window_end": 594,
+      "physical_motif_start0": 139035794,
+      "selection_hash": 1649549872,
+      "instance_id": "instance_019"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "PI4K2B",
+      "gene_row": 65,
+      "gene_index": 3675,
+      "chrom": "chr4",
+      "strand": "+",
+      "dna_group": "3287",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000156743,
+          "q_value": 0.0385951,
+          "orientation": "-"
+        },
+        {
+          "TF": "EGR1",
+          "matrix_id": "MA0162.5",
+          "p_value": 0.00069763,
+          "q_value": 0.0466561,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000714238,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000785411,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000947405,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 226,
+      "motif_end": 237,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 10.217341275850933,
+      "WT_fimo_p": 4.57e-05,
+      "highlight_position": 229,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 181,
+      "window_end": 282,
+      "physical_motif_start0": 25233958,
+      "selection_hash": 887935629,
+      "instance_id": "instance_020"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "IHO1",
+      "gene_row": 155,
+      "gene_index": 2915,
+      "chrom": "chr3",
+      "strand": "+",
+      "dna_group": "2608",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000156743,
+          "q_value": 0.0385951,
+          "orientation": "-"
+        },
+        {
+          "TF": "EGR1",
+          "matrix_id": "MA0162.5",
+          "p_value": 0.00069763,
+          "q_value": 0.0466561,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000714238,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000785411,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000947405,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 224,
+      "motif_end": 235,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 10.50267657263345,
+      "WT_fimo_p": 2.9e-05,
+      "highlight_position": 227,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 179,
+      "window_end": 280,
+      "physical_motif_start0": 49199421,
+      "selection_hash": 995548462,
+      "instance_id": "instance_021"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "SLC2A3",
+      "gene_row": 69,
+      "gene_index": 9036,
+      "chrom": "chr12",
+      "strand": "-",
+      "dna_group": "8139",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000156743,
+          "q_value": 0.0385951,
+          "orientation": "-"
+        },
+        {
+          "TF": "EGR1",
+          "matrix_id": "MA0162.5",
+          "p_value": 0.00069763,
+          "q_value": 0.0466561,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000714238,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000785411,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000947405,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 203,
+      "motif_end": 214,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 13.632018056277818,
+      "WT_fimo_p": 6.18e-06,
+      "highlight_position": 206,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 158,
+      "window_end": 259,
+      "physical_motif_start0": 7936273,
+      "selection_hash": 1290488389,
+      "instance_id": "instance_022"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "OPRK1",
+      "gene_row": 139,
+      "gene_index": 6526,
+      "chrom": "chr8",
+      "strand": "-",
+      "dna_group": "5885",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000156743,
+          "q_value": 0.0385951,
+          "orientation": "-"
+        },
+        {
+          "TF": "EGR1",
+          "matrix_id": "MA0162.5",
+          "p_value": 0.00069763,
+          "q_value": 0.0466561,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000714238,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000785411,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000947405,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 160,
+      "motif_end": 171,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 10.68951456136302,
+      "WT_fimo_p": 2.57e-05,
+      "highlight_position": 163,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 115,
+      "window_end": 216,
+      "physical_motif_start0": 53251766,
+      "selection_hash": 2285452158,
+      "instance_id": "instance_023"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "region": "tss_sequence",
+      "region_index": 0,
+      "gene": "TRMT13",
+      "gene_row": 7,
+      "gene_index": 746,
+      "chrom": "chr1",
+      "strand": "+",
+      "dna_group": "667",
+      "TF": "KLF16",
+      "matrix_id": "MA0741.1",
+      "all_TF_matches": [
+        {
+          "TF": "KLF16",
+          "matrix_id": "MA0741.1",
+          "p_value": 0.000156743,
+          "q_value": 0.0385951,
+          "orientation": "-"
+        },
+        {
+          "TF": "EGR1",
+          "matrix_id": "MA0162.5",
+          "p_value": 0.00069763,
+          "q_value": 0.0466561,
+          "orientation": "-"
+        },
+        {
+          "TF": "SP2",
+          "matrix_id": "MA0516.3",
+          "p_value": 0.000714238,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP4",
+          "matrix_id": "MA0685.2",
+          "p_value": 0.000785411,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        },
+        {
+          "TF": "SP1",
+          "matrix_id": "MA0079.5",
+          "p_value": 0.000947405,
+          "q_value": 0.0466561,
+          "orientation": "+"
+        }
+      ],
+      "pattern_sign": "pos_patterns",
+      "motif_start": 67,
+      "motif_end": 78,
+      "motif_reverse": true,
+      "WT_pwm_score_bits": 9.810227673277486,
+      "WT_fimo_p": 5.64e-05,
+      "highlight_position": 70,
+      "highlight_alternative": "A",
+      "highlight_reference": "G",
+      "highlight_delta_PWM_bits": -11.65508344519798,
+      "window_start": 22,
+      "window_end": 123,
+      "physical_motif_start0": 100132929,
+      "selection_hash": 2738176467,
+      "instance_id": "instance_024"
+    }
+  ],
+  "skipped": [
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SLC25A5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SLC25A5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SLC25A5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "TDP2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "LEMD2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "NDUFA2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "VASP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SF3B4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "TP53",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "RNF146",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "ZNF212",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "NGDN",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SLC25A46",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "LRRC59",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "NFKBID",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "PPP1CC",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "TMEM130",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "CDC37",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "GLUL",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SLC2A1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "UBL5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "SAYSD1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "FAM200B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "KPNA4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "DNASE2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "VASP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "C12orf75",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "EPC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "DLAT",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_0",
+      "gene": "RILPL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "JAK3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SAYSD1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "UBAP1L",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "GGT1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SLC26A2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "BPIFC",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SLC35C1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "ADH5",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "BPIFC",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SMG9",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SLC26A2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "LBR",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "IRAG1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SYT13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SCN2A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "AGR2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "TRMU",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SLC26A2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "PPP6R2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "LAMB4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "CDKL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "CDKL2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "AMD1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "AMD1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "PPP6R2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "RABEP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "PEX13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "ZNF148",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "TRMT13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "SCN11A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "DOCK4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r2_neg_patterns_pattern_6",
+      "gene": "MCU",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "TSEN54",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "SLC67A1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "DENND4B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "TLE6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "CHD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "RRP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "SLC2A1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "KPNB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_neg_patterns_pattern_0",
+      "gene": "PPP6R2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "LRRC74A",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "SF3B4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "CHD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "SF3B4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "SF3B4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "CHD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "CHD4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "MCU",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "SEC63",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "MCU",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "METAP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r3_pos_patterns_pattern_1",
+      "gene": "MCU",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "PPP1CC",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "CDK4",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "ZNF212",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "NDUFA2",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "KPNB1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "COA6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "COA6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "UBE3B",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "DLAT",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_2",
+      "gene": "EPC1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "CRHBP",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "MAGEA1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "OPRK1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "HSPBAP1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "COA6",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "TRAF3IP3",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "NGDN",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "TRMT13",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    },
+    {
+      "pattern_id": "r0_pos_patterns_pattern_3",
+      "gene": "NR2F1-AS1",
+      "reason": "No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet"
+    }
+  ],
+  "selection": "up to ten most-supported annotated patterns; five SHA256-ordered distinct genes per pattern; never use ISM effects to select",
+  "WT_hit_policy": "FIMO p<=1e-4 target hit inside a real TF-MoDISco seqlet; lowest p then coordinate. Not measured binding.",
+  "plan_frozen_before_mutant_inference": true
+}

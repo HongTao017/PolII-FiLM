@@ -1,0 +1,300 @@
+{
+  "labels": [
+    "CTCF",
+    "EGR1",
+    "KLF16",
+    "MAZ",
+    "PAX8",
+    "SP1",
+    "SP2",
+    "SP4",
+    "ZNF184",
+    "ZNF384",
+    "ZNF407"
+  ],
+  "motif_labels": 11,
+  "TF_sign_combinations": 16,
+  "stars": false,
+  "canvas_inches": [
+    10.8,
+    5.4
+  ],
+  "delta": "WT_minus_disrupted",
+  "panels": "positive and negative contribution patterns separated; no empty groups invented",
+  "point_unit": "mean per source DNA-overlap group",
+  "background": "All matched controls for each sign; match IDs deduplicated, then mean per source DNA group",
+  "data_changed": false,
+  "statistics_recomputed": false,
+  "plots": [
+    {
+      "file": "all_11_motifs_zoom_no_stars.pdf",
+      "y_limits": [
+        -0.0015,
+        0.0015
+      ],
+      "groups": [
+        {
+          "sign": "pos_patterns",
+          "label": "EGR1",
+          "n": 57,
+          "below_display": 3,
+          "above_display": 4
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "KLF16",
+          "n": 335,
+          "below_display": 11,
+          "above_display": 17
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "SP1",
+          "n": 223,
+          "below_display": 3,
+          "above_display": 11
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "SP2",
+          "n": 268,
+          "below_display": 3,
+          "above_display": 11
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "SP4",
+          "n": 238,
+          "below_display": 3,
+          "above_display": 13
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "ZNF184",
+          "n": 99,
+          "below_display": 1,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "ZNF384",
+          "n": 393,
+          "below_display": 1,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "Background",
+          "n": 723,
+          "below_display": 17,
+          "above_display": 5
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "CTCF",
+          "n": 14,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "EGR1",
+          "n": 18,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "KLF16",
+          "n": 285,
+          "below_display": 9,
+          "above_display": 5
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "MAZ",
+          "n": 22,
+          "below_display": 0,
+          "above_display": 2
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "PAX8",
+          "n": 25,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "SP1",
+          "n": 219,
+          "below_display": 8,
+          "above_display": 2
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "SP2",
+          "n": 201,
+          "below_display": 8,
+          "above_display": 2
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "SP4",
+          "n": 201,
+          "below_display": 8,
+          "above_display": 2
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "ZNF407",
+          "n": 24,
+          "below_display": 1,
+          "above_display": 1
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "Background",
+          "n": 429,
+          "below_display": 7,
+          "above_display": 5
+        }
+      ]
+    },
+    {
+      "file": "all_11_motifs_full_range_no_stars.pdf",
+      "y_limits": [
+        -0.005101266409687184,
+        0.004319561944140584
+      ],
+      "groups": [
+        {
+          "sign": "pos_patterns",
+          "label": "EGR1",
+          "n": 57,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "KLF16",
+          "n": 335,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "SP1",
+          "n": 223,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "SP2",
+          "n": 268,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "SP4",
+          "n": 238,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "ZNF184",
+          "n": 99,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "ZNF384",
+          "n": 393,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "pos_patterns",
+          "label": "Background",
+          "n": 723,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "CTCF",
+          "n": 14,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "EGR1",
+          "n": 18,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "KLF16",
+          "n": 285,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "MAZ",
+          "n": 22,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "PAX8",
+          "n": 25,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "SP1",
+          "n": 219,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "SP2",
+          "n": 201,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "SP4",
+          "n": 201,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "ZNF407",
+          "n": 24,
+          "below_display": 0,
+          "above_display": 0
+        },
+        {
+          "sign": "neg_patterns",
+          "label": "Background",
+          "n": 429,
+          "below_display": 0,
+          "above_display": 0
+        }
+      ]
+    }
+  ]
+}

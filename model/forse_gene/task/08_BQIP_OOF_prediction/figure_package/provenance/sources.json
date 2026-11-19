@@ -1,0 +1,8 @@
+{
+  "approved_source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_5x4PDF\\03_OOF_fixed_BQIP_5x4.pdf",
+  "approved_sha256": "6327d9d45de7a4b78543649e571998f74a683e2b68b1cbadda7566bcd08b0f84",
+  "training_root": "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train",
+  "fingerprint": "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c",
+  "drawing_inputs": "All inputs necessary for offline redraw are in data/. Original training arrays/model checkpoints are not needed for redraw.",
+  "interpretation": "固定BQIP特征集、15,351个基因、10折held-out OOF、5种子集成。与源图一致，r=0.7276、rho=0.7495。固定特征集的筛选评估仍为探索性，不能标称严格嵌套交叉验证。"
+}

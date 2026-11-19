@@ -1,0 +1,29 @@
+{
+  "panel": "F",
+  "filename": "fig1f.pdf",
+  "description": "SAMD11 TSS +/-600 bp sequence composition, GC and CpG statistics, original website screenshot",
+  "canvas_inches": [
+    7.086666666666667,
+    3.751666666666667
+  ],
+  "source_pdf": "G:\\序列分析数据\\output\\pdf\\NascentAtlas_focused_figures_600dpi_20261025\\05_sequence_statistics_main_600dpi.pdf",
+  "source_pdf_sha256": "1faf58f905d5f1d8fd665e4a8a1dc2069c0fd9cc285dbdd186ecb7d7cb7bcc6a",
+  "entry_script": "code/render.py",
+  "frozen_data_sha256": {
+    "data/gc_bins.tsv": "52f8a8a30717dcd57eaba6119df2bb34502f7795dc3d1cac09c26d77d8fb8e2b",
+    "data/SAMD11_TSS_pm600.fasta": "923de7e1c857880413b335369920e65bf641c65aea5dedecddc36b6f95a77ebe",
+    "data/sequence_response.json": "8de7f2dfe27074935fc32bbafd5a9aeaafc42c050984c32dc79f27b711a019ec",
+    "data/sequence_statistics.json": "c4c252442bfffb8d90b03c7fcef5b5b57537bcfaf9c6b7d3af366803d3ce78b8",
+    "data/source_600dpi.png": "956db427b4fb18f939b7117a8d1547db3e9693e688082243ce3b9f80f6014983"
+  },
+  "kind": "original website screenshot",
+  "effective_dpi": 600,
+  "source_pixels": [
+    4252,
+    2251
+  ],
+  "source_refresh": "Original Vue components and capture script archived; approved PDF redraw uses frozen screenshot.",
+  "original_server_directory": "/mnt/HDD8TB/hongtao/end/pig/fig1_archive_20261028T060119Z/fig1.g",
+  "original_panel": "G",
+  "source_directory": "G:\\序列分析数据\\fig1_packaging_20261104\\server_archive\\fig1_archive_20261028T060119Z\\fig1.g"
+}

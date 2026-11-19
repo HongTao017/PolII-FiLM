@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "fold": 5,
+  "checks": [
+    {
+      "seed": 20260915,
+      "gene": "BROX",
+      "saved_BF16": -7.859755467267984,
+      "reproduced_BF16": -7.859755467267984,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "ee86f0de5475738d259ad18a3f7cd29cde460ba276b2c122959c41b6dfab791b",
+      "saved_prediction_sha256": "0102722b3fa7d0b3eb29c6885186acfc26e0d476ffb83379f9a0c8967eafddc3"
+    },
+    {
+      "seed": 20260915,
+      "gene": "TBP",
+      "saved_BF16": 0.2383378485126124,
+      "reproduced_BF16": 0.23833784851261242,
+      "abs_error": 2.7755575615628914e-17,
+      "checkpoint_sha256": "ee86f0de5475738d259ad18a3f7cd29cde460ba276b2c122959c41b6dfab791b",
+      "saved_prediction_sha256": "0102722b3fa7d0b3eb29c6885186acfc26e0d476ffb83379f9a0c8967eafddc3"
+    },
+    {
+      "seed": 20260916,
+      "gene": "BROX",
+      "saved_BF16": -5.397558527974085,
+      "reproduced_BF16": -5.397558527974085,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "b2757805b47e6b266b6498b2f8e23dffb679f6632ccbbab7cff44f6d2a058fcf",
+      "saved_prediction_sha256": "b3e804b4c8614a3a802278868de0c2a919f03143b05b6bde38672c4e2a215024"
+    },
+    {
+      "seed": 20260916,
+      "gene": "TBP",
+      "saved_BF16": 0.7144832860378297,
+      "reproduced_BF16": 0.7144832860378297,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "b2757805b47e6b266b6498b2f8e23dffb679f6632ccbbab7cff44f6d2a058fcf",
+      "saved_prediction_sha256": "b3e804b4c8614a3a802278868de0c2a919f03143b05b6bde38672c4e2a215024"
+    },
+    {
+      "seed": 20260917,
+      "gene": "BROX",
+      "saved_BF16": -5.223756391082751,
+      "reproduced_BF16": -5.223756391082751,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "bcbdb47e068f34c1e3b80c8df397e716010e2e3c81dd38589bfb9bd58bbca1d8",
+      "saved_prediction_sha256": "359d6dd91ed90f8688ea7d4c4caee5d893faf99281ab0253bb918819d81808f8"
+    },
+    {
+      "seed": 20260917,
+      "gene": "TBP",
+      "saved_BF16": 1.670395038940167,
+      "reproduced_BF16": 1.670395038940167,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "bcbdb47e068f34c1e3b80c8df397e716010e2e3c81dd38589bfb9bd58bbca1d8",
+      "saved_prediction_sha256": "359d6dd91ed90f8688ea7d4c4caee5d893faf99281ab0253bb918819d81808f8"
+    },
+    {
+      "seed": 20260918,
+      "gene": "BROX",
+      "saved_BF16": -3.4567679993541875,
+      "reproduced_BF16": -3.4567679993541875,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "b3e9c0860497ce3c040e9a6af52fec743c64833c3e44a8db8603fb655a32a871",
+      "saved_prediction_sha256": "8cd7f1830021d7e8f112ff614a3af2386442595afbcfb2761c685c353bddd2bd"
+    },
+    {
+      "seed": 20260918,
+      "gene": "TBP",
+      "saved_BF16": -0.2541015393461674,
+      "reproduced_BF16": -0.2541015393461674,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "b3e9c0860497ce3c040e9a6af52fec743c64833c3e44a8db8603fb655a32a871",
+      "saved_prediction_sha256": "8cd7f1830021d7e8f112ff614a3af2386442595afbcfb2761c685c353bddd2bd"
+    },
+    {
+      "seed": 20260919,
+      "gene": "BROX",
+      "saved_BF16": -2.153251972669182,
+      "reproduced_BF16": -2.153251972669182,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "69649a1bd80780393fcf445d55b070ef100cffdce6879feb290f5a835061d309",
+      "saved_prediction_sha256": "cb9b07b0f755c38737103ff2ed000d548ce16c2c84aa12d2774dbefcb8b23c70"
+    },
+    {
+      "seed": 20260919,
+      "gene": "TBP",
+      "saved_BF16": 0.9679447356710252,
+      "reproduced_BF16": 0.9679447356710252,
+      "abs_error": 0.0,
+      "checkpoint_sha256": "69649a1bd80780393fcf445d55b070ef100cffdce6879feb290f5a835061d309",
+      "saved_prediction_sha256": "cb9b07b0f755c38737103ff2ed000d548ce16c2c84aa12d2774dbefcb8b23c70"
+    }
+  ],
+  "source": "Original CUDA BF16 autocast / batch64 / inverse_target; numerical QC only",
+  "attribution_precision_unchanged": "FP32",
+  "scientific_completeness_tolerances_unchanged": true,
+  "atol": 0.0002,
+  "rtol": 2e-05
+}

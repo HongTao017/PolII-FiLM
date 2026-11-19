@@ -1,0 +1,1856 @@
+{
+  "@context": "/terms/",
+  "@graph": [
+    {
+      "@id": "/files/ENCFF420FTB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF420FTB",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR841EQA/",
+      "derived_from": [
+        "/files/ENCFF456KCB/",
+        "/files/ENCFF718IXR/"
+      ],
+      "file_format": "bam",
+      "file_size": 795529568,
+      "href": "/files/ENCFF420FTB/@@download/ENCFF420FTB.bam",
+      "md5sum": "811ec402a0da9eac48cfd47bf87fae86",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/98c61817-11a0-4d6d-b81c-c2d225cb2e2b/ENCFF420FTB.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/388_01_TAF15.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF145NQB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF145NQB",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR845VGB/",
+      "derived_from": [
+        "/files/ENCFF669BXQ/",
+        "/files/ENCFF802XHE/"
+      ],
+      "file_format": "bam",
+      "file_size": 257045320,
+      "href": "/files/ENCFF145NQB/@@download/ENCFF145NQB.bam",
+      "md5sum": "7944261313fdb4c01e45db030e59b188",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/1932952e-e9ae-40e8-bcf0-fd62d4b3390d/ENCFF145NQB.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/595_01_DDX55.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF857OFG/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF857OFG",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR965DLL/",
+      "derived_from": [
+        "/files/ENCFF315AQY/",
+        "/files/ENCFF981KZD/"
+      ],
+      "file_format": "bam",
+      "file_size": 583823198,
+      "href": "/files/ENCFF857OFG/@@download/ENCFF857OFG.bam",
+      "md5sum": "b9cec018d298d4a71334c66ff4c02ea1",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/68b55c3b-34e1-48e0-9c12-ccac1f9b332b/ENCFF857OFG.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/437_01_SFPQ.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF401NJF/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF401NJF",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR834YLD/",
+      "derived_from": [
+        "/files/ENCFF744PVS/",
+        "/files/ENCFF673CDP/"
+      ],
+      "file_format": "bam",
+      "file_size": 595345107,
+      "href": "/files/ENCFF401NJF/@@download/ENCFF401NJF.bam",
+      "md5sum": "e11e8eaab268d0b33a88ae94607b0342",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/1b5dc762-f54a-4bbc-8ada-822d4ed9a2f3/ENCFF401NJF.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/575_01_DROSHA.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF810ZZO/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF810ZZO",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR916XIV/",
+      "derived_from": [
+        "/files/ENCFF834HXI/",
+        "/files/ENCFF146VOH/"
+      ],
+      "file_format": "bam",
+      "file_size": 244275841,
+      "href": "/files/ENCFF810ZZO/@@download/ENCFF810ZZO.bam",
+      "md5sum": "dd008131fe8cfaa50f6a32e1fc6e39ed",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/708b610a-dfde-4d98-99bd-83165e49bd2e/ENCFF810ZZO.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/545_01_EIF3H.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF701ZSE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF701ZSE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR841EQA/",
+      "derived_from": [
+        "/files/ENCFF185GGV/",
+        "/files/ENCFF192XSY/"
+      ],
+      "file_format": "bam",
+      "file_size": 725130147,
+      "href": "/files/ENCFF701ZSE/@@download/ENCFF701ZSE.bam",
+      "md5sum": "92fe04353c46a01ba6f47b7de7cfc81c",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/90e8769b-5974-4c19-9d17-07581e4877f5/ENCFF701ZSE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/388_02_TAF15.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF591FGE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF591FGE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR893NWB/",
+      "derived_from": [
+        "/files/ENCFF500BLJ/",
+        "/files/ENCFF874PLO/"
+      ],
+      "file_format": "bam",
+      "file_size": 979222446,
+      "href": "/files/ENCFF591FGE/@@download/ENCFF591FGE.bam",
+      "md5sum": "9858933a8e99b432c0ebb79349b325ae",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/bc3cfd06-681d-4c9b-885e-9ca74f6b88ca/ENCFF591FGE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/628_01_GRWD1.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF764UJQ/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF764UJQ",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR921SXC/",
+      "derived_from": [
+        "/files/ENCFF172XZS/",
+        "/files/ENCFF989AWZ/"
+      ],
+      "file_format": "bam",
+      "file_size": 260931326,
+      "href": "/files/ENCFF764UJQ/@@download/ENCFF764UJQ.bam",
+      "md5sum": "4e3f3f962919a8872a7e181c6cf5a219",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/22cd6f95-0e6b-43ea-9a6a-c30baa273ba7/ENCFF764UJQ.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/655_02_XPO5.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF904WAE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF904WAE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR907GUB/",
+      "derived_from": [
+        "/files/ENCFF058CEF/",
+        "/files/ENCFF458RXV/"
+      ],
+      "file_format": "bam",
+      "file_size": 598091294,
+      "href": "/files/ENCFF904WAE/@@download/ENCFF904WAE.bam",
+      "md5sum": "dbee1340ad036d8bd986a54cbcefcbe4",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/ff00e035-0650-4b89-a7b1-de94e927d947/ENCFF904WAE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/641_01_ZC3H11A.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF704TQZ/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF704TQZ",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR987NYS/",
+      "derived_from": [
+        "/files/ENCFF545IVO/",
+        "/files/ENCFF815UFF/"
+      ],
+      "file_format": "bam",
+      "file_size": 428241495,
+      "href": "/files/ENCFF704TQZ/@@download/ENCFF704TQZ.bam",
+      "md5sum": "8b8de550a12d83c3df799faac21fcfaa",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/a3a92457-61da-49cb-9efe-c05c172d8843/ENCFF704TQZ.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/297_01_FAM120A.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF023GYY/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF023GYY",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR907GUB/",
+      "derived_from": [
+        "/files/ENCFF824KNR/",
+        "/files/ENCFF481WSB/"
+      ],
+      "file_format": "bam",
+      "file_size": 667829767,
+      "href": "/files/ENCFF023GYY/@@download/ENCFF023GYY.bam",
+      "md5sum": "6cf470154859ce2bb399d73806d545ce",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/933ac939-69ab-4fe7-aefc-3397aeef085b/ENCFF023GYY.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/641_02_ZC3H11A.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF207XKP/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF207XKP",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR921SXC/",
+      "derived_from": [
+        "/files/ENCFF039NQM/",
+        "/files/ENCFF865ZYB/"
+      ],
+      "file_format": "bam",
+      "file_size": 299668040,
+      "href": "/files/ENCFF207XKP/@@download/ENCFF207XKP.bam",
+      "md5sum": "177d12b6479b64beae20a9096d63b9ef",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/d8d2c28e-6262-4559-91a6-ec55a6ec2dfd/ENCFF207XKP.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/655_01_XPO5.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF413DZP/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF413DZP",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR834YLD/",
+      "derived_from": [
+        "/files/ENCFF484RCY/",
+        "/files/ENCFF110FOW/"
+      ],
+      "file_format": "bam",
+      "file_size": 768922471,
+      "href": "/files/ENCFF413DZP/@@download/ENCFF413DZP.bam",
+      "md5sum": "58a7277e54b02a9653aabf923613a059",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/09c61df3-9fd1-4d6e-9ac9-2295f38c2cf9/ENCFF413DZP.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/575_02_DROSHA.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF714YUM/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF714YUM",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR845VGB/",
+      "derived_from": [
+        "/files/ENCFF341WEI/",
+        "/files/ENCFF718DYI/"
+      ],
+      "file_format": "bam",
+      "file_size": 125791696,
+      "href": "/files/ENCFF714YUM/@@download/ENCFF714YUM.bam",
+      "md5sum": "e29a7ce5a53079ead57b5922f17eeca8",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/900c5b70-9098-4b0a-b74d-3081e900ba96/ENCFF714YUM.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/595_02_DDX55.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF345DPL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF345DPL",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR961OKA/",
+      "derived_from": [
+        "/files/ENCFF932HYJ/",
+        "/files/ENCFF419HTA/"
+      ],
+      "file_format": "bam",
+      "file_size": 57112765,
+      "href": "/files/ENCFF345DPL/@@download/ENCFF345DPL.bam",
+      "md5sum": "90fa875179b3ea58fb38f873c3c93f71",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/cdb22e8a-bca0-4e33-8c27-44a7d8a462cf/ENCFF345DPL.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/298_01_LARP7.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF404WOP/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF404WOP",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR977OXG/",
+      "derived_from": [
+        "/files/ENCFF397TFH/",
+        "/files/ENCFF041DDW/"
+      ],
+      "file_format": "bam",
+      "file_size": 608363820,
+      "href": "/files/ENCFF404WOP/@@download/ENCFF404WOP.bam",
+      "md5sum": "61387474405ff74ebce5633ea845570d",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/1458851f-4eea-49d1-bda6-25da46fc7642/ENCFF404WOP.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/752_01_PRPF4.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF559ATC/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF559ATC",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR979EWD/",
+      "derived_from": [
+        "/files/ENCFF920RKR/",
+        "/files/ENCFF048PWH/"
+      ],
+      "file_format": "bam",
+      "file_size": 958011535,
+      "href": "/files/ENCFF559ATC/@@download/ENCFF559ATC.bam",
+      "md5sum": "5000e35ccac73fa94169174d4d185df1",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/05/23/59c2f50d-7227-49e7-b5eb-d874bc22aecf/ENCFF559ATC.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/593_01_STAU2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF562AZL/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF562AZL",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR919HSE/",
+      "derived_from": [
+        "/files/ENCFF860GJP/",
+        "/files/ENCFF313BCR/"
+      ],
+      "file_format": "bam",
+      "file_size": 810840759,
+      "href": "/files/ENCFF562AZL/@@download/ENCFF562AZL.bam",
+      "md5sum": "56b6b9d820db807a044cdb7162135e4d",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/b099bfff-0a1d-409a-9364-64bb60dffebf/ENCFF562AZL.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/292_02_CSTF2T.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF889YGM/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF889YGM",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR987NYS/",
+      "derived_from": [
+        "/files/ENCFF687SEY/",
+        "/files/ENCFF319ICK/"
+      ],
+      "file_format": "bam",
+      "file_size": 481155425,
+      "href": "/files/ENCFF889YGM/@@download/ENCFF889YGM.bam",
+      "md5sum": "520780705d34fb4cd1bc01d2d628e1ab",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/21e71449-9afa-4517-acd4-c265c5bd8740/ENCFF889YGM.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/297_02_FAM120A.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF284RSI/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF284RSI",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR861GYE/",
+      "derived_from": [
+        "/files/ENCFF794YIP/",
+        "/files/ENCFF917QVW/"
+      ],
+      "file_format": "bam",
+      "file_size": 159563748,
+      "href": "/files/ENCFF284RSI/@@download/ENCFF284RSI.bam",
+      "md5sum": "047001835a045663b48958f3dd0490c4",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/b107382b-ab26-415c-8dfe-3269f981d879/ENCFF284RSI.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/387_02_LIN28B.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF208OVE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF208OVE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR919HSE/",
+      "derived_from": [
+        "/files/ENCFF762UXF/",
+        "/files/ENCFF093WJU/"
+      ],
+      "file_format": "bam",
+      "file_size": 848429539,
+      "href": "/files/ENCFF208OVE/@@download/ENCFF208OVE.bam",
+      "md5sum": "53f4cc75071ed770637caa3bd0f2dd1b",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/4edef1cc-0b13-4ba0-b7e9-0e97585945a7/ENCFF208OVE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/292_01_CSTF2T.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF340WIB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF340WIB",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR970FEW/",
+      "derived_from": [
+        "/files/ENCFF479WLK/",
+        "/files/ENCFF939HML/"
+      ],
+      "file_format": "bam",
+      "file_size": 351158609,
+      "href": "/files/ENCFF340WIB/@@download/ENCFF340WIB.bam",
+      "md5sum": "491ff6e60b35e42740399dfe58f4a1e4",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/6a23a852-d1ca-4abe-9fcc-311ba779be22/ENCFF340WIB.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/642_01_DDX52.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF618EON/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF618EON",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR970FEW/",
+      "derived_from": [
+        "/files/ENCFF560TLH/",
+        "/files/ENCFF522NFJ/"
+      ],
+      "file_format": "bam",
+      "file_size": 375830548,
+      "href": "/files/ENCFF618EON/@@download/ENCFF618EON.bam",
+      "md5sum": "d5b89ddd48f24b486c85be56d301f95d",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/b3bb6850-15df-4fb7-982a-f3491c835d03/ENCFF618EON.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/642_02_DDX52.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF080HMO/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF080HMO",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR977OXG/",
+      "derived_from": [
+        "/files/ENCFF601DRB/",
+        "/files/ENCFF541DXC/"
+      ],
+      "file_format": "bam",
+      "file_size": 437291883,
+      "href": "/files/ENCFF080HMO/@@download/ENCFF080HMO.bam",
+      "md5sum": "17dcefd1305b260a76e1380334486317",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/4f972b21-cdae-4f70-87a3-2cc1511ecfa3/ENCFF080HMO.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/752_02_PRPF4.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF040XCG/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF040XCG",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR903PRV/",
+      "derived_from": [
+        "/files/ENCFF580QMH/",
+        "/files/ENCFF820YSI/"
+      ],
+      "file_format": "bam",
+      "file_size": 80782028,
+      "href": "/files/ENCFF040XCG/@@download/ENCFF040XCG.bam",
+      "md5sum": "02573074c2eb3713377f019b856f9838",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/c4880e0b-7483-4d78-a5ea-2cfbbbbbdf24/ENCFF040XCG.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/723_02_FTO.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF202ITE/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF202ITE",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR979EWD/",
+      "derived_from": [
+        "/files/ENCFF659GPS/",
+        "/files/ENCFF366NPD/"
+      ],
+      "file_format": "bam",
+      "file_size": 646443738,
+      "href": "/files/ENCFF202ITE/@@download/ENCFF202ITE.bam",
+      "md5sum": "13415863a3abaa7e1101bca794883afc",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/05/23/27fb68ae-96e6-4b0c-8aa1-d9a33716f646/ENCFF202ITE.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/593_02_STAU2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF157JBC/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF157JBC",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR973HOJ/",
+      "derived_from": [
+        "/files/ENCFF733GMZ/",
+        "/files/ENCFF300OPL/"
+      ],
+      "file_format": "bam",
+      "file_size": 237919756,
+      "href": "/files/ENCFF157JBC/@@download/ENCFF157JBC.bam",
+      "md5sum": "13d27029c9eefe487cf06f026abc3c6f",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/694af1b9-f629-4b2a-b36b-a30b2ad970c2/ENCFF157JBC.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/713_01_FXR2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF385LTB/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF385LTB",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR903PRV/",
+      "derived_from": [
+        "/files/ENCFF099LFN/",
+        "/files/ENCFF233ZOI/",
+        "/files/ENCFF428MRF/",
+        "/files/ENCFF460IHR/",
+        "/files/ENCFF214SLR/",
+        "/files/ENCFF096YYD/",
+        "/files/ENCFF844HAH/",
+        "/files/ENCFF790KRT/"
+      ],
+      "file_format": "bam",
+      "file_size": 173796949,
+      "href": "/files/ENCFF385LTB/@@download/ENCFF385LTB.bam",
+      "md5sum": "659348e162c053fd0343b9f0b85cf61d",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/8ebe7a9e-e378-4fd4-ae17-5f3da373f9ce/ENCFF385LTB.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/723_01reseq_FTO.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF086NCN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF086NCN",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR961OKA/",
+      "derived_from": [
+        "/files/ENCFF834FSL/",
+        "/files/ENCFF237QRX/"
+      ],
+      "file_format": "bam",
+      "file_size": 18393106,
+      "href": "/files/ENCFF086NCN/@@download/ENCFF086NCN.bam",
+      "md5sum": "c29cc465e3f22833347dfb370b7b8d60",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/cb0ef6aa-8c7c-49d8-8fea-65d23445e1ec/ENCFF086NCN.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/298_02_LARP7.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF869UTD/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF869UTD",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR893NWB/",
+      "derived_from": [
+        "/files/ENCFF451BKG/",
+        "/files/ENCFF933DLG/"
+      ],
+      "file_format": "bam",
+      "file_size": 938850509,
+      "href": "/files/ENCFF869UTD/@@download/ENCFF869UTD.bam",
+      "md5sum": "74a7dfd206d65c4a056c4c749c17efa8",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/7d52670a-f508-4097-bbc8-f5dced797fde/ENCFF869UTD.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/628_02_GRWD1.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF061HNX/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF061HNX",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR916SRV/",
+      "derived_from": [
+        "/files/ENCFF085PRU/",
+        "/files/ENCFF447XXS/"
+      ],
+      "file_format": "bam",
+      "file_size": 50375064,
+      "href": "/files/ENCFF061HNX/@@download/ENCFF061HNX.bam",
+      "md5sum": "2219d493709e5dfd80057fa7d60bd6ba",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/fc5df0a4-a22b-42e8-bafd-4b919c125a97/ENCFF061HNX.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/617_01_TBRG4.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF189PHS/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF189PHS",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR916SRV/",
+      "derived_from": [
+        "/files/ENCFF669MVS/",
+        "/files/ENCFF718RWU/"
+      ],
+      "file_format": "bam",
+      "file_size": 63589316,
+      "href": "/files/ENCFF189PHS/@@download/ENCFF189PHS.bam",
+      "md5sum": "b7df2388373b06a95683c3f76a8d1458",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/53c345e9-b66f-4416-a6da-7c73b10e7fc1/ENCFF189PHS.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/617_02_TBRG4.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF756VXR/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF756VXR",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR861GYE/",
+      "derived_from": [
+        "/files/ENCFF916HAS/",
+        "/files/ENCFF459WIT/"
+      ],
+      "file_format": "bam",
+      "file_size": 273670168,
+      "href": "/files/ENCFF756VXR/@@download/ENCFF756VXR.bam",
+      "md5sum": "30707e5c052f1a4333303ef8cfe145eb",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/9e466957-72ce-4604-ab44-80ed70067c28/ENCFF756VXR.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/387_01_LIN28B.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF815GWX/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF815GWX",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR916XIV/",
+      "derived_from": [
+        "/files/ENCFF408PDH/",
+        "/files/ENCFF105SXR/"
+      ],
+      "file_format": "bam",
+      "file_size": 216004110,
+      "href": "/files/ENCFF815GWX/@@download/ENCFF815GWX.bam",
+      "md5sum": "b0ed54b3beb605117374a17b1566fce7",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/bd2ae1c9-e9b9-4509-865b-1ff337375ad9/ENCFF815GWX.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/545_02_EIF3H.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF056KWN/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF056KWN",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR965DLL/",
+      "derived_from": [
+        "/files/ENCFF617MDS/",
+        "/files/ENCFF822GVL/"
+      ],
+      "file_format": "bam",
+      "file_size": 289603602,
+      "href": "/files/ENCFF056KWN/@@download/ENCFF056KWN.bam",
+      "md5sum": "f3b17f00c564d48c180221423eb5e65c",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/b5f757bd-2a72-4e7f-8b61-1fa91b0900ca/ENCFF056KWN.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/437_02_SFPQ.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF239CML/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF239CML",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR987FTF/",
+      "derived_from": [
+        "/files/ENCFF172GUS/",
+        "/files/ENCFF647KDW/"
+      ],
+      "file_format": "bam",
+      "file_size": 381425464,
+      "href": "/files/ENCFF239CML/@@download/ENCFF239CML.bam",
+      "md5sum": "b9e69f61aec8bb4c8f4cf890ab4793fd",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/cabacacb-1452-4658-983f-0925a00ff58b/ENCFF239CML.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/204_01_RBFOX2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF170YQV/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF170YQV",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR987FTF/",
+      "derived_from": [
+        "/files/ENCFF591SSP/",
+        "/files/ENCFF289OFA/"
+      ],
+      "file_format": "bam",
+      "file_size": 373157016,
+      "href": "/files/ENCFF170YQV/@@download/ENCFF170YQV.bam",
+      "md5sum": "ad56fe4df04dc9755db3f20aecdff002",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2016/09/09/e8bc0129-4450-4adb-9196-687b9cb7bf77/ENCFF170YQV.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_file5/204_02_RBFOX2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF500VOG/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF500VOG",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR973HOJ/",
+      "derived_from": [
+        "/files/ENCFF074OYO/",
+        "/files/ENCFF034XGK/"
+      ],
+      "file_format": "bam",
+      "file_size": 189656920,
+      "href": "/files/ENCFF500VOG/@@download/ENCFF500VOG.bam",
+      "md5sum": "d00d0bac5e82addb8cdc53e14b02eed7",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/f9a70df7-408c-4254-924f-458d04dff555/ENCFF500VOG.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/713_02_FXR2.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF510PFS/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF510PFS",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1
+      ],
+      "dataset": "/experiments/ENCSR876EYA/",
+      "derived_from": [
+        "/files/ENCFF463HOI/",
+        "/files/ENCFF695FAB/"
+      ],
+      "file_format": "bam",
+      "file_size": 472616637,
+      "href": "/files/ENCFF510PFS/@@download/ENCFF510PFS.bam",
+      "md5sum": "d4f7cfe7ebc7767203eab883cf572a88",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/660ea5a3-09da-44ec-a686-d8d66abc38c5/ENCFF510PFS.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/643_01_BCLAF1.merged.bam"
+    },
+    {
+      "@id": "/files/ENCFF673LOJ/",
+      "@type": [
+        "File",
+        "Item"
+      ],
+      "accession": "ENCFF673LOJ",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "dataset": "/experiments/ENCSR876EYA/",
+      "derived_from": [
+        "/files/ENCFF033JHH/",
+        "/files/ENCFF490SCE/"
+      ],
+      "file_format": "bam",
+      "file_size": 709611825,
+      "href": "/files/ENCFF673LOJ/@@download/ENCFF673LOJ.bam",
+      "md5sum": "e2d7f9eb1d58325e4da0257dd0f70371",
+      "output_type": "alignments",
+      "s3_uri": "s3://encode-public/2018/04/29/9708f41d-b9b6-4eaf-9f0b-408f85425a3a/ENCFF673LOJ.bam",
+      "status": "released",
+      "submitted_file_name": "/tgc/TGCore_User_Data/ENCODE/DATA/eclip_files_20180212_newExps/GRCH38/643_02_BCLAF1.merged.bam"
+    }
+  ],
+  "@id": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name",
+  "@type": [
+    "Search"
+  ],
+  "clear_filters": "/search/?type=File",
+  "columns": {
+    "@id": {
+      "title": "ID"
+    },
+    "title": {
+      "title": "Title"
+    },
+    "accession": {
+      "title": "Accession"
+    },
+    "dataset": {
+      "title": "Dataset"
+    },
+    "assembly": {
+      "title": "Genome assembly"
+    },
+    "technical_replicates": {
+      "title": "Technical replicates"
+    },
+    "biological_replicates": {
+      "title": "Biological replicates"
+    },
+    "file_format": {
+      "title": "File Format"
+    },
+    "file_type": {
+      "title": "File type"
+    },
+    "file_format_type": {
+      "title": "File format type"
+    },
+    "file_size": {
+      "title": "File size"
+    },
+    "assay_term_name": {
+      "title": "Assay term name"
+    },
+    "biosample_ontology.term_name": {
+      "title": "Biosample name"
+    },
+    "biosample_ontology.organ_slims": {
+      "title": "Organ"
+    },
+    "simple_biosample_summary": {
+      "title": "Simple biosample summary"
+    },
+    "origin_batches": {
+      "title": "Batch"
+    },
+    "target.label": {
+      "title": "Target label"
+    },
+    "href": {
+      "title": "Download URL"
+    },
+    "derived_from": {
+      "title": "Derived from"
+    },
+    "genome_annotation": {
+      "title": "Genome annotation"
+    },
+    "replicate.library.accession": {
+      "title": "Library"
+    },
+    "paired_end": {
+      "title": "Paired end identifier"
+    },
+    "paired_with": {
+      "title": "Paired with"
+    },
+    "preferred_default": {
+      "title": "Preferred Default"
+    },
+    "run_type": {
+      "title": "Run type"
+    },
+    "read_length": {
+      "title": "Read length"
+    },
+    "mapped_read_length": {
+      "title": "Mapped read length (nt)"
+    },
+    "cropped_read_length": {
+      "title": "Cropped read length (nt)"
+    },
+    "cropped_read_length_tolerance": {
+      "title": "Cropped read length tolerance (nt)"
+    },
+    "mapped_run_type": {
+      "title": "Mapped run type for bam files"
+    },
+    "read_length_units": {
+      "title": "Read length units"
+    },
+    "output_category": {
+      "title": "Output category"
+    },
+    "output_type": {
+      "title": "Output type"
+    },
+    "index_of": {
+      "title": "Index of"
+    },
+    "quality_metrics": {
+      "title": "QC Metric"
+    },
+    "lab.title": {
+      "title": "Lab"
+    },
+    "award.project": {
+      "title": "Project"
+    },
+    "step_run": {
+      "title": "Analysis step run"
+    },
+    "date_created": {
+      "title": "Date created"
+    },
+    "analysis_step_version": {
+      "title": "Analysis step version"
+    },
+    "restricted": {
+      "title": "Restricted file"
+    },
+    "submitter_comment": {
+      "title": "Submitter comment"
+    },
+    "status": {
+      "title": "Status"
+    },
+    "annotation_type": {
+      "title": "Annotation type"
+    },
+    "annotation_subtype": {
+      "title": "Annotation subtype"
+    },
+    "biochemical_inputs": {
+      "title": "Biochemical activity"
+    },
+    "encyclopedia_version": {
+      "title": "Encyclopedia version"
+    }
+  },
+  "facet_groups": [
+    {
+      "name": "File",
+      "title": "Format",
+      "facet_fields": [
+        "output_category",
+        "output_type",
+        "file_format",
+        "file_format_type",
+        "file_type"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Assay",
+      "facet_fields": [
+        "assay_title",
+        "platform.term_name",
+        "target.label",
+        "targets.label"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Annotation",
+      "facet_fields": [
+        "annotation_type",
+        "annotation_subtype",
+        "encyclopedia_version"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Biosample",
+      "facet_fields": [
+        "biosample_ontology.term_name",
+        "biosample_ontology.organ_slims",
+        "origin_batches",
+        "biosample_ontology.cell_slims",
+        "biosample_ontology.system_slims"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Analysis",
+      "facet_fields": [
+        "assembly"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Provenance",
+      "facet_fields": [
+        "award.project",
+        "lab.title"
+      ]
+    },
+    {
+      "name": "File",
+      "title": "Quality",
+      "facet_fields": [
+        "status",
+        "audit.ERROR.category",
+        "audit.NOT_COMPLIANT.category",
+        "audit.WARNING.category",
+        "audit.INTERNAL_ACTION.category"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "field": "type",
+      "title": "Data Type",
+      "terms": [
+        {
+          "key": "File",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "status",
+      "title": "Status",
+      "terms": [
+        {
+          "key": "released",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "output_category",
+      "title": "Output category",
+      "terms": [
+        {
+          "key": "alignment",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "output_type",
+      "title": "Output type",
+      "terms": [
+        {
+          "key": "alignments",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "file_format",
+      "title": "File format",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": true
+    },
+    {
+      "field": "file_type",
+      "title": "File type",
+      "terms": [
+        {
+          "key": "bam",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "award.project",
+      "title": "Project",
+      "terms": [
+        {
+          "key": "ENCODE",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assembly",
+      "title": "Genome assembly",
+      "terms": [
+        {
+          "key": "GRCh38",
+          "doc_count": 40
+        },
+        {
+          "key": "hg19",
+          "doc_count": 40
+        }
+      ],
+      "total": 80,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "lab.title",
+      "title": "Lab",
+      "terms": [
+        {
+          "key": "Gene Yeo, UCSD",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "assay_title",
+      "title": "Assay title",
+      "terms": [
+        {
+          "key": "eCLIP",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.term_name",
+      "title": "Biosample",
+      "terms": [
+        {
+          "key": "HepG2",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.organ_slims",
+      "title": "Organ",
+      "terms": [
+        {
+          "key": "endocrine gland",
+          "doc_count": 40
+        },
+        {
+          "key": "epithelium",
+          "doc_count": 40
+        },
+        {
+          "key": "exocrine gland",
+          "doc_count": 40
+        },
+        {
+          "key": "liver",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "origin_batches",
+      "title": "Batch",
+      "terms": [
+        {
+          "key": "/biosamples/ENCBS621TAB/",
+          "doc_count": 9
+        },
+        {
+          "key": "/biosamples/ENCBS074YUC/",
+          "doc_count": 6
+        },
+        {
+          "key": "/biosamples/ENCBS492SDY/",
+          "doc_count": 5
+        },
+        {
+          "key": "/biosamples/ENCBS308ZPA/",
+          "doc_count": 4
+        },
+        {
+          "key": "/biosamples/ENCBS362ASG/",
+          "doc_count": 3
+        },
+        {
+          "key": "/biosamples/ENCBS548DJV/",
+          "doc_count": 3
+        },
+        {
+          "key": "/biosamples/ENCBS575NGC/",
+          "doc_count": 3
+        },
+        {
+          "key": "/biosamples/ENCBS859FFE/",
+          "doc_count": 2
+        },
+        {
+          "key": "/biosamples/ENCBS537ADD/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS547JWV/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS768GCL/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS861HMN/",
+          "doc_count": 1
+        },
+        {
+          "key": "/biosamples/ENCBS881CIF/",
+          "doc_count": 1
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.cell_slims",
+      "title": "Cell",
+      "terms": [
+        {
+          "key": "cancer cell",
+          "doc_count": 40
+        },
+        {
+          "key": "epithelial cell",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "biosample_ontology.system_slims",
+      "title": "Systems",
+      "terms": [
+        {
+          "key": "digestive system",
+          "doc_count": 40
+        },
+        {
+          "key": "endocrine system",
+          "doc_count": 40
+        },
+        {
+          "key": "exocrine system",
+          "doc_count": 40
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "target.label",
+      "title": "Target of assay",
+      "terms": [
+        {
+          "key": "BCLAF1",
+          "doc_count": 2
+        },
+        {
+          "key": "CSTF2T",
+          "doc_count": 2
+        },
+        {
+          "key": "DDX52",
+          "doc_count": 2
+        },
+        {
+          "key": "DDX55",
+          "doc_count": 2
+        },
+        {
+          "key": "DROSHA",
+          "doc_count": 2
+        },
+        {
+          "key": "EIF3H",
+          "doc_count": 2
+        },
+        {
+          "key": "FAM120A",
+          "doc_count": 2
+        },
+        {
+          "key": "FTO",
+          "doc_count": 2
+        },
+        {
+          "key": "FXR2",
+          "doc_count": 2
+        },
+        {
+          "key": "GRWD1",
+          "doc_count": 2
+        },
+        {
+          "key": "LARP7",
+          "doc_count": 2
+        },
+        {
+          "key": "LIN28B",
+          "doc_count": 2
+        },
+        {
+          "key": "PRPF4",
+          "doc_count": 2
+        },
+        {
+          "key": "RBFOX2",
+          "doc_count": 2
+        },
+        {
+          "key": "SFPQ",
+          "doc_count": 2
+        },
+        {
+          "key": "STAU2",
+          "doc_count": 2
+        },
+        {
+          "key": "TAF15",
+          "doc_count": 2
+        },
+        {
+          "key": "TBRG4",
+          "doc_count": 2
+        },
+        {
+          "key": "XPO5",
+          "doc_count": 2
+        },
+        {
+          "key": "ZC3H11A",
+          "doc_count": 2
+        }
+      ],
+      "total": 40,
+      "type": "typeahead",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "audit.WARNING.category",
+      "title": "Audit category: WARNING",
+      "terms": [
+        {
+          "key": "antibody characterized with exemption",
+          "doc_count": 4
+        },
+        {
+          "key": "mixed read lengths",
+          "doc_count": 2
+        }
+      ],
+      "total": 40,
+      "type": "terms",
+      "appended": false,
+      "open_on_load": false
+    },
+    {
+      "field": "dataset",
+      "title": "dataset",
+      "terms": [
+        {
+          "key": "/experiments/ENCSR834YLD/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR841EQA/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR845VGB/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR861GYE/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR876EYA/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR893NWB/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR903PRV/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR907GUB/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR916SRV/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR916XIV/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR919HSE/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR921SXC/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR961OKA/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR965DLL/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR970FEW/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR973HOJ/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR977OXG/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR979EWD/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR987FTF/",
+          "isEqual": true
+        },
+        {
+          "key": "/experiments/ENCSR987NYS/",
+          "isEqual": true
+        }
+      ],
+      "appended": true,
+      "total": 0
+    }
+  ],
+  "filters": [
+    {
+      "field": "file_format",
+      "term": "bam",
+      "remove": "/search/?type=File&format=json&limit=all&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "output_type",
+      "term": "alignments",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "status",
+      "term": "released",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "assembly",
+      "term": "GRCh38",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR834YLD/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR841EQA/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR845VGB/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR861GYE/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR876EYA/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR893NWB/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR903PRV/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR907GUB/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR916SRV/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR916XIV/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR919HSE/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR921SXC/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR961OKA/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR965DLL/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR970FEW/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR973HOJ/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR977OXG/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR979EWD/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR987FTF/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "dataset",
+      "term": "/experiments/ENCSR987NYS/",
+      "remove": "/search/?type=File&format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    },
+    {
+      "field": "type",
+      "term": "File",
+      "remove": "/search/?format=json&limit=all&file_format=bam&output_type=alignments&status=released&assembly=GRCh38&dataset=%2Fexperiments%2FENCSR834YLD%2F&dataset=%2Fexperiments%2FENCSR841EQA%2F&dataset=%2Fexperiments%2FENCSR845VGB%2F&dataset=%2Fexperiments%2FENCSR861GYE%2F&dataset=%2Fexperiments%2FENCSR876EYA%2F&dataset=%2Fexperiments%2FENCSR893NWB%2F&dataset=%2Fexperiments%2FENCSR903PRV%2F&dataset=%2Fexperiments%2FENCSR907GUB%2F&dataset=%2Fexperiments%2FENCSR916SRV%2F&dataset=%2Fexperiments%2FENCSR916XIV%2F&dataset=%2Fexperiments%2FENCSR919HSE%2F&dataset=%2Fexperiments%2FENCSR921SXC%2F&dataset=%2Fexperiments%2FENCSR961OKA%2F&dataset=%2Fexperiments%2FENCSR965DLL%2F&dataset=%2Fexperiments%2FENCSR970FEW%2F&dataset=%2Fexperiments%2FENCSR973HOJ%2F&dataset=%2Fexperiments%2FENCSR977OXG%2F&dataset=%2Fexperiments%2FENCSR979EWD%2F&dataset=%2Fexperiments%2FENCSR987FTF%2F&dataset=%2Fexperiments%2FENCSR987NYS%2F&field=accession&field=dataset&field=assembly&field=output_type&field=status&field=file_format&field=file_size&field=md5sum&field=s3_uri&field=href&field=biological_replicates&field=derived_from&field=submitted_file_name"
+    }
+  ],
+  "notification": "Success",
+  "sort": {
+    "date_created": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "label": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    },
+    "uuid": {
+      "order": "desc",
+      "unmapped_type": "keyword"
+    }
+  },
+  "title": "Search",
+  "total": 40
+}

@@ -1,0 +1,11 @@
+{
+  "filename": "fig5.a.pdf",
+  "panel": "A",
+  "description": "ZBTB7A完整600bp TSS归因与50bp来源seqlet联动放大",
+  "gene": "ZBTB7A",
+  "fold": 10,
+  "pattern": "r0_pos_patterns_pattern_0",
+  "seqlet": 75,
+  "entry_script": "plot.py",
+  "kind": "linked_full_TSS_and_seqlet_zoom"
+}

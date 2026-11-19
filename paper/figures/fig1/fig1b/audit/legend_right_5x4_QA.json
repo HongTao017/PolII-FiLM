@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "figure_directory": "figures/final_figure_small/legend_right_5x4",
+  "skill": "final-figure-small",
+  "canvas_exception": null,
+  "figures": [
+    {
+      "filename": "tSNE_PI_by_assay.pdf",
+      "sha256": "5930c2c5abd1d585f2064196e988140b537d212700097dcf4ae1ffa92f409132",
+      "canvas_inches": [
+        5,
+        4
+      ],
+      "PDF_page_points": [
+        360,
+        288
+      ],
+      "color_by": "assay",
+      "samples": 105,
+      "legend_position": "right",
+      "legend_columns": 1,
+      "legend_rows": 3,
+      "legend_entries": 3,
+      "plot_dimensions_points": [
+        213.39,
+        200.22353951861754
+      ],
+      "font": "Arial",
+      "axis_tick_pt": 12,
+      "axis_title_pt": 14,
+      "legend_pt": 12,
+      "coordinate_sha256": "f07795d587b6514e44f3d571e2b180a09a60864d4dae8d57a0f76b0d72e0c559",
+      "coordinates_exactly_preserved": true,
+      "no_text_overlap": true,
+      "no_text_clipping": true,
+      "connector_lines": 0,
+      "pdf_verified": {
+        "page_points": [
+          360,
+          288
+        ],
+        "one_page": true,
+        "editable_Arial_TrueType": true,
+        "font_sizes": [
+          12,
+          14
+        ],
+        "full_legend_present": true,
+        "raster_images": 0,
+        "visual_review": "PASS: no clipped or overlapping text"
+      }
+    },
+    {
+      "filename": "tSNE_PI_by_cell_line.pdf",
+      "sha256": "224224656d2d979c4a962d2603c664e9f60b8e387f7cc81ae2d4371c83a903dd",
+      "canvas_inches": [
+        5,
+        4
+      ],
+      "PDF_page_points": [
+        360,
+        288
+      ],
+      "color_by": "cell_type",
+      "samples": 105,
+      "legend_position": "right",
+      "legend_columns": 2,
+      "legend_rows": 16,
+      "legend_entries": 31,
+      "plot_dimensions_points": [
+        132.91,
+        124.70926771366717
+      ],
+      "font": "Arial",
+      "axis_tick_pt": 12,
+      "axis_title_pt": 14,
+      "legend_pt": 12,
+      "coordinate_sha256": "f07795d587b6514e44f3d571e2b180a09a60864d4dae8d57a0f76b0d72e0c559",
+      "coordinates_exactly_preserved": true,
+      "no_text_overlap": true,
+      "no_text_clipping": true,
+      "connector_lines": 0,
+      "pdf_verified": {
+        "page_points": [
+          360,
+          288
+        ],
+        "one_page": true,
+        "editable_Arial_TrueType": true,
+        "font_sizes": [
+          12,
+          14
+        ],
+        "full_legend_present": true,
+        "raster_images": 0,
+        "visual_review": "PASS: no clipped or overlapping text"
+      }
+    },
+    {
+      "filename": "tSNE_PI_by_author.pdf",
+      "sha256": "5f5b65952f585316267bb511614e7a3d1a326e107eada39f8761e7b9143e780d",
+      "canvas_inches": [
+        5,
+        4
+      ],
+      "PDF_page_points": [
+        360,
+        288
+      ],
+      "color_by": "study",
+      "samples": 105,
+      "legend_position": "right",
+      "legend_columns": 2,
+      "legend_rows": 17,
+      "legend_entries": 34,
+      "plot_dimensions_points": [
+        117.34000000000002,
+        110.09995841939444
+      ],
+      "font": "Arial",
+      "axis_tick_pt": 12,
+      "axis_title_pt": 14,
+      "legend_pt": 12,
+      "coordinate_sha256": "f07795d587b6514e44f3d571e2b180a09a60864d4dae8d57a0f76b0d72e0c559",
+      "coordinates_exactly_preserved": true,
+      "no_text_overlap": true,
+      "no_text_clipping": true,
+      "connector_lines": 0,
+      "pdf_verified": {
+        "page_points": [
+          360,
+          288
+        ],
+        "one_page": true,
+        "editable_Arial_TrueType": true,
+        "font_sizes": [
+          12,
+          14
+        ],
+        "full_legend_present": true,
+        "raster_images": 0,
+        "visual_review": "PASS: no clipped or overlapping text"
+      }
+    }
+  ],
+  "source_data_and_embedding_hash_comparison": "PASS: all data, analysis and embedding files unchanged during redraw"
+}
