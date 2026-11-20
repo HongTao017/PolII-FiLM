@@ -10,3 +10,6 @@ release_assets/
 *.otf
 *.part[0-9]*
 *.egg-info/
+
+# Install third-party QA libraries through requirements instead of vendoring.
+**/qa_deps/
