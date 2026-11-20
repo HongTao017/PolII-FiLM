@@ -122,14 +122,9 @@ def main():
         panels='positive and negative contribution patterns separated; no empty groups invented',
         point_unit='mean per source DNA-overlap group', background='All matched controls for each sign; match IDs deduplicated, then mean per source DNA group',
         data_changed=False, statistics_recomputed=False, plots=plots), indent=2))
-    (OUT / 'README.md').write_text('''# 全部 motif，紧凑无星号版
+    (OUT / 'README.md').write_text('''# Compact motif panels without significance stars
 
-全部 11 个 TF 标签、16 个 TF/归因符号组合均展示。正贡献和负贡献分为上下两行，并各自绘制匹配背景。不显示显著性星号。
-
-all_11_motifs_zoom_no_stars.pdf 沿用 ±0.0015 PC1 的放大范围，刻度 0.0005，边界三角提示范围外值。
-all_11_motifs_full_range_no_stars.pdf 显示全部散点范围，不截断极端值。
-
-横向紧凑布局 10.8×5.4 英寸，刻度 12 pt、轴标题 14 pt、可编辑 PDF；图中没有大标题或页脚段落。纵轴是 WT 减打乱后的原尺度 PC1，显示 ×10⁻³；不是 NET-seq counts 或 PI 百分比。所有统计保持原样，多个 TF 标签可能共享 pattern。没有对应符号原始 pattern 的标签不强行补零。
+All 11 TF annotations and 16 annotation/sign combinations are shown. Positive and negative attribution patterns have separate rows and matched backgrounds. The zoomed PDF uses +/-0.0015 PC1 with 0.0005 ticks and boundary markers; the full-range PDF retains all points. The canvas is 10.8 by 5.4 inches, with 12 pt ticks, 14 pt axis labels and editable PDF text. Effects are WT minus disrupted PC1 in original units, displayed at 1e-3 scale. TF annotations can share patterns. Missing annotation/sign combinations are not replaced by zeros. Statistics are unchanged.
 ''', encoding='utf-8')
     audit()
     print(json.dumps(dict(directory=str(OUT), motif_labels=11, combinations=16, PDFs=[p['file'] for p in plots])))

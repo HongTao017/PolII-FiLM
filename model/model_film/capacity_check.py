@@ -7,15 +7,15 @@ import time
 
 def main():
     import torch
-    from corgi_splice4.config import make_config, REGION_NAMES
-    from corgi_splice4.model import CorgiSplice4Regressor
+    from region_film.config import make_config, REGION_NAMES
+    from region_film.model import PolIIFiLMRegressor
     parser = argparse.ArgumentParser()
     parser.add_argument("--batch-size", type=int, default=64)
     args = parser.parse_args()
     torch.set_num_threads(4)
     torch.manual_seed(20260915)
     config = make_config()
-    model = CorgiSplice4Regressor(config).cuda().train()
+    model = PolIIFiLMRegressor(config).cuda().train()
     assert not any("attention" in type(module).__name__.lower() or
                    "transformer" in type(module).__name__.lower() for module in model.modules())
     assert not hasattr(model, "film_mlp_transformer")

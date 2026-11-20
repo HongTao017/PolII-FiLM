@@ -28,7 +28,7 @@ seq=plan['window_WT_sequence'];s,e=plan['window_input0_halfopen'];a,b=plan['moti
 assert n==101 and (e-s)==101 and np.all(np.diff(coords)==(1 if plan['strand']=='+' else -1))
 for i,base in enumerate(seq):assert heat['ACGT'.index(base),i]==0
 assert a-s<=point<b-s and np.isclose(heat['ACGT'.index(h['alternative']),point],h['mean_delta_signed_Y_PC1'])
-# Same Gaussian convolution as PauseNet: radius ceil(4*sigma), zero padding.
+
 SMOOTH_SIGMA_BP=1.1
 def smooth(values,sigma):
     values=np.asarray(values,dtype=np.float64)

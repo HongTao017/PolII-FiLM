@@ -40,7 +40,7 @@ run_fastqc() {
   local input_pattern="$1" output="$2" logdir="$3"
   mkdir -p "$output" "$logdir"
   mapfile -d '' files < <(find "$input_pattern" -type f -name '*.fastq.gz' -print0)
-  ((${#files[@]} > 0)) || { echo "[错误] 未找到FASTQ：$input_pattern" >&2; exit 1; }
+  ((${#files[@]} > 0)) || { echo "[Error] Not found: FASTQ: $input_pattern" >&2; exit 1; }
   fastqc --threads "$THREADS" --outdir "$output" "${files[@]}" \
     > "$logdir/fastqc.log" 2>&1
   multiqc "$output" --outdir "$output" -n multiqc_report.html --force \
@@ -65,7 +65,7 @@ case "$STAGE" in
     python3 "$PROJECT/scripts/build_proseq_cleaning_manifest.py" \
       --manifest "$MANIFEST" --metrics "$RAW_METRICS" \
       --project "$PROJECT" --output "$CLEAN_MANIFEST"
-    echo "请先逐行检查后再执行clean：$CLEAN_MANIFEST"
+    echo "Review each row before running clean: $CLEAN_MANIFEST"
     ;;
   clean)
     python3 "$PROJECT/scripts/clean_proseq_runs.py" \
@@ -84,7 +84,7 @@ case "$STAGE" in
   rrna)
     RRNA_INDEX="${RRNA_INDEX:-$(find_rrna_index || true)}"
     [[ -n "$RRNA_INDEX" ]] || {
-      echo "[错误] 未找到rRNA Bowtie2索引；请设置 RRNA_INDEX=/path/to/human_rRNA" >&2
+      echo "[Error] rRNA Bowtie2 index not found; set RRNA_INDEX=/path/to/human_rRNA" >&2
       exit 1
     }
     python3 "$PROJECT/scripts/filter_proseq_rrna.py" \
@@ -108,15 +108,15 @@ case "$STAGE" in
     PROJECT="$PROJECT" bash "$PROJECT/scripts/run_proseq_pi_batch.sh"
     ;;
   status)
-    echo "项目：$PROJECT"
-    echo "预期Run：$(($(wc -l < "$SAMPLES") - 1))"
-    echo "原始FASTQ：$(find "$PROJECT/raw" -maxdepth 1 -name '*.fastq.gz' 2>/dev/null | wc -l)"
-    echo "清洗FASTQ：$(find "$PROJECT/clean" -type f -name '*.clean.fastq.gz' 2>/dev/null | wc -l)"
-    echo "非rRNA FASTQ：$(find "$PROJECT/rrna_filtered/final" -name '*.fastq.gz' 2>/dev/null | wc -l)"
-    echo "Q20 BAM：$(find "$PROJECT/alignment/GRCh38/run_q20_bam" -name '*.q20.bam' 2>/dev/null | wc -l)"
+    echo "Project: $PROJECT"
+    echo "Expected runs: $(($(wc -l < "$SAMPLES") - 1))"
+    echo "Raw FASTQ: $(find "$PROJECT/raw" -maxdepth 1 -name '*.fastq.gz' 2>/dev/null | wc -l)"
+    echo "Clean FASTQ: $(find "$PROJECT/clean" -type f -name '*.clean.fastq.gz' 2>/dev/null | wc -l)"
+    echo "Non-rRNA FASTQ: $(find "$PROJECT/rrna_filtered/final" -name '*.fastq.gz' 2>/dev/null | wc -l)"
+    echo "Q20 BAM: $(find "$PROJECT/alignment/GRCh38/run_q20_bam" -name '*.q20.bam' 2>/dev/null | wc -l)"
     ;;
   *)
-    echo "用法：$0 {manifest|download|raw_qc|prepare_cleaning|clean|clean_qc|rrna|align|orientation|pi|status}" >&2
+    echo "Usage: $0 {manifest|download|raw_qc|prepare_cleaning|clean|clean_qc|rrna|align|orientation|pi|status}" >&2
     exit 2
     ;;
 esac

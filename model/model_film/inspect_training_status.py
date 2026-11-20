@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import subprocess
 
-ROOT = Path("/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008")
+ROOT = Path("/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008")
 
 
 def inspect():

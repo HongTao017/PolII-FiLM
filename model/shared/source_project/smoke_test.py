@@ -7,10 +7,10 @@ import numpy as np
 import pandas as pd
 import torch
 
-from bpnet_polii.config import CONFIG
-from bpnet_polii.data import MultiRegionGeneDataset, REGION_NAMES
-from bpnet_polii.model import BPNetPOLIIRegressor
-from corgi_polii.utils import sha256, write_json
+from sequence_utils.config import CONFIG
+from sequence_utils.data import MultiRegionGeneDataset, REGION_NAMES
+from sequence_utils.model import SequenceCNNPOLIIRegressor
+from pausing_utils.utils import sha256, write_json
 
 
 def core_definitions(path):
@@ -23,13 +23,13 @@ def main():
     torch.set_num_threads(4)
     torch.manual_seed(20260915)
     root = Path(__file__).resolve().parent
-    prepared = root / "data/bpnet_prepared"
+    prepared = root / "data/sequence_prepared"
     manifest = json.loads((prepared / "manifest.json").read_text())
     assert manifest["sequence_input_mode"] == "four_independent_dilated_encoders"
     assert manifest["region_lengths"] == CONFIG["region_lengths"]
     assert tuple(CONFIG["region_lengths"]) == REGION_NAMES
     assert core_definitions(root / "reference_original_model.py") == \
-        core_definitions(root / "bpnet_polii/model.py")
+        core_definitions(root / "sequence_utils/model.py")
     for name, digest in manifest["prepared_sha256"].items():
         assert sha256(prepared / name) == digest, name
     genes = pd.read_csv(prepared / "genes.tsv", sep="\t")
@@ -45,7 +45,7 @@ def main():
     inputs["regulatory_features"] = torch.zeros(len(rows), manifest["feature_count"])
     assert not inputs["first_donor_sequence"][2].any()
     assert not inputs["first_acceptor_sequence"][2].any()
-    model = BPNetPOLIIRegressor(CONFIG, manifest["feature_count"])
+    model = SequenceCNNPOLIIRegressor(CONFIG, manifest["feature_count"])
     assert not hasattr(model, "concatenate_regions")
     assert not hasattr(model, "sequence_encoder")
     assert list(model.region_encoders) == list(REGION_NAMES)

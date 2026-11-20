@@ -6,7 +6,7 @@ from matplotlib.text import Text
 
 import plot_test_custom_palette as custom
 
-DESTINATION = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/22_final_test_feature_comparison_custom_palette_NA.pdf')
+DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/22_final_test_feature_comparison_custom_palette_NA.pdf')
 
 
 class NALabelPdfPages(PdfPages):

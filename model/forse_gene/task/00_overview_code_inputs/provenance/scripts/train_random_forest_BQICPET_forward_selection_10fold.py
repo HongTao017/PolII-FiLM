@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""对B/Q/I/C/P/E/T特征组执行随机森林10折显著性前向选择。
-
-固定从B开始，依次尝试加入Q、I、C、P、E、T。每一步都使用完全相同的
-10个折，比较候选模型与当前已保留模型的逐折Pearson相关系数。只有平均
-Pearson提高且单侧配对t检验经Bonferroni校正后P<0.05，候选组才被保留。
-
-每折缺失值中位数仅使用该折训练集计算。脚本不做z-score、不搜索参数，
-也不把Y_PC1、gene或其他注释列作为X。
-"""
+"Perform ten-fold sequential feature-group selection with random forests."
 
 from __future__ import annotations
 
@@ -59,13 +51,13 @@ EXPECTED_COUNTS = OrderedDict(
     [("B", 22), ("Q", 13), ("I", 8), ("C", 61), ("P", 340), ("E", 340), ("T", 2)]
 )
 GROUP_DESCRIPTIONS = {
-    "B": "基础基因结构",
-    "Q": "序列组成",
-    "I": "CpG岛",
-    "C": "密码子频率",
-    "P": "pause区域1-4mer",
-    "E": "gene-body区域1-4mer",
-    "T": "CTCF预测结合",
+    "B": "Basic gene architecture",
+    "Q": "Sequence composition",
+    "I": "CpG islands",
+    "C": "Codon frequencies",
+    "P": "Pausing-region 1-4-mers",
+    "E": "Gene-body 1-4-mers",
+    "T": "Predicted CTCF binding",
 }
 
 FIXED_PARAMETERS = {
@@ -130,28 +122,28 @@ def load_data(
     matrix_path: Path, dictionary_path: Path
 ) -> tuple[pd.Series, pd.DataFrame, np.ndarray, OrderedDict[str, list[str]]]:
     if not matrix_path.is_file():
-        raise FileNotFoundError(f"找不到输入矩阵：{matrix_path}")
+        raise FileNotFoundError(f"Input matrix not found: {matrix_path}")
     if not dictionary_path.is_file():
-        raise FileNotFoundError(f"找不到特征字典：{dictionary_path}")
+        raise FileNotFoundError(f"Feature dictionary not found: {dictionary_path}")
 
     dictionary = pd.read_csv(dictionary_path, sep="\t", dtype=str)
     required_dictionary = {"letter", "feature_name"}
     if not required_dictionary.issubset(dictionary.columns):
         raise ValueError(
-            f"特征字典缺少列：{sorted(required_dictionary - set(dictionary.columns))}"
+            f"Feature dictionary is missing columns: {sorted(required_dictionary - set(dictionary.columns))}"
         )
     if dictionary["feature_name"].duplicated().any():
         duplicate = dictionary.loc[
             dictionary["feature_name"].duplicated(), "feature_name"
         ].tolist()[:10]
-        raise ValueError(f"特征字典存在重复特征：{duplicate}")
+        raise ValueError(f"Duplicate features in dictionary: {duplicate}")
 
     groups: OrderedDict[str, list[str]] = OrderedDict()
     for group, expected_count in EXPECTED_COUNTS.items():
         columns = dictionary.loc[dictionary["letter"] == group, "feature_name"].tolist()
         if len(columns) != expected_count:
             raise ValueError(
-                f"{group}实际有{len(columns)}列，不是预期的{expected_count}列"
+                f"{group} has {len(columns)} columns; expected {expected_count} columns"
             )
         groups[group] = columns
 
@@ -159,10 +151,10 @@ def load_data(
     required_matrix = {GENE_COLUMN, TARGET_COLUMN}
     if not required_matrix.issubset(matrix.columns):
         raise ValueError(
-            f"输入矩阵缺少列：{sorted(required_matrix - set(matrix.columns))}"
+            f"Input matrix is missing columns: {sorted(required_matrix - set(matrix.columns))}"
         )
     if matrix[GENE_COLUMN].isna().any() or matrix[GENE_COLUMN].duplicated().any():
-        raise ValueError("gene列存在缺失或重复")
+        raise ValueError("The gene column contains missing or duplicate identifiers")
 
     all_features = [column for columns in groups.values() for column in columns]
     matrix_features = [
@@ -174,7 +166,7 @@ def load_data(
         missing = sorted(set(all_features) - set(matrix_features))[:10]
         extra = sorted(set(matrix_features) - set(all_features))[:10]
         raise ValueError(
-            f"矩阵与字典的列或顺序不一致；字典有但矩阵无={missing}；矩阵多出={extra}"
+            f"Matrix and dictionary columns/order disagree; missing in matrix={missing}; extra in matrix={extra}"
         )
     suspicious = [
         column
@@ -184,16 +176,16 @@ def load_data(
         or "individual_sample_pi" in column.lower()
     ]
     if suspicious:
-        raise ValueError(f"发现疑似标签泄露列：{suspicious}")
+        raise ValueError(f"Possible target leakage columns: {suspicious}")
 
     x = matrix[all_features].apply(pd.to_numeric, errors="coerce").astype(np.float32)
     y = pd.to_numeric(matrix[TARGET_COLUMN], errors="coerce").to_numpy(np.float64)
     if np.isnan(y).any() or np.isinf(y).any():
-        raise ValueError("Y_PC1存在缺失值或无穷值")
+        raise ValueError("Y_PC1 contains missing or infinite values")
     if x.isna().all().any():
-        raise ValueError(f"存在全缺失X列：{x.columns[x.isna().all()].tolist()}")
+        raise ValueError(f"All-missing predictor columns: {x.columns[x.isna().all()].tolist()}")
     if np.isinf(x.to_numpy(np.float64, copy=False)).any():
-        raise ValueError("X矩阵存在无穷值")
+        raise ValueError("The predictor matrix contains infinite values")
     return matrix[GENE_COLUMN].astype(str), x, y, groups
 
 
@@ -222,7 +214,7 @@ def evaluate_model(
     importance_rows: list[dict[str, Any]] = []
 
     print(
-        f"训练{model_id}：组={'+'.join(selected_groups)}；X={len(columns)}",
+        f"Training {model_id}: groups={'+'.join(selected_groups)}; X={len(columns)}",
         flush=True,
     )
     for fold_number, (train_index, test_index) in enumerate(folds, start=1):
@@ -265,14 +257,14 @@ def evaluate_model(
             for column, importance in zip(columns, importances)
         )
         print(
-            f"  第{fold_number}/{len(folds)}折："
-            f"Pearson={metrics['pearson_r']:.6f}；"
-            f"R2={metrics['r2']:.6f}；RMSE={metrics['rmse']:.6f}",
+            f"  {fold_number}/{len(folds)} folds: "
+            f"Pearson={metrics['pearson_r']:.6f}; "
+            f"R2={metrics['r2']:.6f}; RMSE={metrics['rmse']:.6f}",
             flush=True,
         )
 
     if np.isnan(predictions).any():
-        raise RuntimeError(f"{model_id}有基因未获得OOF预测")
+        raise RuntimeError(f"{model_id} has genes without OOF predictions")
     fold_frame = pd.DataFrame(fold_rows)
     pooled = metric_values(y, predictions)
     summary: dict[str, Any] = {
@@ -360,9 +352,9 @@ def main() -> None:
             }
         )
         print(
-            f"步骤{step} {candidate_group}：差值={mean_difference:.6f}；"
-            f"校正P={corrected_p:.6g}；"
-            f"{'保留' if accepted else '不保留'}",
+            f"Step {step} {candidate_group}: difference={mean_difference:.6f}; "
+            f"adjusted P={corrected_p:.6g}; "
+            f"{"Retained" if accepted else "Not retained"}",
             flush=True,
         )
 
@@ -469,27 +461,13 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    readme = f"""# 随机森林B/Q/I/C/P/E/T显著性前向选择
-
-固定从B开始，依次测试Q、I、C、P、E、T。每次使用相同的{args.folds}折，
-对候选模型和当前模型的逐折Pearson进行单侧配对t检验，并对
-{correction_count}次候选加入进行Bonferroni校正。校正P<{args.alpha}且平均
-Pearson提高时才保留该组。
-
-最终保留组：{'+'.join(selected)}
-
-最终X特征数：{len(selected_columns)}
-
-注意：原论文比较的是预先定义的特征组合，并没有自动按显著性删除组。
-本脚本是按本项目要求加入的自适应前向选择版本。由于组选择和性能统计来自
-同一套交叉验证，最终CV性能属于内部筛选结果，正式泛化性能仍需独立数据验证。
-"""
+    readme = f"# Ordered random forest feature-group selection\n\nStart from B and test Q, I, C, P, E and T in fixed order. Candidate and current models use the same {args.folds} folds. One-sided paired t-tests compare fold-level Pearson correlations, with Bonferroni correction for {correction_count} candidate additions. A group is retained only when corrected P < {args.alpha} and mean Pearson correlation improves.\nSelected groups: {'+'.join(selected)}.\nPredictor count: {len(selected_columns)}.\nSelection and performance estimates share cross-validation folds. These are internal exploratory selection results; independent data are needed for a separate generalization assessment.\n"
     (args.output / "README.md").write_text(readme, encoding="utf-8")
 
-    print(f"完成。最终保留组：{'+'.join(selected)}", flush=True)
-    print(f"最终X特征数：{len(selected_columns)}", flush=True)
-    print(f"输出目录：{args.output}", flush=True)
-    print(f"耗时：{elapsed_minutes:.2f}分钟", flush=True)
+    print(f"Completed. Selected groups: {'+'.join(selected)}", flush=True)
+    print(f"Predictor count: {len(selected_columns)}", flush=True)
+    print(f"Output directory: {args.output}", flush=True)
+    print(f"Elapsed time: {elapsed_minutes:.2f} minutes", flush=True)
 
 
 if __name__ == "__main__":

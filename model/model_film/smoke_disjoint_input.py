@@ -5,8 +5,8 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from corgi_splice4.config import make_config, REGION_NAMES
-from corgi_splice4.model import CorgiSplice4Regressor
+from region_film.config import make_config, REGION_NAMES
+from region_film.model import PolIIFiLMRegressor
 from train_experiment import dependencies, load_metadata, preflight, read_config
 
 
@@ -17,12 +17,12 @@ def main():
     Dataset, Preprocessor, _, seed_everything, _, split_indices, _, _ = dependencies(config)
     metadata = load_metadata(config)
     train, validation, test = split_indices(metadata.fold.values, 1)
-    prepared = Path(config["source_root"]) / "data/bpnet_prepared"
+    prepared = Path(config["source_root"]) / "data/sequence_prepared"
     x, y = np.load(prepared / "regulatory_log10_unscaled.npy"), np.load(prepared / "target.npy")
     processor = Preprocessor().fit(x[train], y[train])
     features, target = processor.transform(x), processor.transform_target(y)
     seed_everything(config["replicate_seeds"][0])
-    model = CorgiSplice4Regressor(make_config({"draft_only": False})).cuda()
+    model = PolIIFiLMRegressor(make_config({"draft_only": False})).cuda()
     model.fit_input_normalization(features[train])
     before = model.input_normalization_summary()["statistics_sha256"]
     sample = Dataset(prepared, train[:4], features, target)

@@ -11,7 +11,7 @@ from scipy.stats import pearsonr, spearmanr
 parser = argparse.ArgumentParser()
 parser.add_argument('--include-points', action='store_true')
 args = parser.parse_args()
-root = Path('/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008')
+root = Path('/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008')
 config = json.loads((root / 'training_config.json').read_text())
 state = json.loads((root / 'launcher_state.json').read_text())
 assert state['status'] == 'complete'

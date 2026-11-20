@@ -21,7 +21,7 @@ def make_plots(root, config, plan):
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'pdf.fonttype':42,'ps.fonttype':42})
     hypothetical=np.mean([np.load(root/'attributions'/f'seed_{s}'/'hypothetical.npy') for s in config['seeds']],0)
     metadata=pd.read_csv(Path(config['model_root'])/'data/genes_repartitioned.tsv',sep='\t')
-    source=Path(config['source_root'])/'data/bpnet_prepared'
+    source=Path(config['source_root'])/'data/sequence_prepared'
     files=[]
     for item in plan:
         folder=root/'perturbations'/item['instance_id']

@@ -103,7 +103,7 @@ report=dict(status='complete',genes=1550,seeds=5,verified_gene_seed_results=veri
             sensitivity_positive_entries_only=conditional,original_peak_signal_vs_primary_normalized=signal_after,
             excluded_primary=['POLR3G','SYNCRIP'],exclude_reason='No positive original ChIP input in the complete cohort',
             S='abs(predicted PC1 - original training-fold mean)',offset=.1,
-            paper='Corgi Supplementary Fig. S9b, score/(input+0.1) followed by quadratic regression; adaptation, not an exact assay/cohort replication',
+            paper='PolII Supplementary Fig. S9b, score/(input+0.1) followed by quadratic regression; adaptation, not an exact assay/cohort replication',
             caveat='Residual association is descriptive and does not establish absence of leakage, biological causality or independent effects.',
             input_cpm_sha256=sha(ROOT/'factor_source_cell_cpm.tsv'),source_manifest_sha256=manifest_hash,
             original_factor_points_sha256=source_hash,code_sha256=sha(Path(__file__)),collector_code_sha256=sha(ROOT/'chip_s9b_input_normalized.py'),

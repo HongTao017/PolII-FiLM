@@ -350,8 +350,7 @@
       "sha256": "0813a49ed4e18864d5cdf51695a760df27369af969bbd4e7f825507ec58f7cd6"
     }
   ],
-  "pausenet_reference_sha256": "e51060eff9d53bab63fb9e9cb18dbe692f5932015ecf1269c2494cc748b489d5",
-  "script_sha256": "c8d89c84f087faf6c33a766246483369fadeee33c085ad912ef5bc13b6e324c1",
+  "script_sha256": "1dbac51a0d20bfb347b1d329e5977a58e0bdcc5e44d1302eeb15a527ec8284e8",
   "plans": {
     "1": "346551af13481ce4aef615ea08e1170129bc64ed16e329fc21a0cc43c9daae4b",
     "2": "6d2153daac950867ad7b6bcccc8b1fd3fa4d61ec2299ef68282a55293f3c76e9",
@@ -376,5 +375,6 @@
     20260918,
     20260919
   ],
-  "variant_forward_predictions": 27360
+  "variant_forward_predictions": 27360,
+  "archive_protocol_sha256": "311a7adf6b27bf3ce6c8a5726a3fa356194b1199873e7de39d8f200a45744770"
 }

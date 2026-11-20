@@ -160,8 +160,8 @@ def load_original(config, seed, device='cpu'):
     for root in (config['source_root'], config['model_root']):
         if root not in sys.path:
             sys.path.insert(0, root)
-    from corgi_splice4.model import CorgiSplice4Regressor
-    from corgi_polii.preprocessing import FoldPreprocessor
+    from region_film.model import PolIIFiLMRegressor
+    from pausing_utils.preprocessing import FoldPreprocessor
     root = Path(config['model_root'])
     train = json.loads((root/'training_config.json').read_text())
     folder = root/'result'/train['run_name']/f'fold_{config["fold"]:02d}'/f'seed_{seed}'
@@ -173,7 +173,7 @@ def load_original(config, seed, device='cpu'):
     for key, base in (('implementation_sha256', config['model_root']), ('reused_source_sha256', config['source_root'])):
         for name, expected in spec[key].items():
             assert digest(Path(base)/name) == expected, (name, 'source fingerprint mismatch')
-    model = CorgiSplice4Regressor(ckpt['architecture_config'], regulatory_dim=2554)
+    model = PolIIFiLMRegressor(ckpt['architecture_config'], regulatory_dim=2554)
     model.load_state_dict(ckpt['model'], strict=True)
     model.eval().requires_grad_(False).to(device)
     bn = model.input_normalization_summary()
@@ -186,7 +186,7 @@ def load_original(config, seed, device='cpu'):
 
 
 def gene_inputs(config, gene_index, processor, device='cpu'):
-    root = Path(config['source_root'])/'data/bpnet_prepared'
+    root = Path(config['source_root'])/'data/sequence_prepared'
     pieces = [np.array(np.load(root/f'{r}.npy', mmap_mode='r')[gene_index], dtype=np.float32) for r in REGIONS]
     raw = np.array(np.load(root/'regulatory_log10_unscaled.npy', mmap_mode='r')[[gene_index]], dtype=np.float32)
     features = processor.transform(raw)

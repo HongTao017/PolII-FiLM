@@ -5,7 +5,7 @@ from pathlib import Path
 
 import torch
 from torch import nn
-from corgi_splice4.modules import FixedTrainingBatchNorm1d
+from region_film.modules import FixedTrainingBatchNorm1d
 
 
 def tests():

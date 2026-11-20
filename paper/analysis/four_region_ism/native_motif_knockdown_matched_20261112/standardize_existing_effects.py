@@ -58,14 +58,14 @@ def main():
         mean_abs_pair_background_delta=float(pairs.background_delta.abs().mean()),
         mean_abs_pair_motif_delta_in_WT_SD=float(pairs.delta_WT_minus_disrupted.abs().mean()/sd),
         mean_abs_pair_background_delta_in_WT_SD=float(pairs.background_delta.abs().mean()/sd),
-        reference_PauseNet='Raw result files referenced by the code were permission denied; no reference SD computed',
+        normalization_scope='Released held-out WT predictions only',
         no_inference=True, no_new_significance_tests=True)
     OUT.mkdir(exist_ok=True)
     baseline.to_csv(OUT / 'WT_test_ensemble_predictions.tsv', sep='\t', index=False)
     stats.to_csv(OUT / 'motif_standardized_summary.tsv', sep='\t', index=False)
     pairs.to_csv(OUT / 'paired_standardized_effects.tsv', sep='\t', index=False)
     (OUT / 'summary.json').write_text(json.dumps(summary, indent=2))
-    (OUT / 'README.md').write_text('Standardized effect = frozen original-scale PC1 effect / sample SD of the 15,351 held-out WT predictions (five-seed mean per gene). All TF/sign rows retained; labels can share patterns. Existing Holm P values are unchanged, not recomputed. This normalization is not a percentage change in PI or a paired-effect Cohen d. Raw PauseNet outputs were inaccessible, so no numerical cross-model comparison was made. No inference, training, or GPU process changes.\n', encoding='utf-8')
+    (OUT / 'README.md').write_text('Standardized effect = frozen original-scale PC1 effect / sample SD of the 15,351 held-out WT predictions (five-seed mean per gene). All TF/sign rows retained; labels can share patterns. Existing Holm P values are unchanged, not recomputed. This normalization is not a percentage change in PI or a paired-effect Cohen d. No inference, training, or GPU process changes.\n', encoding='utf-8')
     print(json.dumps(summary, indent=2))
     print(stats.loc[stats.TF.isin(['KLF16','SP1','SP2','SP4']) & stats.sign.eq('pos_patterns'),
         ['TF','dna_groups','mean_motif_delta','mean_matched_delta','mean_motif_delta_in_WT_SD','mean_matched_delta_in_WT_SD','p_holm']].to_string(index=False))

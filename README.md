@@ -4,7 +4,6 @@ Code, processed data, trained models and figure resources for studying human RNA
 
 The project integrates **105 GRO-seq, PRO-seq and mNET-seq samples** and models a composite pausing phenotype for **15,351 genes**. It includes gene-feature and biochemical-feature random forests, a four-region DNA/biochemical FiLM model, sequence interpretation, in silico mutagenesis, and manuscript figure code.
 
-> The repository name is provisional. This is this project's implementation and archive, organized following the separation of model code, configurations, pretrained models and paper code used in [PauseNet](https://github.com/houruiyan/PauseNet).
 
 ## Repository layout
 
@@ -20,7 +19,7 @@ paper/figures/    Frozen plotting data, figure scripts and figure files
 docs/             Formats, model card, figure mapping and reproduction instructions
 ```
 
-Source code and manuscript figure resources are tracked in Git. Large model, reference, processed-data and analysis-result files are distributed in the [v1.0.0 release](https://github.com/HongTao017/PolII-FiLM/releases/tag/v1.0.0). The download script restores their original relative paths within the checkout.
+Source code and manuscript figure resources are tracked in Git. Large model, reference, processed-data and analysis-result files are distributed in the [v1.0.0 data release](https://github.com/HongTao017/PolII-FiLM/releases/tag/v1.0.0). The download script maps archived resource names to the current English layout. See the [reproduction guide](docs/reproduction.md) for metadata compatibility and source-revision records.
 
 ## Model
 
@@ -146,8 +145,4 @@ Earlier server-side checks and results are recorded as provenance. No new scient
 
 ## Attribution and license
 
-The model includes adapted Corgi routines by Ekin Deniz Aksu. Their Apache-2.0 license and notices are preserved in [LICENSE.model](LICENSE.model), [NOTICE](NOTICE), and the original model directory. This is a separately modified architecture, not the author's released Corgi model. Other source/data materials retain their existing notices and source terms; no new blanket license is assigned to third-party datasets.
-
-## 中文说明
-
-本仓库保存当前整理好的数据处理、随机森林、最终 FiLM 模型、扰动分析和绘图代码。代码与图件资源保存在仓库，大体积数据和模型通过 Release 下载后恢复原目录结构。最终模型为 `model_film`；历史 B 模型不在本次发布范围。仓库名称暂定，原始服务器归档保持不变。
+Required third-party copyright, attribution and license terms are preserved in [LICENSE.model](LICENSE.model), [NOTICE](NOTICE), and the corresponding source directories. Data retain their original source terms.

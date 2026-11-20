@@ -87,18 +87,14 @@ def main():
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==r.TREE_SHA
  report=dict(status='PASS',outputs=outputs,merged_sequence_feature_class='poly(A/T)',shared_annotation='5T+',native_clades_preserved=['G03','G04'],members=6,matched_members=sum(x['matched']=='1' for x in selected),observed_runs=lengths,minimum_repeats=5,maximum_repeats=18,tree_reclustered=False,grey_sectors_unchanged=29,matched_patterns=44,TOMTOM_records=79,interpretation='one shared descriptive homopolymer feature class, two retained native clades; no claim of one experimentally validated TF family')
  (ROOT/'analysis/unified_5T_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
- text='''# 合并为一个富 A/T 序列特征类
+ text='''# Unified A/T-rich sequence annotation
 
-原4T-01和4T-02统一归为poly(A/T)重复特征类，图上只出现一个共享5T+标签，由圆弧括线分别指向原来两个分支。原生聚类树及29处灰色阴影保持不变，括线仅合并注释，不代表它们已经合并为一个树分支。
-
-六个成员统一方向后的连续T长度为14、5、5、18、15、13，原始富A方向按反向互补计入。类名5T+表示至少5个T且可更长，涵盖之前13T+分支。5T+与13T+不是互斥的生物学类别，因此同一层级可使用共享5T+名称。单页全项图仍保留其他独立pattern的星号标签（如5T+*），星号范围见原命名说明。
-
-成员与原始 Fold / pattern 编号、真实长度、TF/JASPAR/q和方向记录在analysis/unified_5T_pattern_members65.tsv、analysis/unified_5T_matched44.tsv。旧版本保留，当前两图路径如下：
+The two T-rich partitions share a poly(A/T) feature label, 5T+, connected to their original branches by annotation brackets. The clustering topology and all 29 shaded regions are retained. Their six oriented T-run lengths are 14, 5, 5, 18, 15 and 13. The shared label represents a lower bound rather than mutually exclusive biological families. Independent-pattern stars retain their original descriptive meaning. Member identifiers, lengths, database annotations and orientations are recorded in the associated tables.
 '''
  for out in outputs:text+='\n- `'+out['path']+'`\n'
  (ROOT/'analysis/unified_5T_guide.md').write_text(text,encoding='utf-8')
- for path in [ROOT/'analysis/current_figure_guide.md',ROOT/'README_motifStack_重绘说明.md']:
-  previous=path.read_text().split('\n\n# 合并为一个富 A/T 序列特征类')[0];path.write_text(previous+'\n\n'+text,encoding='utf-8')
+ for path in [ROOT/'analysis/current_figure_guide.md',ROOT/"README_motifStack_redraw.md"]:
+  previous=path.read_text().split("\n\n# Unified A/T-rich sequence annotation")[0];path.write_text(previous+'\n\n'+text,encoding='utf-8')
  print(json.dumps(report),flush=True)
 
 if __name__=='__main__':main()

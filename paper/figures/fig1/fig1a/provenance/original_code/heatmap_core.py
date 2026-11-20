@@ -86,10 +86,10 @@ CORRELATION_CMAP = LinearSegmentedColormap.from_list(
 CORRELATION_CMAP.set_bad("#D9D9D9")
 
 # Directly runnable defaults. Edit these four paths only when files move.
-DEFAULT_GRO = Path(r"G:\序列分析数据\data\Gro_seq_human_transcript_log2_pi_matrix.tsv")
-DEFAULT_PRO = Path(r"G:\序列分析数据\data\PRO_seq_human_transcript_log2_pi_matrix.tsv")
-DEFAULT_MNET = Path(r"G:\序列分析数据\data\Mnet_seq_human_transcript_log2_pi_matrix.tsv")
-DEFAULT_OUTPUT_DIR = Path(r"G:\序列分析数据\Png\png")
+DEFAULT_GRO = Path(r"G:\sequence_analysis_data\data\Gro_seq_human_transcript_log2_pi_matrix.tsv")
+DEFAULT_PRO = Path(r"G:\sequence_analysis_data\data\PRO_seq_human_transcript_log2_pi_matrix.tsv")
+DEFAULT_MNET = Path(r"G:\sequence_analysis_data\data\Mnet_seq_human_transcript_log2_pi_matrix.tsv")
+DEFAULT_OUTPUT_DIR = Path(r"G:\sequence_analysis_data\Png\png")
 
 
 def parse_args() -> argparse.Namespace:
@@ -195,7 +195,7 @@ def deterministic_metadata_order(metadata: pd.DataFrame) -> pd.DataFrame:
     ordered.insert(0, "position", np.arange(1, len(ordered) + 1))
     return ordered
 
-#样本的绝对斯皮尔曼相关性和计数
+
 def absolute_spearman_with_counts(
     values: pd.DataFrame, min_common: int
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -535,8 +535,8 @@ def draw_heatmap(
             rotation=90,
             fontsize=label_font,
             color=label_color,
-      
-        
+
+
         )
 
     top_strip_top = top_cell_y + strip_width

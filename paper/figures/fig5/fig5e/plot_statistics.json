@@ -18,7 +18,7 @@
     "PCBP2"
   ],
   "source_sha256": "a2e84074a181f3354970dbe97d8d5b94dda0e02b54a0ab6742ae359c0274c8e2",
-  "code_sha256": "f941fb4de86cb24b511e288104bccd8a20f060ccd7276789d29f506fde8fcc46",
+  "code_sha256": "1cc40c0170894839a8037e2aed88f457321cb3138af0865a8da26eb6f249a549",
   "assay": "HepG2 RBP eCLIP",
   "test_genes": 181,
   "gene_seed_results": 905,
@@ -30,7 +30,7 @@
   "x": "Mean regional eCLIP abundance (CPM)",
   "y": "Mean absolute IG_S summed across two regions, averaged across genes and seeds",
   "display": "Only r in upper left; no panel letter; top five contribution labels",
-  "source_summary_sha256": "7f41870caf7057f1dc16225fa46c0f44b9bc917a3430672011ac968a95a98b2e",
+  "source_summary_sha256": "dd2c780e4c9b482edce3a30c731447e9ad7b192ce90d1f47644799aadd8655af",
   "axis_linewidth_pt": 1.5,
   "tick_linewidth_pt": 1.0
 }

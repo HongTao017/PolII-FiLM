@@ -18,7 +18,7 @@
   "mean_abs_pair_background_delta": 0.0004579784163541459,
   "mean_abs_pair_motif_delta_in_WT_SD": 8.350442213744549e-05,
   "mean_abs_pair_background_delta_in_WT_SD": 7.800110956715292e-05,
-  "reference_PauseNet": "Raw result files referenced by the code were permission denied; no reference SD computed",
+  "normalization_scope": "Released held-out WT predictions only",
   "no_inference": true,
   "no_new_significance_tests": true
 }

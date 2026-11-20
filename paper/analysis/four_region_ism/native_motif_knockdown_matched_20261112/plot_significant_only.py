@@ -101,11 +101,9 @@ def main():
         background='Controls of selected groups; match IDs deduplicated before source DNA-group aggregation',
         significance='Each star uses its own matched-control test, not a test against the displayed pooled Background',
         data_changed=False, statistics_recomputed=False), indent=2))
-    (OUT / 'README.md').write_text('''# 仅显著组雨云图
+    (OUT / 'README.md').write_text('''# Exploratory significant-annotation panel
 
-仅展示正贡献模式按 TF 标签合并后，在原有探索性配对检验中 Holm 校正 P<0.05 的 KLF16、SP1、SP2、SP4，并保留其匹配背景。星号不是单个散点的 P 值；多个标签共享部分 pattern，不能作为四份独立蛋白证据。44 个原始 pattern 的主要检验均未达到校正后显著性。
-
-纵轴范围 ±0.0015 PC1，间隔 0.0005。图上使用 ×10⁻³。边界三角表示超出此显示范围的值，完整数值保留在 plot_values.tsv；先前完整范围全 motif 图册保留。没有修改数据或重新计算检验。
+This display includes the positive-pattern annotation groups KLF16, SP1, SP2 and SP4, which passed the original pooled Holm-adjusted 0.05 threshold, together with their matched backgrounds. Shared underlying patterns make these groups statistically dependent; all 44 primary pattern-level tests remained nonsignificant after correction. The range is +/-0.0015 PC1 with 0.0005 ticks, displayed at 1e-3 scale. Boundary triangles indicate out-of-range values retained in plot_values.tsv. No tests are recalculated.
 ''', encoding='utf-8')
     pdf_qa()
     print(PDF)

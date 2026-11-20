@@ -22,7 +22,7 @@ align_run() {
 
     if [[ -s "$BAM" ]] && samtools quickcheck "$BAM" 2>/dev/null; then
         [[ -s "${BAM}.bai" ]] || samtools index -@ 4 "$BAM"
-        echo "[跳过] $RUN 已完成"
+        echo "[Skipped] $RUN already completed"
         return
     fi
 
@@ -34,7 +34,7 @@ align_run() {
         READ_ARGS=(-1 "$R1" -2 "$R2")
     fi
 
-    echo "[$(date '+%F %T')] 开始：$RUN ($MODE)"
+    echo "[$(date '+%F %T')] Starting: $RUN ($MODE)"
 
     if {
         bowtie2 \
@@ -51,17 +51,17 @@ align_run() {
 
         if samtools quickcheck "$BAM" &&
            [[ -s "${BAM}.bai" ]]; then
-            echo "[$(date '+%F %T')] 完成：$RUN"
+            echo "[$(date '+%F %T')] Completed: $RUN"
         else
-            echo "[错误] $RUN BAM检查失败"
+            echo "[Error] $RUN BAMcheck failed"
         fi
     else
-        echo "[错误] $RUN 比对失败：$RUNLOG"
+        echo "[Error] $RUN Alignment failed: $RUNLOG"
         rm -f "$TMP" "${TMP}.tmp."*.bam
     fi
 }
 
-# 单端Run
+
 for R1 in "$INPUT"/*.fastq.gz; do
     NAME=$(basename "$R1")
     case "$NAME" in
@@ -72,18 +72,18 @@ for R1 in "$INPUT"/*.fastq.gz; do
     align_run "$RUN" single "$R1"
 done
 
-# 双端Run
+
 for R1 in "$INPUT"/*_1.fastq.gz; do
     RUN=$(basename "$R1" _1.fastq.gz)
     R2="$INPUT/${RUN}_2.fastq.gz"
 
     if [[ ! -s "$R2" ]]; then
-        echo "[错误] $RUN 缺少R2"
+        echo "[Error] $RUN Missing R2"
         continue
     fi
 
     align_run "$RUN" paired "$R1" "$R2"
 done
 
-echo "完成BAM数：$(find "$OUT" -maxdepth 1 -name '*.sorted.bam' | wc -l)"
-echo "完成BAI数：$(find "$OUT" -maxdepth 1 -name '*.sorted.bam.bai' | wc -l)"
+echo "Completed BAM count: $(find "$OUT" -maxdepth 1 -name '*.sorted.bam' | wc -l)"
+echo "Completed BAI count: $(find "$OUT" -maxdepth 1 -name '*.sorted.bam.bai' | wc -l)"

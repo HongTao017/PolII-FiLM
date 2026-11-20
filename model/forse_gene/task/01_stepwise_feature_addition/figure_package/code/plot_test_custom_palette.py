@@ -10,7 +10,7 @@ from plot_requested_route import MODELS
 
 PALETTE = ['#FEFCFA', '#B7BEC9', '#4D5058', '#F5DCD1',
            '#F0BDBD', '#928C95', '#B2CEF7']
-DESTINATION = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/21_final_test_feature_comparison_custom_palette.pdf')
+DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/21_final_test_feature_comparison_custom_palette.pdf')
 _pdf_pages = approved.PdfPages
 
 

@@ -83,14 +83,8 @@ def main():
  assert digest(KEEP)==KEEP_SHA
  receipt.update(status='PASS',deleted_PDF_count=sum(x['type']=='superseded_PDF' for x in deleted),deleted_archive_count=sum(x['type']=='superseded_figure_archive' for x in deleted),remaining_PDF_count=2)
  receipt_path.write_text(json.dumps(receipt,indent=2),encoding='utf-8')
- guide=f'''# 最终保留的两个版本
-
-1. 带文字终稿（用户指定，内容及SHA未改变）：`{KEEP}`。
-2. 无标注文字版：`{NO_TEXT}`。删除标题、Matched/Unmatched图例文字及色块、面板字母；保留完整树、原箭头、灰色分区、深浅紫外圈和13个真实motif logo。Logo中的A/C/G/T是数据图形，作为矢量字形保留。
-
-两份均为5×4inch单页PDF。无文字版全部树、箭头和logo的矢量路径与带文字版完全相同，仅少两个图例色块；未重新改变数据或布局。之前的{receipt['deleted_PDF_count']}份PDF及{receipt['deleted_archive_count']}个旧图版本压缩包已删除。原始数据、分析表、脚本和核验记录保留。清理清单：analysis/final_versions_cleanup_receipt.json；无文字版核验：analysis/final_textless_QA.json。
-'''
- for path in [ROOT/'analysis/current_figure_guide.md',ROOT/'README_motifStack_重绘说明.md']:path.write_text(guide,encoding='utf-8')
+ guide=f"# Retained final figure variants\n\nFinal labeled figure: `{KEEP}`.\nAlternative display: `{NO_TEXT}`.\nThe cleanup receipt records {receipt['deleted_PDF_count']} removed historical PDFs and {receipt['deleted_archive_count']} removed historical archives. The underlying analysis inputs and recorded checks remain available.\n"
+ for path in [ROOT/'analysis/current_figure_guide.md',ROOT/"README_motifStack_redraw.md"]:path.write_text(guide,encoding='utf-8')
  print(json.dumps(dict(status='PASS',kept=receipt['kept'],deleted_PDF_count=receipt['deleted_PDF_count'],deleted_archive_count=receipt['deleted_archive_count'],remaining_PDF_count=2,textless_vector_QA=qa['vector_geometry_verification'])),flush=True)
 
 if __name__=='__main__':main()

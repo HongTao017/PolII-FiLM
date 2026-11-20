@@ -99,9 +99,9 @@ def main():
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==r.TREE_SHA
  report=dict(status='PASS',figures=records,existing_PDF_files_preserved=before,all_matched_patterns_covered=44,multi_pattern_group_labels=13,independent_pattern_labels=16,tree_topology_unchanged=True,partitions_unchanged=True,TOMTOM_unchanged=True,output_format='two separate single-page vector PDFs',canvas_inches=[5,4],all_ordinary_text_pt=12)
  (ROOT/'analysis/two_single_page_overviews_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
- note=f'''\n\n## 新增的两张独立单页图\n\n1. `{p}`：一页完整标注 13 个分区和 16 个独立命中项，共 29 个名称。星号 * 仍表示独立 pattern 的六碱基序列特征；没有把它强行合并为类群。保留 314 个叶和原始拓扑及循环顺序，仅按 29 个标注的位置调整角度，使标签均匀分散。角宽和枝长不表示数值距离。\n2. `{p13}`：之前的 13 个分区标签单页版本，恢复原布局；16 个独立项的树位置和窄灰阴影保留，但不额外标名。\n\n两图都是 5×4 inch、Arial 12 pt 黑色文字、深紫命中/浅紫未命中、29 处灰色分区；保留此前所有 PDF。核验记录 `analysis/two_single_page_overviews_QA.json`。\n'''
- for path in [ROOT/'analysis/current_figure_guide.md',ROOT/'README_motifStack_重绘说明.md']:
-  text=path.read_text();marker='\n\n## 新增的两张独立单页图';text=text.split(marker)[0];path.write_text(text+note,encoding='utf-8')
+ note=f'\n\n## Single-page overview variants\n1. `{p}` labels all 13 partitions and 16 independent matches (29 annotations). Asterisks identify individual six-base sequence features. All 314 leaves, topology and circular order are retained; angular spacing accommodates labels and does not encode distance.\n2. `{p13}` displays the 13 partition titles in their earlier layout. Independent matches retain their positions and narrow gray sectors without extra names.\nBoth are 5x4 inch PDFs with Arial 12 pt black labels, dark/light purple matched/unmatched rings and 29 shaded regions. Earlier PDFs are retained. Recorded checks: `analysis/two_single_page_overviews_QA.json`.\n'
+ for path in [ROOT/'analysis/current_figure_guide.md',ROOT/"README_motifStack_redraw.md"]:
+  text=path.read_text();marker="\n\n## Two additional single-page figures";text=text.split(marker)[0];path.write_text(text+note,encoding='utf-8')
  print(json.dumps(report),flush=True)
 
 if __name__=='__main__':main()

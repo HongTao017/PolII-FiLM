@@ -10,8 +10,8 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from bpnet_polii.config import CONFIG
-from corgi_polii.utils import write_json
+from sequence_utils.config import CONFIG
+from pausing_utils.utils import write_json
 
 
 ROOT = Path(__file__).resolve().parent
@@ -44,7 +44,7 @@ def main():
     overrides = json.loads(CONFIG_PATH.read_text())
     if overrides != {"run_name": "splice4_dilated_exploratory_full", "allow_cross_fold_overlap": True}:
         raise ValueError("Unexpected exploratory training configuration")
-    result_root = ROOT / f"result/{overrides['run_name']}/bpnet_multiregion"
+    result_root = ROOT / f"result/{overrides['run_name']}/sequence_cnn_multiregion"
     log_dir = ROOT / "controller_logs"
     log_dir.mkdir(exist_ok=True)
     pending, runs = [], []
@@ -64,7 +64,7 @@ def main():
              "status": "running", "physical_gpus": list(GPUS), "total_runs": 50,
              "config": str(CONFIG_PATH), "evaluation_scope": "exploratory inherited-fold CV",
              "cross_fold_overlap_accepted_by_user": True,
-             "user_choice": "保留原划分，接受重叠风险，仅做探索性训练",
+             "user_choice": "Retain the original split and acknowledge overlapping inputs; exploratory training only.",
              "cross_fold_overlap_pairs": 586, "cross_fold_overlap_genes": 601,
              "runs": runs}
     active = {}
@@ -119,7 +119,7 @@ def main():
                     environment = os.environ.copy()
                     environment["CUDA_VISIBLE_DEVICES"] = str(gpu)
                     environment["PYTHONUNBUFFERED"] = "1"
-                    command = [sys.executable, "-m", "bpnet_polii.main_train",
+                    command = [sys.executable, "-m", "sequence_utils.main_train",
                                "--fold", str(run["fold"]), "--replicate", str(run["replicate"]),
                                "--device", "cuda:0", "--config", str(CONFIG_PATH)]
                     if args.resume:

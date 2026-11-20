@@ -45,7 +45,7 @@ def main():
     device=torch.device('cuda:0')
     selected=pd.read_csv(ROOT/'selected_genes.tsv',sep='\t')
     meta=pd.read_csv(Path(cfg['model_root'])/'data/genes_repartitioned.tsv',sep='\t')
-    source=Path(cfg['source_root'])/'data/bpnet_prepared'
+    source=Path(cfg['source_root'])/'data/sequence_prepared'
     arrays={r:np.load(source/f'{r}.npy',mmap_mode='r') for r in REGIONS}
     for r,length in zip(REGIONS,LENGTHS):
         require(arrays[r].shape==(len(meta),length,4),'DNA shape mismatch')

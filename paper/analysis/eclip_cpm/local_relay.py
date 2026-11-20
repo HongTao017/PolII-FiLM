@@ -14,7 +14,7 @@ import urllib.request
 ROOT=Path(__file__).resolve().parent
 REMOTE='/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/ECLIP_READ_CPM_GE40_181_20261112'
 HOST='user_011@172.16.12.164'
-SSH=['ssh','-T','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=10','-o','IdentitiesOnly=yes','-i','G:/序列分析数据/codex_bpnet_ablation_ed25519',HOST]
+SSH=['ssh','-T','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=10','-o','IdentitiesOnly=yes','-i','G:/sequence_analysis_data/codex_sequence_cnn_ablation_ed25519',HOST]
 MANIFEST=json.loads((ROOT/'manifest.json').read_text())
 COUNTER_HASH=json.loads((ROOT/'counter_test_complete.json').read_text())['counter_sha256']
 PROTOCOL=MANIFEST['protocol']

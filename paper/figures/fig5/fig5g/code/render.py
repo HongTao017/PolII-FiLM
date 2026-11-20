@@ -22,7 +22,7 @@ GROUPS = {
     'Q1': ('Q1 Low', '#151515'),
 }
 BINS = 30
-SCORE = 'saluki_abs_mean_delta'
+SCORE = 'abs_mean_substitution_delta'
 MEAN_COLOR = '#616161'
 MEAN_DASHES = (0, (4, 2.6))
 

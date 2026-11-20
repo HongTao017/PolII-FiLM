@@ -13,10 +13,9 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT.parent))
-from run_ism import REGIONS, SEEDS, digest, load_inputs, write_json
+from run_ism import REGIONS, SEEDS, digest, load_inputs, write_json, protocol_fingerprint
 
 SOURCE = ROOT.parent.parent / 'motif'
-REFERENCE = Path('/mnt/HDD8TB/hongtao/PauseNet/figures/fig4/4.count_motif_knockdown/plot_count_motif_knockdown.py')
 BASES = 'ACGT'
 COMP = np.array([3, 2, 1, 0], dtype=np.uint8)
 RNG_SEED = 20261112
@@ -295,7 +294,7 @@ def prepare():
             'Report low match fractions rather than silently relaxing thresholds; <90% strata are exploratory.'],
         random_seed=RNG_SEED, shuffles_per_core=1000, choose_mutation='lowest native oriented PWM score, never model output',
         source_fingerprints=fingerprints, checkpoint_checks=checkpoints,
-        pausenet_reference_sha256=digest(REFERENCE), script_sha256=digest(Path(__file__)),
+        script_sha256=digest(Path(__file__)),
         plans={str(f): digest(ROOT / 'plans' / f'fold_{f:02}.jsonl') for f in range(1, 11)},
         pattern_sha256=digest(ROOT / 'patterns.json'), physical_gpus=[4, 5], seeds=list(SEEDS),
         variant_forward_predictions=len(pairs)*4*len(SEEDS)))
@@ -320,7 +319,7 @@ def infer(fold, device, batch_size=64):
     out = ROOT / 'results'
     out.mkdir(exist_ok=True)
     path = out / f'fold_{fold:02}.npz'
-    protocol_sha = digest(ROOT / 'protocol.json')
+    protocol_sha = protocol_fingerprint(ROOT / 'protocol.json')
     if path.exists():
         with np.load(path, allow_pickle=False) as prior:
             assert prior['protocol_sha'].item() == protocol_sha
@@ -372,7 +371,7 @@ def infer(fold, device, batch_size=64):
 
 
 def summarize():
-    protocol_sha = digest(ROOT / 'protocol.json')
+    protocol_sha = protocol_fingerprint(ROOT / 'protocol.json')
     _, _, _, _, genes = load_inputs()
     rows = []
     for fold in range(1, 11):

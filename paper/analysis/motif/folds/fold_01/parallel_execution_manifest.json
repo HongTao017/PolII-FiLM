@@ -1,7 +1,7 @@
 {
-  "parent_run_manifest_sha256": "62d4f07cd48321a351bbe2ed3616e42e6059809ac906ca30e07cb4f3303da046",
-  "handoff_sha256": "8fed69a6bfedd0771ff804d395f348c3ae5ee42b29f16ae944f4537f8d3e2ce2",
-  "scientific_config_sha256": "ee8cab41e6e24a596baadf1312fd9cce532c7ceb4d50345441f0a1c6c40b5207",
+  "parent_run_manifest_sha256": "797fc1644ad66018c6bd137e21561780b1102153eaa58fbbb34c564c88f2cce2",
+  "handoff_sha256": "c0e5e4f4c0367f1f6b192d6a2d876e267078c5eef36791f647daaecac5b547bf",
+  "scientific_config_sha256": "d7a6b854244fcd5a7a15ee59237068a981513bafa93a36ec9a60bfe9ab5b443a",
   "execution_config_sha256": "462dcbb91ec5e6a5c0b517758529899278a4a6421bb14d7648a30cbef5c37298",
   "code_sha256": {
     "test_pipeline.py": "20133b0d6459357ffbe9206da3fa101b649de03a1bbcc2d10e1cac4a3bad8cbe",
@@ -12,10 +12,10 @@
     "handoff_four_gpu.py": "f50483929212a9ec0552311d04b7820d078ab4a66b9e9f08af96e90fdf240b96",
     "test_downstream.py": "53bbbc3cbf549094e3cca56ecd30de4b17c5f8bd02f7eeb0bdaf30586d234ec3",
     "test_parallel.py": "c24421c6468df612ba694d646614ea2dae758367e9b319ce613d687efa745724",
-    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
+    "deep_lift_core.py": "a5ebfe1f9ce5eeaf55b62036d27472704bfeba3f3b3874e81db540e954f99431",
     "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
-    "run_pipeline.py": "41e4f463b150e4d71b4efca49f7573d16d64926242833064471655bec4f86709",
-    "plot_perturbations.py": "0e8a6914d27b200f7ddedd78b1c2bbeaf064bb21cabce2aa3b78455d6bfdedc8"
+    "run_pipeline.py": "63e99d4e9d7b094c26ac00929269e3fbbafa157e4061d7ec8cd87404bca95772",
+    "plot_perturbations.py": "c6196b1f41cdd31eccf741285187e6548844d41f43d8f48b36687ed4420a9c23"
   },
   "physical_gpus": [
     1,
@@ -38,5 +38,5 @@
     "references_per_gene": 20,
     "max_completeness_error": 1.6167759895324707e-06
   },
-  "preflight_sha256": "c459065346e32c4468f5b8e463a06ee61f84e1142c6282ae0106bac9e5ba52ed"
+  "preflight_sha256": "595910a3beaa059705dc4f2ff0046f0e68d9baf89d9fac1195c9e69a9a910ed6"
 }

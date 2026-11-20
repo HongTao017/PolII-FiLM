@@ -39,11 +39,11 @@ ROOT=HERE.parent
 CANVAS=(9.4,5.3)
 SOURCE_THREAD='01a13f40-5270-7590-9efd-4b4dad994c44'
 PINNED={
- 'redraw_figures.py':'2af4d3f9f1f2e4f4767080f4d2b92bedd4936e1ecea51f7723bf4c57508db675',
- 'plot_test_compact_legend.py':'fa327a87aa1d34cfdd057af72fdced40562fe78cbd1a97a0437dfbc8fb9e6e2c',
- 'plot_test_muted_filled_reference.py':'54d5f63dc3b5056505554745e3ddc56686f3cfb7ba0c3016afc7591e9e1a2fc9',
- 'plot_test_custom_palette.py':'7512e77edd083ade95ca5a755ef41c9ae90933b1e8800e894598efe2a6dfa958',
- 'plot_test_pvalues_only.py':'26ad736f5fa4b0e45253325f64abf886a21376b4fae2425a60c4125e1377ffad'}
+ 'redraw_figures.py':'e9444c3f6ef56d4ef424a5f722d2f16e2f7b19cc870b524be91ce8e1a6368a68',
+ 'plot_test_compact_legend.py':'f9ee772d24b6931c2ddc9622e721d03cb33db8900d134f3012fce182f1f0abe7',
+ 'plot_test_muted_filled_reference.py':'50c6861e88df4c397a7d43fb9f419e66cee22ee9ad640afb37ccd0d5a101a34d',
+ 'plot_test_custom_palette.py':'d42ba022f71c7c5ca00ae1cac8da3bd2af44e5009165c66a4f37d9493c449a9d',
+ 'plot_test_pvalues_only.py':'0e1aea69729c3840b209cbbe26134790d1f10285fa7ca50626697ecc458da823'}
 DISPLAY=['B','BL','BP','BD','BA','BC','BCL','BCP','BCLP']
 PALETTE=['#FEFCFA','#B7BEC9','#4D5058','#F5DCD1','#F0BDBD','#928C95','#B2CEF7']
 COLORBAR=['#1e367b','#703b90','#c93659','#f37c22','#f7df54']

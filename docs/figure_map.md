@@ -1,20 +1,22 @@
-# 最新图件入口与稿件图号
+# Manuscript figure map
 
-`configs/figure_index.json` 列出29个可运行入口。各目录内保留 frozen data、代码、原图和来源；统一重绘在 outputs 下的副本执行。避免误把磁盘历史文件夹名直接当成稿件面板名。
+`configs/figure_index.json` is used by `scripts/reproduce_figures.py`. Paths below are relative to `paper/figures/`.
 
-| 稿件内容 | 当前目录 |
+| Manuscript panel | Resource |
 |---|---|
-| Figure 1 A–F | paper/figures/fig1/fig1a–fig1f |
-| Figure 2 A–F | paper/figures/fig2/fig2A–fig2F |
-| Figure 3 A–F | paper/figures/fig3/fig3a–fig3f |
-| Figure 4 OOF评估 | paper/figures/fig4/oof |
-| Figure 4 模型示意及可编辑来源 | paper/figures/fig4/architecture 与 editable_sources |
-| Figure 5 A / B / C | paper/figures/fig5/fig5a / fig5b / fig5c |
-| Figure 5 D 天然motif打乱 | paper/figures/fig5/fig5I |
-| Figure 5 E ZBTB7A 101 bp ISM | paper/figures/fig5/fig5d |
-| Figure 5 F ChIP CPM vs IG | paper/figures/fig5/fig5f |
-| Figure 5 G eCLIP CPM vs IG | paper/figures/fig5/fig5e |
-| 额外全基因ISM / motif图 | paper/figures/fig5/fig5g、fig5h |
-| 补充图 S1 | paper/figures/supplement/figs1 |
+| Figure 1A-1F | `fig1/fig1a` through `fig1/fig1f` |
+| Figure 2A-2F | `fig2/fig2A` through `fig2/fig2F` |
+| Figure 3A-3F | `fig3/fig3a` through `fig3/fig3f` |
+| Figure 4 architecture | `fig4/architecture/` (editable presentation and PDF) |
+| Figure 4 predictions | `fig4/oof/` |
+| Figure 5A/5B/5C | `fig5/fig5a`, `fig5/fig5b`, `fig5/fig5c` |
+| Figure 5D | `fig5/fig5I` |
+| Figure 5E | `fig5/fig5d` |
+| Figure 5F (ChIP) | `fig5/fig5f` |
+| Figure 5G (eCLIP) | `fig5/fig5e` |
+| Additional perturbation displays | `fig5/fig5g`, `fig5/fig5h` |
+| Supplementary Figure S1 | `supplement/figs1` |
 
-ChIP/eCLIP 的输入归一化补充图随各自主图目录收录；fig5e 的额外入口为 `plot_supplement.py`。fig5I 保留最新无星号、无上下三角箭头版本。手工排版模型示意图和数据库界面截图有可编辑/冻结来源，其重绘方式有别于数值图；不会将原PDF复制当作计算验证。
+Most packages contain `plot.py`, `data/`, `code/`, PDFs and provenance. Redraw into a separate output directory. Historical rendering receipts describe the original state and do not report a new rendering after translation. Numerical inputs, statistics and canvas dimensions are retained. Configure locally licensed Arial fonts with `scripts/configure_fonts.py`.
+
+Architecture artwork is an editable document rather than a numerical plot. Figure S2 is absent from this release.

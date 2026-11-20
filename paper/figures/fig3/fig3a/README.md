@@ -1,4 +1,6 @@
-# Figure 3a: five regulatory assays on one gene
+# Fig3a
+
+This package contains frozen plotting inputs, its PDF figure, plotting code and provenance records. Use the package plotting entry point or the repository-wide figure runner. Numeric values and the original figure dimensions are retained.
 
 - Current final figure: `fig3a_large_text.pdf` (the earlier `fig3a.pdf` is locked by a viewer and could not be overwritten).
 - Regenerate: `F:/python/python.exe plot_fig3a.py`.
@@ -26,4 +28,6 @@ Pause region: transcription-oriented TSS -50 to +250 bp. Gene body: TSS +250 bp 
 
 The numbers count **feature columns**, not distinct proteins: 1,277 profiles x two genomic regions = 2,554 features. The separate B(22) gene-structure group is not included. eCLIP peaks are counted on the same strand; ChIA-PET counts each unique interaction once per gene-region when either anchor overlaps. DamID includes protein contacts beyond lamina-associated domains. All five assay classes contribute regional counts; illustrated positions do not imply exclusive promoter or gene-body specificity.
 
-Source definitions: `G:/序列分析数据/rf_b_reg5_20261027/regulatory_data_collection_explained.md`. The source-manifest SHA256 in the supplied JSON is retained; source datasets have not been modified.
+## Usage
+
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

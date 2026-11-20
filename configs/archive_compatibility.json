@@ -1,0 +1,1879 @@
+{
+  "description": "UTF-8 compatibility tokens for the immutable v1.0.0 resource archive; original metadata is retained locally before localization.",
+  "path_replacements": [
+    {
+      "legacy_utf8_base64": "c2VydmVyX2FyY2hpdmVfUkVBRE1FX3poLm1k",
+      "replacement": "server_archive_layout.md"
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX21vdGlmU3RhY2tf6YeN57uY6K+05piOLm1k",
+      "replacement": "README_motifStack_redraw.md"
+    },
+    {
+      "legacy_utf8_base64": "Q29yZ2lTcGxpY2U0UmVncmVzc29y",
+      "replacement": "PolIIFiLMRegressor"
+    },
+    {
+      "legacy_utf8_base64": "c2FsdWtpX2Fic19tZWFuX2RlbHRh",
+      "replacement": "abs_mean_substitution_delta"
+    },
+    {
+      "legacy_utf8_base64": "QVJDSElWRV9SRUFETUVf5Lit5paHLm1k",
+      "replacement": "ARCHIVE_README.md"
+    },
+    {
+      "legacy_utf8_base64": "6YeN57uYXzIwMjYxMDIxX+WPguiAg+agt+W8j1BERg==",
+      "replacement": "redraw_20261021"
+    },
+    {
+      "legacy_utf8_base64": "6YeN57uYXzIwMjYxMDIxXzV4NFBERg==",
+      "replacement": "redraw_5x4_20261021"
+    },
+    {
+      "legacy_utf8_base64": "Z2VuZS1ib2R55Yy65Z+fMS00bWVy",
+      "replacement": "Gene-body 1-4-mers"
+    },
+    {
+      "legacy_utf8_base64": "MzDkuKrnibnlvoHngrnlkozlhbbku5bnibnlvoHnm7jlhbPmgKfliIbmnpA=",
+      "replacement": "feature_correlation_analysis"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfdmFsaWRhdGlvbg==",
+      "replacement": "sequence_validation"
+    },
+    {
+      "legacy_utf8_base64": "MTDmipjkuqTlj4npqozor4HlvpfliLDnmoTln7rlm6DnibnlvoHlm74=",
+      "replacement": "gene_feature_cross_validation"
+    },
+    {
+      "legacy_utf8_base64": "5qih5Z6L5Zu+X+WFqOWFg+e0oOWPr+e8lui+kS5wZGY=",
+      "replacement": "model_architecture_editable.pdf"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfcHJlcGFyZWQ=",
+      "replacement": "sequence_prepared"
+    },
+    {
+      "legacy_utf8_base64": "cGF1c2XljLrln58xLTRtZXI=",
+      "replacement": "Pausing-region 1-4-mers"
+    },
+    {
+      "legacy_utf8_base64": "Y29yZ2lfc3BsaWNlNA==",
+      "replacement": "region_film"
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX+S4reaWhy5tZA==",
+      "replacement": "README.md"
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX0NOLm1k",
+      "replacement": "README.md"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfc3BsaXRz",
+      "replacement": "gene_splits"
+    },
+    {
+      "legacy_utf8_base64": "Y29yZ2lfcG9saWk=",
+      "replacement": "pausing_utils"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfcG9saWk=",
+      "replacement": "sequence_utils"
+    },
+    {
+      "legacy_utf8_base64": "UHJvQ2FwTmV0",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "cHJvY2FwbmV0",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "5Zu+5Lu255uu5b2VLnRzdg==",
+      "replacement": "figure_index.tsv"
+    },
+    {
+      "legacy_utf8_base64": "Q1RDRumihOa1i+e7k+WQiA==",
+      "replacement": "Predicted CTCF binding"
+    },
+    {
+      "legacy_utf8_base64": "UGF1c2VOZXQ=",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "cGF1c2VuZXQ=",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "6LCD5o6n5Zug5a2Q5L2c55So5Zu+",
+      "replacement": "biochemical_feature_figures"
+    },
+    {
+      "legacy_utf8_base64": "RGVlcENSRQ==",
+      "replacement": "sequence_baseline"
+    },
+    {
+      "legacy_utf8_base64": "ZGVlcGNyZQ==",
+      "replacement": "sequence_baseline"
+    },
+    {
+      "legacy_utf8_base64": "QWdhcndhbA==",
+      "replacement": "sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX5YiG5p6Q5pWw5o2u",
+      "replacement": "sequence_analysis_data"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX5YiG5p6Q55S75Zu+",
+      "replacement": "sequence_analysis_figures"
+    },
+    {
+      "legacy_utf8_base64": "6K+05piOLnR4dA==",
+      "replacement": "README.txt"
+    },
+    {
+      "legacy_utf8_base64": "5Z+656GA5Z+65Zug57uT5p6E",
+      "replacement": "Basic gene architecture"
+    },
+    {
+      "legacy_utf8_base64": "U2FsdWtp",
+      "replacement": "substitution_response"
+    },
+    {
+      "legacy_utf8_base64": "c2FsdWtp",
+      "replacement": "substitution_response"
+    },
+    {
+      "legacy_utf8_base64": "S2VsbGV5",
+      "replacement": "sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "5a+G56CB5a2Q6aKR546H",
+      "replacement": "Codon frequencies"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXQ=",
+      "replacement": "sequence_cnn"
+    },
+    {
+      "legacy_utf8_base64": "QlBOZXQ=",
+      "replacement": "SequenceCNN"
+    },
+    {
+      "legacy_utf8_base64": "QlBORVQ=",
+      "replacement": "SEQUENCE_CNN"
+    },
+    {
+      "legacy_utf8_base64": "Q29yZ2k=",
+      "replacement": "PolII"
+    },
+    {
+      "legacy_utf8_base64": "Q09SR0k=",
+      "replacement": "POLII"
+    },
+    {
+      "legacy_utf8_base64": "Y29yZ2k=",
+      "replacement": "polii"
+    },
+    {
+      "legacy_utf8_base64": "YWtjYW4=",
+      "replacement": "scaled_architecture"
+    },
+    {
+      "legacy_utf8_base64": "QWtjYW4=",
+      "replacement": "scaled architecture"
+    },
+    {
+      "legacy_utf8_base64": "5Lit5paH5ZCr5LmJ",
+      "replacement": "description"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX57uE5oiQ",
+      "replacement": "Sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "Q3BH5bKb",
+      "replacement": "CpG islands"
+    }
+  ],
+  "text_replacements": [
+    {
+      "legacy_utf8_base64": "IyDlhajpg6ggMTEg5LiqIG1vdGlmIOeahOmbqOS6keWbvgoK5oyJ5Y+C6ICD5Zu+55qE5bem5L6n5Y2K5bCP5o+Q55C044CB5Lit6Ze055m96Imy566x57q/44CB5Y+z5L6n5YWo6YOo5pWj54K544CB57KJ6ImyIG1vdGlmIC8g54Gw6Imy6IOM5pmv44CB57KJ6Imy6Zu257q/6YeN57uY44CCCgphbGxfMTFfbW90aWZzX3JhaW5jbG91ZC5wZGYg5YyF5ZCr5YWo6YOo57uT5p6c77yM5q2j6LSh54yu5ZKM6LSf6LSh54yuIHBhdHRlcm4g5YiG6aG177yM5q+P6aG15pyA5aSa5Zub5LiqIG1vdGlmIOS4juS4gOS4qiBCYWNrZ3JvdW5k44CC57uf5LiA57q16L206IyD5Zu077yM5LiN6KOB5o6J5p6B56uv54K544CCMTEg5Liq5qCH562+5YWxIDE2IOS4qiBURi/nrKblj7fnu4TlkIjlhajpg6jkv53nlZnvvJvljZXpobXlj6blrZjkuLogUERG44CCCgrnurXovbTkuLrljp/lsLrluqYgUEMxIOeahCBXVCDlh4/ljp/kvY3miZPkubHlkI7pooTmtYvlgLzvvIznp5HlraborqHmlbDms5Xlj6rmlLnlj5jmmL7npLrmoLzlvI/jgILmr4/ngrnmjInpmLPmgKcgRE5BIOmHjeWPoOe7hOiBmuWQiOOAgueBsOiJsue7hOaxh+aAu+acrOmhteWQhCBtb3RpZiDnmoTphY3lr7nog4zmma/vvIzlhYjmjIkgbWF0Y2hfaWQg5Y676Zmk5aSa5qCH562+6YCg5oiQ55qE6YeN5aSN77yM5YaN5oyJ5rqQIEROQSDnu4TlubPlnYfvvJvnu5/orqHku43kvb/nlKjljp/lp4vkuIDkuIDljLnphY3vvIzlubbmnKrmi7/mnKzpobXngbDoibLmt7flkIjliIbluIPph43mlrDlgZrmo4DpqozjgIIKCui/meS4jeaYryBORVQtc2VxIGNvdW50cyDmiJbljp/lp4sgUEkg55m+5YiG5q+U44CC5q2jL+i0n+agh+etvuadpeiHquaooeWei+W9kuWboOaooeW8j++8jOS4jeaYr+mihOiuvuaJsOWKqOaViOaenOOAguWkmuS4qiBURiDmoIfnrb7lhbHkuqsgcGF0dGVybu+8jOS4jeiDveW9k+S9nOeLrOeri+ibi+eZveWKn+iDveivgeaNruOAggoKcmFpbmNsb3VkX3Bsb3RfdmFsdWVzLnRzdiDkuLrmiYDmnInlrp7pmYXnu5jliLbnmoTmlbDlgLzvvJthbGxfbW90aWZzX3N1bW1hcnkudHN2IOS4uuatpOWJjeWujOaVtOWIhuaekOeahCBURi/nrKblj7fmsYfmgLvjgILnu5jlm77msqHmnInph43mlrDorq3nu4PjgIHph43mlrDmjqjnkIbmiJbmlLnlj5jmmL7okZfmgKfmo4DpqozjgIIKCuemu+e6v+mHjee7mO+8muaKiiBwbG90X2FsbF9yYWluY2xvdWQucHnjgIFmaW5hbF9maWd1cmVfc21hbGwucHnjgIF0Zl9hbm5vdGF0aW9uX2VmZmVjdHMudHN244CBdGZfc3RhdGlzdGljcy50c3Yg5pS+5Zyo5ZCM5LiA55uu5b2V77yM5a6J6KOFIG51bXB544CBcGFuZGFz44CBbWF0cGxvdGxpYu+8jOi/kOihjCBweXRob24gcGxvdF9hbGxfcmFpbmNsb3VkLnB544CC5Y+q55So5Ya757uT5pWw5o2u77yM5LiN6ZyA6KaB5qih5Z6L44CBR1BVIOaIlui/nuaOpeacjeWKoeWZqOOAggo=",
+      "replacement": "# Raincloud plots for all motif annotations\n\nThe figure shows half violins, white box plots and all observations, using pink for motif perturbations and gray for matched backgrounds. Positive and negative patterns are separated across pages; each page contains at most four motifs and one background. All 11 labels and 16 annotation/sign combinations are retained with a common full-range axis.\n\nEffects are WT minus disrupted predictions in original PC1 units. Points are averaged by positive DNA-overlap group. Displayed backgrounds are deduplicated by match_id and then averaged by source DNA group; inference still uses the original one-to-one matched pairs. Shared motif annotations do not provide independent evidence for distinct proteins. raincloud_plot_values.tsv contains the plotted values and all_motifs_summary.tsv contains the original summary statistics.\n\nFor offline plotting, place plot_all_raincloud.py, final_figure_small.py, tf_annotation_effects.tsv and tf_statistics.tsv together, install numpy, pandas and matplotlib, and run python plot_all_raincloud.py. The frozen-data redraw does not require model inference.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDlhajpg6ggMTEg5LiqIG1vdGlm77ya57q16L205pS+5aSn5Y+K5pi+6JGX5oCn5qCH5rOoCgrnu5/kuIDnurXovbTojIPlm7TkuLogLTAuMDAxNSDoh7MgKzAuMDAxNSBQQzHvvIzliLvluqbpl7TpmpQgMC4wMDA177yb5Zu+5LiK5LulIMOXMTDigbvCsyDmmL7npLrkuLogLTEuNSDoh7MgKzEuNe+8jOmXtOmalCAwLjXjgILljp/lp4vmlbDlgLzlkoznu5/orqHnu5PmnpzkuI3lj5jjgIIKCuWFqOmDqCAxMSDkuKogbW90aWYg5YWxIDUg6aG177yM5q2j6LSf6LSh54yuIHBhdHRlcm4g5YiG5byA5bGV56S644CCKiDkuLrmjqLntKLmgKcgVEYv56ym5Y+35ZCI5bm25YiG5p6Q55qEIEhvbG0g5qCh5q2jIFA8MC4wNe+8myoqIOS4uiBQPDAuMDHjgILlj6rlnKjmraPotKHnjK4gU1Ax44CBU1Ay44CBU1A044CBS0xGMTYg57uE5LiK5qCH5rOo44CC5YW25qOA6aqM5q+U6L6D5ZCE6Ieq5LiO5LiA5LiA5Yy56YWN6IOM5pmv55qE5omw5Yqo5beu5byC77yM5LiN5piv5pys6aG15aSa5LiqIG1vdGlmIOWQiOW5tuWQjueahOeBsOiJsiBCYWNrZ3JvdW5kIOWIhuW4g+ajgOmqjOOAggoK5Y2V5Liq5pWj54K55Luj6KGo5rqQIEROQSDnu4TnmoTlubPlnYfmlYjlupTvvIzmsqHmnInljZXni6wgUCDlgLzjgII0NCDkuKrljp/lp4sgcGF0dGVybiDnmoTkuLvopoHmo4DpqozlnYfmnKrovr7liLDmoKHmraPlkI7mmL7okZfmgKfjgILlpJrkuKogVEYg5rOo6YeK5YWx5LqrIHBhdHRlcm7vvIzkuI3ku6Pooajlm5vkuKrom4vnmb3nmoTni6znq4vor4Hmja7jgIIKCui+ueeVjOS4ieinkuagh+iusOihqOekuuWtmOWcqOi2heWHuuaYvuekuuiMg+WbtOeahOWAvO+8m+acquWIoOmZpOi/meS6m+aVsOaNru+8jOS5n+acqumHjeaWsOiuoeeul+WvhuW6puOAgeeusee6v+aIluaYvuiRl+aAp+OAguWujOaVtOiMg+WbtOWOn+Wbvue7p+e7reS/neeVmeWcqOS4iuS4gOe6pyBhbGxfMTFfbW90aWZzX3JhaW5jbG91ZC5wZGbjgILmr4/nu4TojIPlm7TlpJblgLzmlbDph4/lkoznsr7noa4gUCDlgLzkv53lrZjlnKggc2lnbmlmaWNhbmNlX2FuZF9vdXRzaWRlX3JhbmdlLnRzduOAggo=",
+      "replacement": "# Motif panels with a magnified effect axis\n\nThe common range is -0.0015 to +0.0015 PC1 with 0.0005 ticks, displayed at 1e-3 scale. Five pages cover all 11 annotations, with positive and negative patterns separated. Stars indicate the original exploratory annotation/sign pooled Holm-adjusted thresholds: 0.05 and 0.01. Each group was compared with its own one-to-one matched background. Points are source-DNA-group averages; they have no individual P values. None of the 44 primary pattern tests passed correction, and shared annotations do not establish independent protein identities. Boundary triangles mark clipped display values; all data and original tests remain available. significance_and_outside_range.tsv records exact P values and clipping counts.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDntKflh5HmqKrlkJHnu4jnqL8KCuaMieWPguiAg+Wbvuiwg+aVtOS4uiA4w5cyLjUg6Iux5a+477yM5bem5Y2K5bCP5o+Q55C044CB55m96Imy566x57q/44CB5Y+z5L6n5pWj54K577yb57KJ6Imy5Li65Zub5Liq5pi+6JGX55qE5q2j6LSh54yu5ZCI5bm257uE77yM54Gw6Imy5Li65Yy56YWN6IOM5pmv44CC5Yi75bqmIDEyIHB044CB6L205qCH6aKYIDE0IHB044CB5Y+v57yW6L6RIFBERiDlrZfkvZPjgILkuI3liqDlpKfmoIfpopjjgIHlm77lhoXor7TmmI7mrrXokL3miJbpobXohJrjgILkv53nlZnnu4TlkI3lkoznsonoibLpm7bnur/vvJvmmJ/lj7fmmL7npLrnirbmgIHop4EgcGxvdF9tYW5pZmVzdC5qc29uIOeahCBzaWduaWZpY2FuY2Vfc3RhcnNfZGlzcGxheWVk77yM5pys5qyhIC0tbm8tc3RhcnMg54mI5pys5Y676Zmk5omA5pyJ5pi+6JGX5oCn5pif5Y+344CCCgrnurXovbTkuLogzpRZX1BDMSA9IFdUIOKIkiDmiZPkubHlkI7pooTmtYvvvIzojIPlm7QgwrEwLjAwMu+8jOS4u+WIu+W6pumXtOmalCAwLjAwMe+8jOaYvuekuiDDlzEw4oG7wrPjgILotoXlh7rojIPlm7TnmoTmlaPngrnkv53nlZnlnKjmlbDmja7kuK3vvIzovrnnlYzkuInop5Lmj5DnpLroo4HliarjgIIqIOS4uuWOn+acieaOoue0ouaApyBURi/nrKblj7flkIjlubbmo4DpqoznmoQgSG9sbSBQPDAuMDXvvIwqKiDkuLogUDwwLjAx44CC5LiN5piv5Y2V5Liq5pWj54K55oiW5Y2V5Liq5Y6f5aeLIHBhdHRlcm4g55qE5pi+6JGX5oCn77yb5ZCE57uE5L2/55So5ZCE6Ieq5LiA5LiA5Yy56YWN6IOM5pmv6L+b6KGM5qOA6aqM77yM6ICM6Z2e5ou/54Gw6Imy5re35ZCI6IOM5pmv6YeN5paw5qOA6aqM44CCCgrlj6rmmL7npLogS0xGMTbjgIFTUDHjgIFTUDLjgIFTUDQg5ZKM5Yy56YWN6IOM5pmv77yM5LiN5omp5bGVIG1vdGlmIOmbhuWQiOOAguaJgOacieaVo+eCueS/neeVmeOAgeS4jeaKveagt++8jOaMieeUqOaIt+imgeaxguijgeWJque6tei9tOaYvuekuuiMg+WbtO+8m+i+ueeVjOS4ieinkuaPkOekuui2heeVjOWAvO+8jOaXoOaYvuiRl+aAp+aYn+WPt+OAgui/memHjOWPquaUueeJiOW8j++8jOayoeaciei/kOihjOaooeWei+aIlumHjeaWsOiuoeeul+e7n+iuoeOAggo=",
+      "replacement": "# Compact motif panel with a fixed display range\n\nThe 8 by 2.5 inch canvas shows KLF16, SP1, SP2, SP4 and matched backgrounds. Effects are WT minus disrupted PC1, displayed at 1e-3 scale over +/-0.002 with 0.001 ticks. Values outside the axis limits remain in the data; boundary triangles indicate clipping. All observations are retained without sampling. Significance stars are disabled. The exploratory annotation groups can share patterns; the original one-to-one matched tests and their Holm corrections are unchanged.\n"
+    },
+    {
+      "legacy_utf8_base64": "CuacgOS9jumHjeWkjeasoeaVsOaMieWQhOWIhuaUr+iHquW3seeahOWunumZheaIkOWRmOiuoeeul++8jOS4jeayv+eUqOWOn+adpeeahOWbuuWumueql+WPo+mVv+W6puOAguWOnzRULTAx5LiJ5Liq5oiQ5ZGY6L+e57utVOS4ujE044CBNeOAgTXvvIzlm6DmraTlkb3lkI01VCvvvJvljp80VC0wMuS4ieS4quaIkOWRmOS4ujE444CBMTXjgIExM++8jOWboOatpOWRveWQjTEzVCvjgILljp/lp4vlr4xB5oiQ5ZGY5YWI5oyJ5Y+N5ZCR5LqS6KGl5pa55ZCR6Kej6YeK44CC5LiK6Z2i55qE5YWo5L2TVOexuzVUK+aYr+i+g+WuveeahOW6j+WIl+eJueW+geS4i+eVjO+8jOeLrOeri+mhueS7jeeUqOivpeS4i+eVjOWKoOaYn+WPt++8m+S4pOS4quWIhuaUr+eahOWFt+S9k+WQjeWtl+aMieWIhuaUr+WGheacgOefremHjeWkjeaVsOWMuuWIhuOAguKAnCvigJ3ooajnpLrop4Llr5/liLDmm7Tplb/nmoTph43lpI3vvIzlubbkuI3ooajnpLrmmL7okZfmgKfvvJvov5nkuZ/kuI3mhI/lkbPnnYDkuKTkuKrliIbmlK/mmK/kuI3lkIxURuWutuaXj+OAguaJgOacieWQjOaguOW/g+eahCAtMDEvLTAyIOWQjue8gOW3suS7juWbvuS4iuWQjeensOWOu+aOie+8jOWOn+Wni+e8luWPt+S7jeWPr+afpeihqOOAggoK5re35ZCI5qC45b+D5rK/55So5Y6f5p2l5pyJ5pSv5oyB5bqm55qEIElVUEFDIOaguOW/g++8jOacquaKiuS4jei/nue7reeahCBUIOauteW8uuihjOaLvOaIkOmVv+WQjOiBmueJqeOAguiLpeaVtOS4quaguOW/g+S4uuebuOWQjOWkmueiseWfuuWNleWFg+eahOeyvuehrumHjeWkje+8jOS9v+eUqOasoeaVsCvljZXlhYPvvJvlhbbku5bmg4XlhrXku4XljovnvKnov57nu63nm7jlkIzlrZfmr43jgILkv53nlZnmmJ/lj7cgKiDmnaXmj5DnpLrni6znq4sgcGF0dGVybu+8iOWFtuWfuuehgOS7jeaYr+WNleS4qiBwYXR0ZXJuIOeahOWFreeiseWfuueJueW+ge+8ie+8jOS4jeaYr+exu+e+pOWFseivhu+8jOS5n+S4jeaYr+aYvuiRl+aAp+OAggoK6JOdL+eyiee6v+S4uui0ny/mraNZX1BDMeW9kuWboO+8m+eBsOWMuuS4uuWIhuWMui/ni6znq4vpobnvvJvlpJblnIjmt7HntKvlkb3kuK3jgIHmtYXntKvmnKrlkb3kuK3jgILlkIzlkI3lj6/lh7rnjrDlnKjkuI3lkIzliIbmlK/jgII0LTEyYnDliIbljLrpmIjlgLzjgIE2YnDni6znq4vpobnnqpflj6Pku43mmK/mnKzpobnnm67nmoTmj4/ov7DmgKfop4TliJnvvIzkuI3mmK/ljp/orrrmlofpu5jorqTlj4LmlbDjgIIKCiMjIOaWsOaWh+S7tgoK",
+      "replacement": "Repeat labels use the shortest observed run in each partition. The two T-rich branches have run lengths 14/5/5 and 18/15/13 and are labeled 5T+ and 13T+. Reverse-complement orientation is used for A-rich members. The plus sign indicates longer observed runs and is not a significance marker. Shared labels do not establish distinct TF families. Mixed cores retain supported contiguous IUPAC features; noncontiguous runs are not joined. Independent-pattern stars identify individual patterns rather than significance. Blue/pink branches indicate negative/positive PC1 attribution, gray sectors indicate partitions and outer-ring purple indicates match status. Partition cores use 4-12-bp descriptive rules; independent patterns use six-base windows.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyBQT0xJSSBCL1EvSS9DL1AvRS9UIOeJueW+geWIhue7hAoK6K+l55uu5b2V5Y+q6YeN5paw5YiS5YiG5bey5pyJ5riF5rSX5ZCO54m55b6B77yM5LiN6YeN5paw6K6h566X44CB5LiN5b2S5LiA5YyW44CB5LiN5aGr6KGl5Lu75L2V5pWw5YC844CCCgp8IOWtl+avjSB8IOWQq+S5iSB8IFjnibnlvoHmlbAgfAp8LS0tfC0tLXwtLS06fAp8IEIgfCDln7rnoYDln7rlm6Dnu5PmnoQgfCAyMiB8CnwgUSB8IOW6j+WIl+e7hOaIkO+8mkdD5Y+K5bGA6YOoQ3BHIHwgMTMgfAp8IEkgfCBDcEflspvms6jph4ogfCA4IHwKfCBDIHwgQ0RT5a+G56CB5a2Q6aKR546HIHwgNjEgfAp8IFAgfCBwYXVzZeWMuuWfnzEtNG1lcumikeeOhyB8IDM0MCB8CnwgRSB8IGdlbmUtYm9keeWMuuWfnzEtNG1lcumikeeOhyB8IDM0MCB8CnwgVCB8IENUQ0bpooTmtYvnu5PlkIggfCAyIHwKCmBnZW5lYOaYr+ihjOagh+ivhu+8jGBZX1BDMWDmmK/pooTmtYvnm67moIfvvIzkuKTogIXlnYfkuI3orqHlhaVY54m55b6B44CCCmB0cmFuc2NyaXB0L2Nocm9tL3N0cmFuZC90c3NfYmVkMC90ZXNfYmVkMC9nZW5lX2Jpb3R5cGVg5bGe5LqO5rOo6YeK5L+h5oGv77yMCuS4jeS8mumHjeaWsOWKoOWFpea4hea0l+WQjueahOaVsOWAvOaooeWei+efqemYteOAggoKYGZlYXR1cmVfZGljdGlvbmFyeV9sb25nLnRzdmDpgJDliJfliJflh7rkuobmr4/kuIDkuKrnibnlvoHlrp7pmYXlsZ7kuo7lk6rkuKrlrZfmr43jgIIKYHZhbGlkYXRpb25fc3VtbWFyeS50c3Zg6K6w5b2V5q+P57uE55qE5Z+65Zug5pWw44CB54m55b6B5pWw5ZKM57y65aSx5YC85pWw6YeP44CCCg==",
+      "replacement": "# Gene feature groups\n\nThis directory regroups existing cleaned features without recalculating, normalizing or imputing values.\n\n| Group | Description | Predictors |\n|---|---|---:|\n| B | Basic gene architecture | 22 |\n| Q | Sequence composition, GC and local CpG | 13 |\n| I | CpG-island annotations | 8 |\n| C | CDS codon frequencies | 61 |\n| P | Pausing-region 1-4-mer frequencies | 340 |\n| E | Gene-body 1-4-mer frequencies | 340 |\n| T | Predicted CTCF binding | 2 |\n\ngene identifies rows and Y_PC1 is the response. Neither is a predictor. Transcript, chromosome, strand, TSS, TES and biotype fields remain annotation metadata. feature_dictionary_long.tsv records group membership; validation_summary.tsv records row counts, feature counts and missing values.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDntKflh5HmqKrlkJHnu4jnqL8KCuaMieWPguiAg+Wbvuiwg+aVtOS4uiA4w5cyLjUg6Iux5a+477yM5bem5Y2K5bCP5o+Q55C044CB55m96Imy566x57q/44CB5Y+z5L6n5pWj54K577yb57KJ6Imy5Li65Zub5Liq5pi+6JGX55qE5q2j6LSh54yu5ZCI5bm257uE77yM54Gw6Imy5Li65Yy56YWN6IOM5pmv44CC5Yi75bqmIDEyIHB044CB6L205qCH6aKYIDE0IHB044CB5Y+v57yW6L6RIFBERiDlrZfkvZPjgILkuI3liqDlpKfmoIfpopjjgIHlm77lhoXor7TmmI7mrrXokL3miJbpobXohJrjgILkv53nlZnnu4TlkI3lkoznsonoibLpm7bnur/vvJvmmJ/lj7fmmL7npLrnirbmgIHop4EgcGxvdF9tYW5pZmVzdC5qc29uIOeahCBzaWduaWZpY2FuY2Vfc3RhcnNfZGlzcGxheWVk77yM5pys5qyhIC0tbm8tc3RhcnMg54mI5pys5Y676Zmk5omA5pyJ5pi+6JGX5oCn5pif5Y+344CCCgrnurXovbTkuLogzpRZX1BDMSA9IFdUIOKIkiDmiZPkubHlkI7pooTmtYvvvIzojIPlm7QgwrEwLjAwNe+8jOS4u+WIu+W6pumXtOmalCAwLjAwMu+8jOaYvuekuiDDlzEw4oG7wrPjgILmiYDmnIkgMTQ1MyDkuKrmlaPngrnlnYflnKjmmL7npLrojIPlm7TlhoXjgIIqIOS4uuWOn+acieaOoue0ouaApyBURi/nrKblj7flkIjlubbmo4DpqoznmoQgSG9sbSBQPDAuMDXvvIwqKiDkuLogUDwwLjAx44CC5LiN5piv5Y2V5Liq5pWj54K55oiW5Y2V5Liq5Y6f5aeLIHBhdHRlcm4g55qE5pi+6JGX5oCn77yb5ZCE57uE5L2/55So5ZCE6Ieq5LiA5LiA5Yy56YWN6IOM5pmv6L+b6KGM5qOA6aqM77yM6ICM6Z2e5ou/54Gw6Imy5re35ZCI6IOM5pmv6YeN5paw5qOA6aqM44CCCgrlj6rmmL7npLogS0xGMTbjgIFTUDHjgIFTUDLjgIFTUDQg5ZKM5Yy56YWN6IOM5pmv77yM5LiN5omp5bGVIG1vdGlmIOmbhuWQiOOAguaJgOacieaVo+eCueWujOaVtOaYvuekuu+8jOS4jeijgeWJquOAgeS4jeaKveagt++8jOaXoOi+ueeVjOS4ieinku+8jOaXoOaYvuiRl+aAp+aYn+WPt+OAgui/memHjOWPquaUueeJiOW8j++8jOayoeaciei/kOihjOaooeWei+aIlumHjeaWsOiuoeeul+e7n+iuoeOAggo=",
+      "replacement": "# Full-range compact motif panel\n\nThe 8 by 2.5 inch canvas shows KLF16, SP1, SP2, SP4 and their matched background as half violins, white boxes and all 1453 observations. The range is +/-0.005 PC1 with 0.002 major ticks, displayed at 1e-3 scale. Tick labels are 12 pt and axis labels are 14 pt. All observations are shown, without sampling, clipping markers or significance stars. The annotation groups can share sequence patterns. This operation changes presentation only; model predictions and the original matched statistical tests are retained.\n"
+    },
+    {
+      "legacy_utf8_base64": "44CC5q2k5Zu+5LiO5pyA57uIMTAxYnAgSVNN5L2/55So5ZCM5LiA5Z+65Zug44CB5ZCM5LiARm9sZDEw5p2l5rqQc2VxbGV0NzXvvJvmraTlpITnu5jliLZEZWVwTElGVOW9kuWboO+8jOWNleS9jeS4uuWOn+Wni3NpZ25lZCBZX1BDMSBjb250cmlidXRpb27vvIzpnZ5JU03nqoHlj5jmlYjlupTjgIIKCuWujOaVtOi+k+WFpTDigJM1OTnvvJtUU1PlnZDmoIfop4FkYXRhL3NlbGVjdGlvbi5qc29u77ybc2VxbGV0NTXigJMxMDTvvJtTUDTmoLfluo/liJfljLnphY05NuKAkzEwNOOAguWdh+S4ujAtYmFzZWTovpPlhaXkvY3nva7jgIIKCuWunumZheinguWvn+eiseWfuueahOW9kuWboO+8nW9uZWhvdCDDlyDkupTkuKpzZWVk5bmz5Z2HaHlwb3RoZXRpY2FsIGF0dHJpYnV0aW9u77yb5L+d55WZ5Y6f5aeL5q2j6LSf5YC877yM5LiN5bmz5ruR44CB5LiN5b2S5LiA5YyW44CCNTBicOWbvuS4uuWNleS4quWfuuWboOWunuS+i++8jOmdnjk45Liqc2VxbGV055qE5bmz5Z2HQ1dN44CCCgpBcmlhbO+8muWIu+W6pi/mma7pgJrmloflrZcxMnB077yM6L205qCH6aKYMTRwdO+8m+W3pui9tOe6vzEuM3B077yb5peg5LiL6L655qGG77yM5L+d55WZeOi9tOWIu+W6puOAglBERuS4uuefoumHj+i+k+WHuuOAgueUqOaIt+W3suWFgeiuuOWQiOmAguWwuuWvuO+8jOW5tuimgeaxguS4i+i9veacrOWcsOOAggoKZGF0YeWMheWQq+WujOaVtDYwMGJw5Y6f5aeL5pWw5o2u44CB5LqUc2VlZOaVsOaNruOAgeWdkOagh+WSjOadpea6kOWTiOW4jOOAgnByb3ZlbmFuY2UvcHJlcGFyZV9zb3VyY2UucHnorrDlvZXljp/lp4vmnaXmupDmj5Dlj5bov4fnqIvvvJvml6XluLjph43nu5jlj6rpnIDmnKzljIXmlofku7bjgIIK",
+      "replacement": ". The figure and final 101-bp mutagenesis example use the same gene and fold-10 seqlet. Values are signed PC1 contributions. Complete input positions are 0-599; the source seqlet spans 55-104 and the SP4-like match spans 96-104. Contributions are observed-base one-hot values multiplied by five-seed mean hypothetical attributions, without smoothing or normalization. This is one seqlet, not the 98-seqlet average pattern. Frozen data, coordinates and source hashes are retained.\n"
+    },
+    {
+      "legacy_utf8_base64": "Ci0gYGFuYWx5c2lzL3BhcGVyX3N0eWxlX25hbWVfZGljdGlvbmFyeTI5LnRzdmDvvJoyOeWkhOagh+azqOeahOaXp+WQjeOAgeaWsOWQjeOAgeaguOW/g+WSjOWFqOmDqOWOn+Wni+e8luWPt+OAggotIGBhbmFseXNpcy9wYXBlcl9zdHlsZV9uYW1pbmdfbWF0Y2hlZDQ0LnRzdmDvvJo0NOWRveS4remhue+8jOWMheWQqyBGb2xkIC8gcj9fcG9zL25lZ19wYXR0ZXJuc19wYXR0ZXJuXz8g5Y6f5aeL57yW5Y+344CBVEbjgIFKQVNQQVIvceOAgeaWueWQkeWSjOWOn+aguOW/gy/ph43lpI3ljLrmrrXlnZDmoIfjgIIKLSBgYW5hbHlzaXMvcGFwZXJfc3R5bGVfbmFtaW5nX21lbWJlcnM2NS50c3Zg77ya5YyF5ous5pyq5ZG95Lit5ZCM57uE5oiQ5ZGY55qE5YWo6YOoNjXpobnor4Hmja7jgIIKLSBgYW5hbHlzaXMvcGFwZXJfc3R5bGVfbmFtaW5nX1RPTVRPTTc5LnRzdmDvvJo3OeadoeacquaUueWPmOeahOWMuemFjeiusOW9leWFs+iBlOaWsOWQjeensOOAggotIGBhbmFseXNpcy9wYXBlcl9zdHlsZV9uYW1pbmdfUUEuanNvbmDvvJrlj4LmlbDjgIHmnIDnn60v5pyA6ZW/6YeN5aSN5pWw44CB5a6M5pW05oCn5ZKMUERG5qC46aqM44CCCgojIyDml6flkI3ihpLmlrDlkI0KCnzkvY3nva5JRHzml6flkI185paw5ZCNfOiMg+WbtHwKfC0tLXwtLS18LS0tfC0tLXwK",
+      "replacement": "- `analysis/paper_style_name_dictionary29.tsv`: partition-label correspondence.\n- `analysis/paper_style_naming_matched44.tsv`: 44 matched patterns, original identifiers, annotations and core coordinates.\n- `analysis/paper_style_naming_members65.tsv`: 65 partition members.\n- `analysis/paper_style_naming_TOMTOM79.tsv`: 79 retained database matches.\n- `analysis/paper_style_naming_QA.json`: naming parameters and records.\n\n## Label correspondence\n\n| Position | Previous label | Current label | Range |\n|---|---|---|---|\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDntKflh5HmqKrlkJHnu4jnqL8KCuaMieWPguiAg+Wbvuiwg+aVtOS4uiA4w5cyLjUg6Iux5a+477yM5bem5Y2K5bCP5o+Q55C044CB55m96Imy566x57q/44CB5Y+z5L6n5pWj54K577yb57KJ6Imy5Li65Zub5Liq5pi+6JGX55qE5q2j6LSh54yu5ZCI5bm257uE77yM54Gw6Imy5Li65Yy56YWN6IOM5pmv44CC5Yi75bqmIDEyIHB044CB6L205qCH6aKYIDE0IHB044CB5Y+v57yW6L6RIFBERiDlrZfkvZPjgILkuI3liqDlpKfmoIfpopjjgIHlm77lhoXor7TmmI7mrrXokL3miJbpobXohJrjgILkv53nlZnnu4TlkI3lkoznsonoibLpm7bnur/vvJvmmJ/lj7fmmL7npLrnirbmgIHop4EgcGxvdF9tYW5pZmVzdC5qc29uIOeahCBzaWduaWZpY2FuY2Vfc3RhcnNfZGlzcGxheWVk77yM5pys5qyhIC0tbm8tc3RhcnMg54mI5pys5Y676Zmk5omA5pyJ5pi+6JGX5oCn5pif5Y+344CCCgrnurXovbTkuLogzpRZX1BDMSA9IFdUIOKIkiDmiZPkubHlkI7pooTmtYvvvIzojIPlm7QgwrEwLjAwMTXvvIzpl7TpmpQgMC4wMDA177yM5pi+56S6IMOXMTDigbvCs+OAgiog5Li65Y6f5pyJ5o6i57Si5oCnIFRGL+espuWPt+WQiOW5tuajgOmqjOeahCBIb2xtIFA8MC4wNe+8jCoqIOS4uiBQPDAuMDHjgILkuI3mmK/ljZXkuKrmlaPngrnmiJbljZXkuKrljp/lp4sgcGF0dGVybiDnmoTmmL7okZfmgKfvvJvlkITnu4Tkvb/nlKjlkIToh6rkuIDkuIDljLnphY3og4zmma/ov5vooYzmo4DpqozvvIzogIzpnZ7mi7/ngbDoibLmt7flkIjog4zmma/ph43mlrDmo4DpqozjgIIKCui+ueeVjOS4ieinkuaPkOekuuWtmOWcqOi2heWHuuaYvuekuuiMg+WbtOeahOWAvO+8jOaVsOaNruacquWIoOmZpOOAguWujOaVtOiMg+WbtOWFqCBtb3RpZiDlm77lhozkv53nlZnjgILov5nph4zlj6rmlLnniYjlvI/vvIzmsqHmnInov5DooYzmqKHlnovmiJbph43mlrDorqHnrpfnu5/orqHjgIIK",
+      "replacement": "# Compact motif panel\n\nThe 8 by 2.5 inch canvas contains half violins, white boxes and all observations. Pink marks the four exploratory positive-annotation groups and gray marks matched backgrounds. Tick labels are 12 pt and axis labels are 14 pt. Effects are WT minus disrupted PC1, shown at 1e-3 scale. The displayed range is +/-0.0015 with 0.0005 ticks; boundary triangles indicate values outside the display range. All values remain in the data. Significance stars, when enabled, describe the original annotation/sign pooled tests with Holm-adjusted thresholds of 0.05 and 0.01. Tests use each group's matched background, not the pooled gray display distribution. The --no-stars option removes stars. No model inference or statistical recalculation is performed.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDlkIjlubbkuLrkuIDkuKrlr4wgQS9UIOW6j+WIl+eJueW+geexuwoK5Y6fNFQtMDHlkow0VC0wMue7n+S4gOW9kuS4unBvbHkoQS9UKemHjeWkjeeJueW+geexu++8jOWbvuS4iuWPquWHuueOsOS4gOS4quWFseS6qzVUK+agh+etvu+8jOeUseWchuW8p+aLrOe6v+WIhuWIq+aMh+WQkeWOn+adpeS4pOS4quWIhuaUr+OAguWOn+eUn+iBmuexu+agkeWPijI55aSE54Gw6Imy6Zi05b2x5L+d5oyB5LiN5Y+Y77yM5ous57q/5LuF5ZCI5bm25rOo6YeK77yM5LiN5Luj6KGo5a6D5Lus5bey57uP5ZCI5bm25Li65LiA5Liq5qCR5YiG5pSv44CCCgrlha3kuKrmiJDlkZjnu5/kuIDmlrnlkJHlkI7nmoTov57nu61U6ZW/5bqm5Li6MTTjgIE144CBNeOAgTE444CBMTXjgIExM++8jOWOn+Wni+WvjEHmlrnlkJHmjInlj43lkJHkupLooaXorqHlhaXjgILnsbvlkI01VCvooajnpLroh7PlsJE15LiqVOS4lOWPr+abtOmVv++8jOa2teebluS5i+WJjTEzVCvliIbmlK/jgII1VCvkuI4xM1Qr5LiN5piv5LqS5pal55qE55Sf54mp5a2m57G75Yir77yM5Zug5q2k5ZCM5LiA5bGC57qn5Y+v5L2/55So5YWx5LqrNVQr5ZCN56ew44CC5Y2V6aG15YWo6aG55Zu+5LuN5L+d55WZ5YW25LuW54us56uLcGF0dGVybueahOaYn+WPt+agh+etvu+8iOWmgjVUKyrvvInvvIzmmJ/lj7fojIPlm7Top4Hljp/lkb3lkI3or7TmmI7jgIIKCuaIkOWRmOS4juWOn+WniyBGb2xkIC8gcGF0dGVybiDnvJblj7fjgIHnnJ/lrp7plb/luqbjgIFURi9KQVNQQVIvceWSjOaWueWQkeiusOW9leWcqGFuYWx5c2lzL3VuaWZpZWRfNVRfcGF0dGVybl9tZW1iZXJzNjUudHN244CBYW5hbHlzaXMvdW5pZmllZF81VF9tYXRjaGVkNDQudHN244CC5pen54mI5pys5L+d55WZ77yM5b2T5YmN5Lik5Zu+6Lev5b6E5aaC5LiL77yaCg==",
+      "replacement": "# Unified A/T-rich sequence annotation\n\nThe two T-rich partitions share a poly(A/T) feature label, 5T+, connected to their original branches by annotation brackets. The clustering topology and all 29 shaded regions are retained. Their six oriented T-run lengths are 14, 5, 5, 18, 15 and 13. The shared label represents a lower bound rather than mutually exclusive biological families. Independent-pattern stars retain their original descriptive meaning. Member identifiers, lengths, database annotations and orientations are recorded in the associated tables.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDlhajpg6ggbW90aWbvvIzntKflh5Hml6DmmJ/lj7fniYgKCuWFqOmDqCAxMSDkuKogVEYg5qCH562+44CBMTYg5LiqIFRGL+W9kuWboOespuWPt+e7hOWQiOWdh+WxleekuuOAguato+i0oeeMruWSjOi0n+i0oeeMruWIhuS4uuS4iuS4i+S4pOihjO+8jOW5tuWQhOiHque7mOWItuWMuemFjeiDjOaZr+OAguS4jeaYvuekuuaYvuiRl+aAp+aYn+WPt+OAggoKYWxsXzExX21vdGlmc196b29tX25vX3N0YXJzLnBkZiDmsr/nlKggwrEwLjAwMTUgUEMxIOeahOaUvuWkp+iMg+WbtO+8jOWIu+W6piAwLjAwMDXvvIzovrnnlYzkuInop5Lmj5DnpLrojIPlm7TlpJblgLzjgIIKYWxsXzExX21vdGlmc19mdWxsX3JhbmdlX25vX3N0YXJzLnBkZiDmmL7npLrlhajpg6jmlaPngrnojIPlm7TvvIzkuI3miKrmlq3mnoHnq6/lgLzjgIIKCuaoquWQkee0p+WHkeW4g+WxgCAxMC44w5c1LjQg6Iux5a+477yM5Yi75bqmIDEyIHB044CB6L205qCH6aKYIDE0IHB044CB5Y+v57yW6L6RIFBERu+8m+WbvuS4reayoeacieWkp+agh+mimOaIlumhteiEmuauteiQveOAgue6tei9tOaYryBXVCDlh4/miZPkubHlkI7nmoTljp/lsLrluqYgUEMx77yM5pi+56S6IMOXMTDigbvCs++8m+S4jeaYryBORVQtc2VxIGNvdW50cyDmiJYgUEkg55m+5YiG5q+U44CC5omA5pyJ57uf6K6h5L+d5oyB5Y6f5qC377yM5aSa5LiqIFRGIOagh+etvuWPr+iDveWFseS6qyBwYXR0ZXJu44CC5rKh5pyJ5a+55bqU56ym5Y+35Y6f5aeLIHBhdHRlcm4g55qE5qCH562+5LiN5by66KGM6KGl6Zu244CCCg==",
+      "replacement": "# Compact motif panels without significance stars\n\nAll 11 TF annotations and 16 annotation/sign combinations are shown. Positive and negative attribution patterns have separate rows and matched backgrounds. The zoomed PDF uses +/-0.0015 PC1 with 0.0005 ticks and boundary markers; the full-range PDF retains all points. The canvas is 10.8 by 5.4 inches, with 12 pt ticks, 14 pt axis labels and editable PDF text. Effects are WT minus disrupted PC1 in original units, displayed at 1e-3 scale. TF annotations can share patterns. Missing annotation/sign combinations are not replaced by zeros. Statistics are unchanged.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyBGaWcgNSDmnIDnu4jlm77jgIHku6PnoIHkuI7mlbDmja4KCuaMiTIwMjYtMTAtMjLmj5DkvpvnmoTmi7zlm77mlbTnkIbkuLrlm5vkuKrpnaLmnb/vvIzmr4/kuKrnm67lvZXkuIDlvKDmnIDnu4hQREbvvIzlj6/ni6znq4vph43nu5jjgIIKCi0gZmlnNS5h77yaWkJUQjdB5a6M5pW0VFNT5LiO5p2l5rqQc2VxbGV06IGU5Yqo5pS+5aSnCi0gZmlnNS5i77yaMTPkuKrliIbljLrlkI3np7Dlj4ptb3RpZuWwj+WbvueahOWchuW9ouagkQotIGZpZzUuY++8mlpCVEI3Qeadpea6kHBhdHRlcm7kuI5TUDTnmoRUT01UT03phY3lr7kKLSBmaWc1LmTvvJrlkIzkuIBaQlRCN0Hlrp7kvovnmoQxMDFicOaJsOWKqOabsue6v+WSjOeDreWbvgoK5q+P5Liq55uu5b2V5ZCrUERG44CBcGxvdC5weeOAgWNvZGXjgIFkYXRh44CBcHJvdmVuYW5jZeOAgWF1ZGl044CB5L6d6LWW5ZKMU0hBMjU25riF5Y2V44CC5omn6KGMIGBweXRob24gcGxvdF9hbGwucHlgIOWPr+mhuuW6j+mHjee7mOWFqOmDqOOAggoKQuOAgUPjgIFE5Zu+5b2i5LiO5YWI5YmN5pyA57uI54mI5pys6YCQ5YOP57Sg55u45ZCM77ybQeWwhuatpOWJjeS4pOW8oOW9kuWboOWbvuWQiOW5tuW5tuWKoOi/nuaOpee6v+OAgee6ouiJslRTU+e6v++8jOS/neeVmeWOn+Wni+aVsOWAvOOAggoK5pu/5o2i5LuF5L2c55So5LqO5pysZmlnIDXnm67lvZXvvJvkuIrmuLjljp/lp4vmqKHlnovjgIHlvZLlm6DjgIFtb3RpZuaVsOaNruWSjOmhueebrua6kOiEmuacrOS4jeWcqOWIoOmZpOiMg+WbtOOAggo=",
+      "replacement": "# Figure 5 resources\n\nFour packages contain the complete ZBTB7A TSS attribution, circular motif tree, SP4 alignment and 101-bp mutagenesis panel. Each provides a PDF, plotting code, data, provenance and hashes. Run python plot_all.py to redraw them sequentially. Frozen values and upstream experiments are retained.\n"
+    },
+    {
+      "legacy_utf8_base64": "IyDku4XmmL7okZfnu4Tpm6jkupHlm74KCuS7heWxleekuuato+i0oeeMruaooeW8j+aMiSBURiDmoIfnrb7lkIjlubblkI7vvIzlnKjljp/mnInmjqLntKLmgKfphY3lr7nmo4DpqozkuK0gSG9sbSDmoKHmraMgUDwwLjA1IOeahCBLTEYxNuOAgVNQMeOAgVNQMuOAgVNQNO+8jOW5tuS/neeVmeWFtuWMuemFjeiDjOaZr+OAguaYn+WPt+S4jeaYr+WNleS4quaVo+eCueeahCBQIOWAvO+8m+WkmuS4quagh+etvuWFseS6q+mDqOWIhiBwYXR0ZXJu77yM5LiN6IO95L2c5Li65Zub5Lu954us56uL6JuL55m96K+B5o2u44CCNDQg5Liq5Y6f5aeLIHBhdHRlcm4g55qE5Li76KaB5qOA6aqM5Z2H5pyq6L6+5Yiw5qCh5q2j5ZCO5pi+6JGX5oCn44CCCgrnurXovbTojIPlm7QgwrEwLjAwMTUgUEMx77yM6Ze06ZqUIDAuMDAwNeOAguWbvuS4iuS9v+eUqCDDlzEw4oG7wrPjgILovrnnlYzkuInop5LooajnpLrotoXlh7rmraTmmL7npLrojIPlm7TnmoTlgLzvvIzlrozmlbTmlbDlgLzkv53nlZnlnKggcGxvdF92YWx1ZXMudHN277yb5YWI5YmN5a6M5pW06IyD5Zu05YWoIG1vdGlmIOWbvuWGjOS/neeVmeOAguayoeacieS/ruaUueaVsOaNruaIlumHjeaWsOiuoeeul+ajgOmqjOOAggo=",
+      "replacement": "# Exploratory significant-annotation panel\n\nThis display includes the positive-pattern annotation groups KLF16, SP1, SP2 and SP4, which passed the original pooled Holm-adjusted 0.05 threshold, together with their matched backgrounds. Shared underlying patterns make these groups statistically dependent; all 44 primary pattern-level tests remained nonsignificant after correction. The range is +/-0.0015 PC1 with 0.0005 ticks, displayed at 1e-3 scale. Boundary triangles indicate out-of-range values retained in plot_values.tsv. No tests are recalculated.\n"
+    },
+    {
+      "legacy_utf8_base64": "TmFzY2VudEF0bGFzIOe9keermeWKn+iDveaIquWbvgrmiKrlj5bml6XmnJ/vvJoyMDI2LTEwLTI1CgrljIXlkKvlha3lvKDni6znq4sgUERGIOWSjOS4gOS7veWFremhteWQiOW5tiBQREbjgIIK5q+P5byg5Zu+5a6957qmIDE4MCBtbe+8jOW1jOWFpeaIquWbvuS4uiA0MjUyIOWDj+e0oOWuve+8jOWunumZheacieaViOWIhui+qOeOhyA2MDAgZHBp44CCCuWOn+Wni+a1j+iniOWZqOS7pSA0IOWAjeWDj+e0oOWvhuW6puaIquWbvu+8jOS7heWQkeS4i+mHh+agt++8m+acquaUvuWkp+S9juWIhui+qOeOh+aIquWbvuOAggrmiYDmnInlm77mnaXoh6rnvZHnq5nlrp7pmYXpobXpnaLvvIzmnKrmlLnliqjmlbDmja7miJbnvZHpobXjgIIKUEkg5Zu+5L+d55WZ5rua5Yqo6KeG5Zu+77yM6L6555WM6LCD5pW05Yiw5a6M5pW06KGM77yb5Z+65Zug54m55b6B5Zu+5Li05pe25bGV5byA5YWo6YOoIDMwIOmhueWunumZheeJueW+geOAggrpobXpnaLnvZHlnYDjgIHlg4/ntKDlsLrlr7jjgIHmnInmlYggRFBJIOWSjOagoemqjOWAvOivpuingSBmaWd1cmVfbWFuaWZlc3QuanNvbuOAggo=",
+      "replacement": "NascentAtlas interface figures\n\nSix individual PDFs and a six-page composite are provided. Each page is approximately 180 mm wide with a 4252-pixel screenshot at an effective 600 dpi. Screenshots were captured at fourfold browser pixel density and downsampled. PI views retain complete rows; the gene-feature view shows all 30 features. URLs, pixel dimensions, effective resolution and hashes are recorded in figure_manifest.json.\n"
+    },
+    {
+      "legacy_utf8_base64": "5YWB6K645aSa5Liq56Kx5Z+65LiN5oSP5ZGz552A5a6D5Lus5qaC546H5a6M5YWo55u4562J77yb5YW35L2T5qaC546H5LuN5Zyo5Y6f55+p6Zi15Lit44CC5a2X5q+N5a6a5LmJ6KeBW0Jpb3B5dGhvbiBJVVBBQ+aYoOWwhF0oaHR0cHM6Ly9naXRodWIuY29tL2Jpb3B5dGhvbi9iaW9weXRob24vYmxvYi9tYXN0ZXIvQmlvL0RhdGEvSVVQQUNEYXRhLnB5Ke+8jOWFseivhuWIpOWumumHh+eUqFtCaW9weXRob24gMS44NOeahENhdmVuZXLop4TliJldKGh0dHBzOi8vZ2l0aHViLmNvbS9iaW9weXRob24vYmlvcHl0aG9uL2Jsb2IvYmlvcHl0aG9uLTE4NC9CaW8vbW90aWZzL21hdHJpeC5weSnjgII=",
+      "replacement": "Allowed bases need not have equal probabilities. Full probabilities remain in the source matrices. IUPAC definitions and the consensus rule follow the documented Biopython implementation."
+    },
+    {
+      "legacy_utf8_base64": "ceWAvOaYr+ivpeWMuemFjeiiq+iupOWumuS4uuaYvuiRl+aXtuWvueW6lOeahOacgOS9juWBh+WPkeeOsOeOh+mYiOWAvOOAguW9k+WJjeS/neeVmeWOn+agh+WHhnHiiaQwLjA15LiU6YeN5Y+g4omlNWJw44CCcei2iuWwj++8jOaVsOaNruW6k+ebuOS8vOaAp+WMuemFjeeahOe7n+iuoeivgeaNrumAmuW4uOi2iuW8uu+8jOS9huS4jeaYr+KAnOi/meS4qlRG55yf5a6e57uT5ZCI5qaC546H5Li6MS1x4oCd44CC6KeBW1RvbXRvbeWumOaWuei+k+WHuuivtOaYjl0oaHR0cHM6Ly9tZW1lLXN1aXRlLm9yZy9tZW1lL2RvYy90b210b20tb3V0cHV0LWZvcm1hdC5odG1sKeOAgg==",
+      "replacement": "Retained matches use q<=0.05 and overlap>=5 bp. A q value describes false-discovery-rate significance, not a TF-binding probability."
+    },
+    {
+      "legacy_utf8_base64": "5ZCMQeeahFpCVEI3QeWunuS+i+OAgjEwMWJw6IyD5Zu0NTDigJMxNTDvvJtTUDTmoLfljLnphY05NuKAkzEwNO+8m+eyieiJsue6v0PihpJH5L2N5LqOOTnjgIJnYWluL2xvc3PkuLrkupRzZWVk5bmz5Z2HSVNN55+p6Zi155qE5q2j6LSf5p6B5YC877yM5puy57q/6auY5pav5bmz5ruRz4M9MS4xYnDvvIzng63lm77kuI3lubPmu5HjgILljZXkvY3kuLrOlFlfUEMx77yM6Z2ebG9nMXAoY291bnRzKeOAggo=",
+      "replacement": "The same ZBTB7A instance: input positions 50-150, SP4-like match 96-104 and C-to-G substitution at 99. Gain/loss curves summarize five-seed substitution extrema with Gaussian sigma=1.1 bp; the heatmap is unsmoothed. Units are delta Y_PC1.\n"
+    },
+    {
+      "legacy_utf8_base64": "6L+e57ut5LiN5bCR5LqOM+S4quebuOWQjOWtl+avjeeugOWGmeS4uuKAnOasoeaVsCvlrZfmr43igJ3vvIzmrKHmlbDlj6rkvZznlKjkuo7ntKfpmo/lhbblkI7nmoTkuIDkuKrlrZfmr43jgILkvovlpoI2VO+8nVRUVFRUVOOAgTVUQe+8nVRUVFRUQeOAgUNOM0dO77ydQ05HR0dO44CC5ZCO57yALTAx44CBLTAy5Yy65YiG5YWx5Lqr5ZCM5LiA55+t54m55b6B55qE5LiN5ZCM5Y6fcGF0dGVybu+8jOS4jeihqOekuumHjeWkjeasoeaVsOOAgeaYvuiRl+aAp+aIluS4jeWQjFRG5a625peP44CC",
+      "replacement": "Runs of at least three identical bases use count-plus-base notation: 6T=TTTTTT, 5TA=TTTTTA and CN3GN=CNGGGN. Suffixes distinguish patterns sharing a short label; they do not indicate significance or separate TF families."
+    },
+    {
+      "legacy_utf8_base64": "IyDlj4LogIPorrrmlofpo47moLznmoTlkb3lkI3niYgKCuS/neeVmeWOn+eUnyAzMTQtcGF0dGVybiDmoJHjgIExMyDkuKrliIbljLrlkowxNiDkuKrni6znq4vpobnvvIzku4Xmm7TmlrDmmL7npLrlkI3np7DjgILmraTlpITlgJ/pibTljp/orrrmlofnmoQgSVVQQUMg5qC45b+D44CB6YeN5aSN5qyh5pWw5LiO4oCcK+KAneihqOi+vuaWueW8j++8jOS4jeWjsOensOWkjeeOsOWFtuS6uuW3peiBmuexu++8jOS5n+S4jeaUueWPmOaIluWQiOW5tuagkeWIhuaUr+OAggoKIyMg6YeN5aSN57G75ZCNCgo=",
+      "replacement": "# Sequence-based partition labels\n\nThe original 314-pattern tree, 13 partitions and 16 independent items are retained. Labels summarize IUPAC cores and repeat lengths without changing tree membership.\n\n## Repeat labels\n\n"
+    },
+    {
+      "legacy_utf8_base64": "5b2T5YmN57uT5p6c5Li6NDTkuKrlt7Llkb3kuK1wYXR0ZXJu55qE5bqP5YiX54m55b6B5ZG95ZCN44CCNDTkuKrljp9wYXR0ZXJu5Z2H5pyJ5ZSv5LiA5bGV56S65ZCN77yM5YWxMjnnp43kuI3lkIzlha3norHln7rnn63nibnlvoHvvJvov5nkupvnn63nibnlvoHkuI3nrYnkuo4yOeS4que7j+mqjOivgeeahOeUn+eJqeWtpm1vdGlm5a625peP44CC5Y6f5pyJNznmnaHlkIjmoLxUT01UT03ljLnphY3jgIExMeenjUpBU1BBUuWPguiAg+efqemYtee7p+e7reS/neeVmeOAgg==",
+      "replacement": "The 44 matched sequence patterns have unique display names representing 29 distinct six-base sequence features. These labels do not establish 29 validated biological motif families. The 79 qualifying TOMTOM matches and 11 JASPAR matrices are retained."
+    },
+    {
+      "legacy_utf8_base64": "5ZCN56ew5p2l6Ieq5Y6fSDXlrozmlbTnsr7luqbnmoQ1MGJwIHNlcXVlbmNl5qaC546H55+p6Zi177ya6K6h566X5q+P5Liq5L2N572u55u45a+55Z2H5YyA6IOM5pmv55qE5L+h5oGv6YeP77yM5Y+W5L+h5oGv6YeP5oC75ZKM5pyA6auY55qE6L+e57utNmJw77yM5YaN55Sf5oiQSVVQQUPnroDlubblhbHor4bjgILlroPmmK/moLjlv4PnibnlvoHnn63moIfnrb7vvIzkuI3mmK/lrozmlbQ1MGJw5bqP5YiX77yM5LiN5L+d6K+B5bCx5pivVE9NVE9N5bGA6YOo5a+56b2Q5omA55So55qE54mH5q6144CC",
+      "replacement": "Labels summarize the highest-information contiguous six-base window of the original full-precision 50-bp probability matrix using IUPAC consensus. They are short sequence features, not complete patterns or guaranteed TOMTOM alignment intervals."
+    },
+    {
+      "legacy_utf8_base64": "IyBGaWd1cmUgNSDlm77ku7bjgIHku6PnoIHkuI7mlbDmja4KCuW9k+WJjeaJsOWKqOWunuS+i+S7heS/neeVmVBUR0lTL0VHUjHkuI5aQlRCN0EvU1A077yb5LqM6ICF5Z2H5pyJ54us56uLVE9NVE9N5q+U5a+55Zu+44CC5q+P5byg5Zu+55qEUERG44CB5Luj56CB5ZKM5pWw5o2u5oyJ5Zu+5ZCN54us56uL5a2Y5pS+44CCCgp8IOWbvuS7tuebruW9lSB8IOWGheWuuSB8CnwtLS18LS0tfAo=",
+      "replacement": "# Figure 5 resources\n\nPTGIS/EGR1 and ZBTB7A/SP4 examples include separate TOMTOM alignments. Figures, plotting code and data are organized by panel.\n\n| Directory | Content |\n|---|---|\n"
+    },
+    {
+      "legacy_utf8_base64": "Rm9sZDEwIC8gcjBfcG9zX3BhdHRlcm5zX3BhdHRlcm5fMO+8mzk45Liqc2VxbGV05bmz5Z2HcGF0dGVybiBQUE3kuI5TUDQgTUEwNjg1LjLphY3lr7njgILmraTlpITmmK9wYXR0ZXJu5bmz5Z2H77yM5LiN5pivQeS4reWNleWfuuWboHNlcWxldOeahENXTeOAggo=",
+      "replacement": "Fold 10, r0_pos_patterns_pattern_0: a 98-seqlet average PPM aligned with SP4 MA0685.2. This is a pattern average rather than the single-gene contribution matrix.\n"
+    },
+    {
+      "legacy_utf8_base64": "fGNvcmVfaW5mb3JtYXRpb25fYml0cyAvIG1lYW5faW5mb3JtYXRpb25fYml0c19wZXJfcG9zaXRpb2585YWt56Kx5Z+656qX5Y+j5oC75L+h5oGv6YePL+avj+S9jee9ruW5s+Wdh+S/oeaBr+mHj++8jOebuOWvuUEvQy9HL1TlkIQwLjI16IOM5pmv6K6h566X77yb5LiN5pivceWAvOOAgnw=",
+      "replacement": "| core_information_bits / mean_information_bits_per_position | Core information relative to a uniform base background, not a q value. |"
+    },
+    {
+      "legacy_utf8_base64": "6YeN57uY77ya6L+b5YWl5a+55bqU55uu5b2V5omn6KGMIGBweXRob24gcGxvdC5weSAtLW91dHB1dCByZWRyYXcucGRmYO+8m+Wmgue8uuS+nei1lu+8jOWFiOaJp+ihjCBgcHl0aG9uIC1tIHBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHRg44CC",
+      "replacement": "Run `python plot.py --output redraw.pdf` within a package after installing its requirements."
+    },
+    {
+      "legacy_utf8_base64": "5YyF5ZCr5LqU5Liq56eN5a2Q55qEV1Qv56qB5Y+Y6aKE5rWL44CB5a6M5pW0MTAxYnDnmoQzMDPnp43mm7/mjaLnu5PmnpzjgIHlvZPliY0zMWJw5bGV56S65pWw5o2u5p2l5rqQ44CBRklNT+e7k+aenOWPiuWGu+e7k+aWueahiOOAgumHjee7mOS4jemcgOimgUdQVeWSjOaooeWei+adg+mHjeOAguS4iua4uOaOqOeQhuS7o+eggeS9nOS4uua6r+a6kOS/neeVme+8jOmHjeaWsOi3keaOqOeQhuS7jemcgOWFtuazqOaYjueahOWOn+aooeWei+aWh+S7tuOAgg==",
+      "replacement": "Five-seed WT and mutant predictions, all 303 substitutions in the 101-bp window, 31-bp display provenance, FIMO output and the frozen plan. Plotting uses saved values; re-inference requires the recorded checkpoints and inputs."
+    },
+    {
+      "legacy_utf8_base64": "5q+P5Liq55uu5b2V5Z2H5YyF5ZCr5pyA57uIUERG44CBcGxvdC5weeOAgWNvZGUv44CBZGF0YS/jgIFyZXF1aXJlbWVudHMudHh044CBUkVBRE1FLm1k44CBTUFOSUZFU1RfU0hBMjU2LnR4dOOAgVJFUFJPRFVDSUJJTElUWS5qc29u44CC",
+      "replacement": "Each package contains a PDF, plotting entry point, code, frozen data, dependency requirements and provenance records."
+    },
+    {
+      "legacy_utf8_base64": "IyBaQlRCN0EgLyBTUDQgYXR0cmlidXRpb24KCumHjee7mO+8mmBweXRob24gcGxvdC5weWDvvIzmiJYgYHB5dGhvbiBwbG90LnB5IC0tb3V0cHV0IC9wYXRoL3RvL291dHB1dC5wZGZg44CCCgo=",
+      "replacement": "# ZBTB7A / SP4 attribution\n\nRun `python plot.py` or provide an output PDF with --output.\n\n"
+    },
+    {
+      "legacy_utf8_base64": "6K+m5Zu+5LuO5Y6fMzE05oiQ5ZGY5qCR5Lit5Y675o6JMjcw5Liq5pyq5ZG95Lit5Y+26IqC54K55bm25pS257yp5Y+q5pyJ5LiA5Liq5L+d55WZ5a2Q6IqC54K555qE6Lev5b6E5b6X5Yiw77yM5L+d55WZNDTkuKrlkb3kuK1wYXR0ZXJu5LmL6Ze055qE5Y6f5YiG5Y+J5YWz57O777yM5rKh5pyJ6YeN5paw6IGa57G744CC6K+m5Zu+5Lit55qENDTkuKrmiJDlkZjlnYflt7Llkb3kuK3vvIzmiYDku6Xor6blm77lpJbnjq/lhajkuLrmt7HntKvoibLjgII=",
+      "replacement": "The detailed view prunes 270 unmatched leaves from the original 314-member tree and contracts single-child paths. It preserves branching among the 44 matched patterns without reclustering. All leaves in this view are matched, so its outer ring is dark purple."
+    },
+    {
+      "legacy_utf8_base64": "fGNvbXBvc2l0aW9uX2Rlc2NyaXB0aW9ufOaYvuekuuaAp+aIkOWIhuaPj+i/sOOAguacn+acm0dD4omlMC435Li6R0MtcmljaO+8jOacn+acm0FU4omlMC435Li6QVQtcmljaO+8jOWFtuS9mU1peGVk77yb57qv5ZCM56Kx5Z+65YWx6K+G5Y+m5qCHQS1ydW4vVC1ydW7nrYnjgIJ8",
+      "replacement": "| composition_description | Display annotation: GC-rich or AT-rich at an expected fraction of at least 0.7; otherwise Mixed. Homopolymer cores receive run labels. |"
+    },
+    {
+      "legacy_utf8_base64": "fHJldmVyc2VfY29tcGxlbWVudF9JVVBBQyAvIGNhbm9uaWNhbF9SQ19zaWduYXR1cmV8NmJw566A5bm25YWx6K+G55qE5Y+N5ZCR5LqS6KGl5Y+K55So5LqO5qC45a+55pa55ZCR562J5Lu35oCn55qE6KeE6IyD5YyW5Luj56CB77yb5rKh5pyJ5pS55Y+Y5Y6f5pi+56S65pa55ZCR5oiW6YeN5paw6IGa57G744CCfA==",
+      "replacement": "| reverse_complement_IUPAC / canonical_RC_signature | Reverse complement and orientation-equivalence signature; original display orientation and clustering are retained. |"
+    },
+    {
+      "legacy_utf8_base64": "5L6L5aaCQ04zR07lr7nlupRGMDMtcHJlVEVTLU4wNOeahENOR0dHTuefreeJueW+ge+8jOWOn+acieaVsOaNruW6k+azqOmHiuS4ukNUQ0bvvIxxPTAuMDQwOTY3N+OAguWQjeWtl+amguaLrOivpXBhdHRlcm7nmoTluo/liJflgY/lpb3vvIxDVENG5piv5Y+m5LiA6aG55pWw5o2u5bqT55u45Ly85oCn5rOo6YeK44CC",
+      "replacement": "For example, CN3GN summarizes the CNGGGN core of F03-preTES-N04, whose retained database annotation is CTCF with q=0.0409677."
+    },
+    {
+      "legacy_utf8_base64": "fHBhdHRlcm5faWR85Y6fcGF0dGVybiBJROOAguWmgkYwMy1Eb25vci1QMDHvvJpGMDPkuLrnrKwz5oqY77yMRG9ub3LkuLrkvpvkvZPljLrln5/vvIxQ5Li65q2j5b2S5Zug77yMMDHkuLror6XljLrln5/mlrnlkJHkuIvljp9wYXR0ZXJu57yW5Y+344CCTuihqOekuui0n+W9kuWboOOAgnw=",
+      "replacement": "| pattern_id | Original fold, region, attribution sign and within-region index. F03-Donor-P01 denotes fold 3, donor region, positive attribution, pattern 01. |"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5pW06L6T5YWlMOKAkzU5Oe+8m1RTUz0zMDDvvJs1MGJw5p2l5rqQc2VxbGV05Li6NTXigJMxMDTvvJtTUDTmoLfljLnphY05NuKAkzEwNOOAguS4iuaWueeBsOiJsuW9kuWboOazouW9ouS4juS4i+aWueWtl+avjei0oeeMruWbvueUseS4pOadoei/nuaOpee6v+WvueW6lOOAguivpeWbvuS4jkTlkIzkuIBaQlRCN0Hlrp7kvovjgIIK",
+      "replacement": "Input positions 0-599; TSS=300; source seqlet 55-104; SP4-like match 96-104. Linked panels show the same ZBTB7A instance used in the perturbation figure.\n"
+    },
+    {
+      "legacy_utf8_base64": "5omw5Yqo5Zu+55qE5pWw5o2u5L+d55WZ5a6M5pW0MTAxYnDjgIHkupTnp43lrZDlhbExNTE15Liq5a6e6ZmF56qB5Y+Y6aKE5rWL77yb5b2T5YmN5pyA57uI5Zu+5LuF5bGV56S656qB5Y+Y5L2N54K56ZmE6L+RMzFicOOAguWbvuS4rc6U5Li65Y6f5aeL5bC65bqmWV9QQzHnmoTnqoHlj5jlh49XVO+8jOS4jeaYr2xvZzFwKGNvdW50cynjgII=",
+      "replacement": "The perturbation data contain all 101 positions and 1515 predictions across five seeds; this display uses 31 positions. Delta is mutant minus WT in original Y_PC1 units."
+    },
+    {
+      "legacy_utf8_base64": "fGJlc3RfVEYgLyBiZXN0X21hdHJpeF9pZCAvIGJlc3RfcXzmnIDkvY5x6K6w5b2V5a+55bqU55qEVEbjgIHlj4LogIPnn6npmLVJROWPinHlgLzjgIJx5bm25YiX5oyJ55+p6Zi157yW5Y+35o6S5bqP77yMYmVzdF9URuS4jeihqOekuuWUr+S4gOWPr+iDvVRG44CCfA==",
+      "replacement": "| best_TF / best_matrix_id / best_q | Lowest-q retained annotation, with matrix-ID tie breaking; not a unique TF assignment. |"
+    },
+    {
+      "legacy_utf8_base64": "fGNvcmVfc3RhcnRfMWJhc2VkIC8gY29yZV9lbmRfMWJhc2VkfOaJgOWPljZicOWcqOWOnzUwYnAgcGF0dGVybuefqemYteS4reeahOi1t+atouS9jee9ru+8jOS7jjHlvIDlp4vvvJvkuI3mmK/ln7rlm6Dnu4TlnZDmoIfjgIJ8",
+      "replacement": "| core_start_1based / core_end_1based | One-based core coordinates within the 50-bp pattern matrix, not genomic coordinates. |"
+    },
+    {
+      "legacy_utf8_base64": "5YyF5ZCrMzE05LiqcGF0dGVybuWFqOeyvuW6plBQTeOAgeWOn+eUn1LogZrnsbvmoJHkuI7ovpPlhaXnn6npmLXjgIHot53nprsv5a+56b2Q57uT5p6c44CBNDTkuKrlkb3kuK3orrDlvZXjgIHliIbljLrlkozlkb3lkI3ooajvvJvnm7TmjqXph43nu5jkvb/nlKjlhrvnu5PnmoTljp/lp4vmi5PmiZHkuI7liIbljLrvvIzkuI3ph43mlrDogZrnsbvjgII=",
+      "replacement": "Full-precision matrices for 314 patterns, the original clustering topology, inputs, distances, alignments, 44 matched patterns and naming tables. Frozen-data plotting preserves topology and partitions."
+    },
+    {
+      "legacy_utf8_base64": "5Y6f5aeLSDXjgIHljp9tb3RpZlN0YWNr5qCR44CB6Led56a755+p6Zi144CB5ZG95ZCN6KGo44CB5aSN546w6ISa5pys5Y+K5L2c5Li66ISa5pys6L6T5YWl55qE5Y6G5Y+yUUHorrDlvZXkv53nlZnjgILliKDpmaTojIPlm7TpmZDkuo7liJflh7rnmoTml6fniYhQREbvvIzmsqHmnInliKDpmaTljp/lp4vlrp7pqozmiJbliIbmnpDmlbDmja7jgII=",
+      "replacement": "Original H5 inputs, tree topology, distances, naming tables, scripts and required QA records are retained. Cleanup concerns the listed superseded PDFs and preserves experiment and analysis inputs."
+    },
+    {
+      "legacy_utf8_base64": "fHJlZ2lvbnxUU1PjgIFEb25vcuOAgUFjY2VwdG9y44CBcHJlVEVT5Zub56eN6L6T5YWl5Yy65Z+f77yM5YiG5Yir5Li66L2s5b2V6LW35aeL5L2N54K55Yy65Z+f44CB5Ymq5o6l5L6b5L2T5Yy65Z+f44CB5Ymq5o6l5Y+X5L2T5Yy65Z+f44CB6L2s5b2V57uI5q2i5L2N54K55YmN5Yy65Z+f44CCfA==",
+      "replacement": "| region | TSS, Donor, Acceptor or preTES input region. |"
+    },
+    {
+      "legacy_utf8_base64": "5Y6f55SfbW90aWZTdGFja+agkeaLk+aJkeWSjOi3neemu+S/neaMgeS4jeWPmO+8mzMxNOS4qnBhdHRlcm7vvIw0NOS4quWRveS4remhue+8m+agh+etvuWxleekujEz5Liq5YiG5Yy677yM5L+d55WZMjnkuKrliIbljLrpmLTlvbHvvJvmt7HntKs95ZG95Lit44CB5rWF57SrPeacquWRveS4reOAggo=",
+      "replacement": "Original tree topology and distances are retained: 314 patterns, 44 matched patterns, 13 displayed partition labels and 29 shaded partitions.\n"
+    },
+    {
+      "legacy_utf8_base64": "fGFsbF9URnMgLyBhbGxfbWF0cml4X2lkcyAvIGFsbF9xX3ZhbHVlc3zmr4/kuKpwYXR0ZXJu5YWo6YOo5bey5pyJ55qE5ZCI5qC85Yy56YWN77yM5LiN5Y+q5L+d55WZYmVzdF9URuOAgnw=",
+      "replacement": "| all_TFs / all_matrix_ids / all_q_values | All qualifying database matches. |"
+    },
+    {
+      "legacy_utf8_base64": "5ZG95ZCN6K+75Y+W55qEMjTku73ljp/lp4tINeWdh+S4juazqOWGjFNIQTI1NuS4gOiHtO+8jOacqumHjeaWsOiuree7g+aooeWei+OAgemHjeaWsOi/kOihjFRGLU1vRElTY2/miJbmlrDlop5UT01UT03ljLnphY3jgILljp/moJFTSEEyNTbvvJpg",
+      "replacement": "The 24 source H5 files retain their registered hashes. Naming does not retrain models, rerun motif discovery or add database matches. Original tree SHA256: `"
+    },
+    {
+      "legacy_utf8_base64": "5Y6f5aeLVE9NVE9NIFhNTC9UU1bjgIHmn6Xor6LlkozmlbDmja7lupNNRU1F55+p6Zi144CB5Y6f55SfSDXotKHnjK7nn6npmLXlj4rlk4jluIzvvJvlm77npLoyNOKAkzMy5L2N44CBU1A05Y+N5ZCR5LqS6KGl77yM5Y6f5aeLcC9x5YC85L+d55WZ44CC",
+      "replacement": "Original TOMTOM XML/TSV, query and reference matrices, H5 contributions and hashes; alignment positions 24-32 and the SP4 reverse-complement orientation retain original P/q values."
+    },
+    {
+      "legacy_utf8_base64": "LSBgYW5hbHlzaXMvbWF0Y2hlZDQ0X3NlcXVlbmNlX25hbWluZ19ub3Rlcy5tZGDvvJrmnKzor7TmmI7lj4o0NOS4quWQjeensOeahOmAkOS4gOWvueW6lOihqOOAgg==",
+      "replacement": "- `analysis/matched44_sequence_naming_notes.md`: sequence-label documentation."
+    },
+    {
+      "legacy_utf8_base64": "fOagkeeahOWIhuWPiXzmnaXoh6rljp9tb3RpZlN0YWNr5bqP5YiX55u45Ly85oCn5bGC5qyh6IGa57G744CC57uY5Yi255qE6KeS5bqm44CB5p6d6ZW/5ZKM5omH5Yy65a695bqm55So5LqO5o6S54mI77yM5LiN5piv5Y+v6K+75Y+W55qE5pWw5YC86Led56a75oiW5a+M6ZuG6YeP44CCfA==",
+      "replacement": "| Branching | Original sequence-similarity hierarchical clustering. Display angles, lengths and sector widths support layout and are not quantitative enrichment measures. |"
+    },
+    {
+      "legacy_utf8_base64": "LSBgYW5hbHlzaXMvbWF0Y2hlZDQ0X3NlcXVlbmNlX25hbWluZ19RQS5qc29uYO+8muWOn+Wni0g144CB5ZG95ZCN5ZKM5Zu+5Lu25qC46aqM6K6w5b2V44CC",
+      "replacement": "- `analysis/matched44_sequence_naming_QA.json`: source, naming and figure records."
+    },
+    {
+      "legacy_utf8_base64": "NjAwYnAgS0xITDIz55yf5a6eVFNT5b2S5Zug5YC844CB5Z+65Zug57uE5Z2Q5qCH44CBb25lLWhvdOW6j+WIl+WPiumAieS4rVNQNOeJh+aute+8m+aVsOaNrlRTVuWSjE5QWuWdh+S/neeVmeWOn+eyvuW6puOAgg==",
+      "replacement": "Full 600-bp KLHL23 TSS attributions, coordinates, one-hot sequence and selected SP4-associated segment, with full-precision TSV/NPZ values."
+    },
+    {
+      "legacy_utf8_base64": "CgrlkITnm67lvZXov5DooYwgcHl0aG9uIHBsb3QucHkgLS1vdXRwdXQgcmVkcmF3LnBkZiDlj6/ni6znq4vph43nu5jjgILljp/lp4vmqKHlnovlkozmupDmlbDmja7kv53nlZnjgIIK",
+      "replacement": "\n\nRun python plot.py --output redraw.pdf in each package. Original models and input data remain available.\n"
+    },
+    {
+      "legacy_utf8_base64": "6YeN5paw5o6o55CG6ZyA6KaB5pyN5Yqh5Zmo5Y6f5aeL5pWw5o2u44CBY2hlY2twb2ludOOAgWJ1bmRsZV9sb2FkZXIg562J5aSW6YOo5L6d6LWW77yb5LiN6KaB5oqK6LCD5bqm6ISa5pys5b2T5L2c5pys5Zyw57uY5Zu+5YWl5Y+j44CC",
+      "replacement": "Re-inference requires the recorded input data, checkpoints and model loader. Use the plotting entry point for local frozen-data figures."
+    },
+    {
+      "legacy_utf8_base64": "fGNvcmVfZXhwZWN0ZWRfR0NfZnJhY3Rpb2585qC55o2uNuS4quS9jee9rueahOamgueOh+efqemYteiuoeeul+eahOW5s+Wdh0crQ+avlOS+i++8jOS4jeaYr+ebtOaOpeaVsOeugOW5tuWtl+avjeOAgnw=",
+      "replacement": "| core_expected_GC_fraction | Mean expected G+C fraction from the six position-probability rows. |"
+    },
+    {
+      "legacy_utf8_base64": "CjIwMjYtMTAtMjE6IHjjgIF5IOi9tOe6v+WuveabtOaWsOS4uiAxLjMgcHTvvJvmlbDmja7jgIFnYWluL2xvc3Mg5puy57q/5pWw5YC844CB5bmz5ruR5Y+C5pWw5ZKM6Imy6Zi25LiN5Y+Y44CCCg==",
+      "replacement": "\nAxis lines were updated to 1.3 pt; data, gain/loss values, smoothing and color scales are unchanged.\n"
+    },
+    {
+      "legacy_utf8_base64": "fGZlYXR1cmVfbGFiZWwgLyBjb3JlX0lVUEFDXzZicHzkuI3lkKvljLrliIbnvJblj7fnmoTnibnlvoHnn63lkI3vvIzku6Xlj4rlsZXlvIDlkI7nmoQ2YnDnroDlubblhbHor4bjgIJ8",
+      "replacement": "| feature_label / core_IUPAC_6bp | Shared short feature label and expanded six-base consensus. |"
+    },
+    {
+      "legacy_utf8_base64": "NTBicOecn+Wunuadpea6kOeJh+auteeahOmAkOeiseWfuui0oeeMruOAgeWOn+Wni+W6j+WIl+WPiuWdkOagh++8m+atpOWbvuS4uuWNleS4qktMSEwyM+eJh+aute+8jOS4jeaYrzE2NuS4qnNlcWxldOeahOW5s+Wdh0NXTeOAgg==",
+      "replacement": "Per-base contributions, sequence and coordinates for one 50-bp KLHL23 seqlet, rather than an average across 166 seqlets."
+    },
+    {
+      "legacy_utf8_base64": "5q+P5byg5Zu+5oyJ5Y6f5Zu+5ZCN56ew54us56uL5a2Y5pS+44CC5YWxN+W8oOW9k+WJjeacgOe7iOeJiO+8jOWOn+mhueebruaWh+S7tuS/neeVmeOAguaJgOacieWMheWdh+mAmui/h+S7juaJgOmZhOaVsOaNrueLrOeri+mHjee7mOOAgeS4juWOn+WbvumAkOWDj+e0oOS4gOiHtOeahOajgOafpeOAgg==",
+      "replacement": "Each final figure has its own package. The seven display variants retain their original inputs and previous reproduction records."
+    },
+    {
+      "legacy_utf8_base64": "LSBgYW5hbHlzaXMvZmlndXJlX2NsZWFudXBfcmVjZWlwdC5qc29uYO+8muacrOasoeWIoOmZpOiMg+WbtOOAgeWkh+S7veWSjOaWh+S7tuWTiOW4jOOAgg==",
+      "replacement": "- `analysis/figure_cleanup_receipt.json`: cleanup scope and file hashes."
+    },
+    {
+      "legacy_utf8_base64": "LSBgbmFtZV9hbmRfcGxvdF9tYXRjaGVkNDQucHlg77ya5ZG95ZCN5ZKM57uY5Zu+5aSN546w5YWl5Y+j77yb5pen5Zu+6L6T5YWl5L6d6LWW55qEUUHorrDlvZXku43kv53nlZnjgII=",
+      "replacement": "- `name_and_plot_matched44.py`: sequence naming and plotting entry point."
+    },
+    {
+      "legacy_utf8_base64": "Jy9wYXRoL3RvL21pY3JvbWFtYmEgcnVuIC1uIG1lbWVfdG9vbHMn77yb6Iul5bel5YW35bey5ZyoUEFUSOS4reWImeeVmeepuuOAgg==",
+      "replacement": "'/path/to/micromamba run -n meme_tools'; leave empty when the tools are on PATH."
+    },
+    {
+      "legacy_utf8_base64": "LSBgYW5hbHlzaXMvbWF0Y2hlZDQ0X3NlcXVlbmNlX25hbWVzLnRzdmDvvJo0NOihjOWujOaVtOWRveWQjeS4jueJueW+geihqOOAgg==",
+      "replacement": "- `analysis/matched44_sequence_names.tsv`: full naming table for 44 patterns."
+    },
+    {
+      "legacy_utf8_base64": "LSBgYW5hbHlzaXMvbWF0Y2hlZDQ0X25hbWVkX1RPTVRPTTc5LnRzdmDvvJo3OeadoeWOn+WMuemFjemZhOWKoOaWsOWQjeensOOAgg==",
+      "replacement": "- `analysis/matched44_named_TOMTOM79.tsv`: 79 retained matches with display names."
+    },
+    {
+      "legacy_utf8_base64": "cnVuX25hdGl2ZS5weSDnmoTlrZfoioLlk4jluIzlt7LkuI4gcHJvdG9jb2wuanNvbiDmoLjlr7nvvIwxMCDkuKrlrp7pqozorqHliJLnmoTlk4jluIzkuqbkuIDoh7TjgII=",
+      "replacement": "The previous source records include protocol and ten-fold plan hashes."
+    },
+    {
+      "legacy_utf8_base64": "fOa3see0q+iJsuWklueOr++8iCM5MThCQjTvvIl85pyJ5Y6f5pyJ5ZCI5qC8SkFTUEFSL1RPTVRPTeWMuemFjeeahHBhdHRlcm7vvIzmgLvop4jkuK00NOS4quOAgnw=",
+      "replacement": "| Dark-purple outer ring (#918BB4) | Patterns with qualifying JASPAR/TOMTOM matches: 44 in the overview. |"
+    },
+    {
+      "legacy_utf8_base64": "fOa1hee0q+iJsuWklueOr++8iCNERERERUHvvIl85rKh5pyJ6L6+5Yiw5Y6f5Yy56YWN6ZiI5YC855qEcGF0dGVybu+8jOaAu+iniOS4rTI3MOS4qu+8m+S4jeihqOekuuayoeacieiwg+aOp+WKn+iDveOAgnw=",
+      "replacement": "| Light-purple outer ring (#DDDDEA) | Patterns below the match threshold: 270 in the overview. This does not establish absence of regulatory function. |"
+    },
+    {
+      "legacy_utf8_base64": "fOWGhemDqOS4reeBsOiJsuaJh+WMui/og4zmma/vvIgjQjBCMEIw77yJfOagh+WHuuW3suWRveS4reeahOW6j+WIl3BhdHRlcm7ojIPlm7TvvIzkuI7mt7HntKvoibLlkb3kuK3nirbmgIHlr7nlupTjgIJ8",
+      "replacement": "| Gray sectors/background (#B0B0B0) | Regions containing matched sequence patterns. |"
+    },
+    {
+      "legacy_utf8_base64": "fOS4reaAp+eBsOiJsuWGhemDqOaenee6v3zor6XlhoXpg6jlrZDmoJHlkIzml7bljIXlkKvmraPjgIHotJ/lvZLlm6BwYXR0ZXJu77yb54Gw6Imy5p6d57q/5LiO54Gw6Imy6IOM5pmv5omH5Yy655qE5ZCr5LmJ5LiN5ZCM44CCfA==",
+      "replacement": "| Neutral-gray internal branches | Subtrees containing both attribution signs; distinct from gray background sectors. |"
+    },
+    {
+      "legacy_utf8_base64": "fOm7keiJsuS4ieinkuWSjOefreebtOe6v3zmiorkuIDkuKrluo/liJflkI3np7DmjIflkJHlr7nlupTnmoTljp9wYXR0ZXJu5p6d56uv77yM5LiN6KGo56S66L2s5b2V5pa55ZCR5oiWVEbmv4DmtLsv5oqR5Yi244CCfA==",
+      "replacement": "| Black triangles and short lines | Links from sequence labels to pattern tips; they do not indicate transcription direction or TF activation/repression. |"
+    },
+    {
+      "legacy_utf8_base64": "5Lul5LiKVEblkI3mnaXoh6rljp/mlbDmja7lupPljLnphY3vvIzluo/liJfnn63lkI3liJnmnaXoh6rkvaDnmoTnn6npmLXvvJvkuozogIXkuI3mmK/lkIzkuIDlpZflkI3np7DvvIzkuZ/kuI3mmK/kuIDlr7nkuIDnmoRURui6q+S7veehruiupOOAgg==",
+      "replacement": "TF labels are database-similarity annotations; short sequence labels summarize the matrices. Neither establishes a unique TF identity."
+    },
+    {
+      "legacy_utf8_base64": "fHNvdXJjZV9zZXFsZXRzfOW9ouaIkOWOn3BhdHRlcm7nmoRzZXFsZXTmlbDph4/vvIzkuI3mmK/ni6znq4vnlJ/nianph43lpI3mlbDjgIJ8",
+      "replacement": "| source_seqlets | Seqlets contributing to the pattern, not independent biological replicates. |"
+    },
+    {
+      "legacy_utf8_base64": "YOOAguaJgOaciVBERumhtemdouS/neaMgTXDlzToi7Hlr7jvvIzpu5HoibJBcmlhbCAxMnB05qCH562+77yM5peg5paH5a2X6YeN5Y+g5oiW6KOB5YiH77yM5peg5bWM5YWl5L2N5Zu+44CC",
+      "replacement": "`. PDF pages retain the 5 by 4 inch canvas and editable text."
+    },
+    {
+      "legacy_utf8_base64": "fHNlcXVlbmNlX25hbWV8NDTkuKrljp9wYXR0ZXJu5ZCE6Ieq5ZSv5LiA55qE5bGV56S65ZCN77yM5YyF5ZCr5b+F6KaB55qE5Yy65YiG57yW5Y+344CCfA==",
+      "replacement": "| sequence_name | Unique display name for each of the 44 patterns. |"
+    },
+    {
+      "legacy_utf8_base64": "5pyq5Yy56YWN5Z+65Zug5bey5L+d55WZ5Zyo6L6T5Ye65Lit77yM5YW25LiN5Y+v6K6h566X54m55b6B5Li6TkHvvJvor6bmg4Xop4Fhbm5vdGF0aW9uX3JlcG9ydOOAgg==",
+      "replacement": "Unmatched genes are retained with NA for unavailable features; see annotation_report."
+    },
+    {
+      "legacy_utf8_base64": "5LiN5bGV5byAcGF1c2UvYm9keeWFsTY4MOS4qjEtNC1tZXLlkow2MeS4quWvhueggeWtkOWIl++8jOeUqOS6juW/q+mAn+ajgOafpeazqOmHiua1geeoiw==",
+      "replacement": "Skip expansion of the 680 pause/body 1-4-mer and 61 codon columns for a quick annotation-only run"
+    },
+    {
+      "legacy_utf8_base64": "fGZ1bGxfNTBicF9JVVBBQ3zmlbTkuKo1MGJw55+p6Zi155qE566A5bm25YWx6K+G77yM5LiN562J5ZCM5LqONmJw55+t5qCH562+44CCfA==",
+      "replacement": "| full_50bp_IUPAC | Consensus across the full 50-bp matrix. |"
+    },
+    {
+      "legacy_utf8_base64": "5q2jL+i0n+W9kuWboOihqOekuuWvueaooeWei+i+k+WHullfUEMx55qE6LSh54yu5pa55ZCR77yM5LiN6IO955u05o6l6K+75L2c5a6e6aqM5rWL5b6X55qE6KGo6L6+5LiK6LCDL+S4i+iwg+OAgg==",
+      "replacement": "Attribution signs describe contributions to predicted Y_PC1, not experimentally measured expression changes."
+    },
+    {
+      "legacy_utf8_base64": "5ZCrZ2VuZS9jaHJvbS9zdHJhbmQvdHNzX2JlZDAvdGVzX2JlZDDnmoTln7rlm6DooajjgII=",
+      "replacement": "Gene table containing gene, chrom, strand, tss_bed0 and tes_bed0."
+    },
+    {
+      "legacy_utf8_base64": "fOWQjeensHzljp9wYXR0ZXJufDZicOWFseivhnznqpflj6PvvIgxLWJhc2Vk77yJfOacgOS9jnHlr7nlupRURnxxfA==",
+      "replacement": "| Label | Pattern | Six-base consensus | One-based core window | Lowest-q annotation | q |"
+    },
+    {
+      "legacy_utf8_base64": "5oyJ54Wn5oyH5a6aWOagh+etvumhuuW6j++8jOS7jk1BTkUgR1RG5ZKMR1JDaDM4IEZBU1RB5p6E5bu65Z+65Zug54m55b6B6KGo44CC",
+      "replacement": "Build gene features from MANE GTF and GRCh38 FASTA in the specified feature order."
+    },
+    {
+      "legacy_utf8_base64": "fOWbvuS4iuWQjeensHzlsZXlvIDlkI7nmoQ2YnDnibnlvoF8cGF0dGVybuaVsOmHj3zor6XnibnlvoHkuIvkv53nlZnnmoTlt7LmnIlURuWMuemFjXw=",
+      "replacement": "| Label | Expanded six-base feature | Pattern count | Retained TF matches |"
+    },
+    {
+      "legacy_utf8_base64": "6L+Z5Lqb6ISa5pys5Li65pyN5Yqh5Zmo5a6e6aqM5rqQ56CB77yM5L+d55WZ5Y6f5aeL6Lev5b6E5LiO6LCD5bqm5Y+C5pWw77yM5LuF5L2c5rqv5rqQ77yb5pys5Zyw6YeN57uY5LiN5omn6KGM5a6D5Lus44CC",
+      "replacement": "These archived scripts retain their experiment paths and scheduling parameters as provenance; frozen-data plotting does not execute them."
+    },
+    {
+      "legacy_utf8_base64": "fE58QS9DL0cvVO+8m+i/memHjOWFseivhuinhOWImeacquiDveeUqOabtOWFt+S9k+eahOS7o+eggeamguaLrO+8jOS4jeaYr+WOn+W6j+WIl+e8uuWkseWAvOOAgnw=",
+      "replacement": "| N | A/C/G/T when the consensus rule cannot use a more specific code; not missing input sequence. |"
+    },
+    {
+      "legacy_utf8_base64": "R1RG5Lit5rKh5pyJ6Kej5p6Q5Ye65Lu75L2V6L2s5b2V5pys77yM6K+35qOA5p+l5paH5Lu25qC85byP5ZKMdHJhbnNjcmlwdF9pZOWxnuaApw==",
+      "replacement": "No transcripts were parsed from the GTF; check the format and transcript_id attributes"
+    },
+    {
+      "legacy_utf8_base64": "5o+Q6YaS77yaUEnmoLfmnKzliJfkuI5ZX1BDMeebtOaOpeebuOWFs++8jOiuree7g+mihOa1i1lfUEMx5pe25b+F6aG75LuOWOS4reaOkumZpOOAgg==",
+      "replacement": "PI sample columns are directly associated with Y_PC1 and must be excluded from predictors when training a Y_PC1 model."
+    },
+    {
+      "legacy_utf8_base64": "WkJUQjdB5p2l5rqQcGF0dGVybuS4jlNQNCBNQTA2ODUuMueahFRPTVRPTemFjeWvuQ==",
+      "replacement": "TOMTOM alignment of the ZBTB7A-associated pattern and SP4 MA0685.2"
+    },
+    {
+      "legacy_utf8_base64": "WkJUQjdB5a6M5pW0NjAwYnAgVFNT5b2S5Zug5LiONTBicOadpea6kHNlcWxldOiBlOWKqOaUvuWkpw==",
+      "replacement": "ZBTB7A 600-bp TSS attribution with a linked 50-bp seqlet zoom"
+    },
+    {
+      "legacy_utf8_base64": "44CC6K+36YCa6L+HLS1tZW1lLXJ1bm5lcuaMh+Wumm1pY3JvbWFtYmHov5DooYzliY3nvIDjgII=",
+      "replacement": ". Set the micromamba prefix with --meme-runner."
+    },
+    {
+      "legacy_utf8_base64": "5Z+65ZugUEMx6KGo77yb55So5LqO56Gu5a6a5Z+65Zug6aG65bqP5bm25bCGUEMxX1nlhpnkuLrmnIDlkI7kuIDliJdZX1BDMQ==",
+      "replacement": "Gene PC1 table specifying gene order; PC1_Y is written as the final Y_PC1 column"
+    },
+    {
+      "legacy_utf8_base64": "5Y+v6YeN5aSN5o+Q5L6bUEnnn6npmLXvvIzkvovlpoJHUk9fc2VxPS9wYXRoL2dyby50c3Y=",
+      "replacement": "Repeatable PI matrix argument, for example GRO_seq=/path/gro.tsv"
+    },
+    {
+      "legacy_utf8_base64": "fOeyieiJsuWIhuaUr3zmraNZX1BDMeW9kuWboOaWueWQkeeahHBhdHRlcm7miJbnuq/mraPlvZLlm6DlrZDmoJHjgIJ8",
+      "replacement": "| Pink branches | Positive-PC1 attribution patterns or subtrees containing only positive patterns. |"
+    },
+    {
+      "legacy_utf8_base64": "fOiTneiJsuWIhuaUr3zotJ9ZX1BDMeW9kuWboOaWueWQkeeahHBhdHRlcm7miJbnuq/otJ/lvZLlm6DlrZDmoJHjgIJ8",
+      "replacement": "| Blue branches | Negative-PC1 attribution patterns or subtrees containing only negative patterns. |"
+    },
+    {
+      "legacy_utf8_base64": "S0xITDIz5omw5Yqo5L2N54K56ZmE6L+RMzFicOeahGdhaW4tbG9zc+S4juabv+aNoueDreWbvg==",
+      "replacement": "Gain/loss curves and substitution heatmap near the KLHL23 perturbation site"
+    },
+    {
+      "legacy_utf8_base64": "6Iul5a+55bqUZmltby50c3blt7Lnu4/lrZjlnKjliJnnm7TmjqXmsYfmgLvvvIzkuI3ph43mlrDov5DooYzor6XljLrln5/jgII=",
+      "replacement": "Summarize an existing fimo.tsv without rerunning the corresponding region."
+    },
+    {
+      "legacy_utf8_base64": "IyMg5YWo6YOoMjnnp43nn63nibnlvoHnmoTlsZXlvIDlkKvkuYnvvIjopobnm5Y0NOS4qnBhdHRlcm7vvIk=",
+      "replacement": "## The 29 short sequence features across 44 patterns"
+    },
+    {
+      "legacy_utf8_base64": "ZmFzdGEtZ2V0LW1hcmtvduWSjGZpbW/kuYvliY3nmoTlkb3ku6TvvIzkvovlpoI=",
+      "replacement": "Command prefix for fasta-get-markov and fimo, for example "
+    },
+    {
+      "legacy_utf8_base64": "5Lit5pei5rKh5pyJZ2VuZeWIl++8jOS5n+ayoeaciWdlbmVfdHJhbnNjcmlwdOWIlw==",
+      "replacement": " has neither gene nor gene_transcript columns"
+    },
+    {
+      "legacy_utf8_base64": "5qC55o2uTUFORSBTZWxlY3QgQkVE56Gu5a6a5q2j6LSf6ZO+VFNT5ZKMVEVT",
+      "replacement": "Deriving strand-aware TSS/TES from MANE Select BED"
+    },
+    {
+      "legacy_utf8_base64": "QkVE44CBRkFTVEHjgIFGSU1P57uT5p6c5ZKM5pyA57uI54m55b6B6KGo55qE6L6T5Ye655uu5b2V44CC",
+      "replacement": "Output directory for BED intervals, FASTA sequences, FIMO results and feature tables."
+    },
+    {
+      "legacy_utf8_base64": "5pys5YyFIHBsb3QucHkg5Y+q6K+75Y+W5Ya757uT5pWw5YC877yM5LiN5L2/55SoIEdQVeOAggo=",
+      "replacement": "plot.py reads frozen numeric values and does not require a GPU.\n"
+    },
+    {
+      "legacy_utf8_base64": "RkFTVEHnmoQuZmFp6Lev5b6E77yb6buY6K6k5L2/55SoRkFTVEErLmZhaQ==",
+      "replacement": "Path to the FASTA .fai index; defaults to FASTA+.fai"
+    },
+    {
+      "legacy_utf8_base64": "c2VydmVyX2FyY2hpdmVfUkVBRE1FX3poLm1k",
+      "replacement": "server_archive_layout.md"
+    },
+    {
+      "legacy_utf8_base64": "5pqC5YGc5Yy677ya6L2s5b2V5pa55ZCRVFNT5LiK5ri4NTAgYnDoh7PkuIvmuLgyNTAgYnA=",
+      "replacement": "Pause region: 50 bp upstream to 250 bp downstream of transcription-oriented TSS"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5Ye65paH5Lu25YmN57yA77yM5L6L5aaCcmVzdWx0cy9QT0xJSV9YWQ==",
+      "replacement": "Output file prefix, for example results/POLII_XY"
+    },
+    {
+      "legacy_utf8_base64": "5rKh5pyJ5Ymp5L2Z54m55b6B57uE6IO95pi+6JGX5o+Q6auYUGVhcnNvbu+8jOWBnOatoumAieaLqeOAgg==",
+      "replacement": "No remaining feature group significantly improves Pearson correlation; selection stopped."
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX21vdGlmU3RhY2tf6YeN57uY6K+05piOLm1k",
+      "replacement": "README_motifStack_redraw.md"
+    },
+    {
+      "legacy_utf8_base64": "WkJUQjdBL1NQNCAxMDFicOmlseWSjOaJsOWKqOabsue6v+S4jueDreWbvg==",
+      "replacement": "ZBTB7A/SP4 101-bp saturation-mutagenesis curves and heatmap"
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX21vdGlmU3RhY2tf6YeN57uY6K+05piOLm1k",
+      "replacement": "README_motifStack_redraw.md"
+    },
+    {
+      "legacy_utf8_base64": "6K+l5Yy65Z+f55qEY291bnTlkoxtYXhfc2NvcmXlsIborrDkuLow44CC",
+      "replacement": "The count and max_score for this region will be set to zero."
+    },
+    {
+      "legacy_utf8_base64": "fCDmlofku7blpLkgLyDlm77lkI0gfCDlhoXlrrkgfCDph43nu5jlhaXlj6MgfA==",
+      "replacement": "| Directory / figure | Content | Entry point |"
+    },
+    {
+      "legacy_utf8_base64": "UFJPLXNlcemhueebruS4reeahE1BTkXmlrnlkJFCRUTpk77mjqXml6DmlYg=",
+      "replacement": "Invalid PRO-seq MANE orientation BED link"
+    },
+    {
+      "legacy_utf8_base64": "WkJUQjdBL1NQNCA1MGJw5p2l5rqQ5a6e5L6L56Kx5Z+66LSh54yu",
+      "replacement": "ZBTB7A/SP4 50-bp source-seqlet contributions"
+    },
+    {
+      "legacy_utf8_base64": "5Yy65Z+f5rKh5pyJ6L6+5YiwRklNT+mYiOWAvOeahFRCUCBtb3RpZu+8jA==",
+      "replacement": " has no TBP motifs passing the FIMO threshold; "
+    },
+    {
+      "legacy_utf8_base64": "55qEUTIwIHByb3Blci1wYWly6K6w5b2V5pWw5LiN5piv5YG25pWw",
+      "replacement": " has an odd number of Q20 proper-pair records"
+    },
+    {
+      "legacy_utf8_base64": "5ZKMIEJvd3RpZTIg5pel5b+X5Z2H5beyUmV0YWluZWTjgII=",
+      "replacement": "and Bowtie2 logs retained."
+    },
+    {
+      "legacy_utf8_base64": "5bey5pyJ5YiS5YiG5Lit55qEIFlfUEMxIOS4juW9k+WJjei+k+WFpeS4jeS4gOiHtOOAgg==",
+      "replacement": "Y_PC1 values in the existing split differ from the current input."
+    },
+    {
+      "legacy_utf8_base64": "55Sf5oiQVEJQ5Zub5Yy65Z+fRklNTyBtb3RpZueJueW+geihqOOAgg==",
+      "replacement": "Build TBP motif features for four genomic regions using FIMO."
+    },
+    {
+      "legacy_utf8_base64": "5q2j5Zyo6K+75Y+WTUFORSBHVEblubbmnoTlu7rovazlvZXmnKzljLrln5/igKbigKY=",
+      "replacement": "Reading MANE GTF and constructing transcript regions..."
+    },
+    {
+      "legacy_utf8_base64": "55+p6Zi15LiO5a2X5YW455qE5YiX5oiW6aG65bqP5LiN5LiA6Ie077yb5a2X5YW45pyJ5L2G55+p6Zi15pegPQ==",
+      "replacement": "Matrix and dictionary columns/order disagree; missing in matrix="
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWl6KGo5b+F6aG75YyF5ZCrIGdlbmUg5ZKMIFlfUEMx44CC",
+      "replacement": "The input table must contain gene and Y_PC1."
+    },
+    {
+      "legacy_utf8_base64": "U1A05LiOSkFTUEFS55qEVE9NVE9N5LiK5LiL5a+56b2Q",
+      "replacement": "TOMTOM alignment of the pattern and JASPAR SP4 motif"
+    },
+    {
+      "legacy_utf8_base64": "5ZyG5b2ibW90aWbmoJHvvJrliIbljLrlkI3np7DkuI5tb3RpZuWwj+Wbvg==",
+      "replacement": "Circular motif tree with partition labels and logos"
+    },
+    {
+      "legacy_utf8_base64": "Q29yZ2lTcGxpY2U0UmVncmVzc29y",
+      "replacement": "PolIIFiLMRegressor"
+    },
+    {
+      "legacy_utf8_base64": "c2FsdWtpX2Fic19tZWFuX2RlbHRh",
+      "replacement": "abs_mean_substitution_delta"
+    },
+    {
+      "legacy_utf8_base64": "44CC5Yig6Zmk5pen55uu5b2V5ZCO6YeN6LeR77yM5oiW5L2/55SoLS1yZXVzZeOAgg==",
+      "replacement": ". Remove the previous directory or use --reuse."
+    },
+    {
+      "legacy_utf8_base64": "UEnnn6npmLXlj4LmlbDlv4XpobvmmK9MQUJFTD1QQVRI5qC85byP",
+      "replacement": "PI matrix argument must use LABEL=PATH"
+    },
+    {
+      "legacy_utf8_base64": "5pyq5om+5YiwclJOQSBCb3d0aWUy57Si5byV77yb6K+36K6+572u",
+      "replacement": "rRNA Bowtie2 index not found; set"
+    },
+    {
+      "legacy_utf8_base64": "5rKh5pyJ5om+5YiwTUFOReagh+WHhuafk+iJsuS9k0dURuOAgueOsOacieWAmemAiQ==",
+      "replacement": "MANE standard-chromosome GTF not found; candidates"
+    },
+    {
+      "legacy_utf8_base64": "5bey5pyJ5YiS5YiG5ZKM5b2T5YmN5Z+65Zug6ZuG5ZCI5LiN5LiA6Ie077yM5ouS57ud6KaG55uW44CC",
+      "replacement": "The existing split does not match the current gene set; refusing to overwrite it."
+    },
+    {
+      "legacy_utf8_base64": "5L+d55WZ5Y6f5YiS5YiG77yM5o6l5Y+X6YeN5Y+g6aOO6Zmp77yM5LuF5YGa5o6i57Si5oCn6K6t57uD",
+      "replacement": "Retain the original split and acknowledge overlapping inputs; exploratory training only."
+    },
+    {
+      "legacy_utf8_base64": "WkJUQjdBL1NQNCDlrozmlbRUU1PlvZLlm6DlvLrluqY=",
+      "replacement": "ZBTB7A/SP4 complete TSS attribution"
+    },
+    {
+      "legacy_utf8_base64": "CgojIOWQiOW5tuS4uuS4gOS4quWvjCBBL1Qg5bqP5YiX54m55b6B57G7",
+      "replacement": "\n\n# Unified A/T-rich sequence annotation"
+    },
+    {
+      "legacy_utf8_base64": "QVJDSElWRV9SRUFETUVf5Lit5paHLm1k",
+      "replacement": "ARCHIVE_README.md"
+    },
+    {
+      "legacy_utf8_base64": "5Z+65Zug5L2T77ya5pqC5YGc5Yy657uT5p2f5L2N572u6IezTUFORSBURVM=",
+      "replacement": "Gene body: end of pause region to MANE TES"
+    },
+    {
+      "legacy_utf8_base64": "5ZyG5qCRMTPkuKrliIbljLrlkI3np7DkuI7lr7nlupRtb3RpZuWwj+Wbvg==",
+      "replacement": "Circular tree with 13 partition labels and motif logos"
+    },
+    {
+      "legacy_utf8_base64": "IyBGaWd1cmUgNSDlm77ku7bjgIHku6PnoIHkuI7mlbDmja4=",
+      "replacement": "# Figure 5: figures, code and data"
+    },
+    {
+      "legacy_utf8_base64": "6YeN57uYXzIwMjYxMDIxX+WPguiAg+agt+W8j1BERg==",
+      "replacement": "redraw_20261021"
+    },
+    {
+      "legacy_utf8_base64": "TUFORSBCRUTmn5PoibLkvZPmnKrlh7rnjrDlnKhCQU3kuK0=",
+      "replacement": "MANE BED chromosomes are absent from BAM"
+    },
+    {
+      "legacy_utf8_base64": "bU5FVOS4reW3suWtmOWcqOWPpuS4gOS4qk1BTkUgQkVE",
+      "replacement": "Another MANE BED already exists in mNET"
+    },
+    {
+      "legacy_utf8_base64": "VEJQ55qETUVNReagvOW8j21vdGlm5paH5Lu244CC",
+      "replacement": "TBP motif file in MEME format."
+    },
+    {
+      "legacy_utf8_base64": "5ZyG5qCR5LuFMTPkuKrliIbljLrlkI3np7Dml6Btb3RpZuWwj+Wbvg==",
+      "replacement": "Circular tree with 13 partition labels"
+    },
+    {
+      "legacy_utf8_base64": "5ZyG5qCRMTPkuKrliIbljLrkuI4xNuS4queLrOeri+mhueWFqOmDqOagh+WQjQ==",
+      "replacement": "Circular tree with labels for 13 partitions and 16 independent items"
+    },
+    {
+      "legacy_utf8_base64": "6YeN57uYXzIwMjYxMDIxXzV4NFBERg==",
+      "replacement": "redraw_5x4_20261021"
+    },
+    {
+      "legacy_utf8_base64": "5rKh5pyJ5om+5Yiw5qC35pys57qnbU5FVCAz4oCy56uvQkVE",
+      "replacement": "Sample-level mNET 3-prime BED not found"
+    },
+    {
+      "legacy_utf8_base64": "TUFORSBHVEbmiJZHVEYuZ3rot6/lvoQ=",
+      "replacement": "Path to MANE GTF or GTF.gz"
+    },
+    {
+      "legacy_utf8_base64": "Z2VuZS1ib2R55Yy65Z+fMS00bWVy",
+      "replacement": "Gene-body 1-4-mers"
+    },
+    {
+      "legacy_utf8_base64": "U1A05p2l5rqQ54mH5q61NTBicOeiseWfuui0oeeMrmLlm74=",
+      "replacement": "Base contributions for the 50-bp SP4-associated seqlet"
+    },
+    {
+      "legacy_utf8_base64": "Z2VuZS1ib2R55Yy65Z+fMS00bWVy",
+      "replacement": "Gene-body 1-4-mers"
+    },
+    {
+      "legacy_utf8_base64": "WV9QQzEg5Lit5a2Y5Zyo57y65aSx5oiW5peg56m35YC844CC",
+      "replacement": "Y_PC1 contains missing or infinite values."
+    },
+    {
+      "legacy_utf8_base64": "MzDkuKrnibnlvoHngrnlkozlhbbku5bnibnlvoHnm7jlhbPmgKfliIbmnpA=",
+      "replacement": "feature_correlation_analysis"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfdmFsaWRhdGlvbg==",
+      "replacement": "sequence_validation"
+    },
+    {
+      "legacy_utf8_base64": "56Gu6K6k5ZCO5L2/55SoIC0tZXhlY3V0ZeOAgg==",
+      "replacement": "Use --execute after reviewing the preview."
+    },
+    {
+      "legacy_utf8_base64": "WV9QQzEg5peg5rOV5oyJ5YiG5L2N5pWw5YiG5bGC44CC",
+      "replacement": "Y_PC1 cannot be stratified by quantiles."
+    },
+    {
+      "legacy_utf8_base64": "R1JDaDM45Z+65Zug57uERkFTVEHjgII=",
+      "replacement": "GRCh38 reference genome FASTA."
+    },
+    {
+      "legacy_utf8_base64": "CgojIyDmlrDlop7nmoTkuKTlvKDni6znq4vljZXpobXlm74=",
+      "replacement": "\n\n## Two additional single-page figures"
+    },
+    {
+      "legacy_utf8_base64": "MTDmipjkuqTlj4npqozor4HlvpfliLDnmoTln7rlm6DnibnlvoHlm74=",
+      "replacement": "gene_feature_cross_validation"
+    },
+    {
+      "legacy_utf8_base64": "5Liq55uu5qCH5Z+65Zug55qE57uT5p6E5ZKM5bqP5YiX54m55b6B4oCm4oCm",
+      "replacement": " target genes: structure and sequence features..."
+    },
+    {
+      "legacy_utf8_base64": "6K+35YWI6YCQ6KGM5qOA5p+l5ZCO5YaN5omn6KGMY2xlYW4=",
+      "replacement": "Review each row before running clean"
+    },
+    {
+      "legacy_utf8_base64": "6KGl5YWF5YyF5ZKM5Y6fUFJP6aG555uu5Z2H57y65bCR6ISa5pys",
+      "replacement": "Script absent from supplementary and original PRO projects"
+    },
+    {
+      "legacy_utf8_base64": "6KGl5YWFUFJPLXNlcemhueebruW3sue7j+W7uueriw==",
+      "replacement": "Supplementary PRO-seq project created"
+    },
+    {
+      "legacy_utf8_base64": "5b2T5YmN5Li66aKE6KeI5qih5byP77yM5rKh5pyJ5Yig6Zmk5paH5Lu244CC",
+      "replacement": "Preview mode; no files deleted."
+    },
+    {
+      "legacy_utf8_base64": "R1JDaDM4IEZBU1RB6Lev5b6E",
+      "replacement": "Path to GRCh38 FASTA"
+    },
+    {
+      "legacy_utf8_base64": "WV9QQzHlrZjlnKjnvLrlpLHlgLzmiJbml6DnqbflgLw=",
+      "replacement": "Y_PC1 contains missing or infinite values"
+    },
+    {
+      "legacy_utf8_base64": "VFNT5a6M5pW0NjAwYnDlvZLlm6DlvLrluqY=",
+      "replacement": "Attribution across the complete 600-bp TSS input"
+    },
+    {
+      "legacy_utf8_base64": "CgojIOWPguiAg+iuuuaWh+mjjuagvOeahOWRveWQjeeJiA==",
+      "replacement": "\n\n# Sequence-based partition labels"
+    },
+    {
+      "legacy_utf8_base64": "5qih5Z6L5Zu+X+WFqOWFg+e0oOWPr+e8lui+kS5wZGY=",
+      "replacement": "model_architecture_editable.pdf"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfcHJlcGFyZWQ=",
+      "replacement": "sequence_prepared"
+    },
+    {
+      "legacy_utf8_base64": "5q+U5a+55oiW5o6S5bqP5LuN5Zyo6L+Q6KGM77yM5ouS57ud5Yig6Zmk",
+      "replacement": "alignment or sorting is still running; refusing removal"
+    },
+    {
+      "legacy_utf8_base64": "Z2VuZSDlrZjlnKjnvLrlpLHmiJbph43lpI3jgII=",
+      "replacement": "Gene identifiers contain missing or duplicate values."
+    },
+    {
+      "legacy_utf8_base64": "cGF1c2XljLrln58xLTRtZXI=",
+      "replacement": "Pausing-region 1-4-mers"
+    },
+    {
+      "legacy_utf8_base64": "IyDlvZPliY3lm77ku7bkuI7luo/liJflkb3lkI3or7TmmI4=",
+      "replacement": "# Figure and sequence-label guide"
+    },
+    {
+      "legacy_utf8_base64": "cGF1c2XljLrln58xLTRtZXI=",
+      "replacement": "Pausing-region 1-4-mers"
+    },
+    {
+      "legacy_utf8_base64": "Y29yZ2lfc3BsaWNlNA==",
+      "replacement": "region_film"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWl55+p6Zi15a2Y5Zyo6YeN5aSN5Z+65Zug77yM5L6L5aaC",
+      "replacement": "Duplicate input genes, for example"
+    },
+    {
+      "legacy_utf8_base64": "55qEIFIxIOaIliBSMiDkuI3lrZjlnKg=",
+      "replacement": " is missing R1 or R2"
+    },
+    {
+      "legacy_utf8_base64": "UENBKOe7huiDnuezu+S5i+mXtOeahOW3ruW8gik=",
+      "replacement": "PCA_cell_type_comparison"
+    },
+    {
+      "legacy_utf8_base64": "Z2VuZeWIl+WtmOWcqOe8uuWkseaIlumHjeWkjQ==",
+      "replacement": "The gene column contains missing or duplicate identifiers"
+    },
+    {
+      "legacy_utf8_base64": "fOeugOW5tuWtl+avjXzlhYHorrjnmoTnorHln7p8",
+      "replacement": "| IUPAC code | Allowed bases |"
+    },
+    {
+      "legacy_utf8_base64": "IyMg5b2T5YmN5paH5Lu257Si5byV5LiO5aSN546w",
+      "replacement": "## Files and reproduction"
+    },
+    {
+      "legacy_utf8_base64": "IyMgNDTkuKrlkI3np7DpgJDkuIDlr7nlupQ=",
+      "replacement": "## Pattern-name correspondence"
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX+S4reaWhy5tZA==",
+      "replacement": "README.md"
+    },
+    {
+      "legacy_utf8_base64": "UkVBRE1FX0NOLm1k",
+      "replacement": "README.md"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfc3BsaXRz",
+      "replacement": "gene_splits"
+    },
+    {
+      "legacy_utf8_base64": "5Liq5Z+65Zug77yMMTLkuKpUQlDnibnlvoE=",
+      "replacement": " genes, 12 TBP features"
+    },
+    {
+      "legacy_utf8_base64": "5rKh5pyJ5om+5Yiw5b+F6ZyA5YiX77yM5YCZ6YCJ5YiX5Li6",
+      "replacement": "Required column not found; candidates"
+    },
+    {
+      "legacy_utf8_base64": "UENBKOa1i+W6j+S4rei/m+ihjOinguWvnyk=",
+      "replacement": "PCA_assay_comparison"
+    },
+    {
+      "legacy_utf8_base64": "5Z+65Zug57uERkFTVEHntKLlvJXjgII=",
+      "replacement": "Reference FASTA index."
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5YiwYmVkdG9vbHM=",
+      "replacement": "bedtools was not found"
+    },
+    {
+      "legacy_utf8_base64": "IyMg5a+55bqU6KGo55qE5Li76KaB5a2X5q61",
+      "replacement": "## Main table fields"
+    },
+    {
+      "legacy_utf8_base64": "Y29yZ2lfcG9saWk=",
+      "replacement": "pausing_utils"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXRfcG9saWk=",
+      "replacement": "sequence_utils"
+    },
+    {
+      "legacy_utf8_base64": "5pyJ5Z+65Zug5pyq6I635b6XT09G6aKE5rWL",
+      "replacement": " has genes without OOF predictions"
+    },
+    {
+      "legacy_utf8_base64": "5pyA57uIUmV0YWluZWTnu4Q=",
+      "replacement": "Selected groups"
+    },
+    {
+      "legacy_utf8_base64": "6Z2eclJOQSBGQVNUUQ==",
+      "replacement": "Non-rRNA FASTQ"
+    },
+    {
+      "legacy_utf8_base64": "QkFN5oiWQkFJ5qOA5p+l5aSx6LSl",
+      "replacement": "BAM or BAI check failed"
+    },
+    {
+      "legacy_utf8_base64": "5Liq5L2O5q+U5a+5546HIFJ1biDnmoQ=",
+      "replacement": " low-alignment-rate runs: "
+    },
+    {
+      "legacy_utf8_base64": "6K6t57uD5oqY5oiW5rWL6K+V6ZuG5peg5pWI44CC",
+      "replacement": "The training folds or test set are invalid."
+    },
+    {
+      "legacy_utf8_base64": "IyMg546w5Zyo55yL5ZOq5LiA5byg5Zu+",
+      "replacement": "## Current figures"
+    },
+    {
+      "legacy_utf8_base64": "IyMg5Zu+5Lit6aKc6Imy5LiO56ym5Y+3",
+      "replacement": "## Colors and symbols"
+    },
+    {
+      "legacy_utf8_base64": "54m55b6B5a2X5YW45a2Y5Zyo6YeN5aSN54m55b6B",
+      "replacement": "Duplicate features in dictionary"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5YiwRkFTVEHmlofku7Y=",
+      "replacement": "FASTA file not found"
+    },
+    {
+      "legacy_utf8_base64": "RkFTVEHkuK3mib7kuI3liLDkuI4=",
+      "replacement": "No FASTA chromosome corresponding to "
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQUTIwIEJBTeaVsA==",
+      "replacement": "Completed Q20 BAMs"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWl5Y+M56uvIFJ1biDmlbA=",
+      "replacement": "Input paired-end runs"
+    },
+    {
+      "legacy_utf8_base64": "5L2O5LqO6ZiI5YC8IFJ1biDmlbA=",
+      "replacement": "Runs below threshold"
+    },
+    {
+      "legacy_utf8_base64": "UnVu57qnMyfnq69CRUQ=",
+      "replacement": "Run-level 3-prime BED"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCR6L6T5YWlQkFN5oiW57Si5byV",
+      "replacement": "Input BAM or index missing"
+    },
+    {
+      "legacy_utf8_base64": "UENBKOagt+acrOagh+WHhuivnSk=",
+      "replacement": "PCA_sample_scaling"
+    },
+    {
+      "legacy_utf8_base64": "WCDkuK3lrZjlnKjml6DnqbflgLzjgII=",
+      "replacement": "The feature matrix contains infinite values."
+    },
+    {
+      "legacy_utf8_base64": "IyMg5bey5riF55CG55qE5pen54mI",
+      "replacement": "## Superseded figure versions"
+    },
+    {
+      "legacy_utf8_base64": "54us56uLcGF0dGVybg==",
+      "replacement": "Independent pattern"
+    },
+    {
+      "legacy_utf8_base64": "UHJvQ2FwTmV0",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "cHJvY2FwbmV0",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "5Y+R546w55aR5Ly85qCH562+5rOE6Zyy5YiX",
+      "replacement": "Possible target leakage columns"
+    },
+    {
+      "legacy_utf8_base64": "5riF5Y2V5Lit5om+5LiN5YiwUnVu",
+      "replacement": "Run missing from manifest"
+    },
+    {
+      "legacy_utf8_base64": "R1JP6aG555uu57y65bCR5rOo6YeK",
+      "replacement": "GRO project is missing annotation"
+    },
+    {
+      "legacy_utf8_base64": "5LiqUnVu77yM5L2G6K+G5Yir5Yiw",
+      "replacement": " runs; identified "
+    },
+    {
+      "legacy_utf8_base64": "54q25oCBIEZBSUxFRA==",
+      "replacement": "Status FAILED"
+    },
+    {
+      "legacy_utf8_base64": "6aG555uu6Lev5b6E5LiN56ym5ZCI6aKE5pyf",
+      "replacement": "Unexpected project path"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5Ye6QkFN5qOA5p+l5aSx6LSl",
+      "replacement": "Output BAM check failed"
+    },
+    {
+      "legacy_utf8_base64": "5bGP6JS9Uk5B5Yqg5bel5L2N54K5",
+      "replacement": "Masking RNA processing sites"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pys57qnMyfnq69CRUQ=",
+      "replacement": "Sample-level 3-prime BED"
+    },
+    {
+      "legacy_utf8_base64": "Q1RDRumihOa1i+e7k+WQiA==",
+      "replacement": "Predicted CTCF binding"
+    },
+    {
+      "legacy_utf8_base64": "WOefqemYteWtmOWcqOaXoOept+WAvA==",
+      "replacement": "The predictor matrix contains infinite values"
+    },
+    {
+      "legacy_utf8_base64": "IyMg5ZCN56ew5oCO5LmI6K+7",
+      "replacement": "## Interpreting sequence labels"
+    },
+    {
+      "legacy_utf8_base64": "5Zu+5Lu255uu5b2VLnRzdg==",
+      "replacement": "figure_index.tsv"
+    },
+    {
+      "legacy_utf8_base64": "5Zu+5Lu255uu5b2VLnRzdg==",
+      "replacement": "figure_index.tsv"
+    },
+    {
+      "legacy_utf8_base64": "Q1RDRumihOa1i+e7k+WQiA==",
+      "replacement": "Predicted CTCF binding"
+    },
+    {
+      "legacy_utf8_base64": "UGF1c2VOZXQ=",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "cGF1c2VuZXQ=",
+      "replacement": "sequence_profile"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5Ye655uu5b2V5bey57uP5a2Y5Zyo",
+      "replacement": "Output directory already exists"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5YiwRkFJ5paH5Lu2",
+      "replacement": "FAI file not found"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5YiwR1RG5paH5Lu2",
+      "replacement": "GTF file not found"
+    },
+    {
+      "legacy_utf8_base64": "5q+U5a+55aSx6LSl77yM6K+35qOA5p+l",
+      "replacement": "Alignment failed; check"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQIEJBTSDmlbA=",
+      "replacement": "Completed BAM count"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQIEJBSSDmlbA=",
+      "replacement": "Completed BAI count"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWlQkFN5LiN5a6M5pW0",
+      "replacement": "Input BAM is incomplete"
+    },
+    {
+      "legacy_utf8_base64": "5ZCI5bm2QkFN5LiN5a6M5pW0",
+      "replacement": "Merged BAM is incomplete"
+    },
+    {
+      "legacy_utf8_base64": "6K6h566X5aSx6LSl77yM6K+35p+l55yL",
+      "replacement": "Calculation failed; see"
+    },
+    {
+      "legacy_utf8_base64": "RkFTVEHntKLlvJU=",
+      "replacement": "FASTA index"
+    },
+    {
+      "legacy_utf8_base64": "fOaWh+S7tnzlhoXlrrl8",
+      "replacement": "| File | Content |"
+    },
+    {
+      "legacy_utf8_base64": "fOWFg+e0oHzlkKvkuYl8",
+      "replacement": "| Element | Meaning |"
+    },
+    {
+      "legacy_utf8_base64": "fFJ8QeaIlkd8",
+      "replacement": "| R | A or G |"
+    },
+    {
+      "legacy_utf8_base64": "fFl8Q+aIllR8",
+      "replacement": "| Y | C or T |"
+    },
+    {
+      "legacy_utf8_base64": "fE18QeaIlkN8",
+      "replacement": "| M | A or C |"
+    },
+    {
+      "legacy_utf8_base64": "fFN8Q+aIlkd8",
+      "replacement": "| S | C or G |"
+    },
+    {
+      "legacy_utf8_base64": "fFd8QeaIllR8",
+      "replacement": "| W | A or T |"
+    },
+    {
+      "legacy_utf8_base64": "fEt8R+aIllR8",
+      "replacement": "| K | G or T |"
+    },
+    {
+      "legacy_utf8_base64": "fOWtl+autXzlkKvkuYl8",
+      "replacement": "| Field | Description |"
+    },
+    {
+      "legacy_utf8_base64": "6LCD5o6n5Zug5a2Q5L2c55So5Zu+",
+      "replacement": "biochemical_feature_figures"
+    },
+    {
+      "legacy_utf8_base64": "RGVlcENSRQ==",
+      "replacement": "sequence_baseline"
+    },
+    {
+      "legacy_utf8_base64": "ZGVlcGNyZQ==",
+      "replacement": "sequence_baseline"
+    },
+    {
+      "legacy_utf8_base64": "QWdhcndhbA==",
+      "replacement": "sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw6L6T5YWl55+p6Zi1",
+      "replacement": "Input matrix not found"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw54m55b6B5a2X5YW4",
+      "replacement": "Feature dictionary not found"
+    },
+    {
+      "legacy_utf8_base64": "54m55b6B5a2X5YW457y65bCR5YiX",
+      "replacement": "Feature dictionary is missing columns"
+    },
+    {
+      "legacy_utf8_base64": "5YiX77yM5LiN5piv6aKE5pyf55qE",
+      "replacement": " columns; expected "
+    },
+    {
+      "legacy_utf8_base64": "5a2Y5Zyo5YWo57y65aSxWOWIlw==",
+      "replacement": "All-missing predictor columns"
+    },
+    {
+      "legacy_utf8_base64": "5a2Y5Zyo5YWo57y65aSx54m55b6B",
+      "replacement": "All-missing features"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWl55+p6Zi157y65bCR5YiX",
+      "replacement": "Input matrix is missing columns"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCRRklNT+WIlw==",
+      "replacement": "Missing FIMO columns"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5YiwUEnnn6npmLU=",
+      "replacement": "PI matrix not found"
+    },
+    {
+      "legacy_utf8_base64": "5rKh5pyJ5q2j5byP5qC35pys5ZCN",
+      "replacement": " has no formal sample name"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQUEnmoLfmnKzmlbA=",
+      "replacement": "Completed PI samples"
+    },
+    {
+      "legacy_utf8_base64": "5Y6f5aeLRkFTVFE=",
+      "replacement": "Raw FASTQ"
+    },
+    {
+      "legacy_utf8_base64": "5riF5rSXRkFTVFE=",
+      "replacement": "Clean FASTQ"
+    },
+    {
+      "legacy_utf8_base64": "6K+G5Yir5Y2V56uvUnVu",
+      "replacement": "Identified single-end runs"
+    },
+    {
+      "legacy_utf8_base64": "6K+G5Yir5Y+M56uvUnVu",
+      "replacement": "Identified paired-end runs"
+    },
+    {
+      "legacy_utf8_base64": "6K+G5YirUnVu5oC75pWw",
+      "replacement": "Identified runs"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWl55uu5b2V5LiN5a2Y5Zyo",
+      "replacement": "Input directory does not exist"
+    },
+    {
+      "legacy_utf8_base64": "54q25oCBIFBBU1M=",
+      "replacement": "Status PASS"
+    },
+    {
+      "legacy_utf8_base64": "UTIw6L+H5ruk5aSx6LSl",
+      "replacement": "Q20 filtering failed"
+    },
+    {
+      "legacy_utf8_base64": "bU5FVOagt+acrOaVsA==",
+      "replacement": "mNET sample count"
+    },
+    {
+      "legacy_utf8_base64": "6L+H5ruk5aSx6LSl77yM5p+l55yL",
+      "replacement": "Filtering failed; see"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw6L6T5YWl5paH5Lu2",
+      "replacement": "Input file not found"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw6L6T5YWl55uu5b2V",
+      "replacement": "Input directory not found"
+    },
+    {
+      "legacy_utf8_base64": "5Z+656GA5Z+65Zug57uT5p6E",
+      "replacement": "Basic gene architecture"
+    },
+    {
+      "legacy_utf8_base64": "5Y+N5ZCR5LqS6KGlUkM=",
+      "replacement": "Reverse complement"
+    },
+    {
+      "legacy_utf8_base64": "6K+05piOLnR4dA==",
+      "replacement": "README.txt"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX5YiG5p6Q5pWw5o2u",
+      "replacement": "sequence_analysis_data"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX5YiG5p6Q55S75Zu+",
+      "replacement": "sequence_analysis_figures"
+    },
+    {
+      "legacy_utf8_base64": "6K+05piOLnR4dA==",
+      "replacement": "README.txt"
+    },
+    {
+      "legacy_utf8_base64": "5Z+656GA5Z+65Zug57uT5p6E",
+      "replacement": "Basic gene architecture"
+    },
+    {
+      "legacy_utf8_base64": "U2FsdWtp",
+      "replacement": "substitution_response"
+    },
+    {
+      "legacy_utf8_base64": "c2FsdWtp",
+      "replacement": "substitution_response"
+    },
+    {
+      "legacy_utf8_base64": "S2VsbGV5",
+      "replacement": "sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "77yb55+p6Zi15aSa5Ye6PQ==",
+      "replacement": "; extra in matrix="
+    },
+    {
+      "legacy_utf8_base64": "5pyA57uIWOeJueW+geaVsA==",
+      "replacement": "Predictor count"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw6L6T5YWl6KGo",
+      "replacement": "Input table not found"
+    },
+    {
+      "legacy_utf8_base64": "5pyA57uI5rWL6K+V6ZuGPQ==",
+      "replacement": "held-out genes="
+    },
+    {
+      "legacy_utf8_base64": "5aSN55So5bey5pyJ57uT5p6c",
+      "replacement": "Reusing existing result"
+    },
+    {
+      "legacy_utf8_base64": "RklNT+e7k+aenA==",
+      "replacement": "FIMO output"
+    },
+    {
+      "legacy_utf8_base64": "5a+55bqU55qE5p+T6Imy5L2T",
+      "replacement": ""
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQQkFN5pWw",
+      "replacement": "Completed BAM count"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQQkFJ5pWw",
+      "replacement": "Completed BAI count"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWlUnVu5pWw",
+      "replacement": "Input runs"
+    },
+    {
+      "legacy_utf8_base64": "5bCa5pyq5a6M5oiQ5pel5b+X",
+      "replacement": "Incomplete logs"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWlQkFN5pWw",
+      "replacement": "Input BAM count"
+    },
+    {
+      "legacy_utf8_base64": "UnVu54q25oCB6KGo",
+      "replacement": "Run status table"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pysQkFN5pWw",
+      "replacement": "Sample BAM count"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pysQkFJ5pWw",
+      "replacement": "Sample BAI count"
+    },
+    {
+      "legacy_utf8_base64": "5Liq5oqA5pyvUnVu",
+      "replacement": " technical runs"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCR6L6T5YWl5paH5Lu2",
+      "replacement": "Input file missing"
+    },
+    {
+      "legacy_utf8_base64": "5a+G56CB5a2Q6aKR546H",
+      "replacement": "Codon frequencies"
+    },
+    {
+      "legacy_utf8_base64": "5q2j5ZCRRldE",
+      "replacement": "Forward"
+    },
+    {
+      "legacy_utf8_base64": "5a+G56CB5a2Q6aKR546H",
+      "replacement": "Codon frequencies"
+    },
+    {
+      "legacy_utf8_base64": "YnBuZXQ=",
+      "replacement": "sequence_cnn"
+    },
+    {
+      "legacy_utf8_base64": "QlBOZXQ=",
+      "replacement": "SequenceCNN"
+    },
+    {
+      "legacy_utf8_base64": "QlBORVQ=",
+      "replacement": "SEQUENCE_CNN"
+    },
+    {
+      "legacy_utf8_base64": "Q29yZ2k=",
+      "replacement": "PolII"
+    },
+    {
+      "legacy_utf8_base64": "Q09SR0k=",
+      "replacement": "POLII"
+    },
+    {
+      "legacy_utf8_base64": "Y29yZ2k=",
+      "replacement": "polii"
+    },
+    {
+      "legacy_utf8_base64": "YWtjYW4=",
+      "replacement": "scaled_architecture"
+    },
+    {
+      "legacy_utf8_base64": "QWtjYW4=",
+      "replacement": "scaled architecture"
+    },
+    {
+      "legacy_utf8_base64": "5b2T5YmN57uE5ZCIPQ==",
+      "replacement": "current groups="
+    },
+    {
+      "legacy_utf8_base64": "5YaF5bGCQ1Y9",
+      "replacement": "inner CV="
+    },
+    {
+      "legacy_utf8_base64": "6aKE5pyfUnVu",
+      "replacement": "Expected runs"
+    },
+    {
+      "legacy_utf8_base64": "5q+U5a+55aSx6LSl5pWw",
+      "replacement": "Failed alignments"
+    },
+    {
+      "legacy_utf8_base64": "5q+U5a+5546H6ZiI5YC8",
+      "replacement": "Alignment-rate threshold"
+    },
+    {
+      "legacy_utf8_base64": "5bey5a6M5oiQ5pel5b+X",
+      "replacement": "Completed logs"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCR5bGP6JS96KGo",
+      "replacement": "Mask table missing"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQ5qC35pys5pWw",
+      "replacement": "Completed samples"
+    },
+    {
+      "legacy_utf8_base64": "5aSx6LSl5qC35pys5pWw",
+      "replacement": "Failed samples"
+    },
+    {
+      "legacy_utf8_base64": "5L2/55SoR1RG",
+      "replacement": "Using GTF"
+    },
+    {
+      "legacy_utf8_base64": "5bGP6JS95Yy66Ze05pWw",
+      "replacement": "Masked intervals"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pys5ZCI5bm26KGo",
+      "replacement": "Sample merge table"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5pW0UEnooag=",
+      "replacement": "Complete PI tables"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw56iL5bqP",
+      "replacement": "Program not found"
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw6L2v5Lu2",
+      "replacement": "Program not found"
+    },
+    {
+      "legacy_utf8_base64": "UTIw6L+H5ruk",
+      "replacement": "Q20 filtering"
+    },
+    {
+      "legacy_utf8_base64": "5Z+65Zug55+p6Zi1",
+      "replacement": "Gene matrix"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX57uE5oiQ",
+      "replacement": "Sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "Q3BH5bKb",
+      "replacement": "CpG islands"
+    },
+    {
+      "legacy_utf8_base64": "5Lit5paH5ZCr5LmJ",
+      "replacement": "description"
+    },
+    {
+      "legacy_utf8_base64": "5Lit5paH5ZCr5LmJ",
+      "replacement": "description"
+    },
+    {
+      "legacy_utf8_base64": "5bqP5YiX57uE5oiQ",
+      "replacement": "Sequence composition"
+    },
+    {
+      "legacy_utf8_base64": "Q3BH5bKb",
+      "replacement": "CpG islands"
+    },
+    {
+      "legacy_utf8_base64": "5qCh5q2jUD0=",
+      "replacement": "adjusted P="
+    },
+    {
+      "legacy_utf8_base64": "6YCJ5oup6L2u5qyh",
+      "replacement": "Selection step "
+    },
+    {
+      "legacy_utf8_base64": "5b6F5q+U6L6DPQ==",
+      "replacement": "candidates="
+    },
+    {
+      "legacy_utf8_base64": "5pys6L2u6YCJ5oup",
+      "replacement": "Selected this step: "
+    },
+    {
+      "legacy_utf8_base64": "6L6T5Ye655uu5b2V",
+      "replacement": "Output directory"
+    },
+    {
+      "legacy_utf8_base64": "6K+75Y+W5pWw5o2u",
+      "replacement": "Reading data"
+    },
+    {
+      "legacy_utf8_base64": "5byA5Y+R6ZuGPQ==",
+      "replacement": "development genes="
+    },
+    {
+      "legacy_utf8_base64": "UEnnn6npmLU=",
+      "replacement": "PI matrix "
+    },
+    {
+      "legacy_utf8_base64": "5q2j5Zyo6K6h566X",
+      "replacement": "Computing "
+    },
+    {
+      "legacy_utf8_base64": "5rOo6YeK5Yy56YWN",
+      "replacement": "Annotation matches"
+    },
+    {
+      "legacy_utf8_base64": "5pa55ZCR57uf6K6h",
+      "replacement": "Orientation summary"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pys5rGH5oC7",
+      "replacement": "Sample summary"
+    },
+    {
+      "legacy_utf8_base64": "55+p6Zi155uu5b2V",
+      "replacement": "matrix directory"
+    },
+    {
+      "legacy_utf8_base64": "UnVu5pWw",
+      "replacement": "Run count"
+    },
+    {
+      "legacy_utf8_base64": "5pel5b+X55uu5b2V",
+      "replacement": "log directory"
+    },
+    {
+      "legacy_utf8_base64": "5pel5b+X5oC75pWw",
+      "replacement": "Total logs"
+    },
+    {
+      "legacy_utf8_base64": "5Yig6Zmk5a6M5oiQ",
+      "replacement": "Removal complete"
+    },
+    {
+      "legacy_utf8_base64": "5bGP6JS95aSx6LSl",
+      "replacement": "Masking failed"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCR6ISa5pys",
+      "replacement": "Script missing"
+    },
+    {
+      "legacy_utf8_base64": "5byA5aeL6L+H5ruk",
+      "replacement": "Starting filtering"
+    },
+    {
+      "legacy_utf8_base64": "5ZCI5bm25aSx6LSl",
+      "replacement": "Merge failed"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCR5paH5Lu2",
+      "replacement": "File missing"
+    },
+    {
+      "legacy_utf8_base64": "5rKh5pyJ5om+5Yiw",
+      "replacement": "Not found: "
+    },
+    {
+      "legacy_utf8_base64": "5qOA5p+l5aSx6LSl",
+      "replacement": "check failed"
+    },
+    {
+      "legacy_utf8_base64": "5Y2VUnVu",
+      "replacement": "Single run"
+    },
+    {
+      "legacy_utf8_base64": "6KGl5YWF5p2Q5paZ",
+      "replacement": "supplement"
+    },
+    {
+      "legacy_utf8_base64": "WOeJueW+geaVsA==",
+      "replacement": "Predictor count"
+    },
+    {
+      "legacy_utf8_base64": "6ZqP5py65qOu5p6X",
+      "replacement": "Random forest"
+    },
+    {
+      "legacy_utf8_base64": "6L+Q6KGM77ya",
+      "replacement": "Running: "
+    },
+    {
+      "legacy_utf8_base64": "5LiN5L+d55WZ",
+      "replacement": "Not retained"
+    },
+    {
+      "legacy_utf8_base64": "5LiN5pi+6JGX",
+      "replacement": "Not significant"
+    },
+    {
+      "legacy_utf8_base64": "5a6e6ZmF5pyJ",
+      "replacement": " has "
+    },
+    {
+      "legacy_utf8_base64": "5beu5YC8PQ==",
+      "replacement": "difference="
+    },
+    {
+      "legacy_utf8_base64": "5Z+657q/PQ==",
+      "replacement": "baseline="
+    },
+    {
+      "legacy_utf8_base64": "5qih5Z6LPQ==",
+      "replacement": "model="
+    },
+    {
+      "legacy_utf8_base64": "5bey5YaZ5Ye6",
+      "replacement": "Written"
+    },
+    {
+      "legacy_utf8_base64": "5bey5aSE55CG",
+      "replacement": "Processed "
+    },
+    {
+      "legacy_utf8_base64": "5Liq5Z+65Zug",
+      "replacement": " genes"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pys5pWw",
+      "replacement": "Sample count"
+    },
+    {
+      "legacy_utf8_base64": "5aSx6LSl5pWw",
+      "replacement": "Failure count"
+    },
+    {
+      "legacy_utf8_base64": "5LiL5LiA5q2l",
+      "replacement": "Next step"
+    },
+    {
+      "legacy_utf8_base64": "54q25oCB6KGo",
+      "replacement": "Status table"
+    },
+    {
+      "legacy_utf8_base64": "57uT5p6c6KGo",
+      "replacement": "Result table"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5pW055qE",
+      "replacement": "complete "
+    },
+    {
+      "legacy_utf8_base64": "5Yig6ZmkIA==",
+      "replacement": "removed "
+    },
+    {
+      "legacy_utf8_base64": "5YmNNeihjA==",
+      "replacement": "First five lines"
+    },
+    {
+      "legacy_utf8_base64": "5pyq5om+5Yiw",
+      "replacement": "Not found: "
+    },
+    {
+      "legacy_utf8_base64": "5om+5LiN5Yiw",
+      "replacement": "Not found: "
+    },
+    {
+      "legacy_utf8_base64": "5bey5a6M5oiQ",
+      "replacement": "already completed"
+    },
+    {
+      "legacy_utf8_base64": "54Ot5Yqb5Zu+",
+      "replacement": "heatmap"
+    },
+    {
+      "legacy_utf8_base64": "5rGH5oC76KGo",
+      "replacement": "Summary table"
+    },
+    {
+      "legacy_utf8_base64": "5L+d55WZ",
+      "replacement": "Retained"
+    },
+    {
+      "legacy_utf8_base64": "5pi+6JGX",
+      "replacement": "Significant"
+    },
+    {
+      "legacy_utf8_base64": "5YiG5Yy6",
+      "replacement": "Partition"
+    },
+    {
+      "legacy_utf8_base64": "6K6t57uD",
+      "replacement": "Training "
+    },
+    {
+      "legacy_utf8_base64": "57uEPQ==",
+      "replacement": "groups="
+    },
+    {
+      "legacy_utf8_base64": "5q2l6aqk",
+      "replacement": "Step "
+    },
+    {
+      "legacy_utf8_base64": "6ICX5pe2",
+      "replacement": "Elapsed time"
+    },
+    {
+      "legacy_utf8_base64": "5YiG6ZKf",
+      "replacement": " minutes"
+    },
+    {
+      "legacy_utf8_base64": "6KGo5pWw",
+      "replacement": " tables"
+    },
+    {
+      "legacy_utf8_base64": "55So5rOV",
+      "replacement": "Usage"
+    },
+    {
+      "legacy_utf8_base64": "5rGH5oC7",
+      "replacement": "Summary"
+    },
+    {
+      "legacy_utf8_base64": "6aKE5pyf",
+      "replacement": "Expected "
+    },
+    {
+      "legacy_utf8_base64": "5ZCr5LmJ",
+      "replacement": "Description"
+    },
+    {
+      "legacy_utf8_base64": "5a2X5q+N",
+      "replacement": "Group"
+    },
+    {
+      "legacy_utf8_base64": "6ZSZ6K+v",
+      "replacement": "Error"
+    },
+    {
+      "legacy_utf8_base64": "6K2m5ZGK",
+      "replacement": "Warning"
+    },
+    {
+      "legacy_utf8_base64": "6Lez6L+H",
+      "replacement": "Skipped"
+    },
+    {
+      "legacy_utf8_base64": "5a6M5oiQ",
+      "replacement": "Completed"
+    },
+    {
+      "legacy_utf8_base64": "5byA5aeL",
+      "replacement": "Starting"
+    },
+    {
+      "legacy_utf8_base64": "6K6h566X",
+      "replacement": "Calculating"
+    },
+    {
+      "legacy_utf8_base64": "55Sf5oiQ",
+      "replacement": "Generating"
+    },
+    {
+      "legacy_utf8_base64": "5ZCI5bm2",
+      "replacement": "Merging"
+    },
+    {
+      "legacy_utf8_base64": "57y65bCR",
+      "replacement": "Missing "
+    },
+    {
+      "legacy_utf8_base64": "6L6T5Ye6",
+      "replacement": "Output"
+    },
+    {
+      "legacy_utf8_base64": "57uT5p6c",
+      "replacement": "Result"
+    },
+    {
+      "legacy_utf8_base64": "57Si5byV",
+      "replacement": "index"
+    },
+    {
+      "legacy_utf8_base64": "55uu5b2V",
+      "replacement": "directory"
+    },
+    {
+      "legacy_utf8_base64": "6aG555uu",
+      "replacement": "Project"
+    },
+    {
+      "legacy_utf8_base64": "6L6T5YWl",
+      "replacement": "Input"
+    },
+    {
+      "legacy_utf8_base64": "5qC35pys",
+      "replacement": "sample"
+    },
+    {
+      "legacy_utf8_base64": "56ys",
+      "replacement": ""
+    },
+    {
+      "legacy_utf8_base64": "5oqY",
+      "replacement": " folds"
+    },
+    {
+      "legacy_utf8_base64": "5Liq",
+      "replacement": ""
+    },
+    {
+      "legacy_utf8_base64": "5pWw",
+      "replacement": " count"
+    }
+  ]
+}

@@ -1,9 +1,7 @@
-# 全部 11 个 motif：纵轴放大及显著性标注
+# Raincloud zoom y0015 significance 20261112
 
-统一纵轴范围为 -0.0015 至 +0.0015 PC1，刻度间隔 0.0005；图上以 ×10⁻³ 显示为 -1.5 至 +1.5，间隔 0.5。原始数值和统计结果不变。
+These resources describe native sequence perturbations with composition-preserving motif-core shuffles and matched backgrounds. Effects are WT minus disrupted predicted PC1. The archive contains 1368 matched pairs across 994 positive genes. Annotation-level pooled comparisons are exploratory and may share underlying patterns; all 44 primary pattern-level tests remained nonsignificant after correction. Frozen display variants retain their original data and matched tests.
 
-全部 11 个 motif 共 5 页，正负贡献 pattern 分开展示。* 为探索性 TF/符号合并分析的 Holm 校正 P<0.05；** 为 P<0.01。只在正贡献 SP1、SP2、SP4、KLF16 组上标注。其检验比较各自与一一匹配背景的扰动差异，不是本页多个 motif 合并后的灰色 Background 分布检验。
+## Usage
 
-单个散点代表源 DNA 组的平均效应，没有单独 P 值。44 个原始 pattern 的主要检验均未达到校正后显著性。多个 TF 注释共享 pattern，不代表四个蛋白的独立证据。
-
-边界三角标记表示存在超出显示范围的值；未删除这些数据，也未重新计算密度、箱线或显著性。完整范围原图继续保留在上一级 all_11_motifs_raincloud.pdf。每组范围外值数量和精确 P 值保存在 significance_and_outside_range.tsv。
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

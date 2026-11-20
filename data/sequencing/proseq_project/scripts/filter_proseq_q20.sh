@@ -15,7 +15,7 @@ shopt -s nullglob
 
 for tool in samtools; do
     command -v "$tool" >/dev/null 2>&1 || {
-        echo "[错误] 找不到程序：$tool" >&2
+        echo "[Error] Program not found: $tool" >&2
         exit 1
     }
 done
@@ -48,10 +48,10 @@ filter_run() {
 
     if [[ -s "$output" ]] && samtools quickcheck "$output" 2>/dev/null; then
         [[ -s "${output}.bai" ]] || samtools index -@ "$THREADS" "$output"
-        echo "[跳过] $run Q20 BAM已完成"
+        echo "[Skipped] $run Q20 BAMalready completed"
     else
         rm -f -- "$temp" "${temp}.bai"
-        echo "[$(date '+%F %T')] Q20过滤：$run ($layout)"
+        echo "[$(date '+%F %T')] Q20 filtering: $run ($layout)"
 
         view_args=(
             view -@ "$THREADS" -b
@@ -75,7 +75,7 @@ filter_run() {
         if (( output_records % 2 != 0 )); then
             printf "%s\t%s\t%s\t%s\tNA\tNA\tODD_PAIRED_RECORD_COUNT\n" \
                 "$run" "$layout" "$input_records" "$output_records" >> "$SUMMARY"
-            echo "[错误] $run 的Q20 proper-pair记录数不是偶数" >&2
+            echo "[Error] $run  has an odd number of Q20 proper-pair records" >&2
             return 1
         fi
         fragments=$((output_records / 2))
@@ -94,7 +94,7 @@ filter_run() {
 
 bams=("$IN_BAM"/*.GRCh38.sorted.bam)
 if (( ${#bams[@]} == 0 )); then
-    echo "[错误] 未找到输入BAM：$IN_BAM" >&2
+    echo "[Error] Not found: InputBAM: $IN_BAM" >&2
     exit 1
 fi
 
@@ -103,10 +103,10 @@ for bam in "${bams[@]}"; do
     filter_run "$bam" || ((failed+=1))
 done
 
-echo "输入Run数：${#bams[@]}"
-echo "完成Q20 BAM数：$(find "$OUT_BAM" -maxdepth 1 -type f -name '*.q20.bam' | wc -l)"
-echo "完成BAI数：$(find "$OUT_BAM" -maxdepth 1 -type f -name '*.q20.bam.bai' | wc -l)"
-echo "失败数：$failed"
-echo "汇总表：$SUMMARY"
+echo "Input runs: ${#bams[@]}"
+echo "Completed Q20 BAMs: $(find "$OUT_BAM" -maxdepth 1 -type f -name '*.q20.bam' | wc -l)"
+echo "Completed BAI count: $(find "$OUT_BAM" -maxdepth 1 -type f -name '*.q20.bam.bai' | wc -l)"
+echo "Failure count: $failed"
+echo "Summary table: $SUMMARY"
 
 (( failed == 0 ))

@@ -26,9 +26,9 @@ BASE = Path('/mnt/HDD8TB/hongtao/Data_Seq')
 ROOT = BASE / 'model/B_REG5_RF_20261027'
 OLD = BASE / 'model/BQICPET/new_train'
 LEGACY = OLD / 'train_bqicpet.py'
-LEGACY_SHA = '67feeeed9b5dab61b01f42a2053551062c6b981b6e47e4219f029845b26fb58d'
-PREPARED = BASE / 'CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared'
-SPLIT = BASE / 'CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008'
+LEGACY_SHA = '857056650d0e3e697e0cb4adaff56584ec03b55dbc4b35cacdf5045b6fc25e12'
+PREPARED = BASE / 'CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared'
+SPLIT = BASE / 'CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008'
 COUNTS = {'B': 22, 'ChIP': 2284, 'eCLIP': 206, 'ChIAPET': 50, 'DamID': 10, 'ATAC': 4}
 MODULES = {'ChIP': 'ChIP_seq', 'eCLIP': 'eCLIP', 'ChIAPET': 'ChIA_PET', 'DamID': 'DamID', 'ATAC': 'ATAC_seq'}
 ORDER = tuple(COUNTS)
@@ -108,7 +108,7 @@ class RegulatoryExperiment(engine.Experiment):
                      'previous_rf_run_config.json': OLD/'run_config.json',
                      'legacy_train_bqicpet.py': LEGACY}
         for relative, expected in split_manifest['generated_sha256'].items():
-            if relative == 'data/genes_repartitioned.tsv' or relative.startswith('data/bpnet_splits/'):
+            if relative == 'data/genes_repartitioned.tsv' or relative.startswith('data/gene_splits/'):
                 if sha(SPLIT/relative) != expected:
                     raise ValueError('Frozen split fingerprint changed: '+relative)
         self.genes = metadata.gene.to_numpy(str)
@@ -119,12 +119,12 @@ class RegulatoryExperiment(engine.Experiment):
             raise ValueError('Invalid signed target or folds')
         if metadata.groupby('dna_overlap_group').fold.nunique().max() != 1:
             raise ValueError('DNA overlap groups cross folds')
-        assignments = pd.read_csv(SPLIT/'data/bpnet_splits/fold_assignments.tsv', sep='\t').set_index('gene').loc[self.genes]
+        assignments = pd.read_csv(SPLIT/'data/gene_splits/fold_assignments.tsv', sep='\t').set_index('gene').loc[self.genes]
         if not np.array_equal(assignments.fold, self.folds) or not np.array_equal(assignments.window_group, self.overlap_groups):
             raise ValueError('Fold assignments do not match')
-        snapshots['fold_assignments.tsv'] = SPLIT/'data/bpnet_splits/fold_assignments.tsv'
+        snapshots['fold_assignments.tsv'] = SPLIT/'data/gene_splits/fold_assignments.tsv'
         for fold in range(1, 11):
-            source = SPLIT/f'data/bpnet_splits/round_{fold:02d}.tsv'
+            source = SPLIT/f'data/gene_splits/round_{fold:02d}.tsv'
             frame = pd.read_csv(source, sep='\t').set_index('gene').loc[self.genes]
             _, valid, test = roles(self.folds, fold)
             expected = np.full(len(self.y), 'train', dtype=object)

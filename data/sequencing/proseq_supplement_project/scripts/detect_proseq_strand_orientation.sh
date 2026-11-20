@@ -19,14 +19,14 @@ mkdir -p "$ANNOTATION" "$PROJECT/results" "$(dirname "$LOG")"
 
 for tool in samtools bedtools awk; do
     command -v "$tool" >/dev/null 2>&1 || {
-        echo "[错误] 找不到程序：$tool" >&2
+        echo "[Error] Program not found: $tool" >&2
         exit 1
     }
 done
 
 for file in "$SOURCE_MANE" "$SOURCE_ORIENT" "$MANIFEST"; do
     [[ -s "$file" ]] || {
-        echo "[错误] 找不到输入文件：$file" >&2
+        echo "[Error] Input file not found: $file" >&2
         exit 1
     }
 done
@@ -36,13 +36,13 @@ ln -sfn "$SOURCE_MANE" "$MANE"
 ln -sfn "$SOURCE_ORIENT" "$ORIENT"
 
 [[ -s "$ORIENT" ]] || {
-    echo "[错误] PRO-seq项目中的MANE方向BED链接无效：$ORIENT" >&2
+    echo "[Error] Invalid PRO-seq MANE orientation BED link: $ORIENT" >&2
     exit 1
 }
 
 first_bam=$(find "$BAMDIR" -maxdepth 1 -type f -name '*.q20.bam' | sort | head -n 1)
 [[ -n "$first_bam" ]] || {
-    echo "[错误] 未找到Q20 BAM：$BAMDIR" >&2
+    echo "[Error] Not found: Q20 BAM: $BAMDIR" >&2
     exit 1
 }
 
@@ -55,7 +55,7 @@ missing_contigs=$(
           sort -u)
 )
 if [[ -n "$missing_contigs" ]]; then
-    echo "[错误] MANE BED染色体未出现在BAM中：" >&2
+    echo "[Error] MANE BED chromosomes are absent from BAM: " >&2
     echo "$missing_contigs" >&2
     exit 1
 fi
@@ -85,7 +85,7 @@ for bam in "${bams[@]}"; do
     sample=$(basename "$bam" .GRCh38.standard.primary.q20.bam)
     metadata=$(get_metadata "$sample")
     if [[ -z "$metadata" ]]; then
-        echo "[错误] 清单中找不到Run：$sample" | tee -a "$LOG" >&2
+        echo "[Error] Run missing from manifest: $sample" | tee -a "$LOG" >&2
         ((failed+=1))
         continue
     fi
@@ -144,11 +144,11 @@ for bam in "${bams[@]}"; do
     }' >> "$RESULT"
 done
 
-echo "样本数：$(($(wc -l < "$RESULT") - 1))" | tee -a "$LOG"
-echo "方向统计：" | tee -a "$LOG"
+echo "Sample count: $(($(wc -l < "$RESULT") - 1))" | tee -a "$LOG"
+echo "Orientation summary: " | tee -a "$LOG"
 awk -F '\t' 'NR>1{count[$8]++}END{for(k in count)print k,count[k]}' "$RESULT" |
     sort | tee -a "$LOG"
-echo "失败数：$failed" | tee -a "$LOG"
-echo "结果：$RESULT" | tee -a "$LOG"
+echo "Failure count: $failed" | tee -a "$LOG"
+echo "Result: $RESULT" | tee -a "$LOG"
 
 (( failed == 0 ))

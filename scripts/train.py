@@ -14,7 +14,7 @@ a=p.parse_args();out=a.output_dir.resolve();original=bundle.resolve('model/model
 if not out.is_relative_to(bundle.ROOT/'outputs'):raise ValueError('Training output must be under this bundle outputs/')
 if not out.exists():
     out.mkdir(parents=True)
-    for name in ['corgi_splice4','data']:
+    for name in ['region_film','data']:
         shutil.copytree(original/name,out/name,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
     for name in ['train_experiment.py','disjoint_splits.py']:shutil.copy2(original/name,out/name)
     c=json.loads((original/'training_config.json').read_text())

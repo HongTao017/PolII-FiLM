@@ -47,7 +47,7 @@ def local_path(root, relative):
 
 def verify_source(source):
     source = Path(source).resolve()
-    prepared = source / "data/bpnet_prepared"
+    prepared = source / "data/sequence_prepared"
     manifest_path = prepared / "manifest.json"
     manifest = json.loads(manifest_path.read_text())
     for name, expected in manifest["prepared_sha256"].items():
@@ -250,8 +250,8 @@ def verify_experiment(root, source, hash_source=True):
     if hash_source:
         source_manifest, source_hash = verify_source(source)
     else:
-        source_manifest = json.loads((source / "data/bpnet_prepared/manifest.json").read_text())
-        source_hash = sha256(source / "data/bpnet_prepared/manifest.json")
+        source_manifest = json.loads((source / "data/sequence_prepared/manifest.json").read_text())
+        source_hash = sha256(source / "data/sequence_prepared/manifest.json")
     if source_hash != manifest["source_manifest_sha256"]:
         raise ValueError("Original prepared manifest changed")
     if source_manifest["prepared_sha256"] != manifest["source_prepared_sha256"]:
@@ -259,9 +259,9 @@ def verify_experiment(root, source, hash_source=True):
     for relative, expected in manifest["generated_sha256"].items():
         if sha256(local_path(root, relative)) != expected:
             raise ValueError(f"Generated split hash mismatch: {relative}")
-    genes, original_fields = read_tsv(source / "data/bpnet_prepared/genes.tsv")
+    genes, original_fields = read_tsv(source / "data/sequence_prepared/genes.tsv")
     new, _ = read_tsv(root / "data/genes_repartitioned.tsv")
-    assignments, _ = read_tsv(root / "data/bpnet_splits/fold_assignments.tsv")
+    assignments, _ = read_tsv(root / "data/gene_splits/fold_assignments.tsv")
     if len(new) != len(genes) or len(assignments) != len(genes) or len(genes) != manifest["gene_count"]:
         raise ValueError("Gene count changed")
     if len({row["gene"] for row in genes}) != len(genes):
@@ -282,7 +282,7 @@ def verify_experiment(root, source, hash_source=True):
     if any(len(folds) != 1 for folds in group_folds.values()):
         raise ValueError("Component split across folds")
     original_intervals = reconstruct_intervals(genes)
-    original_table, _ = read_tsv(source / "data/bpnet_prepared/region_intervals.tsv")
+    original_table, _ = read_tsv(source / "data/sequence_prepared/region_intervals.tsv")
     check_original_intervals(original_intervals, original_table)
     intervals, _ = read_tsv(root / "data/region_intervals_repartitioned.tsv")
     if len(intervals) != len(original_intervals):
@@ -295,11 +295,11 @@ def verify_experiment(root, source, hash_source=True):
             raise ValueError("Interval fold/group mismatch")
     fold_audit, role_audit = geometric_audits(intervals)
     for name, calculated in (("fold_pair_overlap_audit.tsv", fold_audit), ("window_overlap_audit.tsv", role_audit)):
-        saved, _ = read_tsv(root / "data/bpnet_splits" / name)
+        saved, _ = read_tsv(root / "data/gene_splits" / name)
         if saved != [{key: str(value) for key, value in row.items()} for row in calculated]:
             raise ValueError(f"Saved audit differs from independent geometric audit: {name}")
     for test in range(1, 11):
-        rows, _ = read_tsv(root / f"data/bpnet_splits/round_{test:02d}.tsv")
+        rows, _ = read_tsv(root / f"data/gene_splits/round_{test:02d}.tsv")
         if len(rows) != len(genes):
             raise ValueError("Round missing/duplicate genes")
         for row, gene in zip(rows, new):

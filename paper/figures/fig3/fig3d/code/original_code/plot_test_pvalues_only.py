@@ -9,7 +9,7 @@ from plot_requested_route import MODELS,retrieve
 from plot_test_muted_filled_reference import make_figure
 from plot_test_compact_legend import COMPARISONS
 
-DESTINATION=Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/17_test_original_palette_numeric_pvalues_only_7p4x5p3.pdf')
+DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/17_test_original_palette_numeric_pvalues_only_7p4x5p3.pdf')
 
 
 def main():

@@ -28,7 +28,7 @@ if '--manifest-only' not in sys.argv:
         labels=['KLF16','SP1','SP2','SP4','Background'], points=[335,223,268,238,389],
         total_points=1453, no_subsampling=True, delta='WT_minus_disrupted', transform='none',
         background='Controls of displayed groups: deduplicate match_id then average by source positive DNA overlap group',
-        source_local_pdf='G:/序列分析画图/Png/png/fig5/fig5h/native_motif_raincloud_20261112/raincloud_selected_y002_no_stars_20261112/selected_four_y_minus2_to2_no_stars.pdf',
+        source_local_pdf='G:/sequence_analysis_figures/Png/png/fig5/fig5h/native_motif_raincloud_20261112/raincloud_selected_y002_no_stars_20261112/selected_four_y_minus2_to2_no_stars.pdf',
         legacy_server_directory='/mnt/HDD8TB/hongtao/Data_Seq/task/A_FOUR_REGION_ISM_20261108/native_motif_knockdown_matched_20261112',
         source_pdf_sha256=digest(ROOT / 'fig5I.pdf'), groups=source_manifest['groups'],
         source_data_sha256={p.relative_to(ROOT).as_posix():digest(p) for p in sorted((ROOT / 'data').rglob('*')) if p.is_file()},
@@ -47,10 +47,10 @@ if '--manifest-only' not in sys.argv:
         does_not_include_model_checkpoints_or_original_training_inputs=True), ensure_ascii=False, indent=2), encoding='utf-8')
     (ROOT / 'audit/requirements.txt').write_text('numpy\npandas\nPillow\npypdf\n# Poppler pdftoppm must be on PATH for pixel comparison.\n', encoding='utf-8')
     (ROOT / 'provenance/upstream_code/README.md').write_text(
-        '这些脚本为服务器实验源码，保留原始路径与调度参数，仅作溯源；本地重绘不执行它们。'
-        'run_native.py 的字节哈希已与 protocol.json 核对，10 个实验计划的哈希亦一致。'
-        '重新推理需要服务器原始数据、checkpoint、bundle_loader 等外部依赖；不要把调度脚本当作本地绘图入口。'
-        '本包 plot.py 只读取冻结数值，不使用 GPU。\n', encoding='utf-8')
+        "These archived scripts retain their experiment paths and scheduling parameters as provenance; frozen-data plotting does not execute them."
+        "The previous source records include protocol and ten-fold plan hashes."
+        "Re-inference requires the recorded input data, checkpoints and model loader. Use the plotting entry point for local frozen-data figures."
+        "plot.py reads frozen numeric values and does not require a GPU.\n", encoding='utf-8')
 
 inventory = []
 for path in sorted(ROOT.rglob('*')):

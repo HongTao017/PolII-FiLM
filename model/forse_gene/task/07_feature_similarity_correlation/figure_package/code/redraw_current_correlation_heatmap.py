@@ -20,11 +20,11 @@ import pandas as pd
 from final_figure_small import save_pdf
 from plot_rf_importance_reference import retrieve as retrieve_importance
 
-OLD_ROOT=Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/30个特征点和其他特征相关性分析')
+OLD_ROOT=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/feature_correlation_analysis')
 LEGACY_CODE=OLD_ROOT/'code/02_plot_top30_vs_BQIP_correlation_heatmap.py'
 OLD_PDF=OLD_ROOT/'Png/BPQI_top30_vs_correlated_BQIP_features_heatmap_large_final.pdf'
 OLD_COMPUTE=OLD_ROOT/'code/01_compute_top30_vs_BQIP_correlations.py'
-DESTINATION=Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/20_current_BQIP_top30_correlated_features_heatmap_16x11.pdf')
+DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/20_current_BQIP_top30_correlated_features_heatmap_16x11.pdf')
 
 REMOTE=r'''
 from pathlib import Path
@@ -84,7 +84,7 @@ def retrieve():
     importance=retrieve_importance()
     top=[r['feature'] for r in importance['top30']]
     code=REMOTE.replace('TOP_FEATURES',repr(top)).replace('EXPECTED_FINGERPRINT',repr(importance['provenance']['fingerprint']))
-    result=subprocess.run(['ssh','-i','G:/序列分析数据/codex_bpnet_ablation_ed25519',
+    result=subprocess.run(['ssh','-i','G:/sequence_analysis_data/codex_sequence_cnn_ablation_ed25519',
         '-o','BatchMode=yes','-o','ConnectTimeout=20','user_011@172.16.12.164',
         '/home/user_011/miniconda3/envs/model/bin/python -B -'],
         input=code,text=True,encoding='utf-8',capture_output=True,timeout=180,check=True)

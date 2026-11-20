@@ -6,12 +6,12 @@ from pathlib import Path
 import sys
 
 sys.dont_write_bytecode = True
-REFERENCE = Path('G:/序列分析数据/redraw_gene_features_20261021')
+REFERENCE = Path('G:/sequence_analysis_data/redraw_gene_features_20261021')
 sys.path.insert(0, str(REFERENCE))
 import plot_rf_importance_reference as reference
 
 FINGERPRINT = 'c13b03947d1c64bd21ad4525860c8a1528cb98ff6d9d711936451f360cbaf0a4'
-DEFAULT_OUTPUT = Path('G:/序列分析画图/Png/png/调控因子作用图/fig3b/fig3b_RF_BChIPeCLIP_top30_importance_reference.pdf')
+DEFAULT_OUTPUT = Path('G:/sequence_analysis_figures/Png/png/biochemical_feature_figures/fig3b/fig3b_RF_BChIPeCLIP_top30_importance_reference.pdf')
 
 
 def configure_reference():

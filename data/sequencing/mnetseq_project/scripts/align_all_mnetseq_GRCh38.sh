@@ -15,18 +15,18 @@ mkdir -p "$OUT" "$LOG" "$PROJECT/results"
 
 for tool in bowtie2 samtools; do
     command -v "$tool" >/dev/null 2>&1 || {
-        echo "[错误] 找不到软件：$tool" >&2
+        echo "[Error] Program not found: $tool" >&2
         exit 1
     }
 done
 
 [[ -d "$INPUT" ]] || {
-    echo "[错误] 输入目录不存在：$INPUT" >&2
+    echo "[Error] Input directory does not exist: $INPUT" >&2
     exit 1
 }
 
 if ! compgen -G "${INDEX}*.bt2*" >/dev/null; then
-    echo "[错误] 找不到 Bowtie2 索引：${INDEX}*.bt2*" >&2
+    echo "[Error] Not found:  Bowtie2 index: ${INDEX}*.bt2*" >&2
     exit 1
 fi
 
@@ -41,7 +41,7 @@ align_run() {
     local runlog="$LOG/${run}.bowtie2.log"
 
     if [[ ! -s "$r1" || ! -s "$r2" ]]; then
-        echo "[错误] $run 的 R1 或 R2 不存在"
+        echo "[Error] $run  is missing R1 or R2"
         printf '%s\tpaired\t%s\t%s\t%s\tFAILED\tmissing_input\n' \
             "$run" "$r1" "$r2" "$bam" >> "$STATUS"
         return 1
@@ -49,14 +49,14 @@ align_run() {
 
     if [[ -s "$bam" ]] && samtools quickcheck "$bam" 2>/dev/null; then
         [[ -s "${bam}.bai" ]] || samtools index -@ "$SORT_THREADS" "$bam"
-        echo "[跳过] $run 已完成"
+        echo "[Skipped] $run already completed"
         printf '%s\tpaired\t%s\t%s\t%s\tPASS\talready_complete\n' \
             "$run" "$r1" "$r2" "$bam" >> "$STATUS"
         return 0
     fi
 
     rm -f -- "$tmp" "${tmp}.tmp."*.bam "${bam}.bai"
-    echo "[$(date '+%F %T')] 开始：$run (paired)"
+    echo "[$(date '+%F %T')] Starting: $run (paired)"
 
     if {
         bowtie2 \
@@ -78,17 +78,17 @@ align_run() {
         samtools index -@ "$SORT_THREADS" "$bam"
 
         if samtools quickcheck "$bam" && [[ -s "${bam}.bai" ]]; then
-            echo "[$(date '+%F %T')] 完成：$run"
+            echo "[$(date '+%F %T')] Completed: $run"
             printf '%s\tpaired\t%s\t%s\t%s\tPASS\tcomplete\n' \
                 "$run" "$r1" "$r2" "$bam" >> "$STATUS"
         else
-            echo "[错误] $run BAM 检查失败"
+            echo "[Error] $run BAM check failed"
             printf '%s\tpaired\t%s\t%s\t%s\tFAILED\tbam_check_failed\n' \
                 "$run" "$r1" "$r2" "$bam" >> "$STATUS"
             return 1
         fi
     else
-        echo "[错误] $run 比对失败，请检查：$runlog"
+        echo "[Error] $run Alignment failed; check: $runlog"
         rm -f -- "$tmp" "${tmp}.tmp."*.bam
         printf '%s\tpaired\t%s\t%s\t%s\tFAILED\talignment_failed\n' \
             "$run" "$r1" "$r2" "$bam" >> "$STATUS"
@@ -100,7 +100,7 @@ shopt -s nullglob
 r1_files=("$INPUT"/*_1.non_rRNA.fastq.gz)
 
 if [[ ${#r1_files[@]} -eq 0 ]]; then
-    echo "[错误] 没有找到 *_1.non_rRNA.fastq.gz" >&2
+    echo "[Error] Not found:  *_1.non_rRNA.fastq.gz" >&2
     exit 1
 fi
 
@@ -121,12 +121,12 @@ pass_count=$(awk -F '\t' 'NR>1 && $6=="PASS" {n++} END{print n+0}' "$STATUS")
 fail_count=$(awk -F '\t' 'NR>1 && $6=="FAILED" {n++} END{print n+0}' "$STATUS")
 
 echo
-echo "输入双端 Run 数：${#r1_files[@]}"
-echo "状态 PASS：$pass_count"
-echo "状态 FAILED：$fail_count"
-echo "完成 BAM 数：$bam_count"
-echo "完成 BAI 数：$bai_count"
-echo "状态表：$STATUS"
+echo "Input paired-end runs: ${#r1_files[@]}"
+echo "Status PASS: $pass_count"
+echo "Status FAILED: $fail_count"
+echo "Completed BAM count: $bam_count"
+echo "Completed BAI count: $bai_count"
+echo "Status table: $STATUS"
 
 [[ "$failed" -eq 0 ]]
 

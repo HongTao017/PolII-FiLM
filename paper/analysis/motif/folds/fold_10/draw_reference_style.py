@@ -1,7 +1,7 @@
 """Restyle saved real ISM results; no model loading or new inference.
 
 Read the completed experiment only. Write into a distinct new directory.
-The reference paper supplies layout, never units, TF names or effect values.
+The rendering uses frozen units, motif labels and effect values.
 """
 import argparse
 import csv

@@ -54,26 +54,10 @@ for source_name,stem in items:
  shutil.copy2(candidate,final);candidate.unlink();repro.unlink();cp(final,ROOT/'figures'/final.name)
  qa=json.loads((B/'audit/redraw_QA.json').read_text());qa.update(output=str(final),sha256=sha(final));dump(B/'audit/redraw_QA.json',qa)
  dump(B/'REPRODUCIBILITY.json',dict(status='PASS',independent_redraw_pixel_identical=True,PDF_only=True,raster_images=0,data_paths_relative=True,dependencies=versions,PDF_sha256=sha(final),native_PPM_and_CWM_verified=True,original_full_pattern_TOMTOM_pq_retained=True,original_XML_alignment_verified=True,original_TOMTOM_default_pseudocount_verified=True))
- (B/'README.md').write_text(f'''# {chosen['gene']} / {chosen['TF']}-like TOMTOM 配对图
-
-上方是Fold {chosen['fold']:02d} / {chosen['pattern']}的聚合PPM，共{pair['n_seqlets']}个seqlet；显示原始50bp pattern中的第{left+1}–{right}位，共识{pair['query_core_consensus']}。下方为人类数据库motif {chosen['matrix_id']}（{chosen['TF']}），按照原始TOMTOM的{'反向互补RC' if rc else '正向FWD'}对齐显示，共识{pair['target_core_consensus']}。基因名称用于对应用户选定的扰动实例；聚合pattern的logo并不等于该基因单个seqlet的序列，单实例命中区见对应ISM包。
-
-原始完整50bp查询的TOMTOM：p={float(row['p-value']):.8g}，q={float(row['q-value']):.8g}，E={float(row['E-value']):.8g}，overlap={int(row['Overlap'])}，offset={offset}，orientation={row['Orientation']}。这些统计值沿用冻结结果，未在裁剪矩阵上重新计算。概率图使用原生PPM与原始参考MEME矩阵；TOMTOM XML中默认0.1伪计数的概率转换已分别核验。
-
-字母高度为标准信息量logo：p×(2−H)，单位bits。上方y轴适配真实信息量，显示位置刻度；上下均不画坐标轴线，下方数据库logo不显示x/y刻度。CWM统计来自相同query展示区间的四碱基贡献和：sum={positions.sum():+.10g}，max={positions.max():+.10g}，min={positions.min():+.10g}；这些是CWM归因，不是ISM预测变化。
-
-使用Arial12pt文字/刻度、14pt轴标题和可编辑PDF文字。画布8×5.4in沿用用户允许加宽及上方logo保持足够高度的要求；A#007F01、C#0200F3、G#F5B029、T#FF0003。只输出PDF，无截图弹窗、编辑器提示等界面元素。
-
-## 重绘
-
-python -m pip install -r requirements.txt
-python plot.py --output redraw.pdf
-
-code/含实际绘图代码；data/aligned_plot_matrices.npz含绘图矩阵；data/native_pattern_source.npz含原生PPM/CWM；data/source_tomtom/保留原始查询、参考库、TSV/XML；data/TOMTOM_pair.json保存对齐和全文精度统计。图件可独立重绘，不需要原模型、GPU或网络。
-''',encoding='utf-8')
+ (B/'README.md').write_text(f"# {chosen['gene']} / {chosen['TF']}-like motif alignment\n\nThe upper logo is the aggregate PPM for fold {chosen['fold']:02d}, pattern {chosen['pattern']}, with {pair['n_seqlets']} seqlets. It displays positions {left+1}-{right} of the original 50 bp query; consensus: {pair['query_core_consensus']}. The lower logo is reference matrix {chosen['matrix_id']} ({chosen['TF']}), displayed in {'Reverse complement' if rc else 'Forward'} orientation; consensus: {pair['target_core_consensus']}. The gene identifies the selected perturbation example; the aggregate logo is not that gene's single seqlet.\nFrozen full-query TOMTOM statistics: p={float(row['p-value']):.8g}, q={float(row['q-value']):.8g}, E={float(row['E-value']):.8g}, overlap={int(row['Overlap'])}, offset={offset}, orientation={row['Orientation']}. These values were not recalculated on cropped matrices. Native query PPMs and reference MEME matrices supply the logos.\nLetter heights are p times (2-H), in bits. Query-window CWM sums: total={positions.sum():+.10g}, maximum={positions.max():+.10g}, minimum={positions.min():+.10g}. These are attribution scores rather than ISM prediction changes.\nThe editable 8x5.4 inch PDF uses Arial 12 pt text and 14 pt axis titles. Base colors: A #007F01, C #0200F3, G #F5B029, T #FF0003.\nPlotting code is in `code/`; `data/aligned_plot_matrices.npz`, `data/native_pattern_source.npz`, `data/source_tomtom/`, and `data/TOMTOM_pair.json` preserve matrices, sources, alignments and full-precision statistics. Redrawing requires these frozen files and plotting dependencies.\n",encoding='utf-8')
  dump(B/'audit/selected_pair_update.json',dict(source_ism_bundle=source_name,source_ism_manifest_sha256=source_manifest_sha,previous_PDF_sha256=prior_sha,current_PDF_sha256=sha(final),displayed_positions=[left+1,right],reference_reverse_complement=rc,scientific_source_data_unchanged=True))
  files=[p for p in sorted(B.rglob('*')) if p.is_file() and p.name!='MANIFEST_SHA256.txt'];(B/'MANIFEST_SHA256.txt').write_text('\n'.join(f'{sha(p)}  {p.relative_to(B).as_posix()}' for p in files)+'\n');verify(B);assert sha(S/'MANIFEST_SHA256.txt')==source_manifest_sha;verify(S)
- reports.append(dict(folder=stem,description=f"{chosen['gene']}/{chosen['TF']}聚合pattern与数据库motif比对",filename=final.name,PDF=str(final),gene=chosen['gene'],TF=chosen['TF'],source_sha256=sha(final),files=len(files)+1,bytes=sum(p.stat().st_size for p in B.rglob('*') if p.is_file()),pixel_identical=True,dependencies=versions,query_positions=[left+1,right],TOMTOM_q=float(row['q-value']),TOMTOM_p=float(row['p-value']),reference_orientation='RC' if rc else 'FWD'))
+ reports.append(dict(folder=stem,description=f"{chosen['gene']}/{chosen['TF']} aggregate pattern aligned to database motif",filename=final.name,PDF=str(final),gene=chosen['gene'],TF=chosen['TF'],source_sha256=sha(final),files=len(files)+1,bytes=sum(p.stat().st_size for p in B.rglob('*') if p.is_file()),pixel_identical=True,dependencies=versions,query_positions=[left+1,right],TOMTOM_q=float(row['q-value']),TOMTOM_p=float(row['p-value']),reference_orientation='RC' if rc else 'FWD'))
  print(json.dumps(reports[-1],ensure_ascii=False),flush=True)
 # Refresh the figure catalog, keeping the two selected perturbation packages intact.
 p=DEST/'PACKAGING_REPORT.json';report=json.loads(p.read_text())
@@ -81,7 +65,7 @@ for item in reports:
  report['packages']=[r for r in report['packages'] if r['folder']!=item['folder']];report['packages'].append({k:item[k] for k in ['folder','description','filename','source_sha256','files','bytes','pixel_identical','dependencies']})
 report['count']=len(report['packages']);report['last_selected_pair_update']={'date':'2026-10-21','pairs':reports};dump(p,report)
 fields=['folder','description','filename','files','bytes','source_sha256','pixel_identical']
-with (DEST/'图件目录.tsv').open('w',encoding='utf-8',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',extrasaction='ignore');w.writeheader();w.writerows(report['packages'])
-text='# Figure 5 图件、代码与数据\n\n当前扰动实例仅保留PTGIS/EGR1与ZBTB7A/SP4；二者均有独立TOMTOM比对图。每张图的PDF、代码和数据按图名独立存放。\n\n| 图件目录 | 内容 |\n|---|---|\n'+'\n'.join(f"| [{r['folder']}]({r['folder']}/) | {r['description']} |" for r in report['packages'])+'\n\n各目录运行 python plot.py --output redraw.pdf 可独立重绘。原始模型和源数据保留。\n';(DEST/'README.md').write_text(text,encoding='utf-8')
+with (DEST/"figure_index.tsv").open('w',encoding='utf-8',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',extrasaction='ignore');w.writeheader();w.writerows(report['packages'])
+text="# Figure 5 resources\n\nPTGIS/EGR1 and ZBTB7A/SP4 examples include separate TOMTOM alignments. Figures, plotting code and data are organized by panel.\n\n| Directory | Content |\n|---|---|\n"+'\n'.join(f"| [{r['folder']}]({r['folder']}/) | {r['description']} |" for r in report['packages'])+"\n\nRun python plot.py --output redraw.pdf in each package. Original models and input data remain available.\n";(DEST/'README.md').write_text(text,encoding='utf-8')
 dump(DEST/'SELECTED_TOMTOM_PAIRS_20261021.json',dict(status='PASS',pairs=reports,selected_ISM_packages_unchanged=True))
 print(json.dumps({'status':'PASS','pair_figures':len(reports),'total_figure_packages':report['count'],'source_ISM_packages_unchanged':True},ensure_ascii=False))

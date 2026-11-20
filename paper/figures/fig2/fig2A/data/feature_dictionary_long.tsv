@@ -1,787 +1,787 @@
-letter	group_name	中文含义	feature_order_within_group	feature_name
-B	basic_gene_structure	基础基因结构	1	log10_transcript_span_bp
-B	basic_gene_structure	基础基因结构	2	log10_spliced_length_bp
-B	basic_gene_structure	基础基因结构	3	exon_count
-B	basic_gene_structure	基础基因结构	4	log10_mean_exon_length_bp
-B	basic_gene_structure	基础基因结构	5	log10_min_exon_length_bp
-B	basic_gene_structure	基础基因结构	6	log10_max_exon_length_bp
-B	basic_gene_structure	基础基因结构	7	log10_last_exon_length_bp
-B	basic_gene_structure	基础基因结构	8	log10_intron_total_length_bp
-B	basic_gene_structure	基础基因结构	9	log10_mean_intron_length_bp
-B	basic_gene_structure	基础基因结构	10	log10_min_intron_length_bp
-B	basic_gene_structure	基础基因结构	11	log10_max_intron_length_bp
-B	basic_gene_structure	基础基因结构	12	log10_first_intron_length_bp
-B	basic_gene_structure	基础基因结构	13	log10_last_intron_length_bp
-B	basic_gene_structure	基础基因结构	14	log10_tss_to_first_splice_bp
-B	basic_gene_structure	基础基因结构	15	log10_cds_length_bp
-B	basic_gene_structure	基础基因结构	16	log10_utr5_length_bp
-B	basic_gene_structure	基础基因结构	17	log10_utr3_length_bp
-B	basic_gene_structure	基础基因结构	18	utr5_fraction
-B	basic_gene_structure	基础基因结构	19	utr3_fraction
-B	basic_gene_structure	基础基因结构	20	exon_fraction
-B	basic_gene_structure	基础基因结构	21	orf_exon_junction_count
-B	basic_gene_structure	基础基因结构	22	orf_exon_junction_density_per_kb
-Q	sequence_composition	序列组成	1	promoter_gc_fraction
-Q	sequence_composition	序列组成	2	pause_gc_fraction
-Q	sequence_composition	序列组成	3	early_body_gc_fraction
-Q	sequence_composition	序列组成	4	spliced_gc_fraction
-Q	sequence_composition	序列组成	5	utr5_gc_fraction
-Q	sequence_composition	序列组成	6	cds_gc_fraction
-Q	sequence_composition	序列组成	7	utr3_gc_fraction
-Q	sequence_composition	序列组成	8	promoter_cpg_count
-Q	sequence_composition	序列组成	9	pause_cpg_count
-Q	sequence_composition	序列组成	10	early_body_cpg_count
-Q	sequence_composition	序列组成	11	promoter_cpg_oe
-Q	sequence_composition	序列组成	12	pause_cpg_oe
-Q	sequence_composition	序列组成	13	early_body_cpg_oe
-I	CpG_island	CpG岛	1	promoter_CpG_island_count
-I	CpG_island	CpG岛	2	TSS_nearest_CpG_island_distance_bp
-I	CpG_island	CpG岛	3	TSS_nearest_CpG_island_length_bp
-I	CpG_island	CpG岛	4	pause_CpG_island_count
-I	CpG_island	CpG岛	5	body_CpG_island_count
-I	CpG_island	CpG岛	6	nearest_CpG_island_cpg_count
-I	CpG_island	CpG岛	7	nearest_CpG_island_gc_percent
-I	CpG_island	CpG岛	8	nearest_CpG_island_obs_exp
-C	codon_frequency	密码子频率	1	cds_codon_AAA_frequency
-C	codon_frequency	密码子频率	2	cds_codon_AAC_frequency
-C	codon_frequency	密码子频率	3	cds_codon_AAG_frequency
-C	codon_frequency	密码子频率	4	cds_codon_AAT_frequency
-C	codon_frequency	密码子频率	5	cds_codon_ACA_frequency
-C	codon_frequency	密码子频率	6	cds_codon_ACC_frequency
-C	codon_frequency	密码子频率	7	cds_codon_ACG_frequency
-C	codon_frequency	密码子频率	8	cds_codon_ACT_frequency
-C	codon_frequency	密码子频率	9	cds_codon_AGA_frequency
-C	codon_frequency	密码子频率	10	cds_codon_AGC_frequency
-C	codon_frequency	密码子频率	11	cds_codon_AGG_frequency
-C	codon_frequency	密码子频率	12	cds_codon_AGT_frequency
-C	codon_frequency	密码子频率	13	cds_codon_ATA_frequency
-C	codon_frequency	密码子频率	14	cds_codon_ATC_frequency
-C	codon_frequency	密码子频率	15	cds_codon_ATG_frequency
-C	codon_frequency	密码子频率	16	cds_codon_ATT_frequency
-C	codon_frequency	密码子频率	17	cds_codon_CAA_frequency
-C	codon_frequency	密码子频率	18	cds_codon_CAC_frequency
-C	codon_frequency	密码子频率	19	cds_codon_CAG_frequency
-C	codon_frequency	密码子频率	20	cds_codon_CAT_frequency
-C	codon_frequency	密码子频率	21	cds_codon_CCA_frequency
-C	codon_frequency	密码子频率	22	cds_codon_CCC_frequency
-C	codon_frequency	密码子频率	23	cds_codon_CCG_frequency
-C	codon_frequency	密码子频率	24	cds_codon_CCT_frequency
-C	codon_frequency	密码子频率	25	cds_codon_CGA_frequency
-C	codon_frequency	密码子频率	26	cds_codon_CGC_frequency
-C	codon_frequency	密码子频率	27	cds_codon_CGG_frequency
-C	codon_frequency	密码子频率	28	cds_codon_CGT_frequency
-C	codon_frequency	密码子频率	29	cds_codon_CTA_frequency
-C	codon_frequency	密码子频率	30	cds_codon_CTC_frequency
-C	codon_frequency	密码子频率	31	cds_codon_CTG_frequency
-C	codon_frequency	密码子频率	32	cds_codon_CTT_frequency
-C	codon_frequency	密码子频率	33	cds_codon_GAA_frequency
-C	codon_frequency	密码子频率	34	cds_codon_GAC_frequency
-C	codon_frequency	密码子频率	35	cds_codon_GAG_frequency
-C	codon_frequency	密码子频率	36	cds_codon_GAT_frequency
-C	codon_frequency	密码子频率	37	cds_codon_GCA_frequency
-C	codon_frequency	密码子频率	38	cds_codon_GCC_frequency
-C	codon_frequency	密码子频率	39	cds_codon_GCG_frequency
-C	codon_frequency	密码子频率	40	cds_codon_GCT_frequency
-C	codon_frequency	密码子频率	41	cds_codon_GGA_frequency
-C	codon_frequency	密码子频率	42	cds_codon_GGC_frequency
-C	codon_frequency	密码子频率	43	cds_codon_GGG_frequency
-C	codon_frequency	密码子频率	44	cds_codon_GGT_frequency
-C	codon_frequency	密码子频率	45	cds_codon_GTA_frequency
-C	codon_frequency	密码子频率	46	cds_codon_GTC_frequency
-C	codon_frequency	密码子频率	47	cds_codon_GTG_frequency
-C	codon_frequency	密码子频率	48	cds_codon_GTT_frequency
-C	codon_frequency	密码子频率	49	cds_codon_TAC_frequency
-C	codon_frequency	密码子频率	50	cds_codon_TAT_frequency
-C	codon_frequency	密码子频率	51	cds_codon_TCA_frequency
-C	codon_frequency	密码子频率	52	cds_codon_TCC_frequency
-C	codon_frequency	密码子频率	53	cds_codon_TCG_frequency
-C	codon_frequency	密码子频率	54	cds_codon_TCT_frequency
-C	codon_frequency	密码子频率	55	cds_codon_TGC_frequency
-C	codon_frequency	密码子频率	56	cds_codon_TGG_frequency
-C	codon_frequency	密码子频率	57	cds_codon_TGT_frequency
-C	codon_frequency	密码子频率	58	cds_codon_TTA_frequency
-C	codon_frequency	密码子频率	59	cds_codon_TTC_frequency
-C	codon_frequency	密码子频率	60	cds_codon_TTG_frequency
-C	codon_frequency	密码子频率	61	cds_codon_TTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	1	pause_kmer_A_frequency
-P	pause_region_1to4mer	pause区域1-4mer	2	pause_kmer_C_frequency
-P	pause_region_1to4mer	pause区域1-4mer	3	pause_kmer_G_frequency
-P	pause_region_1to4mer	pause区域1-4mer	4	pause_kmer_T_frequency
-P	pause_region_1to4mer	pause区域1-4mer	5	pause_kmer_AA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	6	pause_kmer_AC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	7	pause_kmer_AG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	8	pause_kmer_AT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	9	pause_kmer_CA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	10	pause_kmer_CC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	11	pause_kmer_CG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	12	pause_kmer_CT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	13	pause_kmer_GA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	14	pause_kmer_GC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	15	pause_kmer_GG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	16	pause_kmer_GT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	17	pause_kmer_TA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	18	pause_kmer_TC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	19	pause_kmer_TG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	20	pause_kmer_TT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	21	pause_kmer_AAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	22	pause_kmer_AAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	23	pause_kmer_AAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	24	pause_kmer_AAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	25	pause_kmer_ACA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	26	pause_kmer_ACC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	27	pause_kmer_ACG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	28	pause_kmer_ACT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	29	pause_kmer_AGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	30	pause_kmer_AGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	31	pause_kmer_AGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	32	pause_kmer_AGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	33	pause_kmer_ATA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	34	pause_kmer_ATC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	35	pause_kmer_ATG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	36	pause_kmer_ATT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	37	pause_kmer_CAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	38	pause_kmer_CAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	39	pause_kmer_CAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	40	pause_kmer_CAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	41	pause_kmer_CCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	42	pause_kmer_CCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	43	pause_kmer_CCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	44	pause_kmer_CCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	45	pause_kmer_CGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	46	pause_kmer_CGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	47	pause_kmer_CGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	48	pause_kmer_CGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	49	pause_kmer_CTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	50	pause_kmer_CTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	51	pause_kmer_CTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	52	pause_kmer_CTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	53	pause_kmer_GAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	54	pause_kmer_GAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	55	pause_kmer_GAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	56	pause_kmer_GAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	57	pause_kmer_GCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	58	pause_kmer_GCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	59	pause_kmer_GCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	60	pause_kmer_GCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	61	pause_kmer_GGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	62	pause_kmer_GGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	63	pause_kmer_GGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	64	pause_kmer_GGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	65	pause_kmer_GTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	66	pause_kmer_GTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	67	pause_kmer_GTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	68	pause_kmer_GTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	69	pause_kmer_TAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	70	pause_kmer_TAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	71	pause_kmer_TAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	72	pause_kmer_TAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	73	pause_kmer_TCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	74	pause_kmer_TCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	75	pause_kmer_TCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	76	pause_kmer_TCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	77	pause_kmer_TGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	78	pause_kmer_TGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	79	pause_kmer_TGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	80	pause_kmer_TGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	81	pause_kmer_TTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	82	pause_kmer_TTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	83	pause_kmer_TTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	84	pause_kmer_TTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	85	pause_kmer_AAAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	86	pause_kmer_AAAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	87	pause_kmer_AAAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	88	pause_kmer_AAAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	89	pause_kmer_AACA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	90	pause_kmer_AACC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	91	pause_kmer_AACG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	92	pause_kmer_AACT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	93	pause_kmer_AAGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	94	pause_kmer_AAGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	95	pause_kmer_AAGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	96	pause_kmer_AAGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	97	pause_kmer_AATA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	98	pause_kmer_AATC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	99	pause_kmer_AATG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	100	pause_kmer_AATT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	101	pause_kmer_ACAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	102	pause_kmer_ACAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	103	pause_kmer_ACAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	104	pause_kmer_ACAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	105	pause_kmer_ACCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	106	pause_kmer_ACCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	107	pause_kmer_ACCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	108	pause_kmer_ACCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	109	pause_kmer_ACGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	110	pause_kmer_ACGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	111	pause_kmer_ACGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	112	pause_kmer_ACGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	113	pause_kmer_ACTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	114	pause_kmer_ACTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	115	pause_kmer_ACTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	116	pause_kmer_ACTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	117	pause_kmer_AGAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	118	pause_kmer_AGAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	119	pause_kmer_AGAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	120	pause_kmer_AGAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	121	pause_kmer_AGCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	122	pause_kmer_AGCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	123	pause_kmer_AGCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	124	pause_kmer_AGCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	125	pause_kmer_AGGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	126	pause_kmer_AGGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	127	pause_kmer_AGGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	128	pause_kmer_AGGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	129	pause_kmer_AGTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	130	pause_kmer_AGTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	131	pause_kmer_AGTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	132	pause_kmer_AGTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	133	pause_kmer_ATAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	134	pause_kmer_ATAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	135	pause_kmer_ATAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	136	pause_kmer_ATAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	137	pause_kmer_ATCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	138	pause_kmer_ATCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	139	pause_kmer_ATCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	140	pause_kmer_ATCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	141	pause_kmer_ATGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	142	pause_kmer_ATGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	143	pause_kmer_ATGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	144	pause_kmer_ATGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	145	pause_kmer_ATTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	146	pause_kmer_ATTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	147	pause_kmer_ATTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	148	pause_kmer_ATTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	149	pause_kmer_CAAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	150	pause_kmer_CAAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	151	pause_kmer_CAAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	152	pause_kmer_CAAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	153	pause_kmer_CACA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	154	pause_kmer_CACC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	155	pause_kmer_CACG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	156	pause_kmer_CACT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	157	pause_kmer_CAGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	158	pause_kmer_CAGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	159	pause_kmer_CAGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	160	pause_kmer_CAGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	161	pause_kmer_CATA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	162	pause_kmer_CATC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	163	pause_kmer_CATG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	164	pause_kmer_CATT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	165	pause_kmer_CCAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	166	pause_kmer_CCAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	167	pause_kmer_CCAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	168	pause_kmer_CCAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	169	pause_kmer_CCCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	170	pause_kmer_CCCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	171	pause_kmer_CCCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	172	pause_kmer_CCCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	173	pause_kmer_CCGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	174	pause_kmer_CCGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	175	pause_kmer_CCGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	176	pause_kmer_CCGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	177	pause_kmer_CCTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	178	pause_kmer_CCTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	179	pause_kmer_CCTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	180	pause_kmer_CCTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	181	pause_kmer_CGAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	182	pause_kmer_CGAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	183	pause_kmer_CGAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	184	pause_kmer_CGAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	185	pause_kmer_CGCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	186	pause_kmer_CGCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	187	pause_kmer_CGCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	188	pause_kmer_CGCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	189	pause_kmer_CGGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	190	pause_kmer_CGGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	191	pause_kmer_CGGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	192	pause_kmer_CGGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	193	pause_kmer_CGTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	194	pause_kmer_CGTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	195	pause_kmer_CGTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	196	pause_kmer_CGTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	197	pause_kmer_CTAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	198	pause_kmer_CTAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	199	pause_kmer_CTAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	200	pause_kmer_CTAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	201	pause_kmer_CTCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	202	pause_kmer_CTCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	203	pause_kmer_CTCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	204	pause_kmer_CTCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	205	pause_kmer_CTGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	206	pause_kmer_CTGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	207	pause_kmer_CTGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	208	pause_kmer_CTGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	209	pause_kmer_CTTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	210	pause_kmer_CTTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	211	pause_kmer_CTTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	212	pause_kmer_CTTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	213	pause_kmer_GAAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	214	pause_kmer_GAAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	215	pause_kmer_GAAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	216	pause_kmer_GAAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	217	pause_kmer_GACA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	218	pause_kmer_GACC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	219	pause_kmer_GACG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	220	pause_kmer_GACT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	221	pause_kmer_GAGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	222	pause_kmer_GAGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	223	pause_kmer_GAGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	224	pause_kmer_GAGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	225	pause_kmer_GATA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	226	pause_kmer_GATC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	227	pause_kmer_GATG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	228	pause_kmer_GATT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	229	pause_kmer_GCAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	230	pause_kmer_GCAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	231	pause_kmer_GCAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	232	pause_kmer_GCAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	233	pause_kmer_GCCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	234	pause_kmer_GCCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	235	pause_kmer_GCCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	236	pause_kmer_GCCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	237	pause_kmer_GCGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	238	pause_kmer_GCGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	239	pause_kmer_GCGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	240	pause_kmer_GCGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	241	pause_kmer_GCTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	242	pause_kmer_GCTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	243	pause_kmer_GCTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	244	pause_kmer_GCTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	245	pause_kmer_GGAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	246	pause_kmer_GGAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	247	pause_kmer_GGAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	248	pause_kmer_GGAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	249	pause_kmer_GGCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	250	pause_kmer_GGCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	251	pause_kmer_GGCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	252	pause_kmer_GGCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	253	pause_kmer_GGGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	254	pause_kmer_GGGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	255	pause_kmer_GGGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	256	pause_kmer_GGGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	257	pause_kmer_GGTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	258	pause_kmer_GGTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	259	pause_kmer_GGTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	260	pause_kmer_GGTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	261	pause_kmer_GTAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	262	pause_kmer_GTAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	263	pause_kmer_GTAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	264	pause_kmer_GTAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	265	pause_kmer_GTCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	266	pause_kmer_GTCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	267	pause_kmer_GTCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	268	pause_kmer_GTCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	269	pause_kmer_GTGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	270	pause_kmer_GTGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	271	pause_kmer_GTGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	272	pause_kmer_GTGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	273	pause_kmer_GTTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	274	pause_kmer_GTTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	275	pause_kmer_GTTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	276	pause_kmer_GTTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	277	pause_kmer_TAAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	278	pause_kmer_TAAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	279	pause_kmer_TAAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	280	pause_kmer_TAAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	281	pause_kmer_TACA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	282	pause_kmer_TACC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	283	pause_kmer_TACG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	284	pause_kmer_TACT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	285	pause_kmer_TAGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	286	pause_kmer_TAGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	287	pause_kmer_TAGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	288	pause_kmer_TAGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	289	pause_kmer_TATA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	290	pause_kmer_TATC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	291	pause_kmer_TATG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	292	pause_kmer_TATT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	293	pause_kmer_TCAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	294	pause_kmer_TCAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	295	pause_kmer_TCAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	296	pause_kmer_TCAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	297	pause_kmer_TCCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	298	pause_kmer_TCCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	299	pause_kmer_TCCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	300	pause_kmer_TCCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	301	pause_kmer_TCGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	302	pause_kmer_TCGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	303	pause_kmer_TCGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	304	pause_kmer_TCGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	305	pause_kmer_TCTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	306	pause_kmer_TCTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	307	pause_kmer_TCTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	308	pause_kmer_TCTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	309	pause_kmer_TGAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	310	pause_kmer_TGAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	311	pause_kmer_TGAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	312	pause_kmer_TGAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	313	pause_kmer_TGCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	314	pause_kmer_TGCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	315	pause_kmer_TGCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	316	pause_kmer_TGCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	317	pause_kmer_TGGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	318	pause_kmer_TGGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	319	pause_kmer_TGGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	320	pause_kmer_TGGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	321	pause_kmer_TGTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	322	pause_kmer_TGTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	323	pause_kmer_TGTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	324	pause_kmer_TGTT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	325	pause_kmer_TTAA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	326	pause_kmer_TTAC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	327	pause_kmer_TTAG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	328	pause_kmer_TTAT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	329	pause_kmer_TTCA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	330	pause_kmer_TTCC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	331	pause_kmer_TTCG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	332	pause_kmer_TTCT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	333	pause_kmer_TTGA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	334	pause_kmer_TTGC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	335	pause_kmer_TTGG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	336	pause_kmer_TTGT_frequency
-P	pause_region_1to4mer	pause区域1-4mer	337	pause_kmer_TTTA_frequency
-P	pause_region_1to4mer	pause区域1-4mer	338	pause_kmer_TTTC_frequency
-P	pause_region_1to4mer	pause区域1-4mer	339	pause_kmer_TTTG_frequency
-P	pause_region_1to4mer	pause区域1-4mer	340	pause_kmer_TTTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	1	body_kmer_A_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	2	body_kmer_C_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	3	body_kmer_G_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	4	body_kmer_T_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	5	body_kmer_AA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	6	body_kmer_AC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	7	body_kmer_AG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	8	body_kmer_AT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	9	body_kmer_CA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	10	body_kmer_CC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	11	body_kmer_CG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	12	body_kmer_CT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	13	body_kmer_GA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	14	body_kmer_GC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	15	body_kmer_GG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	16	body_kmer_GT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	17	body_kmer_TA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	18	body_kmer_TC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	19	body_kmer_TG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	20	body_kmer_TT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	21	body_kmer_AAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	22	body_kmer_AAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	23	body_kmer_AAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	24	body_kmer_AAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	25	body_kmer_ACA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	26	body_kmer_ACC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	27	body_kmer_ACG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	28	body_kmer_ACT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	29	body_kmer_AGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	30	body_kmer_AGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	31	body_kmer_AGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	32	body_kmer_AGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	33	body_kmer_ATA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	34	body_kmer_ATC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	35	body_kmer_ATG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	36	body_kmer_ATT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	37	body_kmer_CAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	38	body_kmer_CAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	39	body_kmer_CAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	40	body_kmer_CAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	41	body_kmer_CCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	42	body_kmer_CCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	43	body_kmer_CCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	44	body_kmer_CCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	45	body_kmer_CGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	46	body_kmer_CGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	47	body_kmer_CGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	48	body_kmer_CGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	49	body_kmer_CTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	50	body_kmer_CTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	51	body_kmer_CTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	52	body_kmer_CTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	53	body_kmer_GAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	54	body_kmer_GAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	55	body_kmer_GAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	56	body_kmer_GAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	57	body_kmer_GCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	58	body_kmer_GCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	59	body_kmer_GCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	60	body_kmer_GCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	61	body_kmer_GGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	62	body_kmer_GGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	63	body_kmer_GGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	64	body_kmer_GGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	65	body_kmer_GTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	66	body_kmer_GTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	67	body_kmer_GTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	68	body_kmer_GTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	69	body_kmer_TAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	70	body_kmer_TAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	71	body_kmer_TAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	72	body_kmer_TAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	73	body_kmer_TCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	74	body_kmer_TCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	75	body_kmer_TCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	76	body_kmer_TCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	77	body_kmer_TGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	78	body_kmer_TGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	79	body_kmer_TGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	80	body_kmer_TGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	81	body_kmer_TTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	82	body_kmer_TTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	83	body_kmer_TTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	84	body_kmer_TTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	85	body_kmer_AAAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	86	body_kmer_AAAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	87	body_kmer_AAAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	88	body_kmer_AAAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	89	body_kmer_AACA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	90	body_kmer_AACC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	91	body_kmer_AACG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	92	body_kmer_AACT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	93	body_kmer_AAGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	94	body_kmer_AAGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	95	body_kmer_AAGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	96	body_kmer_AAGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	97	body_kmer_AATA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	98	body_kmer_AATC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	99	body_kmer_AATG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	100	body_kmer_AATT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	101	body_kmer_ACAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	102	body_kmer_ACAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	103	body_kmer_ACAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	104	body_kmer_ACAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	105	body_kmer_ACCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	106	body_kmer_ACCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	107	body_kmer_ACCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	108	body_kmer_ACCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	109	body_kmer_ACGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	110	body_kmer_ACGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	111	body_kmer_ACGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	112	body_kmer_ACGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	113	body_kmer_ACTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	114	body_kmer_ACTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	115	body_kmer_ACTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	116	body_kmer_ACTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	117	body_kmer_AGAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	118	body_kmer_AGAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	119	body_kmer_AGAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	120	body_kmer_AGAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	121	body_kmer_AGCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	122	body_kmer_AGCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	123	body_kmer_AGCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	124	body_kmer_AGCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	125	body_kmer_AGGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	126	body_kmer_AGGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	127	body_kmer_AGGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	128	body_kmer_AGGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	129	body_kmer_AGTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	130	body_kmer_AGTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	131	body_kmer_AGTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	132	body_kmer_AGTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	133	body_kmer_ATAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	134	body_kmer_ATAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	135	body_kmer_ATAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	136	body_kmer_ATAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	137	body_kmer_ATCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	138	body_kmer_ATCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	139	body_kmer_ATCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	140	body_kmer_ATCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	141	body_kmer_ATGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	142	body_kmer_ATGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	143	body_kmer_ATGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	144	body_kmer_ATGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	145	body_kmer_ATTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	146	body_kmer_ATTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	147	body_kmer_ATTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	148	body_kmer_ATTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	149	body_kmer_CAAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	150	body_kmer_CAAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	151	body_kmer_CAAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	152	body_kmer_CAAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	153	body_kmer_CACA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	154	body_kmer_CACC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	155	body_kmer_CACG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	156	body_kmer_CACT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	157	body_kmer_CAGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	158	body_kmer_CAGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	159	body_kmer_CAGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	160	body_kmer_CAGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	161	body_kmer_CATA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	162	body_kmer_CATC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	163	body_kmer_CATG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	164	body_kmer_CATT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	165	body_kmer_CCAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	166	body_kmer_CCAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	167	body_kmer_CCAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	168	body_kmer_CCAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	169	body_kmer_CCCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	170	body_kmer_CCCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	171	body_kmer_CCCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	172	body_kmer_CCCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	173	body_kmer_CCGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	174	body_kmer_CCGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	175	body_kmer_CCGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	176	body_kmer_CCGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	177	body_kmer_CCTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	178	body_kmer_CCTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	179	body_kmer_CCTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	180	body_kmer_CCTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	181	body_kmer_CGAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	182	body_kmer_CGAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	183	body_kmer_CGAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	184	body_kmer_CGAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	185	body_kmer_CGCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	186	body_kmer_CGCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	187	body_kmer_CGCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	188	body_kmer_CGCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	189	body_kmer_CGGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	190	body_kmer_CGGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	191	body_kmer_CGGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	192	body_kmer_CGGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	193	body_kmer_CGTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	194	body_kmer_CGTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	195	body_kmer_CGTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	196	body_kmer_CGTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	197	body_kmer_CTAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	198	body_kmer_CTAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	199	body_kmer_CTAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	200	body_kmer_CTAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	201	body_kmer_CTCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	202	body_kmer_CTCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	203	body_kmer_CTCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	204	body_kmer_CTCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	205	body_kmer_CTGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	206	body_kmer_CTGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	207	body_kmer_CTGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	208	body_kmer_CTGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	209	body_kmer_CTTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	210	body_kmer_CTTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	211	body_kmer_CTTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	212	body_kmer_CTTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	213	body_kmer_GAAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	214	body_kmer_GAAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	215	body_kmer_GAAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	216	body_kmer_GAAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	217	body_kmer_GACA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	218	body_kmer_GACC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	219	body_kmer_GACG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	220	body_kmer_GACT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	221	body_kmer_GAGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	222	body_kmer_GAGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	223	body_kmer_GAGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	224	body_kmer_GAGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	225	body_kmer_GATA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	226	body_kmer_GATC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	227	body_kmer_GATG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	228	body_kmer_GATT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	229	body_kmer_GCAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	230	body_kmer_GCAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	231	body_kmer_GCAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	232	body_kmer_GCAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	233	body_kmer_GCCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	234	body_kmer_GCCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	235	body_kmer_GCCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	236	body_kmer_GCCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	237	body_kmer_GCGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	238	body_kmer_GCGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	239	body_kmer_GCGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	240	body_kmer_GCGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	241	body_kmer_GCTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	242	body_kmer_GCTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	243	body_kmer_GCTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	244	body_kmer_GCTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	245	body_kmer_GGAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	246	body_kmer_GGAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	247	body_kmer_GGAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	248	body_kmer_GGAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	249	body_kmer_GGCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	250	body_kmer_GGCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	251	body_kmer_GGCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	252	body_kmer_GGCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	253	body_kmer_GGGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	254	body_kmer_GGGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	255	body_kmer_GGGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	256	body_kmer_GGGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	257	body_kmer_GGTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	258	body_kmer_GGTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	259	body_kmer_GGTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	260	body_kmer_GGTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	261	body_kmer_GTAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	262	body_kmer_GTAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	263	body_kmer_GTAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	264	body_kmer_GTAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	265	body_kmer_GTCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	266	body_kmer_GTCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	267	body_kmer_GTCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	268	body_kmer_GTCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	269	body_kmer_GTGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	270	body_kmer_GTGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	271	body_kmer_GTGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	272	body_kmer_GTGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	273	body_kmer_GTTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	274	body_kmer_GTTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	275	body_kmer_GTTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	276	body_kmer_GTTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	277	body_kmer_TAAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	278	body_kmer_TAAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	279	body_kmer_TAAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	280	body_kmer_TAAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	281	body_kmer_TACA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	282	body_kmer_TACC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	283	body_kmer_TACG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	284	body_kmer_TACT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	285	body_kmer_TAGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	286	body_kmer_TAGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	287	body_kmer_TAGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	288	body_kmer_TAGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	289	body_kmer_TATA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	290	body_kmer_TATC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	291	body_kmer_TATG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	292	body_kmer_TATT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	293	body_kmer_TCAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	294	body_kmer_TCAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	295	body_kmer_TCAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	296	body_kmer_TCAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	297	body_kmer_TCCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	298	body_kmer_TCCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	299	body_kmer_TCCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	300	body_kmer_TCCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	301	body_kmer_TCGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	302	body_kmer_TCGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	303	body_kmer_TCGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	304	body_kmer_TCGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	305	body_kmer_TCTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	306	body_kmer_TCTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	307	body_kmer_TCTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	308	body_kmer_TCTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	309	body_kmer_TGAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	310	body_kmer_TGAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	311	body_kmer_TGAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	312	body_kmer_TGAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	313	body_kmer_TGCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	314	body_kmer_TGCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	315	body_kmer_TGCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	316	body_kmer_TGCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	317	body_kmer_TGGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	318	body_kmer_TGGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	319	body_kmer_TGGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	320	body_kmer_TGGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	321	body_kmer_TGTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	322	body_kmer_TGTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	323	body_kmer_TGTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	324	body_kmer_TGTT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	325	body_kmer_TTAA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	326	body_kmer_TTAC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	327	body_kmer_TTAG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	328	body_kmer_TTAT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	329	body_kmer_TTCA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	330	body_kmer_TTCC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	331	body_kmer_TTCG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	332	body_kmer_TTCT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	333	body_kmer_TTGA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	334	body_kmer_TTGC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	335	body_kmer_TTGG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	336	body_kmer_TTGT_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	337	body_kmer_TTTA_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	338	body_kmer_TTTC_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	339	body_kmer_TTTG_frequency
-E	gene_body_region_1to4mer	gene-body区域1-4mer	340	body_kmer_TTTT_frequency
-T	CTCF_predicted_binding	CTCF预测结合	1	predicted_CTCF_intron_q005
-T	CTCF_predicted_binding	CTCF预测结合	2	predicted_CTCF_3prime_q005
+letter	group_name	description	feature_order_within_group	feature_name
+B	basic_gene_structure	Basic gene architecture	1	log10_transcript_span_bp
+B	basic_gene_structure	Basic gene architecture	2	log10_spliced_length_bp
+B	basic_gene_structure	Basic gene architecture	3	exon_count
+B	basic_gene_structure	Basic gene architecture	4	log10_mean_exon_length_bp
+B	basic_gene_structure	Basic gene architecture	5	log10_min_exon_length_bp
+B	basic_gene_structure	Basic gene architecture	6	log10_max_exon_length_bp
+B	basic_gene_structure	Basic gene architecture	7	log10_last_exon_length_bp
+B	basic_gene_structure	Basic gene architecture	8	log10_intron_total_length_bp
+B	basic_gene_structure	Basic gene architecture	9	log10_mean_intron_length_bp
+B	basic_gene_structure	Basic gene architecture	10	log10_min_intron_length_bp
+B	basic_gene_structure	Basic gene architecture	11	log10_max_intron_length_bp
+B	basic_gene_structure	Basic gene architecture	12	log10_first_intron_length_bp
+B	basic_gene_structure	Basic gene architecture	13	log10_last_intron_length_bp
+B	basic_gene_structure	Basic gene architecture	14	log10_tss_to_first_splice_bp
+B	basic_gene_structure	Basic gene architecture	15	log10_cds_length_bp
+B	basic_gene_structure	Basic gene architecture	16	log10_utr5_length_bp
+B	basic_gene_structure	Basic gene architecture	17	log10_utr3_length_bp
+B	basic_gene_structure	Basic gene architecture	18	utr5_fraction
+B	basic_gene_structure	Basic gene architecture	19	utr3_fraction
+B	basic_gene_structure	Basic gene architecture	20	exon_fraction
+B	basic_gene_structure	Basic gene architecture	21	orf_exon_junction_count
+B	basic_gene_structure	Basic gene architecture	22	orf_exon_junction_density_per_kb
+Q	sequence_composition	Sequence composition	1	promoter_gc_fraction
+Q	sequence_composition	Sequence composition	2	pause_gc_fraction
+Q	sequence_composition	Sequence composition	3	early_body_gc_fraction
+Q	sequence_composition	Sequence composition	4	spliced_gc_fraction
+Q	sequence_composition	Sequence composition	5	utr5_gc_fraction
+Q	sequence_composition	Sequence composition	6	cds_gc_fraction
+Q	sequence_composition	Sequence composition	7	utr3_gc_fraction
+Q	sequence_composition	Sequence composition	8	promoter_cpg_count
+Q	sequence_composition	Sequence composition	9	pause_cpg_count
+Q	sequence_composition	Sequence composition	10	early_body_cpg_count
+Q	sequence_composition	Sequence composition	11	promoter_cpg_oe
+Q	sequence_composition	Sequence composition	12	pause_cpg_oe
+Q	sequence_composition	Sequence composition	13	early_body_cpg_oe
+I	CpG_island	CpG islands	1	promoter_CpG_island_count
+I	CpG_island	CpG islands	2	TSS_nearest_CpG_island_distance_bp
+I	CpG_island	CpG islands	3	TSS_nearest_CpG_island_length_bp
+I	CpG_island	CpG islands	4	pause_CpG_island_count
+I	CpG_island	CpG islands	5	body_CpG_island_count
+I	CpG_island	CpG islands	6	nearest_CpG_island_cpg_count
+I	CpG_island	CpG islands	7	nearest_CpG_island_gc_percent
+I	CpG_island	CpG islands	8	nearest_CpG_island_obs_exp
+C	codon_frequency	Codon frequencies	1	cds_codon_AAA_frequency
+C	codon_frequency	Codon frequencies	2	cds_codon_AAC_frequency
+C	codon_frequency	Codon frequencies	3	cds_codon_AAG_frequency
+C	codon_frequency	Codon frequencies	4	cds_codon_AAT_frequency
+C	codon_frequency	Codon frequencies	5	cds_codon_ACA_frequency
+C	codon_frequency	Codon frequencies	6	cds_codon_ACC_frequency
+C	codon_frequency	Codon frequencies	7	cds_codon_ACG_frequency
+C	codon_frequency	Codon frequencies	8	cds_codon_ACT_frequency
+C	codon_frequency	Codon frequencies	9	cds_codon_AGA_frequency
+C	codon_frequency	Codon frequencies	10	cds_codon_AGC_frequency
+C	codon_frequency	Codon frequencies	11	cds_codon_AGG_frequency
+C	codon_frequency	Codon frequencies	12	cds_codon_AGT_frequency
+C	codon_frequency	Codon frequencies	13	cds_codon_ATA_frequency
+C	codon_frequency	Codon frequencies	14	cds_codon_ATC_frequency
+C	codon_frequency	Codon frequencies	15	cds_codon_ATG_frequency
+C	codon_frequency	Codon frequencies	16	cds_codon_ATT_frequency
+C	codon_frequency	Codon frequencies	17	cds_codon_CAA_frequency
+C	codon_frequency	Codon frequencies	18	cds_codon_CAC_frequency
+C	codon_frequency	Codon frequencies	19	cds_codon_CAG_frequency
+C	codon_frequency	Codon frequencies	20	cds_codon_CAT_frequency
+C	codon_frequency	Codon frequencies	21	cds_codon_CCA_frequency
+C	codon_frequency	Codon frequencies	22	cds_codon_CCC_frequency
+C	codon_frequency	Codon frequencies	23	cds_codon_CCG_frequency
+C	codon_frequency	Codon frequencies	24	cds_codon_CCT_frequency
+C	codon_frequency	Codon frequencies	25	cds_codon_CGA_frequency
+C	codon_frequency	Codon frequencies	26	cds_codon_CGC_frequency
+C	codon_frequency	Codon frequencies	27	cds_codon_CGG_frequency
+C	codon_frequency	Codon frequencies	28	cds_codon_CGT_frequency
+C	codon_frequency	Codon frequencies	29	cds_codon_CTA_frequency
+C	codon_frequency	Codon frequencies	30	cds_codon_CTC_frequency
+C	codon_frequency	Codon frequencies	31	cds_codon_CTG_frequency
+C	codon_frequency	Codon frequencies	32	cds_codon_CTT_frequency
+C	codon_frequency	Codon frequencies	33	cds_codon_GAA_frequency
+C	codon_frequency	Codon frequencies	34	cds_codon_GAC_frequency
+C	codon_frequency	Codon frequencies	35	cds_codon_GAG_frequency
+C	codon_frequency	Codon frequencies	36	cds_codon_GAT_frequency
+C	codon_frequency	Codon frequencies	37	cds_codon_GCA_frequency
+C	codon_frequency	Codon frequencies	38	cds_codon_GCC_frequency
+C	codon_frequency	Codon frequencies	39	cds_codon_GCG_frequency
+C	codon_frequency	Codon frequencies	40	cds_codon_GCT_frequency
+C	codon_frequency	Codon frequencies	41	cds_codon_GGA_frequency
+C	codon_frequency	Codon frequencies	42	cds_codon_GGC_frequency
+C	codon_frequency	Codon frequencies	43	cds_codon_GGG_frequency
+C	codon_frequency	Codon frequencies	44	cds_codon_GGT_frequency
+C	codon_frequency	Codon frequencies	45	cds_codon_GTA_frequency
+C	codon_frequency	Codon frequencies	46	cds_codon_GTC_frequency
+C	codon_frequency	Codon frequencies	47	cds_codon_GTG_frequency
+C	codon_frequency	Codon frequencies	48	cds_codon_GTT_frequency
+C	codon_frequency	Codon frequencies	49	cds_codon_TAC_frequency
+C	codon_frequency	Codon frequencies	50	cds_codon_TAT_frequency
+C	codon_frequency	Codon frequencies	51	cds_codon_TCA_frequency
+C	codon_frequency	Codon frequencies	52	cds_codon_TCC_frequency
+C	codon_frequency	Codon frequencies	53	cds_codon_TCG_frequency
+C	codon_frequency	Codon frequencies	54	cds_codon_TCT_frequency
+C	codon_frequency	Codon frequencies	55	cds_codon_TGC_frequency
+C	codon_frequency	Codon frequencies	56	cds_codon_TGG_frequency
+C	codon_frequency	Codon frequencies	57	cds_codon_TGT_frequency
+C	codon_frequency	Codon frequencies	58	cds_codon_TTA_frequency
+C	codon_frequency	Codon frequencies	59	cds_codon_TTC_frequency
+C	codon_frequency	Codon frequencies	60	cds_codon_TTG_frequency
+C	codon_frequency	Codon frequencies	61	cds_codon_TTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	1	pause_kmer_A_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	2	pause_kmer_C_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	3	pause_kmer_G_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	4	pause_kmer_T_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	5	pause_kmer_AA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	6	pause_kmer_AC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	7	pause_kmer_AG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	8	pause_kmer_AT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	9	pause_kmer_CA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	10	pause_kmer_CC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	11	pause_kmer_CG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	12	pause_kmer_CT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	13	pause_kmer_GA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	14	pause_kmer_GC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	15	pause_kmer_GG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	16	pause_kmer_GT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	17	pause_kmer_TA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	18	pause_kmer_TC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	19	pause_kmer_TG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	20	pause_kmer_TT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	21	pause_kmer_AAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	22	pause_kmer_AAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	23	pause_kmer_AAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	24	pause_kmer_AAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	25	pause_kmer_ACA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	26	pause_kmer_ACC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	27	pause_kmer_ACG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	28	pause_kmer_ACT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	29	pause_kmer_AGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	30	pause_kmer_AGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	31	pause_kmer_AGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	32	pause_kmer_AGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	33	pause_kmer_ATA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	34	pause_kmer_ATC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	35	pause_kmer_ATG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	36	pause_kmer_ATT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	37	pause_kmer_CAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	38	pause_kmer_CAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	39	pause_kmer_CAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	40	pause_kmer_CAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	41	pause_kmer_CCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	42	pause_kmer_CCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	43	pause_kmer_CCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	44	pause_kmer_CCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	45	pause_kmer_CGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	46	pause_kmer_CGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	47	pause_kmer_CGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	48	pause_kmer_CGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	49	pause_kmer_CTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	50	pause_kmer_CTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	51	pause_kmer_CTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	52	pause_kmer_CTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	53	pause_kmer_GAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	54	pause_kmer_GAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	55	pause_kmer_GAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	56	pause_kmer_GAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	57	pause_kmer_GCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	58	pause_kmer_GCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	59	pause_kmer_GCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	60	pause_kmer_GCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	61	pause_kmer_GGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	62	pause_kmer_GGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	63	pause_kmer_GGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	64	pause_kmer_GGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	65	pause_kmer_GTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	66	pause_kmer_GTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	67	pause_kmer_GTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	68	pause_kmer_GTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	69	pause_kmer_TAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	70	pause_kmer_TAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	71	pause_kmer_TAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	72	pause_kmer_TAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	73	pause_kmer_TCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	74	pause_kmer_TCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	75	pause_kmer_TCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	76	pause_kmer_TCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	77	pause_kmer_TGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	78	pause_kmer_TGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	79	pause_kmer_TGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	80	pause_kmer_TGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	81	pause_kmer_TTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	82	pause_kmer_TTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	83	pause_kmer_TTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	84	pause_kmer_TTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	85	pause_kmer_AAAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	86	pause_kmer_AAAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	87	pause_kmer_AAAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	88	pause_kmer_AAAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	89	pause_kmer_AACA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	90	pause_kmer_AACC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	91	pause_kmer_AACG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	92	pause_kmer_AACT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	93	pause_kmer_AAGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	94	pause_kmer_AAGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	95	pause_kmer_AAGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	96	pause_kmer_AAGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	97	pause_kmer_AATA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	98	pause_kmer_AATC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	99	pause_kmer_AATG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	100	pause_kmer_AATT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	101	pause_kmer_ACAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	102	pause_kmer_ACAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	103	pause_kmer_ACAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	104	pause_kmer_ACAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	105	pause_kmer_ACCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	106	pause_kmer_ACCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	107	pause_kmer_ACCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	108	pause_kmer_ACCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	109	pause_kmer_ACGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	110	pause_kmer_ACGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	111	pause_kmer_ACGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	112	pause_kmer_ACGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	113	pause_kmer_ACTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	114	pause_kmer_ACTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	115	pause_kmer_ACTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	116	pause_kmer_ACTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	117	pause_kmer_AGAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	118	pause_kmer_AGAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	119	pause_kmer_AGAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	120	pause_kmer_AGAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	121	pause_kmer_AGCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	122	pause_kmer_AGCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	123	pause_kmer_AGCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	124	pause_kmer_AGCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	125	pause_kmer_AGGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	126	pause_kmer_AGGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	127	pause_kmer_AGGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	128	pause_kmer_AGGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	129	pause_kmer_AGTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	130	pause_kmer_AGTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	131	pause_kmer_AGTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	132	pause_kmer_AGTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	133	pause_kmer_ATAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	134	pause_kmer_ATAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	135	pause_kmer_ATAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	136	pause_kmer_ATAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	137	pause_kmer_ATCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	138	pause_kmer_ATCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	139	pause_kmer_ATCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	140	pause_kmer_ATCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	141	pause_kmer_ATGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	142	pause_kmer_ATGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	143	pause_kmer_ATGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	144	pause_kmer_ATGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	145	pause_kmer_ATTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	146	pause_kmer_ATTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	147	pause_kmer_ATTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	148	pause_kmer_ATTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	149	pause_kmer_CAAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	150	pause_kmer_CAAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	151	pause_kmer_CAAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	152	pause_kmer_CAAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	153	pause_kmer_CACA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	154	pause_kmer_CACC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	155	pause_kmer_CACG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	156	pause_kmer_CACT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	157	pause_kmer_CAGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	158	pause_kmer_CAGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	159	pause_kmer_CAGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	160	pause_kmer_CAGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	161	pause_kmer_CATA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	162	pause_kmer_CATC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	163	pause_kmer_CATG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	164	pause_kmer_CATT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	165	pause_kmer_CCAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	166	pause_kmer_CCAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	167	pause_kmer_CCAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	168	pause_kmer_CCAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	169	pause_kmer_CCCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	170	pause_kmer_CCCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	171	pause_kmer_CCCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	172	pause_kmer_CCCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	173	pause_kmer_CCGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	174	pause_kmer_CCGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	175	pause_kmer_CCGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	176	pause_kmer_CCGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	177	pause_kmer_CCTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	178	pause_kmer_CCTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	179	pause_kmer_CCTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	180	pause_kmer_CCTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	181	pause_kmer_CGAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	182	pause_kmer_CGAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	183	pause_kmer_CGAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	184	pause_kmer_CGAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	185	pause_kmer_CGCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	186	pause_kmer_CGCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	187	pause_kmer_CGCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	188	pause_kmer_CGCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	189	pause_kmer_CGGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	190	pause_kmer_CGGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	191	pause_kmer_CGGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	192	pause_kmer_CGGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	193	pause_kmer_CGTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	194	pause_kmer_CGTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	195	pause_kmer_CGTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	196	pause_kmer_CGTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	197	pause_kmer_CTAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	198	pause_kmer_CTAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	199	pause_kmer_CTAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	200	pause_kmer_CTAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	201	pause_kmer_CTCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	202	pause_kmer_CTCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	203	pause_kmer_CTCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	204	pause_kmer_CTCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	205	pause_kmer_CTGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	206	pause_kmer_CTGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	207	pause_kmer_CTGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	208	pause_kmer_CTGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	209	pause_kmer_CTTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	210	pause_kmer_CTTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	211	pause_kmer_CTTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	212	pause_kmer_CTTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	213	pause_kmer_GAAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	214	pause_kmer_GAAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	215	pause_kmer_GAAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	216	pause_kmer_GAAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	217	pause_kmer_GACA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	218	pause_kmer_GACC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	219	pause_kmer_GACG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	220	pause_kmer_GACT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	221	pause_kmer_GAGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	222	pause_kmer_GAGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	223	pause_kmer_GAGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	224	pause_kmer_GAGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	225	pause_kmer_GATA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	226	pause_kmer_GATC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	227	pause_kmer_GATG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	228	pause_kmer_GATT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	229	pause_kmer_GCAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	230	pause_kmer_GCAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	231	pause_kmer_GCAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	232	pause_kmer_GCAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	233	pause_kmer_GCCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	234	pause_kmer_GCCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	235	pause_kmer_GCCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	236	pause_kmer_GCCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	237	pause_kmer_GCGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	238	pause_kmer_GCGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	239	pause_kmer_GCGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	240	pause_kmer_GCGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	241	pause_kmer_GCTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	242	pause_kmer_GCTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	243	pause_kmer_GCTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	244	pause_kmer_GCTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	245	pause_kmer_GGAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	246	pause_kmer_GGAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	247	pause_kmer_GGAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	248	pause_kmer_GGAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	249	pause_kmer_GGCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	250	pause_kmer_GGCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	251	pause_kmer_GGCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	252	pause_kmer_GGCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	253	pause_kmer_GGGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	254	pause_kmer_GGGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	255	pause_kmer_GGGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	256	pause_kmer_GGGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	257	pause_kmer_GGTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	258	pause_kmer_GGTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	259	pause_kmer_GGTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	260	pause_kmer_GGTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	261	pause_kmer_GTAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	262	pause_kmer_GTAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	263	pause_kmer_GTAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	264	pause_kmer_GTAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	265	pause_kmer_GTCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	266	pause_kmer_GTCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	267	pause_kmer_GTCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	268	pause_kmer_GTCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	269	pause_kmer_GTGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	270	pause_kmer_GTGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	271	pause_kmer_GTGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	272	pause_kmer_GTGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	273	pause_kmer_GTTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	274	pause_kmer_GTTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	275	pause_kmer_GTTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	276	pause_kmer_GTTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	277	pause_kmer_TAAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	278	pause_kmer_TAAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	279	pause_kmer_TAAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	280	pause_kmer_TAAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	281	pause_kmer_TACA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	282	pause_kmer_TACC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	283	pause_kmer_TACG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	284	pause_kmer_TACT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	285	pause_kmer_TAGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	286	pause_kmer_TAGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	287	pause_kmer_TAGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	288	pause_kmer_TAGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	289	pause_kmer_TATA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	290	pause_kmer_TATC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	291	pause_kmer_TATG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	292	pause_kmer_TATT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	293	pause_kmer_TCAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	294	pause_kmer_TCAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	295	pause_kmer_TCAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	296	pause_kmer_TCAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	297	pause_kmer_TCCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	298	pause_kmer_TCCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	299	pause_kmer_TCCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	300	pause_kmer_TCCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	301	pause_kmer_TCGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	302	pause_kmer_TCGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	303	pause_kmer_TCGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	304	pause_kmer_TCGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	305	pause_kmer_TCTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	306	pause_kmer_TCTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	307	pause_kmer_TCTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	308	pause_kmer_TCTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	309	pause_kmer_TGAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	310	pause_kmer_TGAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	311	pause_kmer_TGAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	312	pause_kmer_TGAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	313	pause_kmer_TGCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	314	pause_kmer_TGCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	315	pause_kmer_TGCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	316	pause_kmer_TGCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	317	pause_kmer_TGGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	318	pause_kmer_TGGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	319	pause_kmer_TGGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	320	pause_kmer_TGGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	321	pause_kmer_TGTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	322	pause_kmer_TGTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	323	pause_kmer_TGTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	324	pause_kmer_TGTT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	325	pause_kmer_TTAA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	326	pause_kmer_TTAC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	327	pause_kmer_TTAG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	328	pause_kmer_TTAT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	329	pause_kmer_TTCA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	330	pause_kmer_TTCC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	331	pause_kmer_TTCG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	332	pause_kmer_TTCT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	333	pause_kmer_TTGA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	334	pause_kmer_TTGC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	335	pause_kmer_TTGG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	336	pause_kmer_TTGT_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	337	pause_kmer_TTTA_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	338	pause_kmer_TTTC_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	339	pause_kmer_TTTG_frequency
+P	pause_region_1to4mer	Pausing-region 1-4-mers	340	pause_kmer_TTTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	1	body_kmer_A_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	2	body_kmer_C_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	3	body_kmer_G_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	4	body_kmer_T_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	5	body_kmer_AA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	6	body_kmer_AC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	7	body_kmer_AG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	8	body_kmer_AT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	9	body_kmer_CA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	10	body_kmer_CC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	11	body_kmer_CG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	12	body_kmer_CT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	13	body_kmer_GA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	14	body_kmer_GC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	15	body_kmer_GG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	16	body_kmer_GT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	17	body_kmer_TA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	18	body_kmer_TC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	19	body_kmer_TG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	20	body_kmer_TT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	21	body_kmer_AAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	22	body_kmer_AAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	23	body_kmer_AAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	24	body_kmer_AAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	25	body_kmer_ACA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	26	body_kmer_ACC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	27	body_kmer_ACG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	28	body_kmer_ACT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	29	body_kmer_AGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	30	body_kmer_AGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	31	body_kmer_AGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	32	body_kmer_AGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	33	body_kmer_ATA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	34	body_kmer_ATC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	35	body_kmer_ATG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	36	body_kmer_ATT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	37	body_kmer_CAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	38	body_kmer_CAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	39	body_kmer_CAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	40	body_kmer_CAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	41	body_kmer_CCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	42	body_kmer_CCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	43	body_kmer_CCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	44	body_kmer_CCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	45	body_kmer_CGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	46	body_kmer_CGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	47	body_kmer_CGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	48	body_kmer_CGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	49	body_kmer_CTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	50	body_kmer_CTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	51	body_kmer_CTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	52	body_kmer_CTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	53	body_kmer_GAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	54	body_kmer_GAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	55	body_kmer_GAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	56	body_kmer_GAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	57	body_kmer_GCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	58	body_kmer_GCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	59	body_kmer_GCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	60	body_kmer_GCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	61	body_kmer_GGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	62	body_kmer_GGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	63	body_kmer_GGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	64	body_kmer_GGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	65	body_kmer_GTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	66	body_kmer_GTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	67	body_kmer_GTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	68	body_kmer_GTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	69	body_kmer_TAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	70	body_kmer_TAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	71	body_kmer_TAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	72	body_kmer_TAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	73	body_kmer_TCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	74	body_kmer_TCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	75	body_kmer_TCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	76	body_kmer_TCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	77	body_kmer_TGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	78	body_kmer_TGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	79	body_kmer_TGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	80	body_kmer_TGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	81	body_kmer_TTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	82	body_kmer_TTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	83	body_kmer_TTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	84	body_kmer_TTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	85	body_kmer_AAAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	86	body_kmer_AAAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	87	body_kmer_AAAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	88	body_kmer_AAAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	89	body_kmer_AACA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	90	body_kmer_AACC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	91	body_kmer_AACG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	92	body_kmer_AACT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	93	body_kmer_AAGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	94	body_kmer_AAGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	95	body_kmer_AAGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	96	body_kmer_AAGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	97	body_kmer_AATA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	98	body_kmer_AATC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	99	body_kmer_AATG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	100	body_kmer_AATT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	101	body_kmer_ACAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	102	body_kmer_ACAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	103	body_kmer_ACAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	104	body_kmer_ACAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	105	body_kmer_ACCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	106	body_kmer_ACCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	107	body_kmer_ACCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	108	body_kmer_ACCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	109	body_kmer_ACGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	110	body_kmer_ACGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	111	body_kmer_ACGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	112	body_kmer_ACGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	113	body_kmer_ACTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	114	body_kmer_ACTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	115	body_kmer_ACTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	116	body_kmer_ACTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	117	body_kmer_AGAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	118	body_kmer_AGAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	119	body_kmer_AGAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	120	body_kmer_AGAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	121	body_kmer_AGCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	122	body_kmer_AGCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	123	body_kmer_AGCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	124	body_kmer_AGCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	125	body_kmer_AGGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	126	body_kmer_AGGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	127	body_kmer_AGGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	128	body_kmer_AGGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	129	body_kmer_AGTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	130	body_kmer_AGTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	131	body_kmer_AGTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	132	body_kmer_AGTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	133	body_kmer_ATAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	134	body_kmer_ATAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	135	body_kmer_ATAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	136	body_kmer_ATAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	137	body_kmer_ATCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	138	body_kmer_ATCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	139	body_kmer_ATCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	140	body_kmer_ATCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	141	body_kmer_ATGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	142	body_kmer_ATGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	143	body_kmer_ATGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	144	body_kmer_ATGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	145	body_kmer_ATTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	146	body_kmer_ATTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	147	body_kmer_ATTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	148	body_kmer_ATTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	149	body_kmer_CAAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	150	body_kmer_CAAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	151	body_kmer_CAAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	152	body_kmer_CAAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	153	body_kmer_CACA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	154	body_kmer_CACC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	155	body_kmer_CACG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	156	body_kmer_CACT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	157	body_kmer_CAGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	158	body_kmer_CAGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	159	body_kmer_CAGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	160	body_kmer_CAGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	161	body_kmer_CATA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	162	body_kmer_CATC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	163	body_kmer_CATG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	164	body_kmer_CATT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	165	body_kmer_CCAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	166	body_kmer_CCAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	167	body_kmer_CCAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	168	body_kmer_CCAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	169	body_kmer_CCCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	170	body_kmer_CCCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	171	body_kmer_CCCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	172	body_kmer_CCCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	173	body_kmer_CCGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	174	body_kmer_CCGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	175	body_kmer_CCGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	176	body_kmer_CCGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	177	body_kmer_CCTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	178	body_kmer_CCTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	179	body_kmer_CCTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	180	body_kmer_CCTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	181	body_kmer_CGAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	182	body_kmer_CGAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	183	body_kmer_CGAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	184	body_kmer_CGAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	185	body_kmer_CGCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	186	body_kmer_CGCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	187	body_kmer_CGCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	188	body_kmer_CGCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	189	body_kmer_CGGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	190	body_kmer_CGGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	191	body_kmer_CGGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	192	body_kmer_CGGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	193	body_kmer_CGTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	194	body_kmer_CGTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	195	body_kmer_CGTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	196	body_kmer_CGTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	197	body_kmer_CTAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	198	body_kmer_CTAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	199	body_kmer_CTAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	200	body_kmer_CTAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	201	body_kmer_CTCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	202	body_kmer_CTCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	203	body_kmer_CTCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	204	body_kmer_CTCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	205	body_kmer_CTGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	206	body_kmer_CTGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	207	body_kmer_CTGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	208	body_kmer_CTGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	209	body_kmer_CTTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	210	body_kmer_CTTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	211	body_kmer_CTTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	212	body_kmer_CTTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	213	body_kmer_GAAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	214	body_kmer_GAAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	215	body_kmer_GAAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	216	body_kmer_GAAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	217	body_kmer_GACA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	218	body_kmer_GACC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	219	body_kmer_GACG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	220	body_kmer_GACT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	221	body_kmer_GAGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	222	body_kmer_GAGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	223	body_kmer_GAGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	224	body_kmer_GAGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	225	body_kmer_GATA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	226	body_kmer_GATC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	227	body_kmer_GATG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	228	body_kmer_GATT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	229	body_kmer_GCAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	230	body_kmer_GCAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	231	body_kmer_GCAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	232	body_kmer_GCAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	233	body_kmer_GCCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	234	body_kmer_GCCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	235	body_kmer_GCCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	236	body_kmer_GCCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	237	body_kmer_GCGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	238	body_kmer_GCGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	239	body_kmer_GCGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	240	body_kmer_GCGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	241	body_kmer_GCTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	242	body_kmer_GCTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	243	body_kmer_GCTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	244	body_kmer_GCTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	245	body_kmer_GGAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	246	body_kmer_GGAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	247	body_kmer_GGAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	248	body_kmer_GGAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	249	body_kmer_GGCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	250	body_kmer_GGCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	251	body_kmer_GGCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	252	body_kmer_GGCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	253	body_kmer_GGGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	254	body_kmer_GGGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	255	body_kmer_GGGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	256	body_kmer_GGGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	257	body_kmer_GGTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	258	body_kmer_GGTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	259	body_kmer_GGTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	260	body_kmer_GGTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	261	body_kmer_GTAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	262	body_kmer_GTAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	263	body_kmer_GTAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	264	body_kmer_GTAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	265	body_kmer_GTCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	266	body_kmer_GTCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	267	body_kmer_GTCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	268	body_kmer_GTCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	269	body_kmer_GTGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	270	body_kmer_GTGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	271	body_kmer_GTGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	272	body_kmer_GTGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	273	body_kmer_GTTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	274	body_kmer_GTTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	275	body_kmer_GTTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	276	body_kmer_GTTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	277	body_kmer_TAAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	278	body_kmer_TAAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	279	body_kmer_TAAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	280	body_kmer_TAAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	281	body_kmer_TACA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	282	body_kmer_TACC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	283	body_kmer_TACG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	284	body_kmer_TACT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	285	body_kmer_TAGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	286	body_kmer_TAGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	287	body_kmer_TAGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	288	body_kmer_TAGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	289	body_kmer_TATA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	290	body_kmer_TATC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	291	body_kmer_TATG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	292	body_kmer_TATT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	293	body_kmer_TCAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	294	body_kmer_TCAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	295	body_kmer_TCAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	296	body_kmer_TCAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	297	body_kmer_TCCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	298	body_kmer_TCCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	299	body_kmer_TCCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	300	body_kmer_TCCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	301	body_kmer_TCGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	302	body_kmer_TCGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	303	body_kmer_TCGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	304	body_kmer_TCGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	305	body_kmer_TCTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	306	body_kmer_TCTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	307	body_kmer_TCTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	308	body_kmer_TCTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	309	body_kmer_TGAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	310	body_kmer_TGAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	311	body_kmer_TGAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	312	body_kmer_TGAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	313	body_kmer_TGCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	314	body_kmer_TGCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	315	body_kmer_TGCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	316	body_kmer_TGCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	317	body_kmer_TGGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	318	body_kmer_TGGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	319	body_kmer_TGGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	320	body_kmer_TGGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	321	body_kmer_TGTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	322	body_kmer_TGTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	323	body_kmer_TGTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	324	body_kmer_TGTT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	325	body_kmer_TTAA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	326	body_kmer_TTAC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	327	body_kmer_TTAG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	328	body_kmer_TTAT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	329	body_kmer_TTCA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	330	body_kmer_TTCC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	331	body_kmer_TTCG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	332	body_kmer_TTCT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	333	body_kmer_TTGA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	334	body_kmer_TTGC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	335	body_kmer_TTGG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	336	body_kmer_TTGT_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	337	body_kmer_TTTA_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	338	body_kmer_TTTC_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	339	body_kmer_TTTG_frequency
+E	gene_body_region_1to4mer	Gene-body 1-4-mers	340	body_kmer_TTTT_frequency
+T	CTCF_predicted_binding	Predicted CTCF binding	1	predicted_CTCF_intron_q005
+T	CTCF_predicted_binding	Predicted CTCF binding	2	predicted_CTCF_3prime_q005

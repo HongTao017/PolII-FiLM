@@ -40,13 +40,13 @@ EXPECTED_COUNTS = OrderedDict(
 )
 GROUP_NAMES = OrderedDict(
     [
-        ("B", ("basic_gene_structure", "基础基因结构")),
-        ("Q", ("sequence_composition", "序列组成")),
-        ("I", ("CpG_island", "CpG岛")),
-        ("C", ("codon_frequency", "密码子频率")),
-        ("P", ("pause_region_1to4mer", "pause区域1-4mer")),
-        ("E", ("gene_body_region_1to4mer", "gene-body区域1-4mer")),
-        ("T", ("CTCF_predicted_binding", "CTCF预测结合")),
+        ("B", ("basic_gene_structure", "Basic gene architecture")),
+        ("Q", ("sequence_composition", "Sequence composition")),
+        ("I", ("CpG_island", "CpG islands")),
+        ("C", ("codon_frequency", "Codon frequencies")),
+        ("P", ("pause_region_1to4mer", "Pausing-region 1-4-mers")),
+        ("E", ("gene_body_region_1to4mer", "Gene-body 1-4-mers")),
+        ("T", ("CTCF_predicted_binding", "Predicted CTCF binding")),
     ]
 )
 OUTPUT_FILES = OrderedDict(
@@ -197,7 +197,7 @@ def main() -> None:
             {
                 "letter": group,
                 "group_name": english_name,
-                "中文含义": chinese_name,
+                "description": chinese_name,
                 "feature_count": len(columns),
                 "output_file": OUTPUT_FILES[group],
             }
@@ -207,7 +207,7 @@ def main() -> None:
                 {
                     "letter": group,
                     "group_name": english_name,
-                    "中文含义": chinese_name,
+                    "description": chinese_name,
                     "feature_order_within_group": order,
                     "feature_name": column,
                 }
@@ -245,26 +245,21 @@ def main() -> None:
         args.output_dir / "validation_summary.tsv", sep="\t", index=False
     )
 
-    readme = """# POLII B/Q/I/C/P/E/T 特征分组
+    readme = """# Gene feature groups
 
-该目录只重新划分已有清洗后特征，不重新计算、不归一化、不填补任何数值。
+This directory regroups existing cleaned features without recalculating, normalizing or imputing values.
 
-| 字母 | 含义 | X特征数 |
+| Group | Description | Predictors |
 |---|---|---:|
-| B | 基础基因结构 | 22 |
-| Q | 序列组成：GC及局部CpG | 13 |
-| I | CpG岛注释 | 8 |
-| C | CDS密码子频率 | 61 |
-| P | pause区域1-4mer频率 | 340 |
-| E | gene-body区域1-4mer频率 | 340 |
-| T | CTCF预测结合 | 2 |
+| B | Basic gene architecture | 22 |
+| Q | Sequence composition, GC and local CpG | 13 |
+| I | CpG-island annotations | 8 |
+| C | CDS codon frequencies | 61 |
+| P | Pausing-region 1-4-mer frequencies | 340 |
+| E | Gene-body 1-4-mer frequencies | 340 |
+| T | Predicted CTCF binding | 2 |
 
-`gene`是行标识，`Y_PC1`是预测目标，两者均不计入X特征。
-`transcript/chrom/strand/tss_bed0/tes_bed0/gene_biotype`属于注释信息，
-不会重新加入清洗后的数值模型矩阵。
-
-`feature_dictionary_long.tsv`逐列列出了每一个特征实际属于哪个字母。
-`validation_summary.tsv`记录每组的基因数、特征数和缺失值数量。
+gene identifies rows and Y_PC1 is the response. Neither is a predictor. Transcript, chromosome, strand, TSS, TES and biotype fields remain annotation metadata. feature_dictionary_long.tsv records group membership; validation_summary.tsv records row counts, feature counts and missing values.
 """
     (args.output_dir / "README.md").write_text(readme, encoding="utf-8")
 

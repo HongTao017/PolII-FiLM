@@ -5,7 +5,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
 from pypdf import PdfReader
 
-root=Path('G:/序列分析数据')
+root=Path('G:/sequence_analysis_data')
 temp=root/'tmp/pdfs/nascentatlas_focus_20261025'
 output=root/'output/pdf/NascentAtlas_focused_figures_600dpi_20261025'
 output.mkdir(parents=True,exist_ok=True)
@@ -49,7 +49,7 @@ for figure in metadata['figures']:
 combined.save()
 assert len(PdfReader(combined_path).pages)==6
 (output/'figure_manifest.json').write_text(json.dumps({'captured_on':'2026-10-25','source':metadata['origin'],'combined':combined_path.name,'figures':report},ensure_ascii=False,indent=2),encoding='utf-8')
-(output/'说明.txt').write_text('NascentAtlas 网站功能截图\n截取日期：2026-10-25\n\n包含六张独立 PDF 和一份六页合并 PDF。\n每张图宽约 180 mm，嵌入截图为 4252 像素宽，实际有效分辨率 600 dpi。\n原始浏览器以 4 倍像素密度截图，仅向下采样；未放大低分辨率截图。\n所有图来自网站实际页面，未改动数据或网页。\nPI 图保留滚动视图，边界调整到完整行；基因特征图临时展开全部 30 项实际特征。\n页面网址、像素尺寸、有效 DPI 和校验值详见 figure_manifest.json。\n',encoding='utf-8')
+(output/"README.txt").write_text("NascentAtlas interface figures\n\nSix individual PDFs and a six-page composite are provided. Each page is approximately 180 mm wide with a 4252-pixel screenshot at an effective 600 dpi. Screenshots were captured at fourfold browser pixel density and downsampled. PI views retain complete rows; the gene-feature view shows all 30 features. URLs, pixel dimensions, effective resolution and hashes are recorded in figure_manifest.json.\n",encoding='utf-8')
 poppler=Path('C:/Users/12070/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe')
 subprocess.run([str(poppler),'-r','110','-png','-scale-to','1600',str(combined_path),str(temp/'pdf_preview')],check=True)
 previews=sorted(temp.glob('pdf_preview-*.png'))

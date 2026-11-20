@@ -26,20 +26,20 @@ while IFS= read -r RUN; do
     RUNLOG="$LOG/${RUN}.filter.log"
 
     if [[ ! -s "$BAM" || ! -s "${BAM}.bai" ]]; then
-        echo "[错误] $RUN 缺少输入BAM或索引"
+        echo "[Error] $RUN Input BAM or index missing"
         continue
     fi
 
     if [[ -s "$QBAM" ]] &&
        samtools quickcheck "$QBAM" 2>/dev/null; then
         [[ -s "${QBAM}.bai" ]] || samtools index -@ 4 "$QBAM"
-        echo "[跳过] $RUN 已完成"
+        echo "[Skipped] $RUN already completed"
         continue
     fi
 
     rm -f "$TMP" "${TMP}.bai"
 
-    echo "[$(date '+%F %T')] 开始过滤：$RUN"
+    echo "[$(date '+%F %T')] Starting filtering: $RUN"
 
     if samtools view \
          -@ "$THREADS" \
@@ -56,12 +56,12 @@ while IFS= read -r RUN; do
 
         if samtools quickcheck "$QBAM" &&
            [[ -s "${QBAM}.bai" ]]; then
-            echo "[$(date '+%F %T')] 完成：$RUN"
+            echo "[$(date '+%F %T')] Completed: $RUN"
         else
-            echo "[错误] $RUN 输出BAM检查失败"
+            echo "[Error] $RUN Output BAM check failed"
         fi
     else
-        echo "[错误] $RUN 过滤失败，查看：$RUNLOG"
+        echo "[Error] $RUN Filtering failed; see: $RUNLOG"
         rm -f "$TMP"
     fi
 done < "$KEEP"
@@ -72,6 +72,6 @@ BAMS=$(find "$OUTPUT" -maxdepth 1 \
 BAIS=$(find "$OUTPUT" -maxdepth 1 \
   -name '*.standard.primary.q20.bam.bai' | wc -l)
 
-echo "预期：$EXPECTED"
-echo "完成BAM：$BAMS"
-echo "完成BAI：$BAIS"
+echo "Expected : $EXPECTED"
+echo "CompletedBAM: $BAMS"
+echo "CompletedBAI: $BAIS"

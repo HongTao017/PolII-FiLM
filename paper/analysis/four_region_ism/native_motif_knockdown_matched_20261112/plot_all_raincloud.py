@@ -110,19 +110,13 @@ def main():
         unit='one mean value per positive DNA-overlap group for each TF/sign',
         scatter='all values, no downsampling', same_y_limits=limits, canvas_inches=[5, 4],
         positive_negative_separate=True, pages=page_records), ensure_ascii=False, indent=2))
-    (OUT / 'README.md').write_text('''# 全部 11 个 motif 的雨云图
+    (OUT / 'README.md').write_text('''# Raincloud plots for all motif annotations
 
-按参考图的左侧半小提琴、中间白色箱线、右侧全部散点、粉色 motif / 灰色背景、粉色零线重绘。
+The figure shows half violins, white box plots and all observations, using pink for motif perturbations and gray for matched backgrounds. Positive and negative patterns are separated across pages; each page contains at most four motifs and one background. All 11 labels and 16 annotation/sign combinations are retained with a common full-range axis.
 
-all_11_motifs_raincloud.pdf 包含全部结果，正贡献和负贡献 pattern 分页，每页最多四个 motif 与一个 Background。统一纵轴范围，不裁掉极端点。11 个标签共 16 个 TF/符号组合全部保留；单页另存为 PDF。
+Effects are WT minus disrupted predictions in original PC1 units. Points are averaged by positive DNA-overlap group. Displayed backgrounds are deduplicated by match_id and then averaged by source DNA group; inference still uses the original one-to-one matched pairs. Shared motif annotations do not provide independent evidence for distinct proteins. raincloud_plot_values.tsv contains the plotted values and all_motifs_summary.tsv contains the original summary statistics.
 
-纵轴为原尺度 PC1 的 WT 减原位打乱后预测值，科学计数法只改变显示格式。每点按阳性 DNA 重叠组聚合。灰色组汇总本页各 motif 的配对背景，先按 match_id 去除多标签造成的重复，再按源 DNA 组平均；统计仍使用原始一一匹配，并未拿本页灰色混合分布重新做检验。
-
-这不是 NET-seq counts 或原始 PI 百分比。正/负标签来自模型归因模式，不是预设扰动效果。多个 TF 标签共享 pattern，不能当作独立蛋白功能证据。
-
-raincloud_plot_values.tsv 为所有实际绘制的数值；all_motifs_summary.tsv 为此前完整分析的 TF/符号汇总。绘图没有重新训练、重新推理或改变显著性检验。
-
-离线重绘：把 plot_all_raincloud.py、final_figure_small.py、tf_annotation_effects.tsv、tf_statistics.tsv 放在同一目录，安装 numpy、pandas、matplotlib，运行 python plot_all_raincloud.py。只用冻结数据，不需要模型、GPU 或连接服务器。
+For offline plotting, place plot_all_raincloud.py, final_figure_small.py, tf_annotation_effects.tsv and tf_statistics.tsv together, install numpy, pandas and matplotlib, and run python plot_all_raincloud.py. The frozen-data redraw does not require model inference.
 ''', encoding='utf-8')
     print(json.dumps(dict(atlas=str(atlas_path), pages=len(page_records), labels=len(set(frame.TF)),
                           points=len(points), y_limits=limits), ensure_ascii=False))

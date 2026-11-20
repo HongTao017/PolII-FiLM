@@ -19,7 +19,7 @@ def main():
     torch.backends.cuda.matmul.allow_tf32=False
     torch.backends.cudnn.allow_tf32=False
     model,processor,directory,done,provenance=load_model(cfg,2,20260916,'cuda:0')
-    source=Path(cfg['source_root'])/'data/bpnet_prepared'
+    source=Path(cfg['source_root'])/'data/sequence_prepared'
     meta=pd.read_csv(Path(cfg['model_root'])/'data/genes_repartitioned.tsv',sep='\t')
     row=int(meta.loc[meta.gene.eq('ATG10'),'gene_index'].item())
     raw=np.load(source/'regulatory_log10_unscaled.npy',mmap_mode='r')

@@ -25,21 +25,21 @@ def load_model(label, fold, seed, device="cpu"):
     import torch
     info = paths(label)
     run = next(r for r in info["checkpoints"] if r["fold"] == fold and r["seed"] == seed)
-    package_name = "_bundle_" + label + "_corgi_splice4"
-    code_dir = resolve(info["root"]) / "corgi_splice4"
+    package_name = "_bundle_" + label + "_region_film"
+    code_dir = resolve(info["root"]) / "region_film"
     if package_name not in sys.modules:
         spec = importlib.util.spec_from_file_location(package_name, code_dir / "__init__.py", submodule_search_locations=[str(code_dir)])
         package = importlib.util.module_from_spec(spec)
         sys.modules[package_name] = package
         spec.loader.exec_module(package)
-    model_module = __import__(package_name + ".model", fromlist=["CorgiSplice4Regressor"])
+    model_module = __import__(package_name + ".model", fromlist=["PolIIFiLMRegressor"])
     architecture = json.loads(resolve(run["run_spec"]).read_text())["architecture_config"]
-    model = model_module.CorgiSplice4Regressor(architecture)
+    model = model_module.PolIIFiLMRegressor(architecture)
     checkpoint = torch.load(resolve(run["checkpoint"]), map_location="cpu", weights_only=True)
     model.load_state_dict(checkpoint["model"], strict=True)
     model.to(device)
     model.eval()
-    pre_path = resolve("shared/source_project/corgi_polii/preprocessing.py")
+    pre_path = resolve("shared/source_project/pausing_utils/preprocessing.py")
     spec = importlib.util.spec_from_file_location("_bundle_preprocessing", pre_path)
     pre_module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(pre_module)

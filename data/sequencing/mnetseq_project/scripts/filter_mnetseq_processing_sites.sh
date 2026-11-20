@@ -11,14 +11,14 @@ THREADS=8
 mkdir -p "$OUTPUT_DIR" "$PROJECT/results"
 
 if [[ ! -s "$MASK" ]]; then
-    echo "[错误] 缺少屏蔽表：$MASK" >&2
+    echo "[Error] Mask table missing: $MASK" >&2
     exit 1
 fi
 
 shopt -s nullglob
 INPUTS=("$INPUT_DIR"/*.mNET.3prime.bed.gz)
 if [[ "${#INPUTS[@]}" -eq 0 ]]; then
-    echo "[错误] 没有找到样本级mNET 3′端BED：$INPUT_DIR" >&2
+    echo "[Error] Sample-level mNET 3-prime BED not found: $INPUT_DIR" >&2
     exit 1
 fi
 
@@ -30,7 +30,7 @@ for INPUT in "${INPUTS[@]}"; do
     OUTPUT="$OUTPUT_DIR/${BASE}.mNET.3prime.processing_masked.bed.gz"
     TEMP="$OUTPUT.incomplete"
 
-    echo "[$(date '+%F %T')] 屏蔽RNA加工位点：$BASE"
+    echo "[$(date '+%F %T')] Masking RNA processing sites: $BASE"
 
     if [[ ! -s "$OUTPUT" || ! -s "${OUTPUT}.tbi" ]]; then
         rm -f "$TEMP" "${TEMP}.tbi"
@@ -44,7 +44,7 @@ for INPUT in "${INPUTS[@]}"; do
             rm -f "$TEMP" "${TEMP}.tbi"
             printf "%s\tNA\tNA\tNA\tNA\t%s\tFAILED\n" \
               "$BASE" "$OUTPUT" >> "$STATUS"
-            echo "[错误] $BASE 屏蔽失败" >&2
+            echo "[Error] $BASE Masking failed" >&2
             continue
         fi
     fi
@@ -58,9 +58,9 @@ for INPUT in "${INPUTS[@]}"; do
     printf "%s\t%s\t%s\t%s\t%s\t%s\tPASS\n" \
       "$BASE" "$BEFORE" "$AFTER" "$REMOVED" "$PERCENT" "$OUTPUT" \
       >> "$STATUS"
-    echo "[完成] $BASE：删除 ${PERCENT}%"
+    echo "[Completed] $BASE: removed ${PERCENT}%"
 done
 
-echo "完成样本数：$(awk -F '\t' 'NR>1 && $7=="PASS"{n++} END{print n+0}' "$STATUS")"
-echo "失败样本数：$(awk -F '\t' 'NR>1 && $7=="FAILED"{n++} END{print n+0}' "$STATUS")"
-echo "结果表：$STATUS"
+echo "Completed samples: $(awk -F '\t' 'NR>1 && $7=="PASS"{n++} END{print n+0}' "$STATUS")"
+echo "Failed samples: $(awk -F '\t' 'NR>1 && $7=="FAILED"{n++} END{print n+0}' "$STATUS")"
+echo "Result table: $STATUS"

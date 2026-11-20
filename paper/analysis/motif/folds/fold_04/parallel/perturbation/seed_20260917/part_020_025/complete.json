@@ -6,7 +6,7 @@
   "start": 20,
   "stop": 25,
   "checkpoint": {
-    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917",
+    "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_04/seed_20260917",
     "checkpoint_sha256": "3eec4a2a3ed1ad973f7a7e2a915477d54bf3d9b20608eccd841f8dbb804e228a",
     "preprocessing_sha256": "9c95b92e053cadb6b03ead1d57772971cfb6739805f7ed05feca38ae51f56d93",
     "fingerprint": "7626ce3e7e5c605982de70b7f9158fc2aed3a4b4a836e6eb0f9ad87b937a4fc1"
@@ -15,14 +15,14 @@
   "selected_genes_sha256": "d14a38f49cfce6a335bcdfccc9bc7b9af314685e06d10aa61940ee11a6f4c7c0",
   "outputs_sha256": {
     "perturbations/instance_020/seed_20260917_delta.npy": "8c29f3e588b245d3dd0712e4ab22bee7771b27d51b5eb96f93e8eab159345f07",
-    "perturbations/instance_020/seed_20260917_variants.json": "566875e45ccfd00f6103d2548ca93545dc4bff6f749138a72cf1fb405b672863",
+    "perturbations/instance_020/seed_20260917_variants.json": "5c54218ea7de7bc36f87cd84c8db0b89c5e2fe9b4affe567011debcfd6bcf9e5",
     "perturbations/instance_021/seed_20260917_delta.npy": "8c80b753cc30d9d80e4e82db389fb759ef925f8fbd455d51684de45686676f35",
-    "perturbations/instance_021/seed_20260917_variants.json": "90b1a4c8975350b7067ee9841e1f5859de2d463fd5709d641830033e92dea0e5",
+    "perturbations/instance_021/seed_20260917_variants.json": "c7cad3ea473d8b81bfadc7c9f4df457470b604c58b36c7cc6b6ed6cd1f5bdd5a",
     "perturbations/instance_022/seed_20260917_delta.npy": "d3a6ea06f0a982db74df5e8e26664362560fca2661ba8904063ba667779b70fc",
-    "perturbations/instance_022/seed_20260917_variants.json": "662e186112fbc2ba3d8c8673fcf80953e66eb47bf5d484d3745da029fbeaea28",
+    "perturbations/instance_022/seed_20260917_variants.json": "65be897ec91b956af886394fc3b1fdf334bf882b60ac1ab1c86d3b4b723e0fc6",
     "perturbations/instance_023/seed_20260917_delta.npy": "e71942812f2829fdbbf9ced4423822474feceface7d7bd753f982c33ae946b56",
-    "perturbations/instance_023/seed_20260917_variants.json": "db5a341c5616de438c86c079a399d397596e2efb29734347b816ee61770f6486",
+    "perturbations/instance_023/seed_20260917_variants.json": "5b26b79672cd9acc5944338a3817be53c7da5a40fbec1bf6277c1f1c4c541875",
     "perturbations/instance_024/seed_20260917_delta.npy": "c1e207df56fa10ec346f46ed75ecaad31f5d46724c925c70845d4550d1bd33ab",
-    "perturbations/instance_024/seed_20260917_variants.json": "ac07eacc06e549801b5f313e5280d19310464e61b217de6cc3e0dbb33fababb8"
+    "perturbations/instance_024/seed_20260917_variants.json": "a10450333715d55d078a7e3ee01c53b2918629cc134aeceb47d50c9acb2205c6"
   }
 }

@@ -17,7 +17,7 @@ for CANDIDATE in \
 done
 
 if [[ -z "$GTF" ]]; then
-    echo "[错误] 没有找到MANE标准染色体GTF。现有候选：" >&2
+    echo "[Error] MANE standard-chromosome GTF not found; candidates: " >&2
     find "$PROJECT/annotation" \
          "/mnt/HDD8TB/shared/Data_Seq/DATA/groseq_project" \
          "$HOME/sequence features/groseq_project/reference" \
@@ -26,12 +26,12 @@ if [[ -z "$GTF" ]]; then
 fi
 
 if [[ ! -s "$SCRIPT" ]]; then
-    echo "[错误] 缺少脚本：$SCRIPT" >&2
+    echo "[Error] Script missing: $SCRIPT" >&2
     exit 1
 fi
 
 mkdir -p "$OUTPUT_DIR"
-echo "使用GTF：$GTF"
+echo "Using GTF: $GTF"
 
 python3 "$SCRIPT" \
   --gtf "$GTF" \
@@ -40,9 +40,9 @@ python3 "$SCRIPT" \
 
 MASK="$OUTPUT_DIR/MANE_Select.mNET_processing_mask.bed"
 
-echo "屏蔽区间数：$(wc -l < "$MASK")"
-echo "前5行："
+echo "Masked intervals: $(wc -l < "$MASK")"
+echo "First five lines: "
 head -n 5 "$MASK" | column -t -s $'\t'
-echo "汇总："
+echo "Summary: "
 column -t -s $'\t' \
   "$OUTPUT_DIR/MANE_Select.mNET_processing_mask.summary.tsv"

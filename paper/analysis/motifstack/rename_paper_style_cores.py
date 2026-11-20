@@ -138,43 +138,34 @@ def main():
  for path,sha in before.items():assert hashlib.sha256(Path(path).read_bytes()).hexdigest()==sha
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==r.TREE_SHA
  report=dict(status='PASS',figures=records,repeat_feature_classes=defs,native_tree_sha256=r.TREE_SHA,source_h5_sha256_verified=r.e.source_checks,source_matrices_and_matches_unchanged=True,partitions_unchanged=True,annotation_units=29,clades=13,independent_patterns=16,matched_patterns=44,TOMTOM_records=79,all_old_figures_preserved=before,
- method=dict(reference='https://doi.org/10.1038/s41467-024-47744-0',borrowed='IUPAC conserved sequence, minimum repeated unit, optional longer repeats (+); reverse complements represented by a shared feature name',not_claimed='No reimplementation of the original paper manual clustering; no new TF family validation',group_cores='unchanged validated aligned 4-12 bp cores from the frozen clade partition',individual_cores='unchanged maximum-information 6bp individual features, explicitly marked *',repeat_definition='maximal exact Cavener single-base run containing the frozen core in each original PPM; clade prefix is the minimum observed within that native clade; independent homopolymer labels retain the broader A/T or C/G pooled feature-class lower bound and *; + only if the relevant observed run lengths vary',mixed_cores='IUPAC order retained; exact repeated whole multi-base units compressed when present, otherwise single-letter repeat notation; no + added without extension evidence',same_name='shared short-sequence feature, not a claim of same native branch or full motif; repeated names retained at distinct tree positions'))
+ method=dict(notation='IUPAC conserved sequence, minimum repeated unit, optional longer repeats (+); reverse complements represented by a shared feature name',interpretation='Descriptive sequence features without functional family validation',group_cores='unchanged validated aligned 4-12 bp cores from the frozen clade partition',individual_cores='unchanged maximum-information 6bp individual features, explicitly marked *',repeat_definition='maximal exact Cavener single-base run containing the frozen core in each original PPM; clade prefix is the minimum observed within that native clade; independent homopolymer labels retain the broader A/T or C/G pooled feature-class lower bound and *; + only if the relevant observed run lengths vary',mixed_cores='IUPAC order retained; exact repeated whole multi-base units compressed when present, otherwise single-letter repeat notation; no + added without extension evidence',same_name='shared short-sequence feature, not a claim of same native branch or full motif; repeated names retained at distinct tree positions'))
  (ROOT/'analysis/paper_style_naming_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
- note='''# 参考论文风格的命名版
+ note='''# Sequence-based partition labels
 
-保留原生 314-pattern 树、13 个分区和16 个独立项，仅更新显示名称。此处借鉴原论文的 IUPAC 核心、重复次数与“+”表达方式，不声称复现其人工聚类，也不改变或合并树分支。
+The original 314-pattern tree, 13 partitions and 16 independent items are retained. Labels summarize IUPAC cores and repeat lengths without changing tree membership.
 
-## 重复类名
-
-'''
- for letter,d in defs.items():note+=f"- `{d['name']}`：含 {d['members']} 个 pattern，原始概率矩阵的 Cavener 共识在原核心周围连续重复长度为 {d['min_repeats']}–{d['max_repeats']}。{letter} 与反向互补的 {d['reverse_complement_symbol']} 统一为同一短序列特征类；图中保持原分支位置。\n"
- note+='''
-最低重复次数按各分支自己的实际成员计算，不沿用原来的固定窗口长度。原4T-01三个成员连续T为14、5、5，因此命名5T+；原4T-02三个成员为18、15、13，因此命名13T+。原始富A成员先按反向互补方向解释。上面的全体T类5T+是较宽的序列特征下界，独立项仍用该下界加星号；两个分支的具体名字按分支内最短重复数区分。“+”表示观察到更长的重复，并不表示显著性；这也不意味着两个分支是不同TF家族。所有同核心的 -01/-02 后缀已从图上名称去掉，原始编号仍可查表。
-
-混合核心沿用原来有支持度的 IUPAC 核心，未把不连续的 T 段强行拼成长同聚物。若整个核心为相同多碱基单元的精确重复，使用次数+单元；其他情况仅压缩连续相同字母。保留星号 * 来提示独立 pattern（其基础仍是单个 pattern 的六碱基特征），不是类群共识，也不是显著性。
-
-蓝/粉线为负/正Y_PC1归因；灰区为分区/独立项；外圈深紫命中、浅紫未命中。同名可出现在不同分支。4-12bp分区阈值、6bp独立项窗口仍是本项目的描述性规则，不是原论文默认参数。
-
-## 新文件
+## Repeat labels
 
 '''
- for rec in records:note+=f"- `{rec['path']}`：单页，{rec['annotation_count']} 个位置标注，{rec['unique_display_names']} 个不同显示名。\n"
- note+='''
-- `analysis/paper_style_name_dictionary29.tsv`：29处标注的旧名、新名、核心和全部原始编号。
-- `analysis/paper_style_naming_matched44.tsv`：44命中项，包含 Fold / r?_pos/neg_patterns_pattern_? 原始编号、TF、JASPAR/q、方向和原核心/重复区段坐标。
-- `analysis/paper_style_naming_members65.tsv`：包括未命中同组成员的全部65项证据。
-- `analysis/paper_style_naming_TOMTOM79.tsv`：79条未改变的匹配记录关联新名称。
-- `analysis/paper_style_naming_QA.json`：参数、最短/最长重复数、完整性和PDF核验。
+ for letter,d in defs.items():note+=f"- `{d['name']}`: {d['members']} patterns. Native Cavener consensus has {d['min_repeats']}-{d['max_repeats']} consecutive repeats around the core. {letter} and reverse-complement symbol {d['reverse_complement_symbol']} share a sequence-feature label while retaining separate tree positions.\n"
+ note+='''Repeat labels use the shortest observed run in each partition. The two T-rich branches have run lengths 14/5/5 and 18/15/13 and are labeled 5T+ and 13T+. Reverse-complement orientation is used for A-rich members. The plus sign indicates longer observed runs and is not a significance marker. Shared labels do not establish distinct TF families. Mixed cores retain supported contiguous IUPAC features; noncontiguous runs are not joined. Independent-pattern stars identify individual patterns rather than significance. Blue/pink branches indicate negative/positive PC1 attribution, gray sectors indicate partitions and outer-ring purple indicates match status. Partition cores use 4-12-bp descriptive rules; independent patterns use six-base windows.
+'''
+ for rec in records:note+=f"- `{rec['path']}`: one page, {rec['annotation_count']} annotation positions and {rec['unique_display_names']} distinct display names.\n"
+ note+='''- `analysis/paper_style_name_dictionary29.tsv`: partition-label correspondence.
+- `analysis/paper_style_naming_matched44.tsv`: 44 matched patterns, original identifiers, annotations and core coordinates.
+- `analysis/paper_style_naming_members65.tsv`: 65 partition members.
+- `analysis/paper_style_naming_TOMTOM79.tsv`: 79 retained database matches.
+- `analysis/paper_style_naming_QA.json`: naming parameters and records.
 
-## 旧名→新名
+## Label correspondence
 
-|位置ID|旧名|新名|范围|
+| Position | Previous label | Current label | Range |
 |---|---|---|---|
 '''
- for m in mapping:note+=f"|{m['unit_id']}|{m['old_name']}|{m['new_name']}|{'分区' if m['scope']=='shared_core_clade' else '独立pattern'}|\n"
+ for m in mapping:note+=f"|{m['unit_id']}|{m['old_name']}|{m['new_name']}|{"Partition" if m['scope']=='shared_core_clade' else "Independent pattern"}|\n"
  (ROOT/'analysis/paper_style_naming_guide.md').write_text(note,encoding='utf-8')
- for path in [ROOT/'analysis/current_figure_guide.md',ROOT/'README_motifStack_重绘说明.md']:
-  text=path.read_text();marker='\n\n# 参考论文风格的命名版';text=text.split(marker)[0];path.write_text(text+'\n\n'+note,encoding='utf-8')
+ for path in [ROOT/'analysis/current_figure_guide.md',ROOT/"README_motifStack_redraw.md"]:
+  text=path.read_text();marker="\n\n# Sequence-based partition labels";text=text.split(marker)[0];path.write_text(text+'\n\n'+note,encoding='utf-8')
  print(json.dumps(dict(status='PASS',figures=records,classes=defs,dictionary=mapping)),flush=True)
 
 if __name__=='__main__':main()

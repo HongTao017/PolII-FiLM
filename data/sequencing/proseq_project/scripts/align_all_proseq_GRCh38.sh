@@ -14,19 +14,19 @@ shopt -s nullglob
 
 for tool in bowtie2 samtools; do
     if ! command -v "$tool" >/dev/null 2>&1; then
-        echo "[错误] 找不到程序：$tool"
+        echo "[Error] Program not found: $tool"
         exit 1
     fi
 done
 
 if ! compgen -G "${INDEX}*.bt2" >/dev/null &&
    ! compgen -G "${INDEX}*.bt2l" >/dev/null; then
-    echo "[错误] 找不到Bowtie2索引：$INDEX"
+    echo "[Error] Not found: Bowtie2index: $INDEX"
     exit 1
 fi
 
 if [[ ! -d "$INPUT" ]]; then
-    echo "[错误] 找不到非rRNA FASTQ目录：$INPUT"
+    echo "[Error] Not found: Non-rRNA FASTQdirectory: $INPUT"
     exit 1
 fi
 
@@ -42,7 +42,7 @@ align_run() {
 
     if [[ -s "$bam" ]] && samtools quickcheck "$bam" 2>/dev/null; then
         [[ -s "${bam}.bai" ]] || samtools index -@ 4 "$bam"
-        echo "[跳过] $run 已完成"
+        echo "[Skipped] $run already completed"
         return 0
     fi
 
@@ -54,7 +54,7 @@ align_run() {
         read_args=(-1 "$r1" -2 "$r2")
     fi
 
-    echo "[$(date '+%F %T')] 开始：$run ($mode)"
+    echo "[$(date '+%F %T')] Starting: $run ($mode)"
 
     if {
         bowtie2 \
@@ -71,13 +71,13 @@ align_run() {
         if samtools index -@ 4 "$bam" &&
            samtools quickcheck "$bam" &&
            [[ -s "${bam}.bai" ]]; then
-            echo "[$(date '+%F %T')] 完成：$run"
+            echo "[$(date '+%F %T')] Completed: $run"
         else
-            echo "[错误] $run BAM或BAI检查失败"
+            echo "[Error] $run BAM or BAI check failed"
             return 1
         fi
     else
-        echo "[错误] $run 比对失败，请检查：$runlog"
+        echo "[Error] $run Alignment failed; check: $runlog"
         rm -f "$tmp" "${tmp}.bai" "${tmp}.tmp."*.bam
         return 1
     fi
@@ -90,7 +90,7 @@ single_count=0
 paired_count=0
 failed_count=0
 
-# 单端Run：排除双端文件名中的_1和_2。
+
 for r1 in "${single_fastqs[@]}"; do
     name=$(basename "$r1")
     case "$name" in
@@ -102,7 +102,7 @@ for r1 in "${single_fastqs[@]}"; do
     align_run "$run" single "$r1" || ((failed_count+=1))
 done
 
-# 双端Run：R1和R2必须同时存在。
+
 for r1 in "${paired_r1_fastqs[@]}"; do
     name=$(basename "$r1")
     run=${name%_1.non_rRNA.fastq.gz}
@@ -110,7 +110,7 @@ for r1 in "${paired_r1_fastqs[@]}"; do
 
     ((paired_count+=1))
     if [[ ! -s "$r2" ]]; then
-        echo "[错误] $run 缺少R2：$r2"
+        echo "[Error] $run Missing R2: $r2"
         ((failed_count+=1))
         continue
     fi
@@ -120,15 +120,15 @@ done
 
 discovered_runs=$((single_count + paired_count))
 
-echo "识别单端Run：$single_count"
-echo "识别双端Run：$paired_count"
-echo "识别Run总数：$discovered_runs"
-echo "比对失败数：$failed_count"
-echo "完成BAM数：$(find "$OUT" -maxdepth 1 -name '*.GRCh38.sorted.bam' | wc -l)"
-echo "完成BAI数：$(find "$OUT" -maxdepth 1 -name '*.GRCh38.sorted.bam.bai' | wc -l)"
+echo "Identified single-end runs: $single_count"
+echo "Identified paired-end runs: $paired_count"
+echo "Identified runs: $discovered_runs"
+echo "Failed alignments: $failed_count"
+echo "Completed BAM count: $(find "$OUT" -maxdepth 1 -name '*.GRCh38.sorted.bam' | wc -l)"
+echo "Completed BAI count: $(find "$OUT" -maxdepth 1 -name '*.GRCh38.sorted.bam.bai' | wc -l)"
 
 if [[ "$discovered_runs" -ne "$EXPECTED_RUNS" ]]; then
-    echo "[警告] 预期$EXPECTED_RUNS个Run，但识别到$discovered_runs个"
+    echo "[Warning] Expected $EXPECTED_RUNS runs; identified $discovered_runs"
 fi
 
 if [[ "$failed_count" -gt 0 ]]; then

@@ -108,7 +108,7 @@
     },
     {
       "source": "original_prepared_manifest",
-      "path": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/data/bpnet_prepared/manifest.json",
+      "path": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/data/sequence_prepared/manifest.json",
       "sha256": "25df5f7a9a94c854fc91b9cd2362c2d26481d73d114aad0a6bad5110792ff98a"
     }
   ],
@@ -129,18 +129,18 @@
     "regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
     "target.npy": "8b4290f02eb502bd269ecd00b2a70b9adf30f3a3db56d58f8e62eada99f7c02d",
     "tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
-    "../bpnet_splits/fold_assignments.tsv": "86a07649645821eeeb318ac0db854c9254f19df3a2c82f20311fc5de5b700f57",
-    "../bpnet_splits/round_01.tsv": "b952c1bc19fce5997768e32c893074594bd908ac7860e0a986910efe30ef0237",
-    "../bpnet_splits/round_02.tsv": "0478a0267ada220df07f0dbf8874f9292eb1b9c0920db0db0bdc4a9f270468aa",
-    "../bpnet_splits/round_03.tsv": "8fd92dbd0e672e2532c27d6658d8e36ae6f8d655e7599cdbf8ac4853aa230340",
-    "../bpnet_splits/round_04.tsv": "c7d6cba55c8ed93b4c4f2175b0c3d74ae07730232d866c6017bbb06b5c75f9b4",
-    "../bpnet_splits/round_05.tsv": "d3894cd20cb43371cdf5b2286a1c06c3230ff98bae51fe4fe15ee9b107e7cffb",
-    "../bpnet_splits/round_06.tsv": "b9ca98ca405294c008235d7637076eee31d76846ee4c0318bc7d25a3e6cd6d1b",
-    "../bpnet_splits/round_07.tsv": "c8d0389de24e34559a987b1976c688413d78194ae9f91f8df9c4088768de7cb4",
-    "../bpnet_splits/round_08.tsv": "64cea3eb2d3b9f1ebe2a3996b2b51f64e513f35e8e1618cae7361cf82704da66",
-    "../bpnet_splits/round_09.tsv": "42e2b814131c4872e0e23f0d5315bbfde3e8657226517567fe8ad6df3896ca68",
-    "../bpnet_splits/round_10.tsv": "13cfef35f977a0303a9694ff95b5112e2dcdbe4e923cd65830f80af0bebe6cb7",
-    "../bpnet_splits/split_summary.tsv": "39ba0266b5d6ed18a114a5c5938221064a52e38856ecee236731eb1cc5190970",
-    "../bpnet_splits/window_overlap_audit.tsv": "362f5d36c66bc558f7f5867392bb309fe601abfec5760001362437136fb66b0c"
+    "../gene_splits/fold_assignments.tsv": "86a07649645821eeeb318ac0db854c9254f19df3a2c82f20311fc5de5b700f57",
+    "../gene_splits/round_01.tsv": "b952c1bc19fce5997768e32c893074594bd908ac7860e0a986910efe30ef0237",
+    "../gene_splits/round_02.tsv": "0478a0267ada220df07f0dbf8874f9292eb1b9c0920db0db0bdc4a9f270468aa",
+    "../gene_splits/round_03.tsv": "8fd92dbd0e672e2532c27d6658d8e36ae6f8d655e7599cdbf8ac4853aa230340",
+    "../gene_splits/round_04.tsv": "c7d6cba55c8ed93b4c4f2175b0c3d74ae07730232d866c6017bbb06b5c75f9b4",
+    "../gene_splits/round_05.tsv": "d3894cd20cb43371cdf5b2286a1c06c3230ff98bae51fe4fe15ee9b107e7cffb",
+    "../gene_splits/round_06.tsv": "b9ca98ca405294c008235d7637076eee31d76846ee4c0318bc7d25a3e6cd6d1b",
+    "../gene_splits/round_07.tsv": "c8d0389de24e34559a987b1976c688413d78194ae9f91f8df9c4088768de7cb4",
+    "../gene_splits/round_08.tsv": "64cea3eb2d3b9f1ebe2a3996b2b51f64e513f35e8e1618cae7361cf82704da66",
+    "../gene_splits/round_09.tsv": "42e2b814131c4872e0e23f0d5315bbfde3e8657226517567fe8ad6df3896ca68",
+    "../gene_splits/round_10.tsv": "13cfef35f977a0303a9694ff95b5112e2dcdbe4e923cd65830f80af0bebe6cb7",
+    "../gene_splits/split_summary.tsv": "39ba0266b5d6ed18a114a5c5938221064a52e38856ecee236731eb1cc5190970",
+    "../gene_splits/window_overlap_audit.tsv": "362f5d36c66bc558f7f5867392bb309fe601abfec5760001362437136fb66b0c"
   }
 }

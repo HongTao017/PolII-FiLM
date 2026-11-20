@@ -25,7 +25,7 @@
   ],
   "models": [
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260915",
       "checkpoint_sha256": "2ab2bbf839540d1e717ceb25eed579af9a88d18fad560415d23f55b201101c86",
       "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
       "fingerprint": "7515e8762b9510ac966ec3182d4a341f6033baac83802ba9450ae311e9c304a6",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260916",
       "checkpoint_sha256": "7dc89b60cf042c30cc5a48fc54efa583e3ea0265ad95269b0adb6229bd6a7541",
       "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
       "fingerprint": "cc6d958f1e74b605fba29345179ae527306303961b8ed678b6996d3aa27abfcd",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260917",
       "checkpoint_sha256": "da903b3cd4f559666e00b46e322ba497d16945db00d6e8f390beba389cbb4c57",
       "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
       "fingerprint": "8939187f527a469503775a075ea1853e3cbf93386987a99db2709c2091173006",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260918",
       "checkpoint_sha256": "8a7ac65eb3c3d06e0942a931a546dc62f8d9cdd37c89b464b6efc66be5bf8122",
       "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
       "fingerprint": "64975460ec0ee9070ee780deb1e6434b6dccf30eb213dd98fc88b4fe09c4f138",
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_02/seed_20260919",
       "checkpoint_sha256": "2c331b72d725274c6f8c5dfc7e2400841dd73060f0ea472452f1d0594dc3ab59",
       "preprocessing_sha256": "44db63c4407f82d4e047c03d4f6ae2a7c3423c4397255c248343ef0607381e17",
       "fingerprint": "bb58fd29d574e1e941011c9b39ec50243341bb3732e67710ed7a1f7744c8e59d",
@@ -359,11 +359,11 @@
     "run_fold.py": "c9a6533d770a4b62a9875d567ad26d99bc3aea0b512763b8ea68c02633414f7a",
     "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
     "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
-    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
-    "draw_reference_style.py": "519baa5aa6db7f7810f558c692eeb02e309daad9df822602376dfa73f22d6771",
+    "deep_lift_core.py": "a5ebfe1f9ce5eeaf55b62036d27472704bfeba3f3b3874e81db540e954f99431",
+    "draw_reference_style.py": "5a9de382cc43ad1a3c6be251d133f5fd6e35c20d32f5cf097ab3313ba7b9f1bc",
     "final_figure_small.py": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
     "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
-    "run_pipeline.py": "41e4f463b150e4d71b4efca49f7573d16d64926242833064471655bec4f86709",
+    "run_pipeline.py": "63e99d4e9d7b094c26ac00929269e3fbbafa157e4061d7ec8cd87404bca95772",
     "plot_perturbations.py": "318e6204f9148533758440c5259ba5457cbf4a8ba308185f8bc2e425fe8694f7"
   }
 }

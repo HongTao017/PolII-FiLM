@@ -1,16 +1,16 @@
 {
   "panel": "F",
   "filename": "fig1.f.pdf",
-  "description": "A1BG基因区域IGV三种测序轨道",
+  "description": "IGV tracks for three nascent RNA sequencing assays at the A1BG locus",
   "canvas_inches": [
     7.086666666666667,
     3.465
   ],
-  "source_pdf": "G:\\序列分析数据\\output\\pdf\\NascentAtlas_focused_figures_600dpi_20261025\\04_igv_tracks_main_600dpi.pdf",
-  "source_pdf_sha256": "c6b034dde2738ac69e51e570f17895c92e24abd21cf85f23a02fc2067616473f",
+  "source_pdf": "G:\\sequence_analysis_data\\output\\pdf\\NascentAtlas_focused_figures_600dpi_20261025\\04_igv_tracks_main_600dpi.pdf",
+  "source_pdf_sha256": "6e0323a2723dd045149cee563c2e93c4ed6da5ff164b0c0b959527156ee5653e",
   "entry_script": "plot.py",
   "frozen_data_sha256": {
-    "data/visible_signal_bins.tsv": "76767ba1edbaa48b40af6ea4d1943c16a63ad5672ad3f5e128f5f0b981d52e3e",
+    "data/visible_signal_bins.tsv": "d2d5d29ccfb68f5b3f149cb91108bc28d0d76a5e395f3d2f0f17bfaaf78ced92",
     "data/region.json": "91ae58971a5ed8fcbac16e4a798183d24df62d68c4858415adb1b7587d738a6a",
     "data/region_annotation.json": "6138604d2a62fa2599566ff7ce94deacbb48b3fbdd2e210d88c4ff7688386522",
     "data/source_600dpi.png": "28414a38b94c9109fbbb7503cbcb337ed140c78a9108d312ccb985dc66eb97e1",

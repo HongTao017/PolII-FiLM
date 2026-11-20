@@ -16,7 +16,7 @@ from plot_requested_route import MODELS,LETTER_COLORS,retrieve
 from plot_hollow_violin_reference import PALETTE
 
 CANVAS=(7.4,5.3)
-DESTINATION=Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/10_test_compact_grouped_significance_color_legend_7p4x5p3.pdf')
+DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/10_test_compact_grouped_significance_color_legend_7p4x5p3.pdf')
 # Same comparison endpoints and grouping as the user's supplied reference.
 COMPARISONS=[('B','BQ',0),('B','BI',1),('B','BC',2),('B','BP',3),('B','BE',4),
              ('BP','BPQ',0),('BP','BPE',1),('BP','BPI',2),

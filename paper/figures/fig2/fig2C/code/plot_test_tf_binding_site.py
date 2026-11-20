@@ -2,7 +2,7 @@
 from pathlib import Path
 import plot_test_custom_palette_na as original
 
-DESTINATION = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/26_final_test_feature_comparison_TF_binding_site_NA.pdf')
+DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/26_final_test_feature_comparison_TF_binding_site_NA.pdf')
 _make = original.custom.recolored_make_figure
 _pages = original.custom.custom_pdf_pages
 

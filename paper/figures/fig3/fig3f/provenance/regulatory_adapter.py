@@ -19,8 +19,8 @@ from matplotlib.patches import Patch
 import plot_regulatory_importance_reference as importance
 from final_figure_small import save_pdf
 
-LEGACY_CODE = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/30个特征点和其他特征相关性分析/code/02_plot_top30_vs_BQIP_correlation_heatmap.py')
-OUTPUT = Path('G:/序列分析画图/Png/png/调控因子作用图/fig3b/fig3b_RF_BChIPeCLIP_top30_correlated_features_heatmap_16x11.pdf')
+LEGACY_CODE = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/feature_correlation_analysis/code/02_plot_top30_vs_BQIP_correlation_heatmap.py')
+OUTPUT = Path('G:/sequence_analysis_figures/Png/png/biochemical_feature_figures/fig3b/fig3b_RF_BChIPeCLIP_top30_correlated_features_heatmap_16x11.pdf')
 REMOTE = r'''
 import os
 for key in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS']:
@@ -103,7 +103,7 @@ def retrieve():
     importance.configure_reference()
     top_packet = importance.reference.retrieve()
     source = REMOTE.replace('TOP_FEATURES', repr([r['feature'] for r in top_packet['top30']])).replace('EXPECTED_FINGERPRINT', repr(importance.FINGERPRINT))
-    result = subprocess.run(['ssh','-T','-i','G:/序列分析数据/codex_bpnet_ablation_ed25519',
+    result = subprocess.run(['ssh','-T','-i','G:/sequence_analysis_data/codex_sequence_cnn_ablation_ed25519',
                              '-o','BatchMode=yes','-o','ConnectTimeout=15','user_011@172.16.12.164',
                              '/home/user_011/miniconda3/envs/model/bin/python -B -'],
                             input=source,text=True,encoding='utf-8',capture_output=True,timeout=180)

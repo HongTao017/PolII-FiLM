@@ -1,4 +1,4 @@
-"""Build the ChIP analogue of Corgi Supplementary Fig. S9b."""
+"Build the ChIP analogue of PolII Supplementary Fig. S9b."
 
 import argparse
 import hashlib

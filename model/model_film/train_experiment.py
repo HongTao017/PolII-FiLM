@@ -33,13 +33,13 @@ def read_config():
 def dependencies(config):
     # Existing audited preprocessing utilities and Dataset are reused read-only.
     source = Path(config["source_root"]).resolve()
-    if source == ROOT or not (source / "corgi_polii").is_dir():
+    if source == ROOT or not (source / "pausing_utils").is_dir():
         raise ValueError("Existing source project is unavailable or incorrectly specified")
     sys.path.append(str(source))
-    from bpnet_polii.data import MultiRegionGeneDataset
-    from corgi_polii.preprocessing import FoldPreprocessor
-    from corgi_polii.utils import metrics, seed_everything, sha256, split_indices, write_json
-    from corgi_polii.training_controls import prediction_diagnostics
+    from sequence_utils.data import MultiRegionGeneDataset
+    from pausing_utils.preprocessing import FoldPreprocessor
+    from pausing_utils.utils import metrics, seed_everything, sha256, split_indices, write_json
+    from pausing_utils.training_controls import prediction_diagnostics
     return MultiRegionGeneDataset, FoldPreprocessor, metrics, seed_everything, sha256, split_indices, write_json, prediction_diagnostics
 
 
@@ -67,12 +67,12 @@ def preflight(config):
     import numpy as np
     import pandas as pd
     import torch
-    from corgi_splice4.config import make_config, REGION_NAMES
+    from region_film.config import make_config, REGION_NAMES
     _, _, _, _, sha256, _, _, _ = dependencies(config)
-    prepared = Path(config["source_root"]) / "data/bpnet_prepared"
+    prepared = Path(config["source_root"]) / "data/sequence_prepared"
     manifest_path = prepared / "manifest.json"
     manifest = json.loads(manifest_path.read_text())
-    validation = json.loads((Path(config["source_root"]) / "logs/bpnet_validation.json").read_text())
+    validation = json.loads((Path(config["source_root"]) / "logs/sequence_validation.json").read_text())
     if validation["status"] != "PASS" or validation["manifest_sha256"] != sha256(manifest_path):
         raise ValueError("Existing data validation is missing or stale")
     arch = make_config({"draft_only": False})
@@ -115,8 +115,8 @@ def run_fold(config, fold, replicate, resume=False):
     import pandas as pd
     import torch
     from torch.utils.data import DataLoader
-    from corgi_splice4.config import make_config
-    from corgi_splice4.model import CorgiSplice4Regressor
+    from region_film.config import make_config
+    from region_film.model import PolIIFiLMRegressor
     Dataset, Preprocessor, metrics, seed_everything, sha256, split_indices, write_json, diagnostics = dependencies(config)
     check = preflight(config)
     arch = make_config({"draft_only": False})
@@ -124,12 +124,12 @@ def run_fold(config, fold, replicate, resume=False):
     directory = ROOT / "result" / config["run_name"] / f"fold_{fold:02d}" / f"seed_{seed}"
     directory.mkdir(parents=True, exist_ok=True)
     implementation = {str(p.relative_to(ROOT)): sha256(p)
-                      for p in sorted((ROOT / "corgi_splice4").glob("*.py"))}
+                      for p in sorted((ROOT / "region_film").glob("*.py"))}
     implementation["train_experiment.py"] = sha256(Path(__file__))
     implementation["disjoint_splits.py"] = sha256(ROOT / "disjoint_splits.py")
     source = Path(config["source_root"])
     reused = {str(p.relative_to(source)): sha256(p) for p in
-              [source / "bpnet_polii/data.py", *sorted((source / "corgi_polii").glob("*.py"))]}
+              [source / "sequence_utils/data.py", *sorted((source / "pausing_utils").glob("*.py"))]}
     spec = {"training_config": config, "architecture_config": arch, "fold": fold,
             "replicate": replicate, "seed": seed, "manifest_sha256": check["manifest_sha256"],
             "split_manifest_sha256": check["split_manifest_sha256"],
@@ -148,7 +148,7 @@ def run_fold(config, fold, replicate, resume=False):
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s",
                         handlers=[logging.StreamHandler(), logging.FileHandler(directory / "train.log")])
     logger = logging.getLogger("fixed_bn_dna_disjoint")
-    prepared = source / "data/bpnet_prepared"
+    prepared = source / "data/sequence_prepared"
     metadata = load_metadata(config)
     x, y = np.load(prepared / "regulatory_log10_unscaled.npy"), np.load(prepared / "target.npy")
     train_idx, valid_idx, test_idx = split_indices(metadata.fold.values, fold)
@@ -174,7 +174,7 @@ def run_fold(config, fold, replicate, resume=False):
     train_loader, valid_loader = loader(train_idx, True), loader(valid_idx)
     train_count = len(train_idx) - int(train_loader.drop_last)
     device = torch.device("cuda:0")
-    model = CorgiSplice4Regressor(arch, regulatory_dim=2554).to(device)
+    model = PolIIFiLMRegressor(arch, regulatory_dim=2554).to(device)
     # Only training rows are used; validation/test rows never fit these buffers.
     model.fit_input_normalization(features[train_idx])
     normalization = model.input_normalization_summary()

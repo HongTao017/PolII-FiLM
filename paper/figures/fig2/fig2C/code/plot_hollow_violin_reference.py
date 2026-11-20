@@ -15,7 +15,7 @@ from final_figure_small import apply_style, save_pdf
 from plot_requested_route import MODELS, LETTER_COLORS, retrieve
 
 CANVAS=(14,8.5)
-DESTINATION=Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/08_requested_feature_route_hollow_violin_boxplot_14x8p5.pdf')
+DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/08_requested_feature_route_hollow_violin_boxplot_14x8p5.pdf')
 PALETTE=['#808080','#3C7DA0','#70A36A','#EFC788','#40AED4','#90B3B5',
          '#32A8D8','#E76635','#BCB83B','#F1CD89','#6A3B65','#AB6B95']
 # Four comparisons fixed before inspecting P values, not all pairwise or adjacent categories.

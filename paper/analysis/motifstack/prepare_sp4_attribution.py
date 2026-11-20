@@ -15,7 +15,7 @@ def check(p,expected):
  actual=sha(p); assert actual==expected,str(p); used[str(p)]=actual
 for n in ['selected_genes.tsv','modisco_input_order.npy','modisco/tss_sequence.h5']:
  check(R/n,complete['outputs_sha256'][n])
-source=Path(cfg['source_root'])/'data/bpnet_prepared/tss_sequence.npy'
+source=Path(cfg['source_root'])/'data/sequence_prepared/tss_sequence.npy'
 check(source,man['original_inputs_sha256'][str(source)])
 metadata_path=Path(cfg['model_root'])/'data/genes_repartitioned.tsv'
 check(metadata_path,man['original_inputs_sha256'][str(metadata_path)])

@@ -5,16 +5,16 @@
       "root": "A_TSS300_FiLM",
       "description": "TSS +/-300 bp; four independent DNA encoders + FiLM",
       "metadata": "A_TSS300_FiLM/data/genes_repartitioned.tsv",
-      "dna_directory": "shared/source_project/data/bpnet_prepared",
+      "dna_directory": "shared/source_project/data/sequence_prepared",
       "region_lengths": {
         "tss_sequence": 600,
         "first_donor_sequence": 2000,
         "first_acceptor_sequence": 2000,
         "pre_tes_sequence": 1000
       },
-      "regulatory_array": "shared/source_project/data/bpnet_prepared/regulatory_log10_unscaled.npy",
-      "target_array": "shared/source_project/data/bpnet_prepared/target.npy",
-      "feature_manifest": "shared/source_project/data/bpnet_prepared/feature_manifest.tsv",
+      "regulatory_array": "shared/source_project/data/sequence_prepared/regulatory_log10_unscaled.npy",
+      "target_array": "shared/source_project/data/sequence_prepared/target.npy",
+      "feature_manifest": "shared/source_project/data/sequence_prepared/feature_manifest.tsv",
       "checkpoints": [
         {
           "fold": 1,

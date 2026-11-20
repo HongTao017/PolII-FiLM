@@ -3,7 +3,7 @@ import argparse
 import ast
 import json
 from pathlib import Path
-from corgi_splice4.config import REGION_NAMES, make_config, architecture_report
+from region_film.config import REGION_NAMES, make_config, architecture_report
 
 ROOT = Path(__file__).resolve().parent
 
@@ -19,12 +19,12 @@ def static_checks():
     assert architecture_report()["conv_film_parameter_dim"] == 3968
     training = json.loads((ROOT / "training_config.json").read_text())
     assert training["batch_size"] == 64 and training["gradient_accumulation"] == 1
-    source = (ROOT / "corgi_splice4/model.py").read_text()
+    source = (ROOT / "region_film/model.py").read_text()
     assert "self.transformers(" not in source and "film_mlp_transformer" not in source
     assert "torch.cat(vectors, dim=1)" in source
     assert "outputs[name] = x.mean(dim=-1)" in source
     for filename in ("model.py", "modules.py"):
-        tree = ast.parse((ROOT / "corgi_splice4" / filename).read_text())
+        tree = ast.parse((ROOT / "region_film" / filename).read_text())
         for node in ast.walk(tree):
             if isinstance(node, ast.ClassDef):
                 assert "transformer" not in node.name.lower() and "attention" not in node.name.lower()
@@ -45,7 +45,7 @@ def static_checks():
 
 def cpu_checks():
     import torch
-    from corgi_splice4.model import CorgiSplice4Regressor
+    from region_film.model import PolIIFiLMRegressor
     torch.set_num_threads(2)
     torch.manual_seed(20260915)
     config = make_config({"region_lengths": dict(zip(REGION_NAMES, [13, 17, 17, 11])),
@@ -53,7 +53,7 @@ def cpu_checks():
                           "film_mlp_hidden_layers": [16, 8],
                           "film_dimensions_conv": [8] * 31,
                           "dim": 32, "fusion_hidden_dim": 8})
-    model = CorgiSplice4Regressor(config)
+    model = PolIIFiLMRegressor(config)
     model.fit_input_normalization(torch.randn(32, 2554))
     assert not hasattr(model, "transformer_layers")
     assert not hasattr(model, "film_mlp_transformer")
@@ -92,7 +92,7 @@ def cpu_checks():
         assert model(single).shape == (1,)
     model.train()
     assert model(single).shape == (1,)
-    full_model = CorgiSplice4Regressor()
+    full_model = PolIIFiLMRegressor()
     parameter_count = sum(p.numel() for p in full_model.parameters())
     assert parameter_count == 4849845
     return {"cpu_shapes_gradients_pooling_fusion_isolation": "PASS",

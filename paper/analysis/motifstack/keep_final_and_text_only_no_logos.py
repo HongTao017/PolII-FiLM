@@ -59,14 +59,8 @@ def main():
  assert sha(KEEP)==KEEP_SHA
  receipt=dict(status='PASS',timestamp=datetime.now(timezone(timedelta(hours=8))).isoformat(),kept=[dict(path=str(KEEP),sha256=KEEP_SHA,type='titles_and_motif_logos'),dict(path=str(TEXT_ONLY),sha256=sha(TEXT_ONLY),type='titles_without_motif_logos')],deleted=deleted,remaining_PDFs=2,original_data_tables_and_scripts_preserved=True)
  (ROOT/'analysis/final_text_only_cleanup_receipt.json').write_text(json.dumps(receipt,indent=2),encoding='utf-8')
- guide=f'''# 当前仅保留的两个版本
-
-1. 当前终稿，保留标题文字和标题下方motif小图：`{KEEP}`。
-2. 有文字、无motif小图版：`{TEXT_ONLY}`。保留完整圆形树、原箭头、全部标题文字和Matched/Unmatched图例，仅删除13个motif logo的ATCG字形及其底线。
-
-两图的文字、树、箭头、灰色分区和深浅紫外圈一致，无小图版没有删除标题。之前的无文字版已经删除，figures目录仅有上述两个PDF；原始数据、分析表和脚本保留。核验analysis/text_only_no_logos_QA.json；清理清单analysis/final_text_only_cleanup_receipt.json。
-'''
- for path in [ROOT/'README_motifStack_重绘说明.md',ROOT/'analysis/current_figure_guide.md']:path.write_text(guide,encoding='utf-8')
+ guide=f'# Retained final figure variants\n\nFinal figure: `{KEEP}`.\nTitle-only display without sequence logos: `{TEXT_ONLY}`.\nSequence inputs, topology and recorded analysis results are retained. The alternative changes display annotations only.\n'
+ for path in [ROOT/"README_motifStack_redraw.md",ROOT/'analysis/current_figure_guide.md']:path.write_text(guide,encoding='utf-8')
  print(json.dumps(dict(status='PASS',kept=receipt['kept'],deleted=deleted,remaining_PDFs=2,text_identical=True,remaining_vector_paths_identical=True,removed_logo_paths=removed)),flush=True)
 
 if __name__=='__main__':main()

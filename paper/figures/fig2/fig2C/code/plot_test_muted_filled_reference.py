@@ -18,7 +18,7 @@ from plot_requested_route import MODELS, retrieve
 from plot_test_compact_legend import make_figure as original_make_figure
 
 CANVAS = (7.4, 5.3)
-DESTINATION = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/14_test_muted_filled_violin_reference_7p4x5p3.pdf')
+DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/14_test_muted_filled_violin_reference_7p4x5p3.pdf')
 # Dusty pink, slate blue and sage are the reference's principal hues.  Muted
 # variants distinguish all twelve combinations; the colors encode no ordering.
 FILLS = ['#C5A0A3', '#667C9A', '#8CA39D', '#BC9CA7', '#7C8CA5', '#9AAFA3',

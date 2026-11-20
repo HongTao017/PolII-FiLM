@@ -1,7 +1,7 @@
-# 原版模型 A 的 TOMTOM motif 位置替换小试
+# Motif insertion tomtom11 20261108
 
-使用原版 A 的 TOMTOM 筛选表所覆盖的 11 个 JASPAR 标签。`motifs.tsv` 的代表序列来自对应的归档 JASPAR 矩阵，每一列取概率最高的碱基，采用矩阵原始方向并沿基因转录方向写入。SP1、SP2、SP4 的代表序列相同，推理时合并，汇总仍记录全部 11 个标签。
+The four-region substitution analysis evaluates all valid bases and three alternative bases using five held-out models. Copies of the same genomic position are edited together. Per-position sensitivity is the absolute value of the mean signed substitution effect. Saved gene-level arrays, coverage records and region summaries support statistical recomputation without retraining.
 
-抽取 100 个测试基因，每折 10 个，每个原始 `Y_PC1` 四分位 25 个。同一 DNA 重叠组最多取一个基因。每个输入窗口划为 30 个位置分箱，选靠近中心且可容纳所有待测序列的有效碱基作共同锚点。用各共识序列等长覆盖该位置的原序列，五类调控输入固定。共享基因组坐标在所有含该坐标的有效窗口内同步替换。对同一位点和序列，先求各测试折模型的替换后预测减 WT 预测，再平均五个种子并跨基因汇总。
+## Usage
 
-`position_curves.tsv` 包含全部基因及各四分位的有符号位置曲线。`sequence_region_summary.tsv` 给出全部 100 个基因的窗口级均值。该实验比较共识序列相对 WT 的预测变化，局部碱基组成可随替换改变。
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

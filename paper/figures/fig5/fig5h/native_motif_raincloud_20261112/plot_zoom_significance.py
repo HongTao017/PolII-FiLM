@@ -88,15 +88,9 @@ def main():
         no_individual_point_significance=True, individual_pattern_tests='none significant after Holm',
         clipping='All original data retained; triangular boundary markers indicate values outside this zoom; full-range companion atlas retained unchanged.'
     ), indent=2))
-    (OUT / 'README.md').write_text('''# 全部 11 个 motif：纵轴放大及显著性标注
+    (OUT / 'README.md').write_text('''# Motif panels with a magnified effect axis
 
-统一纵轴范围为 -0.0015 至 +0.0015 PC1，刻度间隔 0.0005；图上以 ×10⁻³ 显示为 -1.5 至 +1.5，间隔 0.5。原始数值和统计结果不变。
-
-全部 11 个 motif 共 5 页，正负贡献 pattern 分开展示。* 为探索性 TF/符号合并分析的 Holm 校正 P<0.05；** 为 P<0.01。只在正贡献 SP1、SP2、SP4、KLF16 组上标注。其检验比较各自与一一匹配背景的扰动差异，不是本页多个 motif 合并后的灰色 Background 分布检验。
-
-单个散点代表源 DNA 组的平均效应，没有单独 P 值。44 个原始 pattern 的主要检验均未达到校正后显著性。多个 TF 注释共享 pattern，不代表四个蛋白的独立证据。
-
-边界三角标记表示存在超出显示范围的值；未删除这些数据，也未重新计算密度、箱线或显著性。完整范围原图继续保留在上一级 all_11_motifs_raincloud.pdf。每组范围外值数量和精确 P 值保存在 significance_and_outside_range.tsv。
+The common range is -0.0015 to +0.0015 PC1 with 0.0005 ticks, displayed at 1e-3 scale. Five pages cover all 11 annotations, with positive and negative patterns separated. Stars indicate the original exploratory annotation/sign pooled Holm-adjusted thresholds: 0.05 and 0.01. Each group was compared with its own one-to-one matched background. Points are source-DNA-group averages; they have no individual P values. None of the 44 primary pattern tests passed correction, and shared annotations do not establish independent protein identities. Boundary triangles mark clipped display values; all data and original tests remain available. significance_and_outside_range.tsv records exact P values and clipping counts.
 ''', encoding='utf-8')
     print(annotations.loc[annotations.stars.ne(''), ['page', 'label', 'sign', 'p_holm', 'stars']].to_string(index=False))
     print('Outside displayed range:', int(annotations.below_range.sum()+annotations.above_range.sum()), '/', int(annotations.n.sum()))

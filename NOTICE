@@ -24,3 +24,7 @@ experiment. Convolution FiLM, projections and pooled feature-concat head retaine
 Training is authorized in an independent directory; original data remain unchanged.
 
 Public release packaging, 2026-11-19: this project publishes the separately modified no-Transformer model and its associated analyses. Existing third-party notices are retained. Microsoft Arial font binaries, runtime environments, credentials, manuscript files and raw FASTQ/BAM files are not redistributed. Data retain their original source terms.
+
+English source maintenance, 2026-11-20: public documentation, messages and
+module names standardized. Legacy resource compatibility and source-revision
+records added; original numerical resources and required notices retained.

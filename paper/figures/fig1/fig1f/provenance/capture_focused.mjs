@@ -1,6 +1,6 @@
 import { chromium } from 'playwright'
 import { mkdir,writeFile } from 'node:fs/promises'
-const out='G:/序列分析数据/tmp/pdfs/nascentatlas_focus_20261025'
+const out='G:/sequence_analysis_data/tmp/pdfs/nascentatlas_focus_20261025'
 await mkdir(out,{recursive:true})
 const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',args:['--no-proxy-server']})
 const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:4,reducedMotion:'reduce'})

@@ -21,7 +21,7 @@ torch.set_num_threads(4)
 config=json.loads((ROOT/'folds/fold_02/experiment_config.json').read_text())
 meta=pd.read_csv(Path(config['model_root'])/'data/genes_repartitioned.tsv',sep='\t')
 gene_index=meta.set_index('gene').gene_index
-source=Path(config['source_root'])/'data/bpnet_prepared'
+source=Path(config['source_root'])/'data/sequence_prepared'
 raw=np.load(source/'regulatory_log10_unscaled.npy',mmap_mode='r')
 selected=pd.read_csv(ROOT/'selections/fold_02.tsv',sep='\t').head(2).gene.tolist()
 checks=[]

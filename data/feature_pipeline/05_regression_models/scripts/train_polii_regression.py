@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""用统一且无泄露的划分训练 Pol II Y_PC1 回归模型。"""
+"Train PC1 regression models using shared held-out genes and cross-validation folds."
 
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ import time
 from pathlib import Path
 from typing import Any
 
-# 防止交叉验证并行与数学库线程叠加后占满服务器。
+
 os.environ.setdefault("OMP_NUM_THREADS", "1")
 os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
 os.environ.setdefault("MKL_NUM_THREADS", "1")
@@ -93,18 +93,18 @@ def sha256(path: Path) -> str:
 def y_bins(y: pd.Series) -> np.ndarray:
     bins = pd.qcut(y, q=10, labels=False, duplicates="drop")
     if bins.nunique() < 2:
-        raise ValueError("Y_PC1 无法按分位数分层。")
+        raise ValueError("Y_PC1 cannot be stratified by quantiles.")
     return bins.to_numpy(dtype=int)
 
 
 def load_data(path: Path):
     if not path.is_file():
-        raise FileNotFoundError(f"找不到输入表：{path}")
+        raise FileNotFoundError(f"Input table not found: {path}")
     data = pd.read_csv(path, sep="\t", low_memory=False)
     if IDENTIFIER not in data or TARGET not in data:
-        raise ValueError("输入表必须包含 gene 和 Y_PC1。")
+        raise ValueError("The input table must contain gene and Y_PC1.")
     if data[IDENTIFIER].isna().any() or data[IDENTIFIER].duplicated().any():
-        raise ValueError("gene 存在缺失或重复。")
+        raise ValueError("Gene identifiers contain missing or duplicate values.")
 
     features = [column for column in data.columns if column not in {IDENTIFIER, TARGET}]
     suspicious = [
@@ -115,30 +115,30 @@ def load_data(path: Path):
         or "individual_sample_pi" in column.lower()
     ]
     if suspicious:
-        raise ValueError(f"发现疑似标签泄露列：{suspicious}")
+        raise ValueError(f"Possible target leakage columns: {suspicious}")
 
     x = data[features].apply(pd.to_numeric, errors="coerce")
     if x.isna().all().any():
-        raise ValueError(f"存在全缺失特征：{x.columns[x.isna().all()].tolist()}")
+        raise ValueError(f"All-missing features: {x.columns[x.isna().all()].tolist()}")
     if np.isinf(x.to_numpy(dtype=np.float64, copy=False)).any():
-        raise ValueError("X 中存在无穷值。")
+        raise ValueError("The feature matrix contains infinite values.")
     y = pd.to_numeric(data[TARGET], errors="coerce")
     if y.isna().any() or np.isinf(y.to_numpy()).any():
-        raise ValueError("Y_PC1 中存在缺失或无穷值。")
+        raise ValueError("Y_PC1 contains missing or infinite values.")
     return data, x.astype(np.float32), y.astype(np.float64), features
 
 
 def create_or_load_split(data, y, shared_dir: Path, test_size: float, folds: int):
-    """一次生成、永久复用；三个模型严格使用相同测试基因和CV折。"""
+    "Create a split once and reuse the same test genes and folds across estimators."
     path = shared_dir / "gene_data_split.tsv"
     genes = data[IDENTIFIER].astype(str)
     if path.exists():
         split = pd.read_csv(path, sep="\t", dtype={IDENTIFIER: str})
         if split[IDENTIFIER].duplicated().any() or set(split[IDENTIFIER]) != set(genes):
-            raise ValueError("已有划分和当前基因集合不一致，拒绝覆盖。")
+            raise ValueError("The existing split does not match the current gene set; refusing to overwrite it.")
         split = split.set_index(IDENTIFIER).loc[genes].reset_index()
         if not np.allclose(split[TARGET], y, rtol=1e-10, atol=1e-12):
-            raise ValueError("已有划分中的 Y_PC1 与当前输入不一致。")
+            raise ValueError("Y_PC1 values in the existing split differ from the current input.")
     else:
         indices = np.arange(len(data))
         bins = y_bins(y)
@@ -175,7 +175,7 @@ def create_or_load_split(data, y, shared_dir: Path, test_size: float, folds: int
     for fold in sorted(set(fold_id)):
         cv.append((np.flatnonzero(fold_id != fold), np.flatnonzero(fold_id == fold)))
     if len(cv) < 2 or not len(test):
-        raise ValueError("训练折或测试集无效。")
+        raise ValueError("The training folds or test set are invalid.")
     return development, test, cv
 
 
@@ -187,7 +187,7 @@ def make_search(name: str, cv, jobs: int, xgb_threads: int):
     }
     if name in {"ridge", "elastic_net"}:
         steps = [
-            # 中位数和均值/标准差只从每个训练折计算；缺失指示列保留结构性缺失信息。
+
             ("imputer", SimpleImputer(strategy="median", add_indicator=True)),
             ("scaler", StandardScaler()),
         ]
@@ -207,8 +207,8 @@ def make_search(name: str, cv, jobs: int, xgb_threads: int):
                 )
             )
             parameters = {
-                # Ridge 的最佳 alpha=316.23，按两种损失函数尺度换算约为 0.013；
-                # 因此聚焦其附近，排除已经证实不收敛的过小正则区间。
+
+
                 "model__alpha": [3e-3, 1e-2, 3e-2, 1e-1, 3e-1],
                 "model__l1_ratio": [0.05, 0.20, 0.50, 0.80, 0.95],
             }
@@ -223,7 +223,7 @@ def make_search(name: str, cv, jobs: int, xgb_threads: int):
             verbose=2,
         )
 
-    # XGBoost 原生学习缺失值的默认分支，不需要在全数据上预先填补。
+
     pipeline = Pipeline(
         [
             (
@@ -353,7 +353,7 @@ def main() -> None:
     for directory in (shared_dir, model_dir, root / "comparison"):
         directory.mkdir(parents=True, exist_ok=True)
 
-    print(f"读取数据：{args.input}", flush=True)
+    print(f"Reading data: {args.input}", flush=True)
     data, x, y, features = load_data(args.input)
     development, test, cv = create_or_load_split(
         data, y, shared_dir, args.test_size, args.cv_folds
@@ -378,8 +378,8 @@ def main() -> None:
         json.dump(clean_json(summary), handle, ensure_ascii=False, indent=2)
 
     print(
-        f"模型={args.model}; 开发集={len(development)}; 最终测试集={len(test)}; "
-        f"X={len(features)}; 内层CV={len(cv)}折",
+        f"model={args.model}; development genes={len(development)}; held-out genes={len(test)}; "
+        f"X={len(features)}; inner CV={len(cv)} folds",
         flush=True,
     )
     search = make_search(args.model, cv, args.jobs, args.xgb_threads)
@@ -428,7 +428,7 @@ def main() -> None:
         json.dump(clean_json(environment), handle, ensure_ascii=False, indent=2)
     update_comparison(root)
     print(json.dumps(clean_json(metrics), ensure_ascii=False, indent=2), flush=True)
-    print(f"完成：{model_dir}", flush=True)
+    print(f"Completed: {model_dir}", flush=True)
 
 
 if __name__ == "__main__":

@@ -13,13 +13,13 @@
   "panel": "D",
   "description": "Same versus Different cell-line study-pair Pearson correlations",
   "entry_script": "code/render.py",
-  "source_directory": "G:\\序列分析画图\\Png\\png\\PCA(细胞系之间的差异)\\panel_c_study_pair_correlations_package\\panel_c_study_pair_correlations_package\\final_figure_small",
+  "source_directory": "G:\\sequence_analysis_figures\\Png\\png\\PCA_cell_type_comparison\\panel_c_study_pair_correlations_package\\panel_c_study_pair_correlations_package\\final_figure_small",
   "source_pdf_sha256": "5993220acd0ea51f9effc8b00bfe57d91895a9069dca04c8e176e8a7ade329ed",
   "frozen_data_sha256": {
     "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
     "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
-    "data/original_statistical_tests.tsv": "eda87bb7e68fa74f9b505cd1f144d6e33457abe58d5f5d57572805ae622794ed",
-    "data/panel_c_study_pair_mean_correlations.tsv": "b2bd2074bcdef877eb137f7111ff298b6a2bc28d7b7ce61d1a337feb01a0b343",
-    "data/recomputed_statistical_tests.tsv": "9c88ab4d17b911c84bc6cf5f5cbc14fe0bfad251fbd02723d4582cb91fc1eff8"
+    "data/original_statistical_tests.tsv": "13db79336d19b0598ace3ed0de4655a0859c9fcbd670301de27b551be11ada0f",
+    "data/panel_c_study_pair_mean_correlations.tsv": "99ac892b322164fee50e221433017d3e7e38ecd72c7da1bf5aec2afc7b3861b6",
+    "data/recomputed_statistical_tests.tsv": "45ec898dd6dbbf5f1e35d14467b492821ce507f848c4b8130a831dde4704114e"
   }
 }

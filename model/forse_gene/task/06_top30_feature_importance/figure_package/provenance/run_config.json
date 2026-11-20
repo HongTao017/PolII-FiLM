@@ -1,12 +1,12 @@
 {
   "feature_source": "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/POLII_BQICPET_786X.tsv",
   "feature_sha256": "76ad0e6296967789f34efd1e99f777bceeca8a4e65367b455aa6f0eea39ffd33",
-  "dictionary_sha256": "9d0a19cb62874af9a8c7dbf831c5fba21390961c84cb447a652e09deaafe299c",
-  "split_source": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
+  "dictionary_sha256": "1d3c2a227aacb6749e9427e7e45b79a9002c862f7579249abc35a543d07e679b",
+  "split_source": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
   "metadata_sha256": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8",
-  "split_manifest_sha256": "a43e7e5170c5b1ff0dc6a63e1859d84bb6346468f026d2f6c5e1fdfe08263d3a",
-  "current_training_config_sha256": "e75b15c0c7eecf58ad5afd1debf9db61ad46b5ddcaec14e7426a56181f12c07d",
-  "script_sha256": "67feeeed9b5dab61b01f42a2053551062c6b981b6e47e4219f029845b26fb58d",
+  "split_manifest_sha256": "524a58fbd2193a244f5693d435143a7fc8e6b6b4e60a7364148c90f785a1572c",
+  "current_training_config_sha256": "d4814ec25f7b351bdea2a1faef3efd0844fb6fb9d4f53cd2b7ae0414755c7e4b",
+  "script_sha256": "857056650d0e3e697e0cb4adaff56584ec03b55dbc4b35cacdf5045b6fc25e12",
   "seeds": [
     20260915,
     20260916,

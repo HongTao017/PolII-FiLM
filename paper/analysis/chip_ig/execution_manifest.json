@@ -2,20 +2,20 @@
   "code_sha256": {
     "crosscell.py": "373443531545e5059276af7c21a8b36bba7f1d98435908552e1ff40a97b5f63c",
     "factor_fig5d.py": "8cf66024e7b2d8aa4aeb5e6614ac874122f943732ee53d3dd3a2cd4d5cd23975",
-    "run_fold.py": "36f7b5f8129999660fc68a4fbac47e5846c866a52b52e95ce0002b1e2ff739b6",
+    "run_fold.py": "09c5e21194ddbe9d628fa2dde352bb7ce8d48dd325553d40159003ad459b56c6",
     "launch.py": "1da950f7166946f469f99b94e1ae7458410b1d1f26c0466c6c9c7d77c0e4e2ba",
-    "core.py": "871a5519d5765817d51dd7d2075fbec9acd1933123cb76210dabb21ab412cc9b",
+    "core.py": "0c0dc54e7fb2d544923bf3a7c4fc86d219e84010a7074545e7979bde280c9cb8",
     "test_science.py": "99fb8ae9397bbf2236f1b848147be6125ad3819ab9058ff3da268a8ac8bb392c",
     "aggregate.py": "331bf03d90b438fc1e2023de92671233a5429a98c50b4ad22b02b1150290eec8",
     "prediction_check.py": "c19fc957003e9534b6efd615d42a334f7308ec470350166edc43f67c0c74d674",
     "integrate.py": "336ef8ff64d1cb7aaf9ba8cdb62f760bc381a60435c40b67e6cfb006071c1f1b",
     "controller.py": "b5b8cf5d8d5f4b3623571f177de08ed4348344a372bfa5e4bc598ef48ae40366"
   },
-  "config_sha256": "fe3cec33b9ded90eafc980048e8065cbcc26b906d024abd991d8948e535b31c9",
-  "prepared_sha256": "7a404ec4a4e13f13a7ab41e66a8f8b2c41061335dfe0cbc74aa56e111aafd1b9",
+  "config_sha256": "9002ff4eac7e6643acbfaaaaa97101f12abbc3865d4b69a119b78c6f3bd0a9b1",
+  "prepared_sha256": "17de5e64727fe37c0f23da2a3f3a9e79eae2b931f459b4cfee65d008041cc8fd",
   "time": 1793759740.9161754,
   "compatible_parent_manifests": [
-    "950693cd46457ca77157e097b1f5a1506e582add33c48ddfa2d7ed899f509403"
+    "214cb3a7b5329f909a7ac2cc2a473ac42a3e527278605038a774a6c8da8630e5"
   ],
   "prediction_verification_revision": "reproduce original BF16 batch when cross-precision comparison differs",
   "diagnosis_sha256": "ee9dec35640e218c948e5c2a436fb2e8a1df137d125c3667494d264f74d67340",

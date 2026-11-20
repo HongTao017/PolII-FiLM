@@ -8,7 +8,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parent
 if (root / "result").exists():
     raise RuntimeError("Training results already exist; cannot verify fresh guard")
-run = subprocess.run([sys.executable, "-m", "bpnet_polii.main_train",
+run = subprocess.run([sys.executable, "-m", "sequence_utils.main_train",
                       "--fold", "1", "--replicate", "1", "--device", "cuda:0"],
                      cwd=root, capture_output=True, text=True)
 assert run.returncode != 0

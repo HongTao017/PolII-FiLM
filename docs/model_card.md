@@ -1,13 +1,13 @@
-# model_film
+# Model card
 
-- 最终原版 A，非 Dropout 0.3 变体，非已删除的 B。
-- 四个独立膨胀卷积 DNA 编码器，31 个 FiLM 调制位置；生化特征经 FiLM 网络生成调制参数。
-- 四路特征投影和位置均值池化后拼接，回归一个有符号 PC1；无 Transformer，无 Softplus。
-- 输入序列合计 5,600 bp；固定训练集统计的 BN，不随小批次更新。
-- 训练：batch 64，AdamW，lr 1e-4，weight decay 1e-5，最多100轮，patience 25，bf16，验证 RMSE 选择最佳权重。
-- seeds：20260915–20260919；划分 seed：20260916。
-- 严格保留权重、逐模型 preprocessing.npz、run_spec.json、complete.json、训练曲线、测试及验证预测。
-- 本次发布验证记录见 outputs/ 与 provenance/release_20261119/。本次不重新训练50个模型；使用原最佳权重独立重推理。
-- motif 标签来自序列模式比对，不能单凭标签认定特定蛋白结合；模型扰动效应属于计算预测。ChIP/eCLIP归因与CPM相关不单独建立因果关系。
+PolII-FiLM predicts a signed gene-level PC1 pausing phenotype from four DNA regions and 2,554 biochemical features. The final released architecture is `model_film`, the original A configuration with dropout 0.2, fixed normalization statistics, 31 convolutional FiLM sites and no Transformer. It has approximately 4.849 million trainable parameters. Architecture code is in `model/model_film/region_film/`; `configs/model_film.json` indexes the resources.
 
-衍生模型源码原有 Apache-2.0 LICENSE / NOTICE 与作者信息均保留在 model/model_film；其他历史分析及数据遵循各自已有来源和授权，未擅自为全部数据另设统一开源许可。
+Four independent branches process TSS (600 bp), first donor (2,000 bp), first acceptor (2,000 bp), and upstream TES (1,000 bp) inputs. Biochemical features modulate dilated convolutional representations through FiLM. Regional representations are pooled and concatenated for scalar regression.
+
+The archive contains 10 folds with five seeds (20260915-20260919), retaining 50 best and 50 last checkpoints, preprocessing parameters, run specifications and predictions. Training uses batch size 64, AdamW, learning rate 1e-4, weight decay 1e-5, at most 100 epochs, patience 25 and bfloat16 precision. Validation RMSE selects the best checkpoint. Preprocessing is fitted only on training genes. Saved run specifications contain the complete configuration.
+
+Formal OOF evaluation averages five seeds from the gene's held-out fold, after inverse target transformation. Genomic input windows are disjoint across folds. Homology at distinct loci was not excluded. This evaluation does not establish performance in unseen cell types.
+
+Attribution, motif similarity and computational perturbations characterize model behavior. They do not establish binding, causality or experimentally validated activation/repression. Assay coverage, missingness and the composite target definition constrain interpretation. Random forest analyses have separate preprocessing, selection histories and evaluation scopes.
+
+The English source uses neutral module names. Compatibility mappings align archived resource paths and source revisions with the current checkout. Numerical resources are retained. Required third-party attribution remains in `NOTICE` and license files.

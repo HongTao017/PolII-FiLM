@@ -87,8 +87,8 @@ class RegionEncoder(nn.Module):
         return x.mean(dim=-1)
 
 
-class BPNetPOLIIRegressor(nn.Module):
-    """BPNet-style region encoders with regulatory FiLM conditioning."""
+class SequenceCNNPOLIIRegressor(nn.Module):
+    "Predict signed gene-level PC1 from sequence and biochemical features."
 
     def __init__(self, config, regulatory_dim):
         super().__init__()

@@ -14,13 +14,13 @@
   "panel": "C",
   "description": "Study-mean PC1 by sequencing assay",
   "entry_script": "code/render.py",
-  "source_directory": "G:\\序列分析画图\\Png\\png\\PCA(测序中进行观察)\\sample_scaled_method_boxplot_package\\final_figure_small",
+  "source_directory": "G:\\sequence_analysis_figures\\Png\\png\\PCA_assay_comparison\\sample_scaled_method_boxplot_package\\final_figure_small",
   "source_pdf_sha256": "3b9c0212039d2eb2061437456796209f52ad5c9357c15597fe91cc67dbbc5258",
   "frozen_data_sha256": {
     "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
     "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
-    "data/original_statistical_tests.tsv": "61254fecd8f33ff39cab59c1d07994014dc189103c6260e4c5d045b2dd570d3e",
-    "data/paper_like_pi_study_pc_means.tsv": "520c9bbd463a9532aaa5da63d6f5a599d99f6281d256a4065ba066efbe1257d8",
-    "data/recomputed_statistical_tests.tsv": "b74b3b44f1d234373c89cf613c4fb2fed696c840ab092c9f72619c28e4f352b3"
+    "data/original_statistical_tests.tsv": "fae1d42d07f789b8bce0327bddb48df31ea3c6c8be83e98f5d93493b842ba89f",
+    "data/paper_like_pi_study_pc_means.tsv": "eb50ceeb61c6d0c7a3a2a1858753a8e845bc75dd1e43e4617dc7536bc6417f12",
+    "data/recomputed_statistical_tests.tsv": "e8f4abceaced71eda8c85e0d234ac5872dc8a3eca581288d22010f5fe612bb10"
   }
 }

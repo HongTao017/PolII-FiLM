@@ -1,7 +1,7 @@
 {
   "remote_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_05",
-  "model_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
-  "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008",
+  "model_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008",
+  "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008",
   "selection_root": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/FIG5_SPLICE4_FILM_CHIP_ATTRIBUTION_TENFOLD_20261013/folds/fold_05",
   "analysis_python": "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/bin/python",
   "tomtom": "/home/user_011/micromamba/envs/meme_tools/bin/tomtom",

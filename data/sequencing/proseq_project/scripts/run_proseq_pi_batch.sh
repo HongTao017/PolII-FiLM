@@ -21,7 +21,7 @@ NAME_AUDIT="$PI_ROOT/proseq_sample_name_mapping.tsv"
 mkdir -p "$OUTDIR" "$ACTIVE_DIR" "$MODEL_DIR" "$MATRIX_DIR" "$LOGDIR"
 
 for path in "$PI_SCRIPT" "$MATRIX_SCRIPT" "$BED" "$DIRECTIONS" "$NAMES"; do
-    [[ -s "$path" ]] || { echo "[错误] 缺少输入文件：$path" >&2; exit 1; }
+    [[ -s "$path" ]] || { echo "[Error] Input file missing: $path" >&2; exit 1; }
 done
 
 declare -A FORMAL
@@ -37,12 +37,12 @@ tail -n +2 "$DIRECTIONS" |
 while IFS=$'\t' read -r run gse reads_used same opposite same_pct \
     opposite_pct orientation final_direction use_for_pi; do
     [[ "$use_for_pi" == "yes" ]] || {
-        echo "[跳过] $run：$final_direction/$use_for_pi"
+        echo "[Skipped] $run: $final_direction/$use_for_pi"
         continue
     }
 
     formal="${FORMAL[$run]:-}"
-    [[ -n "$formal" ]] || { echo "[错误] $run 没有正式样本名" >&2; exit 1; }
+    [[ -n "$formal" ]] || { echo "[Error] $run  has no formal sample name" >&2; exit 1; }
 
     bam="$BAMDIR/${run}.GRCh38.standard.primary.q20.bam"
     output="$OUTDIR/${formal}.PI.tsv"
@@ -55,10 +55,10 @@ while IFS=$'\t' read -r run gse reads_used same opposite same_pct \
     printf "%s\t%s\t%s\t%s\t%s\n" \
         "$run" "$formal" "$gse" "$reads_used" "$final_direction" >> "$NAME_AUDIT"
 
-    [[ -s "$bam" ]] || { echo "[错误] 缺少BAM：$bam" >&2; exit 1; }
+    [[ -s "$bam" ]] || { echo "[Error] Missing BAM: $bam" >&2; exit 1; }
 
     if [[ ! -s "$output" ]]; then
-        echo "[计算] $formal ($run) direction=$final_direction reads=$read_selection"
+        echo "[Calculating] $formal ($run) direction=$final_direction reads=$read_selection"
         "$PYTHON" "$PI_SCRIPT" \
             --bed "$BED" \
             --bam "$bam" \
@@ -73,7 +73,7 @@ while IFS=$'\t' read -r run gse reads_used same opposite same_pct \
             --pseudocount 1 \
             >"$log" 2>&1
     else
-        echo "[跳过] $formal 已完成"
+        echo "[Skipped] $formal already completed"
     fi
 
     # Columns 13 and 18 are pause_count and body_count.
@@ -102,8 +102,8 @@ done
     --missing-value NA \
     > "$LOGDIR/build_pi_matrices.log" 2>&1
 
-echo "完成PI样本数：$(find "$OUTDIR" -maxdepth 1 -name '*.PI.tsv' | wc -l)"
-echo "active_min10表数：$(find "$ACTIVE_DIR" -maxdepth 1 -name '*.PI.active_min10.tsv' | wc -l)"
-echo "model_ready表数：$(find "$MODEL_DIR" -maxdepth 1 -name '*.PI.model_ready.tsv' | wc -l)"
-echo "样本汇总：$SUMMARY"
-echo "PI矩阵目录：$MATRIX_DIR"
+echo "Completed PI samples: $(find "$OUTDIR" -maxdepth 1 -name '*.PI.tsv' | wc -l)"
+echo "active_min10 tables: $(find "$ACTIVE_DIR" -maxdepth 1 -name '*.PI.active_min10.tsv' | wc -l)"
+echo "model_ready tables: $(find "$MODEL_DIR" -maxdepth 1 -name '*.PI.model_ready.tsv' | wc -l)"
+echo "Sample summary: $SUMMARY"
+echo "PI matrix directory: $MATRIX_DIR"

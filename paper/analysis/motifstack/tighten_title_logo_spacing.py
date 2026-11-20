@@ -55,12 +55,7 @@ def main():
  new_qa.update(change='title/logo whitespace only',tree_coordinates_unchanged=True,title_positions_unchanged=True,all_PPM_tables_unchanged=table_sha,old_figures_preserved=existing,conservative_title_logo_gap_pt=2.16,logo_upward_translation_pt_range=[min(shifts),max(shifts)])
  (ROOT/'analysis/title_logos_close_QA.json').write_text(json.dumps(new_qa,indent=2),encoding='utf-8')
  qa_path.write_bytes(old_qa_bytes);guide_path.write_bytes(old_guide)
- (ROOT/'analysis/title_logos_close_guide.md').write_text(f'''# 标题与序列logo靠近版
-
-文件：`{OUTPUT}`。
-
-每个标题和其下方logo保持原有对应关系。树的坐标、标题位置、名称、颜色和所有概率矩阵均不变；仅根据每个logo真实最高字母高度，将其向标题靠近，使保守文字边界与最高字母之间约2.16pt。没有放大或压缩字母高度，信息量比例保持原样。各logo移动量为{min(shifts):.2f}–{max(shifts):.2f}pt。旧版PDF保留，核验记录analysis/title_logos_close_QA.json。
-''',encoding='utf-8')
+ (ROOT/'analysis/title_logos_close_guide.md').write_text(f'# Compact title and logo spacing\n\nOutput: `{OUTPUT}`.\nEach title retains its corresponding logo. Tree coordinates, labels, colors and PPMs are unchanged. Logos move toward titles according to their actual highest letter, leaving approximately 2.16 pt between conservative text bounds and the highest letter. Information-content scaling is retained. Shifts span {min(shifts):.2f}-{max(shifts):.2f} pt. Recorded checks: `analysis/title_logos_close_QA.json`.\n',encoding='utf-8')
  print(json.dumps(dict(status='PASS',output=str(OUTPUT),titles=13,logos=13,tree_coordinates_unchanged=True,title_positions_unchanged=True,gap_pt=2.16,logo_shift_pt_range=[min(shifts),max(shifts)],all_PPMs_unchanged=True,old_PDFs_preserved=True)),flush=True)
 
 if __name__=='__main__':main()

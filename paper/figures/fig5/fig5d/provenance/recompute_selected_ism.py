@@ -14,7 +14,7 @@ a=p.parse_args()
 D=BUNDLE/'data/perturbation';plan=json.loads((D/'frozen_plan.json').read_text());cfg=json.loads((BUNDLE/'provenance/experiment_config.json').read_text());man=json.loads((BUNDLE/'provenance/run_manifest.json').read_text())
 assert plan['gene'] in ('PTGIS','ZBTB7A') and len(plan['variants'])==303 and len(plan['seeds'])==5
 regions=('tss_sequence','first_donor_sequence','first_acceptor_sequence','pre_tes_sequence');offsets=np.cumsum([0,600,2000,2000,1000])
-src=Path(cfg['source_root'])/'data/bpnet_prepared'
+src=Path(cfg['source_root'])/'data/sequence_prepared'
 required=[src/(r+'.npy') for r in regions]+[src/'regulatory_log10_unscaled.npy']
 complete=json.loads((D/'complete.json').read_text())
 for seed_record in complete['WT_predictions']:

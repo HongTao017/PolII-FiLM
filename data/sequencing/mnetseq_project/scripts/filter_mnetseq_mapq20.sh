@@ -12,12 +12,12 @@ MAPQ=20
 mkdir -p "$OUTPUT" "$LOGDIR" "$PROJECT/results"
 
 command -v samtools >/dev/null 2>&1 || {
-    echo "[错误] 找不到 samtools" >&2
+    echo "[Error] Not found:  samtools" >&2
     exit 1
 }
 
 [[ -d "$INPUT" ]] || {
-    echo "[错误] 找不到输入目录：$INPUT" >&2
+    echo "[Error] Input directory not found: $INPUT" >&2
     exit 1
 }
 
@@ -33,7 +33,7 @@ shopt -s nullglob
 bams=("$INPUT"/*.GRCh38.sorted.bam)
 
 if [[ ${#bams[@]} -eq 0 ]]; then
-    echo "[错误] 没有找到完整的 *.GRCh38.sorted.bam" >&2
+    echo "[Error] Not found: complete  *.GRCh38.sorted.bam" >&2
     exit 1
 fi
 
@@ -45,10 +45,10 @@ for bam in "${bams[@]}"; do
     tmpbam="${outbam}.incomplete"
     logfile="$LOGDIR/${run}.mapq20.log"
 
-    echo "[$(date '+%F %T')] Q20过滤：$run"
+    echo "[$(date '+%F %T')] Q20 filtering: $run"
 
     if ! samtools quickcheck "$bam" 2>/dev/null; then
-        echo "[错误] $run 输入BAM不完整" | tee "$logfile"
+        echo "[Error] $run Input BAM is incomplete" | tee "$logfile"
         printf '%s\tNA\tNA\tNA\tNA\t%s\tFAILED\n' \
             "$run" "$outbam" >> "$SUMMARY"
         failed=$((failed + 1))
@@ -60,7 +60,7 @@ for bam in "${bams[@]}"; do
 
     if [[ -s "$outbam" ]] && samtools quickcheck "$outbam" 2>/dev/null; then
         [[ -s "${outbam}.bai" ]] || samtools index -@ "$THREADS" "$outbam"
-        echo "[跳过] $run 的Q20 BAM已完成"
+        echo "[Skipped] $run Q20 BAM already completed"
     else
         rm -f -- "$tmpbam" "${tmpbam}.bai" "$outbam" "${outbam}.bai"
 
@@ -77,7 +77,7 @@ for bam in "${bams[@]}"; do
             mv -- "$tmpbam" "$outbam"
             samtools index -@ "$THREADS" "$outbam"
         else
-            echo "[错误] $run Q20过滤失败：$logfile"
+            echo "[Error] $run Q20 filtering failed: $logfile"
             rm -f -- "$tmpbam" "${tmpbam}.bai"
             printf '%s\t%s\tNA\tNA\tNA\t%s\tFAILED\n' \
                 "$run" "$total_records" "$outbam" >> "$SUMMARY"
@@ -87,7 +87,7 @@ for bam in "${bams[@]}"; do
     fi
 
     if ! samtools quickcheck "$outbam" || [[ ! -s "${outbam}.bai" ]]; then
-        echo "[错误] $run 输出BAM检查失败"
+        echo "[Error] $run Output BAM check failed"
         printf '%s\t%s\tNA\tNA\tNA\t%s\tFAILED\n' \
             "$run" "$total_records" "$outbam" >> "$SUMMARY"
         failed=$((failed + 1))
@@ -103,17 +103,17 @@ for bam in "${bams[@]}"; do
         "$run" "$total_records" "$q20_records" "$q20_pairs" \
         "$retention" "$outbam" >> "$SUMMARY"
 
-    echo "[完成] $run：保留 ${q20_records}/${total_records} records (${retention}%)"
+    echo "[Completed] $run: Retained ${q20_records}/${total_records} records (${retention}%)"
 done
 
 pass_count=$(awk -F '\t' 'NR>1 && $7=="PASS" {n++} END{print n+0}' "$SUMMARY")
 fail_count=$(awk -F '\t' 'NR>1 && $7=="FAILED" {n++} END{print n+0}' "$SUMMARY")
 
 echo
-echo "输入BAM数：${#bams[@]}"
-echo "PASS：$pass_count"
-echo "FAILED：$fail_count"
-echo "汇总表：$SUMMARY"
+echo "Input BAM count: ${#bams[@]}"
+echo "PASS: $pass_count"
+echo "FAILED: $fail_count"
+echo "Summary table: $SUMMARY"
 
 [[ "$failed" -eq 0 ]]
 

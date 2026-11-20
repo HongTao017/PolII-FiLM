@@ -1,11 +1,7 @@
-# 原版 A 全基因、全有效碱基饱和突变
+# Single base allpositions 20261112
 
-覆盖原始 15,351 个基因四个输入窗口的每一个有效 A/C/G/T 位点。各位点都计算另外三种单碱基替换。同一基因组坐标若在多个窗口出现，同步修改所有副本，仅计算一次物理突变。N 和 padding 缺失位置跳过。无内含子基因的剪接窗口仍按缺失处理。
+The four-region substitution analysis evaluates all valid bases and three alternative bases using five held-out models. Copies of the same genomic position are edited together. Per-position sensitivity is the absolute value of the mean signed substitution effect. Saved gene-level arrays, coverage records and region summaries support statistical recomputation without retraining.
 
-每基因使用其原测试折五个模型和各自保存的预处理。五类 2,554 列调控输入固定。Q1–Q4 直接复用旧分组，不重新划分。逐基因保存完整有符号替换效应及坐标映射，推理采用 FP32，并显式关闭 TF32。
+## Usage
 
-按用户要求使用 GPU 1、2、3 三卡并行，折间独立调度，其余 GPU 不参与本任务。
-
-完成后 `position_curves_per_base.tsv` 保留每一个窗口位置的组均值和支持基因数，包含先平均三种替换再取绝对值、先取绝对值再平均，以及有符号均值三项指标。`gene_region_scores.tsv` 保存全部有效位点与独有位点两套逐基因区域分数。结果可用于核心 TSS 与完整区域的进一步比较。
-
-`protocol.json` 记录全量有效窗口碱基、去重物理位点及预测次数。`genes/fold_*/gene_*.npz` 每个基因独立保存五种子结果，可恢复运行。`logs/status.txt` 与各 GPU 日志记录进度。该目录是新增全序列实验，既往图包的数据仍可用于对照。
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

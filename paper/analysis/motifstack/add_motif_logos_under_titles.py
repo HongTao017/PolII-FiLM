@@ -144,18 +144,7 @@ def main():
  # outside the tree, with no intersections between annotation blocks.
  report=dict(status='PASS',output=str(OUT),canvas_inches=[5,4],titles=13,logos=13,title_font_pt=12,title_font='Arial',all_letters_vector_paths=True,embedded_images=0,scale=scale,rotation=rot,legend_position=legend_position,annotation_blocks_overlap=0,annotation_blocks_crop=0,logo_color=COLORS,letter_height='p(base,position) * (2 - Shannon_entropy(position)) bits against uniform 0.25 background; common 0-2 bit scale',logo_orientation='clade alignment anchor, with original member reverse-complements explicitly recorded',logo_source='equal-weight mean original H5 sequence PPMs, no added pseudocounts; frozen aligned cores except poly-T groups',homopolymer_logo='center-crop each observed aligned Cavener T run to that clade minimum (5 or 13), then equal-weight PPM average; no synthetic consensus logos',native_tree_sha256=r.TREE_SHA,native_topology_unchanged=True,original_cyclic_leaf_order_unchanged=True,grey_regions=29,outer_ring_matched_patterns=44,outer_ring_unmatched_patterns=270,angular_layout='13 annotation clades equally spaced, native leaf order preserved; angles are for display, not quantitative distances',logos_QA=reports,PDF_QA=qa)
  (ROOT/'analysis/title_logos_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
- note=f'''# 每个标题下增加真实序列 logo
-
-文件：`{OUT}`。
-
-对应用户截图的13个分区标题（包括5T+、13T+）全部保留，每个标题下增加一个对应分区的概率序列logo。保持完整314叶树，保留29处灰色分区、深紫44命中与浅紫270未命中；原始分支和循环顺序不变，角度为容纳logo而均匀展开。
-
-Logo由原H5 sequence全精度概率矩阵绘制，不是JASPAR参考logo，也不是将IUPAC字符串直接画成字母。混合核心使用已冻结对齐核心的等权平均PPM。5T+/13T+为显示名称对应的实际重复长度，将各成员按对齐方向的最大连续T共识段居中裁取到本分支最短长度5/13，再等权平均；序列位置与反向互补方向均记录在analysis/title_logos_source_coordinates.tsv。
-
-字母高度为p×IC（uniform A/C/G/T背景），IC=2+Σp log2p，所有logo统一0–2bits高度比例。A绿色、C蓝色、G金色、T红色，使用矢量字形。标题Arial12pt黑色，5×4inch单页PDF。两个同名4TKTW5T仍是两个原分区各自的实际平均logo，因此可直接比较概率差异。
-
-数据：analysis/title_logos_core_PPM.tsv；核验：analysis/title_logos_QA.json。旧版PDF均保留。
-'''
+ note=f'# Sequence logos below partition titles\n\nOutput: `{OUT}`.\nAll 13 partition titles, including 5T+ and 13T+, have their corresponding probability logos. The complete 314-leaf topology and circular order are retained, with 29 shaded partitions, 44 matched and 270 unmatched patterns.\nLogos use full-precision native H5 sequence probabilities. Mixed cores use equally weighted aligned PPMs. Repeat cores are centered on the longest continuous T-consensus segment and cropped to the shortest member length (5 or 13). Coordinates and orientations are in `analysis/title_logos_source_coordinates.tsv`.\nLetter height is p times information content against a uniform background, on a shared 0-2 bit scale. A/C/G/T are green/blue/gold/red. The 5x4 inch PDF uses editable Arial 12 pt text. The two 4TKTW5T labels refer to distinct original partitions.\nMatrices: `analysis/title_logos_core_PPM.tsv`. Recorded checks: `analysis/title_logos_QA.json`.\n'
  (ROOT/'analysis/title_logos_guide.md').write_text(note,encoding='utf-8')
  print(json.dumps(report),flush=True)
 

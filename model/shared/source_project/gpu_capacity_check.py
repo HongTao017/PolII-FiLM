@@ -6,9 +6,9 @@ from pathlib import Path
 import torch
 import torch.nn.functional as F
 
-from bpnet_polii.config import CONFIG
-from bpnet_polii.model import BPNetPOLIIRegressor
-from corgi_polii.utils import write_json
+from sequence_utils.config import CONFIG
+from sequence_utils.model import SequenceCNNPOLIIRegressor
+from pausing_utils.utils import write_json
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     torch.set_num_threads(4)
     torch.manual_seed(20260915)
     device = torch.device("cuda:0")
-    model = BPNetPOLIIRegressor(CONFIG, 2554).to(device).train()
+    model = SequenceCNNPOLIIRegressor(CONFIG, 2554).to(device).train()
     optimizer = torch.optim.AdamW(model.parameters(), lr=CONFIG["lr"], weight_decay=CONFIG["wd"])
     inputs = {name: F.one_hot(torch.randint(0, 4, (args.batch_size, length), device=device), 4).float()
               for name, length in CONFIG["region_lengths"].items()}

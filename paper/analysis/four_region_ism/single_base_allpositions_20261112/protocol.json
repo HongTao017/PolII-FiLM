@@ -16,8 +16,8 @@
   ],
   "group_source_sha256": "8a0fd3a11ac638052cf8543492081e90ecb3f4c7275a2dd673ac76a5787f081a",
   "coverage_sha256": "e7ff2919b4c5d5b98acaeca3dbc48803d6f994e714ba9993d7b0096b5fc9e826",
-  "code_sha256": "2d45047bb7d8372b13fbe84f1a1a7968221092af54e50961c1e341e88010bf7f",
-  "inference_helper_sha256": "61dbec535579f7e608f1a13192c0a3fb5eafd592283d79cec12ca8a3a225f486",
+  "code_sha256": "a4ddfe90b4fd117e06723471a81899ec6e73a1f99f1f40378510bda37698a751",
+  "inference_helper_sha256": "1cf298a52ef1a0f56dbf2dc5585319baec3307785391218014cfdb0af310cb81",
   "window_bases": 85061598,
   "unique_physical_sites": 70035600,
   "variant_predictions": 1050534000,
@@ -422,5 +422,6 @@
       "preprocessing": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/preprocessing.npz",
       "run_spec": "A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full/fold_10/seed_20260919/run_spec.json"
     }
-  ]
+  ],
+  "archive_protocol_sha256": "b2eebd8c75e8dca1f9d691ba53ccf6240326b7122afae149b36b59e212f34b47"
 }

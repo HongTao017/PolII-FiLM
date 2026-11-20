@@ -17,7 +17,7 @@ def check(p,expected):
     assert sha(p)==expected,str(p)
     used[str(p)]=expected
 for name in ['selected_genes.tsv','modisco_input_order.npy','modisco/tss_sequence.h5']:check(R/name,completion['outputs_sha256'][name])
-source=Path(cfg['source_root'])/'data/bpnet_prepared/tss_sequence.npy'
+source=Path(cfg['source_root'])/'data/sequence_prepared/tss_sequence.npy'
 metadata=Path(cfg['model_root'])/'data/genes_repartitioned.tsv'
 for p in [source,metadata]:check(p,man['original_inputs_sha256'][str(p)])
 selected=list(csv.DictReader((R/'selected_genes.tsv').open(),delimiter='\t'))
@@ -55,10 +55,10 @@ for suffix,panel in [('TSS600_IMPORTANCE','full_tss'),('SEQLET50_CONTRIBUTION','
     np.savez_compressed(folder/'data/selected_real_attribution.npz',onehot=dna,hypothetical=mean,actual=actual,genomic_position0=coords,seqlet_contrib_scores=stored_cwm,seed_hypothetical=np.stack(attrs).transpose(0,2,1))
     (folder/'data/selection.json').write_text(json.dumps(info,indent=2))
     np.savetxt(folder/'data/attribution_600bp.tsv',np.column_stack([np.arange(600),coords+1,list(seq),actual.sum(1)]),fmt='%s',delimiter='\t',header='input_position0\tgenomic_position1\tbase\tsigned_observed_contribution',comments='')
-    package=dict(filename=name+'.pdf',panel=panel,description='ZBTB7A/SP4 完整TSS归因强度' if panel=='full_tss' else 'ZBTB7A/SP4 50bp来源实例碱基贡献',gene='ZBTB7A',fold=10,pattern=plan['pattern'],seqlet=75)
+    package=dict(filename=name+'.pdf',panel=panel,description="ZBTB7A/SP4 complete TSS attribution" if panel=='full_tss' else "ZBTB7A/SP4 50-bp source-seqlet contributions",gene='ZBTB7A',fold=10,pattern=plan['pattern'],seqlet=75)
     (folder/'package.json').write_text(json.dumps(package,ensure_ascii=False,indent=2))
     (folder/'requirements.txt').write_text('numpy==2.2.6\nmatplotlib==3.10.9\nPyMuPDF==1.28.2\n')
-    (folder/'README.md').write_text('# ZBTB7A / SP4 attribution\n\n重绘：`python plot.py`，或 `python plot.py --output /path/to/output.pdf`。\n\n'+package['description']+'。此图与最终101bp ISM使用同一基因、同一Fold10来源seqlet75；此处绘制DeepLIFT归因，单位为原始signed Y_PC1 contribution，非ISM突变效应。\n\n完整输入0–599；TSS坐标见data/selection.json；seqlet55–104；SP4样序列匹配96–104。均为0-based输入位置。\n\n实际观察碱基的归因＝onehot × 五个seed平均hypothetical attribution；保留原始正负值，不平滑、不归一化。50bp图为单个基因实例，非98个seqlet的平均CWM。\n\nArial：刻度/普通文字12pt，轴标题14pt；左轴线1.3pt；无下边框，保留x轴刻度。PDF为矢量输出。用户已允许合适尺寸，并要求下载本地。\n\ndata包含完整600bp原始数据、五seed数据、坐标和来源哈希。provenance/prepare_source.py记录原始来源提取过程；日常重绘只需本包文件。\n')
+    (folder/'README.md').write_text("# ZBTB7A / SP4 attribution\n\nRun `python plot.py` or provide an output PDF with --output.\n\n"+package['description']+". The figure and final 101-bp mutagenesis example use the same gene and fold-10 seqlet. Values are signed PC1 contributions. Complete input positions are 0-599; the source seqlet spans 55-104 and the SP4-like match spans 96-104. Contributions are observed-base one-hot values multiplied by five-seed mean hypothetical attributions, without smoothing or normalization. This is one seqlet, not the 98-seqlet average pattern. Frozen data, coordinates and source hashes are retained.\n")
     trials=[folder/'audit/trial1.pdf',folder/'audit/trial2.pdf']
     import pymupdf
     logs=[]
@@ -76,7 +76,7 @@ for suffix,panel in [('TSS600_IMPORTANCE','full_tss'),('SEQLET50_CONTRIBUTION','
     files=[p for p in folder.rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     record=dict(folder=name,description=package['description'],filename=output.name,source_sha256=sha(output),files=len(files),bytes=sum(p.stat().st_size for p in files),pixel_identical=True)
     reports.append(record);print(json.dumps(record),flush=True)
-for filename in ['图件目录.tsv']:
+for filename in ["figure_index.tsv"]:
     path=DEST/filename
     with path.open(newline='') as f:
         reader=csv.DictReader(f,delimiter='\t');fields=reader.fieldnames;rows=list(reader)

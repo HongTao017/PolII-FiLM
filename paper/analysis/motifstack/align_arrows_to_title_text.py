@@ -66,12 +66,7 @@ def main():
  q['unchanged_logo_tables']=tablesha;q['old_figures_preserved']=True
  (ROOT/'analysis/arrows_to_text_QA.json').write_text(json.dumps(q,indent=2),encoding='utf-8')
  qa_file.write_bytes(oldqa);guide_file.write_bytes(oldguide)
- (ROOT/'analysis/arrows_to_text_guide.md').write_text(f'''# 箭头指向标题并对齐
-
-文件：`{OUT}`。
-
-13个黑色箭头均从原来对应的分区出发，向外指向其标题。箭头终点与文字中心线对齐，在文字内侧边缘前保留2.52pt间距。13条连接线全部为直线，箭头间无交叉。标题与下方logo保持先前的紧凑间距及对应关系，树坐标、名称、字体与真实PPM均不变。旧版保留；核验记录analysis/arrows_to_text_QA.json。
-''',encoding='utf-8')
+ (ROOT/'analysis/arrows_to_text_guide.md').write_text(f'# Arrows aligned to title text\n\nOutput: `{OUT}`.\nAll 13 straight arrows connect their partitions to their titles and stop 2.52 pt before the inner text boundary. Lines do not cross. Logo spacing, tree coordinates, labels, fonts and probabilities are retained. Recorded checks: `analysis/arrows_to_text_QA.json`.\n',encoding='utf-8')
  print(json.dumps(dict(status='PASS',output=str(OUT),arrows=13,direction='tree to title text',text_centerline_aligned=True,arrow_crossings=0,tip_gap_pt=2.52,logo_data_unchanged=True,old_files_preserved=True)),flush=True)
 
 if __name__=='__main__':main()

@@ -1,5 +1,7 @@
-# 仅显著组雨云图
+# Raincloud significant only 20261112
 
-仅展示正贡献模式按 TF 标签合并后，在原有探索性配对检验中 Holm 校正 P<0.05 的 KLF16、SP1、SP2、SP4，并保留其匹配背景。星号不是单个散点的 P 值；多个标签共享部分 pattern，不能作为四份独立蛋白证据。44 个原始 pattern 的主要检验均未达到校正后显著性。
+This package contains frozen plotting inputs, its PDF figure, plotting code and provenance records. Use the package plotting entry point or the repository-wide figure runner. Numeric values and the original figure dimensions are retained.
 
-纵轴范围 ±0.0015 PC1，间隔 0.0005。图上使用 ×10⁻³。边界三角表示超出此显示范围的值，完整数值保留在 plot_values.tsv；先前完整范围全 motif 图册保留。没有修改数据或重新计算检验。
+## Usage
+
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

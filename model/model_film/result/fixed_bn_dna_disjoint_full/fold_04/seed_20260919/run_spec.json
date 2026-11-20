@@ -1,7 +1,7 @@
 {
   "training_config": {
     "run_name": "fixed_bn_dna_disjoint_full",
-    "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008",
+    "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008",
     "replicate_seeds": [
       20260915,
       20260916,
@@ -107,30 +107,30 @@
   "fold": 4,
   "replicate": 5,
   "seed": 20260919,
-  "manifest_sha256": "f166375f8f114735f6d5e69c1d9e960e7deffa69f28421c85489d58d2939b75b",
-  "split_manifest_sha256": "a43e7e5170c5b1ff0dc6a63e1859d84bb6346468f026d2f6c5e1fdfe08263d3a",
+  "manifest_sha256": "6cf028519bb522de1882d155a1e2ace23cf93976b58ecba9cf081a990348a69a",
+  "split_manifest_sha256": "524a58fbd2193a244f5693d435143a7fc8e6b6b4e60a7364148c90f785a1572c",
   "metadata_sha256": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8",
   "implementation_sha256": {
-    "corgi_splice4/__init__.py": "b084c75682b9369783540ce139b1af1ee2e6419b48461d18eb707d9ed74f7ad5",
-    "corgi_splice4/config.py": "5a094d8d7967bae79f66ccc66f6fe4577b5ff5d4c206b1137ed8b4ff33dc2d96",
-    "corgi_splice4/model.py": "d8d443806da1067c1f4672470c1110e37ef42bd042a8b106129581c37436fd34",
-    "corgi_splice4/modules.py": "c7f5da63b7e696b21e48ccff2f62b5aec8cb4e842acb9b7a2e2508cd7b1b0d92",
-    "train_experiment.py": "6048081c899b671e7ccfcbb6799fa14848d1876982c25360bbad27b50830d7b4",
-    "disjoint_splits.py": "d165ae6d74c11300733666ac4572be3afdaaab97600854cdac053ae4331386a9"
+    "region_film/__init__.py": "b084c75682b9369783540ce139b1af1ee2e6419b48461d18eb707d9ed74f7ad5",
+    "region_film/config.py": "473464e5bcc6b0a345cb05011b7e215da52031c2de97e1af74becdbeb99c5363",
+    "region_film/model.py": "070b6ac5c095d24c41b4bfd676ebfc5cc9128446ea709e66c2ffbbf5df3f5d75",
+    "region_film/modules.py": "36789c87272c1056a0a9784a644581cc0beb2a11c5047c42334d4f97b58855f5",
+    "train_experiment.py": "1d8a6fd1c6c3c4d8812c54f00ac8b5a52a6f6f858f6d3661c6327baeb4ec103e",
+    "disjoint_splits.py": "be2610789ef9c51c481a9a914dfed15e3239c968cbf3affafedff05575d9ea41"
   },
   "reused_source_sha256": {
-    "bpnet_polii/data.py": "e9aed3bc74ce4693986272a22672347309d5ab4209f6113ed39b906cf94de60d",
-    "corgi_polii/__init__.py": "2937ce5a1c2ad56ecea2c9e0f8bfc7f6fee1c9f154410696c9e92a9c454b7404",
-    "corgi_polii/config.py": "899952fa6fb4d6fb7b1e45172be78c07ec03408b2569403bee8ba3815a7ee6db",
-    "corgi_polii/data_classes.py": "664ea57c27f33cb00c188d97980c2d06618ca7130614ad3cd02182edc51343e7",
-    "corgi_polii/data_processing.py": "e655f120030fb1ad08487020eea2b9eb2c66f0f815359c1977bd95dfe88bd132",
-    "corgi_polii/main_train.py": "962e345825b1737e808cafc081e3f400326a84f93f7d9d7b9a3a771aeb023aef",
-    "corgi_polii/model.py": "accb2db7ad776e7e25f3fee1a2c46e93590afebbe3b4e00f65a1b652e59adc28",
-    "corgi_polii/preprocessing.py": "9457a57866cc288ffe7b52ffcd6ff09166831d4b2fc8040544e57a55e7d549dc",
-    "corgi_polii/reference.py": "f595d39327abd50e0c96c7bf70b42ec6dcd66da1c87dd52fc809652b77e36a5b",
-    "corgi_polii/trainer.py": "77bbe4433c91fdab23cafa372abb8fa5e043013c6e1ba1c56b9f143fe37a022d",
-    "corgi_polii/training_controls.py": "063d850141f58d4fb50ed3db6a78092450b5458ab64edbe9417d36b0b9412cc3",
-    "corgi_polii/utils.py": "a897fe17c2cee71637952ffd9edecc3f1c3e6bdab1fe54d04f5925858a62fece"
+    "sequence_utils/data.py": "e9aed3bc74ce4693986272a22672347309d5ab4209f6113ed39b906cf94de60d",
+    "pausing_utils/__init__.py": "98f12a9aac4923735d89f3eb737c52ce6fa3354567d108a88a41e3b84643f835",
+    "pausing_utils/config.py": "899952fa6fb4d6fb7b1e45172be78c07ec03408b2569403bee8ba3815a7ee6db",
+    "pausing_utils/data_classes.py": "664ea57c27f33cb00c188d97980c2d06618ca7130614ad3cd02182edc51343e7",
+    "pausing_utils/data_processing.py": "e655f120030fb1ad08487020eea2b9eb2c66f0f815359c1977bd95dfe88bd132",
+    "pausing_utils/main_train.py": "4e46f7a2214907712bfafc440cfc6876859783805c99c44f0dac6611c461c39a",
+    "pausing_utils/model.py": "9a677bb45ad5eda4cda969b31a7b02e03bdc891ff6c8460831be2290a2d74e3f",
+    "pausing_utils/preprocessing.py": "9457a57866cc288ffe7b52ffcd6ff09166831d4b2fc8040544e57a55e7d549dc",
+    "pausing_utils/reference.py": "947e04b1160f899d7951275cd85f9be1b91ce943a91de054fe5e4dff63aafc52",
+    "pausing_utils/trainer.py": "6c6b53bc226556714d84420c86dfcadc18539fe1de525fc362a11cd85df5e186",
+    "pausing_utils/training_controls.py": "063d850141f58d4fb50ed3db6a78092450b5458ab64edbe9417d36b0b9412cc3",
+    "pausing_utils/utils.py": "a897fe17c2cee71637952ffd9edecc3f1c3e6bdab1fe54d04f5925858a62fece"
   },
   "fingerprint": "de791bd7177c9dbd81d9e58e9576b0e6c38ce380562f37462ed0e9330f5912f0"
 }

@@ -17,7 +17,7 @@ tail -n +2 "$DIRECTIONS" |
 while IFS=$'\t' read -r sample gse reads_used same opposite same_pct \
     opposite_pct orientation final_direction use_for_pi; do
     [[ "$use_for_pi" != "yes" ]] && {
-        echo "[跳过] $sample：$final_direction/$use_for_pi"
+        echo "[Skipped] $sample: $final_direction/$use_for_pi"
         continue
     }
 
@@ -29,7 +29,7 @@ while IFS=$'\t' read -r sample gse reads_used same opposite same_pct \
     [[ "$reads_used" == "R1" ]] && read_selection="r1"
 
     if [[ ! -s "$bam" ]]; then
-        echo "[错误] 缺少BAM：$bam" | tee "$log"
+        echo "[Error] Missing BAM: $bam" | tee "$log"
         continue
     fi
     if [[ -s "$output" ]]; then
@@ -37,11 +37,11 @@ while IFS=$'\t' read -r sample gse reads_used same opposite same_pct \
             awk -F '\t' 'BEGIN{OFS="\t"} NR==1 || ($13+$18)>=10' \
                 "$output" > "$active"
         fi
-        echo "[跳过] $sample 已完成"
+        echo "[Skipped] $sample already completed"
         continue
     fi
 
-    echo "[计算] $sample direction=$final_direction reads=$read_selection"
+    echo "[Calculating] $sample direction=$final_direction reads=$read_selection"
     if "$PYTHON" "$PI_SCRIPT" \
         --bed "$BED" \
         --bam "$bam" \
@@ -58,7 +58,7 @@ while IFS=$'\t' read -r sample gse reads_used same opposite same_pct \
         awk -F '\t' 'BEGIN{OFS="\t"} NR==1 || ($13+$18)>=10' \
             "$output" > "$active"
     else
-        echo "[错误] $sample 计算失败，请查看 $log"
+        echo "[Error] $sample Calculation failed; see $log"
         rm -f "$output" "$active"
     fi
 done
@@ -74,5 +74,5 @@ for output in "$OUTDIR"/*.PI.tsv; do
     printf "%s\t%d\t%d\n" "$sample" "$total" "$active_n" >> "$SUMMARY"
 done
 
-echo "完成样本数：$(find "$OUTDIR" -maxdepth 1 -name '*.PI.tsv' | wc -l)"
-echo "汇总表：$SUMMARY"
+echo "Completed samples: $(find "$OUTDIR" -maxdepth 1 -name '*.PI.tsv' | wc -l)"
+echo "Summary table: $SUMMARY"

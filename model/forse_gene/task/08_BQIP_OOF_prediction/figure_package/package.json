@@ -1,12 +1,12 @@
 {
   "panel": "D",
   "filename": "fig4.d.pdf",
-  "description": "固定BQIP模型：15,351个基因的实测与OOF预测",
+  "description": "Fixed BQIP model: observed and OOF predictions for 15,351 genes",
   "canvas_inches": [
     5,
     4
   ],
-  "source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_5x4PDF\\03_OOF_fixed_BQIP_5x4.pdf",
+  "source_pdf": "G:\\sequence_analysis_figures\\Png\\png\\gene_feature_cross_validation\\redraw_5x4_20261021\\03_OOF_fixed_BQIP_5x4.pdf",
   "approved_pdf_sha256": "6327d9d45de7a4b78543649e571998f74a683e2b68b1cbadda7566bcd08b0f84",
   "entry_script": "code/render.py",
   "frozen_input_sha256": {

@@ -1,3 +1,9 @@
-**补充图 S1｜不同样本中有效 PI 转录本条目数量的差异。** 柱状图显示105个人类样本在原始log2PI矩阵中的有效转录本条目数，按实验室／来源作者分组排列。样本标识包含来源作者、测序方式、研究编号、细胞系和重复编号。采用适配不同测序技术与文库类型的处理流程，在统一的区域定义下计算暂停指数PI。三类数据的log2PI矩阵共包含16,696个不同的转录本条目，每个样本包含9,197–14,338个有效条目。有效条目按原始矩阵中的有限数值统计；零值和负log2PI值均计入，缺失值不计入，计数未使用插补数据。
+# Figs1
+
+This package contains frozen plotting inputs, its PDF figure, plotting code and provenance records. Use the package plotting entry point or the repository-wide figure runner. Numeric values and the original figure dimensions are retained.
 
 **Supplementary Fig. S1 | Variation in the number of valid PI transcript entries across samples.** Bar plot showing the number of transcript entries with finite log2PI values in each of 105 human samples, grouped by laboratory/source author. Sample identifiers indicate the source author, sequencing assay, study accession, cell line and replicate. PI was calculated using assay- and library-specific processing under a unified regional definition, as described in the accompanying methods. The GRO-seq, MNET-seq and PRO-seq matrices jointly contain 16,696 distinct transcript entries, with 9,197–14,338 valid entries per sample. Counts were calculated before imputation; zero and negative log2PI values were retained.
+
+## Usage
+
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

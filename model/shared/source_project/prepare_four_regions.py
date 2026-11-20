@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from pyfaidx import Fasta
 
-from corgi_polii.utils import sha256, split_indices, write_json
+from pausing_utils.utils import sha256, split_indices, write_json
 from inspect_splice_annotation import audit
 
 
@@ -161,8 +161,8 @@ def main():
     args = parser.parse_args()
     root = Path(__file__).resolve().parent
     source = args.source_root.resolve()
-    original = source / "data/bpnet_prepared"
-    prepared = root / "data/bpnet_prepared"
+    original = source / "data/sequence_prepared"
+    prepared = root / "data/sequence_prepared"
     if root == source or source in root.parents and root.name == "data":
         raise ValueError("Output must be an isolated experiment directory")
     if (root / "data").is_symlink() or prepared.is_symlink():
@@ -188,9 +188,9 @@ def main():
         shutil.copy2(original / name, prepared / name)
         if sha256(prepared / name) != old_manifest["prepared_sha256"][name]:
             raise AssertionError(f"Preserved artifact mismatch: {name}")
-    shutil.copytree(source / "data/bpnet_splits", root / "data/bpnet_splits")
-    for path in sorted((root / "data/bpnet_splits").glob("*.tsv")):
-        if sha256(path) != sha256(source / "data/bpnet_splits" / path.name):
+    shutil.copytree(source / "data/gene_splits", root / "data/gene_splits")
+    for path in sorted((root / "data/gene_splits").glob("*.tsv")):
+        if sha256(path) != sha256(source / "data/gene_splits" / path.name):
             raise AssertionError("Original fold file changed during copying")
     fasta_path = Path(next(item["path"] for item in old_manifest["source_records"]
                            if item["source"] == "fasta"))
@@ -254,8 +254,8 @@ def main():
     x = np.load(prepared / "regulatory_log10_unscaled.npy", mmap_mode="r")
     if x.shape != (len(genes), 2554) or not np.allclose(genes.Y_PC1, y, rtol=0, atol=1e-10):
         raise AssertionError("Original feature/target alignment lost")
-    folds_hash = sha256(root / "data/bpnet_splits/fold_assignments.tsv")
-    if folds_hash != old_manifest["prepared_sha256"]["../bpnet_splits/fold_assignments.tsv"]:
+    folds_hash = sha256(root / "data/gene_splits/fold_assignments.tsv")
+    if folds_hash != old_manifest["prepared_sha256"]["../gene_splits/fold_assignments.tsv"]:
         raise AssertionError("Fold assignment hash differs")
     manifest = {
         "gene_count": len(genes), "feature_count": 2554, "module_sizes": old_manifest["module_sizes"],
@@ -287,8 +287,8 @@ def main():
         "fasta_stat": {"size": fasta_path.stat().st_size, "mtime_ns": fasta_path.stat().st_mtime_ns},
         "prepared_sha256": {path.name: sha256(path) for path in sorted(prepared.iterdir()) if path.is_file()},
     }
-    for path in sorted((root / "data/bpnet_splits").glob("*.tsv")):
-        manifest["prepared_sha256"][f"../bpnet_splits/{path.name}"] = sha256(path)
+    for path in sorted((root / "data/gene_splits").glob("*.tsv")):
+        manifest["prepared_sha256"][f"../gene_splits/{path.name}"] = sha256(path)
     write_json(prepared / "manifest.json", manifest)
     validation = {"status": "PASS", "manifest_sha256": sha256(prepared / "manifest.json"),
                   "annotation_audit": annotation_audit, "sequence_checks": validation_checks,
@@ -298,7 +298,7 @@ def main():
                   "unbiased_cv_eligible_with_original_folds": len(pairs) == 0}
     if not validation["original_data_unchanged"]:
         raise AssertionError("Original source data changed")
-    write_json(root / "logs/bpnet_validation.json", validation)
+    write_json(root / "logs/sequence_validation.json", validation)
     write_json(root / "logs/four_region_preparation_summary.json", {
         "status": "PASS", "genes": len(genes), "features": 2554,
         "annotation_status_counts": annotation_audit["status_counts"],

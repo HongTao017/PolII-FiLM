@@ -1,36 +1,36 @@
 {
-  "config_sha256": "ee8cab41e6e24a596baadf1312fd9cce532c7ceb4d50345441f0a1c6c40b5207",
+  "config_sha256": "d7a6b854244fcd5a7a15ee59237068a981513bafa93a36ec9a60bfe9ab5b443a",
   "selected_genes_sha256": "981bbb025c284f917397bd485683d64674bc4ed553dc09a3f26f71cc3fdca217",
   "motif_database_sha256": "57709dae06ac653c807a25256c00f1148dfeb620201078e0be26713d1c35eca8",
   "original_checkpoint_files": {
     "20260915": {
       "best.pt": "5baf39628193ba588f9ada111d84a971b9784784dd6321163741e86747c470b1",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "a252a2e6d79d2966af6b9a9253551d8dca22f51019d55c1a82152d92cb9bec32",
+      "run_spec.json": "b5a3fee8ec0e711691a21838db9c01af30338340deae171f659dcc69035769b2",
       "complete.json": "ae732b3563311dbea956162505f737317d39861499ae2fd347ff6ef5758bf959"
     },
     "20260916": {
       "best.pt": "98955e790d736d509f971e6ae7819d9c4ea300856a1b5ab501449d439c048286",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "f5564ef206bd8c881b4b2e016d05333f694fb1b625ba019185cbf711e7837782",
+      "run_spec.json": "4d06e273fe583da4ffc710e9b9389a6f6a61f7eafcb3137e49b6304c41fb22e1",
       "complete.json": "7374bced05d0a15c54d3efa92262ffa0683e7e8d616af9a624dac1d062907160"
     },
     "20260917": {
       "best.pt": "f452bd46235e821aa05b60f46df36e44d3dc758ed923c48365ed2dafe415aaea",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "91173a9ca9a0d777ee5c84a1254e93cf7d3b1237dbae2347c3bb6447a982cfbc",
+      "run_spec.json": "3ad972cc0311b5123278705b411b7c72d3c2d5b44a0c02f31d90eefc9d3ad775",
       "complete.json": "f2f456484aecce2d867eb6ee81eafb9c068bf55f52c2fd4443802dd0b9befdf2"
     },
     "20260918": {
       "best.pt": "4c93931c0306ac93adbffec6f2646bac1e7a8bd1dac88facadfa57facd514f81",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "cdc0c96c6f6814032f2d9bf564563b5032e600c9e45353b45034407ed36ccc1b",
+      "run_spec.json": "077166e2f863813331da5f04f4a26fe7fd3164290b9c559f9626a4d7d74c4043",
       "complete.json": "2427533309b618769942a6ab679ca3c763f9ed40816afc7d24eb10d1bb881dfe"
     },
     "20260919": {
       "best.pt": "b86ca5ce28a717e6ddcc9dd1e1f10b69cf8ff30f5e3565308aad078ab3e663a0",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "19d7d8ea9b40b638a7f9413e8cf7566729bfe6040ec9897c05610460e5892e15",
+      "run_spec.json": "5d23c3835a2c471f1b600335bd9ef16c30d8d5de0e57b3711ec20067be23ff58",
       "complete.json": "b89f1efd4a2aa62b461bec6fd50ae811de2fb62c74ebc5ef9d0af69e0cfefff5"
     }
   },
@@ -237,22 +237,22 @@
     "references/gene_199.npz": "a229010087ab06b290dfbc6a6e66b29e3bc49c3b1ca7210674f01a35c37502b8"
   },
   "original_inputs_sha256": {
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/first_acceptor_sequence.npy": "3962a4bfc9ce5a3e452e0a10003dd134b69a303ad16cff3f53879fb456d70d04",
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/pre_tes_sequence.npy": "83c7973800bdc510f90796cb1e212efe27be2c64b98005142008b9f799f6bb58",
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/data/bpnet_prepared/feature_manifest.tsv": "0edbd67811978d0297d4efc8c60814ae032f03ee4be1a7d485ec68896f04a8d4",
-    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/data/genes_repartitioned.tsv": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8"
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/first_acceptor_sequence.npy": "3962a4bfc9ce5a3e452e0a10003dd134b69a303ad16cff3f53879fb456d70d04",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/pre_tes_sequence.npy": "83c7973800bdc510f90796cb1e212efe27be2c64b98005142008b9f799f6bb58",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/regulatory_log10_unscaled.npy": "9593f8c1a23bd63ff8fa20dc9332c0500198a4d718e50e947fdad16bdad7b219",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/feature_manifest.tsv": "0edbd67811978d0297d4efc8c60814ae032f03ee4be1a7d485ec68896f04a8d4",
+    "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/data/genes_repartitioned.tsv": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8"
   },
   "code_sha256": {
     "test_pipeline.py": "20133b0d6459357ffbe9206da3fa101b649de03a1bbcc2d10e1cac4a3bad8cbe",
     "launch.py": "db1810bcd38c591d9c661f75ce7c1081aafce4319d6111a59703fe5255e6614b",
     "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
     "test_downstream.py": "53bbbc3cbf549094e3cca56ecd30de4b17c5f8bd02f7eeb0bdaf30586d234ec3",
-    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
-    "run_pipeline.py": "6b42c495e50a5741f678e34cd57b8bc60484836f9c065406865bd51cef981311",
-    "plot_perturbations.py": "0e8a6914d27b200f7ddedd78b1c2bbeaf064bb21cabce2aa3b78455d6bfdedc8"
+    "deep_lift_core.py": "a5ebfe1f9ce5eeaf55b62036d27472704bfeba3f3b3874e81db540e954f99431",
+    "run_pipeline.py": "34fcf44e830a3ffc1244dcc2b2d988c9e843cba222f41ebf7dd2c63208ff1a82",
+    "plot_perturbations.py": "c6196b1f41cdd31eccf741285187e6548844d41f43d8f48b36687ed4420a9c23"
   },
   "dependencies": {
     "torch": "2.6.0+cu124",

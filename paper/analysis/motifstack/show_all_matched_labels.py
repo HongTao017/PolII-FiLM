@@ -104,21 +104,8 @@ def main():
    for p in paths:assert z.read(p.name)==p.read_bytes()
   for p in paths:p.unlink()
   report['previous_figures_archive']=str(archive)
- notes=f'''# 全部命中项显示版
-
-总览：`{out}`（{pages} 页）。29 个标注全部展示：13 个共有核心分支名称，加 16 个独立命中项的序列特征名；页间仅标签显示不同，树位置和阴影完全一致。独立项标签末尾 `*` 表示仅为该 pattern 的六碱基特征，不是类群共识；不再仅写 S01 等编号。
-
-逐项图：`{dout}`（{dpages} 页）。44 个命中 pattern 每个均有独立序列标签，覆盖 44/44；各页是同一棵诱导子树、同一套分区，只有显示的标签不同。每个名称都是对应 pattern 最高 IC 连续 6 bp 窗口的 Cavener IUPAC 特征，不能直接解释为整分支共识或完整结合位点。名称末尾 -01、-02 区分同特征的不同 pattern。
-
-图上的数字压缩连续相同 IUPAC 字母，比如 6T＝TTTTTT。组名也沿用这个压缩法。重复组名末尾 -01、-02 只区分原树中独立的分支。
-
-外圈深紫＝原始 TOMTOM 已命中，浅紫＝未命中。连续灰扇区＝13 个共有核心分支，可能包含同核心但未命中的成员；窄灰条＝16 个独立命中 pattern。各页 29 处阴影，边界与上一版一致。蓝/粉线为负/正 Y_PC1 归因，中性灰表示混合方向，不是功能实验证明。
-
-数据对应表：`analysis/all44_display_labels_and_motifs.tsv`，44 行，含每个 pattern 的显示名称、IUPAC、窗口、分区及原始全部 TF/JASPAR/q。之前的分区表及方法记录仍在 `analysis/shared_core_groups.tsv`、`analysis/shared_core_partition_QA.json`，未重新分群。完整显示核验在 `analysis/all_labels_display_QA.json`。
-
-13 类依然是按明确阈值得到的描述性共有核心分区，不是经验证的转录因子家族。此次只补全显示，不改变原树或匹配证据。
-'''
- for path in [ROOT/'analysis/current_figure_guide.md',ROOT/'README_motifStack_重绘说明.md']:path.write_text(notes,encoding='utf-8')
+ notes=f"# Complete matched-pattern labels\n\nOverview: `{out}` ({pages} pages). All 29 annotations are displayed: 13 shared-core branches and 16 independently labeled matched patterns. Pages vary labels only; tree coordinates and shading are identical. A trailing asterisk identifies a single pattern's six-base sequence feature rather than a branch consensus.\nIndividual display: `{dout}` ({dpages} pages). All 44 matched patterns have labels on the same induced subtree. Names use the maximum-information six-base Cavener IUPAC window. Numeric prefixes compress repeated symbols, while suffixes distinguish separate patterns or branches.\nDark/light purple denotes matched/unmatched patterns. The 13 broad gray sectors can include unmatched members; 16 narrow sectors identify matched singletons. Blue/pink indicates negative/positive PC1 attribution rather than experimentally proven function.\nSee `analysis/all44_display_labels_and_motifs.tsv`, `analysis/shared_core_groups.tsv`, `analysis/shared_core_partition_QA.json`, and `analysis/all_labels_display_QA.json`. The descriptive partitions and matching evidence are unchanged.\n"
+ for path in [ROOT/'analysis/current_figure_guide.md',ROOT/"README_motifStack_redraw.md"]:path.write_text(notes,encoding='utf-8')
  (ROOT/'analysis/all_labels_display_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
  print(json.dumps(report),flush=True)
 

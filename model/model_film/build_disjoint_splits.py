@@ -17,13 +17,13 @@ def build(root, source, seed):
     if (root / "split_manifest.json").exists() or (root / "data").exists():
         raise FileExistsError("Refusing to overwrite an existing split/data directory")
     original_manifest, original_hash = verify_source(source)
-    genes, fields = read_tsv(source / "data/bpnet_prepared/genes.tsv")
+    genes, fields = read_tsv(source / "data/sequence_prepared/genes.tsv")
     if len(genes) != original_manifest["gene_count"] or len({row["gene"] for row in genes}) != len(genes):
         raise ValueError("Original gene counts or uniqueness invalid")
     if set(fields) & {"original_fold", "gene_index", "dna_overlap_group"}:
         raise ValueError("Reserved overlay column already present")
     intervals = reconstruct_intervals(genes)
-    saved_intervals, _ = read_tsv(source / "data/bpnet_prepared/region_intervals.tsv")
+    saved_intervals, _ = read_tsv(source / "data/sequence_prepared/region_intervals.tsv")
     check_original_intervals(intervals, saved_intervals)
     components, edges, old_audit = overlap_components(len(genes), intervals)
     if old_audit["original_cross_fold_overlap_pairs"] != original_manifest["cross_fold_overlap_pairs"] or old_audit["original_cross_fold_overlap_genes"] != original_manifest["cross_fold_overlap_genes"]:
@@ -41,7 +41,7 @@ def build(root, source, seed):
     write_tsv(root / "data/genes_repartitioned.tsv", new_genes, fields + ["original_fold", "gene_index", "dna_overlap_group"])
     write_tsv(root / "data/region_intervals_repartitioned.tsv", new_intervals,
               list(intervals[0]) + ["original_fold", "dna_overlap_group"])
-    split_dir = root / "data/bpnet_splits"
+    split_dir = root / "data/gene_splits"
     assignment = [dict(gene_index=i, gene=row["gene"], fold=folds[i], window_group=groups[i], original_fold=row["fold"])
                   for i, row in enumerate(genes)]
     write_tsv(split_dir / "fold_assignments.tsv", assignment, list(assignment[0]))

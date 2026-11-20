@@ -1,7 +1,7 @@
-# 紧凑横向终稿
+# Raincloud selected full range no stars 20261112
 
-按参考图调整为 8×2.5 英寸，左半小提琴、白色箱线、右侧散点；粉色为四个显著的正贡献合并组，灰色为匹配背景。刻度 12 pt、轴标题 14 pt、可编辑 PDF 字体。不加大标题、图内说明段落或页脚。保留组名和粉色零线；星号显示状态见 plot_manifest.json 的 significance_stars_displayed，本次 --no-stars 版本去除所有显著性星号。
+These resources describe native sequence perturbations with composition-preserving motif-core shuffles and matched backgrounds. Effects are WT minus disrupted predicted PC1. The archive contains 1368 matched pairs across 994 positive genes. Annotation-level pooled comparisons are exploratory and may share underlying patterns; all 44 primary pattern-level tests remained nonsignificant after correction. Frozen display variants retain their original data and matched tests.
 
-纵轴为 ΔY_PC1 = WT − 打乱后预测，范围 ±0.005，主刻度间隔 0.002，显示 ×10⁻³。所有 1453 个散点均在显示范围内。* 为原有探索性 TF/符号合并检验的 Holm P<0.05，** 为 P<0.01。不是单个散点或单个原始 pattern 的显著性；各组使用各自一一匹配背景进行检验，而非拿灰色混合背景重新检验。
+## Usage
 
-只显示 KLF16、SP1、SP2、SP4 和匹配背景，不扩展 motif 集合。所有散点完整显示，不裁剪、不抽样，无边界三角，无显著性星号。这里只改版式，没有运行模型或重新计算统计。
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

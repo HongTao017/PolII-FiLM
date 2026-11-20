@@ -3,6 +3,7 @@ __pycache__/
 .venv*/
 outputs/
 downloads/
+.cache/
 release_assets/
 *.pt
 *.joblib

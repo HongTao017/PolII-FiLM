@@ -1,12 +1,12 @@
 {
   "panel": "C",
   "filename": "fig4.c.pdf",
-  "description": "逐组增加特征：测试集10折小提琴图",
+  "description": "Feature-group additions: ten-fold held-out performance distributions",
   "canvas_inches": [
     7.4,
     5.3
   ],
-  "source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\26_final_test_feature_comparison_TF_binding_site_NA.pdf",
+  "source_pdf": "G:\\sequence_analysis_figures\\Png\\png\\gene_feature_cross_validation\\redraw_20261021\\26_final_test_feature_comparison_TF_binding_site_NA.pdf",
   "approved_pdf_sha256": "f17dd08c988e7a37798f2c26a9ec165a091b8a53991e6fb83ba2c9b0778fb312",
   "entry_script": "code/render.py",
   "frozen_input_sha256": {

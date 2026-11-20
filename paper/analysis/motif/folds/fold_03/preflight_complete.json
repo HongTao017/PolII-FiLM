@@ -25,7 +25,7 @@
   ],
   "models": [
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260915",
       "checkpoint_sha256": "d67f8137ed65c8b8a72b79fddc8b6fec641d6eba57c6139dc998cfd30db9c591",
       "preprocessing_sha256": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
       "fingerprint": "6585524bde6ef0a683d90d10021aaa331c60bd162c1d167c155dafe21a844054",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260916",
       "checkpoint_sha256": "103eed75945894670b25faeac0afa1dabd6c67e387a3555136797055b1b451d0",
       "preprocessing_sha256": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
       "fingerprint": "66d254ed882cf530faa9c625d3305509698ccfc6ffb19372ec4173a15a19dafd",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260917",
       "checkpoint_sha256": "7bd54fce70ccb4203746b1c6f113993af5ca9441aa6a210f5444df2fa7bdf847",
       "preprocessing_sha256": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
       "fingerprint": "af4fb94d9d9eed3b5faefcc917ffd0bd31b407c4ea8120681a54fc029ad1f904",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260918",
       "checkpoint_sha256": "0b3666d74f7bca3e776c4832409fe6c32387e4eb4ce356c62a3916125bec4ed2",
       "preprocessing_sha256": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
       "fingerprint": "3848ec2000f0088e0dea8407cf1d0b8c851394bc00968d678c83e88f66641228",
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919",
+      "folder": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/result/fixed_bn_dna_disjoint_full/fold_03/seed_20260919",
       "checkpoint_sha256": "e18b27f1fb43c0dfee5d91bd6b6820ab78d27a4d531d6b09c5e36d93d46fe55e",
       "preprocessing_sha256": "f847d06c4411e25cc5e954ac73cda9150623f6e08bb15bd144d350cf54fe78bf",
       "fingerprint": "30c22c45607991228aba72b8c23053dbabb755b3a735721fd1f680623c7a4867",
@@ -356,15 +356,15 @@
   "bn_refits": 0,
   "preprocessing_refits": 0,
   "code_sha256": {
-    "verify_precision_alignment.py": "5457ef4146e62deca47c503713a11d7fca23e6cfd18cfbf54f0564f7781b978f",
+    "verify_precision_alignment.py": "63c6274ee9d9c0bc987cd56d8e181f473a5f96bb5b0c57a078d2ee06ac750705",
     "run_fold.py": "b7aa3fcc6490a5e4a6bcb767a876e7d0cba4d35f412d536097a5a7022e33624f",
     "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
     "run_parallel.py": "727128a304a93a38240087cdc28fdb1c4de7b07fcae406008e352bd1539ca07d",
-    "deep_lift_core.py": "6afa8805b419461e2e1abbb34a1ac118cebc45544cc96098f5e866abe9e25deb",
-    "draw_reference_style.py": "519baa5aa6db7f7810f558c692eeb02e309daad9df822602376dfa73f22d6771",
+    "deep_lift_core.py": "a5ebfe1f9ce5eeaf55b62036d27472704bfeba3f3b3874e81db540e954f99431",
+    "draw_reference_style.py": "5a9de382cc43ad1a3c6be251d133f5fd6e35c20d32f5cf097ab3313ba7b9f1bc",
     "final_figure_small.py": "203dc72ae4da2a2f1e1bd66de9182b67dac94e8583d8afd73b26118a205ef7bb",
     "parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
-    "run_pipeline.py": "c539e1bb2e00deeeaf5047438eb9ebea4d8619c9b5e3065de72e346569ac5f20",
+    "run_pipeline.py": "b09037a2fa4b2fcc96304e54071eb3b9c723272148014feceb70a5bebfed5297",
     "plot_perturbations.py": "318e6204f9148533758440c5259ba5457cbf4a8ba308185f8bc2e425fe8694f7"
   }
 }

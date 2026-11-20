@@ -98,8 +98,8 @@ def attribute(wrapper, actual, baseline, dna, chip, cfg, target_sd):
 
 def load_model(cfg, fold, seed, device):
     # Imports resolve to the original, subsequently hash-checked implementation.
-    from corgi_splice4.model import CorgiSplice4Regressor
-    from corgi_polii.preprocessing import FoldPreprocessor
+    from region_film.model import PolIIFiLMRegressor
+    from pausing_utils.preprocessing import FoldPreprocessor
     root = Path(cfg['model_root'])
     training = read_json(root/'training_config.json')
     directory = root/'result'/training['run_name']/f'fold_{fold:02d}'/f'seed_{seed}'
@@ -116,7 +116,7 @@ def load_model(cfg, fold, seed, device):
             require(sha(origin/name) == expected, f'Implementation changed: {origin/name}')
     require(ckpt['architecture_config']['region_lengths'] == dict(zip(REGIONS, LENGTHS)),
             'Not the original four-window A model')
-    model = CorgiSplice4Regressor(ckpt['architecture_config'], regulatory_dim=2554)
+    model = PolIIFiLMRegressor(ckpt['architecture_config'], regulatory_dim=2554)
     model.load_state_dict(ckpt['model'], strict=True)
     model.eval().to(device).requires_grad_(False)
     require(hasattr(model, 'film_mlp_conv') and not hasattr(model, 'regulatory_mlp'), 'Wrong model family')

@@ -219,13 +219,12 @@
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019/figures/motifStack_all44_individual_labels_5x4.pdf": "284768be8485b9e923217459a4d5eedfb846ebdfa21df4aad5beb1e673c1b5d3"
   },
   "method": {
-    "reference": "https://doi.org/10.1038/s41467-024-47744-0",
-    "borrowed": "IUPAC conserved sequence, minimum repeated unit, optional longer repeats (+); reverse complements represented by a shared feature name",
-    "not_claimed": "No reimplementation of the original paper manual clustering; no new TF family validation",
     "group_cores": "unchanged validated aligned 4-12 bp cores from the frozen clade partition",
     "individual_cores": "unchanged maximum-information 6bp individual features, explicitly marked *",
     "repeat_definition": "maximal exact Cavener single-base run containing the frozen core in each original PPM; clade prefix is the minimum observed within that native clade; independent homopolymer labels retain the broader A/T or C/G pooled feature-class lower bound and *; + only if the relevant observed run lengths vary",
     "mixed_cores": "IUPAC order retained; exact repeated whole multi-base units compressed when present, otherwise single-letter repeat notation; no + added without extension evidence",
-    "same_name": "shared short-sequence feature, not a claim of same native branch or full motif; repeated names retained at distinct tree positions"
+    "same_name": "shared short-sequence feature, not a claim of same native branch or full motif; repeated names retained at distinct tree positions",
+    "notation": "IUPAC conserved sequence, minimum repeated unit, optional longer repeats (+); reverse complements represented by a shared feature name",
+    "interpretation": "Descriptive sequence features without functional family validation"
   }
 }

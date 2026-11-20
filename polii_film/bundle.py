@@ -26,13 +26,13 @@ def load_model(fold,seed,device='cpu'):
     import torch
     c=config();run=next(r for r in c['checkpoints'] if r['fold']==fold and r['seed']==seed)
     name='_released_polii_film'
-    if name not in sys.modules:import_file(name,resolve(c['root'])/'corgi_splice4/__init__.py',True)
-    Model=__import__(name+'.model',fromlist=['CorgiSplice4Regressor']).CorgiSplice4Regressor
+    if name not in sys.modules:import_file(name,resolve(c['root'])/'region_film/__init__.py',True)
+    Model=__import__(name+'.model',fromlist=['PolIIFiLMRegressor']).PolIIFiLMRegressor
     arch=json.loads(resolve(run['run_spec']).read_text())['architecture_config']
     model=Model(arch)
     ckpt=torch.load(resolve(run['checkpoint']),map_location='cpu',weights_only=True)
     model.load_state_dict(ckpt['model'],strict=True);model.to(device);model.eval()
-    pre=import_file('_released_preprocessing',resolve('model/shared/source_project/corgi_polii/preprocessing.py'))
+    pre=import_file('_released_preprocessing',resolve('model/shared/source_project/pausing_utils/preprocessing.py'))
     return model,pre.FoldPreprocessor.load(resolve(run['preprocessing'])),run
 
 def batches(model,pre,dna,x,indices,device='cpu',batch_size=16,precision='float32'):

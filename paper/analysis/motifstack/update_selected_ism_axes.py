@@ -55,7 +55,7 @@ for name in NAMES:
             meta['axis_update_independent_redraw_pixel_identical']=True
         write_json(p,meta)
     readme=folder/'README.md'
-    readme.write_text(readme.read_text()+'\n2026-10-21: x、y 轴线宽更新为 1.3 pt；数据、gain/loss 曲线数值、平滑参数和色阶不变。\n')
+    readme.write_text(readme.read_text()+"\nAxis lines were updated to 1.3 pt; data, gain/loss values, smoothing and color scales are unchanged.\n")
     record=dict(folder=name,filename=pdf.name,before_pdf_sha256=before_pdf,source_sha256=sha(pdf),axis_spine_linewidth_pt=1.3,data_files_unchanged=True,curve_summary_unchanged=True,pixel_identical=True)
     write_json(folder/'audit/axis_update_QA.json',record)
     files=sorted(p for p in folder.rglob('*') if p.is_file() and p.name!='MANIFEST_SHA256.txt' and '__pycache__' not in p.parts)
@@ -65,7 +65,7 @@ for name in NAMES:
     records.append(record)
     print(json.dumps(record),flush=True)
 updates={r['folder']:r for r in records}
-for filename in ['图件目录.tsv','FINAL_ISM_EXAMPLES.tsv']:
+for filename in ["figure_index.tsv",'FINAL_ISM_EXAMPLES.tsv']:
     path=DEST/filename
     with path.open(newline='') as f:
         reader=csv.DictReader(f,delimiter='\t'); fields=reader.fieldnames; rows=list(reader)

@@ -105,14 +105,7 @@ def main():
         background='Matched controls of displayed groups, deduplicated by match ID then mean per source DNA group',
         data_source=str(SOURCE / 'plot_values.tsv'), new_inference=False, new_statistics=False
     ), indent=2))
-    (OUT / 'README.md').write_text('''# 紧凑横向终稿
-
-按参考图调整为 8×2.5 英寸，左半小提琴、白色箱线、右侧散点；粉色为四个显著的正贡献合并组，灰色为匹配背景。刻度 12 pt、轴标题 14 pt、可编辑 PDF 字体。不加大标题、图内说明段落或页脚。保留组名和粉色零线；星号显示状态见 plot_manifest.json 的 significance_stars_displayed，本次 --no-stars 版本去除所有显著性星号。
-
-纵轴为 ΔY_PC1 = WT − 打乱后预测，范围 ±0.002，主刻度间隔 0.001，显示 ×10⁻³。超出范围的散点保留在数据中，边界三角提示裁剪。* 为原有探索性 TF/符号合并检验的 Holm P<0.05，** 为 P<0.01。不是单个散点或单个原始 pattern 的显著性；各组使用各自一一匹配背景进行检验，而非拿灰色混合背景重新检验。
-
-只显示 KLF16、SP1、SP2、SP4 和匹配背景，不扩展 motif 集合。所有散点保留、不抽样，按用户要求裁剪纵轴显示范围；边界三角提示超界值，无显著性星号。这里只改版式，没有运行模型或重新计算统计。
-''', encoding='utf-8')
+    (OUT / 'README.md').write_text("# Compact motif panel with a fixed display range\n\nThe 8 by 2.5 inch canvas shows KLF16, SP1, SP2, SP4 and matched backgrounds. Effects are WT minus disrupted PC1, displayed at 1e-3 scale over +/-0.002 with 0.001 ticks. Values outside the axis limits remain in the data; boundary triangles indicate clipping. All observations are retained without sampling. Significance stars are disabled. The exploratory annotation groups can share patterns; the original one-to-one matched tests and their Holm corrections are unchanged.\n", encoding='utf-8')
     audit()
     print(PDF)
 

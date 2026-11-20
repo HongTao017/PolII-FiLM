@@ -23,7 +23,7 @@ while IFS= read -r SAMPLE; do
     for RUN in "${RUNS[@]}"; do
         BAM="$INPUT/${RUN}.GRCh38.standard.primary.q20.bam"
         if [[ ! -s "$BAM" ]]; then
-            echo "[错误] $SAMPLE 缺少 $RUN"
+            echo "[Error] $SAMPLE Missing  $RUN"
             MISSING=1
         else
             BAMS+=("$BAM")
@@ -38,31 +38,31 @@ while IFS= read -r SAMPLE; do
     if [[ -e "$OUTBAM" ]] &&
        samtools quickcheck "$OUTBAM" 2>/dev/null; then
         [[ -e "${OUTBAM}.bai" ]] || samtools index -@ 4 "$OUTBAM"
-        echo "[跳过] $SAMPLE 已完成"
+        echo "[Skipped] $SAMPLE already completed"
         continue
     fi
 
     if [[ "${#BAMS[@]}" -eq 1 ]]; then
         ln -sfn "${BAMS[0]}" "$OUTBAM"
         ln -sfn "${BAMS[0]}.bai" "${OUTBAM}.bai"
-        echo "[单Run] $SAMPLE ← ${RUNS[0]}"
+        echo "[Single run] $SAMPLE ← ${RUNS[0]}"
     else
-        echo "[合并] $SAMPLE：${#BAMS[@]}个技术Run"
+        echo "[Merging] $SAMPLE: ${#BAMS[@]} technical runs"
 
         if samtools merge -@ 8 -O BAM -f "$TMP" "${BAMS[@]}" \
            2> "$LOG/${SAMPLE}.merge.log"; then
             mv "$TMP" "$OUTBAM"
             samtools index -@ 4 "$OUTBAM"
             samtools quickcheck "$OUTBAM" ||
-              echo "[错误] $SAMPLE 合并BAM不完整"
+              echo "[Error] $SAMPLE Merged BAM is incomplete"
         else
-            echo "[错误] $SAMPLE 合并失败"
+            echo "[Error] $SAMPLE Merge failed"
             rm -f "$TMP"
         fi
     fi
 done
 
-echo "样本BAM数：$(find "$OUTPUT" -maxdepth 1 \
+echo "Sample BAM count: $(find "$OUTPUT" -maxdepth 1 \
   -name '*.standard.primary.q20.bam' | wc -l)"
-echo "样本BAI数：$(find "$OUTPUT" -maxdepth 1 \
+echo "Sample BAI count: $(find "$OUTPUT" -maxdepth 1 \
   -name '*.standard.primary.q20.bam.bai' | wc -l)"

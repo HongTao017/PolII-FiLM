@@ -16,7 +16,7 @@ from run_ism import FOLDS, REGIONS, SEEDS, digest, load_inputs, predict_gene, wr
 BINS = 30
 CHUNK = 20
 GROUPS = ('Q1', 'Q2', 'Q3', 'Q4')
-METRICS = ('saluki_abs_mean_delta', 'pilot_mean_abs_delta')
+METRICS = ('abs_mean_substitution_delta', 'pilot_mean_abs_delta')
 ANCHORS = dict(zip(REGIONS, ('tss_bed0', 'first_donor_boundary0', 'first_acceptor_boundary0', 'tes_bed0')))
 
 

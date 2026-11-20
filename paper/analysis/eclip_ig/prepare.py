@@ -43,7 +43,7 @@ def prepare(stage):
     manifest = json.loads((PARENT/'execution_manifest.json').read_text())
     require(sha(PARENT/'experiment_config.json') == manifest['config_sha256'], 'Parent config hash mismatch')
     require(sha(PARENT/'prepared.json') == manifest['prepared_sha256'], 'Parent input provenance hash mismatch')
-    source = Path(cfg['source_root'])/'data/bpnet_prepared'
+    source = Path(cfg['source_root'])/'data/sequence_prepared'
     model = Path(cfg['model_root'])
     metadata_path = model/'data/genes_repartitioned.tsv'
     feature_path = source/'feature_manifest.tsv'

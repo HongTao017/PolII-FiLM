@@ -38,7 +38,7 @@ BASE = Path('/mnt/HDD8TB/hongtao/Data_Seq')
 DEFAULT_ROOT = BASE / 'model/BQICPET/new_train'
 INPUT = BASE / 'DATA/POLII_feature_values/04_model_matrices/feature_groups_BQICPET/POLII_BQICPET_786X.tsv'
 DICTIONARY = INPUT.parent / 'feature_dictionary_long.tsv'
-SPLIT_ROOT = BASE / 'CNNNET/CORGI_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008'
+SPLIT_ROOT = BASE / 'CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008'
 COUNTS = {'B': 22, 'Q': 13, 'I': 8, 'C': 61, 'P': 340, 'E': 340, 'T': 2}
 ORDER = tuple(COUNTS)
 SEEDS = [20260915, 20260916, 20260917, 20260918, 20260919]
@@ -154,12 +154,12 @@ class Experiment:
         if any('pc1' in f.lower() or f.lower().startswith('y_') for f in self.columns):
             raise ValueError('Suspected target leakage in features')
         metadata_path = SPLIT_ROOT / 'data/genes_repartitioned.tsv'
-        assignment_path = SPLIT_ROOT / 'data/bpnet_splits/fold_assignments.tsv'
+        assignment_path = SPLIT_ROOT / 'data/gene_splits/fold_assignments.tsv'
         manifest = json.loads((SPLIT_ROOT / 'split_manifest.json').read_text())
         validation = json.loads((SPLIT_ROOT / 'split_validation.json').read_text())
         if validation['status'] != 'PASS' or validation['cross_fold_overlap_pairs'] != 0:
             raise ValueError('Current split validation failed')
-        for rel in ['data/genes_repartitioned.tsv', 'data/bpnet_splits/fold_assignments.tsv']:
+        for rel in ['data/genes_repartitioned.tsv', 'data/gene_splits/fold_assignments.tsv']:
             if sha(SPLIT_ROOT / rel) != manifest['generated_sha256'][rel]:
                 raise ValueError('Current split file changed: ' + rel)
         metadata = pd.read_csv(metadata_path, sep='\t', low_memory=False)
@@ -208,7 +208,7 @@ class Experiment:
                      'split_validation.json': SPLIT_ROOT / 'split_validation.json',
                      'source_training_config.json': SPLIT_ROOT / 'training_config.json'}
         for k in range(1, 11):
-            rel = f'data/bpnet_splits/round_{k:02d}.tsv'
+            rel = f'data/gene_splits/round_{k:02d}.tsv'
             source = SPLIT_ROOT / rel
             if sha(source) != manifest['generated_sha256'][rel]:
                 raise ValueError('Round manifest hash mismatch')

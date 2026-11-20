@@ -1,8 +1,7 @@
-# 全部 motif，紧凑无星号版
+# Raincloud all compact no stars 20261112
 
-全部 11 个 TF 标签、16 个 TF/归因符号组合均展示。正贡献和负贡献分为上下两行，并各自绘制匹配背景。不显示显著性星号。
+These resources describe native sequence perturbations with composition-preserving motif-core shuffles and matched backgrounds. Effects are WT minus disrupted predicted PC1. The archive contains 1368 matched pairs across 994 positive genes. Annotation-level pooled comparisons are exploratory and may share underlying patterns; all 44 primary pattern-level tests remained nonsignificant after correction. Frozen display variants retain their original data and matched tests.
 
-all_11_motifs_zoom_no_stars.pdf 沿用 ±0.0015 PC1 的放大范围，刻度 0.0005，边界三角提示范围外值。
-all_11_motifs_full_range_no_stars.pdf 显示全部散点范围，不截断极端值。
+## Usage
 
-横向紧凑布局 10.8×5.4 英寸，刻度 12 pt、轴标题 14 pt、可编辑 PDF；图中没有大标题或页脚段落。纵轴是 WT 减打乱后的原尺度 PC1，显示 ×10⁻³；不是 NET-seq counts 或 PI 百分比。所有统计保持原样，多个 TF 标签可能共享 pattern。没有对应符号原始 pattern 的标签不强行补零。
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

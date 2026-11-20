@@ -9,10 +9,10 @@
     6
   ],
   "total_runs": 50,
-  "config": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json",
+  "config": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json",
   "evaluation_scope": "exploratory inherited-fold CV",
   "cross_fold_overlap_accepted_by_user": true,
-  "user_choice": "保留原划分，接受重叠风险，仅做探索性训练",
+  "user_choice": "Retain the original split and acknowledge overlapping inputs; exploratory training only.",
   "cross_fold_overlap_pairs": 586,
   "cross_fold_overlap_genes": 601,
   "runs": [
@@ -20,16 +20,16 @@
       "fold": 1,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_01/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_01/seed_20260915",
       "status": "complete",
       "pid": 3997735,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T02:31:55.027652+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260915_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260915_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "1",
         "--replicate",
@@ -37,7 +37,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T02:41:52.951614+00:00"
@@ -46,16 +46,16 @@
       "fold": 1,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_01/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_01/seed_20260916",
       "status": "complete",
       "pid": 3997736,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T02:31:55.030526+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260916_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260916_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "1",
         "--replicate",
@@ -63,7 +63,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T02:45:56.244321+00:00"
@@ -72,16 +72,16 @@
       "fold": 1,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_01/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_01/seed_20260917",
       "status": "complete",
       "pid": 3997737,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T02:31:55.033303+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260917_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260917_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "1",
         "--replicate",
@@ -89,7 +89,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T02:52:31.511781+00:00"
@@ -98,16 +98,16 @@
       "fold": 1,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_01/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_01/seed_20260918",
       "status": "complete",
       "pid": 3997738,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T02:31:55.035972+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260918_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260918_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "1",
         "--replicate",
@@ -115,7 +115,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T02:56:04.424322+00:00"
@@ -124,16 +124,16 @@
       "fold": 1,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_01/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_01/seed_20260919",
       "status": "complete",
       "pid": 4002314,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T02:41:53.096502+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260919_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold01_seed20260919_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "1",
         "--replicate",
@@ -141,7 +141,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:05:21.860439+00:00"
@@ -150,16 +150,16 @@
       "fold": 2,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_02/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_02/seed_20260915",
       "status": "complete",
       "pid": 4003865,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T02:45:56.375224+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260915_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260915_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "2",
         "--replicate",
@@ -167,7 +167,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:05:42.132424+00:00"
@@ -176,16 +176,16 @@
       "fold": 2,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_02/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_02/seed_20260916",
       "status": "complete",
       "pid": 4006092,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T02:52:31.710451+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260916_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260916_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "2",
         "--replicate",
@@ -193,7 +193,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:19:12.988913+00:00"
@@ -202,16 +202,16 @@
       "fold": 2,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_02/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_02/seed_20260917",
       "status": "complete",
       "pid": 4007711,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T02:56:04.555634+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260917_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260917_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "2",
         "--replicate",
@@ -219,7 +219,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:07:03.231976+00:00"
@@ -228,16 +228,16 @@
       "fold": 2,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_02/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_02/seed_20260918",
       "status": "complete",
       "pid": 4015096,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T03:05:21.989438+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260918_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260918_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "2",
         "--replicate",
@@ -245,7 +245,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:23:06.082290+00:00"
@@ -254,16 +254,16 @@
       "fold": 2,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_02/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_02/seed_20260919",
       "status": "complete",
       "pid": 4015535,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T03:05:42.265355+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260919_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold02_seed20260919_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "2",
         "--replicate",
@@ -271,7 +271,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:18:42.560331+00:00"
@@ -280,16 +280,16 @@
       "fold": 3,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_03/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_03/seed_20260915",
       "status": "complete",
       "pid": 4016570,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T03:07:03.351305+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260915_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260915_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "3",
         "--replicate",
@@ -297,7 +297,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:27:09.321240+00:00"
@@ -306,16 +306,16 @@
       "fold": 3,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_03/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_03/seed_20260916",
       "status": "complete",
       "pid": 4020212,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T03:18:42.703157+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260916_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260916_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "3",
         "--replicate",
@@ -323,7 +323,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:37:57.962101+00:00"
@@ -332,16 +332,16 @@
       "fold": 3,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_03/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_03/seed_20260917",
       "status": "complete",
       "pid": 4020736,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T03:19:13.120359+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260917_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260917_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "3",
         "--replicate",
@@ -349,7 +349,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:29:21.094543+00:00"
@@ -358,16 +358,16 @@
       "fold": 3,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_03/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_03/seed_20260918",
       "status": "complete",
       "pid": 4022562,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T03:23:06.210215+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260918_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260918_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "3",
         "--replicate",
@@ -375,7 +375,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:34:15.038679+00:00"
@@ -384,16 +384,16 @@
       "fold": 3,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_03/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_03/seed_20260919",
       "status": "complete",
       "pid": 4024204,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T03:27:09.449592+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260919_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold03_seed20260919_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "3",
         "--replicate",
@@ -401,7 +401,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:45:13.798447+00:00"
@@ -410,16 +410,16 @@
       "fold": 4,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_04/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_04/seed_20260915",
       "status": "complete",
       "pid": 4025300,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T03:29:21.221003+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260915_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260915_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "4",
         "--replicate",
@@ -427,7 +427,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:00:15.974247+00:00"
@@ -436,16 +436,16 @@
       "fold": 4,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_04/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_04/seed_20260916",
       "status": "complete",
       "pid": 4027054,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T03:34:15.170334+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260916_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260916_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "4",
         "--replicate",
@@ -453,7 +453,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:43:32.427927+00:00"
@@ -462,16 +462,16 @@
       "fold": 4,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_04/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_04/seed_20260917",
       "status": "complete",
       "pid": 4028328,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T03:37:58.090076+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260917_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260917_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "4",
         "--replicate",
@@ -479,7 +479,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:47:45.869336+00:00"
@@ -488,16 +488,16 @@
       "fold": 4,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_04/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_04/seed_20260918",
       "status": "complete",
       "pid": 4030297,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T03:43:32.560402+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260918_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260918_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "4",
         "--replicate",
@@ -505,7 +505,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:53:10.232639+00:00"
@@ -514,16 +514,16 @@
       "fold": 4,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_04/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_04/seed_20260919",
       "status": "complete",
       "pid": 4031106,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T03:45:13.958135+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260919_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold04_seed20260919_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "4",
         "--replicate",
@@ -531,7 +531,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:55:01.726425+00:00"
@@ -540,16 +540,16 @@
       "fold": 5,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_05/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_05/seed_20260915",
       "status": "complete",
       "pid": 4032204,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T03:47:46.000061+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260915_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260915_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "5",
         "--replicate",
@@ -557,7 +557,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T03:58:04.185189+00:00"
@@ -566,16 +566,16 @@
       "fold": 5,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_05/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_05/seed_20260916",
       "status": "complete",
       "pid": 4034008,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T03:53:10.362144+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260916_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260916_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "5",
         "--replicate",
@@ -583,7 +583,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:02:58.146409+00:00"
@@ -592,16 +592,16 @@
       "fold": 5,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_05/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_05/seed_20260917",
       "status": "complete",
       "pid": 4034966,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T03:55:01.875480+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260917_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260917_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "5",
         "--replicate",
@@ -609,7 +609,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:08:32.663356+00:00"
@@ -618,16 +618,16 @@
       "fold": 5,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_05/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_05/seed_20260918",
       "status": "complete",
       "pid": 4036114,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T03:58:04.315252+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260918_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260918_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "5",
         "--replicate",
@@ -635,7 +635,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:08:12.380741+00:00"
@@ -644,16 +644,16 @@
       "fold": 5,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_05/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_05/seed_20260919",
       "status": "complete",
       "pid": 4037096,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T04:00:16.104534+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260919_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold05_seed20260919_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "5",
         "--replicate",
@@ -661,7 +661,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:11:35.140942+00:00"
@@ -670,16 +670,16 @@
       "fold": 6,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_06/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_06/seed_20260915",
       "status": "complete",
       "pid": 4038387,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T04:02:58.275665+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260915_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260915_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "6",
         "--replicate",
@@ -687,7 +687,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:13:06.348327+00:00"
@@ -696,16 +696,16 @@
       "fold": 6,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_06/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_06/seed_20260916",
       "status": "complete",
       "pid": 4040084,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T04:08:12.511525+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260916_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260916_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "6",
         "--replicate",
@@ -713,7 +713,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:18:20.545671+00:00"
@@ -722,16 +722,16 @@
       "fold": 6,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_06/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_06/seed_20260917",
       "status": "complete",
       "pid": 4040378,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T04:08:32.795285+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260917_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260917_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "6",
         "--replicate",
@@ -739,7 +739,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:18:10.404308+00:00"
@@ -748,16 +748,16 @@
       "fold": 6,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_06/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_06/seed_20260918",
       "status": "complete",
       "pid": 4041660,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T04:11:35.271743+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260918_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260918_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "6",
         "--replicate",
@@ -765,7 +765,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:21:43.272299+00:00"
@@ -774,16 +774,16 @@
       "fold": 6,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_06/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_06/seed_20260919",
       "status": "complete",
       "pid": 4042520,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T04:13:06.462555+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260919_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold06_seed20260919_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "6",
         "--replicate",
@@ -791,7 +791,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:22:03.556302+00:00"
@@ -800,16 +800,16 @@
       "fold": 7,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_07/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_07/seed_20260915",
       "status": "complete",
       "pid": 4044406,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T04:18:10.534272+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260915_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260915_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "7",
         "--replicate",
@@ -817,7 +817,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:28:18.632336+00:00"
@@ -826,16 +826,16 @@
       "fold": 7,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_07/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_07/seed_20260916",
       "status": "complete",
       "pid": 4044612,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T04:18:20.678575+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260916_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260916_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "7",
         "--replicate",
@@ -843,7 +843,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:28:28.777207+00:00"
@@ -852,16 +852,16 @@
       "fold": 7,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_07/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_07/seed_20260917",
       "status": "complete",
       "pid": 4045960,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T04:21:43.404496+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260917_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260917_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "7",
         "--replicate",
@@ -869,7 +869,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:37:46.235791+00:00"
@@ -878,16 +878,16 @@
       "fold": 7,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_07/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_07/seed_20260918",
       "status": "complete",
       "pid": 4046245,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T04:22:03.687160+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260918_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260918_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "7",
         "--replicate",
@@ -895,7 +895,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:47:23.960265+00:00"
@@ -904,16 +904,16 @@
       "fold": 7,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_07/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_07/seed_20260919",
       "status": "complete",
       "pid": 4048594,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T04:28:18.763552+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260919_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold07_seed20260919_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "7",
         "--replicate",
@@ -921,7 +921,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:40:18.285697+00:00"
@@ -930,16 +930,16 @@
       "fold": 8,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_08/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_08/seed_20260915",
       "status": "complete",
       "pid": 4048801,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T04:28:28.910859+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260915_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260915_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "8",
         "--replicate",
@@ -947,7 +947,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:50:56.826339+00:00"
@@ -956,16 +956,16 @@
       "fold": 8,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_08/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_08/seed_20260916",
       "status": "complete",
       "pid": 4052167,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T04:37:46.367254+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260916_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260916_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "8",
         "--replicate",
@@ -973,7 +973,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:59:13.527373+00:00"
@@ -982,16 +982,16 @@
       "fold": 8,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_08/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_08/seed_20260917",
       "status": "complete",
       "pid": 4053256,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T04:40:18.413552+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260917_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260917_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "8",
         "--replicate",
@@ -999,7 +999,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T04:56:21.216941+00:00"
@@ -1008,16 +1008,16 @@
       "fold": 8,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_08/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_08/seed_20260918",
       "status": "complete",
       "pid": 4055372,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T04:47:24.084345+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260918_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260918_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "8",
         "--replicate",
@@ -1025,7 +1025,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:10:22.510417+00:00"
@@ -1034,16 +1034,16 @@
       "fold": 8,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_08/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_08/seed_20260919",
       "status": "complete",
       "pid": 4056697,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T04:50:56.959508+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260919_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold08_seed20260919_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "8",
         "--replicate",
@@ -1051,7 +1051,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:02:46.367972+00:00"
@@ -1060,16 +1060,16 @@
       "fold": 9,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_09/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_09/seed_20260915",
       "status": "complete",
       "pid": 4059178,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T04:56:21.348610+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260915_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260915_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "9",
         "--replicate",
@@ -1077,7 +1077,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:14:15.656193+00:00"
@@ -1086,16 +1086,16 @@
       "fold": 9,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_09/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_09/seed_20260916",
       "status": "complete",
       "pid": 4060662,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T04:59:13.660830+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260916_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260916_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "9",
         "--replicate",
@@ -1103,7 +1103,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:17:07.992460+00:00"
@@ -1112,16 +1112,16 @@
       "fold": 9,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_09/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_09/seed_20260917",
       "status": "complete",
       "pid": 4062422,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T05:02:46.500258+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260917_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260917_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "9",
         "--replicate",
@@ -1129,7 +1129,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:15:16.484323+00:00"
@@ -1138,16 +1138,16 @@
       "fold": 9,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_09/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_09/seed_20260918",
       "status": "complete",
       "pid": 4068564,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T05:10:22.643128+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260918_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260918_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "9",
         "--replicate",
@@ -1155,7 +1155,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:21:11.300713+00:00"
@@ -1164,16 +1164,16 @@
       "fold": 9,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_09/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_09/seed_20260919",
       "status": "complete",
       "pid": 4069982,
       "physical_gpu": 6,
       "started_at_utc": "2026-10-08T05:14:15.786409+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260919_gpu6.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold09_seed20260919_gpu6.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "9",
         "--replicate",
@@ -1181,7 +1181,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:35:59.876325+00:00"
@@ -1190,16 +1190,16 @@
       "fold": 10,
       "replicate": 1,
       "seed": 20260915,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_10/seed_20260915",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_10/seed_20260915",
       "status": "complete",
       "pid": 4070620,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T05:15:16.618072+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260915_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260915_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "10",
         "--replicate",
@@ -1207,7 +1207,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:25:44.979730+00:00"
@@ -1216,16 +1216,16 @@
       "fold": 10,
       "replicate": 2,
       "seed": 20260916,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_10/seed_20260916",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_10/seed_20260916",
       "status": "complete",
       "pid": 4071486,
       "physical_gpu": 5,
       "started_at_utc": "2026-10-08T05:17:08.125282+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260916_gpu5.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260916_gpu5.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "10",
         "--replicate",
@@ -1233,7 +1233,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:32:29.668323+00:00"
@@ -1242,16 +1242,16 @@
       "fold": 10,
       "replicate": 3,
       "seed": 20260917,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_10/seed_20260917",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_10/seed_20260917",
       "status": "complete",
       "pid": 4073232,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T05:21:11.431784+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260917_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260917_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "10",
         "--replicate",
@@ -1259,7 +1259,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:31:19.465345+00:00"
@@ -1268,16 +1268,16 @@
       "fold": 10,
       "replicate": 4,
       "seed": 20260918,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_10/seed_20260918",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_10/seed_20260918",
       "status": "complete",
       "pid": 4076389,
       "physical_gpu": 4,
       "started_at_utc": "2026-10-08T05:25:45.111446+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260918_gpu4.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260918_gpu4.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "10",
         "--replicate",
@@ -1285,7 +1285,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:56:01.002597+00:00"
@@ -1294,16 +1294,16 @@
       "fold": 10,
       "replicate": 5,
       "seed": 20260919,
-      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/bpnet_multiregion/fold_10/seed_20260919",
+      "directory": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/result/splice4_dilated_exploratory_full/sequence_cnn_multiregion/fold_10/seed_20260919",
       "status": "complete",
       "pid": 4079827,
       "physical_gpu": 3,
       "started_at_utc": "2026-10-08T05:31:19.597691+00:00",
-      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260919_gpu3.log",
+      "log": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/controller_logs/fold10_seed20260919_gpu3.log",
       "command": [
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/../.venv/bin/python",
         "-m",
-        "bpnet_polii.main_train",
+        "sequence_utils.main_train",
         "--fold",
         "10",
         "--replicate",
@@ -1311,7 +1311,7 @@
         "--device",
         "cuda:0",
         "--config",
-        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
+        "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/config_exploratory_full.json"
       ],
       "exit_code": 0,
       "finished_at_utc": "2026-10-08T05:42:30.236331+00:00"

@@ -11,7 +11,7 @@ from matplotlib.colors import to_rgba
 import plot_test_pvalues_only as approved
 from final_figure_small import apply_style
 
-DESTINATION=Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/18_final_test_feature_comparison.pdf')
+DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/18_final_test_feature_comparison.pdf')
 _original=approved.make_figure
 
 

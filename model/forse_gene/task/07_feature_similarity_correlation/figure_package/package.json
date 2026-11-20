@@ -1,16 +1,16 @@
 {
   "panel": "F",
   "filename": "fig4.f.pdf",
-  "description": "前30特征与强相关特征的30×43聚类热图",
+  "description": "30x43 correlation heatmap of the top 30 features and strongly correlated predictors",
   "canvas_inches": [
     16,
     11
   ],
-  "source_pdf": "G:\\序列分析画图\\Png\\png\\10折交叉验证得到的基因特征图\\重绘_20261021_参考样式PDF\\25_current_BQIP_top30_heatmap_legend_left_colorbar_right_16x11.pdf",
+  "source_pdf": "G:\\sequence_analysis_figures\\Png\\png\\gene_feature_cross_validation\\redraw_20261021\\25_current_BQIP_top30_heatmap_legend_left_colorbar_right_16x11.pdf",
   "approved_pdf_sha256": "5fd06f2b406a2dd21fe5d5de3d207b3f37752770733f5a929a3724b5a61d7f91",
   "entry_script": "code/render.py",
   "frozen_input_sha256": {
-    "data/correlation_packet.json": "fbbe16cd927642147125dad825ca3ab03c75d1de2f859c6b1158de85aff72e9d",
+    "data/correlation_packet.json": "fc69a62faf8b55d27c05cca9b8de71f207ae36d3ca22305a01f4d2ee478a1383",
     "data/correlations.tsv": "764986aa6135ce496941d90ae92c9328ebc6ff400fb6832a20a87b4e0767a393",
     "data/fonts/arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
     "data/fonts/arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",

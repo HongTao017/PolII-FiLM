@@ -21,7 +21,7 @@ import numpy as np
 from final_figure_small import new_figure, save_pdf
 
 CANVAS = (8.0, 8.5)  # User explicitly allowed canvas-size changes earlier.
-DEFAULT_OUTPUT = Path("G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/19_RF_BQIP_top30_importance_reference.pdf")
+DEFAULT_OUTPUT = Path("G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/19_RF_BQIP_top30_importance_reference.pdf")
 FINGERPRINT = "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c"
 
 REMOTE_READ = r'''
@@ -117,7 +117,7 @@ LABELS = {
 
 
 def retrieve():
-    command = ["ssh", "-i", "G:/序列分析数据/codex_bpnet_ablation_ed25519",
+    command = ["ssh", "-i", "G:/sequence_analysis_data/codex_sequence_cnn_ablation_ed25519",
                "-o", "BatchMode=yes", "-o", "ConnectTimeout=20",
                "user_011@172.16.12.164",
                "/home/user_011/miniconda3/envs/model/bin/python -B -"]

@@ -23,7 +23,7 @@ LETTER_COLORS = {'B': '#FF0000', 'Q': '#FF8C00', 'I': '#A020F0',
 COUNTS = dict(B=22, Q=13, I=8, C=61, P=340, E=340, T=2)
 SCOPE_COLORS = dict(validation='#DC7667', test='#86C2BD')
 CANVAS = (14, 4.8)
-DESTINATION = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_参考样式PDF/07_requested_feature_route_split_violin_14x4p8.pdf')
+DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/07_requested_feature_route_split_violin_14x4p8.pdf')
 REMOTE_READ = r'''
 from pathlib import Path
 import hashlib,json
@@ -60,7 +60,7 @@ print(data.to_json(orient='records'))
 
 def retrieve(layout_only):
     code=REMOTE_READ.replace('LAYOUT_ONLY', repr(layout_only))
-    result=subprocess.run(['ssh','-i','G:/序列分析数据/codex_bpnet_ablation_ed25519',
+    result=subprocess.run(['ssh','-i','G:/sequence_analysis_data/codex_sequence_cnn_ablation_ed25519',
         '-o','BatchMode=yes','-o','ConnectTimeout=20','user_011@172.16.12.164',
         '/home/user_011/miniconda3/envs/model/bin/python -B -'],input=code,
         text=True,encoding='utf-8',capture_output=True,check=True)

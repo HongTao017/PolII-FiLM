@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.pdf -text
+*.pptx -text
+*.png -text
+*.jpg -text
+*.npy -text
+*.npz -text
+*.h5 -text
+*.pt -text
+*.joblib -text
+*.gz -text

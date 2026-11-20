@@ -6,7 +6,7 @@ import re
 import numpy as np
 import pandas as pd
 
-from run_per_base import GROUP_SOURCE, ROOT, digest, validate_result
+from run_per_base import GROUP_SOURCE, ROOT, digest, validate_result, protocol_fingerprint
 
 
 status = ROOT / 'logs/status.txt'
@@ -28,7 +28,7 @@ for path in sorted(files)[:6]:
     row = coverage.loc[gene_index].copy()
     row['gene_index'] = gene_index
     with np.load(path, allow_pickle=False) as saved:
-        validate_result(saved, row, digest(ROOT / 'protocol.json'))
+        validate_result(saved, row, protocol_fingerprint(ROOT / 'protocol.json'))
         assert len(saved['coordinates']) == row.unique_sites
         assert len(saved['site_index']) == row.window_bases
         actual = np.bincount(saved['region_index'], minlength=4)

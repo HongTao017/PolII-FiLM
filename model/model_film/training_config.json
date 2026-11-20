@@ -1,6 +1,6 @@
 {
   "run_name": "fixed_bn_dna_disjoint_full",
-  "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/BPNet_FiLM_SPLICE4_DILATED_5600_20261008",
+  "source_root": "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008",
   "replicate_seeds": [20260915, 20260916, 20260917, 20260918, 20260919],
   "batch_size": 64,
   "gradient_accumulation": 1,

@@ -31,7 +31,7 @@ def digest(p):
     return h.hexdigest()
 onehots=[]
 for region,length in zip(regions,lengths):
-    path=Path(cfg['source_root'])/'data/bpnet_prepared'/f'{region}.npy'
+    path=Path(cfg['source_root'])/'data/sequence_prepared'/f'{region}.npy'
     sha=digest(path)
     assert sha==man['original_inputs_sha256'][str(path)]
     arr=np.load(path,mmap_mode='r')

@@ -1,24 +1,23 @@
-# 分析数据与来源范围
+# Archive scope
 
-## 完整结果
+This snapshot organizes manuscript workflows into processing, models, interpretation and figures. Large numerical resources are distributed through the v1.0.0 data release.
 
-- `paper/analysis/four_region_ism/`：全基因四区域实验，含15,351基因、每个有效碱基三种替换、五种子的原始npz、coverage、protocol、QC、逐位置曲线、基因/区域汇总。重叠窗口中的同一物理碱基同步编辑。
-- 其中 `native_motif_knockdown_matched_20261112/`：1,368对匹配实验，994个阳性基因，扰动计划、逐模型预测、pattern和标签统计。原44个pattern主检验与探索性标签合并检验均保留。
-- `paper/analysis/motif/`：十折DeepLIFT/TF-MoDISco/TOMTOM模式、基因选择、参考与序列归因。
-- `paper/analysis/deeplift_modisco/`：原始pilot及其冻结参考和完整沿革，避免将pilot与十折正式结果混用。
-- `paper/analysis/chip_ig/`、`eclip_ig/`：原始选基因、输入、逐基因/种子IG和完整性/稳定性检查。
-- `paper/analysis/chip_cpm/`、`eclip_cpm/`、`chip_input_normalized/`：计数器源码、206个eCLIP文件及ChIP文件来源清单、区域、逐文件计数、CPM和归因点表。ChIP为364个主图因子/1,550基因；eCLIP为103个RBP/181基因。
-- `paper/analysis/rf_biochemical/`：生化特征RF训练、验证选型、外折局部选型、OOF和特征重要性。
-- `model/forse_gene/`：基因固有特征RF的完整逐组选择、逐拟合记录、已保存预测和两个五种子部署模型。ordered_BQIP与greedy_BQPI特征顺序各自保留。
-- `data/feature_pipeline/`：基因特征、生化特征、综合表型、模型矩阵和QC。
-- `data/sequencing/`：各GRO/PRO/mNET主项目及补充项目的脚本、样本metadata/manifests、results与QC。
+| Component | Location | Included material |
+|---|---|---|
+| Sequencing | `data/sequencing/` | Manifests, accessions, QC, alignment, filtering, orientation and PI scripts; released processed results |
+| Features | `data/feature_pipeline/` | Annotation/sequence predictors, TBP features, groups, model matrices and regression code |
+| Gene-feature random forests | `model/forse_gene/` | Ordered/greedy selection, fold-local selection, fit records, OOF predictions, importance/correlation and saved models |
+| Biochemical random forests | `paper/analysis/rf_biochemical/` | Assay selection, metrics, preprocessing and saved models |
+| Final FiLM model | `model/model_film/` | Architecture, training code, formal folds, run records and checkpoints |
+| Interpretation | `paper/analysis/` | Attribution, motif discovery/matching, CPM, substitutions and matched motif perturbations |
+| Figures | `paper/figures/` | Frozen plotting inputs, scripts, PDFs and provenance |
 
-## 复现层级
+Raw FASTQ/BAM/SRA files (approximately 1.3 TB in the working archive), environments, credentials, manuscript files and licensed fonts are not redistributed. Repeating raw-read processing requires the public inputs, reference files and external tools. Two C++/HTSlib counting helpers support BAM-derived CPM construction; frozen-data plotting does not require recompiling them.
 
-统一入口已覆盖：四路DNA重建、正式模型加载/新数据预测、全部OOF重新推理、原训练器独立新目录运行、最新图件隔离重绘、全位点ISM和天然motif重推理、完整扰动统计重算。分析原脚本与配置按原字节保存，其历史绝对路径不静默改写。上游完整测序比对、motif重新发现及大规模DeepLIFT/IG重算需按原协议配置生信/归因环境和输入来源；冻结的完整中间结果可直接重新统计和绘图。不要直接启动历史controller/launch脚本，以免写回旧实验目录。
+Random forest archives cover organized manuscript analyses rather than every exploratory run. Globally chosen feature combinations and fold-local selection have different evaluation scopes. A globally selected combination's OOF summary is exploratory and should not be described as strictly nested selection.
 
-## 大体积原始测序文件
+All-position substitution results support summary recomputation and new inference. Matched motif perturbations retain pair-level results and exploratory annotation summaries. None of the 44 primary pattern-level tests reached significance after correction. Motif labels indicate sequence similarity and can share underlying patterns.
 
-原始三个主测序项目合计超过1 TB，不重复复制FASTQ、SRA、BAM、clean/rrna_filtered等中间大文件。它们在服务器原目录保留。本包包含 accession/URL清单、处理脚本、处理后统计与QC；`provenance/release_20261119/raw_files_external.jsonl`索引原路径、大小和来源项目，明确标为外部原始文件，不当作包内自包含数据。重跑原始比对需先取得相应SRR/ENCODE源文件。
+The figure index covers main Figures 1-5 and supplementary Figure S1. Figure S2 is absent. Use `docs/figure_map.md` for historical folder labels.
 
-参考基因组FASTA/FAI、MANE GTF、模型实际输入与原始调控特征矩阵均已在包内。没有发布到GitHub或其他外部平台。
+English publication cleanup changes language, names and packaging. It does not recalculate numerical results, reorder features or modify trained weights. Earlier scientific checks are historical provenance; no new training or full reproduction was performed for this cleanup.

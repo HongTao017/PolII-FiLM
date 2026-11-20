@@ -12,9 +12,12 @@ import numpy as np
 import pandas as pd
 
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from polii_film.archive_compatibility import protocol_fingerprint
+
 BUNDLE = Path('/mnt/HDD8TB/hongtao/end/model')
 MODEL = BUNDLE / 'A_TSS300_FiLM'
-PREPARED = BUNDLE / 'shared/source_project/data/bpnet_prepared'
+PREPARED = BUNDLE / 'shared/source_project/data/sequence_prepared'
 REGIONS = {'tss_sequence': (-300, 300), 'first_donor_sequence': (-1000, 1000),
            'first_acceptor_sequence': (-1000, 1000), 'pre_tes_sequence': (-1000, 0)}
 MODULES = {'ChIP_seq': 2284, 'eCLIP': 206, 'ChIA_PET': 50, 'DamID': 10, 'ATAC_seq': 4}
@@ -55,7 +58,7 @@ def load_inputs():
     for name, (start, end) in REGIONS.items():
         assert dna[name].shape == (len(genes), end - start, 4)
     for fold in FOLDS:
-        split = pd.read_csv(MODEL / f'data/bpnet_splits/round_{fold:02}.tsv', sep='\t')
+        split = pd.read_csv(MODEL / f'data/gene_splits/round_{fold:02}.tsv', sep='\t')
         assert set(split.loc[split.role.eq('test'), 'gene']) == set(genes.loc[genes.fold.eq(fold), 'gene'])
     return loader, models, dna, regulation, genes
 

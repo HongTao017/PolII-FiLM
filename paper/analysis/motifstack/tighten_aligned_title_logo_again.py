@@ -21,12 +21,7 @@ def main():
  qa.update(change='reduce title/logo gap from 2.16pt to 0.864pt; original arrows and title centerlines unchanged',title_logo_gap_pt=gap,additional_logo_shift_toward_title_pt=1.296)
  (ROOT/'analysis/aligned_text_logos_tighter_QA.json').write_text(json.dumps(qa,indent=2),encoding='utf-8')
  for path,value in oldbytes.items():Path(path).write_bytes(value)
- (ROOT/'analysis/aligned_text_logos_tighter_guide.md').write_text(f'''# 再缩小标题与logo间距
-
-文件：`{output}`。
-
-沿用原箭头不动、标题对齐箭头的版本，只把logo再向标题靠近1.296pt，保守文字边界与logo最高字母间距从2.16pt减到0.864pt。标题、树、箭头位置及方向不变。所有PPM和信息量高度比例不变；旧版保留。核验analysis/aligned_text_logos_tighter_QA.json。
-''',encoding='utf-8')
+ (ROOT/'analysis/aligned_text_logos_tighter_guide.md').write_text(f'# Reduced title and logo gap\n\nOutput: `{output}`.\nLogos move 1.296 pt toward the titles, reducing the conservative gap from 2.16 to 0.864 pt. Titles, tree and arrows retain their coordinates and orientations. PPMs and information-content scaling are unchanged. Recorded checks: `analysis/aligned_text_logos_tighter_QA.json`.\n',encoding='utf-8')
  print(json.dumps(dict(status='PASS',output=str(output),gap_pt=gap,original_arrows_unchanged=13,title_positions_unchanged=True,logos_moved_closer_pt=1.296,logos=13)),flush=True)
 
 if __name__=='__main__':main()

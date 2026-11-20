@@ -65,7 +65,7 @@ def prepare(config):
     assert selected.fold.eq(config['fold']).all()
     assert metadata.iloc[selected.gene_index].gene.tolist() == selected.gene.tolist()
     (ROOT/'references').mkdir()
-    source = Path(config['source_root'])/'data/bpnet_prepared'
+    source = Path(config['source_root'])/'data/sequence_prepared'
     input_hashes={str(source/name):digest(source/name) for name in
         [*(f'{r}.npy' for r in REGIONS),'regulatory_log10_unscaled.npy','feature_manifest.tsv']}
     input_hashes[str(Path(config['model_root'])/'data/genes_repartitioned.tsv')]=digest(Path(config['model_root'])/'data/genes_repartitioned.tsv')
@@ -146,7 +146,7 @@ def discover(config, selected):
     import h5py
     from modiscolite.tfmodisco import TFMoDISco
     from modiscolite.io import save_hdf5
-    source = Path(config['source_root'])/'data/bpnet_prepared'
+    source = Path(config['source_root'])/'data/sequence_prepared'
     mean = np.mean([np.load(ROOT/'attributions'/f'seed_{s}'/'hypothetical.npy') for s in config['seeds']], 0)
     order = np.array(sorted(range(len(selected)), key=lambda i: stable_seed(config['random_seed'], selected.iloc[i].gene)))
     np.save(ROOT/'modisco_input_order.npy', order)
@@ -231,7 +231,7 @@ def freeze_perturbations(config, selected, metadata, annotations):
     import h5py
     motifs = json.loads((ROOT/'motifs.json').read_text())
     order = np.load(ROOT/'modisco_input_order.npy')
-    source = Path(config['source_root'])/'data/bpnet_prepared'
+    source = Path(config['source_root'])/'data/sequence_prepared'
     eligible = sorted((x for x in annotations if x['matches']), key=lambda x:(-x['seqlets'],x['pattern_id']))[:config['max_patterns_to_perturb']]
     plan, skipped, seen = [], [], set()
     for pattern in eligible:
@@ -387,7 +387,7 @@ def summarize_saved_perturbations(config, metadata, plan):
         stack = np.stack([np.load(folder/f'seed_{seed}_delta.npy') for seed in config['seeds']])
         np.save(folder/'mean_delta.npy', stack.mean(0))
         np.save(folder/'seed_sd_delta.npy', stack.std(0,ddof=1))
-        source=Path(config['source_root'])/'data/bpnet_prepared'
+        source=Path(config['source_root'])/'data/sequence_prepared'
         dna=np.array(np.load(source/f'{item["region"]}.npy', mmap_mode='r')[item['gene_index']]).T
         pwm=pwm_for(motifs[item['TF']], config['pwm_pseudocount'])
         if item['motif_reverse']:

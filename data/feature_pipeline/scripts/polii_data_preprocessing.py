@@ -1,39 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""按照用户的X标签顺序构建Pol II暂停指数预测所需的基因特征表。
-
-脚本借鉴两套公开方法，但不会混淆它们的定义：
-
-1. Akcan等人的方法：从转录本基因组区间构建长度、外显子数量、平均
-   外显子长度、外显子比例和完整转录本GC等特征，并将部分连续变量
-   缩放到0到1。
-2. Agarwal和Kelley的方法：计算5'UTR、CDS/ORF、3'UTR的长度和GC、
-   内含子总长度、ORF外显子连接密度、k-mer频率和密码子频率。
-
-输入文件：
-    MANE GTF、GRCh38 FASTA及其FAI、可选的基因PC1表和PI矩阵。
-
-主要输出：
-    <prefix>.gene_by_feature.tsv
-        每行一个基因，每列一个特征，适合机器学习程序读取。
-    <prefix>.feature_by_gene.tsv
-        每行一个特征，每列一个基因，顺序对应用户现有数据表。
-    <prefix>.akcan_model_features.tsv
-        将当前可以复现的特征转换成Akcan模型使用的表达方式。
-    <prefix>.annotation_report.tsv
-        记录每个目标基因是否成功匹配MANE转录本。
-
-没有CAGE、CpG岛、RNA-seq、ATAC、ChIP或eCLIP文件时，脚本不会把这些
-特征伪造为0；它们不会进入当前可计算X表。
-
-/home/user_011/miniconda3/envs/RAN1/bin/python \
-  "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/scripts/polii_data_preprocessing.py" \
-  --gtf "/home/user_011/sequence features/groseq_project/reference/MANE.GRCh38.v1.5.standard_chromosomes.gtf.gz" \
-  --fasta "/home/user_011/sequence features/groseq_project/reference/GRCh38.p14.genome.fa" \
-  --fai "/home/user_011/sequence features/groseq_project/reference/GRCh38.p14.genome.fa.fai" \
-  --pc1 "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/03_prediction_targets/PI_XY_feature_template_genes_as_rows.tsv" \
-  --output-prefix "/mnt/HDD8TB/hongtao/Data_Seq/DATA/POLII_feature_values/04_model_matrices/POLII_XY"
-"""
+"Construct gene-level pausing predictors in the specified feature order.\n\nInputs comprise MANE GTF, GRCh38 FASTA/FAI and optional PC1 and PI tables. Outputs include gene-by-feature and feature-by-gene matrices, a scaled architecture-feature view and annotation matching records. Features cover transcript/exon/intron lengths, UTR/CDS composition, CpG statistics, overlapping k-mer frequencies and in-frame codon frequencies. Missing external assays remain unavailable rather than becoming artificial zeros. PI sample columns must be excluded when predicting their derived PC1 target.\n"
 
 from __future__ import annotations
 
@@ -61,8 +28,8 @@ SENSE_CODONS = [
 ]
 
 
-# 这里严格保留用户数据表中当前能够计算的基础字段顺序。
-# k-mer、密码子和单样本PI会在各自占位位置展开成多列。
+
+
 BASE_FEATURE_ORDER = [
     "transcript",
     "chrom",
@@ -120,11 +87,7 @@ BASE_FEATURE_ORDER = [
 
 @dataclass
 class TranscriptRecord:
-    """保存一个转录本从GTF中解析出的全部注释区域。
-
-    坐标统一保存为BED风格的0-based半开区间[start, end)，这样区间长度
-    永远是end-start，能够避免GTF的1-based闭区间产生加1或减1错误。
-    """
+    "Transcript annotation intervals parsed from GTF, stored as zero-based half-open coordinates."
 
     transcript_id: str
     gene_id: str = ""
@@ -148,11 +111,7 @@ class TranscriptRecord:
 
     @property
     def protein_coding(self) -> int:
-        """将Ensembl和RefSeq对编码转录本的常见标签统一为1。
-
-        Ensembl通常写作protein_coding，MANE中的RefSeq注释可能写作mRNA。
-        mRNA在这里表示具有CDS的蛋白编码信使RNA，不能判成非编码转录本。
-        """
+        "Unify coding-transcript labels across annotation providers using CDS evidence."
         values = {
             self.gene_biotype.strip().lower(),
             self.transcript_biotype.strip().lower(),
@@ -162,19 +121,15 @@ class TranscriptRecord:
 
 
 class IndexedFasta:
-    """使用FAI索引随机读取大型FASTA，不把3 GB基因组全部载入内存。
-
-    输入是FASTA和samtools生成的.fai文件。fetch()接受0-based半开坐标，
-    返回对应的基因组正链序列。链方向的反向互补在后续函数中处理。
-    """
+    "Read genomic intervals with a FAI index without loading the entire reference into memory."
 
     def __init__(self, fasta_path: Path, fai_path: Optional[Path] = None) -> None:
         self.fasta_path = fasta_path
         self.fai_path = fai_path or Path(f"{fasta_path}.fai")
         if not self.fasta_path.exists():
-            raise FileNotFoundError(f"找不到FASTA文件：{self.fasta_path}")
+            raise FileNotFoundError(f"FASTA file not found: {self.fasta_path}")
         if not self.fai_path.exists():
-            raise FileNotFoundError(f"找不到FAI文件：{self.fai_path}")
+            raise FileNotFoundError(f"FAI file not found: {self.fai_path}")
 
         self.index: Dict[str, Tuple[int, int, int, int]] = {}
         with self.fai_path.open("r", encoding="utf-8") as handle:
@@ -196,7 +151,7 @@ class IndexedFasta:
         self.close()
 
     def resolve_contig(self, chrom: str) -> str:
-        """处理chr1与1等常见染色体命名差异，返回FASTA中的真实名称。"""
+        "Resolve common chromosome aliases to the actual FASTA contig name."
         candidates = [chrom]
         if chrom.startswith("chr"):
             candidates.append(chrom[3:])
@@ -207,10 +162,10 @@ class IndexedFasta:
         for candidate in candidates:
             if candidate in self.index:
                 return candidate
-        raise KeyError(f"FASTA中找不到与{chrom!r}对应的染色体")
+        raise KeyError(f"No FASTA chromosome corresponding to {chrom!r}")
 
     def fetch(self, chrom: str, start0: int, end0: int) -> str:
-        """读取指定区间；越过染色体边界的部分会自动裁剪。"""
+        "Fetch an interval and clip positions outside chromosome boundaries."
         contig = self.resolve_contig(chrom)
         length, offset, line_bases, line_width = self.index[contig]
         start0 = max(0, int(start0))
@@ -231,19 +186,19 @@ class IndexedFasta:
 
 
 def open_text(path: Path):
-    """根据扩展名透明读取普通GTF或gzip压缩GTF。"""
+    "Open plain or gzip-compressed GTF text according to its extension."
     if str(path).endswith(".gz"):
         return gzip.open(path, "rt", encoding="utf-8")
     return path.open("r", encoding="utf-8")
 
 
 def strip_version(identifier: str) -> str:
-    """删除Ensembl或RefSeq编号末尾的版本号，便于不同表格之间匹配。"""
+    "Remove terminal accession-version suffixes for table matching."
     return re.sub(r"\.\d+$", "", str(identifier or ""))
 
 
 def parse_gtf_attributes(text: str) -> Dict[str, List[str]]:
-    """解析GTF第9列，保留tag等可能重复出现的属性。"""
+    "Parse GTF attributes while retaining repeated entries such as tags."
     attributes: Dict[str, List[str]] = defaultdict(list)
     for item in text.strip().strip(";").split(";"):
         item = item.strip()
@@ -257,7 +212,7 @@ def parse_gtf_attributes(text: str) -> Dict[str, List[str]]:
 
 
 def first_attr(attributes: Mapping[str, Sequence[str]], *keys: str) -> str:
-    """按候选字段顺序返回第一个存在的GTF属性值。"""
+    "Return the first available GTF attribute in candidate-field order."
     for key in keys:
         values = attributes.get(key)
         if values:
@@ -266,7 +221,7 @@ def first_attr(attributes: Mapping[str, Sequence[str]], *keys: str) -> str:
 
 
 def merge_intervals(intervals: Iterable[Tuple[int, int]]) -> List[Tuple[int, int]]:
-    """合并重叠区间，避免同一转录本的重复注释造成长度重复计算。"""
+    "Merge overlapping intervals to avoid duplicate length contributions."
     ordered = sorted((int(start), int(end)) for start, end in intervals if end > start)
     merged: List[List[int]] = []
     for start, end in ordered:
@@ -278,14 +233,9 @@ def merge_intervals(intervals: Iterable[Tuple[int, int]]) -> List[Tuple[int, int
 
 
 def parse_mane_gtf(gtf_path: Path) -> Dict[str, TranscriptRecord]:
-    """读取MANE GTF并构建以transcript_id为键的转录本对象。
-
-    处理结果包括转录本范围、基因名称、链方向、外显子和CDS区间。
-    与Akcan的data_preprocessing.R相同，这一步只生成标准化区域；长度、
-    比例和序列特征由后续函数计算。
-    """
+    "Parse MANE transcript records keyed by transcript identifier."
     if not gtf_path.exists():
-        raise FileNotFoundError(f"找不到GTF文件：{gtf_path}")
+        raise FileNotFoundError(f"GTF file not found: {gtf_path}")
 
     records: Dict[str, TranscriptRecord] = {}
     with open_text(gtf_path) as handle:
@@ -346,12 +296,7 @@ def parse_mane_gtf(gtf_path: Path) -> Dict[str, TranscriptRecord]:
 
 
 def transcript_selection_key(record: TranscriptRecord) -> Tuple[int, int, int, int]:
-    """给同一基因的多个候选转录本排序。
-
-    首先优先MANE Select；若仍有多个候选，依次选择CDS最长、拼接长度
-    最长和基因组跨度最长的转录本。这与Agarwal优先最长ORF的思想一致，
-    同时保证MANE Select优先于其他转录本。
-    """
+    "Rank candidate transcripts for one gene using the saved selection policy."
     mane_select = int(any("MANE_Select" in tag or "MANE Select" in tag for tag in record.tags))
     cds_length = interval_total_length(record.cds)
     spliced_length = interval_total_length(record.exons)
@@ -364,12 +309,7 @@ def select_transcripts_by_gene(
     gene_column: str,
     transcript_column: Optional[str],
 ) -> Tuple[List[str], Dict[str, TranscriptRecord], pd.DataFrame]:
-    """按目标PC1表的基因顺序选择MANE转录本。
-
-    如果目标表提供转录本编号，优先匹配该编号或无版本号编号；匹配不到
-    时使用MANE Select和最长CDS规则。返回基因顺序、所选转录本以及匹配
-    报告，确保最终X表和Y表顺序完全一致。
-    """
+    "Select MANE transcripts in the target PC1 table gene order."
     by_gene: Dict[str, List[TranscriptRecord]] = defaultdict(list)
     for record in records.values():
         keys = {record.gene_name, record.gene_id, strip_version(record.gene_id)}
@@ -434,19 +374,19 @@ def select_transcripts_by_gene(
 
 
 def interval_total_length(intervals: Sequence[Tuple[int, int]]) -> int:
-    """计算一组0-based半开区间合并后的总长度。"""
+    "Calculate the total length of merged zero-based half-open intervals."
     return sum(end - start for start, end in merge_intervals(intervals))
 
 
 def intervals_in_transcription_order(
     intervals: Sequence[Tuple[int, int]], strand: str
 ) -> List[Tuple[int, int]]:
-    """按照真实转录方向排列区间，负链从高坐标向低坐标排列。"""
+    "Sort intervals in transcription order, reversing genomic order on the negative strand."
     return sorted(intervals, key=lambda item: item[0], reverse=(strand == "-"))
 
 
 def reverse_complement(sequence: str) -> str:
-    """将基因组正链序列转换为负链转录方向序列。"""
+    "Reverse-complement genomic sequence into transcription orientation."
     table = str.maketrans("ACGTNacgtn", "TGCANtgcan")
     return sequence.translate(table)[::-1].upper()
 
@@ -457,7 +397,7 @@ def fetch_intervals_sequence(
     intervals: Sequence[Tuple[int, int]],
     strand: str,
 ) -> str:
-    """提取并拼接多个区间，结果始终按5'到3'转录方向排列。"""
+    "Fetch and join intervals in transcription-oriented 5-prime to 3-prime order."
     merged = merge_intervals(intervals)
     sequence = "".join(fasta.fetch(chrom, start, end) for start, end in merged)
     return reverse_complement(sequence) if strand == "-" else sequence
@@ -466,19 +406,14 @@ def fetch_intervals_sequence(
 def intersect_interval(
     interval: Tuple[int, int], boundary: Tuple[int, int]
 ) -> Optional[Tuple[int, int]]:
-    """返回两个半开区间的交集，无交集时返回None。"""
+    "Intersect two half-open intervals, returning None when they do not overlap."
     start = max(interval[0], boundary[0])
     end = min(interval[1], boundary[1])
     return (start, end) if end > start else None
 
 
 def infer_utr_intervals(record: TranscriptRecord) -> Tuple[List[Tuple[int, int]], List[Tuple[int, int]]]:
-    """通过外显子和CDS推导5'UTR及3'UTR区间。
-
-    用户的MANE GTF没有独立UTR行，因此先确定CDS最小和最大基因组坐标，
-    再截取CDS两侧的外显子部分。负链中高坐标侧是5'UTR，低坐标侧是
-    3'UTR。无CDS时返回两个空列表，不把整条转录本误判为UTR。
-    """
+    "Infer 5-prime and 3-prime UTR intervals from exon and CDS boundaries."
     if not record.cds:
         return [], []
     cds_start = min(start for start, _ in record.cds)
@@ -498,7 +433,7 @@ def infer_utr_intervals(record: TranscriptRecord) -> Tuple[List[Tuple[int, int]]
 
 
 def derive_introns(record: TranscriptRecord) -> List[Tuple[int, int]]:
-    """从相邻外显子的间隙构建内含子区间。"""
+    "Derive introns from gaps between adjacent exons."
     exons = sorted(merge_intervals(record.exons))
     return [
         (left[1], right[0])
@@ -508,12 +443,12 @@ def derive_introns(record: TranscriptRecord) -> List[Tuple[int, int]]:
 
 
 def safe_fraction(numerator: float, denominator: float) -> float:
-    """安全计算比例；分母为0时返回缺失值而不是伪造0。"""
+    "Return a fraction or a missing value when its denominator is zero."
     return float(numerator / denominator) if denominator else float("nan")
 
 
 def summarize_lengths(lengths: Sequence[int]) -> Tuple[float, float, float]:
-    """返回平均、最小和最大长度；没有区间时返回三个NA。"""
+    "Summarize mean, minimum and maximum interval lengths; return NA for empty inputs."
     if not lengths:
         return float("nan"), float("nan"), float("nan")
     return float(np.mean(lengths)), float(min(lengths)), float(max(lengths))
@@ -524,12 +459,7 @@ def build_annotation_and_structure_features(
     record: TranscriptRecord,
     output_transcript: Optional[str] = None,
 ) -> Tuple[Dict[str, object], Dict[str, List[Tuple[int, int]]]]:
-    """依照用户表格第1到36项计算注释和结构特征。
-
-    返回值一是能够直接写入X表的数值字典；返回值二是后续序列计算所需
-    的外显子、内含子、CDS和UTR区间。单外显子基因的内含子统计值设为
-    NA，只有intron_count明确为0。
-    """
+    "Build the annotation and gene-architecture feature set."
     exons = merge_intervals(record.exons)
     introns = derive_introns(record)
     cds = merge_intervals(record.cds)
@@ -634,11 +564,7 @@ def relative_tss_window(
     relative_start: int,
     relative_end: int,
 ) -> Tuple[int, int]:
-    """把相对TSS的转录方向窗口转换为基因组0-based半开区间。
-
-    例如[-50, 250)表示TSS上游50 bp到下游250 bp。负链会自动翻转，
-    从而保证正负链提取的序列都按转录方向解释。
-    """
+    "Convert transcription-oriented TSS windows to zero-based genomic intervals."
     if strand == "-":
         return tss_bed0 - relative_end + 1, tss_bed0 - relative_start + 1
     return tss_bed0 + relative_start, tss_bed0 + relative_end
@@ -652,14 +578,14 @@ def fetch_oriented_window(
     relative_start: int,
     relative_end: int,
 ) -> str:
-    """提取相对TSS窗口并转换到5'到3'转录方向。"""
+    "Fetch a TSS-relative window in transcription orientation."
     start0, end0 = relative_tss_window(tss_bed0, strand, relative_start, relative_end)
     sequence = fasta.fetch(chrom, start0, end0)
     return reverse_complement(sequence) if strand == "-" else sequence
 
 
 def sequence_composition(sequence: str) -> Tuple[float, float]:
-    """计算GC和AT比例，只使用A/C/G/T有效碱基作为分母。"""
+    "Calculate GC and AT fractions using only valid A/C/G/T bases."
     counts = Counter(base for base in sequence.upper() if base in DNA_ALPHABET)
     total = sum(counts.values())
     if total == 0:
@@ -668,11 +594,7 @@ def sequence_composition(sequence: str) -> Tuple[float, float]:
 
 
 def cpg_features(sequence: str) -> Tuple[float, float]:
-    """计算CpG数量和观察/期望值。
-
-    O/E公式为CpG_count×有效序列长度/(C_count×G_count)。当C或G为0时，
-    O/E返回NA，避免除零。
-    """
+    "Calculate CpG counts and observed-to-expected ratios."
     sequence = sequence.upper()
     valid = "".join(base for base in sequence if base in DNA_ALPHABET)
     cpg_count = valid.count("CG")
@@ -684,7 +606,7 @@ def cpg_features(sequence: str) -> Tuple[float, float]:
 
 
 def all_kmers(min_k: int = 1, max_k: int = 4) -> List[str]:
-    """按照长度优先、字母顺序生成全部k-mer名称。"""
+    "Enumerate k-mers by length and lexicographic order."
     return [
         "".join(parts)
         for k in range(min_k, max_k + 1)
@@ -693,11 +615,7 @@ def all_kmers(min_k: int = 1, max_k: int = 4) -> List[str]:
 
 
 def kmer_frequencies(sequence: str, min_k: int = 1, max_k: int = 4) -> Dict[str, float]:
-    """采用Agarwal的step=1重叠滑窗计算每种k-mer频率。
-
-    含N的窗口不进入分母。每个k长度分别归一化，所以同一k下的全部频率
-    之和为1；有效窗口为0时该长度的所有频率均为NA。
-    """
+    "Calculate overlapping k-mer frequencies with a one-base sliding step."
     sequence = sequence.upper()
     output: Dict[str, float] = {}
     for k in range(min_k, max_k + 1):
@@ -715,11 +633,7 @@ def kmer_frequencies(sequence: str, min_k: int = 1, max_k: int = 4) -> Dict[str,
 
 
 def codon_frequencies(cds_sequence: str) -> Dict[str, float]:
-    """采用Agarwal的width=3、step=3方式计算61个非终止密码子频率。
-
-    CDS必须先按转录方向拼接。终止密码子和含N密码子不进入分母，结果中
-    61个密码子频率之和在存在有效密码子时为1。
-    """
+    "Calculate frequencies for 61 sense codons using width three and step three."
     sequence = cds_sequence.upper()
     codons = [sequence[index : index + 3] for index in range(0, len(sequence) - 2, 3)]
     valid = [
@@ -739,13 +653,7 @@ def build_sequence_features(
     windows: Mapping[str, Tuple[int, int]],
     expand_kmers: bool,
 ) -> Dict[str, object]:
-    """计算区域序列、CpG、pause/body k-mer和密码子特征。
-
-    promoter、pause和early_body窗口由命令行参数统一控制。所有序列均按
-    转录方向处理，负链自动反向互补。函数返回可直接合并到该基因X行的
-    特征字典。1-4-mer只在pause与完整gene body中计算；gene body从
-    pause窗口终点开始，一直延伸到MANE转录本TES。
-    """
+    "Build regional sequence, CpG, k-mer and codon features."
     tss = int(base_values["tss_bed0"])
     region_sequences = {
         name: fetch_oriented_window(
@@ -815,22 +723,18 @@ def build_sequence_features(
 
 
 def detect_column(frame: pd.DataFrame, candidates: Sequence[str], required: bool = True) -> Optional[str]:
-    """不区分大小写地寻找常见列名，适配不同版本的PC1和PI表。"""
+    "Find common column names case-insensitively across target and PI tables."
     lookup = {str(column).lower(): str(column) for column in frame.columns}
     for candidate in candidates:
         if candidate.lower() in lookup:
             return lookup[candidate.lower()]
     if required:
-        raise ValueError(f"没有找到必需列，候选列为：{', '.join(candidates)}")
+        raise ValueError(f"Required column not found; candidates: {', '.join(candidates)}")
     return None
 
 
 def load_target_table(path: Optional[Path]) -> Tuple[Optional[pd.DataFrame], Optional[str], Optional[str], Optional[str]]:
-    """读取基因PC1表并识别gene、transcript和Y列。
-
-    返回的表会去除重复基因，只保留首次出现，从而保证每个基因对应一个
-    最终Y_PC1值。
-    """
+    "Load a gene-level PC1 target table and identify gene, transcript and response fields."
     if path is None:
         return None, None, None, None
     frame = pd.read_csv(path, sep="\t", low_memory=False)
@@ -844,11 +748,11 @@ def load_target_table(path: Optional[Path]) -> Tuple[Optional[pd.DataFrame], Opt
 
 
 def parse_labelled_paths(items: Sequence[str]) -> List[Tuple[str, Path]]:
-    """解析重复的LABEL=PATH参数，例如GRO_seq=/data/gro.tsv。"""
+    "Parse repeatable LABEL=PATH arguments."
     output: List[Tuple[str, Path]] = []
     for item in items:
         if "=" not in item:
-            raise ValueError(f"PI矩阵参数必须是LABEL=PATH格式：{item}")
+            raise ValueError(f"PI matrix argument must use LABEL=PATH: {item}")
         label, raw_path = item.split("=", 1)
         output.append((label.strip(), Path(raw_path).expanduser()))
     return output
@@ -857,16 +761,12 @@ def parse_labelled_paths(items: Sequence[str]) -> List[Tuple[str, Path]]:
 def load_pi_features(
     labelled_paths: Sequence[Tuple[str, Path]], gene_order: Sequence[str]
 ) -> Tuple[pd.DataFrame, List[str]]:
-    """读取一个或多个基因×样本PI矩阵并按目标基因顺序对齐。
-
-    每个样本列重命名为PI_<测序标签>_<原样本名>，防止不同矩阵中出现
-    同名样本。PI只用于保留现有数据或复核，不应作为预测Y_PC1的X输入。
-    """
+    "Load PI matrices and align rows to the target gene order."
     merged = pd.DataFrame(index=pd.Index(gene_order, name="gene"))
     output_columns: List[str] = []
     for label, path in labelled_paths:
         if not path.exists():
-            raise FileNotFoundError(f"找不到PI矩阵：{path}")
+            raise FileNotFoundError(f"PI matrix not found: {path}")
         frame = pd.read_csv(path, sep="\t", low_memory=False)
         gene_column = detect_column(
             frame, ["gene", "gene_name", "symbol"], required=False
@@ -876,11 +776,11 @@ def load_pi_features(
         )
         if gene_column is None and combined_column is None:
             raise ValueError(
-                f"PI矩阵{path}中既没有gene列，也没有gene_transcript列"
+                f"PI matrix {path} has neither gene nor gene_transcript columns"
             )
 
-        # GRO-seq和PRO-seq矩阵有独立gene列；当前mNET-seq矩阵使用
-        # gene_transcript，例如SAMD11|NM_001385641.1，需要先拆出基因名。
+
+
         if gene_column is None:
             gene_column = "__parsed_gene"
             frame[gene_column] = (
@@ -894,8 +794,8 @@ def load_pi_features(
 
         frame = frame.drop_duplicates(subset=[gene_column], keep="first").set_index(gene_column)
 
-        # 前6个注释字段不是PI样本，必须从数值矩阵中排除。转换后整列均为
-        # NA的字段也删除，防止其他文本元数据误进入模型表。
+
+
         metadata_columns = {
             "gene",
             "gene_name",
@@ -925,7 +825,7 @@ def load_pi_features(
 
 
 def minmax_scale(series: pd.Series) -> pd.Series:
-    """复现Akcan使用的rescale逻辑，将非缺失值线性缩放到0到1。"""
+    "Rescale observed values linearly to the interval from zero to one."
     numeric = pd.to_numeric(series, errors="coerce")
     minimum = numeric.min(skipna=True)
     maximum = numeric.max(skipna=True)
@@ -935,28 +835,20 @@ def minmax_scale(series: pd.Series) -> pd.Series:
 
 
 def chromosome_numeric(series: pd.Series) -> pd.Series:
-    """按Akcan思路将染色体转为数字；非标准染色体保留为NA。
-
-    该列仅用于复现论文。正式模型更推荐对染色体使用one-hot编码。
-    """
+    "Encode standard chromosomes numerically and retain missing values for other contigs."
     mapping = {str(index): index for index in range(1, 23)}
     mapping.update({"X": 23, "Y": 24, "M": 25, "MT": 25})
     cleaned = series.astype(str).str.replace(r"^chr", "", regex=True)
     return cleaned.map(mapping).astype(float)
 
 
-def build_akcan_model_view(frame: pd.DataFrame) -> pd.DataFrame:
-    """从当前可计算列生成Akcan风格模型特征表。
-
-    tx.len、tx.ex.count和tx.ex.width按作者代码缩放到0到1。tx.gc.seq使用
-    包含内含子的完整基因组转录本序列GC。当前脚本另外保留gene作为连接
-    键，但它不应作为数值特征输入模型。
-    """
+def build_scaled_architecture_model_view(frame: pd.DataFrame) -> pd.DataFrame:
+    "Build a scaled architecture-feature view from the available predictors."
     output = pd.DataFrame(index=frame.index)
     output["gene"] = frame["gene"]
 
-    # R中as.numeric(strand(GRanges))返回strand因子的内部编码，通常是
-    # '+'=1、'-'=2、'*'=3；这里按作者代码复现，而不是改成二元0/1。
+
+
     output["tx.strand"] = frame["strand"].map({"+": 1, "-": 2, "*": 3})
     output["tx.gc.seq"] = frame["transcript_genomic_gc_fraction"]
     scaled_length = minmax_scale(frame["transcript_span_bp"])
@@ -964,14 +856,14 @@ def build_akcan_model_view(frame: pd.DataFrame) -> pd.DataFrame:
     output["tx.len"] = scaled_length
     output["tx.ex.count"] = scaled_exon_count
 
-    # 作者代码先分别缩放转录本长度和外显子数，再计算二者之比并再次缩放。
-    # 最小外显子数缩放后可能为0，因此这里将相应除零结果保存为NA。
+
+
     scaled_ratio = scaled_length / scaled_exon_count.replace(0, np.nan)
     output["tx.ex.ratio"] = minmax_scale(scaled_ratio)
     output["tx.ex.width"] = minmax_scale(frame["mean_exon_length_bp"])
     output["tx.ex.seq"] = frame["exon_fraction"]
 
-    # 作者使用start(GRanges)，即不考虑链方向的基因组低坐标起点。
+
     genomic_start = pd.concat(
         [
             pd.to_numeric(frame["tss_bed0"], errors="coerce"),
@@ -989,7 +881,7 @@ def ordered_feature_columns(
     pi_columns: Sequence[str],
     include_y: bool,
 ) -> List[str]:
-    """生成最终X表顺序，并在原占位位置展开k-mer、密码子和PI样本列。"""
+    "Construct the final predictor order, expanding k-mer, codon and PI columns in place."
     columns = [column for column in BASE_FEATURE_ORDER if column in frame.columns]
     pause_kmers = [f"pause_kmer_{kmer}_frequency" for kmer in all_kmers(1, 4)]
     body_kmers = [f"body_kmer_{kmer}_frequency" for kmer in all_kmers(1, 4)]
@@ -1009,56 +901,56 @@ def write_outputs(
     output_prefix: Path,
     report: pd.DataFrame,
 ) -> None:
-    """写出基因×特征、特征×基因、Akcan复现表和注释匹配报告。"""
+    "Write both matrix orientations, the scaled architecture view and annotation records."
     output_prefix.parent.mkdir(parents=True, exist_ok=True)
     gene_by_feature_path = Path(f"{output_prefix}.gene_by_feature.tsv")
     feature_by_gene_path = Path(f"{output_prefix}.feature_by_gene.tsv")
-    akcan_path = Path(f"{output_prefix}.akcan_model_features.tsv")
+    scaled_architecture_path = Path(f"{output_prefix}.scaled_architecture_model_features.tsv")
     report_path = Path(f"{output_prefix}.annotation_report.tsv")
 
     gene_by_feature = frame[["gene", *feature_columns]].copy()
     gene_by_feature.to_csv(gene_by_feature_path, sep="\t", index=False, na_rep="NA")
 
-    # 转置后第一列是feature_or_columns，其余列按目标PC1表中的基因顺序排列。
+
     transposed = gene_by_feature.set_index("gene").T
     transposed.index.name = "feature_or_columns"
     transposed.to_csv(feature_by_gene_path, sep="\t", index=True, na_rep="NA")
 
-    build_akcan_model_view(frame).to_csv(akcan_path, sep="\t", index=False, na_rep="NA")
+    build_scaled_architecture_model_view(frame).to_csv(scaled_architecture_path, sep="\t", index=False, na_rep="NA")
     report.to_csv(report_path, sep="\t", index=False, na_rep="NA")
 
-    print(f"已写出：{gene_by_feature_path}")
-    print(f"已写出：{feature_by_gene_path}")
-    print(f"已写出：{akcan_path}")
-    print(f"已写出：{report_path}")
+    print(f"Written: {gene_by_feature_path}")
+    print(f"Written: {feature_by_gene_path}")
+    print(f"Written: {scaled_architecture_path}")
+    print(f"Written: {report_path}")
 
 
 def build_argument_parser() -> argparse.ArgumentParser:
-    """定义命令行参数，并把所有窗口边界明确写入帮助信息。"""
+    "Define command-line options and explicit genomic-window boundaries."
     parser = argparse.ArgumentParser(
-        description="按照指定X标签顺序，从MANE GTF和GRCh38 FASTA构建基因特征表。"
+        description="Build gene features from MANE GTF and GRCh38 FASTA in the specified feature order."
     )
-    parser.add_argument("--gtf", type=Path, required=True, help="MANE GTF或GTF.gz路径")
-    parser.add_argument("--fasta", type=Path, required=True, help="GRCh38 FASTA路径")
-    parser.add_argument("--fai", type=Path, default=None, help="FASTA的.fai路径；默认使用FASTA+.fai")
+    parser.add_argument("--gtf", type=Path, required=True, help="Path to MANE GTF or GTF.gz")
+    parser.add_argument("--fasta", type=Path, required=True, help="Path to GRCh38 FASTA")
+    parser.add_argument("--fai", type=Path, default=None, help="Path to the FASTA .fai index; defaults to FASTA+.fai")
     parser.add_argument(
         "--pc1",
         type=Path,
         default=None,
-        help="基因PC1表；用于确定基因顺序并将PC1_Y写为最后一列Y_PC1",
+        help="Gene PC1 table specifying gene order; PC1_Y is written as the final Y_PC1 column",
     )
     parser.add_argument(
         "--pi-matrix",
         action="append",
         default=[],
         metavar="LABEL=PATH",
-        help="可重复提供PI矩阵，例如GRO_seq=/path/gro.tsv",
+        help="Repeatable PI matrix argument, for example GRO_seq=/path/gro.tsv",
     )
     parser.add_argument(
         "--output-prefix",
         type=Path,
         required=True,
-        help="输出文件前缀，例如results/POLII_XY",
+        help="Output file prefix, for example results/POLII_XY",
     )
     parser.add_argument("--promoter-upstream", type=int, default=1000)
     parser.add_argument("--promoter-downstream", type=int, default=100)
@@ -1069,25 +961,20 @@ def build_argument_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--no-expand-sequence-features",
         action="store_true",
-        help="不展开pause/body共680个1-4-mer和61个密码子列，用于快速检查注释流程",
+        help="Skip expansion of the 680 pause/body 1-4-mer and 61 codon columns for a quick annotation-only run",
     )
     return parser
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
-    """串联全部处理步骤并生成最终结果。
-
-    处理顺序严格对应用户表格：身份信息、坐标、转录本结构、外显子、
-    内含子、CDS/UTR、比例、剪接、序列组成、CpG、k-mer、密码子、PI，
-    最后写入Y_PC1。
-    """
+    "Run the feature-processing workflow and write its outputs."
     args = build_argument_parser().parse_args(argv)
     target_table, gene_column, transcript_column, y_column = load_target_table(args.pc1)
 
-    print("正在读取MANE GTF并构建转录本区域……")
+    print("Reading MANE GTF and constructing transcript regions...")
     records = parse_mane_gtf(args.gtf)
     if not records:
-        raise RuntimeError("GTF中没有解析出任何转录本，请检查文件格式和transcript_id属性")
+        raise RuntimeError("No transcripts were parsed from the GTF; check the format and transcript_id attributes")
 
     if target_table is None:
         gene_column = "gene"
@@ -1123,7 +1010,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     }
 
     rows: List[Dict[str, object]] = []
-    print(f"正在计算{len(gene_order):,}个目标基因的结构和序列特征……")
+    print(f"Computing {len(gene_order):,} target genes: structure and sequence features...")
     with IndexedFasta(args.fasta, args.fai) as fasta:
         for index, gene in enumerate(gene_order, start=1):
             record = selected.get(gene)
@@ -1151,7 +1038,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 )
             )
 
-            # Akcan的tx.gc.seq是完整基因组转录本范围GC，明确包含内含子。
+
             genomic_transcript_sequence = fetch_intervals_sequence(
                 fasta,
                 record.chrom,
@@ -1166,7 +1053,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             rows.append(row)
 
             if index % 1000 == 0:
-                print(f"  已处理{index:,}/{len(gene_order):,}个基因")
+                print(f"  Processed {index:,}/{len(gene_order):,} genes")
 
     frame = pd.DataFrame(rows)
     frame = frame.set_index("gene").reindex(gene_order).reset_index()
@@ -1184,10 +1071,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     write_outputs(frame, feature_columns, args.output_prefix, report)
 
     matched = int((report["status"] == "matched").sum())
-    print(f"注释匹配：{matched:,}/{len(report):,}个基因")
+    print(f"Annotation matches: {matched:,}/{len(report):,} genes")
     if matched < len(report):
-        print("未匹配基因已保留在输出中，其不可计算特征为NA；详情见annotation_report。")
-    print("提醒：PI样本列与Y_PC1直接相关，训练预测Y_PC1时必须从X中排除。")
+        print("Unmatched genes are retained with NA for unavailable features; see annotation_report.")
+    print("PI sample columns are directly associated with Y_PC1 and must be excluded from predictors when training a Y_PC1 model.")
     return 0
 
 
@@ -1195,5 +1082,5 @@ if __name__ == "__main__":
     try:
         raise SystemExit(main())
     except Exception as error:
-        print(f"错误：{error}", file=sys.stderr)
+        print(f"Error: {error}", file=sys.stderr)
         raise

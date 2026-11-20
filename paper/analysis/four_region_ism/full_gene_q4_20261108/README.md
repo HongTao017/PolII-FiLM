@@ -1,11 +1,7 @@
-# 原版 A 全基因四段 DNA 突变
+# Full gene q4 20261108
 
-全部 15,351 个基因参加。按原始测试折保存的五种子平均预测 `Y_PC1` 统一划为 Q1 至 Q4。推理使用原版 A 的原测试折五个 checkpoint 和各自保存的预处理，2,554 列调控输入固定在原值。每个基因四段都使用同一个组别。分组记录在 `gene_groups.tsv`，精确阈值及每折计划哈希记录在 `protocol.json`。
+The four-region substitution analysis evaluates all valid bases and three alternative bases using five held-out models. Copies of the same genomic position are edited together. Per-position sensitivity is the absolute value of the mean signed substitution effect. Saved gene-level arrays, coverage records and region summaries support statistical recomputation without retraining.
 
-每个窗口切成 30 个位置分箱，每个非空分箱取离中心最近的有效碱基，计算三种替换。四段配对统计另取各非空分箱离中心最近的独有有效位点，两个用途在同一基因组坐标上去重。共享位点一次突变同步更新所有有效序列副本。位置曲线使用所有有效窗口，包括共享位点的实际多分支响应。四段配对统计仅使用四段各有独有位点的同一批基因。共享位点另有每基因汇总。无内含子的基因仍参加 TSS 和 TES 曲线。
+## Usage
 
-每个替换先算各模型的突变减 WT 预测差，再跨五个种子取有符号平均。`saluki_abs_mean_delta` 先平均三个带符号的替换效应，再取绝对值，采用 Saluki Fig. 5d 图注的计分定义。`pilot_mean_abs_delta` 先对三个替换效应取绝对值，再平均。两项均使用原尺度 `Y_PC1`。
-
-`position_curves.tsv` 保存四组各位置的两个指标与支持基因数。`matched_gene_region_scores.tsv` 和 `matched_region_summary.tsv` 保存四段配对队列的分数与汇总。`shared_gene_scores.tsv` 保存共享位点的基因级分数。`shards/` 保存按原计划顺序排列的五种子推理结果。每 20 个基因独立落盘，可按日志恢复。
-
-`logs/status.txt` 记录控制器状态。`logs/gpu_*.log` 记录每张卡的进度。控制器使用 GPU 2 至 6，每张卡一次处理一个测试折。
+See the repository README and `docs/reproduction.md` for environment setup and supported entry points. Archived launch scripts retain their original scope; use a new output directory for new calculations.

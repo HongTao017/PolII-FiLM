@@ -12,7 +12,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT.parent))
-from run_ism import FOLDS, REGIONS, SEEDS, digest, load_inputs, predict_gene, write_json
+from run_ism import FOLDS, REGIONS, SEEDS, digest, load_inputs, predict_gene, write_json, protocol_fingerprint
 
 GROUP_SOURCE = ROOT.parent / 'full_gene_q4_20261108/gene_groups.tsv'
 GROUPS = ('All', 'Q1', 'Q2', 'Q3', 'Q4')
@@ -108,7 +108,7 @@ def infer(fold, device, batch_size, limit):
     torch.backends.cudnn.allow_tf32 = False
     loader, _, dna, regulation, genes = context()
     protocol = json.loads((ROOT / 'protocol.json').read_text())
-    protocol_sha = digest(ROOT / 'protocol.json')
+    protocol_sha = protocol_fingerprint(ROOT / 'protocol.json')
     assert protocol['code_sha256'] == digest(Path(__file__))
     assert protocol['inference_helper_sha256'] == digest(ROOT.parent / 'run_ism.py')
     assert protocol['group_source_sha256'] == digest(GROUP_SOURCE)
@@ -142,9 +142,9 @@ def infer(fold, device, batch_size, limit):
 
 
 def summarize():
-    protocol_sha = digest(ROOT / 'protocol.json')
+    protocol_sha = protocol_fingerprint(ROOT / 'protocol.json')
     coverage = pd.read_csv(ROOT / 'all_gene_coverage.tsv', sep='\t')
-    score_names = ('saluki_abs_mean_delta', 'pilot_mean_abs_delta', 'signed_mean_delta')
+    score_names = ('abs_mean_substitution_delta', 'pilot_mean_abs_delta', 'signed_mean_delta')
     sums = np.zeros((5, OFFSETS[-1], len(score_names)))
     counts = np.zeros((5, OFFSETS[-1]), dtype=np.int32)
     region_rows = []

@@ -34,7 +34,7 @@ for REQUIRED in \
   "$SCRIPTS/extract_mnetseq_3prime.py" \
   "$SCRIPTS/merge_mnetseq_3prime_samples.py"; do
     if [[ ! -s "$REQUIRED" ]]; then
-        echo "[错误] 缺少文件：$REQUIRED" >&2
+        echo "[Error] File missing: $REQUIRED" >&2
         exit 1
     fi
 done
@@ -42,7 +42,7 @@ done
 # MANE BED is a coordinate annotation. Link it into mNET rather than copying it.
 if [[ -e "$MANE_TARGET" || -L "$MANE_TARGET" ]]; then
     if [[ "$(readlink -f "$MANE_TARGET")" != "$(readlink -f "$MANE_SOURCE")" ]]; then
-        echo "[错误] mNET中已存在另一个MANE BED：$MANE_TARGET" >&2
+        echo "[Error] Another MANE BED already exists in mNET: $MANE_TARGET" >&2
         exit 1
     fi
 else
@@ -75,8 +75,8 @@ python3 "$SCRIPTS/merge_mnetseq_3prime_samples.py" \
   --jobs 2 \
   --threads-per-job 4
 
-echo "Run级3'端BED：$(find "$RUN_BED_DIR" -maxdepth 1 -name '*.bed.gz' | wc -l)"
-echo "样本级3'端BED：$(find "$SAMPLE_BED_DIR" -maxdepth 1 -name '*.bed.gz' | wc -l)"
-echo "Run状态表：$RUN_STATUS"
-echo "样本合并表：$SAMPLE_STATUS"
-echo "MANE BED：$MANE_TARGET"
+echo "Run-level 3-prime BED: $(find "$RUN_BED_DIR" -maxdepth 1 -name '*.bed.gz' | wc -l)"
+echo "Sample-level 3-prime BED: $(find "$SAMPLE_BED_DIR" -maxdepth 1 -name '*.bed.gz' | wc -l)"
+echo "Run status table: $RUN_STATUS"
+echo "Sample merge table: $SAMPLE_STATUS"
+echo "MANE BED: $MANE_TARGET"

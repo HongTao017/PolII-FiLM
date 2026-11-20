@@ -17,12 +17,12 @@ fi
 PROJECT_REAL=$(readlink -f -- "$PROJECT")
 EXPECTED="/mnt/HDD8TB/shared/Data_Seq/DATA/mnetseq_project"
 if [[ "$PROJECT_REAL" != "$EXPECTED" ]]; then
-    echo "[错误] 项目路径不符合预期：$PROJECT_REAL" >&2
+    echo "[Error] Unexpected project path: $PROJECT_REAL" >&2
     exit 1
 fi
 
 [[ -d "$OUT" && -d "$LOG" ]] || {
-    echo "[错误] 找不到 BAM 或日志目录" >&2
+    echo "[Error] Not found:  BAM or log directory" >&2
     exit 1
 }
 
@@ -32,7 +32,7 @@ printf 'run\toverall_alignment_rate\tthreshold\tcompletion\tdecision\tbam\n' > "
 shopt -s nullglob
 logs=("$LOG"/*.bowtie2.log)
 if [[ ${#logs[@]} -eq 0 ]]; then
-    echo "[错误] 没有找到 Bowtie2 日志：$LOG/*.bowtie2.log" >&2
+    echo "[Error] Not found:  Bowtie2 logs: $LOG/*.bowtie2.log" >&2
     exit 1
 fi
 
@@ -72,20 +72,20 @@ for logfile in "${logs[@]}"; do
         "$run" "$rate" "$THRESHOLD" "$decision" "$bam" >> "$RESULT"
 done
 
-echo "比对率阈值：${THRESHOLD}%"
-echo "日志总数：${#logs[@]}"
-echo "已完成日志：$complete"
-echo "尚未完成日志：$incomplete"
-echo "低于阈值 Run 数：${#low_runs[@]}"
-echo "结果表：$RESULT"
+echo "Alignment-rate threshold: ${THRESHOLD}%"
+echo "Total logs: ${#logs[@]}"
+echo "Completed logs: $complete"
+echo "Incomplete logs: $incomplete"
+echo "Runs below threshold: ${#low_runs[@]}"
+echo "Result table: $RESULT"
 echo
 
 awk -F '\t' 'NR==1 || $5=="REMOVE"' "$RESULT" | column -t -s $'\t'
 
 if [[ "$MODE" == "--dry-run" ]]; then
     echo
-    echo "当前为预览模式，没有删除文件。"
-    echo "确认后使用 --execute。"
+    echo "Preview mode; no files deleted."
+    echo "Use --execute after reviewing the preview."
     exit 0
 fi
 
@@ -103,7 +103,7 @@ for cmdline_file in /proc/[0-9]*/cmdline; do
 done
 
 if [[ -n "$running" ]]; then
-    echo "[错误] mNET-seq 比对或排序仍在运行，拒绝删除：" >&2
+    echo "[Error] mNET-seq alignment or sorting is still running; refusing removal: " >&2
     echo "$running" >&2
     exit 1
 fi
@@ -121,6 +121,6 @@ for run in "${low_runs[@]}"; do
 done
 
 echo
-echo "删除完成：$removed 个低比对率 Run 的 BAM/BAI。"
-echo "FASTQ 和 Bowtie2 日志均已保留。"
+echo "Removal complete: $removed  low-alignment-rate runs:  BAM/BAI. "
+echo "FASTQ and Bowtie2 logs retained."
 

@@ -31,8 +31,8 @@ from scipy.stats import pearsonr, spearmanr
 
 from final_figure_small import apply_style, new_figure, save_pdf
 
-DESTINATION = Path('G:/序列分析画图/Png/png/10折交叉验证得到的基因特征图/重绘_20261021_5x4PDF')
-KEY = 'G:/序列分析数据/codex_bpnet_ablation_ed25519'
+DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_5x4_20261021')
+KEY = 'G:/sequence_analysis_data/codex_sequence_cnn_ablation_ed25519'
 SERVER = 'user_011@172.16.12.164'
 COLORS = {'B': '#D55E00', 'Q': '#E69F00', 'I': '#009E73', 'C': '#CC79A7',
           'P': '#0072B2', 'E': '#56B4E9', 'T': '#777777'}

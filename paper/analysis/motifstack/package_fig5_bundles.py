@@ -25,13 +25,13 @@ DEST.mkdir(parents=True,exist_ok=True)
 if STAGE.exists():assert (STAGE/'managed.json').exists(),'Do not touch an unknown staging directory'
 STAGE.mkdir(exist_ok=True);dump(STAGE/'managed.json',{'task':'fig5_plot_bundles','date':'2026-10-20'})
 items=[
- ('SP4_MA0685_2_F04_TSS600_IMPORTANCE','TSS完整600bp归因强度','tss'),
- ('SP4_MA0685_2_F04_SEQLET_B_NO_X_SPINE','SP4来源片段50bp碱基贡献b图','seqlet'),
- ('SP4_MA0685_2_F04_TOMTOM_ALIGNMENT','SP4与JASPAR的TOMTOM上下对齐','tomtom'),
- ('SP4_MA0685_2_F04_KLHL23_ISM_GAIN_LOSS_HEATMAP','KLHL23扰动位点附近31bp的gain-loss与替换热图','ism'),
- ('motifStack_FIXED_ARROWS_ALIGNED_TEXT_LOGOS_TIGHTER_5x4','圆树13个分区名称与对应motif小图','logos13'),
- ('motifStack_FIXED_ARROWS_TEXT_ONLY_NO_LOGOS_5x4','圆树仅13个分区名称无motif小图','partial13'),
- ('motifStack_TEXT_ONLY_ALL29_NO_LOGOS_5x4','圆树13个分区与16个独立项全部标名','all29')]
+ ('SP4_MA0685_2_F04_TSS600_IMPORTANCE',"Attribution across the complete 600-bp TSS input",'tss'),
+ ('SP4_MA0685_2_F04_SEQLET_B_NO_X_SPINE',"Base contributions for the 50-bp SP4-associated seqlet",'seqlet'),
+ ('SP4_MA0685_2_F04_TOMTOM_ALIGNMENT',"TOMTOM alignment of the pattern and JASPAR SP4 motif",'tomtom'),
+ ('SP4_MA0685_2_F04_KLHL23_ISM_GAIN_LOSS_HEATMAP',"Gain/loss curves and substitution heatmap near the KLHL23 perturbation site",'ism'),
+ ('motifStack_FIXED_ARROWS_ALIGNED_TEXT_LOGOS_TIGHTER_5x4',"Circular tree with 13 partition labels and motif logos",'logos13'),
+ ('motifStack_FIXED_ARROWS_TEXT_ONLY_NO_LOGOS_5x4',"Circular tree with 13 partition labels",'partial13'),
+ ('motifStack_TEXT_ONLY_ALL29_NO_LOGOS_5x4',"Circular tree with labels for 13 partitions and 16 independent items",'all29')]
 assert {stem+'.pdf' for stem,_,_ in items}=={p.name for p in (SRC/'figures').glob('*.pdf')}
 assert not any((DEST/stem).exists() for stem,_,_ in items),'Existing named packages require inspection before replacement'
 source_shas={stem:sha(SRC/'figures'/f'{stem}.pdf') for stem,_,_ in items}
@@ -108,7 +108,7 @@ for stem,description,kind in items:
    cp(SRC/name,P/'upstream_code'/name)
   for name in ['tighten_aligned_title_logo_again.py','move_titles_to_fixed_arrows.py','keep_final_and_text_only_no_logos.py','retain_full_and_partial_text_only.py']:
    cp(SRC/name,P/'original_code'/name)
-  note='包含314个pattern全精度PPM、原生R聚类树与输入矩阵、距离/对齐结果、44个命中记录、分区和命名表；直接重绘使用冻结的原始拓扑与分区，不重新聚类。'
+  note="Full-precision matrices for 314 patterns, the original clustering topology, inputs, distances, alignments, 44 matched patterns and naming tables. Frozen-data plotting preserves topology and partitions."
  else:
   local=D/'analysis/SP4_F04_r0_neg_pattern0';local.mkdir(parents=True,exist_ok=True)
   if kind in ['tss','seqlet']:
@@ -128,7 +128,7 @@ for stem,description,kind in items:
    codewrite(C/'render.py',prefix+functions+'\n'+block+"\n(AUDIT/'redraw_QA.json').write_text(json.dumps(qa,indent=2))\n")
    cp(SRC/'draw_sp4_tss_separate.py',P/'original_code/draw_sp4_tss_separate.py')
    cp(SP4/'TSS_AND_CWM_SEPARATE_QA.json',P/'source_QA.json')
-   note='600bp KLHL23真实TSS归因值、基因组坐标、one-hot序列及选中SP4片段；数据TSV和NPZ均保留原精度。'
+   note="Full 600-bp KLHL23 TSS attributions, coordinates, one-hot sequence and selected SP4-associated segment, with full-precision TSV/NPZ values."
   else:
    script={'seqlet':'draw_sp4_seqlet_b.py','tomtom':'draw_sp4_tomtom_alignment.py','ism':'draw_sp4_klhl23_perturbation.py'}[kind]
    text=(SRC/script).read_text(encoding='utf-8-sig')
@@ -140,13 +140,13 @@ for stem,description,kind in items:
    if kind=='seqlet':
     text=text.replace("(A/'SEQLET_B_NO_X_SPINE_QA.json')", "(AUDIT/'redraw_QA.json')")
     cp(SP4/'SEQLET_B_NO_X_SPINE_QA.json',P/'source_QA.json')
-    note='50bp真实来源片段的逐碱基贡献、原始序列及坐标；此图为单个KLHL23片段，不是166个seqlet的平均CWM。'
+    note="Per-base contributions, sequence and coordinates for one 50-bp KLHL23 seqlet, rather than an average across 166 seqlets."
    elif kind=='tomtom':
     text=text.replace("Path('/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04')", "(Path(__file__).resolve().parents[1]/'data/source_fold')")
     text=text.replace("A=ROOT/'analysis/SP4_F04_r0_neg_pattern0'", "A=Path(__file__).resolve().parents[1]/'audit'")
     for name in ['complete.json','tomtom/tomtom.xml','tomtom/tomtom.tsv','patterns.meme','jaspar_125.meme','modisco/tss_sequence.h5']:cp(FOLD/name,D/'source_fold'/name)
     cp(SP4/'TOMTOM_ALIGNMENT_QA.json',P/'source_QA.json')
-    note='原始TOMTOM XML/TSV、查询和数据库MEME矩阵、原生H5贡献矩阵及哈希；图示24–32位、SP4反向互补，原始p/q值保留。'
+    note="Original TOMTOM XML/TSV, query and reference matrices, H5 contributions and hashes; alignment positions 24-32 and the SP4 reverse-complement orientation retain original P/q values."
    else:
     srcO=SP4/'perturbation_KLHL23';outO=local/'perturbation_KLHL23';outO.mkdir(exist_ok=True)
     completion=json.loads((srcO/'complete.json').read_text())
@@ -156,14 +156,14 @@ for stem,description,kind in items:
     cp(srcO/'README.md',P/'source_notes.md')
     for name in ['compute_sp4_klhl23_perturbation.py']:cp(SRC/name,P/'upstream_inference'/name)
     cp(FOLD/'deep_lift_core.py',P/'upstream_inference/deep_lift_core.py');cp(FOLD/'experiment_config.json',P/'upstream_inference/experiment_config.json')
-    note='包含五个种子的WT/突变预测、完整101bp的303种替换结果、当前31bp展示数据来源、FIMO结果及冻结方案。重绘不需要GPU和模型权重。上游推理代码作为溯源保留，重新跑推理仍需其注明的原模型文件。'
+    note="Five-seed WT and mutant predictions, all 303 substitutions in the 101-bp window, 31-bp display provenance, FIMO output and the frozen plan. Plotting uses saved values; re-inference requires the recorded checkpoints and inputs."
    codewrite(C/'render.py',text)
  codewrite(B/'plot.py',driver)
  dump(B/'package.json',meta)
  versions={key:md.version(key) for key in ['numpy','matplotlib','scipy','h5py']}
  versions['PyMuPDF']=pymupdf.VersionBind
  (B/'requirements.txt').write_text('\n'.join(f'{k}=={v}' for k,v in versions.items())+'\n')
- (B/'README.md').write_text(f'''# {description}\n\n最终图：`{stem}.pdf`。这是原最终PDF的逐字节复制，SHA256 `{source_shas[stem]}`。\n\n## 独立重绘\n\n在本目录执行：\n\n```bash\npython -m pip install -r requirements.txt\npython plot.py --output redraw.pdf\n```\n\n所有绘图输入都在本目录的 `data/`，入口使用相对路径；可以整体移动该文件夹。`code/` 为实际绘图代码，`data/fonts/` 提供本次使用的Arial字体，`provenance/` 保留原脚本及核验记录，`audit/` 保存重绘检查。重绘仅生成PDF；原始数据不依赖新的网络请求或GPU计算。\n\n{note}\n\n字体：Arial普通标注/刻度12pt、轴标题14pt，PDF文字可编辑。画布沿用当前最终版尺寸。最终PDF和重绘结果的逐像素核验见 `REPRODUCIBILITY.json`；全部文件校验见 `MANIFEST_SHA256.txt`。\n''',encoding='utf-8')
+ (B/'README.md').write_text(f'# {description}\n\nFinal figure: `{stem}.pdf`, copied from the archived final PDF with SHA256 `{source_shas[stem]}`.\n\n## Redraw\n```bash\npython -m pip install -r requirements.txt\npython plot.py --output redraw.pdf\n```\nThe package uses relative paths to frozen inputs in `data/`. Actual rendering code is in `code/`; source scripts and historical checks are in `provenance/` and `audit/`. Install locally licensed Arial fonts using the repository font setup script. Frozen-data plotting requires neither model inference nor network access.\n{note}\nText and ticks use Arial 12 pt; axis titles use 14 pt. PDF text is editable and the archived canvas dimensions are retained. Historical rendering comparisons are in `REPRODUCIBILITY.json`, with checksums in `MANIFEST_SHA256.txt`.\n',encoding='utf-8')
  trial=B/'audit/repro_check.pdf'
  env=os.environ.copy();env['PYTHONPATH']=str(SRC/'qa_deps')+os.pathsep+env.get('PYTHONPATH','');env['PYTHONDONTWRITEBYTECODE']='1'
  run=subprocess.run([str(PYTHON),str(B/'plot.py'),'--output',str(trial)],env=env,capture_output=True,text=True)
@@ -197,11 +197,11 @@ for row in results:
  src.rename(dst)
  assert sha(dst/row['filename'])==row['source_sha256']
 assert all(sha(SRC/'figures'/f'{stem}.pdf')==source_shas[stem] for stem,_,_ in items)
-index=['# Figure 5 图件、代码与数据','', '每张图按原图名称独立存放。共7张当前最终版，原项目文件保留。所有包均通过从所附数据独立重绘、与原图逐像素一致的检查。','', '| 文件夹 / 图名 | 内容 | 重绘入口 |','|---|---|---|']
+index=["# Figure 5: figures, code and data",'', "Each final figure has its own package. The seven display variants retain their original inputs and previous reproduction records.",'', "| Directory / figure | Content | Entry point |",'|---|---|---|']
 for row in results:index.append(f"| [{row['folder']}]({row['folder']}/) | {row['description']} | `{row['folder']}/plot.py` |")
-index+=['','每个目录均包含最终PDF、plot.py、code/、data/、requirements.txt、README.md、MANIFEST_SHA256.txt、REPRODUCIBILITY.json。','', '重绘：进入对应目录执行 `python plot.py --output redraw.pdf`；如缺依赖，先执行 `python -m pip install -r requirements.txt`。','', '扰动图的数据保留完整101bp、五种子共1515个实际突变预测；当前最终图仅展示突变位点附近31bp。图中Δ为原始尺度Y_PC1的突变减WT，不是log1p(counts)。']
+index+=['',"Each package contains a PDF, plotting entry point, code, frozen data, dependency requirements and provenance records.",'', "Run `python plot.py --output redraw.pdf` within a package after installing its requirements.",'', "The perturbation data contain all 101 positions and 1515 predictions across five seeds; this display uses 31 positions. Delta is mutant minus WT in original Y_PC1 units."]
 (DEST/'README.md').write_text('\n'.join(index)+'\n',encoding='utf-8')
-with (DEST/'图件目录.tsv').open('w',encoding='utf-8',newline='') as f:
+with (DEST/"figure_index.tsv").open('w',encoding='utf-8',newline='') as f:
  w=csv.DictWriter(f,fieldnames=['folder','description','filename','files','bytes','source_sha256','pixel_identical'],delimiter='\t');w.writeheader();w.writerows({k:v for k,v in row.items() if k in w.fieldnames} for row in results)
 dump(DEST/'PACKAGING_REPORT.json',{'status':'PASS','date':'2026-10-20','destination':str(DEST),'count':len(results),'source_figures_unchanged':True,'all_original_PDFs_byte_identical':True,'all_independent_redraws_pixel_identical':True,'packages':results})
 (STAGE/'managed.json').unlink();STAGE.rmdir()

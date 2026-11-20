@@ -1,7 +1,9 @@
 """Download the published release packages and restore their relative layout."""
 from pathlib import Path
-import argparse,hashlib,io,json,os,tarfile,urllib.request
+import argparse,hashlib,io,json,os,sys,tarfile,urllib.request
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from polii_film.archive_compatibility import normalize_path,record_resource,align_metadata
 
 class PartsReader(io.RawIOBase):
     def __init__(self,paths):self.paths=iter(paths);self.current=None
@@ -33,6 +35,8 @@ def main():
     if a.list:
         for name,g in m['groups'].items():print(f"{name}: {len(g['parts'])} part(s), {sum(x['bytes'] for x in g['parts'])/1e9:.2f} GB download")
         return
+    source=json.loads((ROOT/'configs/source_revision_map.json').read_text(encoding='utf-8'))
+    tracked=set(source['tracked_paths'])
     groups=list(m['groups']) if a.all else list(a.group or [])
     if not groups:p.error('Choose --all, --group NAME, or --list')
     if 'layout_links' in m['groups'] and 'layout_links' not in groups:groups.append('layout_links')
@@ -56,12 +60,18 @@ def main():
         if a.download_only:continue
         with io.BufferedReader(PartsReader(paths),buffer_size=8*1024*1024) as stream,tarfile.open(fileobj=stream,mode='r|gz') as archive:
             for member in archive:
+                member.name=normalize_path(member.name)
+                if member.issym() or member.islnk():member.linkname=normalize_path(member.linkname)
                 target=(ROOT/member.name).resolve()
                 if not target.is_relative_to(ROOT):raise ValueError('Archive path leaves repository')
+                if member.name.removeprefix('./') in tracked:continue
                 if member.issym():
                     link=(ROOT/member.name).parent/member.linkname
                     if not link.resolve().is_relative_to(ROOT):raise ValueError('Archive link leaves repository')
                 archive.extract(member,path=ROOT,filter='data')
+                if member.isfile() and member.size<=16*1024*1024:
+                    record_resource(target,target.read_bytes())
         print('Installed',name,flush=True)
+    if not a.download_only:align_metadata()
 
 if __name__=='__main__':main()

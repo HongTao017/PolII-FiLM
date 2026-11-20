@@ -12,7 +12,7 @@ print('ORDER',order[:12].tolist())
 print('ATTR',np.load(R/'attributions/seed_20260915/hypothetical.npy',mmap_mode='r').shape)
 f=h5py.File(R/'modisco/tss_sequence.h5','r'); g=f['neg_patterns/pattern_0']; seqlets=g['seqlets']
 print('SEQLET',{x:seqlets[x][:10].tolist() for x in ['example_idx','start','end','is_revcomp']})
-a=np.load(Path(cfg['source_root'])/'data/bpnet_prepared/tss_sequence.npy',mmap_mode='r')
+a=np.load(Path(cfg['source_root'])/'data/sequence_prepared/tss_sequence.npy',mmap_mode='r')
 print('INPUT',a.shape)
 for k in range(4):
  i=int(order[int(seqlets['example_idx'][k])]); b=int(sel[i]['gene_index']); s,e=int(seqlets['start'][k]),int(seqlets['end'][k]); x=a[b,s:e]; rev=bool(seqlets['is_revcomp'][k]); stored=seqlets['sequence'][k]

@@ -43,7 +43,7 @@ for script in "${required_scripts[@]}"; do
     source_path="$MAIN/scripts/$script"
   fi
   [[ -s "$source_path" ]] || {
-    echo "[错误] 补充包和原PRO项目均缺少脚本：$script" >&2
+    echo "[Error] Script absent from supplementary and original PRO projects: $script" >&2
     exit 1
   }
   install_file "$source_path" "$PROJECT/scripts/$script"
@@ -51,13 +51,13 @@ done
 
 for annotation in MANE_Select.transcripts.bed MANE.orientation.clean.bed; do
   [[ -s "$GRO/annotation/$annotation" ]] || {
-    echo "[错误] GRO项目缺少注释：$GRO/annotation/$annotation" >&2
+    echo "[Error] GRO project is missing annotation: $GRO/annotation/$annotation" >&2
     exit 1
   }
   ln -sfn "$GRO/annotation/$annotation" "$PROJECT/annotation/$annotation"
 done
 
 chmod +x "$PROJECT/scripts/"*.sh "$PROJECT/scripts/"*.py
-echo "补充PRO-seq项目已经建立：$PROJECT"
-echo "Run数：$(($(wc -l < "$PROJECT/metadata/proseq_supplement_samples.tsv") - 1))"
-echo "下一步：PROJECT=\"$PROJECT\" bash \"$PROJECT/scripts/run_supplement_pipeline.sh\" manifest"
+echo "Supplementary PRO-seq project created: $PROJECT"
+echo "Run count: $(($(wc -l < "$PROJECT/metadata/proseq_supplement_samples.tsv") - 1))"
+echo "Next step: PROJECT=\"$PROJECT\" bash \"$PROJECT/scripts/run_supplement_pipeline.sh\" manifest"

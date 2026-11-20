@@ -200,45 +200,10 @@ def main():
  report['ring_verification']=dict(cells=314,matched=44,unmatched=270,max_RGB_deviation=err)
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==TREE_SHA
  (ROOT/'analysis/shared_core_partition_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
- guide=f'''# 新版：共同序列核心分区图
-
-总览：`{OUT}`；命中项子树：`{DETAIL}`。
-
-本次保留原生 motifStack 的 314 叶树、分支关系及循环顺序；44 个原有命中、79 条 TOMTOM 记录和 11 个 JASPAR 矩阵不变。分区是新增的描述性注释分析，参数不是 motifStack 默认参数，也不是原论文人工分群结果，不能称为已经验证的转录因子家族。
-
-## 阴影和名称的含义
-
-此次有 {len(selected)} 个包含命中项、且满足共同核心规则的多 pattern 分支，覆盖 {sum(g['hits'] for g in selected)} 个命中 pattern。其余 {sum(u['n']==1 for u in units)} 个命中项用 S01 等独立编号保留，不强行归类。没有把 11 个参考矩阵当成 11 个序列类群。
-
-连续灰色扇区覆盖一个满足共同核心规则的真实分支，从该分支根部延伸到叶端。灰区内可能包含未命中的同核心成员，不能把整个灰区都解释为 TOMTOM 命中；是否命中只读外圈：深紫＝已命中，浅紫＝未命中。未能归入这些分支的命中项用窄灰条表示。
-
-外侧黑色名称来自该分支成员比对后的等权平均矩阵及逐列支持度，不再来自一个代表 pattern 的固定 6 bp。黑三角指向整个对应分区的角度中心。重复名称末尾 -01、-02 仅区分原树中分开的分支，同名核心不意味着它们已合并为一个家族。数字前缀只压缩连续相同 IUPAC 字母：4T＝TTTT，CN3C＝CNCCC；没有添加“+”，也没有照搬原论文多碱基重复次数定义。
-
-蓝/粉线分别为负/正 Y_PC1 归因，同一内部分支含两类时用中性灰。不是已经实验验证的表达抑制/激活。枝长用拓扑层级显示，扇区宽度为排版用途，都不是数值距离。总览若多页，页间仅显示的标签不同；树及阴影完全一致。44 命中项图从原树删去未命中叶并收缩单子节点得到，未重新聚类；S 编号为独立命中项，可由表查回真实 pattern 与 TF。
-
-## 可复核规则
-
-从根部向下检查最大分支，不满足规则才沿原树分成两个子分支。分支锚点为冻结原生距离中平均距离最小的成员，仅作为坐标锚点；名字由所有成员共同决定。沿用原生 matalign 已存的局部比对坐标及正反链，读取原始 H5 sequence 全精度概率矩阵，不加伪计数。各 pattern 等权。
-
-逐列使用 Cavener 共识：非 N 列必须至少 80% 全体成员在该 IUPAC 集合中分配至少 0.60 概率；至少 80% 覆盖；平均矩阵该列 IC 至少 0.25 bits。候选核心长 4–12 bp，至少四个支持列，至少 80% 列获支持，两端支持，不允许连续两个未获支持的 N；至少 80% 成员需有至少 80% 覆盖且与组平均核心的平均 Bhattacharyya 系数至少 0.90。在满足条件窗口中取支持列 IC 总和最大者。该规则为本次明确声明的保守展示规则，参数改变可能改变分区；未做家族稳定性/功能实验验证。
-
-## 文件
-
-- `analysis/shared_core_groups.tsv`：分区名、共同核心、成员数、命中数、支持度、完整成员。
-- `analysis/matched44_revised_group_names.tsv`：44 个命中项逐一对应分区或独立编号及原始 TF/JASPAR/q。
-- `analysis/shared_core_pattern_membership314.tsv`：全体 314 个 pattern 的位置、命中及分区对应。
-- `analysis/shared_core_TOMTOM79.tsv`：79 条原始匹配的分区关联。
-- `analysis/shared_core_PPM.tsv`：用于共同命名的平均核心概率矩阵。
-- `analysis/shared_core_partition_QA.json`：源数据 SHA、阈值、树完整性、阴影和 PDF 核验。
-
-## 分区表
-
-|分区|共同核心名|展开 IUPAC|全部成员|命中成员|
-|---|---|---|---:|---:|
-'''
+ guide=f"# Shared sequence-core partitions\n\nOverview: `{OUT}`. Matched subtree: `{DETAIL}`.\nThe original 314-leaf topology and circular order, 44 matched patterns, 79 TOMTOM records and 11 reference matrices are retained. These are descriptive sequence-core partitions, with explicitly chosen display rules, rather than experimentally established TF families.\nThere are {len(selected)} multi-pattern branches containing {sum(g['hits'] for g in selected)} matched patterns and {sum(u['n']==1 for u in units)} independently labeled matched singletons.\nGray sectors cover qualifying branches, including unmatched members; only the dark-purple outer ring denotes a match. Light purple denotes no match. Blue/pink branches denote negative/positive PC1 attribution; mixed branches are gray. These signs do not establish functional repression or activation. Branch depth and sector width are layout quantities.\nBranch names use the aligned equally weighted mean PPM and support across members. Repeated suffixes distinguish separate branches. Numeric prefixes compress consecutive IUPAC symbols. Black triangles point to the partition centers. The 44-member display is an induced subtree without reclustering.\nStarting at the root, a branch is split only if it fails the common-core rule. The anchor minimizes mean native distance and defines coordinates only. Native matalign coordinates and orientations and unmodified H5 probabilities are used.\nCavener consensus rules require at least 80% member support, at least 0.60 probability in the IUPAC set, at least 80% coverage, and mean-column information content of at least 0.25 bits. Candidate cores span 4-12 bp, contain at least four supported columns, have supported ends and at least 80% supported columns, and exclude two consecutive unsupported N columns. At least 80% of members need 80% coverage and mean Bhattacharyya similarity of at least 0.90. The qualifying window maximizing supported-column information is selected. Parameter sensitivity and functional validation were not established.\nTables are in `analysis/shared_core_groups.tsv`, `analysis/matched44_revised_group_names.tsv`, `analysis/shared_core_pattern_membership314.tsv`, `analysis/shared_core_TOMTOM79.tsv`, and `analysis/shared_core_PPM.tsv`. Recorded checks are in `analysis/shared_core_partition_QA.json`.\n\n|Partition|Shared core|Expanded IUPAC|All members|Matched members|\n"
  for r in grouprows:guide+=f"|{r['group_id']}|{r['sequence_name']}|{r['shared_IUPAC_core']}|{r['patterns']}|{r['matched_patterns']}|\n"
  (ROOT/'analysis/current_figure_guide.md').write_text(guide,encoding='utf-8')
- (ROOT/'README_motifStack_重绘说明.md').write_text(guide,encoding='utf-8')
+ (ROOT/"README_motifStack_redraw.md").write_text(guide,encoding='utf-8')
  # Retire precisely the two superseded figures, after complete new-file QA.
  old=[ROOT/'figures/motifStack_sequence_names_overview_5x4.pdf',ROOT/'figures/motifStack_matched44_sequence_names_5x4.pdf']
  old=[p for p in old if p.exists()]

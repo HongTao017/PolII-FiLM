@@ -25,7 +25,7 @@ training=json.loads((Path(config['model_root'])/'training_config.json').read_tex
 assert training['precision']=='bfloat16' and training['batch_size']==64
 meta=pd.read_csv(Path(config['model_root'])/'data/genes_repartitioned.tsv',sep='\t')
 gene_index=meta.set_index('gene').gene_index
-source=Path(config['source_root'])/'data/bpnet_prepared'
+source=Path(config['source_root'])/'data/sequence_prepared'
 raw=np.load(source/'regulatory_log10_unscaled.npy',mmap_mode='r')
 selected=pd.read_csv(Path(config['selection_root'])/'selected_genes.tsv',sep='\t').head(2).gene.tolist()
 checks=[]
