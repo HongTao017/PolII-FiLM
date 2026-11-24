@@ -8,6 +8,20 @@ The prediction task is to estimate this continuous phenotype from four transcrip
 
 This repository brings together the data-processing workflows, random forest analyses, trained FiLM models, interpretation results and plotting code used in the study. It supports reuse of the released inputs and checkpoints, prediction on compatible new inputs, and reproduction of the archived analyses and manuscript figures.
 
+## Project overview
+
+[![PolII-FiLM architecture and interpretation overview](docs/assets/polii_film_overview.png)](paper/figures/fig4/architecture/model_architecture_editable.pdf)
+
+**Model and interpretation workflow.** Four DNA branches encode the TSS, first donor, first acceptor and upstream TES regions. Biochemical features condition these branches through FiLM; pooled regional representations are combined to predict signed PC1. Attribution and motif analyses characterize the learned sequence and biochemical associations. Click the image for the vector PDF.
+
+<p align="center">
+  <a href="paper/figures/fig4/oof/FiLM_OOF_correlation.pdf">
+    <img src="docs/assets/polii_film_oof.png" alt="Observed versus predicted signed PC1 for 15,351 genes using held-out five-seed ensembles" width="540">
+  </a>
+</p>
+
+**Held-out prediction.** Archived out-of-fold predictions for 15,351 genes, with five seeds averaged within each gene's held-out fold. The figure reports Pearson r = 0.81 and Spearman rho = 0.81. Input windows at overlapping genomic positions stay within the same fold; homology at distinct loci was not excluded. This preview displays the released result.
+
 ## Research workflow
 
 1. **Construct the pausing phenotype.** Process nascent RNA sequencing data, calculate pausing indices and integrate the sample measurements into a gene-level target.

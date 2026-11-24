@@ -14,7 +14,7 @@
     {
       "path": "README.md",
       "original_sha256": "8ff1ac0a4aafccaaf185282d5d0a09c7782019a5281c505c9d71dfa0b059559f",
-      "current_sha256": "c84a0ba062ee354b6e53d181912a13f9fbacd99a6dbd6ed7b732b6ab5364b6e5"
+      "current_sha256": "c0adacc0cf2d82cbc8c71d89f457865d15e3a59fa26e3620ca3707df446a65d3"
     },
     {
       "path": "configs/figure_index.json",
@@ -14910,6 +14910,8 @@
     "data/sequencing/proseq_supplement_project/scripts/setup_server_project.sh",
     "data/splits",
     "docs/analysis_scope.md",
+    "docs/assets/polii_film_oof.png",
+    "docs/assets/polii_film_overview.png",
     "docs/data_format.md",
     "docs/figure_map.md",
     "docs/model_card.md",
