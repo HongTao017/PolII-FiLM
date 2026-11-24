@@ -1,34 +1,70 @@
-# PolII-FiLM
+# PolII-FiLM / PFNet
 
-**Predicting human RNA polymerase II promoter-proximal pausing from DNA sequence and biochemical features.**
+**DNA sequence and biochemical features predict promoter-proximal RNA polymerase II pausing across human genes.**
 
-PolII-FiLM investigates how gene architecture, local DNA sequence and biochemical measurements relate to variation in promoter-proximal pausing across human genes. The project integrates **105 GRO-seq, PRO-seq and mNET-seq samples** to construct a composite gene-level pausing phenotype, represented by **signed PC1**, for **15,351 genes**.
+This project investigates how gene architecture, DNA sequence and biochemical context relate to gene-level differences in human RNA polymerase II (Pol II) promoter-proximal pausing. It integrates **105 GRO-seq, PRO-seq and mNET-seq samples from 41 GEO series**, constructs a composite pausing phenotype for **15,351 genes**, and combines random forest analyses with **PFNet**, a multimodal neural network.
 
-The prediction task is to estimate this continuous phenotype from four transcription-oriented DNA regions and **2,554 biochemical features**. The model processes sequences around the transcription start site, first splice donor, first splice acceptor and upstream transcription end site with independent convolutional branches. Feature-wise linear modulation (**FiLM**) conditions the sequence representations on biochemical inputs before the regional representations are combined for regression.
+PFNet is the model name used in the manuscript. The repository, Python package (`polii_film`) and released model directory (`model_film`) retain their existing names for use with the download and reproduction commands below.
 
-This repository brings together the data-processing workflows, random forest analyses, trained FiLM models, interpretation results and plotting code used in the study. It supports reuse of the released inputs and checkpoints, prediction on compatible new inputs, and reproduction of the archived analyses and manuscript figures.
+The figures below follow the manuscript's progression: establish the pausing compendium, assess gene-derived predictors, assess biochemical predictors, integrate both inputs in PFNet, and interpret the resulting predictions. Each image is extracted directly from the supplied manuscript; click it to inspect the full-resolution figure.
 
-## Project overview
+**Explore the study:** [Figure 1: data and browser](#figure-1) | [Figure 2: gene-derived predictors](#figure-2) | [Figure 3: biochemical predictors](#figure-3) | [Figure 4: PFNet](#figure-4) | [Figure 5: interpretation](#figure-5)
 
-[![PolII-FiLM architecture and interpretation overview](docs/assets/polii_film_overview.png)](paper/figures/fig4/architecture/model_architecture_editable.pdf)
+<a id="figure-1"></a>
 
-**Model and interpretation workflow.** Four DNA branches encode the TSS, first donor, first acceptor and upstream TES regions. Biochemical features condition these branches through FiLM; pooled regional representations are combined to predict signed PC1. Attribution and motif analyses characterize the learned sequence and biochemical associations. Click the image for the vector PDF.
+## Figure 1 - The pausing compendium and PuasedDB
 
-<p align="center">
-  <a href="paper/figures/fig4/oof/FiLM_OOF_correlation.pdf">
-    <img src="docs/assets/polii_film_oof.png" alt="Observed versus predicted signed PC1 for 15,351 genes using held-out five-seed ensembles" width="540">
-  </a>
-</p>
+[![Figure 1: cross-study pausing concordance and the PuasedDB interface](docs/assets/manuscript_figure_1.png)](docs/assets/manuscript_figure_1.png)
 
-**Held-out prediction.** Archived out-of-fold predictions for 15,351 genes, with five seeds averaged within each gene's held-out fold. The figure reports Pearson r = 0.81 and Spearman rho = 0.81. Input windows at overlapping genomic positions stay within the same fold; homology at distinct loci was not excluded. This preview displays the released result.
+**Cross-study consistency and interactive exploration.** The compendium contains 55 GRO-seq, 31 PRO-seq and 19 mNET-seq samples. **Panels A-C** show sample correlations, a t-SNE representation and assay-associated differences. **Panel D** compares samples from different studies: profiles are more similar for the same cell type than for different cell types, both after preprocessing and before imputation. This supports a cell-type-associated component alongside assay and study variation.
 
-## Research workflow
+**Panels E-F** connect these measurements to interactive exploration in **PuasedDB**: nascent-transcription tracks at the A1BG locus and sequence-composition summaries around the SAMD11 TSS. For predictive modeling, standardized pausing measurements are imputed and quantile-normalized, then summarized by gene-level PC1. This composite target explains **53.2%** of between-gene variation and is oriented so that higher scores correspond to higher pausing indices. It summarizes pausing measurements rather than directly measuring pause duration.
 
-1. **Construct the pausing phenotype.** Process nascent RNA sequencing data, calculate pausing indices and integrate the sample measurements into a gene-level target.
-2. **Build and compare predictors.** Derive gene-architecture and sequence features, assemble biochemical measurements, and evaluate feature groups with random forests.
-3. **Train the multimodal model.** Combine four DNA inputs with biochemical features through FiLM. Evaluate held-out genes using 10 folds and five seeds, keeping overlapping genomic input windows in the same fold.
-4. **Characterize model behavior.** Analyze sequence and biochemical attributions, discover and annotate motifs, and quantify prediction changes through single-base substitutions and matched native-motif perturbations.
-5. **Reproduce the reported analyses.** Use the saved predictions, complete intermediate results and figure-specific plotting inputs to regenerate summaries and figures, or run new computations in a separate output directory.
+<a id="figure-2"></a>
+
+## Figure 2 - Gene architecture and sequence predictors
+
+[![Figure 2: random forest prediction from gene architecture and sequence features](docs/assets/manuscript_figure_2.png)](docs/assets/manuscript_figure_2.png)
+
+**Predictive information in gene structure and sequence.** **Panels A-B** define 786 candidate features in seven groups and the random forest workflow. The groups cover gene architecture, sequence composition, CpG islands, codon usage, pausing-region k-mers, gene-body k-mers and predicted CTCF-binding features.
+
+**Panel C** compares feature combinations on identical ten-fold splits. Gene architecture alone gives a mean test-fold Pearson correlation of **0.609**; adding pausing-region k-mers, sequence composition and CpG-island features raises it to approximately **0.727**. The selected **383-feature** model produces pooled out-of-fold predictions with **Pearson r = 0.728** and **Spearman rho = 0.750** (**panel D**). **Panels E-F** prioritize total intron length, transcript span and exon fraction, while showing correlations among informative predictors. Impurity importance describes predictive use and has no activation/repression direction. Feature-selection comparisons are exploratory.
+
+<a id="figure-3"></a>
+
+## Figure 3 - Biochemical predictors
+
+[![Figure 3: random forest prediction from gene architecture and biochemical measurements](docs/assets/manuscript_figure_3.png)](docs/assets/manuscript_figure_3.png)
+
+**Predictive information added by biochemical measurements.** **Panels A-B** introduce five biochemical feature classes: ChIP-seq, eCLIP, ChIA-PET, DamID and ATAC-seq. Together with 22 baseline architecture features, these yield **2,576 candidate predictors**. The selected combination contains **22 architecture + 2,284 ChIP-seq + 206 eCLIP features**, totaling **2,512**.
+
+**Panel C** shows that ChIP-seq provides the largest predictive gain among the tested biochemical groups. The selected model reaches pooled out-of-fold **Pearson r = 0.781** and **Spearman rho = 0.795** (**panel D**). **Panels E-F** show that gene architecture remains informative and highlight biochemical predictors including gene-body MAFK occupancy. Strong correlations among related measurements mean that feature rankings should be interpreted as predictive associations rather than independent causal effects.
+
+<a id="figure-4"></a>
+
+## Figure 4 - PFNet integrates DNA and biochemical context
+
+[![Figure 4: PFNet architecture and held-out gene-level prediction](docs/assets/manuscript_figure_4.png)](docs/assets/manuscript_figure_4.png)
+
+**Sequence learning conditioned on biochemical context.** PFNet encodes four transcription-oriented DNA windows independently: **TSS +/-300 bp**, **first donor +/-1,000 bp**, **first acceptor +/-1,000 bp**, and **1,000 bp upstream of TES**. These inputs total **5,600 bp**. Convolutional and dilated residual blocks encode each region, while an MLP transforms **2,554 biochemical features** into FiLM scale and shift parameters that modulate sequence channels.
+
+Regional vectors are pooled, concatenated and passed to a regression head to predict the composite PC1 score. Ten-fold evaluation groups genes with overlapping DNA input windows into the same fold. Five-seed held-out predictions for **15,351 genes** achieve **Pearson r = 0.81**, shown in the lower-right inset. This is gene-level prediction of a composite phenotype; the fold constraint excludes shared genomic input positions but does not exclude sequence homology at distinct loci.
+
+<a id="figure-5"></a>
+
+## Figure 5 - Sequence and biochemical interpretation
+
+[![Figure 5: sequence attribution, motif perturbation, saturation mutagenesis and biochemical attribution](docs/assets/manuscript_figure_5.png)](docs/assets/manuscript_figure_5.png)
+
+**Candidate sequence elements and biochemical contributors.** **Panel A** displays signed DeepLIFT contributions across the ZBTB7A TSS input and enlarges a high-contribution segment. **Panel B** summarizes **314 discovered sequence patterns**, including **44** with known-motif matches. **Panel C** aligns the pattern containing the ZBTB7A seqlet with an SP4-like reference motif. Motif similarity nominates candidate factors; it does not identify a uniquely bound protein.
+
+**Panel D** tests native motif organization using composition-preserving core shuffles and matched background perturbations. In the manuscript's pooled positive-annotation analyses, KLF16-, SP1-, SP2- and SP4-like groups show greater reductions in predicted PC1 than their controls, with Holm-adjusted P values of **0.0061-0.0302** across 35 comparisons. These annotation-level groups can share underlying patterns and do not establish that every matched pattern is independently significant. Here, the plotted effect is **original minus disrupted PC1**: a positive value means disruption lowers the prediction.
+
+**Panel E** resolves substitution effects across a **101-bp** window around the ZBTB7A SP4-like site. It uses the opposite sign convention, **mutant minus original PC1**, averaged across five models. A highlighted C-to-G substitution removes the FIMO match at its original position. **Panels F-G** relate regional signal abundance to mean absolute integrated-gradients attribution: **r = 0.450** for 364 ChIP-profiled factors and **r = 0.206** for 103 eCLIP-profiled proteins. Together, these analyses prioritize candidate elements and factors for experimental follow-up; computational effects and attributions do not demonstrate causal regulation.
+
+## From figures to reusable resources
+
+The figure tour follows the supplied manuscript. The repository provides the archived processing, modeling and plotting resources described below; historical figure folders can retain earlier display variants. Use the [figure map](docs/figure_map.md) to locate panel packages and the [archive scope](docs/analysis_scope.md) to check what is distributed. The homepage images and their source-page records are listed in [figure provenance](docs/assets/manuscript_figures.json).
 
 ## Available resources
 
@@ -36,7 +72,7 @@ This repository brings together the data-processing workflows, random forest ana
 |---|---|
 | Data processing | Sample manifests, assay-specific sequencing scripts, feature construction and processed inputs |
 | Random forests | Gene-feature and biochemical-feature workflows, selection records, saved models and held-out predictions |
-| PolII-FiLM | Architecture, training configuration, fold assignments, preprocessing parameters and pretrained checkpoints |
+| PFNet / PolII-FiLM | Architecture, training configuration, fold assignments, preprocessing parameters and pretrained checkpoints |
 | Interpretation | Attribution, motif discovery and matching, single-base mutagenesis and matched motif-perturbation analyses |
 | Figures | Frozen numerical inputs, plotting scripts, final PDFs and editable architecture artwork |
 
