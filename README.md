@@ -1,9 +1,32 @@
 # PolII-FiLM
 
-Code, processed data, trained models and figure resources for studying human RNA polymerase II promoter-proximal pausing.
+**Predicting human RNA polymerase II promoter-proximal pausing from DNA sequence and biochemical features.**
 
-The project integrates **105 GRO-seq, PRO-seq and mNET-seq samples** and models a composite pausing phenotype for **15,351 genes**. It includes gene-feature and biochemical-feature random forests, a four-region DNA/biochemical FiLM model, sequence interpretation, in silico mutagenesis, and manuscript figure code.
+PolII-FiLM investigates how gene architecture, local DNA sequence and biochemical measurements relate to variation in promoter-proximal pausing across human genes. The project integrates **105 GRO-seq, PRO-seq and mNET-seq samples** to construct a composite gene-level pausing phenotype, represented by **signed PC1**, for **15,351 genes**.
 
+The prediction task is to estimate this continuous phenotype from four transcription-oriented DNA regions and **2,554 biochemical features**. The model processes sequences around the transcription start site, first splice donor, first splice acceptor and upstream transcription end site with independent convolutional branches. Feature-wise linear modulation (**FiLM**) conditions the sequence representations on biochemical inputs before the regional representations are combined for regression.
+
+This repository brings together the data-processing workflows, random forest analyses, trained FiLM models, interpretation results and plotting code used in the study. It supports reuse of the released inputs and checkpoints, prediction on compatible new inputs, and reproduction of the archived analyses and manuscript figures.
+
+## Research workflow
+
+1. **Construct the pausing phenotype.** Process nascent RNA sequencing data, calculate pausing indices and integrate the sample measurements into a gene-level target.
+2. **Build and compare predictors.** Derive gene-architecture and sequence features, assemble biochemical measurements, and evaluate feature groups with random forests.
+3. **Train the multimodal model.** Combine four DNA inputs with biochemical features through FiLM. Evaluate held-out genes using 10 folds and five seeds, keeping overlapping genomic input windows in the same fold.
+4. **Characterize model behavior.** Analyze sequence and biochemical attributions, discover and annotate motifs, and quantify prediction changes through single-base substitutions and matched native-motif perturbations.
+5. **Reproduce the reported analyses.** Use the saved predictions, complete intermediate results and figure-specific plotting inputs to regenerate summaries and figures, or run new computations in a separate output directory.
+
+## Available resources
+
+| Resource | Contents |
+|---|---|
+| Data processing | Sample manifests, assay-specific sequencing scripts, feature construction and processed inputs |
+| Random forests | Gene-feature and biochemical-feature workflows, selection records, saved models and held-out predictions |
+| PolII-FiLM | Architecture, training configuration, fold assignments, preprocessing parameters and pretrained checkpoints |
+| Interpretation | Attribution, motif discovery and matching, single-base mutagenesis and matched motif-perturbation analyses |
+| Figures | Frozen numerical inputs, plotting scripts, final PDFs and editable architecture artwork |
+
+Start with [installation](#installation) and [resource downloads](#download-data-and-models). The [reproduction guide](docs/reproduction.md), [data format](docs/data_format.md), [model card](docs/model_card.md), [figure map](docs/figure_map.md) and [archive scope](docs/analysis_scope.md) describe the supported workflows and their interpretation.
 
 ## Repository layout
 
@@ -32,9 +55,9 @@ Four independent DNA branches receive transcription-oriented one-hot sequences:
 | First splice acceptor | −1,000 to +1,000 bp | 2,000 bp |
 | TES upstream | −1,000 to 0 bp | 1,000 bp |
 
-The **2,554 biochemical features** comprise ChIP-seq (2,284), eCLIP (206), ChIA-PET (50), DamID (10) and ATAC-seq (4). FiLM modulates dilated convolutional features. The regional vectors are pooled, concatenated and used to predict **signed PC1**. This model has no Transformer and does not predict a base-resolution nascent-transcription profile.
+The **2,554 biochemical features** comprise ChIP-seq (2,284), eCLIP (206), ChIA-PET (50), DamID (10) and ATAC-seq (4). FiLM modulates dilated convolutional features. Regional representations are pooled and concatenated to predict a single **signed-PC1 value per gene**.
 
-The final model is **`model_film`**, the original A model with dropout 0.2. Its release contains 10 folds × five seeds, with the original best checkpoints, preprocessing parameters and training records. Each gene's formal OOF prediction uses its held-out fold and averages five predictions in original PC1 units. Different folds share no genomic positions in the four input windows; homology at distinct loci was not excluded.
+The released model is **`model_film`**, with dropout 0.2. Its archive contains 10 folds × five seeds, with best checkpoints, preprocessing parameters and training records. Each gene's out-of-fold (OOF) prediction uses its held-out fold and averages five predictions in original PC1 units. Different folds share no genomic positions in the four input windows; homology at distinct loci was not excluded.
 
 ## Installation
 
