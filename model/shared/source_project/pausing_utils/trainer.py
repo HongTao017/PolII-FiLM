@@ -213,7 +213,7 @@ def run_fold(root, config, test_fold, replicate, device, resume=False):
     valid_result = metadata.iloc[rows][["gene", "fold", "Y_PC1"]].copy()
     valid_result["prediction"] = valid_prediction
     valid_result.to_csv(directory / "validation_predictions.tsv", sep="\t", index=False)
-    # The fixed subset is drawn from training genes only, with Dropout disabled for evaluation.
+
     sample_size = min(config.get("train_eval_sample_size", 2048), len(train_idx))
     sample_idx = np.random.default_rng(seed).choice(train_idx, size=sample_size, replace=False)
     rows, train_z = predict(model, loader(sample_idx), device, config)
@@ -225,7 +225,7 @@ def run_fold(root, config, test_fold, replicate, device, resume=False):
         directory / "train_eval_predictions.tsv", sep="\t", index=False)
     test_metrics = None
     if evaluate_test:
-        # Iterative repair runs never construct a test loader or evaluate test labels.
+
         rows, test_z = predict(model, loader(test_idx), device, config)
         test_prediction = preprocessing.inverse_target(test_z)
         result = metadata.iloc[rows][["gene", "fold", "Y_PC1"]].copy()

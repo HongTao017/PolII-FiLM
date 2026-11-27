@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,hashlib,json,shutil,sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from polii_film import bundle
+from pfnet import bundle
 import numpy as np,pandas as pd
 from pyfaidx import Fasta
 

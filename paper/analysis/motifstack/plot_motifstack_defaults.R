@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
-# Native motifStack rendering. Only visual layout, font and colour are styled.
-# All computation uses untrimmed original PPMs and package defaults.
+
+
 suppressPackageStartupMessages(library(motifStack))
 suppressPackageStartupMessages(library(Cairo))
 suppressPackageStartupMessages(library(jsonlite))
@@ -51,8 +51,8 @@ stopifnot(!anyNA(leaf_ids),!anyDuplicated(leaf_ids),setequal(leaf_ids,input$ids)
 hit <- vapply(patterns[leaf_ids],function(p)length(p$matches)>0,TRUE)
 stopifnot(sum(hit)==44L)
 
-# Native radial renderer, with each real matched leaf highlighted grey.
-# No cut height, number of groups, previous C label, or TF label determines the tree.
+
+
 if(!("--skip-radial" %in% commandArgs(TRUE))){
 open_pdf("motifStack_radial_314_default.pdf")
 par(family="Arial",ps=12,cex=1,col="black",fg="black",lwd=1)
@@ -69,8 +69,8 @@ text(0,-2.25,"Grey: existing JASPAR matches",cex=1)
 dev.off()
 }
 
-# All 314 PPMs in the global default-tree order. Alignment is local to each page,
-# not a claim that four motifs are a statistically defined biological family.
+
+
 ordered <- hc$labels[hc$order]
 groups <- split(ordered,ceiling(seq_along(ordered)/4))
 open_pdf("motifStack_all_314_PFM_matrix_atlas.pdf")
@@ -99,9 +99,9 @@ for(page in seq_along(groups)) {
 dev.off()
 save_alignment(atlas_alignments,"all_314_page_alignments.rds")
 
-# For every existing reference, show up to three best qualified query matches.
-# Native motifStack aligns the PFMs here; the displayed q remains from old TOMTOM.
-# The reference enters only this display's small tree, never the 314-pattern tree.
+
+
+
 match_records <- do.call(rbind,lapply(names(patterns),function(id){
   p <- patterns[[id]]
   if(!length(p$matches))return(NULL)
@@ -120,8 +120,8 @@ for(matrix_id in names(references)){
   matches <- matches[order(matches$q,matches$p,matches$query),]
   matches <- head(matches[!duplicated(matches$query),],3)
   q <- c(pfms[matches$query],setNames(list(ref_pfm(reference)),paste0("REF-",matrix_id)))
-  # motifStack's public wrapper handles two motifs as a plain aligned stack.
-  # Its profile-distance hclust step requires at least three motifs.
+
+
   small_hc <- if(length(q)>2L)clusterMotifs(q) else NULL
   aligned <- DNAmotifAlignment(if(is.null(small_hc))q else q[small_hc$order])
   shown[[matrix_id]] <- list(matches=matches,hc=small_hc,aligned=aligned)

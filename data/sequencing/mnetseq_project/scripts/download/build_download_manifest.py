@@ -40,7 +40,7 @@ def fetch_text(url: str, timeout: int, attempts: int = 5) -> str:
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read().decode("utf-8-sig")
-        except Exception as exc:  # network errors vary by platform
+        except Exception as exc:
             last_error = exc
             if attempt < attempts:
                 time.sleep(min(2**attempt, 15))

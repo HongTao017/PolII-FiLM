@@ -62,7 +62,7 @@ def ena_record(run: str) -> dict[str, str]:
             if len(records) != 1:
                 raise ValueError(f"ENA returned {len(records)} records for {run}")
             return records[0]
-        except Exception as exc:  # network failures are retried with backoff
+        except Exception as exc:
             last_error = exc
             time.sleep(2 ** attempt)
     raise RuntimeError(f"ENA query failed for {run}: {last_error}")

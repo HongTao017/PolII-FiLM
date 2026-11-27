@@ -44,14 +44,14 @@ def main():
    assert np.array_equal(actual_line,expected_line)
    assert np.array_equal(head.get_xy()[:3],expected_head)
    text=[t for t in ax.texts if t.get_text()==u['name']]
-   # Two clades have identical names: match by the new radial position.
+
    target=radial*1.15*scale
    text=min(text,key=lambda t:np.linalg.norm(np.array(t.get_position())-target))
    position=np.array(text.get_position());assert np.linalg.norm(position-target)<1e-12
    assert abs(np.cross(radial,position))<1e-12
    arrow_checks.append(dict(group_id=u['group_id'],title=u['name'],original_line_and_head_exactly_preserved=True,title_position=position.tolist(),arrow_centerline_error_pt=float(abs(np.cross(radial,position))*72),title_logo_block_translation_pt=8.64))
   fig.canvas.draw();qa=base.r.label_check(fig,list(ax.texts));assert not any(qa.values()),qa
-  # Logos must remain inside the canvas after moving with their titles.
+
   from matplotlib.patches import PathPatch
   for patch in ax.patches:
    if isinstance(patch,PathPatch) and patch.get_zorder()==8:

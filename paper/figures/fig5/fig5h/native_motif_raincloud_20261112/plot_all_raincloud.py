@@ -1,4 +1,4 @@
-"""Full motif coverage in the requested left-violin/box/right-points style."""
+
 import hashlib
 import json
 from pathlib import Path

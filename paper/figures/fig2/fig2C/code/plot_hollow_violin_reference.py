@@ -18,7 +18,7 @@ CANVAS=(14,8.5)
 DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/08_requested_feature_route_hollow_violin_boxplot_14x8p5.pdf')
 PALETTE=['#808080','#3C7DA0','#70A36A','#EFC788','#40AED4','#90B3B5',
          '#32A8D8','#E76635','#BCB83B','#F1CD89','#6A3B65','#AB6B95']
-# Four comparisons fixed before inspecting P values, not all pairwise or adjacent categories.
+
 PLANNED=[('B','BQ'),('BP','BPQ'),('BPQ','BPQI'),('BPQI','BPQIT')]
 
 
@@ -124,7 +124,7 @@ def make_figure(data):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--layout-only',action='store_true')
     args=parser.parse_args()
-    data=retrieve(False) # Strict completed exact-code results; never aliases or partial folds.
+    data=retrieve(False)
     fig=make_figure(data)
     if not args.layout_only:
         if DESTINATION.exists(): raise FileExistsError('Refusing to overwrite: '+str(DESTINATION))

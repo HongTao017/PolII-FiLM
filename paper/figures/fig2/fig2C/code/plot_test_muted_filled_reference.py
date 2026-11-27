@@ -19,8 +19,8 @@ from plot_test_compact_legend import make_figure as original_make_figure
 
 CANVAS = (7.4, 5.3)
 DESTINATION = Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/14_test_muted_filled_violin_reference_7p4x5p3.pdf')
-# Dusty pink, slate blue and sage are the reference's principal hues.  Muted
-# variants distinguish all twelve combinations; the colors encode no ordering.
+
+
 FILLS = ['#C5A0A3', '#667C9A', '#8CA39D', '#BC9CA7', '#7C8CA5', '#9AAFA3',
          '#C6AAA3', '#718898', '#94ABA6', '#B7A0AB', '#8495AA', '#A4B0A2']
 
@@ -29,7 +29,7 @@ def make_figure(data):
     fig, stats = original_make_figure(data)
     ax = fig.axes[0]
     assert len(ax.collections) == 12 and len(ax.patches) == 12
-    # No median-joining trajectory: these comparisons are not one nested path.
+
     connectors = [line for line in ax.lines
                   if len(line.get_xdata()) == len(MODELS)
                   and line.get_linestyle() == '--']
@@ -44,8 +44,8 @@ def make_figure(data):
         box.set_facecolor('none')
         box.set_edgecolor('#525A5B')
         box.set_linewidth(.65)
-    # Twelve concise model codes fit horizontally at the user's 10-point size.
-    # Replace only the individually drawn code letters, not significance text.
+
+
     count = sum(map(len, MODELS))
     old_codes = list(ax.texts[:count])
     assert ''.join(t.get_text() for t in old_codes) == ''.join(MODELS)
@@ -56,7 +56,7 @@ def make_figure(data):
     for text in ax.get_xticklabels():
         text.set_rotation(0)
         text.set_fontweight('normal')
-    # A restrained gray rectangular frame matches the supplied example.
+
     ax.set_position([.115, .28, .865, .48])
     for spine in ax.spines.values():
         spine.set_visible(True)
@@ -138,7 +138,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--layout-only', action='store_true')
     args = parser.parse_args()
-    # Never permit alias substitutions, even for unsaved layout tests.
+
     fig, stats = make_figure(retrieve(False))
     if not args.layout_only:
         if DESTINATION.exists():

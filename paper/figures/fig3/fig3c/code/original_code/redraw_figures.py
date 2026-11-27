@@ -1,9 +1,4 @@
-"""Redraw the four RF figure families using current frozen results.
 
-Only six final PDF files are written, directly to the user-specified local
-figure directory. All source data arrive read-only from SSH into memory.
-No PNG/SVG/TIFF previews or TSV/JSON byproducts are created.
-"""
 from __future__ import annotations
 
 import argparse
@@ -195,7 +190,7 @@ def check_layout(fig, name):
         raise ValueError('Canvas size changed: ' + name)
     if matplotlib.rcParams['pdf.fonttype'] != 42:
         raise ValueError('PDF font type must be 42')
-    fig.canvas.draw()  # In-memory Agg only; never export a preview image.
+    fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     width, height = fig.canvas.get_width_height()
     failures = []
@@ -208,8 +203,8 @@ def check_layout(fig, name):
     if failures:
         raise ValueError(f'Text outside fixed canvas in {name}: {failures}')
     for ax in fig.axes:
-        # Tick labels must not overlap their adjacent peers. Endpoint ticks
-        # outside the data limits are excluded because Matplotlib skips them.
+
+
         for dimension in ('x', 'y'):
             labels = ax.get_xticklabels() if dimension == 'x' else ax.get_yticklabels()
             positions = ax.get_xticks() if dimension == 'x' else ax.get_yticks()
@@ -230,7 +225,7 @@ def check_layout(fig, name):
 
 def save_one(fig, path, title):
     check_layout(fig, path.name)
-    # Required helper preserves the exact 5x4 inch media box.
+
     if DRY_LAYOUT:
         fig.savefig(io.BytesIO(), format='pdf', metadata=metadata(title))
     else:
@@ -260,7 +255,7 @@ def violin(ax, values, labels, colors):
         body.set_edgecolor(color)
         body.set_linewidth(.8)
     for position, y, color in zip(x, values, colors):
-        # Exactly 10 fold-level ensemble observations, never 50 pseudo-replicates.
+
         if len(y) != 10:
             raise ValueError('Violin must contain exactly ten ensemble fold scores')
         jitter = np.linspace(-.15, .15, 10)
@@ -342,8 +337,8 @@ def draw_selection(packet, folder):
         check_layout(fig, 'greedy_validation')
         pdf.savefig(fig)
         plt.close(fig)
-        # Numerical validation tests are included in the same PDF, not written
-        # as an auxiliary TSV. They use the original training correction count.
+
+
         fig, ax = new_figure()
         ax.set_axis_off()
         fig.text(.5, .965, 'Ordered selection: validation tests', ha='center', va='top', fontsize=12)
@@ -395,7 +390,7 @@ def draw_oof(packet, folder, local=False):
     cbar = fig.colorbar(image, cax=color_axis)
     cbar.set_label('Genes', fontsize=14, labelpad=5)
     cbar.ax.tick_params(labelsize=12, length=3, pad=3)
-    # Explicit in-range logarithmic ticks avoid off-canvas Matplotlib ticks.
+
     ticks = [t for t in [1, 10, 100, 1000] if image.norm.vmin <= t <= image.norm.vmax]
     cbar.set_ticks(ticks)
     cbar.set_ticklabels([str(t) for t in ticks])
@@ -478,7 +473,7 @@ def draw_correlations(packet, folder):
         ax.set_xticks(ticks, [x + 1 for x in ticks])
         ax.set_xlabel('Clustered feature index')
         ax.set_ylabel('Clustered top-30 index')
-        # Color strips encode feature groups without shrinking labels.
+
         for i, group in enumerate(cg):
             ax.add_patch(plt.Rectangle((i - .5, -1.4), 1, .65, facecolor=COLORS[group], clip_on=False, linewidth=0))
         for i, group in enumerate(rg):
@@ -494,8 +489,8 @@ def draw_correlations(packet, folder):
         check_layout(fig, 'correlation_overview')
         pdf.savefig(fig)
         plt.close(fig)
-        # No feature is omitted. The complete globally clustered matrix is
-        # tiled into readable pages, with exactly the same color scale/order.
+
+
         for rstart in range(0, len(rows), 10):
             for cstart in range(0, len(cols), 10):
                 tile = matrix[rstart:rstart + 10, cstart:cstart + 10]

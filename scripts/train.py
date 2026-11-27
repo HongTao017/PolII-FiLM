@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,json,shutil,sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from polii_film import bundle
+from pfnet import bundle
 
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--output-dir',type=Path,required=True)

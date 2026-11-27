@@ -41,7 +41,7 @@ def main():
     dataset = MultiRegionGeneDataset(prepared, rows, x, y)
     samples = [dataset[index][0] for index in range(len(rows))]
     inputs = {name: torch.stack([sample[name] for sample in samples]) for name in samples[0]}
-    # No validation/test fitting is performed during this shape/gradient test.
+
     inputs["regulatory_features"] = torch.zeros(len(rows), manifest["feature_count"])
     assert not inputs["first_donor_sequence"][2].any()
     assert not inputs["first_acceptor_sequence"][2].any()

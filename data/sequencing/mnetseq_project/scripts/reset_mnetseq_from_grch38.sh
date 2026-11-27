@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Remove mNET-seq outputs starting at the GRCh38 alignment stage while
-# preserving raw, cleaned, UMI-extracted and non-rRNA FASTQ files.
+
+
 
 PROJECT="${PROJECT:-/mnt/HDD8TB/shared/Data_Seq/DATA/mnetseq_project}"
 MODE="${1:---dry-run}"

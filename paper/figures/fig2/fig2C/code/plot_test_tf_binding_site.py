@@ -1,4 +1,4 @@
-"""Reuse the approved NA/palette plot; rename the T legend, not the features."""
+
 from pathlib import Path
 import plot_test_custom_palette_na as original
 
@@ -15,7 +15,7 @@ def make_figure(data):
 
 def pdf_pages(destination, metadata):
     metadata = dict(metadata)
-    metadata['Subject'] += ' User-requested legend rename: T: TF binding site (2). The same two CTCF-derived features are retained; this is a display-name change only.'
+    metadata['Subject'] += ' T denotes two predicted CTCF-binding features.'
     return _pages(destination, metadata)
 
 

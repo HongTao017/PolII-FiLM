@@ -276,7 +276,7 @@ def main():
   assert (ROOT/'counter_test_complete.json').exists() and load(ROOT/'counter_test_complete.json')['status']=='passed'
   bams={b['accession']:b for g in manifest['groups'] for b in g['bams']}
   assert bams
-  # A complete streamed original NCBP2 replicate is the pilot before all RBPs.
+
   pilot=next(g for g in manifest['groups'] if g['rbp']=='NCBP2')['bams'][0]
   status('running',stage='pilot_count',total=len(bams),passed=0,failed={})
   result=count_bam(pilot,manifest)

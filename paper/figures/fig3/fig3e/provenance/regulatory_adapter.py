@@ -15,7 +15,7 @@ DEFAULT_OUTPUT = Path('G:/sequence_analysis_figures/Png/png/biochemical_feature_
 
 
 def configure_reference():
-    # Only data identity/schema changes in the read-only source audit.
+
     source = reference.REMOTE_READ
     source = source.replace('/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train',
                             '/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027')
@@ -57,7 +57,7 @@ def main():
         else:
             label = feature.replace('::', ': ')
         reference.LABELS[feature] = label
-    # Literal original bar-figure function, with data-dependent title only.
+
     fig, qa = reference.build_figure(packet)
     ax = fig.axes[0]
     ax.set_title('RF model (B + ChIP-seq + eCLIP)', fontsize=14, fontweight='bold', pad=10)

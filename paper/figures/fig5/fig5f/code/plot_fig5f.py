@@ -58,7 +58,7 @@ def verify_layout(fig):
             continue
         box = item.get_window_extent(renderer)
         if box.x0 < canvas.x0-.75 or box.y0 < canvas.y0-.75 or box.x1 > canvas.x1+.75 or box.y1 > canvas.y1+.75:
-            # Invisible out-of-range tick labels are not drawn in the PDF.
+
             if any(item in (*ax.get_xticklabels(), *ax.get_yticklabels()) for ax in fig.axes):
                 axis = next(ax for ax in fig.axes if item in (*ax.get_xticklabels(), *ax.get_yticklabels()))
                 if not Bbox.intersection(box, axis.bbox):

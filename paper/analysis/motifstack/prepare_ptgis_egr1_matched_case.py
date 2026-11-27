@@ -29,7 +29,7 @@ qp=matrix(query);tp=matrix(target);oriented=tp[::-1,::-1] if row['Orientation']=
 offset=int(row['Optimal_offset']);left=max(0,-offset);right=min(len(qp),len(oriented)-offset);tl=left+offset;tr=right+offset
 assert right-left==int(row['Overlap'])==10 and len(tp)==10
 cfg=json.loads((R/'experiment_config.json').read_text());M=json.loads((R/'motifs.json').read_text())['EGR1'];counts=np.array([M['pfm'][b] for b in 'ACGT']).T;ppm=(counts+1e-8)/(counts+1e-8).sum(1,keepdims=True)
-# TOMTOM's native XML stores probabilities after its default0.1 motif pseudocount.
+
 reference_lines=(R/'jaspar_125.meme').read_text().splitlines()
 refidx=next(i for i,line in enumerate(reference_lines) if line.split()[:2]==['MOTIF','MA0162.5'])
 raw_reference=np.array([[float(x) for x in line.split()] for line in reference_lines[refidx+2:refidx+12]])

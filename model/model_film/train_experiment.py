@@ -20,7 +20,7 @@ CONFIG_PATH = ROOT / "training_config.json"
 def read_config():
     config = json.loads(CONFIG_PATH.read_text())
     if config["batch_size"] != 64 or config["gradient_accumulation"] != 1:
-        raise ValueError("The approved repaired experiment requires actual batch=64, accumulation=1")
+        raise ValueError("The training configuration requires actual batch=64, accumulation=1")
     if config["precision"] != "bfloat16" or config["checkpoint_metric"] != "rmse":
         raise ValueError("This experiment requires bf16 and validation RMSE selection")
     if config["allow_cross_fold_overlap"]:
@@ -31,7 +31,7 @@ def read_config():
 
 
 def dependencies(config):
-    # Existing audited preprocessing utilities and Dataset are reused read-only.
+
     source = Path(config["source_root"]).resolve()
     if source == ROOT or not (source / "pausing_utils").is_dir():
         raise ValueError("Existing source project is unavailable or incorrectly specified")
@@ -77,7 +77,7 @@ def preflight(config):
         raise ValueError("Existing data validation is missing or stale")
     arch = make_config({"draft_only": False})
     if manifest["feature_count"] != 2554 or manifest["region_lengths"] != arch["region_lengths"]:
-        raise ValueError("Data dimensions do not match the approved model")
+        raise ValueError("Data dimensions do not match the configured model")
     for name, expected in manifest["prepared_sha256"].items():
         if sha256(prepared / name) != expected:
             raise ValueError(f"Original data hash mismatch: {name}")
@@ -86,8 +86,8 @@ def preflight(config):
         if array.shape != (manifest["gene_count"], arch["region_lengths"][name], 4):
             raise ValueError(f"Invalid array shape: {name}")
     from disjoint_splits import verify_experiment
-    # Source arrays have just been fully hashed above; independently re-audit all
-    # 45 fold pairs and 30 train/validation/test pairs for the NEW splits.
+
+
     split_check = verify_experiment(ROOT, config["source_root"], hash_source=False)
     split_manifest = json.loads((ROOT / config["split_manifest_relative_path"]).read_text())
     if split_manifest["split_seed"] != config["split_seed"]:
@@ -116,7 +116,7 @@ def run_fold(config, fold, replicate, resume=False):
     import torch
     from torch.utils.data import DataLoader
     from region_film.config import make_config
-    from region_film.model import PolIIFiLMRegressor
+    from region_film.model import PFNet
     Dataset, Preprocessor, metrics, seed_everything, sha256, split_indices, write_json, diagnostics = dependencies(config)
     check = preflight(config)
     arch = make_config({"draft_only": False})
@@ -162,7 +162,7 @@ def run_fold(config, fold, replicate, resume=False):
     generator = torch.Generator().manual_seed(seed)
 
     def loader(rows, shuffle=False):
-        # Drop only a singleton training tail, not every incomplete microbatch.
+
         drop = shuffle and len(rows) % config["batch_size"] == 1
         kwargs = dict(batch_size=config["batch_size"], shuffle=shuffle, drop_last=drop,
                       num_workers=config["num_workers"], pin_memory=True,
@@ -174,8 +174,8 @@ def run_fold(config, fold, replicate, resume=False):
     train_loader, valid_loader = loader(train_idx, True), loader(valid_idx)
     train_count = len(train_idx) - int(train_loader.drop_last)
     device = torch.device("cuda:0")
-    model = PolIIFiLMRegressor(arch, regulatory_dim=2554).to(device)
-    # Only training rows are used; validation/test rows never fit these buffers.
+    model = PFNet(arch, regulatory_dim=2554).to(device)
+
     model.fit_input_normalization(features[train_idx])
     normalization = model.input_normalization_summary()
     normalization.update(training_genes_sha256=sha256(directory / "preprocessing_fit_genes.tsv"),

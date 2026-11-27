@@ -2142,10 +2142,10 @@
       "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/manifest.json": "6cf028519bb522de1882d155a1e2ace23cf93976b58ecba9cf081a990348a69a",
       "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/split_manifest.json": "524a58fbd2193a244f5693d435143a7fc8e6b6b4e60a7364148c90f785a1572c",
       "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/split_validation.json": "27f136a065e7b5b9df54f5f958663b7b22e1eca0556c940b7a6dd3fb95b65628",
-      "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train/train_bqicpet.py": "857056650d0e3e697e0cb4adaff56584ec03b55dbc4b35cacdf5045b6fc25e12"
+      "/mnt/HDD8TB/hongtao/Data_Seq/model/BQICPET/new_train/train_bqicpet.py": "2a3be030874ef79115324b7131f848ec4a78a85b78b55d157fc765d5c6a95bb8"
     },
     "artifact_sha256": {
-      "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/run_config.json": "1b4d92f38cff968d47daa179a456f03cef262aea4d53c3242ffdd7cbfb7abee7",
+      "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/run_config.json": "a86051e4d3331a7d2a952fbc5bc422829018bd2124536e87b11924a975d7f40f",
       "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/complete.json": "98221991c18309adfc20f38f770dc6957fb5ac8554cccf2e2a4103e070c0c2a8",
       "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/data/aligned_genes.tsv": "21ab33438f8116186362a2ed5de3e3d5833d83a0c828345ecc8af0f8624aebfc",
       "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/data/feature_manifest.tsv": "e84a1870bd5a6392038ff957a57c8d5619dcebba3cf57bd86a125a49e238fe0b",
@@ -2170,7 +2170,7 @@
       "error_bars": "sample SD across 10 fold means; five seed importances averaged within each fold",
       "normalization": "Each fitted RF importance vector sums to 1 over all 2512 features; top30 NOT renormalized",
       "source_sha256": {
-        "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/run_config.json": "1b4d92f38cff968d47daa179a456f03cef262aea4d53c3242ffdd7cbfb7abee7",
+        "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/run_config.json": "a86051e4d3331a7d2a952fbc5bc422829018bd2124536e87b11924a975d7f40f",
         "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/complete.json": "98221991c18309adfc20f38f770dc6957fb5ac8554cccf2e2a4103e070c0c2a8",
         "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/ordered_validation_selection/final_selected_features.tsv": "7f9e9d39be93fa3860f11c91d4df588439f27f083d399fe485894a285bd1e472",
         "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/evaluations/BChIPeCLIP/feature_importance_mean.tsv": "e1fe50ae4e191b75f139919db3d2071e33cbab495fcbc5a29c159ff3ef36fbde"

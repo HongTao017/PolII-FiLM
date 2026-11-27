@@ -1,9 +1,4 @@
-"""Original gene-level RF schematic following the user's supplied composition.
 
-Symbolic matrix entries and abstract trees, not fitted values or importance.
-Validation-only selection belongs to the existing RF workflow. One forest is
-shown; the separate five-seed ensemble is outside this schematic.
-"""
 from pathlib import Path
 from final_figure_small import new_figure,save_pdf
 from matplotlib import font_manager
@@ -28,7 +23,7 @@ def arrow(x1,y1,x2,y2):
     ax.add_patch(FancyArrowPatch((x1,y1),(x2,y2),arrowstyle='->',mutation_scale=10,
                                 linewidth=1.5,color=GREY,shrinkA=0,shrinkB=0))
 
-# Upper left: genes x features; symbols avoid fabricated numeric measurements.
+
 text(275,85,'Features (786)',11,True,col=GREY)
 text(78,208,'Genes',11,True,col=GREY,rotation=90)
 for xx,dx in [(112,14),(438,-14)]:
@@ -41,7 +36,7 @@ for r,row in enumerate(symbol_rows):
     for c,s in enumerate(row):
         text(159+c*76,146+r*38,s,10,col=PURPLE if c==1 else GREY)
 
-# Upper right: correct original feature sources, not the paper's uORF reporter.
+
 text(730,99,'DNA / annotations',11,True,col=CYAN)
 line(545,184,932,184,PURPLE,3)
 for xx,ww,fill in [(550,42,'#D9E1E8'),(639,62,CYAN),(813,105,'#9BAEC8')]:
@@ -50,21 +45,21 @@ ax.add_patch(Rectangle((755,165),18,38,facecolor=PURPLE,edgecolor='none',zorder=
 text(730,241,'B + Q + I + C + P + E + T',9,col=GREY)
 text(730,274,'DNA k-mers: 1-4 bp',9,col=GREY)
 
-# The reference's central arrow and short selection label are retained.
+
 arrow(419,321,419,435)
 text(245,367,'Feature\nselection',12,True,col=GREY)
 text(244,414,'validation only',8.5,col=GREY)
 text(760,421,'Random forest: 300 trees',9.5,col=GREY)
 
 def tree(cx,variant=0):
-    # Different abstract structures emphasize an ensemble, not cloned trees.
+
     pts=[(cx,478),(cx-77,529),(cx+77,529),
          (cx-112,580),(cx-44,580),(cx+42,580),(cx+110,580),
          (cx-133,632),(cx-91,632),(cx-61,632),(cx-27,632),
          (cx+23,632),(cx+61,632),(cx+94,632),(cx+132,632)]
     edges=[(0,1),(0,2),(1,3),(1,4),(2,5),(2,6),(3,7),(3,8),
            (4,9),(4,10),(5,11),(5,12),(6,13),(6,14)]
-    # Some branches terminate one level earlier, as in the reference.
+
     skip=set()
     if variant==1:skip={11,12}
     if variant==2:skip={9,10}
@@ -76,7 +71,7 @@ def tree(cx,variant=0):
         ax.scatter([x],[y],s=20,c=[col],edgecolors='none',zorder=4)
 for cx,v in [(175,0),(500,1),(825,2)]:tree(cx,v)
 
-# Regression outputs are averaged, unlike a classification majority vote.
+
 line(175,671,175,743,GREY,1.5);arrow(175,743,325,743)
 arrow(500,672,500,714)
 line(825,671,825,743,GREY,1.5);arrow(825,743,675,743)

@@ -1,9 +1,4 @@
-"""Fig. 3a: five assays around one gene, using final-figure-small typography.
 
-The user explicitly keeps the original 1000 x 520 pt canvas and requests
-larger black text plus only the screenshot's core content. Positions are illustrative;
-counts and protein examples come from verified_features.json. Output is PDF only.
-"""
 from pathlib import Path
 import json, math, hashlib
 import numpy as np
@@ -31,7 +26,7 @@ texts, leader_segments = [], []
 
 
 def text(x, y, s, size=16, bold=False, anchor='center', color=INK):
-    # User requests black lettering throughout; assay colors remain on graphics.
+
     obj = ax.text(x, y, s, fontsize=size, fontfamily='Arial',
                   fontweight='bold' if bold else 'normal', color=TEXT_COLOR,
                   ha=anchor, va='baseline', zorder=10)
@@ -79,7 +74,7 @@ def leader(points, color=INK):
 START, TSS, BOUNDARY, TES = 190, 230, 360, 930
 groups = META['group_counts']
 
-# Keep only screenshot content, with larger 16 pt body and 18 pt assay labels.
+
 text(145, 402, f"ATAC-seq ({groups['ATAC']:,})", size=18, bold=True, color=ATAC)
 text(145, 382, 'HepG2 / K562')
 text(145, 365, 'Accessible DNA', color='#5D6770')
@@ -110,17 +105,17 @@ for x, label in [(131, 'Promoter'), (244, "5' UTR"), (395, 'Intron'),
     text(x, 224, label)
 line(BOUNDARY, Y - 16, BOUNDARY, Y + 16, '#A4B7BF', .8, [2, 2])
 
-# ATAC is a chromatin-accessibility assay, not an endogenous TF target.
+
 for x in [159, 174, 189, 204]: arrow(x, Y + 27, x, Y + 3, ATAC, .9)
 leader([(145, 352), (145, 320), (174, 266)], ATAC)
 
-# Generic DNA-associated occupancy symbols; specific protein names are examples.
+
 for x in [319, 568]:
     rect(x - 13, Y + 2, 26, 5, CHIP, zorder=4)
     ellipse(x, Y + 17, 17, 10, '#E5C1C9', CHIP)
 leader([(365, 352), (365, 328), (319, 272)], CHIP)
 
-# eCLIP points solely to an RNA-bound protein, not to the DNA baseline.
+
 vertices = [(550, Y + 11), (540, 287), (560, 304), (580, 313)]
 codes = [MPath.MOVETO, MPath.CURVE4, MPath.CURVE4, MPath.CURVE4]
 for x in [580, 610, 640, 670]:
@@ -133,14 +128,14 @@ ellipse(689, 315, 14, 9, '#DED2EC', CLIP)
 leader([(625, 352), (630, 320)], CLIP)
 text(738, 311, 'Nascent RNA', anchor='left', color=CLIP)
 
-# DamID includes several chromatin protein targets, not only lamina contacts.
+
 rect(772, Y + 22, 128, 6, '#DFCEAF', DAM, 4)
 for x in [795, 824, 853, 880]:
     line(x, Y + 28, x, Y + 36, DAM, .8)
     ellipse(x, Y + 38, 2.3, 2.3, DAM)
 leader([(860, 352), (860, 303), (852, Y + 25)], DAM)
 
-# This is a genomic contact arc between two anchors, not a DNA branch.
+
 rect(310, Y - 6, 13, 12, PET, zorder=5)
 rect(826, Y - 6, 13, 12, PET, zorder=5)
 ax.add_patch(PathPatch(MPath([(316.5, Y - 6), (390, 133), (742, 133),
@@ -151,7 +146,7 @@ text(575, 127, f"ChIA-PET ({groups['ChIAPET']:,})", size=18, bold=True, color=PE
 text(575, 107, 'CTCF / RAD21 / POLR2A / SMC1A')
 text(575, 89, 'Paired interaction anchors', color='#5D6770')
 
-# Canvas, font, text and leader validation are checked before writing the PDF.
+
 fig.canvas.draw(); renderer = fig.canvas.get_renderer()
 pixel_boxes = [(obj.get_text(), obj.get_window_extent(renderer)) for obj in texts]
 for obj, (_, bb) in zip(texts, pixel_boxes):
@@ -174,7 +169,7 @@ assert sum(groups[k] for k in ['ChIP', 'eCLIP', 'ATAC', 'DamID', 'ChIAPET']) == 
 try:
     style.save_pdf(fig, OUT)
 except PermissionError:
-    # Keep the approved result reviewable when a PDF viewer locks the old file.
+
     OUT = ROOT / 'fig3a_large_text.pdf'
     style.save_pdf(fig, OUT)
 plt.close(fig)

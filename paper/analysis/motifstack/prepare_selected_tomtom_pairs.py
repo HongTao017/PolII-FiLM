@@ -1,4 +1,4 @@
-"""Prepare paired logos for only the two user-selected final ISM examples."""
+
 from pathlib import Path
 import json,csv,os,sys,shutil,hashlib,subprocess,xml.etree.ElementTree as ET,importlib.metadata as md
 import numpy as np
@@ -59,7 +59,7 @@ for source_name,stem in items:
  files=[p for p in sorted(B.rglob('*')) if p.is_file() and p.name!='MANIFEST_SHA256.txt'];(B/'MANIFEST_SHA256.txt').write_text('\n'.join(f'{sha(p)}  {p.relative_to(B).as_posix()}' for p in files)+'\n');verify(B);assert sha(S/'MANIFEST_SHA256.txt')==source_manifest_sha;verify(S)
  reports.append(dict(folder=stem,description=f"{chosen['gene']}/{chosen['TF']} aggregate pattern aligned to database motif",filename=final.name,PDF=str(final),gene=chosen['gene'],TF=chosen['TF'],source_sha256=sha(final),files=len(files)+1,bytes=sum(p.stat().st_size for p in B.rglob('*') if p.is_file()),pixel_identical=True,dependencies=versions,query_positions=[left+1,right],TOMTOM_q=float(row['q-value']),TOMTOM_p=float(row['p-value']),reference_orientation='RC' if rc else 'FWD'))
  print(json.dumps(reports[-1],ensure_ascii=False),flush=True)
-# Refresh the figure catalog, keeping the two selected perturbation packages intact.
+
 p=DEST/'PACKAGING_REPORT.json';report=json.loads(p.read_text())
 for item in reports:
  report['packages']=[r for r in report['packages'] if r['folder']!=item['folder']];report['packages'].append({k:item[k] for k in ['folder','description','filename','source_sha256','files','bytes','pixel_identical','dependencies']})

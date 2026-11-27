@@ -26,8 +26,8 @@ def main():
     pairs = pd.read_csv(ROOT / 'paired_effects.tsv', sep='\t')
     check = pairs.merge(baseline[['gene', 'predicted_WT']], on='gene', suffixes=('', '_archived'), validate='many_to_one')
     baseline_difference = float((check.predicted_WT - check.predicted_WT_archived).abs().max())
-    # Archived evaluation can use different precision from native perturbation inference.
-    # Quantify its difference and WT SD explicitly rather than treating it as identical.
+
+
     old = pd.read_csv(ROOT.parent / 'full_gene_q4_20261108/gene_groups.tsv', sep='\t')
     cache_check = baseline.merge(old[['gene', 'predicted_WT_Y_PC1']], on='gene', validate='one_to_one')
     assert len(cache_check) == 15351

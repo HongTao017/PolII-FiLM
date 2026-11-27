@@ -86,7 +86,7 @@ def label_check(fig,texts):
 
 def layout(units,max_pages=4):
  fig,ax=setup();texts=[ax.text(0,0,u['name'],color='black',fontsize=12,rotation_mode='anchor',va='center') for u in units]
- # Prefer one page; distribute annotations over identical trees if necessary.
+
  for pages in range(1,max_pages+1):
   for scale in np.round(np.arange(1.36,1.02,-.02),2):
    for rot in range(0,360,6):
@@ -102,8 +102,8 @@ def layout(units,max_pages=4):
 def draw_tree(g,shadows,labels,scale,rot,panel,page,pages,full=True):
  fig,ax=setup();rotation=math.radians(rot);theta=g['theta']+rotation;rad=g['radius']*scale;n=len(g['order'])
  for u in shadows:
-  # A real clade's grey wedge starts at its bifurcation; an isolated hit gets
-  # a narrow outer strip. Nothing is shaded across an unrelated branch.
+
+
   root_radius=float(g['radius'][u['node']]) if full else float(u['display_root_radius'])
   inner=max(.18,root_radius-.018) if u['n']>1 else .80
   ax.add_patch(Wedge((0,0),1.015*scale,math.degrees(u['left']+rotation),math.degrees(u['right']+rotation),width=(1.015-inner)*scale,facecolor='#B0B0B0',edgecolor='none',zorder=0))
@@ -122,11 +122,11 @@ def draw_tree(g,shadows,labels,scale,rot,panel,page,pages,full=True):
   ax.plot([1.057*scale*r[0],1.145*scale*r[0]],[1.057*scale*r[1],1.145*scale*r[1]],color='black',lw=.55,zorder=5)
   ax.add_patch(Polygon([1.065*scale*r,scale*(1.13*r+.022*t),scale*(1.13*r-.022*t)],facecolor='black',edgecolor='none',zorder=6))
   txt=ax.text(0,0,u['name'],fontsize=12,color='black',rotation_mode='anchor',va='center');place(txt,a,scale);texts.append(txt)
- # Figure-level panel and page index are outside all radial labels.
+
  fig.text(.02,.96,panel,fontsize=14,fontweight='bold',color='black',va='top')
  if pages>1:fig.text(.975,.025,f'{page}/{pages}',ha='right',fontsize=12,color='black')
  qa=label_check(fig,texts);assert not any(qa.values()),qa
- # Ring legend appears only if an actual free corner passes the shared QA.
+
  legend=None
  if full:
   try:legend=ring.add_ring_legend(fig,ax)
@@ -163,7 +163,7 @@ def main():
  groups,selected,units,grouped,unitby,ranks=prepare()
  print('PARTITIONS',len(groups),'NAMED_MULTI',len(selected),'INDEPENDENT_HITS',sum(u['n']==1 for u in units),flush=True)
  full,shadows,mainqa,detail,matchedrows=write_figures(selected,units)
- # Export tables before plotting detail, so every name remains auditable.
+
  allrows=[];grouprows=[];corematrices=[]
  for g in selected:
   ids=g['leaves'];med=e.idx[g['medoid']];arr=e.alignment(ids,med);st=g['core']['start']+50;en=g['core']['end']+50
@@ -181,15 +181,15 @@ def main():
  write_tsv(ROOT/'analysis/shared_core_PPM.tsv',corematrices)
  lookup={r['pattern_id']:r for r in allrows}
  write_tsv(ROOT/'analysis/shared_core_TOMTOM79.tsv',[dict(group_id=lookup[r['query']]['group_id'],sequence_group_name=lookup[r['query']]['sequence_group_name'],**r) for r in records])
- # Persist audit state to let detail plotting and independent verification use
- # exactly the same partition, never an inferred name-to-cluster shortcut.
+
+
  report=dict(status='IN_PROGRESS',native_tree_sha256=TREE_SHA,native_tree_topology_unchanged=True,clustering_rerun=False,annotation_rules_are_motifStack_defaults=False,source_h5_sha256_verified=e.source_checks,all_terminal_partitions=groups,named_hit_bearing_multi_pattern_clades=selected,independent_hits=[u for u in units if u['n']==1],overview=mainqa,all_pattern_count=314,matched_count=44,original_TOMTOM_records=79,
  rules=dict(native_medoid='minimum mean frozen native clustering input distance within the clade',alignment='frozen native matalign local ungapped coordinates, including reverse complements; no new alignment',aggregation='equal pattern weights, not seqlet weights; observed aligned columns only',IUPAC='exact Cavener as implemented in Biopython 1.84',supported_column='non-N Cavener symbol; >=80% of all members assign >=0.60 probability mass to its bases; >=80% observed coverage; group IC >=0.25 bits',candidate_core='4-12 bp; >=4 supported columns; >=80% supported columns; supported ends; no adjacent unsupported Ns',member_support='>=80% members have >=80% coverage and average Bhattacharyya coefficient >=0.90 against the group PPM across the core',core_selection='maximum sum IC over supported columns among qualifying variable-length windows',partition='top-down: accept maximal clade meeting the core rules, otherwise split into native children; singleton stop',overview_selection='only qualifying clades with >=2 patterns and >=1 original TOMTOM hit are named/shaded as groups; remaining matched leaves get narrow grey strips',biological_scope='descriptive sequence-core partitions; not validated TF families; thresholds are explicit exploratory annotation choices'))
  (ROOT/'analysis/shared_core_partition_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
  mainqa.update(pdf_qa(OUT,[g['name'] for g in selected],mainqa['pages']))
  detail.update(pdf_qa(DETAIL,[u['name'] for u in units],detail['pages']))
  report.update(status='PASS',detail=detail)
- # Check 314 actual rendered ring cells rather than trusting patch counts.
+
  sys.path.insert(0,str(ROOT/'qa_deps'));import pymupdf
  with pymupdf.open(OUT) as doc:
   pix=doc[0].get_pixmap(dpi=300,alpha=False);rgb=np.frombuffer(pix.samples,dtype=np.uint8).reshape(pix.height,pix.width,pix.n)
@@ -204,7 +204,7 @@ def main():
  for r in grouprows:guide+=f"|{r['group_id']}|{r['sequence_name']}|{r['shared_IUPAC_core']}|{r['patterns']}|{r['matched_patterns']}|\n"
  (ROOT/'analysis/current_figure_guide.md').write_text(guide,encoding='utf-8')
  (ROOT/"README_motifStack_redraw.md").write_text(guide,encoding='utf-8')
- # Retire precisely the two superseded figures, after complete new-file QA.
+
  old=[ROOT/'figures/motifStack_sequence_names_overview_5x4.pdf',ROOT/'figures/motifStack_matched44_sequence_names_5x4.pdf']
  old=[p for p in old if p.exists()]
  if old:

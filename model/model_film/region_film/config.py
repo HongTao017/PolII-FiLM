@@ -11,7 +11,7 @@ REGION_NAMES = (
 )
 
 CONFIG = {
-    # The existing four-array Dataset interface; no DNA concatenation.
+
     "region_lengths": {
         "tss_sequence": 600,
         "first_donor_sequence": 2000,
@@ -35,13 +35,13 @@ CONFIG = {
     "film_constant_variance": 1.0,
     "film_dimensions_conv": [64] * 31,
     "film_dimensions_transformer": [],
-    # Preserve projection/fusion width but remove attention.
+
     "dim": 1536,
     "fusion_hidden_dim": 256,
     "fusion_dropout": 0.2,
     "transformer_depth": 0,
     "transformer_film_indices": [],
-    # A scalar Y_PC1 is not a nonnegative, spatial sequencing track.
+
     "output_channels": 1,
     "output_central_bins": -1,
     "final_softplus": False,
@@ -92,7 +92,7 @@ def validate_config(config):
     if config["loss_style"] != "mse":
         raise ValueError("The present Y_PC1 target is not a sequencing-count profile")
     if config["film_input_normalization"] != "fixed_training_batchnorm":
-        raise ValueError("This repaired experiment forbids moving/minibatch input BN statistics")
+        raise ValueError("PFNet requires fixed input normalization statistics")
     if config["film_constant_variance"] != 1.0:
         raise ValueError("Training-constant columns require safe variance=1, without dropping columns")
     if config["region_reduction"] != "mean_pool_concat":

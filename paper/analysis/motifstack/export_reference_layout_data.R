@@ -3,7 +3,7 @@ suppressPackageStartupMessages(library(jsonlite))
 root <- "/mnt/HDD8TB/hongtao/Data_Seq/task/motifStack_redraw_20261019"
 x <- readRDS(file.path(root,"input_matrices.rds"))
 hc <- readRDS(file.path(root,"analysis/motifStack_hclust.rds"))
-# Cut affects only which major branch gets an outer label. Keep the full tree.
+
 groups <- cutree(hc,k=15)
 sizes <- sort(table(groups),decreasing=TRUE)
 cat("Display groups and native-tree order\n")

@@ -41,7 +41,7 @@ archive_parent.mkdir(exist_ok=True)
 assert archive_parent.resolve().parent==base
 destination=archive_parent/('B_REG4_RF_20261027_superseded_'+time.strftime('%Y%m%dT%H%M%SZ',time.gmtime()))
 assert destination.resolve().parent==archive_parent.resolve() and not destination.exists()
-# Rename the checked experiment only; no recursive deletion and no data rewrite.
+
 old.rename(destination)
 assert not old.exists() and all(sha(destination/rel)==digest for rel,digest in checks.items())
 record={'status':'archived','original_path':str(old),'archive_path':str(destination),'replacement_path':str(new),

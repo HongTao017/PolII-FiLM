@@ -23,8 +23,8 @@ output.parent.mkdir(parents=True,exist_ok=True)
 for p in (ROOT/'data/fonts').glob('*.ttf'):font_manager.fontManager.addfont(str(p))
 apply_style()
 counts,report=count_entries()
-# The wide canvas follows the supplied 105-label reference-barplot request;
-# approved tick/axis typography and full sample identifiers are preserved.
+
+
 fig=plt.figure(figsize=(24,10),facecolor='white')
 ax=fig.add_axes([.055,.61,.93,.35])
 x=[];current=-1.;previous=None;starts=[]
@@ -55,7 +55,7 @@ for left,right in zip(labels,labels[1:]):
     assert not left.get_window_extent(renderer).overlaps(right.get_window_extent(renderer)),('overlapping sample labels',left.get_text(),right.get_text())
 assert len({str(c) for p in bars for c in [p.get_facecolor()]})==1
 save_pdf(fig,output);plt.close(fig)
-# User explicitly requested a 600 dpi PNG alongside the editable PDF.
+
 from export_png import export_png
 export_png(output,dpi=600)
 qa={'status':'PASS','output':str(output),'PDF_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),

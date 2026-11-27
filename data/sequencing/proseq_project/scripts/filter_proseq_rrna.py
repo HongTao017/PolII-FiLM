@@ -133,7 +133,7 @@ def parse_counts(log_path: Path, layout: str, output_r1: Path) -> tuple[int, int
 
 
 def run_command(command: str, log_path: Path) -> None:
-    # A non-login shell preserves the active Conda environment's PATH.
+
     result = subprocess.run(["bash", "-c", command])
     if result.returncode:
         raise subprocess.CalledProcessError(result.returncode, command)
@@ -263,7 +263,7 @@ def main() -> None:
                     f"rRNA={result['rrna_percent']}%",
                     flush=True,
                 )
-            except Exception as exc:  # keep other Runs moving and report all failures
+            except Exception as exc:
                 failures.append(f"{job.run}: {exc}")
                 print(f"[{completed}/{len(jobs)}] {job.run}: FAILED: {exc}", flush=True)
 

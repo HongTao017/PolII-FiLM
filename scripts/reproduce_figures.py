@@ -20,8 +20,8 @@ def main():
         source=ROOT/item['directory'];work=out/item['id']
         shutil.copytree(source,work,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
         originals={str(f.relative_to(source)):f for f in source.rglob('*.pdf') if not any(x in f.relative_to(source).parts for x in ['audit','provenance'])}
-        # Remove only output PDFs from the new isolated working copy, so an unchanged
-        # archived PDF can never count as successful reproduction.
+
+
         for rel in originals:(work/rel).unlink()
         started=time.monotonic()
         entry=work/item['entry']

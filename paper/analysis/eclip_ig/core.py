@@ -31,7 +31,7 @@ def read_json(path):
 
 
 def save_json(path, obj):
-    # Output directories are exclusively created by the runner.
+
     Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False,
                                    allow_nan=False) + '\n', encoding='utf-8')
 
@@ -97,8 +97,8 @@ def attribute(wrapper, actual, baseline, dna, chip, cfg, target_sd):
 
 
 def load_model(cfg, fold, seed, device):
-    # Imports resolve to the original, subsequently hash-checked implementation.
-    from region_film.model import PolIIFiLMRegressor
+
+    from region_film.model import PFNet
     from pausing_utils.preprocessing import FoldPreprocessor
     root = Path(cfg['model_root'])
     training = read_json(root/'training_config.json')
@@ -116,7 +116,7 @@ def load_model(cfg, fold, seed, device):
             require(sha(origin/name) == expected, f'Implementation changed: {origin/name}')
     require(ckpt['architecture_config']['region_lengths'] == dict(zip(REGIONS, LENGTHS)),
             'Not the original four-window A model')
-    model = PolIIFiLMRegressor(ckpt['architecture_config'], regulatory_dim=2554)
+    model = PFNet(ckpt['architecture_config'], regulatory_dim=2554)
     model.load_state_dict(ckpt['model'], strict=True)
     model.eval().to(device).requires_grad_(False)
     require(hasattr(model, 'film_mlp_conv') and not hasattr(model, 'regulatory_mlp'), 'Wrong model family')

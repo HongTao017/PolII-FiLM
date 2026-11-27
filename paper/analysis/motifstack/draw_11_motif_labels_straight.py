@@ -48,8 +48,8 @@ def select_representatives(patterns,order):
             vector=np.zeros(m);vector[i]=vector[j]=1
             constraints.append(vector);lower.append(0);upper.append(1)
         if maximum_gap is not None:
-            # Every cyclic window must contain a selected anchor; this keeps
-            # large empty stretches out of the representative selection.
+
+
             for start in range(n):
                 constraints.append(((ranks-start)%n<maximum_gap).astype(float))
                 lower.append(1);upper.append(np.inf)
@@ -90,8 +90,8 @@ def display_angles(order,annotations,rotation):
     n=len(order)
     anchor_ranks=np.array([r['rank'] for r in annotations])
     rank_gaps=np.diff(np.r_[anchor_ranks,anchor_ranks[0]+n])
-    # Equal motif angles, straight spokes, and order-preserving interpolation
-    # of all intervening leaves. Sector width is deliberately non-quantitative.
+
+
     allocated=np.full(11,360/11)
     floor=float(np.min(allocated/rank_gaps))
     anchor_angles=np.r_[0.,np.cumsum(allocated[:-1])]
@@ -165,8 +165,8 @@ def draw(data,patterns,annotations,rotation):
     clipped=[t.get_text() for t,b in zip(texts,boxes) if b.x0<2 or b.y0<2 or b.x1>fig.bbox.width-2 or b.y1>fig.bbox.height-2]
     quads=[corners(t,renderer) for t in texts]
     collisions=[(i,j) for i in range(11) for j in range(i+1,11) if overlap(quads[i],quads[j])]
-    # Each connector is one radial line segment on a distinct ray, entirely
-    # outside the ring. It cannot bend, cross another ray, or cross the tree.
+
+
     for r,(p,q) in zip(annotations,leaders):
         t=theta[r['leaf']]
         assert abs(p[0]*q[1]-p[1]*q[0])<1e-10

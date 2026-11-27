@@ -1,4 +1,4 @@
-"""PDF-only, user-sized publication plots using real saved ISM arrays."""
+
 from pathlib import Path
 import matplotlib.pyplot as plt
 from final_figure_small import apply_style

@@ -79,8 +79,8 @@ def read_inputs(root, item, registered):
 
 
 def draw(item, seq, heat, coords, highlight, chosen, output, panel, basename=None):
-    # All x positions and alleles retain the gene-oriented model input view.
-    # Minus-strand genomic coordinates consequently decrease left to right.
+
+
     x = np.arange(len(seq))
     gain = np.maximum(heat.max(axis=0), 0)
     loss = np.maximum(-heat.min(axis=0), 0)
@@ -89,7 +89,7 @@ def draw(item, seq, heat, coords, highlight, chosen, output, panel, basename=Non
     motif_left, motif_right = item["motif_start"] - left - .5, item["motif_end"] - left - .5
     pos = highlight["position"] - left
 
-    # User explicitly requested a suitable larger canvas instead of 5x4.
+
     fig = plt.figure(figsize=(10, 4.8), facecolor="white")
     ax_seq = fig.add_axes([.105, .755, .76, .07])
     ax_curve = fig.add_axes([.105, .435, .76, .27])
@@ -151,7 +151,7 @@ def draw(item, seq, heat, coords, highlight, chosen, output, panel, basename=Non
     result = "motif loss" if highlight["FIMO_same_site_loss"] else "motif score decrease"
     if highlight["FIMO_same_site_loss"] and highlight["overlapping_target_match_remaining"]:
         result = "same-site loss; overlap remains"
-    # Label input-oriented bases to match visible DNA letters and heatmap rows.
+
     label = f'{highlight["reference"]}>{highlight["alternative"]}: {item["TF"]}-like {result}'
     if "overlap remains" in result:
         label = f'{highlight["reference"]}>{highlight["alternative"]}: same-site loss\n(overlapping target match remains)'
@@ -165,7 +165,7 @@ def draw(item, seq, heat, coords, highlight, chosen, output, panel, basename=Non
     fig.text(.105, .065, "Five-seed mean; mutant − WT; ChIP fixed. Lines: prediction gain/loss magnitudes.", fontsize=8.5)
     fig.text(.105, .03, allele_note, fontsize=8.5, color=".35")
     fig.canvas.draw()
-    # Detect clipped text on the actual fixed canvas before export.
+
     renderer = fig.canvas.get_renderer()
     outside = []
     for text in fig.findobj(matplotlib.text.Text):
@@ -208,7 +208,7 @@ def main():
              f'{item["instance_id"]}_{item["gene"]}_{item["TF"]}_reference_style' for i, item in enumerate(items)]
     if any((out / f"{name}.pdf").exists() for name in names):
         raise FileExistsError("One or more target PDFs already exist; no files were overwritten")
-    # Validate every instance BEFORE creating any outputs.
+
     data = [(item, read_inputs(root, item, registered)) for item in items]
     apply_style()
     plt.rcParams.update({"axes.linewidth": .8, "savefig.facecolor": "white"})
@@ -237,7 +237,7 @@ def main():
                 "motif_label": "target FIMO only; family ambiguity retained; not TF binding validation",
                 "style_skill": "final-figure-small: user-authorized canvas override 10x4.8 inches; PDF only, ticks 12 pt, labels 14 pt, legend 12 pt, TrueType",
                 "plotting_code_sha256": sha256(Path(__file__))}
-    # Audit is printed only: the requested result directory contains PDF only.
+
     print(json.dumps(manifest), flush=True)
     print(json.dumps({"complete": True, "instances": len(items), "figures": len(outputs), "output": str(out)}))
 

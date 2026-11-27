@@ -72,7 +72,7 @@ def check_figure(fig):
         bb = txt.get_window_extent(renderer)
         assert bb.x0 >= -.5 and bb.y0 >= -.5 and bb.x1 <= fig.bbox.width+.5 and bb.y1 <= fig.bbox.height+.5, (txt.get_text(), bb.bounds)
         boxes.append({'text': txt.get_text(), 'bounds_px': list(bb.bounds)})
-    # Axis labels and neighbouring tick labels must have distinct boxes.
+
     for ax in fig.axes:
         for ticks in (ax.get_xticklabels(), ax.get_yticklabels()):
             visible = [t for t in ticks if t.get_visible() and t.get_text()]
@@ -88,7 +88,7 @@ ax = fig.add_axes([.11, .36, .855, .38])
 format_axes(ax, 'Importance\nscore')
 ax.spines['bottom'].set_visible(False)
 ax.tick_params(axis='x', length=0)
-# All 600 values are retained; horizontal expansion replaces smoothing/subsampling.
+
 line, = ax.plot(np.arange(600), y, color='#727272', lw=.6, zorder=4)
 lim = float(np.abs(y).max())*1.16
 ax.set_ylim(-lim, lim)
@@ -97,7 +97,7 @@ ax.set_xticks([0, 150, 300, 450, 599], ['0', '150', '300', '450', '599'])
 set_inside_yticks(ax)
 ax.set_xlabel('Position in TSS input (bp)', fontsize=14, labelpad=26)
 ax.axvspan(s-.5, e-.5, color='#D4D4D4', alpha=.45, zorder=0)
-# Native pattern source seqlet and exact SP4 hit are distinct nested intervals.
+
 ax.add_patch(Rectangle((s-.5, -.32), e-s, .075, transform=ax.get_xaxis_transform(), color='#BFBFBF', lw=0, clip_on=False))
 ax.add_patch(Rectangle((a-.5, -.32), b-a, .075, transform=ax.get_xaxis_transform(), color='#787878', lw=0, clip_on=False))
 ax.plot([300, 300], [0, 1.07], transform=ax.get_xaxis_transform(), color='#ADADAD', lw=.65, clip_on=False, zorder=2)
@@ -164,14 +164,14 @@ for result in qa.values():
     assert pixels.min() < 90 and (pixels < 200).mean() > .001
     result.update(sha256=digest(path), bytes=path.stat().st_size, pages=1, font_sizes=sizes, fonts=page.get_fonts(), no_raster_images=True, text_within_canvas=True, neighbouring_tick_labels_do_not_overlap=True, rendered_on_server_in_memory=True)
     pdf.close()
-# Only after BOTH final PDFs pass QA, remove the exact superseded SP4 combined file.
+
 receipt = {'new_figures': [qa[k]['path'] for k in qa], 'removed': [], 'preserved_other_pdfs': preserved}
 if old.exists():
     receipt['removed'].append({'path': str(old), 'sha256': digest(old), 'bytes': old.stat().st_size})
     old.unlink()
 assert not old.exists()
 assert preserved == {p.name: digest(p) for p in F.glob('*.pdf') if p.name in preserved}
-qa['source'] = {'pattern': info['pattern'], 'gene': info['selected']['gene'], 'H5': str(h5path), 'H5_SHA256': digest(h5path), 'CWM_is_pattern_aggregate_not_gene_zoom': True, 'grey_track_is_single_KLHL23_TSS_actual_attribution': True, 'no_result_download': True, 'user_authorized_size_override': True}
+qa['source'] = {'pattern': info['pattern'], 'gene': info['selected']['gene'], 'H5': str(h5path), 'H5_SHA256': digest(h5path), 'CWM_is_pattern_aggregate_not_gene_zoom': True, 'grey_track_is_single_KLHL23_TSS_actual_attribution': True, 'no_result_download': True, 'configured_size_override': True}
 (A/'TSS_AND_CWM_SEPARATE_QA.json').write_text(json.dumps(qa, indent=2))
 (A/'TSS_AND_CWM_CLEANUP_RECEIPT.json').write_text(json.dumps(receipt, indent=2))
 (A/'TSS_AND_CWM_README.md').write_text('''# Current separate SP4 figures\n\n1. ../../figures/SP4_MA0685_2_F04_TSS600_IMPORTANCE.pdf — KLHL23 original complete TSS window, 600 observed-base signed attribution values (five-seed mean). Light grey marks source seqlet input [280,330), TSS-relative [-20,+29]; dark grey underbar marks SP4-like sequence match [296,305), TSS-relative [-4,+4]. TSS is input index 300. No smoothing, downsampling, absolute value, or sign flip. This is one real sequence instance, not a pattern average.\n\n2. ../../figures/SP4_MA0685_2_F04_PATTERN_CWM.pdf — original native 50x4 TF-MoDISco contribution weight matrix for F04__r0_neg_patterns_pattern_0, 166 seqlets. All signed A/C/G/T values retained; vector letter heights stack above/below zero. Not a numerical zoom of the first PDF.\n\nGrey highlights identify the selected region; other input branches are not shown. SP4-like denotes sequence similarity to MA0685.2, not validated SP4 occupancy; SP1/SP2 similarities also exist. Target unit: signed predicted Y_PC1 attribution. PDF only, editable Arial12/14 text; user-authorized 12x3.5 and 12x3.8 inch canvases. Both generated and checked directly on server, no raster files or result downloads.\n\nThe superseded full-input combined SP4 figure was deleted after both replacements passed QA. Circular motif trees and source files were preserved. See TSS_AND_CWM_SEPARATE_QA.json and TSS_AND_CWM_CLEANUP_RECEIPT.json.\n''')

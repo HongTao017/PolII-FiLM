@@ -1,10 +1,8 @@
-# PolII-FiLM / PFNet
+# PFNet
 
 **DNA sequence and biochemical features predict promoter-proximal RNA polymerase II pausing across human genes.**
 
 This project investigates how gene architecture, DNA sequence and biochemical context relate to gene-level differences in human RNA polymerase II (Pol II) promoter-proximal pausing. It integrates **105 GRO-seq, PRO-seq and mNET-seq samples from 41 GEO series**, constructs a composite pausing phenotype for **15,351 genes**, and combines random forest analyses with **PFNet**, a multimodal neural network.
-
-PFNet is the model name used in the manuscript. The repository, Python package (`polii_film`) and released model directory (`model_film`) retain their existing names for use with the download and reproduction commands below.
 
 ## Model overview
 
@@ -28,7 +26,7 @@ The [figure map](docs/figure_map.md) locates the archived panel packages, and th
 |---|---|
 | Data processing | Sample manifests, assay-specific sequencing scripts, feature construction and processed inputs |
 | Random forests | Gene-feature and biochemical-feature workflows, selection records, saved models and held-out predictions |
-| PFNet / PolII-FiLM | Architecture, training configuration, fold assignments, preprocessing parameters and pretrained checkpoints |
+| PFNet | Architecture, training configuration, fold assignments, preprocessing parameters and pretrained checkpoints |
 | Interpretation | Attribution, motif discovery and matching, single-base mutagenesis and matched motif-perturbation analyses |
 | Figures | Frozen numerical inputs, plotting scripts, final PDFs and editable architecture artwork |
 
@@ -37,7 +35,7 @@ Start with [installation](#installation) and [resource downloads](#download-data
 ## Repository layout
 
 ```text
-polii_film/       Portable model loading, prediction and evaluation
+pfnet/            Portable model loading, prediction and evaluation
 configs/          Model, figure and downloadable-data indexes
 scripts/          Data preparation, training and figure/perturbation entry points
 pretrained/       Links to released model resources
@@ -70,8 +68,8 @@ The released model is **`model_film`**, with dropout 0.2. Its archive contains 1
 Use Python 3.10+ for model work. Install a PyTorch build appropriate for your CUDA version, then install the package:
 
 ```bash
-git clone https://github.com/HongTao017/PolII-FiLM.git
-cd PolII-FiLM
+git clone https://github.com/HongTao017/PolII-FiLM.git PFNet
+cd PFNet
 python -m venv .venv-model
 source .venv-model/bin/activate
 pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
@@ -104,16 +102,16 @@ Packages are split into bounded release assets. The script downloads parts in or
 
 ```bash
 # Aggregate the saved OOF predictions
-python -m polii_film.cli evaluate --saved-predictions \
+python -m pfnet.cli evaluate --saved-predictions \
   --output-dir outputs/saved_oof
 
 # Re-run checkpoint inference on all held-out genes
-CUDA_VISIBLE_DEVICES=0 python -m polii_film.cli evaluate \
+CUDA_VISIBLE_DEVICES=0 python -m pfnet.cli evaluate \
   --device cuda:0 --precision bfloat16 --batch-size 32 \
   --output-dir outputs/fresh_oof
 
 # Predict new data in the released format
-python -m polii_film.cli predict --data-dir /path/to/input \
+python -m pfnet.cli predict --data-dir /path/to/input \
   --fold 1 --device cuda:0 --output-dir outputs/new_predictions
 ```
 

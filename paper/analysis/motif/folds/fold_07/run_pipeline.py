@@ -157,8 +157,8 @@ def discover(config, selected):
         state('TF_MoDISco', region=region, complete_seeds=5)
         onehot = np.array(np.load(source/f'{region}.npy', mmap_mode='r')[selected.gene_index.to_numpy(dtype=int)])
         hypothetical = mean[:, :, OFFSETS[j]:OFFSETS[j+1]].transpose(0,2,1).copy()
-        # Remove padding/unknown bases and repeated physical copies from motif
-        # discovery without altering the saved original DeepLIFT attribution.
+
+
         metadata = pd.read_csv(Path(config['model_root'])/'data/genes_repartitioned.tsv', sep='\t')
         for i, row in enumerate(selected.itertuples()):
             a = np.concatenate([np.load(source/f'{r}.npy', mmap_mode='r')[row.gene_index] for r in REGIONS], 0).T
@@ -216,7 +216,7 @@ def pwm_for(motif, pseudocount):
 
 
 def best_footprint(dna, pwm, start, end):
-    # This is a PWM score, NOT a binding probability or FIMO p-value.
+
     choices = []
     for position in range(max(0,start), min(dna.shape[-1]-len(pwm),end-len(pwm))+1):
         local = dna[:,position:position+len(pwm)].T
@@ -237,7 +237,7 @@ def freeze_perturbations(config, selected, metadata, annotations):
     plan, skipped, seen = [], [], set()
     for pattern in eligible:
         j = pattern['region_index']
-        target = pattern['matches'][0]  # All alternate TF matches retained in plan.
+        target = pattern['matches'][0]
         pwm = pwm_for(motifs[target['TF']], config['pwm_pseudocount'])
         candidates = []
         scan_folder=ROOT/'instance_scans'/pattern['pattern_id']
@@ -259,8 +259,8 @@ def freeze_perturbations(config, selected, metadata, annotations):
                 i = int(order[int(example)])
                 row = selected.iloc[i]
                 array = np.array(np.load(source/f'{pattern["region"]}.npy', mmap_mode='r')[row.gene_index]).T
-                # HDF5 start/end are forward-input coordinates, even when the
-                # extracted seqlet sequence is stored reverse complemented.
+
+
                 hits=fimo.loc[fimo.sequence_name.eq(f's{number}') & fimo['p-value'].le(config['fimo_p_threshold'])].sort_values(['p-value','start','strand'])
                 if hits.empty:
                     skipped.append(dict(pattern_id=pattern['pattern_id'],gene=row.gene,reason='No target JASPAR FIMO match at fixed p<=1e-4 inside seqlet'))
@@ -270,7 +270,7 @@ def freeze_perturbations(config, selected, metadata, annotations):
                 reverse=hit.strand=='-'
                 oriented_pwm=pwm[::-1,::-1] if reverse else pwm
                 score=float((array[:,position:position+len(pwm)].T*oriented_pwm).sum())
-                # Freeze the illustrative SNP using sequence score alone.
+
                 choices=[]
                 for t in range(len(pwm)):
                     ref=int(array[:,position+t].argmax())
@@ -298,7 +298,7 @@ def freeze_perturbations(config, selected, metadata, annotations):
                     highlight_reference='ACGT'[highlight[3]], highlight_delta_PWM_bits=highlight[0],
                     window_start=window_start, window_end=window_end, physical_motif_start0=physical_left,
                     selection_hash=stable_seed(config['random_seed'],row.gene,pattern['pattern_id'],position)))
-        # At most one instance per gene/pattern; order never uses mutation effect.
+
         candidates.sort(key=lambda x:(x['selection_hash'],x['gene']))
         genes = set()
         retained = 0
@@ -330,9 +330,8 @@ def scan_fimo(config,meme,fasta,output):
     assert 'truncat' not in stderr and 'max-stored' not in stderr, 'FIMO truncation evidence'
     lines=Path(output).read_text().splitlines()
     if not lines:
-        # This installed FIMO emits no header at all for a successful --text
-        # scan with zero hits.  Accept that case only after the subprocess has
-        # exited cleanly and stderr confirms the requested motif was loaded.
+
+
         messages=[line.strip() for line in stderr.splitlines() if line.strip()]
         expected_warning='warning: text mode turns off computation of q-values'
         motif_line=re.compile(r'using motif [+-]\S+ of width \d+\.')
@@ -428,8 +427,8 @@ def summarize_saved_perturbations(config, metadata, plan):
                     seed_SD=float(effects.std(ddof=1)), positive_seeds=int((effects>0).sum()), negative_seeds=int((effects<0).sum()),
                     motif_annotation='score_decreased' if dscore <= -config['motif_score_change_bits'] else ('score_increased' if dscore >= config['motif_score_change_bits'] else 'small_score_change')))
         table=pd.DataFrame(rows)
-        # Re-scan WT and every actual mutant sequence: motif labels must be
-        # observed in sequence scoring, not inferred from the model heatmap.
+
+
         counts=np.array([motifs[item['TF']]['pfm'][c] for c in 'ACGT']).T
         (folder/'target.meme').write_text(MEME_HEADER+meme_entry(item['matrix_id'],counts,100))
         wtseq=''.join('ACGT'[int(x.argmax())] for x in dna[:,item['window_start']:item['window_end']].T)
@@ -457,8 +456,8 @@ def summarize_saved_perturbations(config, metadata, plan):
         table['same_site_FIMO_loss']=losses
         table['overlapping_target_match_remaining']=overlaps
         table['new_target_FIMO_hits']=gains
-        # Highlight the strongest pre-inference sequence-score decrease, never
-        # the mutation with the largest prediction effect.
+
+
         highlight=table.loc[table.inside_motif].sort_values(['delta_PWM_same_site_bits','position','alternative']).iloc[0]
         assert (int(highlight.position),highlight.alternative)==(item['highlight_position'],item['highlight_alternative'])
         write_json(folder/'highlight.json',dict(position=int(highlight.position),reference=highlight.reference,

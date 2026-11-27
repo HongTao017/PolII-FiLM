@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,os,sys,time
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'provenance/release_20261119'
-sys.path.insert(0,str(ROOT));from polii_film import bundle
+sys.path.insert(0,str(ROOT));from pfnet import bundle
 exclude={'.git','__pycache__','.venv','.venv-figures','.venv-model','outputs'}
 self_files={'file_manifest.jsonl','SHA256SUMS','release_verification.json','package_complete.json'}
 def sha(p):

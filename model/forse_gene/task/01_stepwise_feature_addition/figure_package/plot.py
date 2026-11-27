@@ -33,7 +33,7 @@ def main():
         original_save = fig.savefig
         def with_metadata(path, **kwargs):
             return original_save(path, metadata={'Title':meta['description'], 'Subject':json.dumps(stats),
-                'Keywords':'Portable frozen-data redraw; original approved artwork retained in initial PDF'}, **kwargs)
+                'Keywords':'Portable frozen-data redraw; archived artwork retained in initial PDF'}, **kwargs)
         fig.savefig = with_metadata
         save_pdf(fig, output)
     import matplotlib.pyplot as plt

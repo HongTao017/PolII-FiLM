@@ -78,8 +78,7 @@ for field, filename in [('assay', 'tSNE_PI_by_assay.pdf'), ('cell_type', 'tSNE_P
     ax.set_xticks([v for v in MaxNLocator(nbins=nbins).tick_values(*xlim) if xlim[0] <= v <= xlim[1]])
     ax.set_yticks([v for v in MaxNLocator(nbins=nbins).tick_values(*ylim) if ylim[0] <= v <= ylim[1]])
 
-    # Each full category name is retained. Two columns keep 31/34 labels
-    # at 12 pt while respecting the fixed 5 x 4 inch page.
+
     leading = 14.
     legend_top = H / 2 + (nrow - 1) * leading / 2
     legend_texts = []

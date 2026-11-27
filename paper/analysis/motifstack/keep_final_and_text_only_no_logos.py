@@ -27,7 +27,7 @@ def main():
   glyphs=[p for p in ax.patches if isinstance(p,PathPatch) and p.get_zorder()==8]
   baselines=[line for line in ax.lines if line.get_zorder()==7]
   assert len(glyphs)>0 and len(baselines)==13
-  assert len(ax.texts)==15 # 13 titles and two legend labels
+  assert len(ax.texts)==15
   for artist in glyphs+baselines:artist.remove()
   removed.update(logo_letter_paths=len(glyphs),logo_baselines=len(baselines))
   original_save(fig,path)
@@ -48,7 +48,7 @@ def main():
  assert sha(KEEP)==KEEP_SHA
  report.update(status='PASS',titles_visible=13,logos_visible=0,legend_retained=True,arrows_retained=13,all_title_and_legend_text_exactly_unchanged=True,all_remaining_vector_geometry_exactly_unchanged=True,removed_logo_paths=removed,description='same final tree, arrows, titles and legend; remove only the 13 nucleotide logos and their baselines')
  (ROOT/'analysis/text_only_no_logos_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
- # Delete any other version only after the two intended files pass QA.
+
  directory=(ROOT/'figures').resolve();kept={KEEP.resolve(),TEXT_ONLY.resolve()};deleted=[]
  for path in sorted(directory.glob('*.pdf')):
   if path.resolve() in kept:continue

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# R2-only salvage workflow for Tellier GSE202444 / SRR19136151.
-# This is intentionally isolated from the standard paired-end mNET-seq results.
+
+
 
 PROJECT="${PROJECT:-/mnt/HDD8TB/shared/Data_Seq/DATA/Mnetseq_supplement_project}"
 MAIN="${MAIN:-/mnt/HDD8TB/shared/Data_Seq/DATA/mnetseq_project}"
@@ -22,7 +22,7 @@ for tool in STAR samtools bedtools bgzip tabix gzip awk sort python3; do
     }
 done
 
-# Locate the paired-library R2 FASTQ after rRNA removal.
+
 mapfile -t R2_FILES < <(
     find "$PROJECT/rrna_filtered" -type f \
         -name "${RUN}_2*.fastq.gz" -print | sort
@@ -35,7 +35,7 @@ fi
 R2="${R2_FILES[0]}"
 gzip -t "$R2"
 
-# Reuse the exact GRCh38 STAR index from the completed paired diagnostic run.
+
 if [[ -z "${STAR_INDEX:-}" ]]; then
     PREVIOUS_STAR_LOG="$PROJECT/logs/alignment/GRCh38/${RUN}/STAR.Log.out"
     STAR_INDEX=$(awk '$1=="genomeDir"{print $2; exit}' "$PREVIOUS_STAR_LOG")
@@ -45,7 +45,7 @@ fi
     exit 1
 }
 
-# Reuse the GRCh38 FASTA and MANE resources used by the main database.
+
 FASTA="${FASTA:-/mnt/HDD8TB/shared/Data_Seq/DATA/groseq_project/reference/GRCh38.p14.genome.fa}"
 MASK="$MAIN/artifact_filtered/masks/MANE_Select.mNET_processing_mask.bed"
 TSS_TES="$MAIN/annotation/MANE_Select.TSS_TES.tsv"

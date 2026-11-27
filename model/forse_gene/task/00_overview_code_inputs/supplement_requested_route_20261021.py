@@ -1,4 +1,4 @@
-"""Complete the six exact requested feature orders without changing prior run tables."""
+
 from pathlib import Path
 import fcntl
 import hashlib
@@ -70,7 +70,7 @@ def main():
         for model in REQUESTED:
             cached_metrics = ROOT / 'evaluations' / model / 'fold_metrics_ensemble.tsv'
             if model in REQUESTED[:6]:
-                # Audit all original seed caches before reusing the completed ensemble table.
+
                 for fold in range(1, 11):
                     for seed in base.SEEDS:
                         experiment.fit_one(tuple(model), fold, seed)

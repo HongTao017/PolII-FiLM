@@ -1,4 +1,4 @@
-"""Export the final PDF to PNG at the explicitly requested 600 dpi."""
+
 from pathlib import Path
 import argparse,json,hashlib
 import pymupdf

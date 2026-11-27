@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,hashlib,io,json,os,sys,tarfile,urllib.request
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from polii_film.archive_compatibility import normalize_path,record_resource,align_metadata
+from pfnet.archive_compatibility import normalize_path,record_resource,align_metadata
 
 class PartsReader(io.RawIOBase):
     def __init__(self,paths):self.paths=iter(paths);self.current=None
@@ -49,7 +49,7 @@ def main():
             if dest.exists() and dest.stat().st_size==part['bytes'] and digest(dest)==part['sha256']:
                 print('Cached',dest.name,flush=True);continue
             tmp=dest.with_name(dest.name+'.download')
-            req=urllib.request.Request(part['url'],headers={'User-Agent':'PolII-FiLM-resource-downloader'})
+            req=urllib.request.Request(part['url'],headers={'User-Agent':'PFNet-resource-downloader'})
             with urllib.request.urlopen(req,timeout=120) as src,tmp.open('wb') as out:
                 while True:
                     b=src.read(8*1024*1024)

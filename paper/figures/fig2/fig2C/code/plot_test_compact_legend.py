@@ -17,7 +17,7 @@ from plot_hollow_violin_reference import PALETTE
 
 CANVAS=(7.4,5.3)
 DESTINATION=Path('G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/10_test_compact_grouped_significance_color_legend_7p4x5p3.pdf')
-# Same comparison endpoints and grouping as the user's supplied reference.
+
 COMPARISONS=[('B','BQ',0),('B','BI',1),('B','BC',2),('B','BP',3),('B','BE',4),
              ('BP','BPQ',0),('BP','BPE',1),('BP','BPI',2),
              ('BPQ','BPQI',3),('BPQ','BPQE',4),('BPQI','BPQIT',0)]
@@ -75,7 +75,7 @@ def make_figure(data):
         adjusted=min(1.,raw_p*len(COMPARISONS))
         label=('****' if adjusted<.0001 else '***' if adjusted<.001 else
                '**' if adjusted<.01 else '*' if adjusted<.05 else 'n.s.')
-        # Annotation tiers have a fixed 15-point step, not large y-axis gaps.
+
         offset=4+tier*15
         bracket_transform=ax.get_xaxis_transform()+ScaledTranslation(0,offset/72,fig.dpi_scale_trans)
         cap_transform=ax.get_xaxis_transform()+ScaledTranslation(0,(offset-2.5)/72,fig.dpi_scale_trans)
@@ -97,7 +97,7 @@ def make_figure(data):
     for side in ['top','right']:ax.spines[side].set_visible(False)
     for side in ['bottom','left']:
         ax.spines[side].set_color('#777777');ax.spines[side].set_linewidth(.75)
-    # Replace the former four prose lines with the user's bordered colored key.
+
     frame=Rectangle((.105,.025),.875,.205,transform=fig.transFigure,
                     facecolor='none',edgecolor='#777777',linewidth=.85)
     fig.add_artist(frame)

@@ -184,7 +184,7 @@ class Experiment:
             raise ValueError('DNA-overlap groups cross folds')
         if np.isnan(self.x).all(axis=0).any():
             raise ValueError('Globally empty feature')
-        # Independent sweep over current four-window genomic coordinates.
+
         intervals = []
         for region in ['tss_sequence', 'first_donor_sequence', 'first_acceptor_sequence', 'pre_tes_sequence']:
             subset = metadata[['chrom', region + '_clipped_start0', region + '_clipped_end0', 'fold']].dropna()
@@ -428,9 +428,8 @@ class Experiment:
         return selected
 
     def fold_local_selection(self):
-        # Independent outer-round decisions, using just that round's validation
-        # fold. No inference from test scores or other rounds' selected paths.
-        # This is a separate Pearson-improvement rule, not the legacy t-test rule.
+
+
         predictions = np.full(len(self.y), np.nan)
         rows, fold_metrics = [], []
         for fold in range(1, 11):
@@ -482,8 +481,8 @@ class Experiment:
             'feature': columns, 'importance': result['importance']}).sort_values('importance', ascending=False))
         write_tsv(folder / 'final_selected_feature_matrix.tsv', pd.DataFrame(self.x[:, selected], columns=columns)
                   .assign(gene=self.genes, Y_PC1=self.y)[['gene', *columns, 'Y_PC1']])
-        # Deployment-only models. Their training predictions are never reported
-        # as held-out performance. No thousands of unselected forests are saved.
+
+
         models = folder / 'deployment_all_genes'
         models.mkdir(parents=True, exist_ok=True)
         for seed in SEEDS:
@@ -545,7 +544,7 @@ def self_test():
     rows = [dict(accepted=True, adjusted_p=.01, mean_delta=.1, added_group='Q'),
             dict(accepted=True, adjusted_p=.02, mean_delta=.3, added_group='P')]
     assert choose_greedy(rows)['added_group'] == 'Q'
-    # Median must be learned without the validation/test outliers.
+
     imputer = SimpleImputer(strategy='median', keep_empty_features=True)
     imputer.fit(np.array([[1., np.nan], [3., np.nan]]))
     assert np.array_equal(imputer.statistics_, [2., 0.])

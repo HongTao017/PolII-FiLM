@@ -28,7 +28,7 @@ def main():
  scale,rot=previous['scale'],previous['rotation']
  fig,q=r.draw_tree(g,shadows,shadows,scale,rot,'a',1,1)
  ax=fig.axes[0]
- # Keep the pre-existing style: original inward-pointing, short radial arrows.
+
  oldlines=[x for x in list(ax.lines) if x.get_zorder()==5]
  oldheads=[x for x in list(ax.patches) if isinstance(x,Polygon) and x.get_zorder()==6]
  assert len(oldlines)==len(oldheads)==29

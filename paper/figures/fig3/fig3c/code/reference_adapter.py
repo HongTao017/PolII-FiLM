@@ -1,13 +1,4 @@
-"""Execute final referenced-chat plot functions on real REG5 results.
 
-Original files are frozen byte-for-byte copies from the referenced task. The
-scatter function is called unmodified. Violin functions receive only necessary
-data-schema adaptations: nine combinations instead of twelve, six feature-key
-entries instead of seven, test r range through .84, and original REG5 Bonferroni
-family of14. Original final colours, artist styles, numeric brackets and font
-sizes are retained. Explicit current user override: both canvases9.4x5.3 inches.
-Only two final PDFs are written to the specified output directory.
-"""
 import argparse
 import csv
 import hashlib
@@ -39,10 +30,10 @@ ROOT=HERE.parent/'data'
 CANVAS=(9.4,5.3)
 SOURCE_THREAD='01a13f40-5270-7590-9efd-4b4dad994c44'
 PINNED={
- 'redraw_figures.py':'e9444c3f6ef56d4ef424a5f722d2f16e2f7b19cc870b524be91ce8e1a6368a68',
- 'plot_test_compact_legend.py':'f9ee772d24b6931c2ddc9622e721d03cb33db8900d134f3012fce182f1f0abe7',
- 'plot_test_muted_filled_reference.py':'50c6861e88df4c397a7d43fb9f419e66cee22ee9ad640afb37ccd0d5a101a34d',
- 'plot_test_custom_palette.py':'d42ba022f71c7c5ca00ae1cac8da3bd2af44e5009165c66a4f37d9493c449a9d',
+ 'redraw_figures.py':'fee5024b2c7b2f9a6e94caef22a8003394a7ef69e7d1b66d9f67f851146bc333',
+ 'plot_test_compact_legend.py':'6c95e9384dacc6384d508d339a872b07f41d832fb29654b37bf0a7faf9a1e209',
+ 'plot_test_muted_filled_reference.py':'1ade1215b13aae552bd18c2fab5efe6682627aef4565846ca2f87fbb84e0afcf',
+ 'plot_test_custom_palette.py':'bbd1a6aa3489f85339c1757ec8bc32a92d29754ac17107dfcb7d0f2f7df55d24',
  'plot_test_pvalues_only.py':'0e1aea69729c3840b209cbbe26134790d1f10285fa7ca50626697ecc458da823'}
 DISPLAY=['B','BL','BP','BD','BA','BC','BCL','BCP','BCLP']
 PALETTE=['#FEFCFA','#B7BEC9','#4D5058','#F5DCD1','#F0BDBD','#928C95','#B2CEF7']
@@ -103,8 +94,8 @@ def build_violin(packet,all_comparisons):
         ("ax.set_xticks(positions);ax.set_xticklabels(['']*12)","ax.set_xticks(positions);ax.set_xticklabels(['']*len(MODELS))"),
         ('ax.set_yticks([.55,.60,.65,.70,.75])','ax.set_yticks([.55,.60,.65,.70,.75,.80])')])
     ns=dict(vars(reference_fill));ns.update(common)
-    # Intermediate legacy assertions use fixed old counts; final QA below checks
-    # the actual new counts, fonts, exact colours, numeric tests and all bounds.
+
+
     ns.update(original_make_figure=core,validate_layout=lambda *args:None)
     fill=adapted(reference_fill.make_figure,ns,[
         ('assert len(ax.collections) == 12 and len(ax.patches) == 12','assert len(ax.collections) == len(MODELS) and len(ax.patches) == len(MODELS)'),
@@ -166,7 +157,7 @@ def build_scatter(packet):
     reference_scatter.CANVAS=CANVAS
     reference_scatter.save_one=capture_save
     source={'oof':{'observed':packet['observed'],'fixed_prediction':packet['predicted']}}
-    # Exact final referenced-chat function, no density/colour/style rewriting.
+
     reference_scatter.draw_oof(source,HERE,local=False)
     fig=capture['fig'];ax=fig.axes[0];image=ax.collections[0]
     assert int(np.sum(image.get_array()))==15351

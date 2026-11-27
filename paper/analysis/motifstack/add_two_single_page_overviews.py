@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 def balanced_geometry(units):
  g=r.geometry([u for u in units if u['n']>1])
  order=g['order'];n=len(order)
- # Equal spacing applies to annotation anchors only. Every original leaf and
- # every native parent-child relation remains in its original cyclic order.
+
+
  anchor_rank=[];anchor_angle=[];step=2*np.pi/len(units)
  for j,u in enumerate(units):
   if u['rank_lo']==u['rank_hi']:
@@ -73,11 +73,11 @@ def main():
  for u in singles:u['name']=names[r.e.ps[u['node']]['id']]['sequence_name']+'*'
  units=sorted(groups+singles,key=lambda u:u['rank']);assert len(units)==29 and sum(x['hits'] for x in units)==44
  records=[]
- # Figure 1: all 13 clades and all 16 independent matches on a single tree.
+
  g=balanced_geometry(units);shadows=r.annotate_units(g,units)
  for u in shadows:
-  # Radial label anchors point to the actual corresponding native node, while
-  # shading boundaries still enclose the complete contiguous member cells.
+
+
   u['angle']=float(g['theta'][u['node']])
  print('layout_all29_single_page',flush=True)
  scale,rot=single_layout(shadows)
@@ -87,7 +87,7 @@ def main():
  qa.update(pdf_qa(p,[u['name'] for u in shadows]));qa.update(verify_pdf(p))
  records.append(dict(figure='13_groups_plus_16_individuals',path=str(p),labels=29,scale=scale,rotation=rot,minimum_leaf_gap_deg=float(g['leaf_gaps'].min()),angular_layout='29 equally spaced clade/singleton centers; clade endpoints symmetric at +/-0.22 of an annotation interval; other leaf angles interpolated in original order',QA=qa))
  print('saved_all29',scale,rot,flush=True)
- # Figure 2: restore the actual previous 13-label single-page layout exactly.
+
  g13=r.geometry(groups);s13=r.annotate_units(g13,units);labels13=[u for u in s13 if u['n']>1]
  layout=old['overview'];scale13=layout['scale'];rot13=layout['rotation'];assert layout['pages']==1
  p13=ROOT/'figures/motifStack_13groups_ONLY_SINGLE_PAGE_5x4.pdf'

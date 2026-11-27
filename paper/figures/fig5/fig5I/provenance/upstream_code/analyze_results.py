@@ -23,7 +23,7 @@ def holm(values):
 
 
 def cluster_statistics(frame, seed):
-    # Equal weight per positive DNA-overlap group; repeated patterns/genes stay together.
+
     clusters = frame.groupby('dna_overlap_group', sort=True).agg(
         matched_delta=('matched_delta', 'mean'), motif_delta=('delta_WT_minus_disrupted', 'mean'),
         background_delta=('background_delta', 'mean'), observed=('observed_Y_PC1', 'mean'),

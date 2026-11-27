@@ -40,11 +40,11 @@ struct Chromosome {
     void report() {
         for (size_t i = 1; i < left_bins.size(); ++i) left_bins[i] += left_bins[i - 1];
         for (size_t i = 1; i < right_bins.size(); ++i) right_bins[i] += right_bins[i - 1];
-        // Overlaps are all fragments starting before end, less those ending at or before start.
+
         for (const auto &region : regions) {
             const size_t end = std::lower_bound(ends.begin(), ends.end(), region.end) - ends.begin();
             const size_t start = std::lower_bound(starts.begin(), starts.end(), region.start) - starts.begin();
-            // Fragments ending before the first region were excluded from both bins.
+
             const auto count = left_bins[end] - right_bins[start];
             if (count < 0) throw std::runtime_error("Negative interval count");
             std::cout << region.id << '\t' << count << '\n';

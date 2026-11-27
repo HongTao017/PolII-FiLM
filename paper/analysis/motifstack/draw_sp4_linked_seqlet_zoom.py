@@ -39,7 +39,7 @@ for pos in range(600):
     if seq[pos] in 'ACGT':
         assert onehot[pos,'ACGT'.index(seq[pos])]==1
         assert np.count_nonzero(actual[pos])<=1
-# Recheck that the full-score slice is the actual registered source seqlet.
+
 h5path=Path('/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_04/modisco/tss_sequence.h5')
 assert digest(h5path)==info['source_sha256'][str(h5path)]
 with h5py.File(h5path,'r') as h5:
@@ -75,7 +75,7 @@ top.add_patch(Rectangle((s-.5,-.22),e-s,.07,transform=top.get_xaxis_transform(),
 top.add_patch(Rectangle((a-.5,-.22),b-a,.07,transform=top.get_xaxis_transform(),facecolor='#757575',edgecolor='none',clip_on=False,zorder=3))
 top.axvline(300,color='#AFAFAF',lw=.5,zorder=2)
 top.text(300,1.04,'TSS',transform=top.get_xaxis_transform(),fontsize=12,va='bottom',ha='center')
-# Both connectors map exactly the same native source interval; this is a real zoom.
+
 for edge in (s-.5,e-.5):
     fig.add_artist(ConnectionPatch(xyA=(edge,-.00225),coordsA=top.transData,xyB=(edge,.00225),coordsB=bottom.transData,color='#B0B0B0',lw=.75,zorder=0,clip_on=False))
 fig.text(.035,.515,'b',fontsize=14,fontweight='bold',va='top')

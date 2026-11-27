@@ -24,7 +24,7 @@ def draw(data_path, output):
     assert np.isfinite(main.mean_delta_Y_PC1).all() and (main.genes > 0).all()
 
     fig, ax = new_figure(figsize=(8.4, 4.6))
-    # Match the actual embedded fonts in the source PDF on any operating system.
+
     plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
     fig.subplots_adjust(left=.124, right=.968, bottom=.216, top=.804)
     trans = ax.get_xaxis_transform()

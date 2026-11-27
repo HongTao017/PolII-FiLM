@@ -2,7 +2,7 @@
   "runner": "server_direct",
   "pid": 573726,
   "utc": "2026-11-16T03:27:13Z",
-  "code_sha256": "bd2e50f7f6864a9158072278c547633b8792bfaa73a162dbaedab420afc9ce62",
+  "code_sha256": "2e3dd0bbd36e250b4a9476c1ad170e5e2ae057ea11b5c90a64e7c0082092da11",
   "mode": "Resume 71 integrity-verified BAMs; ENCODE-first bounded range transport; 4 workers; no local relay dependency",
   "reason": "Prior local relay absent; current ENCODE endpoint returns valid ranged BAM bytes. Quantification and QC protocol unchanged."
 }

@@ -421,7 +421,7 @@
     20260918,
     20260919
   ],
-  "name": "model_film",
+  "name": "PFNet",
   "output": "signed Y_PC1",
   "ensemble": "five prediction means in original units within each held-out fold"
 }

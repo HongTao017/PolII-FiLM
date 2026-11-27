@@ -180,7 +180,7 @@ def align_one(
                 "note": "unique_proper_standard_chromosomes",
             }
         )
-    except Exception as exc:  # Keep the batch running and report the failing Run.
+    except Exception as exc:
         result["note"] = f"{type(exc).__name__}: {exc}"
     return result
 

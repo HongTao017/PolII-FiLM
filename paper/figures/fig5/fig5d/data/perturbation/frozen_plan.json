@@ -63,7 +63,7 @@
   "regulatory_inputs_fixed": true,
   "target": "predicted signed Y_PC1 (inverse target transform), no absolute-value readout",
   "source_candidate_plan_sha256": "a3831d7f2242a284e21862a13019fe75472055dc706aa61a1bd1be4dcb75667b",
-  "source_deep_lift_core_sha256": "a5ebfe1f9ce5eeaf55b62036d27472704bfeba3f3b3874e81db540e954f99431",
+  "source_deep_lift_core_sha256": "68a324a4654b2d84977e6bc90950193ed86605ef55feee3cc1ffd96f860c74a5",
   "source_inputs_sha256": {
     "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/tss_sequence.npy": "5b2716157e64188e1c10c9eeb4c71f23c271c96cf1d19d0326fe9b18246af934",
     "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/SequenceCNN_FiLM_SPLICE4_DILATED_5600_20261008/data/sequence_prepared/first_donor_sequence.npy": "8c846a18feee4832d874348d5b75d0c48fa3e621aee4d6a5002323e40052270d",

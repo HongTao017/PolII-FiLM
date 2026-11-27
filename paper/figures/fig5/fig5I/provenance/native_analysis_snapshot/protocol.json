@@ -1,5 +1,5 @@
 {
-  "model": "original Model A, 2554 actual fixed regulatory inputs",
+  "model": "PFNet, 2554 actual fixed regulatory inputs",
   "target": "original-scale signed Y_PC1, positively oriented to pausing index",
   "delta": "WT_minus_disrupted",
   "source_genes": 2000,
@@ -351,7 +351,7 @@
     }
   ],
   "sequence_profile_reference_sha256": "e51060eff9d53bab63fb9e9cb18dbe692f5932015ecf1269c2494cc748b489d5",
-  "script_sha256": "1dbac51a0d20bfb347b1d329e5977a58e0bdcc5e44d1302eeb15a527ec8284e8",
+  "script_sha256": "7f1e93439f8f1d0ce92423c26ec24a80a98ff7aa9cf669dace9cd5a1e9e5a6a7",
   "plans": {
     "1": "346551af13481ce4aef615ea08e1170129bc64ed16e329fc21a0cc43c9daae4b",
     "2": "6d2153daac950867ad7b6bcccc8b1fd3fa4d61ec2299ef68282a55293f3c76e9",

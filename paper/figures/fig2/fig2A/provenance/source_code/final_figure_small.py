@@ -1,8 +1,4 @@
-"""final-figure-small style helper.
 
-Enforced defaults (do not override unless the user asks): canvas 5x4 inch,
-ticks 12 pt, axis labels 14 pt, legend 12 pt, pdf.fonttype=42, PDF only.
-"""
 import matplotlib
 matplotlib.use("Agg")
 

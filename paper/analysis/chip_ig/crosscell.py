@@ -27,7 +27,7 @@ def build_reference(raw_rows, groups):
         family_rows.append({'category': category, 'target': target, 'n_cells': count,
                             'source_cells': cells, 'eligible': count >= 2})
         if count < 2:
-            # No cross-cell comparator: retain actual input; not evidence of zero importance.
+
             continue
         mean = values[:, ids].mean(axis=1)
         sd = values[:, ids].std(axis=1, ddof=0)
@@ -38,7 +38,7 @@ def build_reference(raw_rows, groups):
             varying[:, k] = region_varying.any(axis=-1)
             z[:, k] = np.divide(values[:, k]-mean, sd,
                                out=np.zeros_like(mean), where=region_varying)
-    # If neither region varies, cross-cell z is undefined: retain NA in plots.
+
     z_pair = z.mean(axis=-1)
     z_pair[~varying] = np.nan
     return reference, z_pair, eligible, varying, family_rows

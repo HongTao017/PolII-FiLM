@@ -31,7 +31,7 @@ for file in "$SOURCE_MANE" "$SOURCE_ORIENT" "$MANIFEST"; do
     }
 done
 
-# Reuse the exact MANE annotation that was validated for the GRO-seq project.
+
 ln -sfn "$SOURCE_MANE" "$MANE"
 ln -sfn "$SOURCE_ORIENT" "$ORIENT"
 
@@ -46,7 +46,7 @@ first_bam=$(find "$BAMDIR" -maxdepth 1 -type f -name '*.q20.bam' | sort | head -
     exit 1
 }
 
-# All standard chromosomes in the MANE BED must also exist in the BAM header.
+
 missing_contigs=$(
     comm -23 \
         <(cut -f1 "$ORIENT" | sort -u) \

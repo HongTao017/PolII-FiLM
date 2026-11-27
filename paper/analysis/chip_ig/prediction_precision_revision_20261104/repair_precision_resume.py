@@ -65,8 +65,8 @@ def main():
     previous.mkdir()
     for name in ('execution_manifest.json','experiment_config.json','run_fold.py','controller.py','status.json'):
         shutil.copy2(ROOT/name,previous/name)
-    # The detached controller owns a separate process session. Only its
-    # positively identified process group is stopped, leaving other jobs alone.
+
+
     state=read_json(ROOT/'status.json')
     pid=int(state['controller_pid'])
     proc=Path(f'/proc/{pid}')

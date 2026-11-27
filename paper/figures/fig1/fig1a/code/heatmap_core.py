@@ -42,8 +42,7 @@ AUTHOR_OVERRIDES = {
     "GSE128438": "Tanaka",
 }
 
-# Fixed colors for every cell line present in the three PI matrices.
-# These values drive the top/left annotation strips and cell-line legend text.
+
 CELL_LINE_COLOR_ORDER = (
     "A549", "AC16", "ARPE", "CAMA1", "CD4T", "GM12878", "H28",
     "HCT116", "HEK293", "HEK293T", "HeLa", "HepG2", "hESC", "hESC9",
@@ -52,8 +51,7 @@ CELL_LINE_COLOR_ORDER = (
     "THP1", "U87", "VCaP",
 )
 
-# A fixed 39-color categorical palette selected in CIELAB space. The colors
-# deliberately vary in hue and lightness so adjacent cell lines remain distinct.
+
 CELL_LINE_PALETTE = (
     "#195FC3", "#40C010", "#F04010", "#F010A0", "#10A090",
     "#C0A040", "#E08090", "#B050F0", "#306010", "#10B0F0",
@@ -85,7 +83,7 @@ CORRELATION_CMAP = LinearSegmentedColormap.from_list(
 )
 CORRELATION_CMAP.set_bad("#D9D9D9")
 
-# Directly runnable defaults. Edit these four paths only when files move.
+
 DEFAULT_GRO = Path(r"G:\sequence_analysis_data\data\Gro_seq_human_transcript_log2_pi_matrix.tsv")
 DEFAULT_PRO = Path(r"G:\sequence_analysis_data\data\PRO_seq_human_transcript_log2_pi_matrix.tsv")
 DEFAULT_MNET = Path(r"G:\sequence_analysis_data\data\Mnet_seq_human_transcript_log2_pi_matrix.tsv")
@@ -400,17 +398,16 @@ def draw_heatmap(
     dendrogram_ax = fig.add_axes(
         [dendrogram_right - dendrogram_width, heat_bottom, dendrogram_width, heat_size]
     )
-    # Give every merge a separate display level so outer branches do not draw
-    # on top of one another. This changes only branch spacing, not topology or
-    # leaf order.
+
+
     display_linkage = linkage_matrix.copy()
     merge_order = np.argsort(display_linkage[:, 2], kind="stable")
     display_levels = np.empty(display_linkage.shape[0], dtype=float)
     rank_positions = np.arange(
         1.0, display_linkage.shape[0] + 1.0, dtype=float
     )
-    # Keep a fixed gap between ordinary merges so their vertical lines remain
-    # separate. Add extra spacing only to the last six high-level joins.
+
+
     final_merge_count = min(6, display_linkage.shape[0])
     final_merge_start = display_linkage.shape[0] - final_merge_count
     final_merge_step = np.clip(rank_positions - final_merge_start, 0.0, None)
@@ -565,7 +562,7 @@ def draw_heatmap(
             color=ASSAY_COLORS[assay],
         )
 
-    # Cell-line key: label colors directly match the cell-line strips.
+
     cell_legend_x = cell_connector_x
     cell_legend_y = legend_y + 0.020
     cell_legend_width = heat_size * 0.70
@@ -653,7 +650,7 @@ def draw_heatmap(
         bbox_inches=FROZEN_EXPORT_BBOX,
         pad_inches=0.0,
     )
-    # PDF-only packaging entry; no PNG output.
+
     plt.close(fig)
 
 

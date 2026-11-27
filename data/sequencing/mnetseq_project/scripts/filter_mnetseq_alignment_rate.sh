@@ -89,7 +89,7 @@ if [[ "$MODE" == "--dry-run" ]]; then
     exit 0
 fi
 
-# Refuse deletion while this project still has alignment/sorting processes.
+
 running=""
 for cmdline_file in /proc/[0-9]*/cmdline; do
     [[ -r "$cmdline_file" ]] || continue

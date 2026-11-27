@@ -45,7 +45,7 @@ def static_checks():
 
 def cpu_checks():
     import torch
-    from region_film.model import PolIIFiLMRegressor
+    from region_film.model import PFNet
     torch.set_num_threads(2)
     torch.manual_seed(20260915)
     config = make_config({"region_lengths": dict(zip(REGION_NAMES, [13, 17, 17, 11])),
@@ -53,7 +53,7 @@ def cpu_checks():
                           "film_mlp_hidden_layers": [16, 8],
                           "film_dimensions_conv": [8] * 31,
                           "dim": 32, "fusion_hidden_dim": 8})
-    model = PolIIFiLMRegressor(config)
+    model = PFNet(config)
     model.fit_input_normalization(torch.randn(32, 2554))
     assert not hasattr(model, "transformer_layers")
     assert not hasattr(model, "film_mlp_transformer")
@@ -92,7 +92,7 @@ def cpu_checks():
         assert model(single).shape == (1,)
     model.train()
     assert model(single).shape == (1,)
-    full_model = PolIIFiLMRegressor()
+    full_model = PFNet()
     parameter_count = sum(p.numel() for p in full_model.parameters())
     assert parameter_count == 4849845
     return {"cpu_shapes_gradients_pooling_fusion_isolation": "PASS",

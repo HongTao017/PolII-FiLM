@@ -1,4 +1,4 @@
-"Draw full-gene Model A substitution-sensitivity curves.\n\nUsage: python plot_substitution_response_style_10minus2_y05_mean.py position_curves.tsv four_region_substitution_response_style_10minus2_y05_mean.pdf"
+"Draw PFNet substitution-sensitivity curves.\n\nUsage: python plot_substitution_response_style_10minus2_y05_mean.py position_curves.tsv four_region_substitution_response_style_10minus2_y05_mean.pdf"
 
 import argparse
 from pathlib import Path

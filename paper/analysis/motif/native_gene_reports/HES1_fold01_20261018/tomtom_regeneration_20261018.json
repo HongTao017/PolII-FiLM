@@ -14,7 +14,7 @@
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_gene_reports/HES1_fold01_20261018/inputs/HES1_inherited_population_patterns.meme",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/jaspar_125.meme"
   ],
-  "parent_manifest_sha256": "20ff06a8345b12b4de4bf148367eaf8e014d184c2362390482ff8917d757dd09",
+  "parent_manifest_sha256": "7cccdea9ca17ffdb68fa81e068bb79e7715321e03fccf3cafe3a2fd31ec62fd2",
   "parent_manifest_retained_unchanged": true,
   "previous_tomtom_location": "/mnt/HDD8TB/hongtao/Data_Seq/task/motif_report_trash_20261018/HES1_native_tomtom_before_eps_01/tomtom",
   "original_match_rows": [
@@ -33,11 +33,11 @@
   ],
   "protected_source_sha256": {
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/complete.json": "e906e40e390f2a0b9358810207ddba3f6aaa5deb1d2b78ded24facf60a0f94ec",
-    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/run_manifest.json": "4fbffe344f70348eca1363b020847df92fca1f4bf83f3b0011ffc0a6a3559446",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/run_manifest.json": "f320bc5bc60d33ea8af3793b0dc178ef9cae4741afecb0cacdc400ec35270baf",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/protocol_manifest.json": "c20a05f785bb9119dd0ccf37d92844ef19a55fe91fd403d30f723d521e2dd324",
-    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_html_report_manifest_20261018.json": "013956dc60c9062fddb84bff7396880ae0b46f9d898967031e1d07e30efdf0af",
-    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/complete.json": "6a059e3b5430b7f6dcaa84624450bdedd34f5b5b073d20041e7b1b76f772157a",
-    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/run_manifest.json": "797fc1644ad66018c6bd137e21561780b1102153eaa58fbbb34c564c88f2cce2",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_html_report_manifest_20261018.json": "5a7f217e4148a8f8025eb152474a79a9b6a857404d9e8df815c810fab61da5f6",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/complete.json": "5624464677873103616d99ce3a1205478e7600e03d9023e23ba63f253a6c43af",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/run_manifest.json": "9a0c2d254f0cc1106973ceac963532a9d3d84291f69c9f2ce222fa6983f3cfc2",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/selected_genes.tsv": "981bbb025c284f917397bd485683d64674bc4ed553dc09a3f26f71cc3fdca217",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/modisco_input_order.npy": "78327778d957ea2d0dfa8c7d2db1e5adfac2b3b2f23a10d08c791f4bcd0cdc7b",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/folds/fold_01/patterns.json": "1f79ca239d4be285f4ef310f0c9ae61659548cdd38c2858979fa3847cd51ce9c",
@@ -56,7 +56,7 @@
     "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/lib/python3.10/site-packages/modiscolite/report.py": "d41ec146c5a1c36cacdf9105df4e71815be33e1ab0764bfaa6cfe4341aa208ca",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/task_6/DEEPLIFT_MODISCO_FILM_PERTURBATION_20261015/analysis_venv/lib/python3.10/site-packages/modiscolite/templates/descriptive_report.html": "e2294233114429aafa74bb399f9e1059e0dd582ffe7d6da09b31f8a8a2925c60",
     "/home/user_011/micromamba/envs/meme_tools/bin/tomtom": "398f3d977a6e6124d7a9ab8f025f3663d30047802bc8af8e98cc72b69d0d916d",
-    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_gene_reports/HES1_fold01_20261018/native_report_manifest.json": "20ff06a8345b12b4de4bf148367eaf8e014d184c2362390482ff8917d757dd09",
+    "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_gene_reports/HES1_fold01_20261018/native_report_manifest.json": "7cccdea9ca17ffdb68fa81e068bb79e7715321e03fccf3cafe3a2fd31ec62fd2",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_gene_reports/HES1_fold01_20261018/tomtom_generation.log": "8040a1ed9e0debb8a22019a8a215ca621fb819651fdb83c1d61b28e521e06bc1",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_gene_reports/HES1_fold01_20261018/README.txt": "c5d1af1c403020a0c4aac2e0809974715dd22baed9e0519fa4d7dbe4d5928ad5",
     "/mnt/HDD8TB/hongtao/Data_Seq/task/motif/native_gene_reports/HES1_fold01_20261018/inputs/tss_sequence_HES1_members_inherited_patterns.h5": "73079b608a3f96178a1946675f446f6cdb5b8f5edf34d97e7a3251ea2ed9aa30",

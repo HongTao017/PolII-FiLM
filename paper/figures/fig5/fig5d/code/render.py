@@ -43,7 +43,7 @@ limit=float(abs(heat).max())
 curve_limit=1.08*max(float(gain.max()),float(loss.max()))
 assert curve_limit>0 and np.all(gain>=0) and np.all(loss>=0)
 colors={'A':'#007F01','C':'#0200F3','G':'#F5B029','T':'#FF0003'};pink='#D94684'
-# Full 101bp, preserving all screened flanks and the original zero baseline.
+
 fig=plt.figure(figsize=(18,5.5),facecolor='white')
 fig.text(.065,.965,f"{plan['gene']} · Fold {plan['fold']:02d} · {plan['TF']}-like motif {plan['matrix_id']} · TSS (101 bp)",fontsize=12,fontweight='bold',va='top')
 seqax=fig.add_axes([.065,.75,.80,.07]);curve=fig.add_axes([.065,.40,.80,.30]);heat_ax=fig.add_axes([.065,.19,.80,.14]);cax=fig.add_axes([.885,.19,.008,.14])

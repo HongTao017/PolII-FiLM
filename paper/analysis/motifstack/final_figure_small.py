@@ -1,4 +1,4 @@
-"""Style helper from the user's final-figure-small skill archive."""
+
 import matplotlib
 matplotlib.use("Agg")
 

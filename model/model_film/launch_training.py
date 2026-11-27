@@ -1,4 +1,4 @@
-"""Explicit detached queue; schedules only this user's approved training jobs."""
+
 import argparse
 from datetime import datetime, timezone
 import fcntl
@@ -79,7 +79,7 @@ def controller(resume=False):
                 handles.pop(gpu).close()
                 print(json.dumps({"event": "finished", **run}), flush=True)
                 if run["status"] == "failed":
-                    # Fail closed: do not launch the remaining 44 jobs after a runtime fault.
+
                     state["status"] = "halted_after_failure"
                     interrupted = True
                 save()
@@ -115,7 +115,7 @@ def controller(resume=False):
             time.sleep(10)
         if interrupted:
             for process, run in active.values():
-                # Owned process group includes DataLoader children, not unrelated jobs.
+
                 os.killpg(process.pid, signal.SIGTERM)
             for process, run in active.values():
                 try:

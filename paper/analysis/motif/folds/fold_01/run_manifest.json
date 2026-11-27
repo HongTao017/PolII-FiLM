@@ -6,31 +6,31 @@
     "20260915": {
       "best.pt": "5baf39628193ba588f9ada111d84a971b9784784dd6321163741e86747c470b1",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "b5a3fee8ec0e711691a21838db9c01af30338340deae171f659dcc69035769b2",
+      "run_spec.json": "513883455b1498aa8a9a3c744120668f580db13341d100a6a95bce562b9d0f3c",
       "complete.json": "ae732b3563311dbea956162505f737317d39861499ae2fd347ff6ef5758bf959"
     },
     "20260916": {
       "best.pt": "98955e790d736d509f971e6ae7819d9c4ea300856a1b5ab501449d439c048286",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "4d06e273fe583da4ffc710e9b9389a6f6a61f7eafcb3137e49b6304c41fb22e1",
+      "run_spec.json": "dd375e548aa8dc8ec1b6c6bf646f2af6127eeee226abd336bc62403dafed37d6",
       "complete.json": "7374bced05d0a15c54d3efa92262ffa0683e7e8d616af9a624dac1d062907160"
     },
     "20260917": {
       "best.pt": "f452bd46235e821aa05b60f46df36e44d3dc758ed923c48365ed2dafe415aaea",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "3ad972cc0311b5123278705b411b7c72d3c2d5b44a0c02f31d90eefc9d3ad775",
+      "run_spec.json": "ba87dfc545b98bccb2b0f20ce6102b60637984bd05afd76a0caf1649d79853bc",
       "complete.json": "f2f456484aecce2d867eb6ee81eafb9c068bf55f52c2fd4443802dd0b9befdf2"
     },
     "20260918": {
       "best.pt": "4c93931c0306ac93adbffec6f2646bac1e7a8bd1dac88facadfa57facd514f81",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "077166e2f863813331da5f04f4a26fe7fd3164290b9c559f9626a4d7d74c4043",
+      "run_spec.json": "b477518965d714dc234a8f2515c5048ff6f5d58c6f011fd56570f64854bee573",
       "complete.json": "2427533309b618769942a6ab679ca3c763f9ed40816afc7d24eb10d1bb881dfe"
     },
     "20260919": {
       "best.pt": "b86ca5ce28a717e6ddcc9dd1e1f10b69cf8ff30f5e3565308aad078ab3e663a0",
       "preprocessing.npz": "a5805992f2fb19c56d2c9b6aba2124022d8329fef609e2f118b0637c2192f465",
-      "run_spec.json": "5d23c3835a2c471f1b600335bd9ef16c30d8d5de0e57b3711ec20067be23ff58",
+      "run_spec.json": "67f32047340a9585254886df557de31119eaed9c3bbbf07eb4b59d29db8cc0ed",
       "complete.json": "b89f1efd4a2aa62b461bec6fd50ae811de2fb62c74ebc5ef9d0af69e0cfefff5"
     }
   },
@@ -246,13 +246,13 @@
     "/mnt/HDD8TB/hongtao/Data_Seq/CNNNET/POLII_SPLICE4_FIXED_BN_DNA_DISJOINT_20261008/data/genes_repartitioned.tsv": "ec505a0c4de4236a1caab28e8f31d721f972cd621201044582db1e4b7d919fa8"
   },
   "code_sha256": {
-    "test_pipeline.py": "20133b0d6459357ffbe9206da3fa101b649de03a1bbcc2d10e1cac4a3bad8cbe",
+    "test_pipeline.py": "09f6551e862727e43707c7c22b00488cc12d2dc482583270bdbf28201a3bbb5c",
     "launch.py": "db1810bcd38c591d9c661f75ce7c1081aafce4319d6111a59703fe5255e6614b",
-    "preflight.py": "19634497d67a14c9c891780b597af3c4a5d734b418021c5103415a41a7407be6",
+    "preflight.py": "0f4493ddd7dd4eeee5efa9bd57bf948284305cfa48f73c9d519699829405a240",
     "test_downstream.py": "53bbbc3cbf549094e3cca56ecd30de4b17c5f8bd02f7eeb0bdaf30586d234ec3",
-    "deep_lift_core.py": "a5ebfe1f9ce5eeaf55b62036d27472704bfeba3f3b3874e81db540e954f99431",
-    "run_pipeline.py": "34fcf44e830a3ffc1244dcc2b2d988c9e843cba222f41ebf7dd2c63208ff1a82",
-    "plot_perturbations.py": "c6196b1f41cdd31eccf741285187e6548844d41f43d8f48b36687ed4420a9c23"
+    "deep_lift_core.py": "68a324a4654b2d84977e6bc90950193ed86605ef55feee3cc1ffd96f860c74a5",
+    "run_pipeline.py": "51adea83abcc54f25056d89412e192d7263c41ac8bdeb464b34e334228d95b89",
+    "plot_perturbations.py": "50ec49725af0cc48b5fea07ee3d639d847a7febe820cf2fe905b12d52767ee64"
   },
   "dependencies": {
     "torch": "2.6.0+cu124",

@@ -35,7 +35,7 @@ items=[
 assert {stem+'.pdf' for stem,_,_ in items}=={p.name for p in (SRC/'figures').glob('*.pdf')}
 assert not any((DEST/stem).exists() for stem,_,_ in items),'Existing named packages require inspection before replacement'
 source_shas={stem:sha(SRC/'figures'/f'{stem}.pdf') for stem,_,_ in items}
-# Freeze raw full-precision PPM data once; no native clustering or hit threshold is recomputed.
+
 reference=json.loads((SRC/'analysis/reference_layout_data.json').read_text());by={p['id']:p for p in reference['patterns']};ordered=[by[k] for k in reference['labels']]
 with gzip.open('/mnt/HDD8TB/hongtao/Data_Seq/task/motif_pattern_families_20261018/source_data/patterns.json.gz','rt') as f:rawsource=json.load(f)
 rawby={p['key']:p for p in rawsource['patterns']};precise=[];verified={}
@@ -46,7 +46,7 @@ for item in ordered:
  with h5py.File(path,'r') as h5:matrix=h5[p['source_group']+'/sequence'][:]
  precise.append(matrix/matrix.sum(1,keepdims=True))
 precise=np.stack(precise);assert precise.shape==(314,50,4)
-# Minimal driver is the same in each directory; plotting uses only bundled relative files.
+
 driver='''from pathlib import Path
 import argparse,os,sys,runpy,json
 HERE=Path(__file__).resolve().parent
@@ -177,20 +177,20 @@ for stem,description,kind in items:
   assert len(im0)==len(im1)
   error=np.abs(im0-im1);equal=bool(np.array_equal(im0,im1));changed=float((error>0).mean());mae=float(error.mean())
   details={'status':'PASS' if equal else 'DIFFERENCE','pixel_identical_to_original':equal,'changed_channel_fraction':changed,'mean_absolute_channel_error':mae,'max_channel_error':int(error.max()),'page_size_pt':list(a[0].rect),'source_pdf_sha256':source_shas[stem],'copied_pdf_sha256':sha(B/f'{stem}.pdf'),'redrawn_pdf_sha256':sha(trial),'raster_images':len(b[0].get_images()),'data_paths_are_relative':True,'no_GPU_for_redraw':True,'dependencies':versions}
-  # The original final PDF must remain byte-identical even during redraw validation.
+
   assert details['copied_pdf_sha256']==source_shas[stem]
  dump(B/'REPRODUCIBILITY.json',details)
  print('REDRAW',stem,json.dumps({k:details[k] for k in ['pixel_identical_to_original','changed_channel_fraction','mean_absolute_channel_error']}),flush=True)
  assert equal,'Rendered output differs from current final figure: '+stem
  trial.unlink()
- # Source/cached scientific inputs remain separate from regenerated audit files.
+
  manifests=[]
  for file in sorted(B.rglob('*')):
   if file.is_file() and file.name!='MANIFEST_SHA256.txt':manifests.append(f'{sha(file)}  {file.relative_to(B).as_posix()}')
  (B/'MANIFEST_SHA256.txt').write_text('\n'.join(manifests)+'\n')
  total_bytes=sum(p.stat().st_size for p in B.rglob('*') if p.is_file())
  results.append({'folder':stem,'description':description,'filename':stem+'.pdf','source_sha256':source_shas[stem],'files':len(manifests)+1,'bytes':total_bytes,'pixel_identical':equal,'dependencies':versions})
-# Publish only after every independent redraw passes.
+
 for row in results:
  src=STAGE/row['folder'];dst=DEST/row['folder']
  assert src.resolve().parent==STAGE.resolve() and dst.resolve().parent==DEST.resolve() and not dst.exists()

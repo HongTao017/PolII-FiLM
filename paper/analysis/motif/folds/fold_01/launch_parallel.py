@@ -1,4 +1,4 @@
-"""Launch the user-authorized four-GPU revision exactly once."""
+
 import json
 import os
 from pathlib import Path

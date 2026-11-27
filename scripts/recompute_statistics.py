@@ -33,8 +33,8 @@ if a.analysis=='all_base_ism':
 else:
     src=BASE/'native_motif_knockdown_matched_20261112'
     sys.path.insert(0,str(src))
-    # Import unchanged original code, then redirect only its output ROOT. Data
-    # inputs are links into the release; generated tables/PDFs go into out.
+
+
     native=module('run_native',src/'run_native.py');native.ROOT=out
     for name in ['protocol.json','patterns.json','coverage.tsv','paired_effects.tsv','tf_annotation_effects.tsv','inference_complete.json','audit_results.json']:
         if (src/name).exists():shutil.copy2(src/name,out/name)

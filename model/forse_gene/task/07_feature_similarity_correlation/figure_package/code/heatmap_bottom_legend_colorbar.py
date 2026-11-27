@@ -1,4 +1,4 @@
-"""Move the approved heatmap legend and Pearson scale below the matrix."""
+
 import argparse
 import json
 from pathlib import Path
@@ -17,7 +17,7 @@ PDF_PYTHON = 'C:/Users/12070/.cache/codex-runtimes/codex-primary-runtime/depende
 
 
 def source_packet():
-    # Reuse the exact audited data embedded in the approved PDF, not new results.
+
     code = ('from pypdf import PdfReader; import sys; '
             'print(PdfReader(sys.argv[1]).metadata["/Subject"])')
     result = subprocess.run([PDF_PYTHON, '-c', code, str(SOURCE)],
@@ -29,7 +29,7 @@ def make_figure(packet):
     fig = original.make_figure(packet)
     heat = fig.axes[2]
     old_values = np.array(heat.images[0].get_array(), copy=True)
-    # Preserve heatmap and dendrogram sizes, shifting the complete panel upward.
+
     for ax in fig.axes[:3]:
         box = ax.get_position()
         ax.set_position([box.x0, box.y0 + .10, box.width, box.height])

@@ -87,7 +87,7 @@ def build(root, source, seed):
                     generated_sha256={str(path.relative_to(root)): sha256(path) for path in sorted((root / "data").rglob("*.tsv"))})
     with (root / "split_manifest.json").open("x") as handle:
         json.dump(manifest, handle, indent=2)
-    # Rehash the source after writing outputs and redo the independent geometric audit.
+
     report = verify_experiment(root, source, hash_source=True)
     with (root / "split_validation.json").open("x") as handle:
         json.dump(report, handle, indent=2)

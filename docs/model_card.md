@@ -1,6 +1,6 @@
 # Model card
 
-PolII-FiLM predicts a signed gene-level PC1 pausing phenotype from four DNA regions and 2,554 biochemical features. The final released architecture is `model_film`, the original A configuration with dropout 0.2, fixed normalization statistics, 31 convolutional FiLM sites and no Transformer. It has approximately 4.849 million trainable parameters. Architecture code is in `model/model_film/region_film/`; `configs/model_film.json` indexes the resources.
+PFNet predicts a signed gene-level PC1 pausing phenotype from four DNA regions and 2,554 biochemical features. The final released architecture is `model_film`, the released configuration with dropout 0.2, fixed normalization statistics, 31 convolutional FiLM sites and no Transformer. It has approximately 4.849 million trainable parameters. Architecture code is in `model/model_film/region_film/`; `configs/model_film.json` indexes the resources.
 
 Four independent branches process TSS (600 bp), first donor (2,000 bp), first acceptor (2,000 bp), and upstream TES (1,000 bp) inputs. Biochemical features modulate dilated convolutional representations through FiLM. Regional representations are pooled and concatenated for scalar regression.
 

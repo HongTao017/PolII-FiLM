@@ -1,4 +1,4 @@
-"""Exhaustive three-alternative ISM for every valid base of original Model A."""
+
 
 import argparse
 import fcntl

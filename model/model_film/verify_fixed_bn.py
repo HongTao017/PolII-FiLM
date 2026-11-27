@@ -21,7 +21,7 @@ def tests():
     train = torch.randn(100, 4)
     train[:, 0] = 0
     train[:, 1] = 0
-    train[0, 1] = 10  # A rare feature: most minibatches have zero variance.
+    train[0, 1] = 10
     bn.fit_training_statistics(train)
     expected_mean = train.double().mean(0).float()
     expected_var = train.double().var(0, unbiased=True).float()
@@ -47,14 +47,14 @@ def tests():
         assert int(bn.num_batches_tracked) == 0
     assert not torch.equal(before_weight, bn.weight)
     assert not torch.equal(before_bias, bn.bias)
-    # Identical affine normalization in training and evaluation modes.
+
     probe = torch.tensor([[1., 10., 2., -3.], [2., 0., -1., 1.]])
     bn.train()
     training_output = bn(probe)
     bn.eval()
     torch.testing.assert_close(bn(probe), training_output, rtol=0, atol=0)
     torch.testing.assert_close(bn(probe[:1]), training_output[:1], rtol=0, atol=0)
-    # A constant training column that is nonzero at validation is not amplified.
+
     assert abs(float(bn(probe)[0, 0])) < 2
     try:
         bn.fit_training_statistics(torch.randn(10, 4))
@@ -69,7 +69,7 @@ def tests():
     restored.load_state_dict(torch.load(storage, weights_only=True))
     assert restored.statistics_fingerprint() == fingerprint
     torch.testing.assert_close(restored(probe), bn(probe), rtol=0, atol=0)
-    # Match ordinary eval-mode BN when using the same safe training statistics.
+
     legacy = nn.BatchNorm1d(4).eval()
     with torch.no_grad():
         legacy.weight.copy_(bn.weight)
@@ -77,7 +77,7 @@ def tests():
         legacy.running_mean.copy_(bn.running_mean)
         legacy.running_var.copy_(bn.running_var)
     torch.testing.assert_close(legacy(probe), bn(probe), rtol=0, atol=0)
-    # Parent.train() propagates its flag but must not re-enable batch statistics.
+
     parent = nn.Sequential(restored)
     parent.train()
     parent(torch.zeros(64, 4))

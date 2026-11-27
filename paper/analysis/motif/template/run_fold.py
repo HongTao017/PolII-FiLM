@@ -32,8 +32,8 @@ def verify_saved_predictions(config,selected):
                 inputs['regulatory_features']=reg
                 official=float((model(inputs)*target_std+target_mean).item())
             saved=float(table.loc[row.gene,'prediction'])
-            # Like-for-like FP32 official forward vs conditional wrapper.
-            # Saved test predictions were generated in BF16, checked separately.
+
+
             assert np.isclose(predicted,official,atol=config['forward_atol'],rtol=config['forward_rtol']), (seed,row.gene,predicted,official)
             checks.append(dict(seed=seed,gene=row.gene,conditional_FP32=predicted,official_FP32=official,
                 saved_BF16=saved,FP32_wrapper_error=abs(predicted-official),cross_precision_difference=predicted-saved))
@@ -121,7 +121,7 @@ def main():
         original_checkpoint_files_unchanged=True,original_references_unchanged=True,
         execution='four_gpu',physical_gpus=execution['physical_gpus'],outputs_sha256=outputs))
     parallel.state('complete',fold=config['fold'],completed_seeds=5,perturbed_instances=len(plan))
-    # Final state is dynamic and deliberately not registered as an output hash.
+
     write_json(ROOT/'controller_state.json',dict(status='complete',stage='complete',fold=config['fold'],pid=os.getpid()))
 
 

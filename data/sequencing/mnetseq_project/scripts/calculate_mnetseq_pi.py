@@ -340,8 +340,8 @@ def main() -> int:
 
         sample_ids = sorted(matrix)
         all_keys = [f"{row['gene']}|{row['transcript']}" for row in transcripts]
-        # Match the GRO/PRO matrix rule: retain the union of transcripts with
-        # model-ready PI in at least one sample, rather than all MANE rows.
+
+
         keys = [
             key
             for key in all_keys

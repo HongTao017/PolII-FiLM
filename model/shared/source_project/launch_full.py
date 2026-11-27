@@ -150,7 +150,7 @@ def main():
         state["finished_at_utc"] = stamp()
         save()
     except BaseException:
-        # Only terminate processes spawned by this controller, never unrelated GPU work.
+
         for process, run in active.values():
             process.terminate()
             run["status"] = "controller_error"

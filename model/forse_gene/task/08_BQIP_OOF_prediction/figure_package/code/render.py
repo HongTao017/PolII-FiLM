@@ -38,7 +38,7 @@ def build_figure(here, panel):
             assert actual['base'] == reference['base'] and actual['candidate'] == reference['candidate']
             assert np.isclose(actual['adjusted_p'], reference['adjusted_p'], rtol=1e-6, atol=1e-15)
         result = {'comparisons':stats, 'test_folds':10,
-                  'NA_display_only':'Two adjusted P=1 values are displayed as N/A by user request; they are not missing statistics.'}
+                  'NA_display_only':'Two adjusted P=1 values are displayed as N/A for display; they are not missing statistics.'}
     elif panel == 'D':
         import redraw_figures as original
         from scipy.stats import pearsonr, spearmanr
@@ -75,8 +75,8 @@ def build_figure(here, panel):
                   'layout':'Bottom feature-group legend LEFT, Pearson correlation colorbar RIGHT'}
     else:
         raise ValueError(panel)
-    # Matplotlib 3.11 may detach Agg when an inherited entry point closes a figure.
-    # Restore the renderer explicitly; figure data and layout remain untouched.
+
+
     from matplotlib.backends.backend_agg import FigureCanvasAgg
     FigureCanvasAgg(fig)
     assert matplotlib.rcParams['pdf.fonttype'] == 42

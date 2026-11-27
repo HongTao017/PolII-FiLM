@@ -1,10 +1,4 @@
-"""Finalize the user-approved figure using final-figure-small and explicit overrides.
 
-The user previously authorized 7.4 x 5.3 inch canvas, 10 pt x labels and
-8.5 pt two-row legend/annotation text; these are intentionally retained.
-All remaining final-figure-small defaults (Arial, 12 pt y ticks, 14 pt
-axis title, embedded editable TrueType, PDF only, no tight bbox) apply.
-"""
 from pathlib import Path
 import matplotlib
 from matplotlib.colors import to_rgba
@@ -29,7 +23,7 @@ def checked_make_figure(data):
                for t in ax.get_xticklabels())
     assert len(fig.texts)==7 and len(set(t.get_position()[1] for t in fig.texts))==2
     assert all(t.get_fontsize()==8.5 and to_rgba(t.get_color())==to_rgba('black') for t in fig.texts)
-    print('FINAL-FIGURE-SMALL CHECK PASS: user-approved size/font overrides retained; PDF-only, Arial, editable TrueType, no tight bbox')
+    print('FINAL-FIGURE-SMALL CHECK PASS: configured size/font overrides retained; PDF-only, Arial, editable TrueType, no tight bbox')
     return fig,stats
 
 

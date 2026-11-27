@@ -24,7 +24,7 @@ def count_entries():
     sources=json.loads((ROOT/'provenance/source_files.json').read_text(encoding='utf-8'))
     for record in sources:assert sha(ROOT/record['package_file'])==record['sha256'],record['package_file']
     metadata=pd.read_csv(ROOT/'data/pi_sample_metadata_ordered.tsv',sep='\t')
-    # The original heatmap metadata spells the same assay as mNET-seq.
+
     metadata['assay']=metadata['assay'].replace({'mNET-seq':'MNET-seq'})
     assert len(metadata)==105 and not metadata.duplicated(['assay','sample']).any()
     lookup=metadata.set_index(['assay','sample'])

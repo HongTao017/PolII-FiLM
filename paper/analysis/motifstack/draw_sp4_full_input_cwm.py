@@ -64,7 +64,7 @@ assert cwm.shape==(50,4) and nseqlets==166
 assert np.array_equal(cwm,prev['pattern_cwm'])
 np.savez_compressed(A/'full_input_and_pattern_cwm.npz',onehot=onehot,actual=actual,pattern_cwm=cwm,pattern_ppm=ppm,region_boundaries=edges)
 
-# The two panels deliberately distinguish one real input from the pattern-level CWM.
+
 fig=plt.figure(figsize=(13.2,6.8),facecolor='white')
 fig.text(.035,.96,'a',fontsize=14,fontweight='bold',va='top')
 fig.text(.105,.962,'SP4-like motif · MA0685.2',fontsize=12,va='top')
@@ -125,8 +125,8 @@ bottom.set_ylim(*limits(np.minimum(cwm,0).sum(1).min(),np.maximum(cwm,0).sum(1).
 bottom.set_xticks([1,10,20,30,40,50])
 bottom.set_xlabel('Pattern position (bp)',fontsize=14,labelpad=7)
 bottom.set_ylabel('Contribution\nscore',fontsize=14,labelpad=8)
-# This is a true pattern-level CWM, not a numerical zoom of the upper gene track.
-# No zoom connector is drawn between two different statistics.
+
+
 fig.canvas.draw(); renderer=fig.canvas.get_renderer()
 texts=[]; clipped=[]
 for txt in fig.findobj(matplotlib.text.Text):

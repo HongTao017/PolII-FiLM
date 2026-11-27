@@ -65,7 +65,7 @@ class GenomeTracks:
             symbol, transcript, selected, exact = self.gene_model(q)
             if selected is None: return 404, {'error': 'This gene has no verified MANE annotation for the genome browser.'}
             chrom, start, end = selected['chr'], selected['start'], selected['end']
-            # Initial view contains the complete gene; very long loci open around the TSS.
+
             truncated = end - start > 300000
             if truncated:
                 tss = start if selected['strand'] == '+' else end

@@ -59,8 +59,8 @@ def main():
     assert stats.p_holm.lt(.05).all()
     OUT.mkdir(exist_ok=True)
     apply_style()
-    # Reference requests a wide, low panel; prior user instructions allow unrestricted canvas.
-    # The typography and editable PDF requirements of final-figure-small are retained.
+
+
     fig, ax = plt.subplots(figsize=(8, 2.5))
     fig.subplots_adjust(left=.15, right=.985, top=.90, bottom=.24)
     groups = []

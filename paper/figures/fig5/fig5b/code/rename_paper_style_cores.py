@@ -25,8 +25,8 @@ def run_bounds(sequence,start,end,letter):
  return lo,hi
 
 def repeated_name(code):
- # Whole repeated multi-base units get count+unit, as in the paper's 2CT.
- # Internal single-letter runs use the already established unambiguous codes.
+
+
  for width in range(1,len(code)//2+1):
   if len(code)%width==0 and code[:width]*(len(code)//width)==code:
    return str(len(code)//width)+code[:width]
@@ -72,9 +72,8 @@ def prepare():
   definitions[letter]=dict(name=name,min_repeats=min(lengths),max_repeats=max(lengths),members=len(lengths),all_run_lengths=lengths,reverse_complement_symbol='A' if letter=='T' else 'C')
  for u in groups+singles:
   if u['homopolymer_class']:u['name']=definitions[u['homopolymer_class']]['name']+('*' if u['scope']=='individual_pattern' else '')
- # Name each native homopolymer clade from its own observed repeat lengths.
- # A broad reverse-complement feature class does not replace clade-specific
- # minimum counts: old 4T-01 is 5T+, while old 4T-02 is 13T+.
+
+
  for u in groups:
   if u['homopolymer_class']:
    lengths=[row['run_length'] for row in evidence if row['unit_id']==u['group_id']]
@@ -101,7 +100,7 @@ def draw(groups,units):
  oldlayout=json.loads((ROOT/'analysis/shared_core_partition_QA.json').read_text())['overview']
  g13=r.geometry(groups);s13=r.annotate_units(g13,units);labels=[u for u in s13 if u['n']>1]
  scale13,rot13=oldlayout['scale'],oldlayout['rotation']
- # Renaming can change label width, so verify before keeping original layout.
+
  fig,ax=r.setup();texts=[]
  for u in labels:
   t=ax.text(0,0,u['name'],fontsize=12,color='black',rotation_mode='anchor',va='center');r.place(t,u['angle']+math.radians(rot13),scale13);texts.append(t)

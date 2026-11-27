@@ -1,4 +1,4 @@
-"""Copy user-supplied Arial fonts into the original plotting resource locations."""
+
 from pathlib import Path
 import argparse,json,shutil
 ROOT=Path(__file__).resolve().parents[1]

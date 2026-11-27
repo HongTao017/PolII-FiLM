@@ -200,6 +200,10 @@
   ],
   "text_replacements": [
     {
+      "legacy_utf8_base64": "UG9sSUlGaUxNUmVncmVzc29y",
+      "replacement": "PFNet"
+    },
+    {
       "legacy_utf8_base64": "IyDlhajpg6ggMTEg5LiqIG1vdGlmIOeahOmbqOS6keWbvgoK5oyJ5Y+C6ICD5Zu+55qE5bem5L6n5Y2K5bCP5o+Q55C044CB5Lit6Ze055m96Imy566x57q/44CB5Y+z5L6n5YWo6YOo5pWj54K544CB57KJ6ImyIG1vdGlmIC8g54Gw6Imy6IOM5pmv44CB57KJ6Imy6Zu257q/6YeN57uY44CCCgphbGxfMTFfbW90aWZzX3JhaW5jbG91ZC5wZGYg5YyF5ZCr5YWo6YOo57uT5p6c77yM5q2j6LSh54yu5ZKM6LSf6LSh54yuIHBhdHRlcm4g5YiG6aG177yM5q+P6aG15pyA5aSa5Zub5LiqIG1vdGlmIOS4juS4gOS4qiBCYWNrZ3JvdW5k44CC57uf5LiA57q16L206IyD5Zu077yM5LiN6KOB5o6J5p6B56uv54K544CCMTEg5Liq5qCH562+5YWxIDE2IOS4qiBURi/nrKblj7fnu4TlkIjlhajpg6jkv53nlZnvvJvljZXpobXlj6blrZjkuLogUERG44CCCgrnurXovbTkuLrljp/lsLrluqYgUEMxIOeahCBXVCDlh4/ljp/kvY3miZPkubHlkI7pooTmtYvlgLzvvIznp5HlraborqHmlbDms5Xlj6rmlLnlj5jmmL7npLrmoLzlvI/jgILmr4/ngrnmjInpmLPmgKcgRE5BIOmHjeWPoOe7hOiBmuWQiOOAgueBsOiJsue7hOaxh+aAu+acrOmhteWQhCBtb3RpZiDnmoTphY3lr7nog4zmma/vvIzlhYjmjIkgbWF0Y2hfaWQg5Y676Zmk5aSa5qCH562+6YCg5oiQ55qE6YeN5aSN77yM5YaN5oyJ5rqQIEROQSDnu4TlubPlnYfvvJvnu5/orqHku43kvb/nlKjljp/lp4vkuIDkuIDljLnphY3vvIzlubbmnKrmi7/mnKzpobXngbDoibLmt7flkIjliIbluIPph43mlrDlgZrmo4DpqozjgIIKCui/meS4jeaYryBORVQtc2VxIGNvdW50cyDmiJbljp/lp4sgUEkg55m+5YiG5q+U44CC5q2jL+i0n+agh+etvuadpeiHquaooeWei+W9kuWboOaooeW8j++8jOS4jeaYr+mihOiuvuaJsOWKqOaViOaenOOAguWkmuS4qiBURiDmoIfnrb7lhbHkuqsgcGF0dGVybu+8jOS4jeiDveW9k+S9nOeLrOeri+ibi+eZveWKn+iDveivgeaNruOAggoKcmFpbmNsb3VkX3Bsb3RfdmFsdWVzLnRzdiDkuLrmiYDmnInlrp7pmYXnu5jliLbnmoTmlbDlgLzvvJthbGxfbW90aWZzX3N1bW1hcnkudHN2IOS4uuatpOWJjeWujOaVtOWIhuaekOeahCBURi/nrKblj7fmsYfmgLvjgILnu5jlm77msqHmnInph43mlrDorq3nu4PjgIHph43mlrDmjqjnkIbmiJbmlLnlj5jmmL7okZfmgKfmo4DpqozjgIIKCuemu+e6v+mHjee7mO+8muaKiiBwbG90X2FsbF9yYWluY2xvdWQucHnjgIFmaW5hbF9maWd1cmVfc21hbGwucHnjgIF0Zl9hbm5vdGF0aW9uX2VmZmVjdHMudHN244CBdGZfc3RhdGlzdGljcy50c3Yg5pS+5Zyo5ZCM5LiA55uu5b2V77yM5a6J6KOFIG51bXB544CBcGFuZGFz44CBbWF0cGxvdGxpYu+8jOi/kOihjCBweXRob24gcGxvdF9hbGxfcmFpbmNsb3VkLnB544CC5Y+q55So5Ya757uT5pWw5o2u77yM5LiN6ZyA6KaB5qih5Z6L44CBR1BVIOaIlui/nuaOpeacjeWKoeWZqOOAggo=",
       "replacement": "# Raincloud plots for all motif annotations\n\nThe figure shows half violins, white box plots and all observations, using pink for motif perturbations and gray for matched backgrounds. Positive and negative patterns are separated across pages; each page contains at most four motifs and one background. All 11 labels and 16 annotation/sign combinations are retained with a common full-range axis.\n\nEffects are WT minus disrupted predictions in original PC1 units. Points are averaged by positive DNA-overlap group. Displayed backgrounds are deduplicated by match_id and then averaged by source DNA group; inference still uses the original one-to-one matched pairs. Shared motif annotations do not provide independent evidence for distinct proteins. raincloud_plot_values.tsv contains the plotted values and all_motifs_summary.tsv contains the original summary statistics.\n\nFor offline plotting, place plot_all_raincloud.py, final_figure_small.py, tf_annotation_effects.tsv and tf_statistics.tsv together, install numpy, pandas and matplotlib, and run python plot_all_raincloud.py. The frozen-data redraw does not require model inference.\n"
     },
@@ -677,7 +681,7 @@
     },
     {
       "legacy_utf8_base64": "Q29yZ2lTcGxpY2U0UmVncmVzc29y",
-      "replacement": "PolIIFiLMRegressor"
+      "replacement": "PFNet"
     },
     {
       "legacy_utf8_base64": "c2FsdWtpX2Fic19tZWFuX2RlbHRh",

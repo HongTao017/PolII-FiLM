@@ -40,18 +40,18 @@ def main():
    a=g['theta'][u['node']]+math.radians(rot);radial=np.array([math.cos(a),math.sin(a)])
    tr,flip,read,origin=base.local_transform(g['theta'][u['node']],scale,rot)
    start=radial*1.059*scale
-   # Before the inner edge of the title; y=.12 equals the text centerline.
+
    end_local=np.array([.035 if flip else -.035,.12]);end=tr.transform(end_local)
    text_anchor=tr.transform([[0,.12]])[0]
    assert np.linalg.norm(end)>np.linalg.norm(start)
    assert np.dot(end-start,text_anchor-end)>0
-   # This is one straight segment from the correct native clade to its title.
+
    arrow=FancyArrowPatch(start,end,arrowstyle='-|>',mutation_scale=7,linewidth=.60,color='black',shrinkA=0,shrinkB=0,connectionstyle='arc3,rad=0',zorder=6)
    ax.add_patch(arrow);segments.append((start,end))
    arrow_rows.append(dict(group_id=u['group_id'],title=u['name'],start=start.tolist(),arrow_tip=end.tolist(),title_anchor=text_anchor.tolist(),title_reading_angle_deg=read,title_centerline_local_y=.12,arrow_tip_local_y=float(tr.inverted().transform(end)[1]),gap_to_text_edge_pt=float(np.linalg.norm(text_anchor-end)*72),points_outward=True,straight=True))
   crossings=[(i,j) for i,(a,b) in enumerate(segments) for j,(c,d) in enumerate(segments) if i<j and intersects(a,b,c,d)]
   assert not crossings,crossings
-  # Check the actual arrowhead vector reaches toward the title anchor.
+
   fig.canvas.draw()
   renderer=fig.canvas.get_renderer()
   for patch,row in zip([p for p in ax.patches if isinstance(p,FancyArrowPatch)],arrow_rows):

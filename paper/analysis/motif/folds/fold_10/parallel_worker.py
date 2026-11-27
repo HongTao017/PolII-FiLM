@@ -73,9 +73,8 @@ def main(args):
                 deltas[local,j],errors[local,j]=delta.item(),error.item()
             values[local]=accumulated/len(refs)
             if local==0:
-                # The registered scientific output is the 20-reference mean.
-                # Compare that output at the ORIGINAL device tolerances; a
-                # single FP32 reference can have cancellation-sensitive noise.
+
+
                 cpu_model=copy.deepcopy(model).cpu()
                 cpu_wrapper=ConditionalDNA(cpu_model,regulation.cpu(),mean,std)
                 cpu_accumulated=np.zeros_like(accumulated)

@@ -1,9 +1,6 @@
 # Copyright 2026 Ekin Deniz Aksu (adapted routines; see NOTICE).
 # SPDX-License-Identifier: Apache-2.0
-# No-Transformer ablation experiment, 2026-10-08.
 
-# Changes: four independent dilated encoders, 2554 regulatory inputs, channel
-# adapters, convolution-feature pooling/concatenation and scalar readout.
 
 from copy import deepcopy
 
@@ -15,7 +12,7 @@ from .modules import FiLM, FiLM_MLP, TargetLengthCrop
 
 
 class FiLMDilatedBlock(nn.Module):
-    "User's GN -> FiLM -> dilated Conv -> ReLU -> residual block.\n\n    Only the source of scale/shift changes: PolII's central FiLM_MLP generates\n    them, instead of this block owning two Linear(256,64) layers."
+
 
     def __init__(self, filters, dilation, groupnorm_groups=8):
         super().__init__()
@@ -56,11 +53,11 @@ class RegionEncoder(nn.Module):
         for index, block in enumerate(self.blocks):
             site = film_offset + index
             x = block(x, film_scales[site], film_shifts[site])
-        # Keep L positions until the existing projection and mean pooling.
+
         return x
 
 
-class PolIIFiLMRegressor(nn.Module):
+class PFNet(nn.Module):
     "Predict signed gene-level PC1 from sequence and biochemical features."
 
     def __init__(self, config=None, regulatory_dim=None):
@@ -71,7 +68,7 @@ class PolIIFiLMRegressor(nn.Module):
         self.config = config
         self.regulatory_dim = config["input_trans_regulators"]
 
-        # Keep only convolution FiLM; its input normalization is training-fold fixed.
+
         self.film_mlp_conv = FiLM_MLP(
             film_dim=config["film_dimensions_conv"],
             input_dim=config["input_trans_regulators"],
@@ -86,12 +83,12 @@ class PolIIFiLMRegressor(nn.Module):
             depth = config["region_dilated_layers"][name]
             self.region_film_offsets[name] = offset
             self.region_encoders[name] = RegionEncoder(config, depth)
-            # Preserve the comparison model's 64->1536 projection and fusion width.
+
             self.channel_adapters[name] = nn.Conv1d(config["filters"], config["dim"], 1)
             offset += depth
 
         self.crop = TargetLengthCrop(config["output_central_bins"])
-        # Fuse features, not independently predicted scalars or raw DNA tokens.
+
         self.fusion_input_dim = len(REGION_NAMES) * config["dim"]
         self.fusion_head = nn.Sequential(
             nn.Linear(self.fusion_input_dim, config["fusion_hidden_dim"]),
@@ -158,9 +155,9 @@ class PolIIFiLMRegressor(nn.Module):
             x = self.region_encoders[name](
                 inputs[name], scales_conv, shifts_conv, self.region_film_offsets[name],
             )
-            x = self.channel_adapters[name](x)  # [B,64,L] -> [B,1536,L]
-            x = self.crop(x)                   # [B,1536,L], no cropping
-            outputs[name] = x.mean(dim=-1)    # [B,1536]; no scalar head here
+            x = self.channel_adapters[name](x)
+            x = self.crop(x)
+            outputs[name] = x.mean(dim=-1)
         return outputs
 
     def fuse_regions(self, region_features):
@@ -172,8 +169,8 @@ class PolIIFiLMRegressor(nn.Module):
         for name, vector in zip(REGION_NAMES, vectors):
             if tuple(vector.shape) != (batch, self.config["dim"]):
                 raise ValueError(f"{name} pooled features must be [batch,{self.config['dim']}]")
-        combined = torch.cat(vectors, dim=1)  # [B,4*1536] = [B,6144]
-        return self.fusion_head(combined).squeeze(-1)  # [B], no Softplus
+        combined = torch.cat(vectors, dim=1)
+        return self.fusion_head(combined).squeeze(-1)
 
     def forward(self, inputs):
         return self.fuse_regions(self.forward_regions(inputs))

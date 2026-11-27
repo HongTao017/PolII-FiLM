@@ -34,7 +34,7 @@ assert finite_corr([1,2,3],[np.nan,np.nan,np.nan]) is None
 assert np.isclose(finite_corr([1,2,3],[3,2,1]),-1)
 assert np.isclose(finite_corr([1,2,3],[1,2,3],True),1)
 previous=parallel.ROOT
-# Explicitly marked synthetic test, isolated in a fresh system temporary directory.
+
 with tempfile.TemporaryDirectory(prefix='motif_tenfold_SYNTHETIC_') as directory:
     temp=Path(directory)
     pd.DataFrame({'gene':[f'SYNTHETIC_{i}' for i in range(12)]}).to_csv(temp/'selected_genes.tsv',sep='\t',index=False)

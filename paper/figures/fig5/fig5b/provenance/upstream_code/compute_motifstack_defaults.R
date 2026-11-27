@@ -13,8 +13,8 @@ workers <- 24L
 cat(format(Sys.time()), "Starting", length(pairs), "pairs; workers", workers, "\n")
 flush.console()
 
-# Each pair calls the public matalign() without changing any scientific option.
-# This splits only independent pairs; reassembly retains the original combn order.
+
+
 results <- parallel::mclapply(seq_along(chunks), function(k) {
   destination <- file.path(root,"pair_chunks",sprintf("chunk_%04d.rds",k))
   if(file.exists(destination)) return(destination)
@@ -32,8 +32,8 @@ stopifnot(nrow(alignment)==choose(314,2), all(is.finite(alignment$distance)))
 stopifnot(identical(as.character(alignment$motif1),vapply(pairs,`[`,"",1L)),
           identical(as.character(alignment$motif2),vapply(pairs,`[`,"",2L)))
 
-# Reproduce clusterMotifs() exactly: matalign() then motifHclust(method="average").
-# Validation against the public wrapper on the eight-motif benchmark is exact.
+
+
 benchmark <- readRDS(file.path(root,"benchmark_alignment.rds"))
 subset <- alignment[alignment$motif1 %in% names(pfms)[1:8] & alignment$motif2 %in% names(pfms)[1:8],]
 rownames(subset) <- NULL

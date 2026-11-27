@@ -28,7 +28,7 @@
     "error_bars": "sample SD across 10 fold means; five seed importances averaged within each fold",
     "normalization": "Each fitted RF importance vector sums to 1 over all 2512 features; top30 NOT renormalized",
     "source_sha256": {
-      "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/run_config.json": "1b4d92f38cff968d47daa179a456f03cef262aea4d53c3242ffdd7cbfb7abee7",
+      "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/run_config.json": "a86051e4d3331a7d2a952fbc5bc422829018bd2124536e87b11924a975d7f40f",
       "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/complete.json": "98221991c18309adfc20f38f770dc6957fb5ac8554cccf2e2a4103e070c0c2a8",
       "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/ordered_validation_selection/final_selected_features.tsv": "7f9e9d39be93fa3860f11c91d4df588439f27f083d399fe485894a285bd1e472",
       "/mnt/HDD8TB/hongtao/Data_Seq/model/B_REG5_RF_20261027/evaluations/BChIPeCLIP/feature_importance_mean.tsv": "e1fe50ae4e191b75f139919db3d2071e33cbab495fcbc5a29c159ff3ef36fbde"
@@ -829,7 +829,7 @@
     }
   ],
   "reference_source": "G:\\\u5e8f\u5217\u5206\u6790\u6570\u636e\\redraw_gene_features_20261021\\plot_rf_importance_reference.py",
-  "reference_source_sha256": "251bcf182fef656d4a91bb8b16de1feb8132b649b4b8f11c64a1db6d04fa90b3",
+  "reference_source_sha256": "cebccc3fa9c7aa9d66f0e20f10881ed550e050df024866f3d9998ab495517bb8",
   "adaptations": "REG5 input source, feature labels, model title only; original bar drawing function and palette unchanged. Regulatory labels are cell target (region count); all regulatory bars in Top30 are ChIP-seq.",
   "display_labels": {
     "B::log10_transcript_span_bp": "log10 transcript span",

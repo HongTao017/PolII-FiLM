@@ -36,7 +36,7 @@ def main():
         if run['reused']:
             state('verifying_reused_fold1',completed_folds=completed,current_fold=1,fold1_reused=True)
             validate_fold(folder,run)
-            # New presentation only, outside the copied immutable fold1 result.
+
             from plot_perturbations import make_plots
             old_config=json.loads((folder/'experiment_config.json').read_text())
             plan=json.loads((folder/'frozen_perturbation_plan.json').read_text())['instances']

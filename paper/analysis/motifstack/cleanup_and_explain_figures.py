@@ -161,8 +161,8 @@ def main():
         assert handle.testzip() is None
         for relative, record in manifest.items():
             assert hashlib.sha256(handle.read(relative)).hexdigest() == record['sha256']
-    # Only delete the ten explicitly reviewed old PDFs after verified backup.
-    # No recursive operation, directory deletion, or unreviewed path is used.
+
+
     deleted = []
     for path in old:
         checked_file(path, figures)

@@ -93,7 +93,7 @@ def make_plot(data):
                        edgecolor='white',linewidth=.65,zorder=5)
             mean_labels.append(ax.text(position+sign*.235,max(values)+.010,f'{mean:.3f}',
                         fontsize=12,ha='center',va='bottom',color='#333333',zorder=6))
-        # Vertical codes with the same per-letter colors and order as the user's example.
+
         for index,letter in enumerate(model):
             shift=ScaledTranslation(0,-(9+(len(model)-1-index)*11.5)/72,fig.dpi_scale_trans)
             ax.text(position,0,letter,transform=ax.get_xaxis_transform()+shift,

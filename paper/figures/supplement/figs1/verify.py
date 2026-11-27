@@ -33,7 +33,7 @@ def verify():
     assert verified==105 and len(union)==16696
     assert set(pd.read_csv(ROOT/'data/transcript_union.tsv',sep='\t').transcript_entry)==union
     assert counts.valid_transcript_entries.min()==9197 and counts.valid_transcript_entries.max()==14338
-    # Each source-author group appears once as a consecutive run.
+
     authors=counts.author.tolist();runs=[a for i,a in enumerate(authors) if i==0 or a!=authors[i-1]]
     assert len(runs)==len(set(runs))==34 and runs==sorted(runs,key=str.casefold)
     final=ROOT/'figs1.pdf';doc=PdfReader(final);assert len(doc.pages)==1
@@ -43,7 +43,7 @@ def verify():
     text=page.extract_text()
     assert 'Valid transcript entries' in text
     for label in counts.display_label:assert label in text,label
-    # All original labels are PDF text, rather than rasterized screenshot labels.
+
     fonts=page['/Resources']['/Font'].get_object()
     assert len(fonts)>0
     assert all(font.get_object()['/Subtype']=='/Type0' for font in fonts.values())

@@ -6,7 +6,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from region_film.config import make_config, REGION_NAMES
-from region_film.model import PolIIFiLMRegressor
+from region_film.model import PFNet
 from train_experiment import dependencies, load_metadata, preflight, read_config
 
 
@@ -22,7 +22,7 @@ def main():
     processor = Preprocessor().fit(x[train], y[train])
     features, target = processor.transform(x), processor.transform_target(y)
     seed_everything(config["replicate_seeds"][0])
-    model = PolIIFiLMRegressor(make_config({"draft_only": False})).cuda()
+    model = PFNet(make_config({"draft_only": False})).cuda()
     model.fit_input_normalization(features[train])
     before = model.input_normalization_summary()["statistics_sha256"]
     sample = Dataset(prepared, train[:4], features, target)

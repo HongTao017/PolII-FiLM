@@ -67,8 +67,8 @@ def main(args):
                 assert torch.isfinite(hypo).all() and torch.isfinite(error).all()
                 assert (error.abs()<=config['completeness_atol']+config['completeness_rtol']*delta.abs()).all(), (args.seed,i,j,error.item(),delta.item())
                 if local==0 and j==0:
-                    # Device change must preserve the function and attribution
-                    # within fixed FP32 tolerances; no optimizer or fitting.
+
+
                     cpu_model=copy.deepcopy(model).cpu()
                     cpu_wrapper=ConditionalDNA(cpu_model,regulation.cpu(),mean,std)
                     cpu_hypo,_,cpu_delta,cpu_error=explain_pair(cpu_wrapper,actual.cpu(),reference.cpu())

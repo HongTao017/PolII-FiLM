@@ -19,7 +19,7 @@ source=source.replace('for group in ("B", "Q", "I", "P")',f'for group in {presen
 source=source.replace('ncol=4,',f'ncol={len(present)},')
 scope=dict(vars(ref));exec(compile(source,'<portable-heatmap-label-adapter>','exec'),scope)
 fig=scope['make_figure'](matrix,packet['row_groups'],packet['column_groups'])
-# The supplied layout has the E panel letter and legend, but no long heading.
+
 fig._suptitle.set_visible(False)
 ri,_=ref.clustered_order(matrix.to_numpy(),0);ci,_=ref.clustered_order(matrix.to_numpy(),1)
 assert matrix.index[ri].tolist()==packet['clustered_rows'] and matrix.columns[ci].tolist()==packet['clustered_columns']

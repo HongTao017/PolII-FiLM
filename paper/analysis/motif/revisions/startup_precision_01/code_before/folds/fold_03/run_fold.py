@@ -29,7 +29,7 @@ def verify_saved_predictions(config,selected):
             with torch.no_grad():
                 predicted=float(ConditionalDNA(model,reg,target_mean,target_std)(actual).item())
             saved=float(table.loc[row.gene,'prediction'])
-            # Extra alignment check, not a change to original DeepLIFT tolerances.
+
             assert np.isclose(predicted,saved,atol=2e-4,rtol=2e-5),(seed,row.gene,predicted,saved)
             checks.append(dict(seed=seed,gene=row.gene,predicted=predicted,saved=saved,abs_error=abs(predicted-saved)))
     write_json(ROOT/'prediction_alignment.json',dict(status='PASS',checks=checks,atol=2e-4,rtol=2e-5))
@@ -99,7 +99,7 @@ def main():
         original_checkpoint_files_unchanged=True,original_references_unchanged=True,
         execution='four_gpu',physical_gpus=execution['physical_gpus'],outputs_sha256=outputs))
     parallel.state('complete',fold=config['fold'],completed_seeds=5,perturbed_instances=len(plan))
-    # Final state is dynamic and deliberately not registered as an output hash.
+
     write_json(ROOT/'controller_state.json',dict(status='complete',stage='complete',fold=config['fold'],pid=os.getpid()))
 
 

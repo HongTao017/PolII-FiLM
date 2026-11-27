@@ -47,7 +47,7 @@ for hit in hits:
 hits.sort(key=lambda z:(float(z['p-value']),int(z['seqlet']),int(z['start']),z['strand']))
 print('validated_seqlets',len(mapping),'SP4_hits',len(hits),'negative_site_hits',sum(z['contribution_sum']<0 for z in hits))
 print('TOP',json.dumps(hits[:8]))
-# The representative is the most significant sequence match among negative-score sites; never selected by the largest effect.
+
 best=next(z for z in hits if z['contribution_sum']<0); item=mapping[best['seqlet']]; i=item['selected_row']; index=item['gene_index']; m=meta[index]; dna=np.array(inp[index]); actual=dna*mean[i]; seq=''.join('ACGT'[int(v.argmax())] if v.sum()==1 else 'N' for v in dna)
 tss=int(m['tss_bed0']); left=int(m['tss_sequence_requested_start0']); right=int(m['tss_sequence_requested_end0']); tss_idx=tss-left if m['strand']=='+' else right-1-tss
 coords=np.arange(left,right) if m['strand']=='+' else np.arange(right-1,left-1,-1)

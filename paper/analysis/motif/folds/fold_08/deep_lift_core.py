@@ -54,7 +54,7 @@ class Rescale(torch.autograd.Function):
         a, b = x.chunk(2)
         ya, yb = y.chunk(2)
         dx = a - b
-        # Zero delta contributes zero, but a finite local derivative is needed.
+
         if ctx.kind == 'relu':
             local = ((a + b) > 0).to(x.dtype)
         else:
@@ -84,7 +84,7 @@ class GroupNormRescale(torch.autograd.Function):
         va = ca.square().mean(-1, keepdim=True) + ctx.eps
         vb = cb.square().mean(-1, keepdim=True) + ctx.eps
         sa, sb = va.rsqrt(), vb.rsqrt()
-        # Stable exact divided difference of reciprocal square root.
+
         ra, rb = va.sqrt(), vb.sqrt()
         secant_rsqrt = -1 / (ra * rb * (ra + rb))
         direct = (sa + sb) / 2
@@ -147,7 +147,7 @@ def explain_pair(wrapper, actual, reference):
     output = wrapper(x, paired=True)
     multipliers = torch.autograd.grad(output[:len(actual)].sum(), x)[0][:len(actual)]
     observed = multipliers * (actual-reference)
-    # One-hot hypothetical contributions, not the effect of an actual mutation.
+
     hypothetical = multipliers - (multipliers*reference).sum(1, keepdim=True)
     projected = hypothetical * actual
     delta = output[:len(actual)] - output[len(actual):]
@@ -160,7 +160,7 @@ def load_original(config, seed, device='cpu'):
     for root in (config['source_root'], config['model_root']):
         if root not in sys.path:
             sys.path.insert(0, root)
-    from region_film.model import PolIIFiLMRegressor
+    from region_film.model import PFNet
     from pausing_utils.preprocessing import FoldPreprocessor
     root = Path(config['model_root'])
     train = json.loads((root/'training_config.json').read_text())
@@ -173,7 +173,7 @@ def load_original(config, seed, device='cpu'):
     for key, base in (('implementation_sha256', config['model_root']), ('reused_source_sha256', config['source_root'])):
         for name, expected in spec[key].items():
             assert digest(Path(base)/name) == expected, (name, 'source fingerprint mismatch')
-    model = PolIIFiLMRegressor(ckpt['architecture_config'], regulatory_dim=2554)
+    model = PFNet(ckpt['architecture_config'], regulatory_dim=2554)
     model.load_state_dict(ckpt['model'], strict=True)
     model.eval().requires_grad_(False).to(device)
     bn = model.input_normalization_summary()
@@ -250,7 +250,7 @@ def shuffled_references(meta, actual, count, random_seed):
                     references[k, :, index] = shuffled[k, :, t]
     assert np.array_equal(references.sum(1), np.repeat(original.sum(0)[None], count, 0))
     for reference in references:
-        physical_map(meta, reference)  # Verify all overlapping copies again.
+        physical_map(meta, reference)
     return references
 
 
@@ -259,7 +259,7 @@ def edit_physical(actual, mapping, coordinate, alternative):
     indices = mapping[int(coordinate)]['indices']
     result[:, :, indices] = 0
     result[:, alternative, indices] = 1
-    # No changes at any unrelated position.
+
     mask = torch.ones(actual.shape[-1], dtype=torch.bool, device=actual.device)
     mask[indices] = False
     assert torch.equal(result[:, :, mask], actual[:, :, mask])

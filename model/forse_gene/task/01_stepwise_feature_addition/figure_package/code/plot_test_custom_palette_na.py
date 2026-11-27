@@ -1,4 +1,4 @@
-"""User-requested display-only replacement of the two P=1 labels by N/A."""
+
 from pathlib import Path
 
 from matplotlib.backends.backend_pdf import PdfPages

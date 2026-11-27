@@ -23,8 +23,8 @@ def reproduce_saved_batch(model, processor, directory, metadata, raw, dna_arrays
     expected = saved.loc[metadata.iloc[rows].gene, 'prediction'].to_numpy()
     error = np.abs(predicted - expected)
     require(np.isfinite(error).all(), 'Nonfinite prediction comparison')
-    # This checks the actual original evaluation precision without increasing
-    # the FP32-vs-BF16 error limit that caused the original stop.
+
+
     require(float(error.max()) <= 1e-4,
             f'Original BF16 batch predictions do not reproduce: max error {error.max()}')
     index = int(offset[0]) - start

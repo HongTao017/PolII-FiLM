@@ -54,7 +54,7 @@ def main():
     for seed in config['seeds']:
         model, processor, identity = load_original(config, seed)
         examples = []
-        # Small, outcome-independent real-data test: the first two frozen genes.
+
         for row in selected.head(2).itertuples():
             actual, regulation = gene_inputs(config, row.gene_index, processor)
             with np.load(Path(identity['folder'])/'preprocessing.npz') as proc:
@@ -65,9 +65,8 @@ def main():
                 original = model(inputs)*wrapper.target_std+wrapper.target_mean
                 copied = wrapper(actual)
             assert torch.allclose(original, copied, atol=config['forward_atol'], rtol=config['forward_rtol'])
-            # Test a real one-hot reference and a zero-difference pair. Reference
-            # here is an artificial reversal for numerical tests ONLY, not the
-            # scientific dinucleotide-shuffled background used in production.
+
+
             references=[('reverse_numeric_test',actual.flip(-1)),('identical',actual.clone())]
             for k,reference in enumerate(shuffled_references(meta.iloc[row.gene_index],actual.numpy(),2,config['random_seed'])):
                 references.append((f'physical_consistent_dinuc_{k}',torch.from_numpy(reference[None].astype(np.float32))))

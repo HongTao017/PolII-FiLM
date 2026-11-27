@@ -124,8 +124,8 @@ if __name__=='__main__':
     final.to_csv(HERE/'analysis/all_runs.tsv',sep='\t',index=False)
     combined=aggregate(final);combined.to_csv(HERE/'analysis/all_parameter_summary.tsv',sep='\t',index=False)
     validated=aggregate(final.loc[final.config_id.isin(candidate_ids)])
-    # Also report validation-only scores so the optimism of initial selection
-    # is visible rather than hidden in an overall average.
+
+
     validation_only=extra.groupby('config_id')[[f'silhouette_{f}' for f in ['assay','cell_type','study']]].mean().add_suffix('_heldout_mean')
     validated=validated.merge(validation_only,left_on='config_id',right_index=True)
     validated.to_csv(HERE/'analysis/validated_parameter_summary.tsv',sep='\t',index=False)

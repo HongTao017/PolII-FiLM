@@ -76,7 +76,7 @@ while IFS=$'\t' read -r run gse reads_used same opposite same_pct \
         echo "[Skipped] $formal already completed"
     fi
 
-    # Columns 13 and 18 are pause_count and body_count.
+
     awk -F '\t' 'BEGIN{OFS="\t"} NR==1 || ($13+$18)>=10' \
         "$output" > "$active"
     awk -F '\t' 'BEGIN{OFS="\t"} NR==1 || (($13+$18)>=10 && $18>0)' \

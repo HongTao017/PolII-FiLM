@@ -10,7 +10,7 @@ from preflight import unit_tests
 
 def example(strand='+'):
     meta=dict(gene='synthetic_not_biological',strand=strand)
-    # Deliberately overlap TSS/donor/acceptor; last window is disjoint.
+
     for region,start,length in zip(REGIONS,(1000,1200,2000,10000),LENGTHS):
         meta[f'{region}_requested_start0']=start
         meta[f'{region}_requested_end0']=start+length
@@ -20,7 +20,7 @@ def example(strand='+'):
         left,right=meta[f'{region}_requested_start0'],meta[f'{region}_requested_end0']
         for i in range(LENGTHS[j]):
             coordinate=left+i if strand=='+' else right-1-i
-            # Same oriented allele for all copies; N at fixed physical positions.
+
             if coordinate%97 != 0:
                 array[(coordinate*7+coordinate//11)%4,OFFSETS[j]+i]=1
     return pd.Series(meta),array

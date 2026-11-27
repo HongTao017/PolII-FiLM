@@ -32,9 +32,9 @@ def load_model(label, fold, seed, device="cpu"):
         package = importlib.util.module_from_spec(spec)
         sys.modules[package_name] = package
         spec.loader.exec_module(package)
-    model_module = __import__(package_name + ".model", fromlist=["PolIIFiLMRegressor"])
+    model_module = __import__(package_name + ".model", fromlist=["PFNet"])
     architecture = json.loads(resolve(run["run_spec"]).read_text())["architecture_config"]
-    model = model_module.PolIIFiLMRegressor(architecture)
+    model = model_module.PFNet(architecture)
     checkpoint = torch.load(resolve(run["checkpoint"]), map_location="cpu", weights_only=True)
     model.load_state_dict(checkpoint["model"], strict=True)
     model.to(device)

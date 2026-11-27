@@ -39,7 +39,7 @@ for REQUIRED in \
     fi
 done
 
-# MANE BED is a coordinate annotation. Link it into mNET rather than copying it.
+
 if [[ -e "$MANE_TARGET" || -L "$MANE_TARGET" ]]; then
     if [[ "$(readlink -f "$MANE_TARGET")" != "$(readlink -f "$MANE_SOURCE")" ]]; then
         echo "[Error] Another MANE BED already exists in mNET: $MANE_TARGET" >&2

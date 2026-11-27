@@ -140,14 +140,14 @@ def main(darken_hits=False, two_tone_hits=False):
     assert all(s['color'] == 0 and 'Arial' in s['font'] for s in spans)
     assert min(s['size'] for s in spans) >= 11.99 and not page.get_images()
     grey_value = (176 if darken_hits else 221) / 255
-    # MuPDF can convert DeviceGray through its colour profile, giving tiny
-    # unequal RGB components; allow substantially less than one 8-bit step.
+
+
     grey_fills = [p for p in page.get_drawings() if p['fill'] is not None
                   and len(p['fill']) == 3
                   and np.allclose(p['fill'], [grey_value] * 3, atol=2e-4)]
     assert len(grey_fills) == 44
-    # Inspect the actual PDF rendering, in memory only. Sampling the middle
-    # of the annulus around its entire circumference detects remaining gaps.
+
+
     dpi = 300
     pix = page.get_pixmap(dpi=dpi, alpha=False)
     rgb = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, pix.n)
@@ -158,7 +158,7 @@ def main(darken_hits=False, two_tone_hits=False):
     if two_tone_hits:
         dark, light = np.array([145, 139, 180]), np.array([221, 221, 234])
         sampled = rgb[y, x, :3].astype(int)
-        # Transitional pixels may mix the two shades, but may never be white.
+
         assert np.all(sampled >= dark - 4) and np.all(sampled <= light + 4)
         centres = g['theta'][g['order']] + math.radians(rotation)
         xx = np.rint((180 + radius_pt * np.cos(centres)) * dpi / 72).astype(int)

@@ -22,9 +22,8 @@ cpm = pd.read_csv(ROOT/'factor_source_cell_cpm.tsv', sep='\t')
 assert len(cpm) == 838 and cpm.pair_id.is_unique and set(cpm.pair_id) == set(groups.pair_id)
 groups = groups.merge(cpm[['pair_id','factor','cell','mean_region_CPM']], on='pair_id', validate='one_to_one')
 assert groups.tf.eq(groups.factor).all() and groups.cell_x.eq(groups.cell_y).all()
-# collect() returns normalization averaged over positive entries. Undo that
-# denominator, then divide by the same complete gene cohort as original IG.
-# This keeps zero-input / zero-IG regions in the primary cohort.
+
+
 groups['normalized_sum_regions_all_genes'] = (groups.s9b_normalized_IG_S.fillna(0) * groups.active_gene_regions / 1550)
 grouped = groups.groupby('tf', sort=True)
 stats_by_factor = grouped.agg(
@@ -78,7 +77,7 @@ for ax,column,title,ylabel,statistics,curve in [
     ax.set(title=title,xlabel='Mean regional ChIP abundance (CPM)',ylabel=ylabel,ylim=(0,y.max()*1.4))
     ax.spines[['top','right']].set_visible(False)
     ax.text(.975,.975,f"Quadratic $R^2$ = {statistics['quadratic_R2']:.3f}\nF-test p = {statistics['quadratic_F_p']:.2g}\nPearson r = {statistics['pearson_r']:.3f}\nSpearman rho = {statistics['spearman_rho']:.3f}\nN = {statistics['n']}",transform=ax.transAxes,ha='right',va='top',fontsize=8.5)
-    # Fixed offsets keep the requested nearby factors distinguishable.
+
     offsets = {'KLF16':(10,-16),'SP1':(-8,16),'SP2':(-20,-2),'SP4':(-12,5)}
     for name in ['KLF16','SP1','SP2','SP4']:
         row=selected.set_index('factor').loc[name]

@@ -13,7 +13,7 @@ SMALL_RNA_R1 = "TGGAATTCTCGGGTGCCAAGG"
 SMALL_RNA_R2 = "GATCGTCGGACTGTAGAACTCTGAAC"
 ILLUMINA_UNIVERSAL_R1 = "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"
 
-# GSE148433 reports 12-nt adapter prefixes, -O 12 and -m 25 explicitly.
+
 PROTOCOLS = {
     "GSE148433": {
         "adapter_r1": "TGGAATTCTCGG",
@@ -24,7 +24,7 @@ PROTOCOLS = {
         "match_read_wildcards": "no",
         "source_rule": "published_Cutadapt_O12_m25",
     },
-    # GSE81662 reports the full small-RNA adapters and minimum length 10.
+
     "GSE81662": {
         "adapter_r1": SMALL_RNA_R1,
         "adapter_r2": SMALL_RNA_R2,
@@ -65,8 +65,7 @@ DEFAULT_PROTOCOL = {
     "source_rule": "NEBNext_smallRNA_protocol_FastQC_verified",
 }
 
-# These GSE176541 Runs are nuclear 3'-seq controls, despite the broad project
-# manifest originally labelling every selected row as mNET-seq.
+
 NON_MNET_RUNS = {"SRR14777732", "SRR14777733", "SRR14777736", "SRR14777737"}
 
 
@@ -106,8 +105,8 @@ def main() -> None:
     grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
     excluded_runs: set[str] = set()
     for row in manifest:
-        # GSE176541 also contains nuclear 3'-seq. Its sample IDs start with
-        # "3seq_" and must not enter an mNET-seq pausing analysis.
+
+
         if row["run"] in NON_MNET_RUNS:
             excluded_runs.add(row["run"])
             continue

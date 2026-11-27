@@ -56,8 +56,8 @@ def angles(order, annotations):
     n = len(order)
     anchors = np.asarray([r['rank'] for r in annotations])
     gaps = np.diff(np.r_[anchors, anchors[0] + n])
-    # Each anchor gap containing k leaves needs at least k*t degrees. The
-    # maximum feasible t solves sum(max(k*t, minimum label gap)) == 360.
+
+
     lower, upper = 0., 360. / n
     for _ in range(80):
         middle = (lower + upper) / 2
@@ -98,8 +98,8 @@ def geometry(data, patterns, annotations):
         heights[node] = max(heights[left], heights[right]) + 1
         counts[node] = counts[left] + counts[right]
         positive[node] = positive[left] + positive[right]
-    # Independent forks can occupy the same radius in different sectors.
-    # Consecutive ancestors are kept at least one full topological level apart.
+
+
     radius = 1. - .92 * heights / heights[-1]
     assert np.all(radius[:n] == 1.)
     for i, pair in enumerate(children):
@@ -191,8 +191,8 @@ def draw(g, patterns, annotations, scale, rotation):
                           max(3, int(abs(theta[right] - theta[left]) * 110)))
         ax.plot(radius[node] * np.cos(arc), radius[node] * np.sin(arc),
                 color=colour(node), lw=.46, solid_capstyle='butt', zorder=1)
-    # One separated tile per actual pattern. The tiny white gutters distinguish
-    # adjacent leaves rather than drawing a solid, visually merged outer ring.
+
+
     tiles = []
     for k, leaf in enumerate(order):
         gutter = .24 * min(ordered[k] - before[k], after[k] - ordered[k])

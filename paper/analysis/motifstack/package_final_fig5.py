@@ -21,13 +21,13 @@ reports=[];old_data_hashes={}
 for letter,(name,description) in mapping.items():
  source=DEST/name;folder=STAGE/f'fig5.{letter}'
  assert source.is_dir() and source.resolve().parent==DEST
- # Verify frozen package before reorganizing.
+
  for line in (source/'MANIFEST_SHA256.txt').read_text().splitlines():
   expected,rel=line.split('  ',1);assert sha(source/rel)==expected,(name,rel)
  shutil.copytree(source,folder,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
  old_meta=json.loads((folder/'package.json').read_text());old_pdf=folder/old_meta['filename'];old_pdf_hash=sha(old_pdf);old_pixels=pix(old_pdf)
  old_pdf.unlink()
- # Remove outdated logs/receipts, keeping the source data and necessary modules.
+
  shutil.rmtree(folder/'audit');(folder/'audit').mkdir()
  for f in ['REPRODUCIBILITY.json','MANIFEST_SHA256.txt']:(folder/f).unlink(missing_ok=True)
  if (folder/'provenance/original_code').exists():shutil.rmtree(folder/'provenance/original_code')
@@ -38,7 +38,7 @@ for letter,(name,description) in mapping.items():
   shutil.copy2(ROOT/'render_fig5_a.py',folder/'plot.py')
   old_meta.update(entry_script='plot.py',kind='linked_full_TSS_and_seqlet_zoom');dump(folder/'package.json',old_meta)
  if letter=='b':
-  # Bundle meta is used only for source layout; output is passed by plot.py.
+
   bm=json.loads((folder/'data/bundle_meta.json').read_text());bm['filename']=filename;dump(folder/'data/bundle_meta.json',bm)
  trials=[folder/'audit/verify1.pdf',folder/'audit/verify2.pdf'];logs=[]
  for target in trials:
@@ -49,7 +49,7 @@ for letter,(name,description) in mapping.items():
  assert pix(trials[0])==pix(trials[1]),letter
  if letter!='a':assert pix(trials[0])==old_pixels,('Original figure appearance changed',letter)
  output=folder/filename;os.replace(trials[0],output);trials[1].unlink()
- # Verify all raw data bytes unchanged; the B filename metadata is the only exception.
+
  for rel,value in datahash.items():
   if letter=='b' and rel=='bundle_meta.json':continue
   assert sha(folder/'data'/rel)==value,(letter,rel)
@@ -75,7 +75,7 @@ with (STAGE/"figure_index.tsv").open('w',newline='') as f:
  w=csv.DictWriter(f,fieldnames=['panel','folder','filename','description','PDF_sha256'],delimiter='\t');w.writeheader();w.writerows({k:r[k] for k in w.fieldnames} for r in reports)
 (STAGE/'plot_all.py').write_text("from pathlib import Path\nimport subprocess,sys\nroot=Path(__file__).resolve().parent\nfor panel in 'abcd':\n subprocess.run([sys.executable,str(root/f'fig5.{panel}'/'plot.py')],check=True)\n")
 (STAGE/'README.md').write_text("# Figure 5 resources\n\nFour packages contain the complete ZBTB7A TSS attribution, circular motif tree, SP4 alignment and 101-bp mutagenesis panel. Each provides a PDF, plotting code, data, provenance and hashes. Run python plot_all.py to redraw them sequentially. Frozen values and upstream experiments are retained.\n")
-# All four final packages pass before removing any previous delivery.
+
 to_remove=[p for p in DEST.iterdir() if p!=STAGE]
 for p in to_remove:assert p.parent.resolve()==DEST and not p.is_symlink(),str(p)
 receipt=dict(date='2026-10-22',destination=str(DEST),deleted_previous_delivery_entries=[p.name for p in to_remove],retained_panels=[r['folder'] for r in reports],pre_deletion_all_panels_verified=True)
@@ -86,7 +86,7 @@ for p in to_remove:
 for p in list(STAGE.iterdir()):shutil.move(str(p),str(DEST/p.name))
 STAGE.rmdir()
 assert sorted(p.name for p in DEST.iterdir() if p.is_dir())==['fig5.a','fig5.b','fig5.c','fig5.d']
-# Relocated packages must redraw without any of the deleted delivery paths.
+
 for rec in reports:
  folder=DEST/rec['folder'];test=folder/'audit/relocation_verify.pdf'
  run=subprocess.run([sys.executable,str(folder/'plot.py'),'--output',str(test)],capture_output=True,text=True)

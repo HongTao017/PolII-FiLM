@@ -17,7 +17,7 @@ def main():
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==r.TREE_SHA
  names=list(csv.DictReader((ROOT/'analysis/matched44_sequence_names.tsv').open(),delimiter='\t'))
  by={x['pattern_id']:x for x in names};assert len(by)==44
- # Read the accepted, frozen partition instead of recomputing any grouping.
+
  groups=old['named_hit_bearing_multi_pattern_clades']
  singles=old['independent_hits']
  for u in singles:
@@ -64,7 +64,7 @@ def main():
   p=by[row['pattern_id']];u=unitby[row['source_leaf_index0']]
   tab.append(dict(pattern_id=row['pattern_id'],individual_sequence_label=p['sequence_name'],individual_IUPAC_6bp=p['core_IUPAC_6bp'],individual_core_start1=p['core_start_1based'],individual_core_end1=p['core_end_1based'],group_or_singleton_id=u['group_id'],overview_label=u['name'],label_scope='group_shared_core' if u['n']>1 else 'individual_6bp_feature',all_TFs=p['all_TFs'],all_JASPAR_ids=p['all_matrix_ids'],all_q_values=p['all_q_values']))
  r.write_tsv(ROOT/'analysis/all44_display_labels_and_motifs.tsv',tab)
- # Verify every visible text span, including panel/page/legend annotations.
+
  sys.path.insert(0,str(ROOT/'qa_deps'));import pymupdf
  checks=[]
  def intersects(a,b):
@@ -91,7 +91,7 @@ def main():
     checks.append(dict(file=path.name,page=pi+1,grey_regions=29,text_overlaps=0,text_crop=0))
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==r.TREE_SHA
  report=dict(status='PASS',overview=fullqa,overview_layout=dict(scale=scale,rotation=rot,pages=overview),detail=detailqa,detail_layout=dict(scale=dscale,rotation=drot,pages=detail),all_matched_patterns=44,group_labels=13,independent_labels=16,overview_total_labels=29,detail_individual_labels=44,partition_unchanged=True,tree_unchanged=True,original_TOMTOM_unchanged=True,PDF_verification=checks)
- # Back up exact previous figures before removing them from active figures.
+
  paths=[ROOT/'figures/motifStack_shared_core_partitions_5x4.pdf',ROOT/'figures/motifStack_matched44_core_partitions_5x4.pdf']
  paths=[p for p in paths if p.exists()]
  if paths:

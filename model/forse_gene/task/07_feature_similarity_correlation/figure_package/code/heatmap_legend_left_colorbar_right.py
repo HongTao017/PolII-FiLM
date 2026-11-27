@@ -1,4 +1,4 @@
-"""Final requested order: bottom feature-group legend left, Pearson scale right."""
+
 import argparse
 import json
 

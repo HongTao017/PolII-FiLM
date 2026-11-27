@@ -23,12 +23,12 @@
     "mean_total_elements": 22400,
     "reference_sha256": "ea5df897cf1d464bdb87e962e4e8a8b548101cf581bcbcbb653b32daeadec889"
   },
-  "root_run_manifest_sha256": "4fbffe344f70348eca1363b020847df92fca1f4bf83f3b0011ffc0a6a3559446",
-  "fold10_run_manifest_sha256": "bc17c87075b59b3b2df4395fbb1060383ea1c10f1d17c2a632cb4f2cb11b3c0d",
+  "root_run_manifest_sha256": "f320bc5bc60d33ea8af3793b0dc178ef9cae4741afecb0cacdc400ec35270baf",
+  "fold10_run_manifest_sha256": "7313bb9908b33aed144d7cb04f47ef96a711721c71855f1a26e767b130d682e1",
   "protocol_manifest_sha256": "c20a05f785bb9119dd0ccf37d92844ef19a55fe91fd403d30f723d521e2dd324",
-  "dependency_fingerprints_sha256": "da9299711b8b83be01fab3a1e8fc83d62e5e82309ed5ca022c7e6e5b2a30fb50",
-  "original_parallel_worker_sha256": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
-  "patched_parallel_worker_sha256": "1f7f5bdf6732ae62166a924a3e520038580a89b57edd1a43fb9c028c4ea6100c",
+  "dependency_fingerprints_sha256": "994ba3c1e9710564b688e594cfdb932613b9e80fd04fe2b6167eb16fdfae6c38",
+  "original_parallel_worker_sha256": "4344eaa084e1fe1fc27c064a4d8e356578786f0bd3fe09910c0124a5fc1e3a13",
+  "patched_parallel_worker_sha256": "6aa767c4c43a4d0b1fd2fc8f7630ddb26b5f9609a8ca131b75fcf4966d34331d",
   "original_execution_config_sha256": "2fb53f7fcd514a48e350d6c6f2c237c2e5a3041ed58c583163b8a59908373b3f",
   "revised_execution_config_sha256": "71691895b182e4a316127cdeb503b6e2beba9f182b1ad3da518d6975a7ce90c2",
   "resume_fold_sha256": "952524edb22a497dbc3368bf63e4a67afd7ea13c726f6e5a9809e0495950ccb4",
@@ -218,14 +218,14 @@
     "fold_controller_state.json": "51e89671091c8aad1ed46b6a6abc4aeddd6220135c923cb716beb78885c40564",
     "fold_launch_record.json": "a8f1d61c37cd6395584a6e4083bcbaaaf5843a13fa78e949d92dbe232b700ca9",
     "root_launch_record.json": "1c2a18b6c8500feccc3c86ba361ce84f58941936f45bafdcd189efcc17e5ff30",
-    "original_parallel_worker.py": "1feb8d0f5976c095f665d780bb404ca2a8583d58770fb91217a5f946aee010c0",
+    "original_parallel_worker.py": "4344eaa084e1fe1fc27c064a4d8e356578786f0bd3fe09910c0124a5fc1e3a13",
     "root_controller_state.json": "7382f8e55382ea3954f9f1ddd1638c9dcd979a4c4d891343ad908b554fc8ceea",
-    "fold_run_manifest.json": "bc17c87075b59b3b2df4395fbb1060383ea1c10f1d17c2a632cb4f2cb11b3c0d",
+    "fold_run_manifest.json": "7313bb9908b33aed144d7cb04f47ef96a711721c71855f1a26e767b130d682e1",
     "root_controller.log": "10e9a4619d268c0203d469ac523fd673bb5e4578bbf17d25f4294c5115d38b60",
     "fold_controller_parallel.log": "7e132ae75c736a54e0743a028cc40e7cb632900bd4c7f72070b407691ca4a0c9",
     "fold_parallel_execution_config.json": "2fb53f7fcd514a48e350d6c6f2c237c2e5a3041ed58c583163b8a59908373b3f",
     "protocol_manifest.json": "c20a05f785bb9119dd0ccf37d92844ef19a55fe91fd403d30f723d521e2dd324",
-    "root_run_manifest.json": "4fbffe344f70348eca1363b020847df92fca1f4bf83f3b0011ffc0a6a3559446",
-    "fold_parallel_execution_manifest.json": "8b094fb5d9f2e490469a70397ffd567490ccfea3207009f75c4b2c78eda90d23"
+    "root_run_manifest.json": "f320bc5bc60d33ea8af3793b0dc178ef9cae4741afecb0cacdc400ec35270baf",
+    "fold_parallel_execution_manifest.json": "0cd781a9ec6cc52070fc36995dd605fc8022cd0cf47ab81bad329b6243169886"
   }
 }

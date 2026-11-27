@@ -24,7 +24,7 @@ def main():
  def remove_only_annotations(fig,path):
   ax=fig.axes[0]
   for text in list(ax.texts)+list(fig.texts):text.remove()
-  # Remove the orphaned legend swatches along with their two text labels.
+
   swatches=[p for p in ax.patches if isinstance(p,Rectangle) and p.get_zorder()==8]
   assert len(swatches)==2
   for patch in swatches:patch.remove()
@@ -43,8 +43,8 @@ def main():
  qa.update(annotation_text_spans=0,titles_visible=0,logos_retained=13,arrows_retained=13,legend_text_and_swatches_removed=True,description='same final geometry, arrows, PPM logos and colors; title, legend and panel text removed')
  for path,blob in preserve.items():Path(path).write_bytes(blob)
  assert digest(KEEP)==KEEP_SHA
- # Independently compare full drawing lists. Matplotlib text is separate from
- # vectors; only the two legend rectangles should disappear from vector paths.
+
+
  with pymupdf.open(KEEP) as a,pymupdf.open(NO_TEXT) as b:
   aa=a[0].get_drawings();bb=b[0].get_drawings()
   assert len(aa)-len(bb)==2,(len(aa),len(bb))
@@ -57,7 +57,7 @@ def main():
   assert all('re' in x[0] for x in removed)
   qa['vector_geometry_verification']=dict(original_paths=len(aa),textless_paths=len(bb),only_removed_vector_paths='2 legend swatches',all_tree_arrow_and_logo_paths_identical=True)
  (ROOT/'analysis/final_textless_QA.json').write_text(json.dumps(qa,indent=2),encoding='utf-8')
- # All targets are exact, resolved files inside this one figure workspace.
+
  figure_dir=(ROOT/'figures').resolve();archive_dir=(ROOT/'archive').resolve()
  keep_paths={KEEP.resolve(),NO_TEXT.resolve()};deleted=[]
  targets=[p for p in figure_dir.glob('*.pdf') if p.resolve() not in keep_paths]

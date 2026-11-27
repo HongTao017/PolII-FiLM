@@ -20,7 +20,7 @@ import numpy as np
 
 from final_figure_small import new_figure, save_pdf
 
-CANVAS = (8.0, 8.5)  # User explicitly allowed canvas-size changes earlier.
+CANVAS = (8.0, 8.5)
 DEFAULT_OUTPUT = Path("G:/sequence_analysis_figures/Png/png/gene_feature_cross_validation/redraw_20261021/19_RF_BQIP_top30_importance_reference.pdf")
 FINGERPRINT = "5be997c04dfd29bdfc281aced2d37cc71e904b5060f84cf1ea597c9b3f47670c"
 
@@ -134,7 +134,7 @@ def retrieve():
 def check_layout(fig, ax):
     assert np.allclose(fig.get_size_inches(), CANVAS)
     assert matplotlib.rcParams["pdf.fonttype"] == 42
-    fig.canvas.draw()  # In-memory verification only, not a raster output.
+    fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     width, height = fig.canvas.get_width_height()
     for text in fig.findobj(match=Text):
@@ -209,9 +209,8 @@ def main():
     if output.exists():
         raise FileExistsError(f"Preserving existing output: {output}")
     output.parent.mkdir(parents=True, exist_ok=True)
-    # Embed provenance and exact numerical values without sidecar data files.
-    # save_pdf uses fig.savefig directly; metadata travels through a temporary
-    # method wrapper so the mandatory skill helper remains the PDF writer.
+
+
     original_savefig = fig.savefig
     def save_with_metadata(path, **kwargs):
         return original_savefig(path, metadata={

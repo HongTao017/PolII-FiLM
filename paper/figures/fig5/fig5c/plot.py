@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,json,os,sys,runpy,subprocess
 ROOT=Path(__file__).resolve().parent
-# Original server scripts read UTF-8 JSON; make that explicit on Windows.
+
 if not sys.flags.utf8_mode:
     os.execv(sys.executable,[sys.executable,'-X','utf8',str(Path(__file__).resolve()),*sys.argv[1:]])
 sys.dont_write_bytecode=True

@@ -48,7 +48,7 @@ def draw(root, output):
     assert not values.duplicated(['label', 'dna_overlap_group']).any()
     assert [int(values.label.eq(label).sum()) for label in LABELS] == EXPECTED_COUNTS
     apply_style()
-    # Server source embedded DejaVu Sans; make font selection OS-independent.
+
     plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
     fig, ax = plt.subplots(figsize=(8, 2.5))
     fig.subplots_adjust(left=.15, right=.985, top=.90, bottom=.24)

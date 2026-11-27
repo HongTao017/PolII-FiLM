@@ -113,7 +113,7 @@ def load_source_patterns(genes, codes):
         for path in (folder / 'selected_genes.tsv', folder / 'modisco_input_order.npy',
                      folder / 'annotated_patterns.json', folder / 'tomtom/tomtom.tsv', folder / 'tomtom/tomtom.xml'):
             fingerprints[str(path)] = digest(path)
-        # The archived discovery models and the currently loaded bundle must be byte-identical.
+
         for seed in SEEDS:
             old = Path(config['model_root']) / 'result/fixed_bn_dna_disjoint_full' / f'fold_{fold:02}' / f'seed_{seed}/best.pt'
             new = Path('/mnt/HDD8TB/hongtao/end/model/A_TSS300_FiLM/result/fixed_bn_dna_disjoint_full') / f'fold_{fold:02}' / f'seed_{seed}/best.pt'
@@ -204,7 +204,7 @@ def prepare():
         mutable.append(unit)
     cutoffs = {p['key']: float(np.median([r['wt_score'] for r in mutable if r['pattern_key'] == p['key']]))
                for p in patterns if any(r['pattern_key'] == p['key'] for r in mutable)}
-    # Backgrounds remain held out, and are distinct from every source motif gene/DNA group.
+
     eligible = genes.loc[~genes.dna_overlap_group.isin(all_source_groups)]
     options = []
     for ui, unit in enumerate(mutable):
@@ -280,7 +280,7 @@ def prepare():
             matched_pairs=retained, match_fraction=retained/mutable_n if mutable_n else 0,
             meets_90pct_matching=bool(mutable_n and retained / mutable_n >= .9)))
     pd.DataFrame(coverage).to_csv(ROOT / 'coverage.tsv', sep='\t', index=False)
-    write_json(ROOT / 'protocol.json', dict(model='original Model A, 2554 actual fixed regulatory inputs',
+    write_json(ROOT / 'protocol.json', dict(model='PFNet, 2554 actual fixed regulatory inputs',
         target='original-scale signed Y_PC1, positively oriented to pausing index', delta='WT_minus_disrupted',
         source_genes=2000, background_universe_genes=len(genes), source_patterns=44, labels=11,
         source_gene_units=len(units), mutable_gene_units=len(mutable), matched_pairs=len(pairs),
@@ -351,7 +351,7 @@ def infer(fold, device, batch_size=64):
             with torch.inference_mode():
                 output = processor.inverse_target(model(inputs).cpu().numpy()).reshape(-1)
                 if start == 0:
-                    # WT with batch=1 versus in the production batch quantifies numerical noise.
+
                     single = {name: a[:1] for name, a in inputs.items()}
                     again = processor.inverse_target(model(single).cpu().numpy()).item()
                     noise = abs(again - output[0])

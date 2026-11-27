@@ -30,7 +30,7 @@ def combined(shadows,full):
 def draw(g,shadows,labels,branches,label,scale,rot):
  fig,qa=r.draw_tree(g,shadows,labels,scale,rot,'a',1,1)
  ax=fig.axes[0];angle=label['angle']+math.radians(rot)
- # Replace only the ordinary center leader/triangle for the shared annotation.
+
  target=(1.057*scale*np.array([math.cos(angle),math.sin(angle)]))
  removed_lines=[]
  for line in list(ax.lines):
@@ -64,8 +64,8 @@ def main():
    for u in shadows:u['angle']=float(g['theta'][u['node']])
   labels,branches,label=combined(shadows,full)
   former=old['figures'][0 if full else 1];scale,rot=former['scale'],former['rotation']
-  # The merged label lies between the two original anchors and is shorter
-  # than their combined labels; retain existing coordinates after QA.
+
+
   fig,qa=draw(g,shadows,labels,branches,label,scale,rot)
   path=ROOT/'figures'/('motifStack_UNIFIED_5T_ALL_SINGLE_PAGE_5x4.pdf' if full else 'motifStack_UNIFIED_5T_CLADES_SINGLE_PAGE_5x4.pdf')
   save_pdf(fig,path);plt.close(fig)

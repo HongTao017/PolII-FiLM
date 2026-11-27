@@ -76,7 +76,7 @@ def draw(data,patterns,selected,start):
                     color=colour(child),lw=.54,solid_capstyle='butt',zorder=1)
         arc=np.linspace(theta[left],theta[right],max(3,int(abs(theta[right]-theta[left])*90)))
         ax.plot(radius[node]*np.cos(arc),radius[node]*np.sin(arc),color=colour(node),lw=.48,zorder=1)
-    # One continuous outer band: no arbitrary k-way family cut is displayed.
+
     ax.add_patch(Wedge((0,0),1.055,start-.5*step,start+360-.5*step,width=.043,
                        facecolor='#A99BBD',edgecolor='none',zorder=3))
     for leaf in np.asarray(data['order'])-1:
@@ -88,8 +88,8 @@ def draw(data,patterns,selected,start):
     anchors=np.array([theta[r['leaf']] for r in labels])
     uniform=2*np.pi*np.arange(11)/11
     uniform+=np.mean(anchors-uniform)
-    # Ordered angular interpolation avoids crossing leaders. The visible data
-    # tips themselves never move, and the eleven labels cover the whole circle.
+
+
     texts=[]
     for r,true_angle,label_angle in zip(labels,anchors,uniform):
         v=np.linspace(0,1,70)

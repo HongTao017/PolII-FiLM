@@ -1,4 +1,4 @@
-"""Enlarged assay t-SNE; uses the approved frozen 105-sample embedding."""
+
 from pathlib import Path
 import sys, json, hashlib
 import numpy as np
@@ -33,7 +33,7 @@ ax.set_xlabel('t-SNE 1',fontsize=18,labelpad=10)
 ax.set_ylabel('t-SNE 2',fontsize=18,labelpad=10)
 ax.spines[['top','right']].set_visible(False)
 ax.spines[['left','bottom']].set_linewidth(1.5)
-# Trim the two spines independently, leaving the lower-left corner open.
+
 ax.spines['bottom'].set_bounds(-15,30)
 ax.spines['left'].set_bounds(-20,20)
 ax.tick_params(labelsize=16,width=1.2,length=5,direction='out',pad=5)

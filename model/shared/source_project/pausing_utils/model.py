@@ -21,7 +21,7 @@ class PolIIPOLII(PolII):
         config["input_trans_regulators"] = sum(sizes)
         super().__init__(config)
         self.module_sizes = dict(module_sizes)
-        # FiLM conditions use gene-local statistics, including on one-gene batches.
+
         for mlp in (self.film_mlp_conv, self.film_mlp_transformer):
             mlp.film_network[0] = nn.LayerNorm(config["input_trans_regulators"])
         normalization = config.get("dna_normalization", "batchnorm")
@@ -43,7 +43,7 @@ class PolIIPOLII(PolII):
             self.film_mlp_conv(features), self.config["film_dimensions_conv"])
         tr_scale, tr_shift = self._split_film_params(
             self.film_mlp_transformer(features), self.config["film_dimensions_transformer"])
-        # Six pooling layers need a multiple of 64; retain every real input base.
+
         length = dna.shape[1]
         pad = (-length) % 64
         x = self.convolutions(F.pad(dna.permute(0, 2, 1), (0, pad)), conv_scale, conv_shift)

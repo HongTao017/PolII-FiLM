@@ -34,8 +34,8 @@ def inputs():
     positions.append((lo,hi))
    size=min(runs);assert size in [5,13]
    for j,((lo,hi),i) in enumerate(zip(positions,ids)):
-    # Homopolymers have interchangeable phase: center-crop each observed run
-    # to the group's minimum length, then average all members equally.
+
+
     a=lo+(hi-lo-size)//2;b=a+size;aligned.append(arr[j,a:b])
     observed=np.where(np.isfinite(arr[j,:,0]))[0];shift=int(observed[0]);rev=orientation(i,med)
     a0,b0=(50-(b-shift),50-(a-shift)) if rev else (a-shift,b-shift)
@@ -77,7 +77,7 @@ def choose(groups,g):
     w=max(widths[u['group_id']],u['logo_width'])
     blocks.append(quad(tr,-w if flip else 0,0 if flip else w,-.22,.23))
    if not all(fits(q) for q in blocks):continue
-   # Use the shared SAT with coordinates converted from inches to pixels.
+
    pixels=[ax.transData.transform(q) for q in blocks]
    if any(r.overlap(a,b) for i,a in enumerate(pixels) for b in pixels[i+1:]):continue
    for x,y in legend_rects:
@@ -103,15 +103,15 @@ def logo(ax,u,tr,flip):
    glyph=(Affine2D().translate(-box.x0,-box.y0).scale(dx*.90/box.width,h/box.height).translate(x0+j*dx+dx*.05,bottom)+tr+ax.transData)
    ax.add_patch(PathPatch(path,facecolor=COLORS[letter],edgecolor='none',transform=glyph,zorder=8))
    bottom+=h;count+=1
- # Thin baseline defines orientation and separates neighboring positions.
+
  line=tr.transform(np.array([[x0,-.225],[x0+width,-.225]]))
  ax.plot(line[:,0],line[:,1],color='#777777',lw=.3,zorder=7)
  return dict(group_id=u['group_id'],title=u['name'],length_bp=L,consensus=u['logo_consensus'],letter_paths=count,IC_bits=ic.tolist())
 
 def main():
  groups,units,matrices,evidence=inputs();g=layout.balanced_geometry(groups)
- # The screenshot's 13 titles are retained, including distinct 5T+ and 13T+;
- # the 16 independent-hit sectors remain in the complete underlying tree.
+
+
  shadows=r.annotate_units(g,units)
  scale,rot,legend_position,widths,blocks=choose(groups,g)
  print('LAYOUT',scale,rot,legend_position,flush=True)
@@ -140,8 +140,8 @@ def main():
  r.write_tsv(ROOT/'analysis/title_logos_core_PPM.tsv',matrices);r.write_tsv(ROOT/'analysis/title_logos_source_coordinates.tsv',evidence)
  assert len(reports)==13 and all(x['letter_paths']>0 for x in reports)
  assert hashlib.sha256((ROOT/'analysis/motifStack_hclust.rds').read_bytes()).hexdigest()==r.TREE_SHA
- # Check all transformed logo rectangles lie below their own title and
- # outside the tree, with no intersections between annotation blocks.
+
+
  report=dict(status='PASS',output=str(OUT),canvas_inches=[5,4],titles=13,logos=13,title_font_pt=12,title_font='Arial',all_letters_vector_paths=True,embedded_images=0,scale=scale,rotation=rot,legend_position=legend_position,annotation_blocks_overlap=0,annotation_blocks_crop=0,logo_color=COLORS,letter_height='p(base,position) * (2 - Shannon_entropy(position)) bits against uniform 0.25 background; common 0-2 bit scale',logo_orientation='clade alignment anchor, with original member reverse-complements explicitly recorded',logo_source='equal-weight mean original H5 sequence PPMs, no added pseudocounts; frozen aligned cores except poly-T groups',homopolymer_logo='center-crop each observed aligned Cavener T run to that clade minimum (5 or 13), then equal-weight PPM average; no synthetic consensus logos',native_tree_sha256=r.TREE_SHA,native_topology_unchanged=True,original_cyclic_leaf_order_unchanged=True,grey_regions=29,outer_ring_matched_patterns=44,outer_ring_unmatched_patterns=270,angular_layout='13 annotation clades equally spaced, native leaf order preserved; angles are for display, not quantitative distances',logos_QA=reports,PDF_QA=qa)
  (ROOT/'analysis/title_logos_QA.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
  note=f'# Sequence logos below partition titles\n\nOutput: `{OUT}`.\nAll 13 partition titles, including 5T+ and 13T+, have their corresponding probability logos. The complete 314-leaf topology and circular order are retained, with 29 shaded partitions, 44 matched and 270 unmatched patterns.\nLogos use full-precision native H5 sequence probabilities. Mixed cores use equally weighted aligned PPMs. Repeat cores are centered on the longest continuous T-consensus segment and cropped to the shortest member length (5 or 13). Coordinates and orientations are in `analysis/title_logos_source_coordinates.tsv`.\nLetter height is p times information content against a uniform background, on a shared 0-2 bit scale. A/C/G/T are green/blue/gold/red. The 5x4 inch PDF uses editable Arial 12 pt text. The two 4TKTW5T labels refer to distinct original partitions.\nMatrices: `analysis/title_logos_core_PPM.tsv`. Recorded checks: `analysis/title_logos_QA.json`.\n'

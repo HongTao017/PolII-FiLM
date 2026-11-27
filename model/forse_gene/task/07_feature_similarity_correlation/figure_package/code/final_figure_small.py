@@ -1,28 +1,10 @@
-"""final-figure-small style helper.
 
-Import this module in the plotting script:
-
-    import sys
-    sys.path.insert(0, "<path-to-this-script>")
-    from final_figure_small import new_figure, save_pdf
-
-    fig, ax = new_figure()
-    ax.plot(x, y, label="signal")
-    ax.set_xlabel("Position (bp)")
-    ax.set_ylabel("Signal")
-    ax.legend()
-    save_pdf(fig, "/server/output/dir/figure.pdf")
-
-Enforced defaults (do not override unless the user asks):
-  canvas 5x4 inch, ticks 12 pt, axis labels 14 pt, legend 12 pt,
-  pdf.fonttype=42 (editable text), PDF only, no bbox_inches="tight".
-"""
 import matplotlib
 
 matplotlib.use("Agg")
 
 STYLE = {
-    "pdf.fonttype": 42,          # TrueType, editable text in PDF
+    "pdf.fonttype": 42,
     "ps.fonttype": 42,
     "font.family": "sans-serif",
     "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],

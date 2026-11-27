@@ -43,8 +43,8 @@ def geometry(y):
     ranges=np.ptp(y,axis=0);pad=np.maximum(ranges*.10,1.)
     return [(float(y[:,i].min()-pad[i]),float(y[:,i].max()+pad[i])) for i in range(2)]
 def draw(y,field,compact=False,heading=None,footer=None,review=False):
-    # Preserve the approved size exception for full categorical legends,
-    # while making the two large-legend main panels more compact.
+
+
     fig=plt.figure(figsize=(5,4) if compact else (11,8) if review else (7.5,5),facecolor='white')
     ax=fig.add_axes([.18,.18,.78,.66] if compact else [.085,.22,.63,.64] if review else [.12,.17,.475,.70])
     palette=palettes[field];colors=[palette[name] for name in meta[field]]
@@ -55,8 +55,8 @@ def draw(y,field,compact=False,heading=None,footer=None,review=False):
     ax.set_xlabel('t-SNE 1',fontsize=14,labelpad=9);ax.set_ylabel('t-SNE 2',fontsize=14,labelpad=9)
     ax.spines[['top','right']].set_visible(False);ax.spines[['left','bottom']].set_linewidth(1.3)
     ax.tick_params(labelsize=12,width=1.1,length=4,direction='out',pad=4)
-    # Fix only ticks within the displayed bounds; locator-generated outer
-    # ticks otherwise remain text artists outside the small PDF canvas.
+
+
     ax.set_xticks([v for v in MaxNLocator(nbins=4).tick_values(*xlim) if xlim[0]<=v<=xlim[1]])
     ax.set_yticks([v for v in MaxNLocator(nbins=4).tick_values(*ylim) if ylim[0]<=v<=ylim[1]])
     if compact:
@@ -102,8 +102,7 @@ for field,filename in [('assay','tSNE_PI_by_assay.pdf'),('cell_type','tSNE_PI_by
     figure_records.append(dict(filename=filename,PDF_sha256=sha(path),color_by=field,samples=105,canvas_inches=list(fig.get_size_inches()),equal_axis_scaling=True,shared_coordinates=True,connector_lines=0,skill='final-figure-small',font='Arial',axis_tick_pt=12,axis_title_pt=14,legend_pt=12,PDF_fonttype=42,axis_linewidth_pt=1.3,point_area_pt2=28,no_text_overlap=True,all_text_inside_canvas=True))
     plt.close(fig)
 
-# Sensitivity document: seven perplexities plus per-category best settings.
-# Different embeddings are explicit, not silently substituted into the main views.
+
 comparison=[]
 for perp,subset in summary.groupby('perplexity'):
     row=subset.sort_values('silhouette_assay_mean',ascending=False).iloc[0]
@@ -113,7 +112,7 @@ comparison_path=FIGURES/'tSNE_parameter_comparison.pdf'
 with PdfPages(comparison_path) as pages:
     for row,field,title in comparison:
         y=coordinates(row);fig=draw(y,field,compact=False,heading=title,review=True)
-        # Replace shared-setting line with the setting actually shown on this page.
+
         fig.texts[1].set_text(f"PCA {int(row.pca_components)}; perplexity {int(row.perplexity)}; EE {int(row.early_exaggeration)}; LR {int(row.learning_rate)}; seed {int(row.representative_seed)}")
         fig.text(.085,.075,f"10-seed silhouette ({names[field]}): {row[f'silhouette_{field}_mean']:.3f} ± {row[f'silhouette_{field}_std']:.3f}",fontsize=12)
         fig.text(.085,.035,f"Trustworthiness(10): {row.trustworthiness_10_mean:.3f}; neighbor Jaccard: {row.neighbor_Jaccard_mean:.3f}",fontsize=12)

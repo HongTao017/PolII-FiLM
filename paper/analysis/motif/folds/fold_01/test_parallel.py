@@ -33,7 +33,7 @@ old_normalized=NormalizeSavedStack().visit(ast.Module(body=old_body,type_ignores
 new_normalized=NormalizeSavedStack().visit(ast.Module(body=new_body,type_ignores=[]))
 assert ast.dump(old_normalized)==ast.dump(new_normalized), 'Unexpected scientific statistic or threshold change'
 
-# Synthetic merge data are explicitly isolated under tests, not attributions/.
+
 synthetic=root/'tests/parallel_merge_SYNTHETIC'
 synthetic.mkdir(parents=True,exist_ok=True)
 pd.DataFrame({'gene':[f'SYNTHETIC_{i}' for i in range(12)]}).to_csv(synthetic/'selected_genes.tsv',sep='\t',index=False)

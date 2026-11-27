@@ -352,7 +352,7 @@ def select_read1(source_bam: Path, output_bam: Path) -> None:
 def split_name(name: str) -> Tuple[str, str]:
     if "|" not in name:
         return name, ""
-    return tuple(name.split("|", 1))  # type: ignore[return-value]
+    return tuple(name.split("|", 1))
 
 
 def finite_or_text(value: float) -> str:

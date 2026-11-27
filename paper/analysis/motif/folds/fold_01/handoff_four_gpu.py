@@ -1,4 +1,4 @@
-"""User-authorized single-controller -> four-GPU handoff, no broad process kill."""
+
 import json
 import os
 from pathlib import Path

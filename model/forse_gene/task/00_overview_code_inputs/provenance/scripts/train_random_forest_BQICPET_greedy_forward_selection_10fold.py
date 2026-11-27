@@ -328,7 +328,6 @@ def main() -> None:
     ]
 
 
-
     correction_count = sum(range(1, len(CANDIDATE_ORDER) + 1))
     selection_step = 1
 

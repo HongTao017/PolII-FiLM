@@ -1,4 +1,4 @@
-"""Frozen, held-out single-base mutagenesis for the original five-assay Model A."""
+
 
 import argparse
 import csv
@@ -13,7 +13,7 @@ import pandas as pd
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from polii_film.archive_compatibility import protocol_fingerprint
+from pfnet.archive_compatibility import protocol_fingerprint
 
 BUNDLE = Path('/mnt/HDD8TB/hongtao/end/model')
 MODEL = BUNDLE / 'A_TSS300_FiLM'
@@ -201,7 +201,7 @@ def run_seed(out, fold, seed, plan, loader, dna, regulation, batch_size, device)
     model, processor, _, identity = loader.load_model('A', fold, seed, device)
     assert processor.median.shape == (2554,)
     results = [predict_gene(model, processor, dna, regulation, item, batch_size, device) for item in items]
-    # Archive the model provenance alongside each independently resumable shard.
+
     temporary = out / f'{name}.tmp.npz'
     np.savez_compressed(temporary, plan_sha=plan_sha, wt=np.array([wt for wt, _ in results]),
                         delta=np.concatenate([delta for _, delta in results]),

@@ -304,8 +304,8 @@ def matched_label_layout(g, rows):
             for i, text in enumerate(texts):
                 base.label_position(text, g['theta'][i] + math.radians(rotation), scale)
             qa = generic_label_qa(fig, texts, renderer)
-            # Alternating labels are printed on two separate pages. Keep
-            # conservative 1.2-em text boxes, but test overlaps within a page.
+
+
             qa['label_collisions'] = [pair for pair in qa['label_collisions'] if pair[0] % 2 == pair[1] % 2]
             if not qa['clipped'] and not qa['label_collisions']:
                 plt.close(fig)

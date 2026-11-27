@@ -39,7 +39,7 @@ for seed in plan['seeds']:
  dna,reg=gene_inputs(cfg,plan['gene_index'],processor,a.device)
  with np.load(Path(identity['folder'])/'preprocessing.npz') as z:mu,sd=float(z['target_mean']),float(z['target_std'])
  expected=plan['window_WT_sequence'];actual=''.join('ACGT'[int(v.argmax())] for v in dna[0,:,off+s:off+e].cpu().numpy().T);assert actual==expected
- # Only the recorded physical-copy mapping is needed; no global candidate catalog.
+
  mapping={}
  for v in plan['variants']:
   coord=int(v['coordinate0']);mapping[coord]={'indices':v['synchronized_input_indices']}

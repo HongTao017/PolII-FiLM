@@ -24,8 +24,8 @@ meta=pd.read_csv(HERE/'data/selected_embedding.tsv',sep='\t')
 with np.load(HERE/'data/selected_embedding.npz') as z:
     xy=z['embedding'].copy();sample=z['sample'].copy()
 assert len(meta)==105 and np.array_equal(meta['sample'].to_numpy(),sample)
-# The TSV round-trip retains float32 precision; compare in the saved dtype.
-# Plot the unchanged binary coordinates, never the rounded TSV representation.
+
+
 assert np.array_equal(meta[['tSNE1','tSNE2']].to_numpy(dtype=xy.dtype),xy)
 method_colors={'GRO-seq':'#000000','MNET-seq':'#7C2CFF','PRO-seq':'#FF6900'}
 cell_colors={name:to_hex(np.array(rgb)/255) for name,rgb in json.loads((HERE/'data/cell_line_colors.json').read_text()).items()}
@@ -41,8 +41,8 @@ for field,filename in [('assay','tSNE_PI_by_assay.pdf'),('cell_type','tSNE_PI_by
     labels=list(method_colors) if field=='assay' else sorted(meta[field].unique(),key=str.casefold)
     fig.canvas.draw();renderer=fig.canvas.get_renderer();font=FontProperties(family='Arial',size=12)
     text_width={name:renderer.get_text_width_height_descent(name,font,ismath=False)[0]*72/fig.dpi for name in labels}
-    # Deterministic column-major legend; find a column count that fits without
-    # reducing the fixed 12 pt type. Full category names are always retained.
+
+
     for ncol in ([3] if field=='assay' else [6,5,4]):
         nrow=int(math.ceil(len(labels)/ncol));columns=[labels[i*nrow:(i+1)*nrow] for i in range(ncol)]
         widths=[10+max([text_width[name] for name in col],default=0) for col in columns]

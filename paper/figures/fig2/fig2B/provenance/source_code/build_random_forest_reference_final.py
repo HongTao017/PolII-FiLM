@@ -1,9 +1,4 @@
-"""Publication-final RF reference composition, reusing original vector artwork.
 
-Uniform Arial 12 pt labels; 14 pt headings. User workflow and feature counts
-are unchanged. One illustrative forest, not measured trees or full seed/fold
-ensemble. PDF only, fixed 5 x 4 inch canvas, TrueType text.
-"""
 from pathlib import Path
 
 root=Path(__file__).resolve().parent
@@ -40,7 +35,7 @@ text(500,778,'Predicted Y_PC1',14,True,col=PURPLE)
 
 '''+source[end:]
 
-# Require both page containment and disjoint label boxes at final typography.
+
 source=source.replace('save_pdf(fig,OUT)', '''overlaps=[]
 for i,t in enumerate(texts):
     a=t.get_window_extent(renderer)

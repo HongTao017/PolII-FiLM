@@ -1,7 +1,7 @@
 # Copyright 2026 Ekin Deniz Aksu (adapted FiLM routines).
 # SPDX-License-Identifier: Apache-2.0
 
-# No attention/Transformer definitions, imports or dependencies.
+
 import torch
 from torch import nn
 from torch.nn import functional as F
@@ -64,7 +64,7 @@ class FixedTrainingBatchNorm1d(nn.BatchNorm1d):
         if not bool(self.statistics_fitted):
             raise RuntimeError('Fit input BN on the training fold before forward or evaluation')
         self._check_input_dim(x)
-        # Deliberately independent of self.training: affine weights still learn.
+
         return F.batch_norm(x, self.running_mean, self.running_var, self.weight,
                             self.bias, training=False, momentum=0.0, eps=self.eps)
 

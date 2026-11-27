@@ -28,8 +28,6 @@ SENSE_CODONS = [
 ]
 
 
-
-
 BASE_FEATURE_ORDER = [
     "transcript",
     "chrom",
@@ -138,7 +136,7 @@ class IndexedFasta:
                 if len(fields) < 5:
                     continue
                 name = fields[0]
-                self.index[name] = tuple(map(int, fields[1:5]))  # type: ignore[assignment]
+                self.index[name] = tuple(map(int, fields[1:5]))
         self.handle = self.fasta_path.open("rb")
 
     def close(self) -> None:
@@ -780,7 +778,6 @@ def load_pi_features(
             )
 
 
-
         if gene_column is None:
             gene_column = "__parsed_gene"
             frame[gene_column] = (
@@ -793,7 +790,6 @@ def load_pi_features(
             frame[gene_column] = frame[gene_column].astype(str)
 
         frame = frame.drop_duplicates(subset=[gene_column], keep="first").set_index(gene_column)
-
 
 
         metadata_columns = {
@@ -848,14 +844,12 @@ def build_scaled_architecture_model_view(frame: pd.DataFrame) -> pd.DataFrame:
     output["gene"] = frame["gene"]
 
 
-
     output["tx.strand"] = frame["strand"].map({"+": 1, "-": 2, "*": 3})
     output["tx.gc.seq"] = frame["transcript_genomic_gc_fraction"]
     scaled_length = minmax_scale(frame["transcript_span_bp"])
     scaled_exon_count = minmax_scale(frame["exon_count"])
     output["tx.len"] = scaled_length
     output["tx.ex.count"] = scaled_exon_count
-
 
 
     scaled_ratio = scaled_length / scaled_exon_count.replace(0, np.nan)

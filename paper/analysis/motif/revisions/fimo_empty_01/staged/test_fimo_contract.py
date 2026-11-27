@@ -1,4 +1,4 @@
-"""Exercise the repaired FIMO interface on recorded hit/no-hit scans and errors."""
+
 import json
 from pathlib import Path
 import subprocess

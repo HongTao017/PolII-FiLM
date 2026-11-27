@@ -1,4 +1,4 @@
-"""Recolor the approved final figure; preserve all data, tests and geometry."""
+
 from pathlib import Path
 
 import numpy as np
@@ -22,7 +22,7 @@ def recolored_make_figure(data):
         color = PALETTE[i % len(PALETTE)]
         body.set_alpha(1.0)
         body.set_facecolor(color)
-        # Retain the thin gray outline so near-white fills remain legible.
+
         assert np.allclose(body.get_facecolor()[0], to_rgba(color))
         print('COLOR', MODELS[i], color)
     fig.canvas.draw()

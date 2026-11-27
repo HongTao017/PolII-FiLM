@@ -18,8 +18,8 @@ def close_logo(ax,u,tr,flip):
  x0=-width if flip else 0;fp=FontProperties(family='Arial',weight='bold')
  ic=np.maximum(0,2+(ppm*np.log2(np.maximum(ppm,1e-300))).sum(1));heights=ppm*ic[:,None]
  original_top=-.22+.10*float(ic.max())
- # Preserve bit scale and all probabilities. Move the baseline rather than
- # stretching glyphs or drawing an artificial full-height consensus logo.
+
+
  baseline=LOGO_TOP-.10*float(ic.max());delta=baseline+.22
  assert delta>=-1e-12
  count=0

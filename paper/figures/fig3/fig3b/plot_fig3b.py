@@ -41,7 +41,7 @@ def arrow(x1,y1,x2,y2,color=GRAY):
                          (x2-length*np.cos(angle+.45),y2-length*np.sin(angle+.45))],
                          closed=True,facecolor=color,edgecolor='none',zorder=3))
 
-# Candidate feature matrix, using symbols in the same visual style as reference.
+
 text(93,272,f"Features ({DATA['candidate_columns']:,})",bold=True)
 text(13,238,'Genes',rotation=90)
 line(30,216,30,260,GRAY,1.6);line(30,260,35,260,GRAY,1.6);line(30,216,35,216,GRAY,1.6)
@@ -50,11 +50,11 @@ entries=[['x11','x12','...','x1p'],['x21','x22','...','x2p'],['xn1','xn2','...',
 for row,y in zip(entries,[248,234,220]):
     for s,x in zip(row,[47,77,106,133]):
         text(x,y,s)
-# Highlight a selected column without claiming its numerical feature values.
+
 for y in [249,235,221]:
     ax.add_patch(Rectangle((67,y-2),20,13,facecolor='#F1E5F2',edgecolor='none',zorder=0))
 
-# Feature sources are the user's B22 plus five regulatory classes (not DNA k-mers).
+
 text(267,272,'DNA / annotations',bold=True)
 line(207,249,337,249,PURPLE,1.7)
 for x,w,h,col in [(209,14,5,'#B7BFCC'),(231,22,8,BLUE),(270,7,13,PURPLE),(291,32,8,'#7F96B1')]:
@@ -68,7 +68,7 @@ text(180,174,'Feature selection',bold=True)
 text(180,155,f"B + ChIP-seq + eCLIP ({DATA['selected_columns']:,})")
 arrow(180,145,180,132)
 
-# Three illustrative tree icons stand for one 300-tree random forest.
+
 def tree(cx,variant):
     nodes={'r':(cx,118),'l':(cx-24,101),'q':(cx+23,101),
            'll':(cx-35,82),'lr':(cx-12,82),

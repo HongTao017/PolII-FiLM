@@ -44,7 +44,7 @@ def main():
     for item in inventory:
         for name,value in item['files'].items():
             assert digest(name)==value,('Checkpoint/prediction changed',name)
-    # Verify each model's saved implementation dependencies as well.
+
     implementations={}
     for item in inventory:
         spec_path=next(Path(p) for p in item['files'] if Path(p).name=='run_spec.json')
@@ -93,7 +93,7 @@ def main():
                 shutil.copy2(old/name,target)
                 assert digest(target)==value
             shutil.copy2(old/'complete.json',folder/'complete.json')
-            # The final state is copied as context, not a scientific dependency.
+
             shutil.copy2(old/'controller_state.json',folder/'controller_state.json')
             write_json(ROOT/'fold_01_reuse.json',dict(source=str(old),source_complete_sha256=digest(old/'complete.json'),
                 destination=str(folder),registered_files=len(old_complete['outputs_sha256']),all_copied_hashes_match=True,

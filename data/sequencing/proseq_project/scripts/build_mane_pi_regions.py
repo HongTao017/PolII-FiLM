@@ -50,7 +50,7 @@ def bam_contigs(bam: Path) -> dict[str, int]:
 
 def split_name(name: str) -> tuple[str, str]:
     if "|" in name:
-        return tuple(name.split("|", 1))  # type: ignore[return-value]
+        return tuple(name.split("|", 1))
     return name, ""
 
 

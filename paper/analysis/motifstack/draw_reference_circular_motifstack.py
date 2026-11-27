@@ -85,7 +85,7 @@ def build_geometry(data,patterns,start):
         node=n+i;children.append((a,b))
         low[node],high[node]=min(low[a],low[b]),max(high[a],high[b])
         theta[node]=(low[node]+high[node])/2
-        # The native treeview default uses rank-spaced heights, not trueDist.
+
         radius[node]=1-np.linspace(.01,.95,n-1)[i]
         pos[node]=pos[a]+pos[b];counts[node]=counts[a]+counts[b]
     return theta,radius,pos,counts,children
@@ -132,7 +132,7 @@ def draw(data,patterns,labels,start):
     theta,radius,pos,count,children=build_geometry(data,patterns,start)
     colour=lambda node:POSITIVE if pos[node]==count[node] else NEGATIVE if pos[node]==0 else NEUTRAL
     step=360/n
-    # Grey is applied only to actual matched leaves, not every member of a branch.
+
     for leaf in np.asarray(data['order'])-1:
         if patterns[leaf]['matched']:
             degree=np.degrees(theta[leaf])

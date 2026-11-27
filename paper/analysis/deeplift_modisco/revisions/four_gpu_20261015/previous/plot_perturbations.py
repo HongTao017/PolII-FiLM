@@ -47,7 +47,7 @@ def make_plots(root, config, plan):
         if len(item['all_TF_matches'])>4:
             alternatives+=' / ...'
         fig.suptitle(f'{item["gene"]} | {item["region"].replace("_sequence", "")} | candidate motif: {alternatives}',fontsize=12,y=.985)
-        # Curves summarize actual mutant prediction differences, NOT motif score.
+
         increase=np.maximum(heat.max(0),0)
         decrease=np.maximum(-heat.min(0),0)
         x=np.arange(right-left)
@@ -86,8 +86,8 @@ def make_plots(root, config, plan):
         requested_right=meta[f'{item["region"]}_requested_end0']
         def coordinate(value,_):
             oriented=left+value
-            # Display 1-based genome coordinates. Negative-strand genes run
-            # right-to-left numerically, in their original input orientation.
+
+
             bp=requested_left+oriented+1 if meta.strand=='+' else requested_right-oriented
             return f'{int(round(bp)):,}'
         ax_heat.xaxis.set_major_locator(MaxNLocator(5,integer=True))

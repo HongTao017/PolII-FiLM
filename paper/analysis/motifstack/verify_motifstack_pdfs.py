@@ -80,7 +80,7 @@ def main():
         assert Counter(atlas_ids) == Counter(r['short_id'] for r in metadata), (
             len(atlas_ids),set(r['short_id'] for r in metadata)-set(atlas_ids))
         assert len(re.findall(r'MA\d{4}\.\d',all_words['motifStack_JASPAR_reference_matrix_panels.pdf'])) >= 22
-    # Delete only this run's named smoke-test output, leaving the three final PDFs.
+
     smoke = ROOT/'figures/motifStack_render_check.pdf'
     assert smoke.parent.resolve() == (ROOT/'figures').resolve()
     if not radial_only and smoke.is_file():
