@@ -166,12 +166,6 @@ The model, training, prediction and main plotting workflows are implemented in P
 
 These helpers are used when rebuilding regional counts from BAM files. Plotting the released frozen numeric data does not require recompiling them. Third-party PyMuPDF QA dependencies are installed through `requirements-figures.txt`; their bundled headers and library sources are excluded from the Git source tree.
 
-## Data provenance and scope
+## Contact
 
-The release includes processed sequencing results, sample manifests, feature matrices, reference inputs, original model records and completed interpretation results. Raw FASTQ/BAM/SRA files are not duplicated; public accession/download information and processing scripts are retained. Repeating alignment or motif discovery requires the corresponding tools and source inputs. See [analysis scope](docs/analysis_scope.md).
-
-Earlier server-side checks and results are recorded as provenance. No new scientific validation or model training was performed for this GitHub publication.
-
-## Attribution and license
-
-Required third-party copyright, attribution and license terms are preserved in [LICENSE.model](LICENSE.model), [NOTICE](NOTICE), and the corresponding source directories. Data retain their original source terms.
+If you have any questions or encounter issues, please contact [1207086902@qq.com](mailto:1207086902@qq.com).
